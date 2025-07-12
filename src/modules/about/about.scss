@@ -40,8 +40,6 @@
     .discord-container {
         .discord {
             display: flex;
-            align-items: center;
-            justify-content: center;
             gap: pxToRem(16);
 
             .pi-discord {
