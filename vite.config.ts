@@ -1,4 +1,4 @@
-import { fileURLToPath, URL } from 'node:url';
+import { fileURLToPath, resolve, URL } from 'node:url';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vueReactivityTransform from '@vue-macros/reactivity-transform/vite';
@@ -6,6 +6,15 @@ import vueDefineModels from '@vue-macros/define-models/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/CatsProject/',
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        error: '404.html',
+      }
+    }
+  },
   plugins: [
     vue({
       template: {
@@ -21,7 +30,6 @@ export default defineConfig({
     vueReactivityTransform(),
     vueDefineModels()
   ],
-  base: '/CatsProject/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
