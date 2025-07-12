@@ -37,6 +37,7 @@
                 Controlled Autonomic Tactical Systems
             </div>
         </div>
+        <Divider />
         <div class="species-description">
             <div class="section-title">
                 What are CATS?
@@ -48,6 +49,7 @@
                 Although initially created as military robots, they gradually evolved into standalone AIs with independent identities, thanks to a unique fluid known as PDG (Padding Goo), a substance akin to their blood. Through major events and incidents within the universe, CATS have grown so prominent that they are now recognized as a distinct species in their own right. 
             </p>
         </div>
+        <Divider />
         <div class="species-description">
             <div class="section-title">
                 What are AEROCATS?
@@ -59,6 +61,7 @@
                 <span>* Inspired by aircraft, AEROCATS are capable of performing a wide range of tasks, from military operations to civilian aviation roles.</span>
             </Tag>
         </div>
+        <Divider />
         <div class="species-description">
             <div class="section-title">
                 What are LANDCATS?
@@ -70,6 +73,7 @@
                 <span>* Inspired by wheeled and tracked ground vehicles, LANDCATS operates across both military and civilian service roles.</span>
             </Tag>
         </div>
+        <Divider />
         <div class="discord-container">
             <div class="section-title"> 
                 Discord
@@ -112,6 +116,7 @@ import Presto from '@assets/images/creators/presto.png';
 import Karbine from '@assets/images/creators/karbine.png';
 import Card from 'primevue/card';
 import Tag from 'primevue/tag';
+import Divider from 'primevue/divider';
 
 const discordUrl = $ref('https://discord.gg/xYm6skrZ3b');
 </script>
