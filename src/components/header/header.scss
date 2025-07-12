@@ -91,6 +91,10 @@
       flex-direction: row;
 
       :deep(.p-menubar-item) {
+        &.p-focus {
+          background: transparent;
+        }
+
         .p-menubar-item-content:hover {
           background: transparent;
         }

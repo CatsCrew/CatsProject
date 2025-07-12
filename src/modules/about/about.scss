@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     gap: pxToRem(32);
+    padding-bottom: pxToRem(32);
 
     @media screen and (max-width: $breakpoint-xs) {
         padding: pxToRem(32);
@@ -34,5 +35,38 @@
 
     .warning-text {
         color: var(--p-red-500);
+    }
+
+    .discord-container {
+        .discord {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: pxToRem(16);
+
+            .pi-discord {
+                font-size: pxToRem(80);
+            }
+
+            .discord-click-container {
+                display: flex;
+                align-items: center;
+                gap: pxToRem(8);
+
+                .click-text {
+                    font-size: pxToRem(20);
+                }
+            }
+        }
+    }
+
+    .discord-contacts {
+        display: flex;
+        flex-direction: column;
+
+        .discord-contact {
+            display: flex;
+            gap: pxToRem(4);
+        }
     }
 }
