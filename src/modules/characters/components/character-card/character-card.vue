@@ -3,7 +3,9 @@
 <template>
     <Card class="cat-card" @click="onAerocatClicked">
         <template #header>
-            <img class="cat-card-img" alt="aerocat profile image" :src="cat.galleryImagePaths[0]"/>
+            <DeferredContent>
+                <img class="cat-card-img" alt="aerocat profile image" :src="cat.galleryImagePaths[0]"/>
+            </DeferredContent>
         </template>
         <template #content>
             <div class="cat-content-container">
@@ -29,6 +31,7 @@
 <script setup lang="ts">
 import Card from 'primevue/card';
 import { Cat } from '@/models/cat.model';
+import DeferredContent from 'primevue/deferredcontent';
 
 const { cat } = defineProps<{
     cat?: Cat;

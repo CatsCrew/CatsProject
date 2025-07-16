@@ -21,7 +21,7 @@
         }
     }
 
-    &.p-card-body {
+    :deep(.p-card-body) {
         height: 100%;
 
         .p-card-content {
@@ -40,8 +40,10 @@
             display: flex;
             flex-direction: column;
             gap: pxToRem(8);
+
             .cat-model {
                 font-size: pxToRem(20);
+                word-wrap: break-word;
             }
         }
 

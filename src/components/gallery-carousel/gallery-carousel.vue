@@ -5,11 +5,13 @@
     <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
         <div v-for="image in images" :key="image" class="embla__slide">
-          <Image 
-            :src="image" 
-            preview
-            alt="cat image" 
-            imageClass="cat-ref-img"/>
+          <DeferredContent>
+            <Image 
+              :src="image" 
+              preview
+              alt="cat image" 
+              imageClass="cat-ref-img"/>
+          </DeferredContent>
         </div>
       </div>
     </div>
@@ -46,6 +48,7 @@
 import emblaCarouselVue from "embla-carousel-vue";
 import { onMounted, onUnmounted, useTemplateRef } from "vue";
 import Image from "primevue/image";
+import DeferredContent from 'primevue/deferredcontent';
 
 const { images } = defineProps<{
   images?: string[];
