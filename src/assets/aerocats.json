@@ -3,17 +3,40 @@
         {
             "creator": "Presto",
             "name": "Patriot Panther",
-            "model": "F9F-5"
+            "model": "F9F-5",
+            "galleryImagePaths": [
+                "patriot_panther/1.png"
+            ]
         },
         {
             "creator": "Presto",
             "name": "Coo the Cougar",
-            "model": "F9F-7"
+            "model": "F9F-7",
+            "galleryImagePaths": [
+                "coo_the_cougar/1.png"
+            ]
         },
         {
             "creator": "NiceHatFox",
             "name": "Flit the Nighthawk",
-            "model": "F-117"
+            "model": "F-117",
+            "galleryImagePaths": [
+                "flit_the_nighthawk/1.png"
+            ]
+        },
+        {
+            "creator": "Zephyr",
+            "name": "Bolt the Raptor",
+            "model": "F22",
+            "galleryImagePaths": [
+                "bolt/BOLT-1.png",
+                "bolt/BOLT-2.png"
+            ],
+            "referenceSheetsPath": [
+                "bolt/BOLT-REFSHEET-1.png",
+                "bolt/BOLT-REFSHEET-2.png",
+                "bolt/BOLT-REFSHEET-3.png"
+            ]
         }
     ]
 }
