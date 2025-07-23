@@ -1,0 +1,107 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+.radar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .radar-screen {
+    width: pxToRem(300);
+    height: pxToRem(300);
+    border-radius: 50%;
+    background: radial-gradient(
+      circle,
+      $background-secondary 0%,
+      $background-primary 70%
+    );
+    border: 3px solid $terminal-green;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 pxToRem(50) rgba(0, 255, 136, 0.3),
+      inset 0 0 pxToRem(50) rgba(0, 255, 136, 0.1);
+
+    .radar-grid {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+      height: 90%;
+      border-radius: 50%;
+      border: pxToRem(1) solid rgba(0, 255, 136, 0.3);
+    }
+
+    .radar-grid::before,
+    .radar-grid::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 255, 136, 0.3);
+    }
+
+    .radar-grid::before {
+      width: pxToRem(1);
+      height: 100%;
+    }
+
+    .radar-grid::after {
+      width: 100%;
+      height: pxToRem(1);
+    }
+
+    .radar-sweep {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: pxToRem(2);
+      height: 50%;
+      background: linear-gradient(to bottom, $terminal-green, transparent);
+      transform-origin: bottom center;
+      transform: translate(-50%, -100%) rotate(0deg);
+      animation: radar-sweep 4s linear infinite;
+    }
+
+    .radar-blip {
+      position: absolute;
+      width: pxToRem(8);
+      height: pxToRem(8);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      animation: blip 2s ease-in-out infinite;
+
+      &.aerocat {
+        background: $terminal-blue;
+        box-shadow: 0 0 pxToRem(15) $terminal-blue;
+      }
+
+      &.landcat {
+        background: $terminal-orange;
+        box-shadow: 0 0 pxToRem(15) $terminal-orange;
+      }
+    }
+  }
+
+  .radar-info {
+    margin-top: pxToRem(24);
+    font-size: pxToRem(14);
+    width: 100%;
+
+    .info-line {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: pxToRem(4);
+    }
+
+    .info-label {
+      color: $text-secondary;
+    }
+
+    .info-value {
+      color: $terminal-green;
+    }
+  }
+}

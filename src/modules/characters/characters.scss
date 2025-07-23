@@ -18,14 +18,14 @@
 
         .p-iconfield {
             .p-inputtext:enabled:focus {
-                border-color: $aerocat-blue;
+                border-color: $terminal-blue;
             }
         }
 
         @media screen and (max-width: $breakpoint-xs) {
             position: sticky;
             top: 0;
-            background-color: $background-color;
+            background-color: $background-secondary;
             padding: pxToRem(16) pxToRem(32);
         }
     }

@@ -1,0 +1,11 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: pxToRem(16);
+    background-color: $background-accent;
+    border-radius: pxToRem(12);
+    padding: pxToRem(20);
+}

@@ -1,5 +1,39 @@
+@use './variables.scss' as *;
 @use "sass:math";
 
 @function pxToRem($size) {
     @return math.div($size, 16) * 1rem;
+}
+
+@mixin gradient-text($gradient) {
+    background: $gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.1, 1.1); opacity: 0.0;}
+}
+
+@keyframes radar-sweep {
+    0% {
+        transform: translate(-50%, -100%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -100%) rotate(360deg);
+    }
 }

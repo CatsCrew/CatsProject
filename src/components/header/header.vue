@@ -3,11 +3,20 @@
 <template>
   <header class="app-header-container">
     <div class="header-container">
-      <div class="logo">
-        <router-link :to="{ name: RouteNames.Home }">
-            <img class="logo-img" :src="CatsLogo" />
-            <span>CATS</span>
-        </router-link>
+      <div class="logo-container">
+        <div class="logo">
+          <router-link :to="{ name: RouteNames.Home }">
+              <img class="logo-img" :src="CatsLogo" />
+              <span class="logo-text">PROJECT C.A.T.S</span>
+          </router-link>
+        </div>
+        <div class="status-indicator">
+          <div class="indicator-container">
+            <div class="status-ring"></div>
+            <div class="status-dot active"></div>
+          </div>
+          <span class="status-text">SYSTEMS ONLINE</span>
+        </div>
       </div>
       <div
         v-if="isMobile"
@@ -84,6 +93,11 @@ import { CatFilter } from '@/models/cat-filter.enum';
 
 const cat$ = useCatsStore();
 const { isMobile } = $(storeToRefs(cat$));
+
+const statusMessages = [
+  "systems online",
+  "communications array online"
+]
 
 const characterMenuItems = [
   {

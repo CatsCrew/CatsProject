@@ -2,38 +2,174 @@
 @use '@assets/variables.scss' as *;
 
 .homepage-container {
-    @media screen and (max-width: $breakpoint-xs) {
-        padding: 0 pxToRem(16);
-    }
-
-    .homepage-header {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .homepage-banner {
-        width: 100%;
-        border-radius: pxToRem(6);
-    }
-
-    .contacts { 
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        gap: pxToRem(8);
+    .hero-container {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        align-items: center;
+        gap: pxToRem(24);
 
         @media screen and (max-width: $breakpoint-xs) {
-            flex-direction: column;
-            align-items: center;
+            grid-template-columns: repeat(1, 1fr);
         }
 
-        .discord-contacts {
+        .classification-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: pxToRem(16);
+            padding: pxToRem(4) pxToRem(16);
+            background-color: $terminal-red;
+            color: $background-primary;
+            border-radius: pxToRem(4);
+
+            .availability {
+                background-color: $background-primary;
+                color: $terminal-red;
+                border-radius: pxToRem(4);
+                padding: pxToRem(2) pxToRem(8);
+            }
+
+            @media screen and (max-width: $breakpoint-xs) {
+                width: 100%;
+            }
+        }
+
+        .hero-title {
+            font-size: pxToRem(48);
+            @include gradient-text($cats-gradient-accent);
+
+            @media screen and (max-width: $breakpoint-xs) {
+                font-size: pxToRem(20);
+                text-align: center;
+            }
+
+        }
+
+        .hero-description {
+            margin-bottom: pxToRem(32);
+
+            .hero-subtext {
+                color: $text-secondary;
+            }
+
+            .warning {
+                color: $terminal-red;
+            }
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            @media screen and (max-width: $breakpoint-xs) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .card-container {
+                border: pxToRem(1) solid $background-accent;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    border-color: $terminal-blue;
+                    transform: translateY(-2px);
+                    box-shadow: 0 8px 25px rgba(0, 170, 255, 0.1);
+                }
+            }
+
+            .hero-stat-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .hero-stat-item-label {
+                    color: $terminal-green;
+                    font-size: pxToRem(32);
+                }
+
+                .hero-stat-item-value {
+                    color: $text-secondary;
+                }
+            }
+        }
+    }
+
+    .species-overview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .species-header {
             display: flex;
             flex-direction: column;
+            align-items: center;
+            margin-bottom: pxToRem(16);
 
-            .discord-contact {
+            .header-text {
+                font-size: pxToRem(32);
+            }
+        }
+
+        .divider {
+            width: pxToRem(100);
+            height: pxToRem(3);
+            background: $cats-gradient-accent;
+            border-radius: pxToRem(4);
+        }
+
+        .species-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: pxToRem(32);
+
+            @media screen and (max-width: $breakpoint-xs) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .logo-container {
                 display: flex;
-                gap: pxToRem(4);
+                flex-direction: column;
+                align-items: center;
+
+                .cat-logo {
+                    height: pxToRem(120);
+
+                    &.aerocat {
+                        filter: drop-shadow(0 4px 15px rgba(0, 170, 255, 0.6));
+                    }
+
+                    &.landcat {
+                        filter: drop-shadow(0 4px 15px rgba(255, 136, 0, 0.6));
+                    }
+                }
+
+                .cat-type {
+                    font-size: pxToRem(24);
+                }
+            }
+            
+            .gradient-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                border: none;
+                border-radius: pxToRem(4);
+                background: $cats-gradient-accent;
+                padding: pxToRem(16) pxToRem(20);
+                cursor: pointer;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 pxToRem(8) pxToRem(25) rgba(0, 255, 136, 0.3);
+                }
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: pxToRem(8);
+                    text-decoration: none;
+                    color: black;
+                }
             }
         }
     }
