@@ -1,6 +1,20 @@
 $aerocat-blue: rgb(71, 139, 195);
-$background-color: rgb(18, 18, 18);
+$background-primary: #0a0e1a;
+$background-secondary: #1a1f2e;
+$background-accent: #2a3441;
+
+$z-header: 20;
 
 $breakpoint-xs: 600px;
 $breakpoint-sm: 768px;
 $breakpoint-md: 1024px;
+
+$terminal-green: #00ff88;
+$terminal-blue: #00aaff;
+$terminal-orange: #ff8800;
+$terminal-red: #ff4444;
+$text-secondary: #a0a8b0;
+
+$cats-gradient-primary: linear-gradient(135deg, #0a0e1a 0%, #1a1f2e 100%);
+$cats-gradient-accent: linear-gradient(135deg, $terminal-green 0%, $terminal-blue 100%);
+$cats-gradient-card: linear-gradient(145deg, #1e2532 0%, #2a3441 100%);

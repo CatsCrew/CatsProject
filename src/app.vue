@@ -2,11 +2,16 @@
 
 <template>
   <Header></Header>
-  <RouterView></RouterView>
+  <div class="terminal-overlay"></div>
+  <main class="main-content">
+    <RouterView></RouterView>
+  </main>
+  <Footer></Footer>
 </template>
 
 <script setup lang="ts">
 import Header from './components/header/header.vue';
+import Footer from './components/footer/footer.vue';
 import { useCatsStore } from './store';
 
 const cats$ = useCatsStore();

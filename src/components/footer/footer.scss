@@ -1,0 +1,44 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+.footer {
+    background-color: $background-secondary;
+    padding: pxToRem(32);
+    padding-top: 0;
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        
+        .footer-section {
+            .quick-links {
+                display: flex;
+                flex-direction: column;
+                gap: pxToRem(4);
+                font-size: pxToRem(14);
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: $text-secondary;
+
+                    &:hover {
+                        color: $terminal-blue;
+                    }
+                }
+            }
+            
+            .footer-header {
+                color: $terminal-green;
+            }
+
+            .footer-text {
+                display: flex;
+                flex-direction: column;
+                gap: pxToRem(4);
+                font-size: pxToRem(14);
+                color: $text-secondary;
+            }
+        }
+    }
+}
