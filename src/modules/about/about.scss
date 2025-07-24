@@ -8,6 +8,12 @@
     align-items: start;
     gap: pxToRem(32);
 
+    @media screen and (max-width: $breakpoint-xs) {
+      display: flex;
+      flex-direction: column-reverse;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
 
     .about-cats {
       display: flex;
