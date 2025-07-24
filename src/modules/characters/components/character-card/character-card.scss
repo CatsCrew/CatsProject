@@ -2,12 +2,18 @@
 @use '@assets/variables.scss' as *;
 
 .cat-card {
-    width: pxToRem(240);;
+    width: pxToRem(240);
     overflow: hidden;
     cursor: pointer;
+    border: pxToRem(2) solid $background-primary;
+    transition: all 0.4s ease;
 
     @media screen and (max-width: $breakpoint-xs) {
         width: 100%;
+    }
+
+    &:hover {
+        border-color: $terminal-blue;
     }
 
     .cat-card-img {
@@ -21,42 +27,21 @@
         }
     }
 
-    &.p-card-body {
-        height: 100%;
-
-        .p-card-content {
-            height: 100%;
-        }
+    .cat-model {
+        font-size: pxToRem(20);
     }
 
-    .cat-content-container {
+    .creator {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
+        justify-content: flex-end;
+        align-items: flex-end;
         gap: pxToRem(8);
-
-        .cat-content {
-            display: flex;
-            flex-direction: column;
-            gap: pxToRem(8);
-            .cat-model {
-                font-size: pxToRem(20);
-            }
-        }
-
-        .creator {
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-end;
-            gap: pxToRem(8);
-            padding-top: pxToRem(8);
-            
-            .creator-img {
-                width: pxToRem(24);
-                height: pxToRem(24);
-                border-radius: pxToRem(6);
-            }
+        padding-top: pxToRem(8);
+        
+        .creator-img {
+            width: pxToRem(24);
+            height: pxToRem(24);
+            border-radius: pxToRem(6);
         }
     }
 }

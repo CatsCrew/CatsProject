@@ -1,0 +1,29 @@
+@use "@assets/mixins.scss" as *;
+@use '@assets/variables.scss' as *;
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    border-left: pxToRem(3) solid black;
+    border-radius: pxToRem(4);
+    padding: pxToRem(8);
+    padding-left: pxToRem(16);
+
+    &.info {
+        background: rgba(0, 170, 255, 0.1);
+        border-color: $terminal-blue;
+        color: $terminal-blue;
+    }
+
+    &.warning {
+        background: rgba(255, 136, 0, 0.1);
+        border-color: $terminal-orange;
+        color: $terminal-orange
+    }
+
+    &.error {
+        background: rgba(255, 68, 68, 0.1);
+        border-color: $terminal-red;
+        color: $terminal-red;
+    }
+}

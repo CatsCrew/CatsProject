@@ -4,8 +4,21 @@
 .card-container {
     display: flex;
     flex-direction: column;
-    gap: pxToRem(16);
     background-color: $background-accent;
     border-radius: pxToRem(12);
-    padding: pxToRem(20);
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: pxToRem(8);
+        padding: pxToRem(20);
+        height: 100%;
+
+        .card-caption {
+            display: flex;
+            flex-direction: column;
+            gap: pxToRem(8);
+        }
+    }
 }
