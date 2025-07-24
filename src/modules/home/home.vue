@@ -83,6 +83,7 @@
                 <Card>
                     <template #title>
                         <div class="logo-container">
+                            <img :src="Proto" class="cat-logo proto"/>
                             <div class="cat-type">PROTOS</div>
                         </div>
                     </template>
@@ -110,6 +111,7 @@ import Radar from '@/components/radar/radar.vue';
 import Card from '@/components/card/card.vue';
 import Aerocat from '@assets/images/aerocats_logo.png';
 import Landcat from '@assets/images/landcats_logo.png';
+import Proto from '@assets/images/proto_logo.png';
 import Message from 'primevue/message';
 import { RouteNames } from '@/app.routes';
 import { CatFilter } from '@/models/cat-filter.enum';

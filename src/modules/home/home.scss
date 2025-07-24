@@ -139,6 +139,10 @@
                     &.landcat {
                         filter: drop-shadow(0 4px 15px rgba(255, 136, 0, 0.6));
                     }
+
+                    &.proto {
+                        filter: drop-shadow(0 4px 15px rgba(0, 255, 0, 0.6));
+                    }
                 }
 
                 .cat-type {

@@ -5,22 +5,22 @@
         <template #header>
             <img class="cat-card-img" alt="aerocat profile image" :src="cat.galleryImagePaths[0]"/>
         </template>
-        <template #content>
-            <div class="cat-content-container">
-                <div class="cat-content">
-                    <div class="cat-model">
-                        {{ cat?.model }}
-                    </div>
-                    <div class="cat-name">
-                        {{ cat?.name }}
-                    </div>
-                </div>
-                <div
-                    v-if="cat?.creator"
-                    class="creator">
-                    <img class="creator-img" alt="creator profile image" :src="creatorAsset"/>
-                    <span class="creator-name"> {{ cat?.creator }} </span>
-                </div>
+        <template #title>
+            <div class="cat-model">
+                {{ cat?.model }}
+            </div>
+        </template>
+        <template #subtitle>
+            <div class="cat-name">
+                {{ cat?.name }}
+            </div>
+        </template>
+        <template #footer>
+            <div
+                v-if="cat?.creator"
+                class="creator">
+                <img class="creator-img" alt="creator profile image" :src="creatorAsset"/>
+                <span class="creator-name"> {{ cat?.creator }} </span>
             </div>
         </template>
     </Card>

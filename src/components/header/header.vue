@@ -15,7 +15,7 @@
             <div class="status-ring"></div>
             <div class="status-dot active"></div>
           </div>
-          <span class="status-text">SYSTEMS ONLINE</span>
+          <span id="typewriter" class="status-text">SYSTEMS ONLINE</span>
         </div>
       </div>
       <div
@@ -80,6 +80,7 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue';
 import CatsLogo from '@assets/images/cats_logo.png';
 import { RouteNames } from '../../app.routes';
 import Drawer from 'primevue/drawer';
@@ -90,6 +91,7 @@ import { MenuItem } from 'primevue/menuitem';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import { CatFilter } from '@/models/cat-filter.enum';
+import Typewriter from 'typewriter-effect/dist/core';
 
 const cat$ = useCatsStore();
 const { isMobile } = $(storeToRefs(cat$));
@@ -97,7 +99,7 @@ const { isMobile } = $(storeToRefs(cat$));
 const statusMessages = [
   "systems online",
   "communications array online"
-]
+];
 
 const characterMenuItems = [
   {
@@ -150,4 +152,12 @@ function onDrawerItemClicked() {
 function toggleMobileMenu() {
   mobileMenuExpanded = !mobileMenuExpanded;
 }
+
+onMounted(() => {
+  new Typewriter('#typewriter', {
+    strings: statusMessages,
+    autoStart: true,
+    loop: true,
+  });
+});
 </script>
