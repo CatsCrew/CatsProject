@@ -2,61 +2,142 @@
 @use "@assets/variables.scss" as *;
 
 .about-the-species-container {
-    .about-content {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        align-items: start;
-        gap: pxToRem(32);
-        
-        .about-cats {
-            display: flex;
-            flex-direction: column;
-            gap: pxToRem(32);
-        }
+  .about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+    gap: pxToRem(32);
 
-        .about-creators {
-            height: 100%;
 
-            .card-container {
-                height: 100%;
-            }
+    .about-cats {
+      display: flex;
+      flex-direction: column;
+      gap: pxToRem(32);
 
-            .creators-grid {
-                display: flex;
-                flex-direction: column;
-                gap: pxToRem(16);
+      .card-container {
+        color: $text-secondary;
+      }
 
-                .creator {
-                    display: flex;
-                    flex-direction: row;
-                    gap: pxToRem(8);
-                    padding: pxToRem(16);
-                    background: rgba(0, 170, 255, 0.1);
-                    border-radius: pxToRem(8);
-                    border: 1px solid rgba(0, 170, 255, 0.2);
-
-                    .creator-avatar {
-                        width: pxToRem(64);
-                        height: pxToRem(64);
-
-                        .creator-img {
-                            width: 100%;
-                            height: 100%;
-                            border-radius: 50%;
-                        }
-                    }
-
-                    .creator-info {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-evenly;
-
-                        .title {
-                            color: $text-secondary;
-                        }
-                    }
-                }
-            }
-        }
+      .header {
+        color: white;
+        font-size: pxToRem(18);
+      }
     }
+
+    .about-creators {
+      height: 100%;
+
+      .card-container {
+        height: 100%;
+      }
+
+      .header {
+        font-size: pxToRem(24);
+        color: $terminal-blue;
+      }
+
+      .about-creator-content {
+        display: flex;
+        flex-direction: column;
+        gap: pxToRem(16);
+
+        .creators-grid {
+          display: flex;
+          flex-direction: column;
+          gap: pxToRem(16);
+
+          .creator {
+            display: flex;
+            flex-direction: row;
+            gap: pxToRem(8);
+            padding: pxToRem(16);
+            background: rgba(0, 170, 255, 0.1);
+            border-radius: pxToRem(8);
+            border: 1px solid rgba(0, 170, 255, 0.2);
+
+            .creator-avatar {
+              width: pxToRem(64);
+              height: pxToRem(64);
+
+              .creator-img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+              }
+            }
+
+            .creator-info {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+
+              .title {
+                color: $text-secondary;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .about-card-header {
+      font-size: pxToRem(24);
+      color: $terminal-green;
+    }
+
+    .divider {
+      height: pxToRem(2);
+      width: 100%;
+      background-color: rgba(0, 170, 255, 0.2);
+      border-radius: pxToRem(4);
+    }
+
+    .discord-container {
+      .discord {
+        display: flex;
+        flex-direction: column;
+
+        .header {
+          font-size: pxToRem(20);
+        }
+
+        .sub-text {
+          color: $text-secondary;
+        }
+
+        .discord-btn {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: pxToRem(16);
+          padding: pxToRem(16);
+          border: none;
+          border-radius: pxToRem(8);
+          cursor: pointer;
+          background: linear-gradient(135deg, #5865f2 0%, #7289da 100%);
+          font-size: pxToRem(20);
+          color: white;
+          text-decoration: none;
+
+          .pi-discord {
+            font-size: pxToRem(32);
+          }
+        }
+      }
+
+      .discord-contacts-container {
+        color: $text-secondary;
+
+        .discord-contacts {
+          display: flex;
+          flex-direction: column;
+
+          .discord-contact {
+            display: flex;
+            gap: pxToRem(4);
+          }
+        }
+      }
+    }
+  }
 }

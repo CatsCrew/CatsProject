@@ -39,7 +39,7 @@
             </div>
             <div class="species-grid">
                 <Card>
-                    <template #header>
+                    <template #title>
                         <div class="logo-container">
                             <img :src="Aerocat" class="cat-logo aerocat"/>
                             <div class="cat-type">AEROCATS</div>
@@ -60,7 +60,7 @@
                     </template>
                 </Card>
                 <Card>
-                    <template #header>
+                    <template #title>
                         <div class="logo-container">
                             <img :src="Landcat" class="cat-logo landcat"/>
                             <div class="cat-type">LANDCATS</div>
@@ -81,7 +81,7 @@
                     </template>
                 </Card>
                 <Card>
-                    <template #header>
+                    <template #title>
                         <div class="logo-container">
                             <div class="cat-type">PROTOS</div>
                         </div>
@@ -98,7 +98,7 @@
                     </template>
                 </Card>
                 <Card>
-                    
+
                 </Card>
             </div>
         </div>

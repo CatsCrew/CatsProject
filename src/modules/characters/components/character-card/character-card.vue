@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-import Card from 'primevue/card';
+import Card from '@/components/card/card.vue';
 import { Cat } from '@/models/cat.model';
 
 const { cat } = defineProps<{

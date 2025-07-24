@@ -5,10 +5,12 @@
         <div class="card-header">
             <slot name="header"></slot>
         </div>
-        <div class="card-content">
+        <div class="card-body">
+            <div class="card-caption">
+                <slot name="title"></slot>
+                <slot name="subtitle"></slot>
+            </div>
             <slot name="content"></slot>
-        </div>
-        <div class="card-footer">
             <slot name="footer"></slot>
         </div>
     </div>
