@@ -23,7 +23,8 @@
                             v-for="document in loreDocument.languages"
                             :key="document.culture"
                             class="document"
-                            :href="document.url">
+                            :href="document.url"
+                            target="_blank">
                             <i class="pi pi-icon pi-file-pdf"></i>
                             <div class="culture-info">
                                 <span class="culture"> {{ document.culture }} </span>

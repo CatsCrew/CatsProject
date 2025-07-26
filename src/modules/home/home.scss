@@ -124,6 +124,10 @@
                 grid-template-columns: repeat(1, 1fr);
             }
 
+            :deep(.card-body) {
+                justify-content: space-between;
+            }
+
             .logo-container {
                 display: flex;
                 flex-direction: column;
