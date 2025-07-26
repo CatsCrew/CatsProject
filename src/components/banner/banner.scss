@@ -26,4 +26,10 @@
         border-color: $terminal-red;
         color: $terminal-red;
     }
+
+    &.success {
+        background: rgba(68, 255, 68, 0.1);
+        border-color: $terminal-green;
+        color: $terminal-green;
+    }
 }

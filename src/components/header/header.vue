@@ -98,7 +98,9 @@ const { isMobile } = $(storeToRefs(cat$));
 
 const statusMessages = [
   "systems online",
-  "communications array online"
+  "communications array online",
+  "establishing secure connection",
+  "preparing for deployment"
 ];
 
 const characterMenuItems = [
