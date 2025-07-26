@@ -18,12 +18,33 @@
                         <template #content>
                             <div class="hero-stat-item">
                                 <div class="hero-stat-item-label">
-                                    262
+                                    {{ cats?.length }}
                                 </div>
                                 <div class="hero-stat-item-value">
                                     Active Units
                                 </div>
                             </div>
+                        </template>
+                    </Card>
+                    <Card>
+                        <template #title>
+                            <div class="composition-title">
+                                Composition
+                            </div>
+                        </template>
+                        <template #content>
+                            <MeterGroup :value="catMetergroupItems">
+                                <template #label="{ value }">
+                                    <ol class="markers">
+                                        <li
+                                            class="marker-label"
+                                            v-for="meterItem in value">
+                                            <span class="marker" :style="{ 'background-color': meterItem.color }"></span>
+                                            <span>{{ meterItem.label }}</span>
+                                        </li>
+                                    </ol>
+                                </template>
+                            </MeterGroup>
                         </template>
                     </Card>
                 </div>
@@ -116,4 +137,36 @@ import { RouteNames } from '@/app.routes';
 import { CatFilter } from '@/models/cat-filter.enum';
 import Banner from '@/components/banner/banner.vue';
 import { BannerType } from '@/models/banner-type.enum';
+import { useCatsStore } from '@/store';
+import { storeToRefs } from 'pinia';
+import MeterGroup, { MeterItem } from 'primevue/metergroup';
+
+const cat$ = useCatsStore();
+const { cats, aerocats, landcats, protos } = $(storeToRefs(cat$));
+
+const catMetergroupItems = $computed<MeterItem[]>(() => {
+    const meterItems: MeterItem[] = [];
+
+    const totalCats = cats?.length ?? 1;
+
+    meterItems.push({
+        label: 'Aerocats',
+        value: Math.floor(aerocats?.length / totalCats * 100) ?? 0,
+        color: '#00aaff'
+    });
+
+    meterItems.push({
+        label: 'Landcats',
+        value: Math.floor(landcats?.length / totalCats * 100) ?? 0,
+        color: '#ff8800'
+    });
+
+    meterItems.push({
+        label: 'Protos',
+        value: Math.floor(protos?.length / totalCats * 100) ?? 0,
+        color: '#00ff88'
+    });
+
+    return meterItems;
+});
 </script>
