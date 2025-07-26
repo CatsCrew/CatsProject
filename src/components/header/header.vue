@@ -3,78 +3,80 @@
 <template>
   <header class="app-header-container">
     <div class="header-container">
-      <div class="logo-container">
-        <div class="logo">
-          <router-link :to="{ name: RouteNames.Home }">
-              <img class="logo-img" :src="CatsLogo" />
-              <span class="logo-text">PROJECT C.A.T.S</span>
-          </router-link>
-        </div>
-        <div class="status-indicator">
-          <div class="indicator-container">
-            <div class="status-ring"></div>
-            <div class="status-dot active"></div>
+      <div class="logo-and-nav">
+        <div class="logo-container">
+          <div class="logo">
+            <router-link :to="{ name: RouteNames.Home }">
+                <img class="logo-img" :src="CatsLogo" />
+                <span class="logo-text">PROJECT C.A.T.S</span>
+            </router-link>
           </div>
-          <span id="typewriter" class="status-text">SYSTEMS ONLINE</span>
         </div>
-      </div>
-      <div
-        v-if="isMobile"
-        class="header-drawer-container">
-        <Drawer
-          v-model:visible="visible"
-          header="CATS"
-          position="full"
-          class="nav-drawer">
-          <ul class="nav-links">
-            <li @click="onDrawerItemClicked">
-              <router-link :to="{ name: RouteNames.About }">
-                About
-              </router-link>
-            </li>
-            <li @click="onDrawerItemClicked">
-              <router-link :to="{ name: RouteNames.SpeciesSheet }">
-                Species Sheet
-              </router-link>
-            </li>
-            <li @click="onDrawerItemClicked">
-              <Button @click.stop.prevent="toggleMobileMenu">
-                <span>Characters</span>
-                <i
-                  class="menu-toggle-icon pi"
-                  :class="[ mobileMenuExpanded ? 'pi-angle-up' : 'pi-angle-down' ]"></i>
-              </Button>
-              <Menu
-                class="sub-menu"
-                v-if="mobileMenuExpanded"
-                :model="mobileCharacterMenuItems">
-                <template #item="{ item }">
-                  <router-link :to="item.to">
-                    <span> {{ item.label }}</span>
-                  </router-link>
-                </template>
-              </Menu>
-            </li>
-          </ul>
-        </Drawer>
-        <Button icon="pi pi-bars" @click="onDrawerClick">
-        </Button>
-      </div>
-      <nav class="nav-links-container" v-else>
-        <Menubar :model="menuItems">
-          <template #item="{ item, props, hasSubmenu }">
-                <router-link v-if="item.to" v-slot="{ href, navigate }" :to="item.to">
-                    <a :href="href" v-bind="props.action" @click="navigate">
-                        <span class="menu-item">{{ item.label }}</span>
-                    </a>
+        <div
+          v-if="isMobile"
+          class="header-drawer-container">
+          <Drawer
+            v-model:visible="visible"
+            header="CATS"
+            position="full"
+            class="nav-drawer">
+            <ul class="nav-links">
+              <li @click="onDrawerItemClicked">
+                <router-link :to="{ name: RouteNames.About }">
+                  About
                 </router-link>
-                <a v-else :href="item.url" :target="item.target" v-bind="props.action">
-                    <span class="menu-item">{{ item.label }}</span>
-                    <span v-if="hasSubmenu" class="pi pi-fw pi-angle-down"> </span>
-                </a>
-            </template>
-        </Menubar>
-      </nav>
+              </li>
+              <li @click="onDrawerItemClicked">
+                <router-link :to="{ name: RouteNames.SpeciesSheet }">
+                  Species Sheet
+                </router-link>
+              </li>
+              <li @click="onDrawerItemClicked">
+                <Button @click.stop.prevent="toggleMobileMenu">
+                  <span>Characters</span>
+                  <i
+                    class="menu-toggle-icon pi"
+                    :class="[ mobileMenuExpanded ? 'pi-angle-up' : 'pi-angle-down' ]"></i>
+                </Button>
+                <Menu
+                  class="sub-menu"
+                  v-if="mobileMenuExpanded"
+                  :model="mobileCharacterMenuItems">
+                  <template #item="{ item }">
+                    <router-link :to="item.to">
+                      <span> {{ item.label }}</span>
+                    </router-link>
+                  </template>
+                </Menu>
+              </li>
+            </ul>
+          </Drawer>
+          <Button icon="pi pi-bars" @click="onDrawerClick">
+          </Button>
+        </div>
+        <nav class="nav-links-container" v-else>
+          <Menubar :model="menuItems">
+            <template #item="{ item, props, hasSubmenu }">
+                  <router-link v-if="item.to" v-slot="{ href, navigate }" :to="item.to">
+                      <a :href="href" v-bind="props.action" @click="navigate">
+                          <span class="menu-item">{{ item.label }}</span>
+                      </a>
+                  </router-link>
+                  <a v-else :href="item.url" :target="item.target" v-bind="props.action">
+                      <span class="menu-item">{{ item.label }}</span>
+                      <span v-if="hasSubmenu" class="pi pi-fw pi-angle-down"> </span>
+                  </a>
+              </template>
+          </Menubar>
+        </nav>
+      </div>
+      <div class="status-indicator">
+        <div class="indicator-container">
+          <div class="status-ring"></div>
+          <div class="status-dot active"></div>
+        </div>
+        <span id="typewriter" class="status-text">SYSTEMS ONLINE</span>
+      </div>
     </div>
   </header>
 </template>
