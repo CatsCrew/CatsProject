@@ -47,9 +47,9 @@
                     </template>
                     <template #content>
                         <p>CATS developed and modified based on aircraft. They first emerged after the collapse of ISEA, as existing flight-type CATS were reconfigured into new forms. Today, they’ve become so diverse that many are now released as complete, standalone units rather than conversions.</p>
-                        <Message severity="info">
+                        <Banner :type="BannerType.Info">
                             Inspired by aircraft, AEROCATS are capable of performing a wide range of tasks, from military operations to civilian aviation roles.
-                        </Message>
+                        </Banner>
                     </template>
                     <template #footer>
                         <button class="gradient-btn">
@@ -68,9 +68,9 @@
                     </template>
                     <template #content>
                         <p>CATS developed and modified based on military and civilian ground vehicles. They first emerged after the collapse of ISEA, created by reconfiguring existing ground-type CATS. Today, they’ve evolved into a wide variety of models, many of which are now released as complete, standalone units rather than modified versions.</p>
-                        <Message severity="success">
+                        <Banner :type="BannerType.Success">
                             Inspired by wheeled and tracked ground vehicles, LANDCATS operate across both military and civilian service roles.
-                        </Message>
+                        </Banner>
                     </template>
                     <template #footer>
                         <button class="gradient-btn">
@@ -88,7 +88,7 @@
                         </div>
                     </template>
                     <template #content>
-                        <p>Proto text here</p>
+                        <p>PROTOs were developed before the CATS and served as the foundation for many of their technologies. In the world's setting, they function as support robots. They are a sub-species, not a main species.</p>
                     </template>
                     <template #footer>
                         <button class="gradient-btn">
@@ -112,7 +112,8 @@ import Card from '@/components/card/card.vue';
 import Aerocat from '@assets/images/aerocats_logo.png';
 import Landcat from '@assets/images/landcats_logo.png';
 import Proto from '@assets/images/proto_logo.png';
-import Message from 'primevue/message';
 import { RouteNames } from '@/app.routes';
 import { CatFilter } from '@/models/cat-filter.enum';
+import Banner from '@/components/banner/banner.vue';
+import { BannerType } from '@/models/banner-type.enum';
 </script>
