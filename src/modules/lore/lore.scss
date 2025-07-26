@@ -1,0 +1,98 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+.lore-container {
+    display: flex;
+    flex-direction: column;
+    gap: pxToRem(32);
+
+    .lore-document {
+        .lore-title {
+            font-size: pxToRem(32);
+        }
+
+        .lore-subtitle {
+            font-size: pxToRem(18);
+            color: $text-secondary;
+        }
+
+        .document-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: pxToRem(16);
+            margin-top: pxToRem(16);
+
+            .document {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                gap: pxToRem(16);
+                text-decoration: none;
+                color: $text-secondary;
+                border: pxToRem(2) solid rgba(255, 68, 68, 0.3);
+                border-radius: pxToRem(12);
+                padding: pxToRem(16);
+                overflow: hidden;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg, transparent, rgba(255, 68, 68, 0.1), transparent);
+                    transition: left 0.5s ease;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: linear-gradient(45deg, transparent 40%, rgba(255, 68, 68, 0.1) 50%, transparent 60%);
+                    opacity: 0;
+                    transition: opacity 0.3s ease;
+                }
+
+                &:hover::before {
+                    left: 100%;
+                }
+
+                &:hover::after {
+                    opacity: 1;
+                }
+
+                &:hover {
+                    border-color: rgba(255, 68, 68, 0.8);
+                    transform: translateY(-2px) scale(1.02);
+                    box-shadow: 0 6px 24px rgba(255, 68, 68, 0.3);
+                    background: linear-gradient(145deg, #3a4451 0%, #4a5461 100%);
+                }
+
+                .pi-file-pdf {
+                    font-size: pxToRem(32);
+                    color: $terminal-red;
+                    filter: drop-shadow(0 0 4px rgba(255, 68, 68, 0.5));
+                }
+
+                .culture-info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: pxToRem(4);
+
+                    .culture {
+                        color: $terminal-green;
+                        text-shadow: 0 0 pxToRem(8) rgba(0, 255, 136, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}

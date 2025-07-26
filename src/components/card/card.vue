@@ -7,8 +7,12 @@
         </div>
         <div class="card-body">
             <div class="card-caption">
-                <slot name="title"></slot>
-                <slot name="subtitle"></slot>
+                <div class="card-title">
+                    <slot name="title"></slot>
+                </div>
+                <div class="card-subtitle">
+                    <slot name="subtitle"></slot>
+                </div>
             </div>
             <slot name="content"></slot>
             <slot name="footer"></slot>

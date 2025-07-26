@@ -1,64 +1,61 @@
 {
   "documents": [
     {
-      "id": "welcome-guide",
       "title": "Welcome Guide",
       "description": "It contains only basic information.",
       "category": "guide",
       "languages": [
         {
-          "code": "KR",
-          "name": "Korean",
-          "url": "https://drive.google.com/file/d/1xLN69XShPXsRmw2_nK9yJfnm_YpemMkc/view"
+          "culture": "EN",
+          "language": "English",
+          "url": "https://drive.google.com/file/d/1f8CxgGFhwrWUjzqp3X-FJE15FvezpbGE/view"
         },
         {
-          "code": "EN",
-          "name": "English",
-          "url": "https://drive.google.com/file/d/1f8CxgGFhwrWUjzqp3X-FJE15FvezpbGE/view"
+          "culture": "KR",
+          "language": "Korean",
+          "url": "https://drive.google.com/file/d/1xLN69XShPXsRmw2_nK9yJfnm_YpemMkc/view"
         }
       ]
     },
     {
-      "id": "advanced-guidebook",
       "title": "Advanced Guidebook",
       "description": "This guide is intended for those seeking proper character builds and in-depth approaches.",
       "category": "guide",
       "lastUpdated": "07.17.2025 Updated (KR)",
       "languages": [
         {
-          "code": "KR",
-          "name": "Korean",
-          "url": "https://drive.google.com/file/d/1nOw6GXW6NPaUM5Iy5KleLk4bTEaYO9fo/view"
+          "culture": "EN",
+          "language": "English",
+          "url": "https://drive.google.com/file/d/1jT7mnOM28zW4e6Q_8Xedv2lQNcsjjeBQ/view"
         },
         {
-          "code": "EN",
-          "name": "English",
-          "url": "https://drive.google.com/file/d/1jT7mnOM28zW4e6Q_8Xedv2lQNcsjjeBQ/view"
+          "culture": "KR",
+          "language": "Korean",
+          "url": "https://drive.google.com/file/d/1nOw6GXW6NPaUM5Iy5KleLk4bTEaYO9fo/view"
         }
       ]
     },
     {
-      "id": "anthology-short-stories",
       "title": "Anthology of Short Stories",
       "description": "This is a storybook designed to help you better understand the worldbuilding.",
       "category": "lore",
       "lastUpdated": "07.02.2025 Updated (ENG)",
       "languages": [
         {
-          "code": "KR",
-          "name": "Korean",
-          "url": "https://drive.google.com/file/d/19G9moqrf30DgDPmiy8v2HPgtDs1lnr8p/view"
-        },
-        {
-          "code": "EN",
-          "name": "English",
+          "culture": "EN",
+          "language": "English",
           "url": "https://drive.google.com/file/d/1enQTaQy_SKtCXMLJFR_smUe4zmwcI8-9/view"
         },
         {
-          "code": "RU",
-          "name": "Russian",
+          "culture": "KR",
+          "language": "Korean",
+          "url": "https://drive.google.com/file/d/19G9moqrf30DgDPmiy8v2HPgtDs1lnr8p/view"
+        },
+        {
+          "culture": "RU",
+          "language": "Russian",
           "url": "https://drive.google.com/file/d/1LenLOn3ifWJeewyR_sIPDurwifxi-5-G/view",
-          "credit": "Porto Morlo"
+          "credit": ["Porto Morlo"]
         }
       ]
     }
