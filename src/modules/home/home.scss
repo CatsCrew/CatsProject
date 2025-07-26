@@ -58,7 +58,8 @@
 
         .hero-stats {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            gap: pxToRem(8);
 
             @media screen and (max-width: $breakpoint-xs) {
                 grid-template-columns: repeat(1, 1fr);
@@ -87,6 +88,32 @@
 
                 .hero-stat-item-value {
                     color: $text-secondary;
+                }
+            }
+
+            .composition-title {
+                color: $text-secondary;
+            }
+
+            .markers {
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                gap: pxToRem(16);
+                margin: 0;
+                padding: 0;
+
+                .marker-label {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: pxToRem(8);
+
+                    .marker {
+                        display: inline-flex;
+                        width: pxToRem(8);
+                        height: pxToRem(8);
+                        border-radius: 100%;
+                    }
                 }
             }
         }

@@ -10,7 +10,7 @@
       padding: 0;
       margin: 0;
       gap: pxToRem(16);
-    
+
       li {
         a {
           text-decoration: none;
@@ -23,7 +23,7 @@
 
         :deep(.sub-menu) {
           border: none;
-    
+
           .p-menu-list {
             padding: pxToRem(16);
             gap: pxToRem(12);
@@ -54,9 +54,7 @@
 
   .header-container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: pxToRem(32);
+    flex-direction: column;
 
     @media screen and (max-width: $breakpoint-xs) {
       display: flex;
@@ -69,72 +67,78 @@
       color: white;
     }
 
-    .logo-container {
+    .logo-and-nav {
       display: flex;
-      flex-direction: column;
-    
-      .logo {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+      align-items: center;
+      justify-content: space-between;
 
-        a {
+      .logo-container {
+        display: flex;
+        flex-direction: column;
+
+        .logo {
           display: flex;
           flex-direction: row;
-          justify-content: center;
           align-items: center;
+
+          a {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .logo-img {
+            width: pxToRem(60);
+            color: white;
+            filter: drop-shadow(0 0 10px var(--p-green-500));
+          }
+
+          .logo-text {
+            font-size: pxToRem(24);
+            @include gradient-text($cats-gradient-accent);
+          }
+        }
+      }
+    }
+
+    .status-indicator {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: pxToRem(8);
+
+      .indicator-container {
+        position: relative;
+
+        .status-ring {
+          border: pxToRem(1) solid $terminal-green;
+          border-radius: 50%;
+          height: pxToRem(20);
+          width: pxToRem(20);
+          position: absolute;
+          left: pxToRem(-6);
+          top: pxToRem(-6);
+          animation: pulsate 2s ease-out;
+          animation-iteration-count: infinite;
+          opacity: 0;
         }
 
-        .logo-img {
-          width: pxToRem(60);
-          color: white;
-          filter: drop-shadow(0 0 10px var(--p-green-500));
-        }
+        .status-dot {
+          width: pxToRem(8);
+          height: pxToRem(8);
+          background-color: $terminal-red;
+          border-radius: 50%;
 
-        .logo-text {
-          font-size: pxToRem(24);
-          @include gradient-text($cats-gradient-accent);
+          &.active {
+            background-color: $terminal-green;
+          }
         }
       }
 
-      .status-indicator {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: pxToRem(8);
-
-        .indicator-container {
-          position: relative;
-
-          .status-ring {
-            border: pxToRem(1) solid $terminal-green;
-            border-radius: 50%;
-            height: pxToRem(20);
-            width: pxToRem(20);
-            position: absolute;
-            left: pxToRem(-6);
-            top: pxToRem(-6);
-            animation: pulsate 2s ease-out;
-            animation-iteration-count: infinite;
-            opacity: 0;
-          }
-
-          .status-dot {
-            width: pxToRem(8);
-            height: pxToRem(8);
-            background-color: $terminal-red;
-            border-radius: 50%;
-
-            &.active {
-              background-color: $terminal-green;
-            }
-          }
-        }
-
-        .status-text {
-          color: $terminal-green;
-          text-transform: uppercase;
-        }
+      .status-text {
+        color: $terminal-green;
+        text-transform: uppercase;
       }
     }
 
@@ -161,7 +165,7 @@
 
         .p-menubar-item-link:hover {
           .menu-item {
-            border-bottom-color: $aerocat-blue;
+            border-bottom-color: $terminal-blue;
           }
         }
       }

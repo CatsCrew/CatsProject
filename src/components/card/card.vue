@@ -6,7 +6,9 @@
             <slot name="header"></slot>
         </div>
         <div class="card-body">
-            <div class="card-caption">
+            <div
+                v-if="hasTitle"
+                class="card-caption">
                 <div class="card-title">
                     <slot name="title"></slot>
                 </div>
@@ -21,4 +23,10 @@
 </template>
 
 <script setup lang="ts">
+import { useSlots } from 'vue';
+
+
+const slots = useSlots();
+const hasTitle = $computed(() => slots.title);
+
 </script>

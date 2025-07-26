@@ -17,6 +17,18 @@
     z-index: 1000;
 }
 
+.scanline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: pxToRem(2);
+    background: linear-gradient(90deg, transparent, #00ff8877, transparent);
+    z-index: 9999;
+    animation: scanLine 8s linear infinite;
+    pointer-events: none;
+}
+
 .main-content {
     padding: pxToRem(48) pxToRem(32);
 }
