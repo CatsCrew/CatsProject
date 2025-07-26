@@ -57,11 +57,11 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      width: pxToRem(2);
-      height: 50%;
-      background: linear-gradient(to bottom, $terminal-green, transparent);
-      transform-origin: bottom center;
-      transform: translate(-50%, -100%) rotate(0deg);
+      width: 50%;
+      height: 35%;
+      background: linear-gradient(325deg, $terminal-green, transparent, transparent);
+      transform: translateY(-100%);
+      transform-origin: bottom left;
       animation: radar-sweep 4s linear infinite;
     }
 
