@@ -11,6 +11,7 @@ import { CatFilter } from '@/models/cat-filter.enum';
 import { Cat } from '@/models/cat.model';
 import { Language } from '@/models/language.enum';
 import { SpeciesSheet } from '@/models/species-sheet.model';
+import { UrlHelper } from '@/helper/url.helper';
 
 interface ModuleImportInterface {
   default: Object;
@@ -61,46 +62,20 @@ export const useCatsStore = defineStore('cats', {
   actions: {
     initialize() {
       this.creators = creatorJson.creators;
-      this.aerocats = aerocatJson.aerocats;
-      this.landcats = landcatJson.landcats;
-      this.protos = protoJson.protos;
+      this.aerocats = aerocatJson.aerocats.map(a => ({ ...a, type: CatType.Aerocat }));
+      this.landcats = landcatJson.landcats.map(l => ({ ...l, type: CatType.Landcat }));
+      this.protos = protoJson.protos.map(p => ({ ...p, type: CatType.Proto }));
       this.loreDocuments = loreDocumentJson.documents;
 
-      this.fetchAerocats();
-      this.fetchLandcats();
-      this.fetchProtos();
       this.fetchSpeciesSheets();
 
       this.cats = [...this.aerocats, ...this.landcats, ...this.protos];
+      this.buildCatImagePaths();
     },
-    fetchAerocats(): void {
-      const aerocatGlob = import.meta.glob<ModuleImportInterface>('/src/assets/images/aerocats/**/*', { eager: true });
-      const groupedAerocatAssetUrls = this.groupAssetUrls(aerocatGlob);
-      this.aerocats?.forEach(a => {
-        const formattedName = a.name.toLowerCase().replaceAll(' ', '_');
-        a.type = CatType.Aerocat;
-        a.galleryImagePaths = groupedAerocatAssetUrls[formattedName]?.galleryImagePaths;
-        a.referenceSheetsPath = groupedAerocatAssetUrls[formattedName]?.referenceSheetImagePaths;
-      });
-    },
-    fetchLandcats(): void {
-      const landcatGlob = import.meta.glob<ModuleImportInterface>('/src/assets/images/landcats/**/*', { eager: true});
-      const groupedLandcatAssetUrls = this.groupAssetUrls(landcatGlob);
-      this.landcats?.forEach(l => {
-        const formattedName = l.name.toLowerCase().replaceAll(' ', '_');
-        l.type = CatType.Landcat;
-        l.galleryImagePaths = groupedLandcatAssetUrls[formattedName]?.galleryImagePaths;
-        l.referenceSheetsPath = groupedLandcatAssetUrls[formattedName]?.referenceSheetImagePaths;
-      });
-    },
-    fetchProtos(): void {
-      const protoGlob = import.meta.glob<ModuleImportInterface>('/src/assets/images/protos/**/*', { eager: true });
-      const groupedProtoAssetUrls = this.groupAssetUrls(protoGlob);
-      this.protos?.forEach(p => {
-        const formattedName = p.name.toLowerCase().replaceAll(' ', '_');
-        p.type = CatType.Proto;
-        p.galleryImagePaths = groupedProtoAssetUrls[formattedName]?.galleryImagePaths;
-        p.referenceSheetsPath = groupedProtoAssetUrls[formattedName]?.referenceSheetImagePaths;
+    buildCatImagePaths(): void {
+      this.cats.forEach(c => {
+        c.galleryImagePaths = c.galleryImagePaths?.map(g => UrlHelper.buildCharacterPath(c.type, g));
+        c.referenceSheetsPath = c.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(c.type, r));
       });
     },
     fetchSpeciesSheets(): void {
@@ -117,69 +92,6 @@ export const useCatsStore = defineStore('cats', {
             this.speciesSheets[CatType.Proto] = value;
         }
       });
-    },
-    groupAssetUrls(globRecord: Record<string, ModuleImportInterface>): Record<string, GroupedAssets> {
-      const initialGroupedUrls: Record<string, string[]> = {};
-      const urlHashRecord: Record<string, string> = {};
-
-      for (const [assetPath, assetHashedPath] of Object.entries(globRecord)) {
-        urlHashRecord[assetPath] = assetHashedPath.default as string;
-      }
-
-      for (const url of Object.keys(globRecord)) {
-        const parts = url.split('/');
-    
-        // We need at least 3 parts from the right for the grouping directory
-        // plus the filename and its parent directory. So a total of 5 parts minimum.
-        if (parts.length >= 5) {
-          // The third part from the right is at index `parts.length - 3`
-          const groupKey = parts[parts.length - 3];
-    
-          if (initialGroupedUrls[groupKey]) {
-            initialGroupedUrls[groupKey].push(url);
-          } else {
-            initialGroupedUrls[groupKey] = [url];
-          }
-        }
-      }
-
-      const groupedAssetsByName: Record<string, GroupedAssets> = {};
-      for (const groupKey in initialGroupedUrls) {
-        groupedAssetsByName[groupKey] = {
-          galleryImagePaths: [],
-          referenceSheetImagePaths: []
-        };
-        const urlsInGroup = initialGroupedUrls[groupKey];
-
-        for (const url of urlsInGroup) {
-          const parts = url.split('/');
-          // The subdirectory before the filename is at index `parts.length - 2`
-          if (parts.length >= 2) { // Ensure there's at least a subdirectory and a filename
-              const folderKey = parts[parts.length - 2];
-              
-              if (folderKey === 'gallery') {
-                if (groupedAssetsByName[groupKey].galleryImagePaths) {
-                  groupedAssetsByName[groupKey].galleryImagePaths.push(urlHashRecord[url]);
-                } else {
-                  groupedAssetsByName[groupKey].galleryImagePaths = [urlHashRecord[url]];
-                }
-              } else if (folderKey === 'reference_sheets') {
-                if (groupedAssetsByName[groupKey].referenceSheetImagePaths) {
-                  groupedAssetsByName[groupKey].referenceSheetImagePaths.push(urlHashRecord[url]);
-                } else {
-                  groupedAssetsByName[groupKey].referenceSheetImagePaths = [urlHashRecord[url]];
-                }
-              }
-          }
-
-          
-
-          groupedAssetsByName[groupKey].galleryImagePaths?.sort(this.sortFileByNumberName);
-          groupedAssetsByName[groupKey].referenceSheetImagePaths?.sort(this.sortFileByNumberName);
-        }
-      }
-    
-      return groupedAssetsByName;
     },
     groupSpeciesSheetAssetUrls(globRecord: Record<string, ModuleImportInterface>): Record<string, SpeciesSheet> {
       const initialGroupedUrls: Record<string, string[]> = {};

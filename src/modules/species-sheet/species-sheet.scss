@@ -12,11 +12,30 @@
 .species-sheet-container {
   display: flex;
   flex-direction: column;
-  gap: pxToRem(8);
+  gap: pxToRem(16);
 
   @media screen and (max-width: $breakpoint-xs) {
-    margin: 0 pxToRem(32);
     margin-bottom: pxToRem(32);
+  }
+
+  .selection-container {
+    display: flex;
+    gap: pxToRem(32);
+
+    @media screen and (max-width: $breakpoint-xs) {
+      flex-direction: column;
+      gap: pxToRem(8);
+    }
+
+    .select-item {
+      display: flex;
+      flex-direction: column;
+      gap: pxToRem(8);
+
+      .select-header {
+        font-size: pxToRem(18);
+      }
+    }
   }
 
   .species-sheet-content-container {
@@ -58,17 +77,17 @@
             &:not(.is-snapped) {
               opacity: 0.16;
 
-              .p-image {
-                height: 50vh;
+              :deep(.p-image) {
+                height: 45vh;
 
                 @media screen and (max-width: $breakpoint-xs) {
-                  height: 75vh;
+                  height: 60vh;
                 }
               }
             }
 
             .p-image {
-              height: 75vh;
+              height: 60vh;
 
               :deep(img) {
                 width: 100%;

@@ -3,7 +3,22 @@
         {
             "creator": "Presto",
             "name": "Shell the Sheridan",
-            "model": "M551 Sheridan"
+            "model": "M551 Sheridan",
+            "galleryImagePaths": [
+                "shell_the_sheridan/1.png"
+            ]
+        },
+        {
+            "creator": "ToasTee",
+            "name": "Tetril the EOD Vu",
+            "model": "EOD Vehicle Unit",
+            "galleryImagePaths": [
+                "tetril_the_eod_vu/tetril.png"
+            ],
+            "referenceSheetsPath": [
+                "tetril_the_eod_vu/TETRIL-REFERENCE-1.png",
+                "tetril_the_eod_vu/TETRIL-REFERENCE-2.png"
+            ]
         }
     ]
 }

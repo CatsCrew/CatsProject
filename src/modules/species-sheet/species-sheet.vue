@@ -2,18 +2,25 @@
 
 <template>
     <div class="species-sheet-container">
-        Species Sheet
-        <SelectButton
-            v-model="catType"
-            :options="catOptions"
-            @change="onLanguageSelected"/>
+        <div class="selection-container">
+            <div class="select-item">
+                <div class="select-header">Species</div>
+                <SelectButton
+                    v-model="catType"
+                    :options="catOptions"
+                    @change="onLanguageSelected"/>
+            </div>
+            <div class="select-item">
+                <div class="select-header">Language</div>
+                <SelectButton
+                    v-if="hasLanguageSupport(catType)"
+                    v-model="language"
+                    :options="languageOptions"
+                    :allow-empty="false"
+                    @change="onLanguageSelected"/>
+            </div>
+        </div>
         <div class="species-sheet-content-container">
-            <SelectButton
-                v-if="hasLanguageSupport(catType)"
-                v-model="language"
-                :options="languageOptions"
-                :allow-empty="false"
-                @change="onLanguageSelected"/>
             <div class="embla">
                 <div class="embla__viewport" ref="emblaRef">
                     <div class="embla__container">
@@ -74,10 +81,10 @@ import ClassNames from 'embla-carousel-class-names';
 const cat$ = useCatsStore();
 const { speciesSheetByCatAndLanguage } = $(storeToRefs(cat$));
 
-const catType = $ref(null);
+const catType = $ref(CatType.Aerocat);
 let prevCatType = $ref(null);
 const language = $ref(Language.English);
-let images = $ref([]);
+let images = $ref(speciesSheetByCatAndLanguage(catType, language));
 
 const catOptions = $ref([CatType.Aerocat, CatType.Landcat, CatType.Proto]);
 const languageOptions = $ref([Language.English, Language.Korean, Language.Japanese]);

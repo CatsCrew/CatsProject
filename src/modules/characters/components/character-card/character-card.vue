@@ -3,7 +3,19 @@
 <template>
     <Card class="cat-card" @click="onAerocatClicked">
         <template #header>
-            <img class="cat-card-img" alt="aerocat profile image" :src="cat.galleryImagePaths[0]"/>
+            <div class="image-container">
+                <Skeleton
+                    v-if="loading"
+                    width="100%"
+                    height="100%">
+                </Skeleton>
+                <img
+                    v-else
+                    class="cat-card-img"
+                    alt="aerocat profile image"
+                    :src="cat.galleryImagePaths[0]"
+                    @load="onImageLoad"/>
+            </div>
         </template>
         <template #title>
             <div class="cat-model">
@@ -28,6 +40,7 @@
 
 <script setup lang="ts">
 import Card from '@/components/card/card.vue';
+import Skeleton from 'primevue/skeleton';
 import { Cat } from '@/models/cat.model';
 
 const { cat } = defineProps<{
@@ -38,6 +51,7 @@ const emit = defineEmits<{
     (e: 'cat-selected', cat: Cat): void;
 }>();
 
+let loading = $ref(false);
 const creatorAsset = $computed(() => {
     if (!cat?.creator) 
         return null;
@@ -47,5 +61,9 @@ const creatorAsset = $computed(() => {
 
 function onAerocatClicked() {
     emit('cat-selected', cat);
+}
+
+function onImageLoad() {
+    loading = false;
 }
 </script>
