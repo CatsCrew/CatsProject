@@ -62,7 +62,7 @@
                 <Card>
                     <template #title>
                         <div class="logo-container">
-                            <img :src="Aerocat" class="cat-logo aerocat"/>
+                            <img :src="Aerocat" alt="Aerocat Logo" class="cat-logo aerocat"/>
                             <div class="cat-type">AEROCATS</div>
                         </div>
                     </template>
@@ -83,7 +83,7 @@
                 <Card>
                     <template #title>
                         <div class="logo-container">
-                            <img :src="Landcat" class="cat-logo landcat"/>
+                            <img :src="Landcat" alt="Landcat Logo" class="cat-logo landcat"/>
                             <div class="cat-type">LANDCATS</div>
                         </div>
                     </template>
@@ -104,7 +104,7 @@
                 <Card>
                     <template #title>
                         <div class="logo-container">
-                            <img :src="Proto" class="cat-logo proto"/>
+                            <img :src="Proto" alt="Proto Logo" class="cat-logo proto"/>
                             <div class="cat-type">PROTOS</div>
                         </div>
                     </template>
