@@ -27,10 +27,6 @@
                 border-radius: pxToRem(4);
                 padding: pxToRem(2) pxToRem(8);
             }
-
-            @media screen and (max-width: $breakpoint-xs) {
-                width: 100%;
-            }
         }
 
         .hero-title {
