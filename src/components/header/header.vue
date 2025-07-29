@@ -32,6 +32,11 @@
                 </router-link>
               </li>
               <li @click="onDrawerItemClicked">
+                <router-link :to="{ name: RouteNames.Lore }">
+                  Lore
+                </router-link>
+              </li>
+              <li @click="onDrawerItemClicked">
                 <Button @click.stop.prevent="toggleMobileMenu">
                   <span>Characters</span>
                   <i
