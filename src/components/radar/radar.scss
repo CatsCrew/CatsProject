@@ -59,7 +59,12 @@
       left: 50%;
       width: 50%;
       height: 35%;
-      background: linear-gradient(325deg, $terminal-green, transparent, transparent);
+      background: linear-gradient(
+        325deg,
+        $terminal-green,
+        transparent,
+        transparent
+      );
       transform: translateY(-100%);
       transform-origin: bottom left;
       animation: radar-sweep 4s linear infinite;
@@ -72,6 +77,12 @@
       border-radius: 50%;
       transform: translate(-50%, -50%);
       animation: blip 2s ease-in-out infinite;
+      opacity: 1;
+      transition: opacity 0.4s ease-out;
+
+      &.detected {
+        opacity: 1;
+      }
 
       &.aerocat {
         background: $terminal-blue;
@@ -81,6 +92,11 @@
       &.landcat {
         background: $terminal-orange;
         box-shadow: 0 0 pxToRem(15) $terminal-orange;
+      }
+
+      &.proto {
+        background: $terminal-green;
+        box-shadow: 0 0 pxToRem(15) $terminal-green;
       }
     }
   }
