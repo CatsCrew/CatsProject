@@ -3,7 +3,6 @@
 <template>
   <Header></Header>
   <div class="terminal-overlay"></div>
-  <div class="scanline"></div>
   <main class="main-content">
     <RouterView></RouterView>
   </main>
