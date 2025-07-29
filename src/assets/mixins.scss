@@ -27,13 +27,3 @@
     50% {opacity: 1.0;}
     100% {-webkit-transform: scale(1.1, 1.1); opacity: 0.0;}
 }
-
-@keyframes radar-sweep {
-    0% {
-        transform: translateY(-100%) rotate(0deg);
-    }
-
-    100% {
-        transform: translateY(-100%) rotate(360deg);
-    }
-}
