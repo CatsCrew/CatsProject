@@ -39,7 +39,6 @@
             padding: 0 pxToRem(32);
             padding-bottom: pxToRem(32);
         }
-        
 
         .cards-move,
         .cards-enter-active,
@@ -54,6 +53,10 @@
 
         .cards-leave-active {
             position: absolute;
+        }
+
+        :deep(.card-body) {
+            justify-content: space-between;
         }
     }
 }
