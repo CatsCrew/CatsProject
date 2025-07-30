@@ -110,7 +110,6 @@ function toggleDotBtnsActive() {
 }
 
 function onImageLoaded(index: number) {
-  console.log(index);
   imageLoadingStates[index] = false;
 }
 
