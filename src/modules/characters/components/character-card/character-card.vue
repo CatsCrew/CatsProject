@@ -10,10 +10,10 @@
                     height="100%">
                 </Skeleton>
                 <img
-                    v-else
                     class="cat-card-img"
                     alt="aerocat profile image"
                     :src="cat.galleryImagePaths[0]"
+                    :data-loading="loading"
                     @load="onImageLoad"/>
             </div>
         </template>
@@ -51,7 +51,7 @@ const emit = defineEmits<{
     (e: 'cat-selected', cat: Cat): void;
 }>();
 
-let loading = $ref(false);
+let loading = $ref(true);
 const creatorAsset = $computed(() => {
     if (!cat?.creator) 
         return null;
