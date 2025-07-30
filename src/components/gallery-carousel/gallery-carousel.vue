@@ -5,7 +5,7 @@
     <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
         <div v-for="image, index in images" :key="image" class="embla__slide">
-          <DeferredContent @load="onImageLoaded(index)" class="deferred-slide-container">
+          <DeferredContent class="deferred-slide-container">
             <Skeleton
               v-if="imageLoadingStates[index]"
               width="100%"
@@ -16,7 +16,8 @@
               preview
               alt="cat image" 
               imageClass="cat-ref-img"
-              :data-loading="imageLoadingStates[index]"/>
+              :data-loading="imageLoadingStates[index]"
+              @load="onImageLoaded(index)"/>
             </DeferredContent>
         </div>
       </div>
@@ -109,22 +110,23 @@ function toggleDotBtnsActive() {
 }
 
 function onImageLoaded(index: number) {
+  console.log(index);
   imageLoadingStates[index] = false;
 }
 
 onMounted(() => {
-    images.forEach(() => {
-      imageLoadingStates.push(true);
-    });
+  images.forEach((_, index) => {
+    imageLoadingStates[index] = true;
+  });
 
-    document.addEventListener("keyup", setupKeyEvents);
-    updateButtonVisibility();
+  document.addEventListener("keyup", setupKeyEvents);
+  updateButtonVisibility();
 
-    emblaApi
-        .on('select', updateButtonVisibility)
-        .on('init', toggleDotBtnsActive)
-        .on('reInit', toggleDotBtnsActive)
-        .on('select', toggleDotBtnsActive);
+  emblaApi
+      .on('select', updateButtonVisibility)
+      .on('init', toggleDotBtnsActive)
+      .on('reInit', toggleDotBtnsActive)
+      .on('select', toggleDotBtnsActive);
 });
 
 onUnmounted(() => {
