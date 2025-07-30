@@ -26,10 +26,15 @@
     }
 
     .cat-card-img {
+        display: none;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: top;        
+        object-position: top; 
+        
+        &[data-loading="false"] {
+            display: block;
+        }
     }
 
     .cat-model {

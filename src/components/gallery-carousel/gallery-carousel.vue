@@ -4,12 +4,20 @@
   <div class="embla">
     <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
-        <div v-for="image in images" :key="image" class="embla__slide">
-          <Image 
-            :src="image" 
-            preview
-            alt="cat image" 
-            imageClass="cat-ref-img"/>
+        <div v-for="image, index in images" :key="image" class="embla__slide">
+          <DeferredContent @load="onImageLoaded(index)" class="deferred-slide-container">
+            <Skeleton
+              v-if="imageLoadingStates[index]"
+              width="100%"
+              height="343px">
+            </Skeleton>
+            <Image 
+              :src="image" 
+              preview
+              alt="cat image" 
+              imageClass="cat-ref-img"
+              :data-loading="imageLoadingStates[index]"/>
+            </DeferredContent>
         </div>
       </div>
     </div>
@@ -46,10 +54,14 @@
 import emblaCarouselVue from "embla-carousel-vue";
 import { onMounted, onUnmounted, useTemplateRef } from "vue";
 import Image from "primevue/image";
+import DeferredContent from 'primevue/deferredcontent';
+import Skeleton from 'primevue/skeleton';
 
 const { images } = defineProps<{
   images?: string[];
 }>();
+
+const imageLoadingStates = $ref([]);
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue());
 const dotNodes = $(useTemplateRef('dotNodes'));
@@ -96,7 +108,15 @@ function toggleDotBtnsActive() {
     dotNodes[selected].classList.add('embla__dot--selected');
 }
 
+function onImageLoaded(index: number) {
+  imageLoadingStates[index] = false;
+}
+
 onMounted(() => {
+    images.forEach(() => {
+      imageLoadingStates.push(true);
+    });
+
     document.addEventListener("keyup", setupKeyEvents);
     updateButtonVisibility();
 
