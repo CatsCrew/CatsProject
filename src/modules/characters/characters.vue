@@ -8,7 +8,6 @@
                 <InputIcon class="pi pi-search" />
                 <InputText type="text" v-model="searchTerm" placeholder="Search" />
             </IconField>
-            
         </div>
         <div class="characters">
             <TransitionGroup name="cards">

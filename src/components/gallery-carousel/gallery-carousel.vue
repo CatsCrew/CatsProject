@@ -5,7 +5,6 @@
     <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
         <div v-for="image, index in images" :key="image" class="embla__slide">
-          <DeferredContent class="deferred-slide-container">
             <Skeleton
               v-if="imageLoadingStates[index]"
               width="100%"
@@ -18,7 +17,6 @@
               imageClass="cat-ref-img"
               :data-loading="imageLoadingStates[index]"
               @load="onImageLoaded(index)"/>
-            </DeferredContent>
         </div>
       </div>
     </div>
