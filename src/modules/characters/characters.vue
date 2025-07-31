@@ -8,6 +8,7 @@
                 <InputIcon class="pi pi-search" />
                 <InputText type="text" v-model="searchTerm" placeholder="Search" />
             </IconField>
+            
         </div>
         <div class="characters">
             <TransitionGroup name="cards">
@@ -36,7 +37,6 @@ import { onMounted, watch } from 'vue';
 import IconField from 'primevue/iconfield';
 import InputIcon from 'primevue/inputicon';
 import InputText from 'primevue/inputtext';
-import DeferredContent from 'primevue/deferredcontent';
 import CharacterCard from './components/character-card/character-card.vue';
 import CatModal from './components/character-modal/character-modal.vue';
 import { useCatsStore } from '@/store';

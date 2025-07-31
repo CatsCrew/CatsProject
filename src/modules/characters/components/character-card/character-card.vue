@@ -1,7 +1,9 @@
 <style lang="scss" scoped src="./character-card.scss"></style>
 
 <template>
-    <Card class="cat-card" @click="onAerocatClicked">
+    <Card
+        class="cat-card"
+        @click="onAerocatClicked">
         <template #header>
             <div class="image-container">
                 <Skeleton
@@ -9,12 +11,15 @@
                     width="100%"
                     height="100%">
                 </Skeleton>
-                <img
-                    class="cat-card-img"
-                    alt="aerocat profile image"
-                    :src="cat.galleryImagePaths[0]"
-                    :data-loading="loading"
-                    @load="onImageLoad"/>
+                <DeferredContent
+                    class="cat-card-img">
+                    <img
+                        class="cat-card-img"
+                        alt="aerocat profile image"
+                        :src="cat.galleryImagePaths[0]"
+                        :data-loading="loading"
+                        @load="onImageLoad"/>
+                </DeferredContent>
             </div>
         </template>
         <template #title>
@@ -42,6 +47,7 @@
 import Card from '@/components/card/card.vue';
 import Skeleton from 'primevue/skeleton';
 import { Cat } from '@/models/cat.model';
+import DeferredContent from 'primevue/deferredcontent';
 
 const { cat } = defineProps<{
     cat?: Cat;

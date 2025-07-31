@@ -59,7 +59,6 @@
     @media screen and (max-width: $breakpoint-xs) {
       display: flex;
       justify-content: space-between;
-      padding: 0 pxToRem(20);
     }
 
     a {

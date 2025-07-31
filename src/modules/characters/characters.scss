@@ -26,7 +26,7 @@
             position: sticky;
             top: 0;
             background-color: $background-secondary;
-            padding: pxToRem(16) pxToRem(32);
+            padding: pxToRem(16) pxToRem(8);
         }
     }
 
@@ -36,7 +36,6 @@
         gap: pxToRem(20);
 
         @media screen and (max-width: $breakpoint-xs) {
-            padding: 0 pxToRem(32);
             padding-bottom: pxToRem(32);
         }
 
