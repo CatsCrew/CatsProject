@@ -43,8 +43,9 @@ import { storeToRefs } from 'pinia';
 import { Cat } from '@/models/cat.model';
 import { CatFilter } from '@/models/cat-filter.enum';
 import { useRoute } from 'vue-router';
-import AerocatPlaceholder from '@assets/images/aerocat-placeholder.png';
-import LandcatPlaceholder from '@assets/images/landcat-placeholder.png';
+import AerocatPlaceholder from '@assets/images/aerocat_placeholder.png';
+import LandcatPlaceholder from '@assets/images/landcat_placeholder.png';
+import ProtoPlaceholder from '@assets/images/proto_placeholder.png';
 
 let searchTerm = $ref<string>('');
 let showModal = $ref(false);
@@ -70,7 +71,7 @@ const placeholderCat = $computed<Cat>(() => {
             catType = 'Landcat'
             break;
         case CatFilter.Protos:
-            placholderImage = AerocatPlaceholder;
+            placholderImage = ProtoPlaceholder;
             catType = 'Proto';
             break;
     }
