@@ -3,16 +3,16 @@
 <template>
     <Card
         class="cat-card"
+        :class="{ hoverable }"
         @click="onAerocatClicked">
         <template #header>
             <div class="image-container">
                 <Skeleton
                     v-if="loading"
-                    width="100%"
-                    height="100%">
+                    class="character-card-skeleton">
                 </Skeleton>
                 <DeferredContent
-                    class="cat-card-img">
+                    class="deferred-content">
                     <img
                         class="cat-card-img"
                         alt="aerocat profile image"
@@ -49,8 +49,9 @@ import Skeleton from 'primevue/skeleton';
 import { Cat } from '@/models/cat.model';
 import DeferredContent from 'primevue/deferredcontent';
 
-const { cat } = defineProps<{
+const { cat, hoverable = true } = defineProps<{
     cat?: Cat;
+    hoverable?: boolean;
 }>();
 
 const emit = defineEmits<{

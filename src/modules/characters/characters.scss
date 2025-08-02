@@ -34,7 +34,6 @@
         display: flex;
         flex-wrap: wrap;
         gap: pxToRem(20);
-        z-index: 2;
 
         @media screen and (max-width: $breakpoint-xs) {
             padding-bottom: pxToRem(32);

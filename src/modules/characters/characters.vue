@@ -19,7 +19,8 @@
                 </CharacterCard>
                 <CharacterCard
                     v-if="!searchTerm"
-                    :cat="placeholderCat">
+                    :cat="placeholderCat"
+                    :hoverable="false">
                 </CharacterCard>
             </TransitionGroup>
         </div>
