@@ -13,6 +13,8 @@
     "@types/webpack": "^5.28.5",
     "@vue-macros/define-models": "^1.3.5",
     "@vue-macros/reactivity-transform": "^1.1.4",
+    "@vueuse/components": "^13.6.0",
+    "@vueuse/core": "^13.6.0",
     "embla-carousel-class-names": "^8.6.0",
     "embla-carousel-vue": "^8.6.0",
     "pinia": "^3.0.2",

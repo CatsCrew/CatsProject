@@ -59,7 +59,7 @@
                 <div class="divider"></div>
             </div>
             <div class="species-grid">
-                <Card>
+                <Card class="cat-card">
                     <template #title>
                         <div class="logo-container">
                             <img :src="Aerocat" alt="Aerocat Logo" class="cat-logo aerocat"/>
@@ -80,7 +80,7 @@
                         </button>
                     </template>
                 </Card>
-                <Card>
+                <Card class="cat-card">
                     <template #title>
                         <div class="logo-container">
                             <img :src="Landcat" alt="Landcat Logo" class="cat-logo landcat"/>
@@ -101,7 +101,7 @@
                         </button>
                     </template>
                 </Card>
-                <Card>
+                <Card class="cat-card">
                     <template #title>
                         <div class="logo-container">
                             <img :src="Proto" alt="Proto Logo" class="cat-logo proto"/>
@@ -120,7 +120,27 @@
                     </template>
                 </Card>
                 <Card>
-
+                    <template #title>
+                        Available Communication
+                    </template>
+                    <template #content>
+                        <div class="communication-container">
+                            <div class="communication-item">
+                                <div class="communication-header">
+                                    <div class="communication-title">
+                                        Discord Server
+                                    </div>
+                                    <div class="communication-subtitle">
+                                        C.A.T.S
+                                    </div>
+                                </div>
+                                <a class="discord-btn" :href="discordUrl" target="_blank">
+                                    <i class="pi pi-icon pi-discord"></i>
+                                    Join
+                                </a>
+                            </div>
+                        </div>
+                    </template>
                 </Card>
             </div>
         </div>
@@ -142,7 +162,7 @@ import { storeToRefs } from 'pinia';
 import MeterGroup, { MeterItem } from 'primevue/metergroup';
 
 const cat$ = useCatsStore();
-const { cats, aerocats, landcats, protos } = $(storeToRefs(cat$));
+const { cats, aerocats, landcats, protos, discordUrl } = $(storeToRefs(cat$));
 
 const catMetergroupItems = $computed<MeterItem[]>(() => {
     const meterItems: MeterItem[] = [];

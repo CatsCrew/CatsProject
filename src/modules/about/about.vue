@@ -87,6 +87,10 @@ import Karbine from '@assets/images/creators/karbine.png';
 import Card from '@/components/card/card.vue';
 import Banner from '@/components/banner/banner.vue';
 import { BannerType } from '@/models/banner-type.enum';
+import { storeToRefs } from 'pinia';
+import { useCatsStore } from '@/store';
 
-const discordUrl = $ref('https://discord.gg/xYm6skrZ3b');
+const cats$ = useCatsStore();
+
+const { discordUrl } = $(storeToRefs(cats$));
 </script>

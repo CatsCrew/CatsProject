@@ -15,4 +15,5 @@ export interface CatsState {
     protos?: Proto[];
     speciesSheets?: Record<Language, SpeciesSheet>;
     loreDocuments?: LoreDocument[];
+    discordUrl?: string;
 }

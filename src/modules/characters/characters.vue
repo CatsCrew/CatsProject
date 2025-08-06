@@ -15,6 +15,7 @@
                     v-for="cat in filteredCats"
                     :key="cat.name"
                     :cat="cat"
+                    :hoverable="!isHandheldDevice"
                     @cat-selected="onCatClicked">
                 </CharacterCard>
                 <CharacterCard
@@ -58,6 +59,7 @@ const { filterCats } = $(storeToRefs(cats$));
 
 const route = useRoute();
 const cats = $computed(() => filterCats(currentFilter));
+const isHandheldDevice = $computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
 
 const placeholderCat = $computed<Cat>(() => {
     let placholderImage = '';

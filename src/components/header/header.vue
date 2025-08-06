@@ -60,19 +60,39 @@
           </Button>
         </div>
         <nav class="nav-links-container" v-else>
-          <Menubar :model="menuItems">
-            <template #item="{ item, props, hasSubmenu }">
-                  <router-link v-if="item.to" v-slot="{ href, navigate }" :to="item.to">
-                      <a :href="href" v-bind="props.action" @click="navigate">
-                          <span class="menu-item">{{ item.label }}</span>
-                      </a>
-                  </router-link>
-                  <a v-else :href="item.url" :target="item.target" v-bind="props.action">
-                      <span class="menu-item">{{ item.label }}</span>
-                      <span v-if="hasSubmenu" class="pi pi-fw pi-angle-down"> </span>
-                  </a>
-              </template>
-          </Menubar>
+          <ul class="nav">
+            <template
+              v-for="menuItem in menuItems"
+              :key="menuItem.label">
+              <li 
+                @click.stop="toggleDropdown(menuItem.id)"
+                v-on-click-outside="closeDropdown">
+                <template v-if="menuItem.children">
+                  {{ menuItem.label }}
+                  <i
+                    class="pi pi-icon"
+                    :class="[openDropdownId === menuItem.id ? 'pi-angle-up' : 'pi-angle-down']"></i>
+                  <ul
+                    class="submenu"
+                    :class="{ 'active': openDropdownId === menuItem.id }">
+                    <li
+                      v-for="submenuItem, index in menuItem.children"
+                      :key="index">
+                      <router-link
+                        :to="submenuItem.to">
+                        {{ submenuItem.label }}
+                      </router-link>
+                    </li>
+                  </ul>
+                </template>
+                <router-link
+                  v-else
+                  :to="menuItem.to">
+                  {{ menuItem.label }}
+                </router-link>
+              </li>
+            </template>
+          </ul>
         </nav>
       </div>
       <div class="status-indicator">
@@ -92,16 +112,19 @@ import CatsLogo from '@assets/images/cats_logo.png';
 import { RouteNames } from '../../app.routes';
 import Drawer from 'primevue/drawer';
 import Button from 'primevue/button';
-import Menubar from 'primevue/menubar';
 import Menu from 'primevue/menu';
-import { MenuItem } from 'primevue/menuitem';
+import { MenuItem } from '@/models/menu-item.model';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import { CatFilter } from '@/models/cat-filter.enum';
 import Typewriter from 'typewriter-effect/dist/core';
+import { vOnClickOutside } from '@vueuse/components'
+import { onClickOutside } from '@vueuse/core';
 
 const cat$ = useCatsStore();
 const { isMobile } = $(storeToRefs(cat$));
+
+let openDropdownId = $ref(null);
 
 const statusMessages = [
   "systems online",
@@ -110,7 +133,7 @@ const statusMessages = [
   "preparing for deployment"
 ];
 
-const characterMenuItems = [
+const characterMenuItems: MenuItem[] = [
   {
     label: 'Aerocats',
     to: { name: RouteNames.Characters, query: { t: CatFilter.Aerocats } },
@@ -127,20 +150,24 @@ const characterMenuItems = [
 
 const menuItems = $ref<MenuItem[]>([
   {
+    id: 1,
     label: 'About',
     to: { name: RouteNames.About }
   },
   {
+    id: 2,
     label: 'Species Sheet',
     to: { name: RouteNames.SpeciesSheet }
   },
   {
+    id: 3,
     label: 'Lore',
     to: { name: RouteNames.Lore }
   },
   {
+    id: 4,
     label: 'Characters',
-    items: characterMenuItems
+    children: characterMenuItems
   }
 ]);
 
@@ -162,6 +189,14 @@ function toggleMobileMenu() {
   mobileMenuExpanded = !mobileMenuExpanded;
 }
 
+function toggleDropdown(id: number) {
+  openDropdownId = openDropdownId === id ? null : id;
+}
+
+function closeDropdown() {
+  openDropdownId = null;
+}
+
 onMounted(() => {
   new Typewriter('#typewriter', {
     strings: statusMessages,
@@ -170,3 +205,4 @@ onMounted(() => {
   });
 });
 </script>
+ 

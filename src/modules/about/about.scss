@@ -14,7 +14,6 @@
       grid-template-columns: repeat(1, 1fr);
     }
 
-
     .about-cats {
       display: flex;
       flex-direction: column;
@@ -35,6 +34,7 @@
 
       .card-container {
         height: 100%;
+        position: relative;
       }
 
       .header {
@@ -124,6 +124,13 @@
           font-size: pxToRem(20);
           color: white;
           text-decoration: none;
+          transition: all 0.3s ease-in;
+
+          &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(88, 101, 242, 0.4);
+            border-color: rgba(255, 255, 255, 0.2);
+          }
 
           .pi-discord {
             font-size: pxToRem(32);

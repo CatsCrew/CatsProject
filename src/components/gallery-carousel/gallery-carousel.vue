@@ -10,13 +10,15 @@
               width="100%"
               height="343px">
             </Skeleton>
-            <Image 
-              :src="image" 
-              preview
-              alt="cat image" 
-              imageClass="cat-ref-img"
-              :data-loading="imageLoadingStates[index]"
-              @load="onImageLoaded(index)"/>
+            <DeferredContent>
+              <Image 
+                :src="image" 
+                preview
+                alt="cat image" 
+                imageClass="cat-ref-img"
+                :data-loading="imageLoadingStates[index]"
+                @load="onImageLoaded(index)"/>
+            </DeferredContent>
         </div>
       </div>
     </div>

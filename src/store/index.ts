@@ -5,7 +5,6 @@ import aerocatJson from '@assets/aerocats.json';
 import landcatJson from '@assets/landcats.json';
 import protoJson from '@assets/protos.json';
 import loreDocumentJson from '@assets/lore.json';
-import { GroupedAssets } from '@/models/grouped-assets.model';
 import { CatType } from '@/models/cat-type.enum';
 import { CatFilter } from '@/models/cat-filter.enum';
 import { Cat } from '@/models/cat.model';
@@ -25,7 +24,8 @@ export const useCatsStore = defineStore('cats', {
     protos: null,
     cats: null,
     speciesSheets: {} as Record<Language, SpeciesSheet>,
-    loreDocuments: null
+    loreDocuments: null,
+    discordUrl: 'https://discord.gg/xYm6skrZ3b'
   }),
   getters: {
     isMobile: () => {
