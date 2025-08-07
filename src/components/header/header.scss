@@ -2,6 +2,31 @@
 @use "@assets/variables.scss" as *;
 
 .nav-drawer {
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    a {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .logo-img {
+      width: pxToRem(60);
+      color: white;
+      filter: drop-shadow(0 0 10px var(--p-green-500));
+    }
+
+    .logo-text {
+      font-size: pxToRem(24);
+      @include gradient-text($cats-gradient-accent);
+    }
+  }
+
   .p-drawer-content {
     .nav-links {
       display: flex;
@@ -159,7 +184,7 @@
         margin: 0;
         padding: 0;
         gap: pxToRem(8);
-        
+
         li {
           display: flex;
           align-items: center;

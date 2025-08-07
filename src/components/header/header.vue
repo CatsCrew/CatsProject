@@ -17,9 +17,16 @@
           class="header-drawer-container">
           <Drawer
             v-model:visible="visible"
-            header="CATS"
             position="full"
             class="nav-drawer">
+            <template #header>
+              <div class="logo">
+                <router-link :to="{ name: RouteNames.Home }">
+                    <img class="logo-img" alt="Cats Logo" :src="CatsLogo" />
+                    <span class="logo-text">PROJECT C.A.T.S</span>
+                </router-link>
+              </div>
+            </template>
             <ul class="nav-links">
               <li @click="onDrawerItemClicked">
                 <router-link :to="{ name: RouteNames.About }">
