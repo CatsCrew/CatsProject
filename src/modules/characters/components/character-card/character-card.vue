@@ -3,7 +3,7 @@
 <template>
     <Card
         class="cat-card"
-        :class="{ hoverable }"
+        :class="[ cat.type, { hoverable }]"
         @click="onAerocatClicked">
         <template #header>
             <div class="image-container">
@@ -36,7 +36,11 @@
             <div
                 v-if="cat?.creator"
                 class="creator">
-                <img class="creator-img" alt="creator profile image" :src="cat?.creator?.profileUrl"/>
+                <img 
+                    v-if="cat?.creator?.profileUrl"
+                    class="creator-img" 
+                    alt="creator profile image" 
+                    :src="cat?.creator?.profileUrl"/>
                 <span class="creator-name"> {{ cat?.creator?.name }} </span>
             </div>
         </template>

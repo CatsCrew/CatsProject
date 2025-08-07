@@ -120,7 +120,7 @@
           border: none;
           border-radius: pxToRem(8);
           cursor: pointer;
-          background: linear-gradient(135deg, #5865f2 0%, #7289da 100%);
+          background: $discord-gradient;
           font-size: pxToRem(20);
           color: white;
           text-decoration: none;

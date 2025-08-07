@@ -13,7 +13,18 @@
 
     &.hoverable:hover {
         cursor: pointer;
-        border-color: $terminal-blue;
+        
+        &.aerocat {
+            border-color: $terminal-blue;
+        }
+
+        &.landcat {
+            border-color: $terminal-orange;
+        }
+
+        &.proto {
+            border-color: $terminal-green;
+        }
     }
 
     .image-container {

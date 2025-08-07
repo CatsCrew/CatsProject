@@ -30,13 +30,12 @@
         }
 
         .hero-title {
-            font-size: pxToRem(32);
+            font-size: pxToRem(24);
             white-space: nowrap;
             @include gradient-text($cats-gradient-accent);
 
             @media screen and (max-width: $breakpoint-xs) {
-                font-size: pxToRem(20);
-                text-align: center;
+                font-size: pxToRem(18);
                 white-space: unset;
             }
 
@@ -242,7 +241,7 @@
                         min-width: pxToRem(100);
                         padding: pxToRem(8);
                         border-radius: pxToRem(4);
-                        background-color: $terminal-blue;
+                        background: $discord-gradient;
                         text-decoration: none;
                         color: white;
                     }
