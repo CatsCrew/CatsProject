@@ -8,7 +8,7 @@
         align-items: center;
         gap: pxToRem(24);
 
-        @media screen and (max-width: $breakpoint-xs) {
+        @media screen and (max-width: $breakpoint-md) {
             grid-template-columns: repeat(1, 1fr);
         }
 
@@ -30,12 +30,14 @@
         }
 
         .hero-title {
-            font-size: pxToRem(48);
+            font-size: pxToRem(32);
+            white-space: nowrap;
             @include gradient-text($cats-gradient-accent);
 
             @media screen and (max-width: $breakpoint-xs) {
                 font-size: pxToRem(20);
                 text-align: center;
+                white-space: unset;
             }
 
         }
@@ -247,5 +249,10 @@
                 }
             }
         }
+    }
+
+    .title {
+        font-size: pxToRem(24);
+        color: $terminal-green;
     }
 }

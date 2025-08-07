@@ -74,7 +74,7 @@
                     </template>
                     <template #footer>
                         <button class="gradient-btn">
-                            <router-link :to="{ name: RouteNames.Characters, query: { t: CatFilter.Aerocats } }">
+                            <router-link :to="{ name: RouteNames.Aerocats }">
                                 Access Database <i class="pi pi-icon pi-arrow-right"></i>
                             </router-link>
                         </button>
@@ -95,7 +95,7 @@
                     </template>
                     <template #footer>
                         <button class="gradient-btn">
-                            <router-link :to="{ name: RouteNames.Characters, query: { t: CatFilter.Landcats } }">
+                            <router-link :to="{ name: RouteNames.Landcats }">
                                 Access Database <i class="pi pi-icon pi-arrow-right"></i>
                             </router-link>
                         </button>
@@ -113,7 +113,7 @@
                     </template>
                     <template #footer>
                         <button class="gradient-btn">
-                            <router-link :to="{ name: RouteNames.Characters, query: { t: CatFilter.Protos } }">
+                            <router-link :to="{ name: RouteNames.Protos }">
                                 Access Database <i class="pi pi-icon pi-arrow-right"></i>
                             </router-link>
                         </button>
@@ -121,7 +121,9 @@
                 </Card>
                 <Card>
                     <template #title>
-                        Available Communication
+                        <div class="title">
+                            Available Communication
+                        </div>
                     </template>
                     <template #content>
                         <div class="communication-container">
