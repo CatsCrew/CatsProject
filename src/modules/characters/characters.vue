@@ -92,6 +92,8 @@ const titleText = $computed(() => {
             return "Hanger";
         case CatFilter.Landcats:
             return "Garage";
+        case CatFilter.Protos:
+            return "Lab";
     }
 })
 
