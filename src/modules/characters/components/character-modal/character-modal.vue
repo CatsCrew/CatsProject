@@ -66,17 +66,14 @@ watch(() => visible, () => {
 onMounted(async () => {
   toggleBodyLock();
   let allImages = [];
-  if (cat?.referenceSheetsPath?.length) {
-    allImages.push(...cat.referenceSheetsPath);
+  if (cat?.referenceUrls?.length) {
+    allImages.push(...cat.referenceUrls);
   }
 
-  if (cat?.galleryImagePaths?.length) {
-    allImages.push(...cat.galleryImagePaths);
+  if (cat?.galleryUrls?.length) {
+    allImages.push(...cat.galleryUrls);
   }
 
-  allImages.forEach((imagePath) => {
-    const imageHref = new URL(imagePath, import.meta.url).href;
-    images.push(imageHref);
-  });
+  images = allImages;
 });
 </script>

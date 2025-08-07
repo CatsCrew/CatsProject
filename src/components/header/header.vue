@@ -66,7 +66,8 @@
               :key="menuItem.label">
               <li 
                 @click.stop="toggleDropdown(menuItem.id)"
-                v-on-click-outside="closeDropdown">
+                v-on-click-outside="closeDropdown"
+                :data-dropdown="menuItem.id">
                 <template v-if="menuItem.children">
                   {{ menuItem.label }}
                   <i
@@ -116,15 +117,14 @@ import Menu from 'primevue/menu';
 import { MenuItem } from '@/models/menu-item.model';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
-import { CatFilter } from '@/models/cat-filter.enum';
 import Typewriter from 'typewriter-effect/dist/core';
 import { vOnClickOutside } from '@vueuse/components'
-import { onClickOutside } from '@vueuse/core';
+import { CatFilter } from '@/models/cat-filter.enum';
 
 const cat$ = useCatsStore();
 const { isMobile } = $(storeToRefs(cat$));
 
-let openDropdownId = $ref(null);
+let openDropdownId = $ref<number>(null);
 
 const statusMessages = [
   "systems online",
@@ -136,15 +136,15 @@ const statusMessages = [
 const characterMenuItems: MenuItem[] = [
   {
     label: 'Aerocats',
-    to: { name: RouteNames.Characters, query: { t: CatFilter.Aerocats } },
+    to: { name: RouteNames.Aerocats },
   },
   {
     label: 'Landcats',
-    to: { name: RouteNames.Characters, query: { t: CatFilter.Landcats } },
+    to: { name: RouteNames.Landcats },
   },
   {
     label: 'Protos',
-    to: { name: RouteNames.Characters, query: { t: CatFilter.Protos } },
+    to: { name: RouteNames.Protos },
   }
 ];
 
@@ -193,7 +193,11 @@ function toggleDropdown(id: number) {
   openDropdownId = openDropdownId === id ? null : id;
 }
 
-function closeDropdown() {
+function closeDropdown(e: Event) {
+  const element = e.target as HTMLElement;
+  if (element.dataset.dropdown === openDropdownId?.toString()) {
+    return;
+  }
   openDropdownId = null;
 }
 

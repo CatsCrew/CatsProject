@@ -32,19 +32,6 @@ export const useCatsStore = defineStore('cats', {
     isMobile: () => {
         return window.innerWidth <= 600;
     },
-    filterCats(state: CatsState) {
-      const { aerocats, landcats, protos } = state;
-      return (filter: CatFilter): Cat[] => {
-        switch (filter) {
-          case CatFilter.Aerocats:
-            return aerocats;
-          case CatFilter.Landcats:
-            return landcats;
-          case CatFilter.Protos:
-            return protos;
-        }
-      }
-    },
     speciesSheetByCatAndLanguage(state: CatsState) {
       const { speciesSheets } = state;
       return (catType: CatType, language: Language): string[] => {
