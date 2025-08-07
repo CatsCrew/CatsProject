@@ -8,7 +8,7 @@ import type { SpeciesSheet } from "@/models/species-sheet.model";
 import type { Aerocat } from "@models/aerocat.model";
 
 export interface CatsState {
-    creators?: Creator[];
+    creators?: Record<string, Creator>;
     cats?: Cat[];
     aerocats?: Aerocat[];
     landcats?: Landcat[];

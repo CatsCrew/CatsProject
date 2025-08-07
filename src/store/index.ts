@@ -10,7 +10,8 @@ import { CatFilter } from '@/models/cat-filter.enum';
 import { Cat } from '@/models/cat.model';
 import { Language } from '@/models/language.enum';
 import { SpeciesSheet } from '@/models/species-sheet.model';
-import { UrlHelper } from '@/helper/url.helper';
+import { UiMapper } from '@/mappers/ui.mapper';
+import { Creator } from '@/models/creator.model';
 
 interface ModuleImportInterface {
   default: Object;
@@ -19,9 +20,9 @@ interface ModuleImportInterface {
 export const useCatsStore = defineStore('cats', {
   state: (): CatsState => ({
     creators: null,
-    aerocats: null,
-    landcats: null,
-    protos: null,
+    aerocats: [],
+    landcats: [],
+    protos: [],
     cats: null,
     speciesSheets: {} as Record<Language, SpeciesSheet>,
     loreDocuments: null,
@@ -61,22 +62,31 @@ export const useCatsStore = defineStore('cats', {
   },
   actions: {
     initialize() {
-      this.creators = creatorJson.creators;
-      this.aerocats = aerocatJson.aerocats.map(a => ({ ...a, type: CatType.Aerocat }));
-      this.landcats = landcatJson.landcats.map(l => ({ ...l, type: CatType.Landcat }));
-      this.protos = protoJson.protos.map(p => ({ ...p, type: CatType.Proto }));
-      this.loreDocuments = loreDocumentJson.documents;
+      const mappedCreators = UiMapper.toCreators(creatorJson.creators);
+      this.creators = {} as Record<string, Creator>;
+      mappedCreators.forEach(c => {
+        this.creators[c.name] = c;
+      });
 
+      aerocatJson?.aerocats?.forEach(a => {
+        const creator = this.creators[a.creator];
+        this.aerocats.push(UiMapper.toAerocat(a, creator));
+      });
+
+      landcatJson?.landcats?.forEach(l => {
+        const creator = this.creators[l.creator];
+        this.landcats.push(UiMapper.toLandcat(l, creator));
+      });
+
+      protoJson?.protos?.forEach(p => {
+        const creator = this.creators[p.creator];
+        this.landcats.push(UiMapper.toProto(p, creator));
+      })
+
+      this.loreDocuments = loreDocumentJson.documents;
       this.fetchSpeciesSheets();
 
       this.cats = [...this.aerocats, ...this.landcats, ...this.protos];
-      this.buildCatImagePaths();
-    },
-    buildCatImagePaths(): void {
-      this.cats.forEach(c => {
-        c.galleryImagePaths = c.galleryImagePaths?.map(g => UrlHelper.buildCharacterPath(c.type, g));
-        c.referenceSheetsPath = c.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(c.type, r));
-      });
     },
     fetchSpeciesSheets(): void {
       const speciesSheetsGlob = import.meta.glob<ModuleImportInterface>('/src/assets/images/species-sheets/**/*', { eager: true });

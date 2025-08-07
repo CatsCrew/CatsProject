@@ -21,4 +21,8 @@ export class UrlHelper {
 
         return `${this.CLOUDFRONT_URL}/${characterPath}`;
     }
+
+    static buildCreatorPath(name: string): string {
+        return `${this.CLOUDFRONT_URL}/profiles/${name}`;
+    }
 }

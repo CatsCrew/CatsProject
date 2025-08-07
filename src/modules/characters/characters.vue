@@ -34,7 +34,6 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, watch } from 'vue';
 import IconField from 'primevue/iconfield';
 import InputIcon from 'primevue/inputicon';
 import InputText from 'primevue/inputtext';
@@ -44,20 +43,22 @@ import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import { Cat } from '@/models/cat.model';
 import { CatFilter } from '@/models/cat-filter.enum';
-import { useRoute } from 'vue-router';
 import AerocatPlaceholder from '@assets/images/aerocat_placeholder.png';
 import LandcatPlaceholder from '@assets/images/landcat_placeholder.png';
 import ProtoPlaceholder from '@assets/images/proto_placeholder.png';
 
+const { category } = defineProps<{
+    category?: CatFilter;
+}>();
+
 let searchTerm = $ref<string>('');
 let showModal = $ref(false);
 let selectedCat = $ref<Cat>(null);
-let currentFilter = $ref<CatFilter>(CatFilter.Aerocats);
+let currentFilter = $ref<CatFilter>(category ?? CatFilter.Aerocats);
 
 const cats$ = useCatsStore();
 const { filterCats } = $(storeToRefs(cats$));
 
-const route = useRoute();
 const cats = $computed(() => filterCats(currentFilter));
 const isHandheldDevice = $computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
 
@@ -81,7 +82,7 @@ const placeholderCat = $computed<Cat>(() => {
 
     return {
         model: `Your ${catType} here!`,
-        galleryImagePaths: [placholderImage]
+        galleryUrls: [placholderImage]
     };
 });
 
@@ -101,10 +102,10 @@ const filteredCats = $computed(() => {
 
     const formattedSearchTerm = searchTerm.toLowerCase().trim();
 
-    return cats.filter((aerocat) => 
-        aerocat.name.toLowerCase().includes(formattedSearchTerm) ||
-        aerocat.model.toLowerCase().includes(formattedSearchTerm) || 
-        aerocat.creator.toLowerCase().includes(formattedSearchTerm)
+    return cats.filter((cat) => 
+        cat.name.toLowerCase().includes(formattedSearchTerm) ||
+        cat.model.toLowerCase().includes(formattedSearchTerm) || 
+        cat.creator.name.toLowerCase().includes(formattedSearchTerm)
     );
 });
 
@@ -117,12 +118,4 @@ function onModalClosed() {
     showModal = false;
 }
 
-onMounted(() => {
-    currentFilter = +route.query.t as CatFilter;
-});
-
-watch(() => route.query, () => {
-    currentFilter = +route.query.t as CatFilter;
-    searchTerm = '';
-});
 </script>

@@ -16,7 +16,7 @@
                     <img
                         class="cat-card-img"
                         alt="aerocat profile image"
-                        :src="cat.galleryImagePaths[0]"
+                        :src="cat.galleryUrls[0]"
                         :data-loading="loading"
                         @load="onImageLoad"/>
                 </DeferredContent>
@@ -36,8 +36,8 @@
             <div
                 v-if="cat?.creator"
                 class="creator">
-                <img class="creator-img" alt="creator profile image" :src="creatorAsset"/>
-                <span class="creator-name"> {{ cat?.creator }} </span>
+                <img class="creator-img" alt="creator profile image" :src="cat?.creator?.profileUrl"/>
+                <span class="creator-name"> {{ cat?.creator?.name }} </span>
             </div>
         </template>
     </Card>
@@ -59,12 +59,6 @@ const emit = defineEmits<{
 }>();
 
 let loading = $ref(true);
-const creatorAsset = $computed(() => {
-    if (!cat?.creator) 
-        return null;
-
-    return new URL(`/src/assets/images/creators/${cat.creator.toLowerCase().replaceAll(' ', '_')}.png`, import.meta.url).href;
-});
 
 function onAerocatClicked() {
     emit('cat-selected', cat);

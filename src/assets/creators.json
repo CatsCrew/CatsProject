@@ -2,18 +2,26 @@
     "creators": [
         {
             "name": "Presto",
-            "socials": {
-                "twitter": "https://twitter.com/handle",
-                "bluesky": "https://bsky.app/profile/handle"
-            },
-            "profileImage": "/assets/images/creators/presto.png"
+            "profileImage": "presto.png"
+        },
+        {
+            "name": "Karbine",
+            "profileImage": "karbine.png"
         },
         {
             "name": "NiceHatFox",
             "socials": {
                 "twitter": "https://x.com/Nicehatfox"
             },
-            "profileImage": "/assets/images/creators/nicehatfox.png"
+            "profileImage": "nicehatfox.png"
+        },
+        {
+            "name": "ToasTee",
+            "profileImage": "toastee.png"
+        },
+        {
+            "name": "Zephyr",
+            "profileImage": "zephyr.png"
         }
     ]
 }

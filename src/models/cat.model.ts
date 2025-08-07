@@ -1,11 +1,12 @@
 import { CatType } from "./cat-type.enum";
+import { Creator } from "./creator.model";
 
 export interface Cat {
-    creator?: string;
+    creator?: Creator;
     name?: string;
     type?: CatType;
     model?: string;
     description?: string;
-    referenceSheetsPath?: string[];
-    galleryImagePaths?: string[];
+    referenceUrls?: string[];
+    galleryUrls?: string[];
 }

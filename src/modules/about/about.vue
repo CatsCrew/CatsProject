@@ -39,7 +39,7 @@
                             <div class="creators-grid">
                                 <div class="creator">
                                     <div class="creator-avatar">
-                                        <img :src="Presto" class="creator-img"/>
+                                        <img :src="prestoImageUrl" class="creator-img"/>
                                     </div>
                                     <div class="creator-info">
                                         <div class="title">Species Owner</div>
@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="creator">
                                     <div class="creator-avatar">
-                                        <img :src="Karbine" class="creator-img"/>
+                                        <img :src="karbineImageUrl" class="creator-img"/>
                                     </div>
                                     <div class="creator-info">
                                         <div class="title">Species Owner</div>
@@ -82,8 +82,6 @@
 </template>
 
 <script setup lang="ts">
-import Presto from '@assets/images/creators/presto.png';
-import Karbine from '@assets/images/creators/karbine.png';
 import Card from '@/components/card/card.vue';
 import Banner from '@/components/banner/banner.vue';
 import { BannerType } from '@/models/banner-type.enum';
@@ -92,5 +90,8 @@ import { useCatsStore } from '@/store';
 
 const cats$ = useCatsStore();
 
-const { discordUrl } = $(storeToRefs(cats$));
+const { discordUrl, creators } = $(storeToRefs(cats$));
+
+const prestoImageUrl = $computed(() => creators['Presto']?.profileUrl);
+const karbineImageUrl = $computed(() => creators['Karbine']?.profileUrl);
 </script>
