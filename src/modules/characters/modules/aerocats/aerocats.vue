@@ -3,7 +3,7 @@
 <template>
     <div class="characters-container">
         <div class="characters-header">
-            <span class="characters-header-title">Hanger</span>
+            <span class="characters-header-title">Hangar</span>
             <IconField>
                 <InputIcon class="pi pi-search" />
                 <InputText type="text" v-model="searchTerm" placeholder="Search" />
