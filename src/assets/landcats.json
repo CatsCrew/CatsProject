@@ -19,6 +19,23 @@
                 "tetril_the_eod_vu/TETRIL-REFERENCE-1.png",
                 "tetril_the_eod_vu/TETRIL-REFERENCE-2.png"
             ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Hemet the HEMTT",
+            "model": "M977 HEMTT",
+            "galleryImagePaths": [
+                "Hemet/1.png",
+                "Hemet/2.png",
+                "Hemet/3.png",
+                "Hemet/4.png",
+                "Hemet/5.png",
+                "Hemet/6.png"
+            ],
+            "referenceSheetsPath": [
+                "Hemet/ref1.png",
+                "Hemet/ref2.png"
+            ]
         }
     ]
 }
