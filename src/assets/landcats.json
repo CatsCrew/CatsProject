@@ -26,10 +26,15 @@
             "model": "M977 HEMTT",
             "galleryImagePaths": [
                 "Hemet/1.png",
-                "Hemet/2.png"
+                "Hemet/2.png",
+                "Hemet/3.png",
+                "Hemet/4.png",
+                "Hemet/5.png",
+                "Hemet/6.png"
             ],
             "referenceSheetsPath": [
-                "Hemet/1.png"
+                "Hemet/ref1.png",
+                "Hemet/ref2.png"
             ]
         }
     ]
