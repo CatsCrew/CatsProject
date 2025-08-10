@@ -257,19 +257,43 @@
         },
         {
             "name": "ClockworkWolf",
-            "profileImage": "ClockworkWolf.png"
+            "profileImage": "ClockworkWolf.jpg"
         },
         {
             "name": "Unitlait",
-            "profileImage": "Unitlait.png"
+            "profileImage": "Unitlait.jpg"
         },
         {
             "name": "Y",
             "profileImage": "Y.png"
         },
         {
-            "name": "AipiY",
-            "profileImage": "Aipi.png"
+            "name": "Aipi",
+            "profileImage": "Aipi.jpg"
+        },
+        {
+            "name": "reshiramwings",
+            "profileImage": "reshiramwings.jpg"
+        },
+        {
+            "name": "Omega",
+            "profileImage": "Omega.jpg"
+        },
+        {
+            "name": "Shiloh",
+            "profileImage": "Shiloh.jpg"
+        },
+        {
+            "name": "Lyra",
+            "profileImage": "Lyra.jpg"
+        },
+        {
+            "name": "Umbra",
+            "profileImage": "Umbra.jpg"
+        },
+        {
+            "name": "Dozer",
+            "profileImage": "Dozer.jpg"
         }
     ]
 }

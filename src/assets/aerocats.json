@@ -109,7 +109,7 @@
         {
             "creator": "Presto",
             "name": "Hopekins the Nighthawk",
-            "model": "F-117 Nighthawk",
+            "model": "F-117A Nighthawk",
             "galleryImagePaths": [
                 "Hopekins the Nighthawk/T.png",
                 "Hopekins the Nighthawk/1.png",
@@ -121,7 +121,7 @@
         {
             "creator": "NiceHatFox",
             "name": "Flit the Nighthawk",
-            "model": "F-117 Nighthawk",
+            "model": "F-117A Nighthawk",
             "galleryImagePaths": [
                 "flit_the_nighthawk/T.png",
                 "flit_the_nighthawk/1.png",
@@ -457,7 +457,7 @@
         {
             "creator": "Cee",
             "name": "Shikra the Strikeeagle",
-            "model": "F-15E Strikeeagle",
+            "model": "F-15E Strike eagle",
             "galleryImagePaths": [
                 "Shikra the Strikeeagle/T.png"
             ],
@@ -591,7 +591,7 @@
         {
             "creator": "BanditboiiZ",
             "name": "N1-CK the Nighthawk",
-            "model": "F-117 Nighthawk",
+            "model": "F-117A Nighthawk",
             "galleryImagePaths": [
                 "N1-CK the Nighthawk/T.png"
             ],
@@ -1023,7 +1023,7 @@
         {
             "creator": "Trocke las",
             "name": "Te-Lum",
-            "model": "B-2/F-117",
+            "model": "B-2/F-117A",
             "galleryImagePaths": [
                 "Te-Lum/T.png"
             ],
@@ -1454,6 +1454,194 @@
              "referenceSheetsPath": [
                 "Erebus the Voodoo/R1.png",
                 "Erebus the Voodoo/R2.png"
+            ]
+        },
+        {
+            "creator": "reshiramwings",
+            "name": "Pace the Arrow",
+            "model": "CF-105 Arrow",
+            "galleryImagePaths": [
+                "Pace the Arrow/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Pace the Arrow/R1.png"
+            ]
+        },
+        {
+            "creator": "reshiramwings",
+            "name": "Morgan the GlobalRanger",
+            "model": "Bell 429 GlobalRanger",
+            "galleryImagePaths": [
+                "Morgan the GlobalRanger/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Morgan the GlobalRanger/R1.png"
+            ]
+        },
+        {
+            "creator": "Omega",
+            "name": "Hema the Beluga",
+            "model": "A330-743L Beluga XL",
+            "galleryImagePaths": [
+                "Hema the Beluga/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Hema the Beluga/R1.png"
+            ]
+        },
+        {
+            "creator": "Shiloh",
+            "name": "Delta the Nighthawk",
+            "model": "F-117A Nighthawk",
+            "galleryImagePaths": [
+                "Delta the Nighthawk/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Delta the Nighthawk/R1.png"
+            ]
+        },
+        {
+            "creator": "Lyra",
+            "name": "Katze the PW-MK.1",
+            "model": "PW-MK.1 (PW)",
+            "galleryImagePaths": [
+                "Katze the PW-MK.1/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Katze the PW-MK.1/R1.png"
+            ]
+        },
+        {
+            "creator": "Luttapon",
+            "name": "Hans the Apache",
+            "model": "AH-64D Apache",
+            "galleryImagePaths": [
+                "Hans the Apache/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Hans the Apache/R1.png"
+            ]
+        },
+        {
+            "creator": "Umbra",
+            "name": "Puma the K/A-1",
+            "model": "K/A-1 Puma (OF)",
+            "galleryImagePaths": [
+                "Puma the K/A-1/T.png",
+                "Puma the K/A-1/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Puma the K/A-1/R1.png"
+            ]
+        },
+        {
+            "creator": "Umbra",
+            "name": "Dart the X-43a",
+            "model": "X-43a the Dart",
+            "galleryImagePaths": [
+                "Dart the X-43a/T.png",
+                "Dart the X-43a/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Dart the X-43a/R1.png"
+            ]
+        },
+        {
+            "creator": "Umbra",
+            "name": "Sentinel the UMBRA ll",
+            "model": "X-43a the Dart",
+            "galleryImagePaths": [
+                "Sentinel the UMBRA ll/T.png",
+                "Sentinel the UMBRA ll/1.png",
+                "Sentinel the UMBRA ll/2.png",
+                "Sentinel the UMBRA ll/3.png"
+            ],
+             "referenceSheetsPath": [
+                "Sentinel the UMBRA ll/R1.png"
+            ]
+        },
+        {
+            "creator": "Umbra",
+            "name": "Raider the Strike eagle",
+            "model": "F-15E Strike eagle",
+            "galleryImagePaths": [
+                "Raider the Strike eagle/T.png",
+                "Raider the Strike eagle/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Raider the Strike eagle/R1.png"
+            ]
+        },
+        {
+            "creator": "Umbra",
+            "name": "Chief the Aardvark",
+            "model": "F-111A Aardvark",
+            "galleryImagePaths": [
+                "Chief the Aardvark/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Chief the Aardvark/R1.png"
+            ]
+        },
+        {
+            "creator": "Umbra",
+            "name": "Ray the X-47B",
+            "model": "X-47B",
+            "galleryImagePaths": [
+                "Ray the X-47B/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Ray the X-47B/R1.png"
+            ]
+        },
+        {
+            "creator": "Umbra",
+            "name": "Vulcan the Arsenal bird",
+            "model": "Delta Dynamics Arsenal Bird",
+            "galleryImagePaths": [
+                "Vulcan the Arsenal bird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Vulcan the Arsenal bird/R1.png"
+            ]
+        },
+        {
+            "creator": "Umbra",
+            "name": "Arc the Akron-Class",
+            "model": "USN Akron-Class Airship",
+            "galleryImagePaths": [
+                "Arc the Akron-Class/T.png",
+                "Arc the Akron-Class/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Arc the Akron-Class/R1.png"
+            ]
+        },
+        {
+            "creator": "Dozer",
+            "name": "Fritz the DR1",
+            "model": "Dreidecker.1",
+            "galleryImagePaths": [
+                "Fritz the DR1/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Fritz the DR1/R1.png",
+                "Fritz the DR1/R2.png",
+                "Fritz the DR1/R3.png",
+                "Fritz the DR1/R4.png"
+            ]
+        },
+        {
+            "creator": "Dozer",
+            "name": "Oliver the Camel",
+            "model": "Sopwith Camel 1917",
+            "galleryImagePaths": [
+                "Oliver the Camel/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Oliver the Camel/R1.png",
+                "Oliver the Camel/R2.png",
+                "Oliver the Camel/R3.png"
             ]
         }
     ]
