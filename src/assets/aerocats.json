@@ -541,6 +541,29 @@
              "referenceSheetsPath": [
                 "Mavi the Fullback/R1.png"
             ]
+        },
+        {
+            "creator": "vanny1424",
+            "name": "X the F/A XX",
+            "model": "F/A XX",
+            "galleryImagePaths": [
+                "X the F/A XX/T.png",
+                "X the F/A XX/1.png"
+            ],
+             "referenceSheetsPath": [
+                "X the F/A XX/R1.png"
+            ]
+        },
+        {
+            "creator": "vanny1424",
+            "name": "Cobra the Warthog",
+            "model": "A-10 Warthog",
+            "galleryImagePaths": [
+                "Cobra the Warthog/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Cobra the Warthog/R1.png"
+            ]
         }
     ]
 }

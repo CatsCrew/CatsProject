@@ -61,11 +61,11 @@
         },
         {
             "name": "Merlin",
-            "profileImage": "Merlin.png"
+            "profileImage": "Merlin.jpg"
         },
         {
             "name": "Katla",
-            "profileImage": "Katla.png"
+            "profileImage": "Katla.jpg"
         },
         {
             "name": "CathyPalug",
@@ -90,6 +90,10 @@
         {
             "name": "Fael Lysander",
             "profileImage": "Fael Lysander.jpg"
+        },
+        {
+            "name": "vanny1424",
+            "profileImage": "vanny1424.jpg"
         }
     ]
 }
