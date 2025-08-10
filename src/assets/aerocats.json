@@ -53,7 +53,7 @@
         {
             "creator": "Presto",
             "name": "Ray the Sabre",
-            "model": "F-86-F Sabre",
+            "model": "F-86F Sabre",
             "galleryImagePaths": [
                 "Ray the Sabre/T.png",
                 "Ray the Sabre/1.png",
@@ -65,7 +65,7 @@
         {
             "creator": "Presto",
             "name": "Aardk the Aardvark",
-            "model": "F111-F Aardvark",
+            "model": "F-111F Aardvark",
             "galleryImagePaths": [
                 "Aardk the Aardvark/T.png",
                 "Aardk the Aardvark/1.png",
@@ -275,7 +275,7 @@
         {
             "creator": "Starfoth",
             "name": "Raven the Lightning II",
-            "model": "F35C",
+            "model": "F-35C",
             "galleryImagePaths": [
                 "Raven the Lightning II/T.png",
                 "Raven the Lightning II/1.png",
@@ -912,7 +912,7 @@
         {
             "creator": "Sentionyx",
             "name": "Thunderlight the Lightning ll",
-            "model": "F35B Lightning ll",
+            "model": "F-35B Lightning ll",
             "galleryImagePaths": [
                 "Thunderlight the Lightning ll/T.png",
                 "Thunderlight the Lightning ll/1.png",
@@ -1007,6 +1007,179 @@
             ],
              "referenceSheetsPath": [
                 "Yngvi the Raptor/R1.png"
+            ]
+        },
+        {
+            "creator": "Félix Auréle",
+            "name": "Lexi the L3X1",
+            "model": "JU-57 CSG(OF)",
+            "galleryImagePaths": [
+                "Lexi the L3X1/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Lexi the L3X1/R1.png"
+            ]
+        },
+        {
+            "creator": "Trocke las",
+            "name": "Te-Lum",
+            "model": "B-2/F-117",
+            "galleryImagePaths": [
+                "Te-Lum/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Te-Lum/R1.png",
+                "Te-Lum/R2.png"
+            ]
+        },
+        {
+            "creator": "Perci",
+            "name": "Perci the Airbus",
+            "model": "A318 Airbus",
+            "galleryImagePaths": [
+                "Perci the Airbus/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Perci the Airbus/R1.png"
+            ]
+        },
+        {
+            "creator": "Perci",
+            "name": "Ensenari the Raider",
+            "model": "B-21 Raider",
+            "galleryImagePaths": [
+                "Ensenari the Raider/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Ensenari the Raider/R1.png"
+            ]
+        },
+        {
+            "creator": "Skyros",
+            "name": "Rancav the 2XS",
+            "model": "Raven 2XS",
+            "galleryImagePaths": [
+                "Rancav the 2XS/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Rancav the 2XS/R1.png"
+            ]
+        },
+        {
+            "creator": "Xyro",
+            "name": "Somme the Kingfish",
+            "model": "Convair Kingfish",
+            "galleryImagePaths": [
+                "Somme the Kingfish/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Somme the Kingfish/R1.png"
+            ]
+        },
+        {
+            "creator": "Allis",
+            "name": "Torbar the Frogfoot",
+            "model": "Su-25 Frogfoot",
+            "galleryImagePaths": [
+                "Torbar the Frogfoot/T.png",
+                "Torbar the Frogfoot/1.png",
+                "Torbar the Frogfoot/2.png",
+                "Torbar the Frogfoot/3.png",
+                "Torbar the Frogfoot/4.png"
+            ],
+             "referenceSheetsPath": [
+                "Torbar the Frogfoot/R1.png"
+            ]
+        },
+        {
+            "creator": "Nexo",
+            "name": "Splint the Lighting ll",
+            "model": "F-35B Lightning ll",
+            "galleryImagePaths": [
+                "Splint the Lighting ll/T.png",
+                "Splint the Lighting ll/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Splint the Lighting ll/R1.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Pidgeon the Lancer",
+            "model": "B-1B Lancer",
+            "galleryImagePaths": [
+                "Pidgeon the Lancer/T.png",
+                "Pidgeon the Lancer/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Pidgeon the Lancer/R1.png",
+                "Pidgeon the Lancer/R2.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Eleanore the Wyvern",
+            "model": "Wyvern S.4",
+            "galleryImagePaths": [
+                "Eleanore the Wyvern/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Eleanore the Wyvern/R1.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Calibarn the Starfighter",
+            "model": "F-104 Starfighter",
+            "galleryImagePaths": [
+                "Calibarn the Starfighter/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Calibarn the Starfighter/R1.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Chip the Lightning ll",
+            "model": "F-35B Lightning ll",
+            "galleryImagePaths": [
+                "Chip the Lightning ll/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Chip the Lightning ll/R1.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Nova the Darkstar",
+            "model": "SR-72 Darkstar",
+            "galleryImagePaths": [
+                "Nova the Darkstar/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Nova the Darkstar/R1.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Blackburn the Buccanneer S.2B",
+            "model": "Buccanneer S.2B",
+            "galleryImagePaths": [
+                "Blackburn the Buccanneer S.2B/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Blackburn the Buccanneer S.2B/R1.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "David the Super Etendard",
+            "model": "DB Super Etendard",
+            "galleryImagePaths": [
+                "David the Super Etendard/T.png"
+            ],
+             "referenceSheetsPath": [
+                "David the Super Etendard/R1.png"
             ]
         }
     ]
