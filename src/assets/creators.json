@@ -194,6 +194,34 @@
         {
             "name": "YuuStrand_69",
             "profileImage": "YuuStrand_69.jpg"
+        },
+        {
+            "name": "Shark",
+            "profileImage": "Shark.jpg"
+        },
+        {
+            "name": "Min",
+            "profileImage": "Min.jpg"
+        },
+        {
+            "name": "Saqreed",
+            "profileImage": "Saqreed.jpg"
+        },
+        {
+            "name": "Reverb",
+            "profileImage": "Reverb.jpg"
+        },
+        {
+            "name": "Mocha",
+            "profileImage": "Mocha.jpg"
+        },
+        {
+            "name": "Von",
+            "profileImage": "Von.jpg"
+        },
+        {
+            "name": "Xosh Nadoran",
+            "profileImage": "Xosh Nadoran.jpg"
         }
     ]
 }

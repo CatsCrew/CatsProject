@@ -1181,6 +1181,120 @@
              "referenceSheetsPath": [
                 "David the Super Etendard/R1.png"
             ]
+        },
+        {
+            "creator": "Shark",
+            "name": "Archie the Archangel",
+            "model": "A-12 Archangel",
+            "galleryImagePaths": [
+                "Archie the Archangel/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Archie the Archangel/R1.png"
+            ]
+        },
+        {
+            "creator": "Shark",
+            "name": "Dasher the Black Dart",
+            "model": "HVT-2 Black Dart",
+            "galleryImagePaths": [
+                "Dasher the Black Dart/T.png",
+                "Dasher the Black Dart/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Dasher the Black Dart/R1.png",
+                "Dasher the Black Dart/R2.png"
+            ]
+        },
+        {
+            "creator": "Shark",
+            "name": "Ace the Ghostrider",
+            "model": "AC-130J Ghostrider",
+            "galleryImagePaths": [
+                "Ace the Ghostrider/T.png",
+                "Ace the Ghostrider/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Ace the Ghostrider/R1.png",
+                "Ace the Ghostrider/R2.png"
+            ]
+        },
+        {
+            "creator": "Min",
+            "name": "Felo the Felon",
+            "model": "SU-57 Felon",
+            "galleryImagePaths": [
+                "Felo the Felon/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Felo the Felon/R1.png"
+            ]
+        },
+        {
+            "creator": "Saqreed",
+            "name": "Osiris the Scaneagle",
+            "model": "MQ-27 Scaneagle",
+            "galleryImagePaths": [
+                "Osiris the Scaneagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Osiris the Scaneagle/R1.png"
+            ]
+        },
+        {
+            "creator": "schnouza",
+            "name": "Joey the Super tucano",
+            "model": "A-29 Super tucano",
+            "galleryImagePaths": [
+                "Joey the Super tucano/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Joey the Super tucano/R1.png"
+            ]
+        },
+        {
+            "creator": "Mocha",
+            "name": "Reirrah the Harrier",
+            "model": "AV-8B Harrier II",
+            "galleryImagePaths": [
+                "Reirrah the Harrier/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Reirrah the Harrier/R1.png"
+            ]
+        },
+        {
+            "creator": "Von",
+            "name": "Von the crusader",
+            "model": "F8U-2 Crusader",
+            "galleryImagePaths": [
+                "Von the crusader/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Von the crusader/R1.png"
+            ]
+        },
+        {
+            "creator": "Xosh Nadoran",
+            "name": "Namo the Fighting falcon",
+            "model": "F-16CM Block 52 Fighting falcon",
+            "galleryImagePaths": [
+                "Namo the Fighting falcon/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Namo the Fighting falcon/R1.png"
+            ]
+        },
+        {
+            "creator": "Xosh Nadoran",
+            "name": "Rafael the Rafale",
+            "model": "Dassault Rafale",
+            "galleryImagePaths": [
+                "Rafael the Rafale/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Rafael the Rafale/R1.png"
+            ]
         }
     ]
 }
