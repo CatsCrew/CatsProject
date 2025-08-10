@@ -55,7 +55,7 @@ const isHandheldDevice = $computed(() => "ontouchstart" in window || navigator.m
 
 const placeholderCat = $computed<Cat>(() => {
     return {
-        model: `Your Landcat here!`,
+        model: `Your Aerocat here!`,
         galleryUrls: [AerocatPlaceholder]
     };
 });
