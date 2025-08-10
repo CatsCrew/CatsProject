@@ -5,14 +5,24 @@
             "name": "Shell the Sheridan",
             "model": "M551 Sheridan",
             "galleryImagePaths": [
-                "shell_the_sheridan/1.png"
-            ]
+                "shell_the_sheridan/T.png",
+                "shell_the_sheridan/1.png",
+                "shell_the_sheridan/2.png",
+                "shell_the_sheridan/3.png",
+                "shell_the_sheridan/4.png",
+                "shell_the_sheridan/5.png"
+            ],
+            "referenceSheetsPath": [
+                "shell_the_sheridan/R1.png",
+                "shell_the_sheridan/R2.png"
+            ]   
         },
         {
             "creator": "ToasTee",
             "name": "Tetril the EOD Vu",
             "model": "EOD Vehicle Unit",
             "galleryImagePaths": [
+                "tetril_the_eod_vu/T.png",
                 "tetril_the_eod_vu/tetril.png"
             ],
             "referenceSheetsPath": [
@@ -42,6 +52,7 @@
             "name": "Vee the Humvee",
             "model": "M1151 HMMWV",
             "galleryImagePaths": [
+                "Vee/T.png",
                 "Vee/1.png"
             ],
             "referenceSheetsPath": [
