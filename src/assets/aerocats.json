@@ -140,6 +140,71 @@
             ]
         },
         {
+            "creator": "Karbine",
+            "name": "Pahl the Fighting-Falcon",
+            "model": "F-16C Fighting-Falcon",
+            "galleryImagePaths": [
+                "Pahl the Fighting-Falcon/T.png",
+                "Pahl the Fighting-Falcon/1.png",
+                "Pahl the Fighting-Falcon/2.png",
+                "Pahl the Fighting-Falcon/3.png",
+                "Pahl the Fighting-Falcon/4.png",
+                "Pahl the Fighting-Falcon/5.png",
+                "Pahl the Fighting-Falcon/6.png",
+                "Pahl the Fighting-Falcon/7.png",
+                "Pahl the Fighting-Falcon/8.png",
+                "Pahl the Fighting-Falcon/9.png"
+            ],
+             "referenceSheetsPath": [
+                "Pahl the Fighting-Falcon/R1.png",
+                "Pahl the Fighting-Falcon/R2.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Tomm the Phantom II",
+            "model": "F-4J Phantom II",
+            "galleryImagePaths": [
+                "Tomm the Phantom II/T.png",
+                "Tomm the Phantom II/1.png",
+                "Tomm the Phantom II/2.png",
+                "Tomm the Phantom II/3.png",
+                "Tomm the Phantom II/4.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Fleric the Blackhawk",
+            "model": "UH-60L Blackhawk",
+            "galleryImagePaths": [
+                "Fleric the Blackhawk/T.png",
+                "Fleric the Blackhawk/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Fleric the Blackhawk/R1.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Kamorph the Alligator",
+            "model": "Ka-52 Alligator",
+            "galleryImagePaths": [
+                "Kamorph the Alligator/T.png",
+                "Kamorph the Alligator/1.png",
+                "Kamorph the Alligator/2.png",
+                "Kamorph the Alligator/3.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Bravo the Hawk",
+            "model": "BAE Hawk",
+            "galleryImagePaths": [
+                "Bravo the Hawk/T.png",
+                "Bravo the Hawk/1.png"
+            ]
+        },
+        {
             "creator": "Zephyr",
             "name": "Bolt the Raptor",
             "model": "F22",
