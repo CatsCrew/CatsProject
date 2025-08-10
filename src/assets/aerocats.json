@@ -564,6 +564,153 @@
              "referenceSheetsPath": [
                 "Cobra the Warthog/R1.png"
             ]
+        },
+        {
+            "creator": "One",
+            "name": "One the Blackbird",
+            "model": "SR-71 Blackbird",
+            "galleryImagePaths": [
+                "One the Blackbird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "One the Blackbird/R1.png",
+                "One the Blackbird/R2.png"
+            ]
+        },
+        {
+            "creator": "bawomp",
+            "name": "Erra the Spirit",
+            "model": "B-2 Spirit",
+            "galleryImagePaths": [
+                "Erra the Spirit/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Erra the Spirit/R1.png"
+            ]
+        },
+        {
+            "creator": "BanditboiiZ",
+            "name": "N1-CK the Nighthawk",
+            "model": "F-117 Nighthawk",
+            "galleryImagePaths": [
+                "N1-CK the Nighthawk/T.png"
+            ],
+             "referenceSheetsPath": [
+                "N1-CK the Nighthawk/R1.png",
+                "N1-CK the Nighthawk/R2.png"
+            ]
+        },
+        {
+            "creator": "Asteri",
+            "name": "Vanta the Blackbird",
+            "model": "SR-71 Blackbird",
+            "galleryImagePaths": [
+                "Vanta the Blackbird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Vanta the Blackbird/R1.png"
+            ]
+        },
+        {
+            "creator": "Asteri",
+            "name": "Dr.Astro the TFARA",
+            "model": "X-36 TFARA",
+            "galleryImagePaths": [
+                "Dr.Astro the TFARA/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Dr.Astro the TFARA/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Harry the Harrier",
+            "model": "Harrier FRS.1",
+            "galleryImagePaths": [
+                "Harry the Harrier/T.png",
+                "Harry the Harrier/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Harry the Harrier/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Hornet the Super hornet",
+            "model": "F/A 18E Super hornet",
+            "galleryImagePaths": [
+                "Hornet the Super hornet/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Hornet the Super hornet/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Mira the Mirage",
+            "model": "F1C Mirage",
+            "galleryImagePaths": [
+                "Mira the Mirage/T.png",
+                "Mira the Mirage/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Mira the Mirage/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Tornado the Tornado",
+            "model": "Tornado IDS",
+            "galleryImagePaths": [
+                "Tornado the Tornado/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Tornado the Tornado/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Anatoly the Fargo",
+            "model": "MIG-9 Fargo",
+            "galleryImagePaths": [
+                "Anatoly the Fargo/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Anatoly the Fargo/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Sasha the Beagle",
+            "model": "IL-28 Beagle",
+            "galleryImagePaths": [
+                "Sasha the Beagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sasha the Beagle/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Mangusta the Mangusta",
+            "model": "A129 Mangusta",
+            "galleryImagePaths": [
+                "Mangusta the Mangusta/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mangusta the Mangusta/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Viper the Viper",
+            "model": "AH-1Z Viper",
+            "galleryImagePaths": [
+                "Viper the Viper/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Viper the Viper/R1.png"
+            ]
         }
     ]
 }
