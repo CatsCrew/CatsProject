@@ -36,6 +36,18 @@
                 "Hemet/Ref.png",
                 "Hemet/Ref2.png"
             ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Vee the Humvee",
+            "model": "M1151 HMMWV",
+            "galleryImagePaths": [
+                "Vee/1.png",
+            ],
+            "referenceSheetsPath": [
+                "Vee/R1.png",
+                "Vee/R2.png"
+            ]
         }
     ]
 }
