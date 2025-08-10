@@ -33,7 +33,7 @@
         },
         {
             "name": "Neutral Horizons",
-            "profileImage": "Neutral Horizons.png"
+            "profileImage": "Neutral Horizons.jpg"
         },
         {
             "name": "Starfoth",
@@ -57,7 +57,39 @@
         },
         {
             "name": "Mackenzie",
-            "profileImage": "Mackenzie.png"
+            "profileImage": "Mackenzie.jpg"
+        },
+        {
+            "name": "Merlin",
+            "profileImage": "Merlin.png"
+        },
+        {
+            "name": "Katla",
+            "profileImage": "Katla.png"
+        },
+        {
+            "name": "CathyPalug",
+            "profileImage": "CathyPalug.jpg"
+        },
+        {
+            "name": "Cyrat",
+            "profileImage": "Cyrat.png"
+        },
+        {
+            "name": "Cee",
+            "profileImage": "Cee.png"
+        },
+        {
+            "name": "JaxtheKingRebal",
+            "profileImage": "JaxtheKingRebal.jpg"
+        },
+        {
+            "name": "Sandomite",
+            "profileImage": "Sandomite.jpg"
+        },
+        {
+            "name": "Fael Lysander",
+            "profileImage": "Fael Lysander.jpg"
         }
     ]
 }

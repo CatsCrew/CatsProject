@@ -273,7 +273,7 @@
             ]
         },
         {
-            "creator": "Starpoth",
+            "creator": "Starfoth",
             "name": "Raven the Lightning II",
             "model": "F35C",
             "galleryImagePaths": [
@@ -314,20 +314,20 @@
             "name": "Buff the Strarofortress",
             "model": "B-52 Strarofortress",
             "galleryImagePaths": [
-                "Buff the Strarofortress/T.png",
-                "Buff the Strarofortress/1.png",
-                "Buff the Strarofortress/2.png",
-                "Buff the Strarofortress/3.png",
-                "Buff the Strarofortress/4.png",
-                "Buff the Strarofortress/5.png",
-                "Buff the Strarofortress/6.png",
-                "Buff the Strarofortress/7.png",
-                "Buff the Strarofortress/8.png",
-                "Buff the Strarofortress/9.png"
+                "Buff the strarofortress/T.png",
+                "Buff the strarofortress/1.png",
+                "Buff the strarofortress/2.png",
+                "Buff the strarofortress/3.png",
+                "Buff the strarofortress/4.png",
+                "Buff the strarofortress/5.png",
+                "Buff the strarofortress/6.png",
+                "Buff the strarofortress/7.png",
+                "Buff the strarofortress/8.png",
+                "Buff the strarofortress/9.png"
             ],
              "referenceSheetsPath": [
-                "Buff the Strarofortress/R1.png",
-                "Buff the Strarofortress/R2.png"
+                "Buff the strarofortress/R1.png",
+                "Buff the strarofortress/R2.png"
             ]
         },
         {
@@ -382,6 +382,164 @@
             ],
              "referenceSheetsPath": [
                 "Mirage the Blackbird/R1.png"
+            ]
+        },
+        {
+            "creator": "Merlin",
+            "name": "Raijin the Shinden",
+            "model": "J7W2 Shinden",
+            "galleryImagePaths": [
+                "Raijin the Shinden/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Raijin the Shinden/R1.png",
+                "Raijin the Shinden/R2.png"
+            ]
+        },
+        {
+            "creator": "Merlin",
+            "name": "Leif the Viking",
+            "model": "S-3 Viking",
+            "galleryImagePaths": [
+                "Leif the Viking/T.png",
+                "Leif the Viking/1.png",
+                "Leif the Viking/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Leif the Viking/R1.png"
+            ]
+        },
+        {
+            "creator": "Merlin",
+            "name": "Package the Skorpion",
+            "model": "PZL 230 Skorpion",
+            "galleryImagePaths": [
+                "Package the Skorpion/T.png",
+                "Package the Skorpion/1.png"
+            ]
+        },
+        {
+            "creator": "Katla",
+            "name": "Jhett the Raptor",
+            "model": "F-22 Raptor",
+            "galleryImagePaths": [
+                "Jhett the raptor/T.png",
+                "Jhett the raptor/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Jhett the raptor/R1.png"
+            ]
+        },
+        {
+            "creator": "CathyPalug",
+            "name": "Felix the Eagle II",
+            "model": "F-15EX Eagle ll",
+            "galleryImagePaths": [
+                "Felix the Eagle II/T.png",
+                "Felix the Eagle II/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Felix the Eagle II/R1.png"
+            ]
+        },
+        {
+            "creator": "Cyrat",
+            "name": "Otto the Twin Otter",
+            "model": "DHC-6 Twin Otter",
+            "galleryImagePaths": [
+                "Otto the Twin Otter/T.png",
+                "Otto the Twin Otter/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Otto the Twin Otter/R1.png"
+            ]
+        },
+        {
+            "creator": "Cee",
+            "name": "Shikra the Strikeeagle",
+            "model": "F-15E Strikeeagle",
+            "galleryImagePaths": [
+                "Shikra the Strikeeagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Shikra the Strikeeagle/R1.png"
+            ]
+        },
+        {
+            "creator": "JaxtheKingRebal",
+            "name": "Mustang the Mustang",
+            "model": "P-51D Mustang",
+            "galleryImagePaths": [
+                "Mustang the Mustang/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mustang the Mustang/R1.png"
+            ]
+        },
+        {
+            "creator": "JaxtheKingRebal",
+            "name": "Brigade the Osprey",
+            "model": "V-22 Osprey",
+            "galleryImagePaths": [
+                "Brigade the Osprey/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Brigade the Osprey/R1.png"
+            ]
+        },
+        {
+            "creator": "Sandomite",
+            "name": "Eddie the Hawkeye",
+            "model": "E-2D Hawkeye",
+            "galleryImagePaths": [
+                "Eddie the Hawkeye/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Eddie the Hawkeye/R1.png"
+            ]
+        },
+        {
+            "creator": "Sandomite",
+            "name": "Lily the Dragonlady",
+            "model": "U-2 Dragonlady",
+            "galleryImagePaths": [
+                "Lily the Dragonlady/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Lily the Dragonlady/R1.png"
+            ]
+        },
+        {
+            "creator": "Sandomite",
+            "name": "Rem the Arsenal bird",
+            "model": "Arsenal Bird",
+            "galleryImagePaths": [
+                "Rem the Arsenal bird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Rem the Arsenal bird/R1.png"
+            ]
+        },
+        {
+            "creator": "Sandomite",
+            "name": "Ember the MQ-101",
+            "model": "MQ-101",
+            "galleryImagePaths": [
+                "Ember the MQ-101/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Ember the MQ-101/R1.png"
+            ]
+        },
+        {
+            "creator": "Fael Lysander",
+            "name": "Mavi the Fullback",
+            "model": "Su-34 Fullback",
+            "galleryImagePaths": [
+                "Mavi the Fullback/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mavi the Fullback/R1.png"
             ]
         }
     ]
