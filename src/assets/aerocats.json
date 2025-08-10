@@ -5,7 +5,28 @@
             "name": "Patriot Panther",
             "model": "F9F-5",
             "galleryImagePaths": [
-                "patriot_panther/1.png"
+                "patriot_panther/T.png",
+                "patriot_panther/1.png",
+                "patriot_panther/2.png",
+                "patriot_panther/3.png",
+                "patriot_panther/4.png",
+                "patriot_panther/5.png",
+                "patriot_panther/6.png",
+                "patriot_panther/7.png",
+                "patriot_panther/8.png",
+                "patriot_panther/9.png",
+                "patriot_panther/10.png",
+                "patriot_panther/11.png",
+                "patriot_panther/12.png",
+                "patriot_panther/13.png",
+                "patriot_panther/14.png",
+                "patriot_panther/15.png",
+                "patriot_panther/16.png"
+            ],
+             "referenceSheetsPath": [
+                "patriot_panther/R1.png",
+                "patriot_panther/R2.png",
+                "patriot_panther/R3.png"
             ]
         },
         {
@@ -13,7 +34,76 @@
             "name": "Coo the Cougar",
             "model": "F9F-7",
             "galleryImagePaths": [
-                "coo_the_cougar/1.png"
+                "coo_the_cougar/T.png",
+                "coo_the_cougar/1.png",
+                "coo_the_cougar/2.png",
+                "coo_the_cougar/3.png",
+                "coo_the_cougar/4.png",
+                "coo_the_cougar/5.png",
+                "coo_the_cougar/6.png",
+                "coo_the_cougar/7.png",
+                "coo_the_cougar/8.png"
+            ],
+             "referenceSheetsPath": [
+                "coo_the_cougar/R1.png",
+                "coo_the_cougar/R2.png",
+                "coo_the_cougar/R3.png"
+            ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Ray the Sabre",
+            "model": "F-86-F",
+            "galleryImagePaths": [
+                "Ray the Sabre/T.png",
+                "Ray the Sabre/1.png",
+                "Ray the Sabre/2.png",
+                "Ray the Sabre/3.png",
+                "Ray the Sabre/4.png"
+            ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Aardk the Aardvark",
+            "model": "F111-F",
+            "galleryImagePaths": [
+                "Aardk the Aardvark/T.png",
+                "Aardk the Aardvark/1.png",
+                "Aardk the Aardvark/2.png",
+                "Aardk the Aardvark/3.png",
+                "Aardk the Aardvark/4.png",
+                "Aardk the Aardvark/5.png",
+                "Aardk the Aardvark/6.png",
+                "Aardk the Aardvark/7.png",
+                "Aardk the Aardvark/8.png",
+                "Aardk the Aardvark/9.png",
+                "Aardk the Aardvark/10.png",
+                "Aardk the Aardvark/11.png"
+            ],
+             "referenceSheetsPath": [
+                "Aardk the Aardvark/R1.png",
+                "Aardk the Aardvark/R2.png",
+                "Aardk the Aardvark/R3.png"
+            ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Lancer the Lancer",
+            "model": "B-1B Lancer",
+            "galleryImagePaths": [
+                "Lancer the Lancer/T.png",
+                "Lancer the Lancer/1.png",
+                "Lancer the Lancer/2.png",
+                "Lancer the Lancer/3.png",
+                "Lancer the Lancer/4.png",
+                "Lancer the Lancer/5.png",
+                "Lancer the Lancer/6.png",
+                "Lancer the Lancer/7.png",
+                "Lancer the Lancer/8.png",
+                "Lancer the Lancer/9.png"
+            ],
+             "referenceSheetsPath": [
+                "Lancer the Lancer/R1.png"
             ]
         },
         {
