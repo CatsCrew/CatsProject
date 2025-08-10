@@ -247,7 +247,7 @@
         {
             "creator": "Zephyr",
             "name": "Bolt the Raptor",
-            "model": "F22A Raptor",
+            "model": "F-22A Raptor",
             "galleryImagePaths": [
                 "bolt_the_raptor/BOLT-1.png",
                 "bolt_the_raptor/BOLT-2.png"
@@ -901,7 +901,7 @@
         {
             "creator": "Sentionyx",
             "name": "F22A the Raptor",
-            "model": "F22A Raptor",
+            "model": "F-22A Raptor",
             "galleryImagePaths": [
                 "F22A the Raptor/T.png"
             ],
@@ -957,6 +957,56 @@
             ],
              "referenceSheetsPath": [
                 "Quo the Berkut/R1.png"
+            ]
+         },
+        {
+            "creator": "Nyao",
+            "name": "Est the Candid",
+            "model": "IL-76 Candid",
+            "galleryImagePaths": [
+                "Est the Candid/T.png",
+                "Est the Candid/1.png",
+                "Est the Candid/2.png",
+                "Est the Candid/3.png"
+            ],
+             "referenceSheetsPath": [
+                "Est the Candid/R1.png",
+                "Est the Candid/R2.png"
+            ]
+        },
+        {
+            "creator": "Nyao",
+            "name": "Freyja the Fiddler",
+            "model": "TU-128 Fiddler",
+            "galleryImagePaths": [
+                "Freyja the Fiddler/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Freyja the Fiddler/R1.png",
+                "Freyja the Fiddler/R2.png"
+            ]
+        },
+        {
+            "creator": "Nyao",
+            "name": "Est the Lightning ll",
+            "model": "F-35C Lightning ll",
+            "galleryImagePaths": [
+                "Est the Lightning ll/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Est the Lightning ll/R1.png",
+                "Est the Lightning ll/R2.png"
+            ]
+        },
+        {
+            "creator": "Nyao",
+            "name": "Yngvi the Raptor",
+            "model": "F-22 Raptor",
+            "galleryImagePaths": [
+                "Yngvi the Raptor/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Yngvi the Raptor/R1.png"
             ]
         }
     ]
