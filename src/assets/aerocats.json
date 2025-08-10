@@ -1403,6 +1403,58 @@
              "referenceSheetsPath": [
                 "Pehr the Gripen/R1.png"
             ]
+        },
+        {
+            "creator": "ClockworkWolf",
+            "name": "Seven the F4E-7",
+            "model": "F4E-7",
+            "galleryImagePaths": [
+                "Seven the F4E-7/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Seven the F4E-7/R1.png"
+            ]
+        },
+        {
+            "creator": "Unitlait",
+            "name": "Fis the Eagle",
+            "model": "F-15A Eagle",
+            "galleryImagePaths": [
+                "Fis the Eagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Fis the Eagle/R1.png"
+            ]
+        },
+        {
+            "creator": "Y",
+            "name": "Y the Evil meteor",
+            "model": "MIG25-Re-266M (OF)",
+            "galleryImagePaths": [
+                "Y the Evil meteor/T.png",
+                "Y the Evil meteor/1.png",
+                "Y the Evil meteor/2.png",
+                "Y the Evil meteor/3.png"
+            ],
+             "referenceSheetsPath": [
+                "Y the Evil meteor/R1.png",
+                "Y the Evil meteor/R2.png"
+            ]
+        },
+        {
+            "creator": "Aipi",
+            "name": "Erebus the Voodoo",
+            "model": "F-101 Voodoo",
+            "galleryImagePaths": [
+                "Erebus the Voodoo/T.png",
+                "Erebus the Voodoo/1.png",
+                "Erebus the Voodoo/2.png",
+                "Erebus the Voodoo/3.png"
+            ],
+             "referenceSheetsPath": [
+                "Erebus the Voodoo/R1.png",
+                "Erebus the Voodoo/R2.png"
+            ]
         }
     ]
 }

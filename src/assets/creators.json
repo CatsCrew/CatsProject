@@ -249,11 +249,27 @@
         },
         {
             "name": "Artificial Chiken",
-            "profileImage": "Artificial Chiken.jpg"
+            "profileImage": "Artificial Chiken.png"
         },
         {
             "name": "Ryedus",
-            "profileImage": "Ryedus.jpg"
+            "profileImage": "Ryedus.png"
+        },
+        {
+            "name": "ClockworkWolf",
+            "profileImage": "ClockworkWolf.png"
+        },
+        {
+            "name": "Unitlait",
+            "profileImage": "Unitlait.png"
+        },
+        {
+            "name": "Y",
+            "profileImage": "Y.png"
+        },
+        {
+            "name": "AipiY",
+            "profileImage": "Aipi.png"
         }
     ]
 }
