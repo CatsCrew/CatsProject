@@ -42,11 +42,22 @@
             "name": "Vee the Humvee",
             "model": "M1151 HMMWV",
             "galleryImagePaths": [
-                "Vee/1.png",
+                "Vee/1.png"
             ],
             "referenceSheetsPath": [
                 "Vee/R1.png",
                 "Vee/R2.png"
+            ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Bmd the BMD-4",
+            "model": "BMD-4M",
+            "galleryImagePaths": [
+                "Bmd/1.png"
+            ],
+            "referenceSheetsPath": [
+                "Bmd/R1.png"
             ]
         }
     ]
