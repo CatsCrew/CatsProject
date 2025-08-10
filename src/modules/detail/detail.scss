@@ -1,0 +1,81 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: pxToRem(8);
+
+  .cat-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: pxToRem(16);
+
+    .cat-info-header {
+      display: flex;
+      justify-content: space-between;
+
+      .cat-info {
+        .name {
+          font-size: pxToRem(28);
+        }
+
+        .model {
+          font-size: pxToRem(18);
+          color: $text-secondary;
+        }
+      }
+
+      .creator-info {
+        display: flex;
+        flex-direction: column;
+
+        .creator {
+          display: flex;
+          align-items: center;
+          gap: pxToRem(8);
+          padding-top: pxToRem(8);
+
+          .creator-img {
+            width: pxToRem(24);
+            height: pxToRem(24);
+            border-radius: pxToRem(6);
+          }
+        }
+
+        .socials {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            gap: pxToRem(8);
+
+            .social-link {
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+      }
+    }
+
+    .about {
+      .header {
+        display: inline-flex;
+        flex-direction: column;
+        font-size: pxToRem(22);
+
+        &::after {
+          height: pxToRem(2);
+          content: "";
+          background: $cats-gradient-accent;
+          border-radius: pxToRem(4);
+        }
+      }
+
+      .description {
+        white-space: break-spaces;
+      }
+    }
+  }
+}

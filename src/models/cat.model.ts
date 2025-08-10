@@ -2,6 +2,7 @@ import { CatType } from "./cat-type.enum";
 import { Creator } from "./creator.model";
 
 export interface Cat {
+    id?: string;
     creator?: Creator;
     name?: string;
     type?: CatType;
