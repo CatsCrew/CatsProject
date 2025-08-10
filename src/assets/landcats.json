@@ -54,7 +54,8 @@
             "name": "Bmd the BMD-4",
             "model": "BMD-4M",
             "galleryImagePaths": [
-                "Bmd/1.png"
+                "Bmd/1.png",
+                "Bmd/2.png"
             ],
             "referenceSheetsPath": [
                 "Bmd/R1.png"
