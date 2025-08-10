@@ -65,12 +65,48 @@
             "name": "Bmd the BMD-4",
             "model": "BMD-4M",
             "galleryImagePaths": [
-                "Bmd/1.png",
-                "Bmd/2.png"
+                "Bmd/T.png",
+                "Bmd/1.png"
             ],
             "referenceSheetsPath": [
                 "Bmd/R1.png"
             ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Evem the Abrams",
+            "model": "M1A2 Abrams",
+            "galleryImagePaths": [
+                "Evem/T.png",
+                "Evem/1.png",
+                "Evem/2.png",
+                "Evem/3.png",
+                "Evem/4.png",
+                "Evem/5.png",
+                "Evem/6.png"
+            ],
+            "referenceSheetsPath": [
+                "Evem/R1.png",
+                "Evem/R2.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Bum the BVM",
+            "model": "T-80 BVM",
+            "galleryImagePaths": [
+                "Bum/T.png",
+                "Bum/1.png",
+                "Bum/2.png",
+                "Bum/3.png",
+                "Bum/4.png",
+                "Bum/5.png"
+            ],
+            "referenceSheetsPath": [
+                "Bum/R1.png",
+                "Bum/R2.png"
+            ]
         }
+        
     ]
 }
