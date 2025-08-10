@@ -284,6 +284,10 @@
             "profileImage": "Shiloh.jpg"
         },
         {
+            "name": "Luttapon",
+            "profileImage": "Luttapon.png"
+        },
+        {
             "name": "Lyra",
             "profileImage": "Lyra.jpg"
         },
@@ -293,7 +297,7 @@
         },
         {
             "name": "Dozer",
-            "profileImage": "Dozer.jpg"
+            "profileImage": "Dozer.webp"
         }
     ]
 }
