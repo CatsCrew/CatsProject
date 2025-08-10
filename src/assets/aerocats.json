@@ -1295,6 +1295,114 @@
              "referenceSheetsPath": [
                 "Rafael the Rafale/R1.png"
             ]
+        },
+        {
+            "creator": "Drakk",
+            "name": "Desmond the Super hornet",
+            "model": "F/A 18E/F Super hornet",
+            "galleryImagePaths": [
+                "Desmond the Super hornet/T.png",
+                "Desmond the Super hornet/1.png",
+                "Desmond the Super hornet/2.png",
+                "Desmond the Super hornet/3.png",
+                "Desmond the Super hornet/4.png",
+                "Desmond the Super hornet/5.png",
+                "Desmond the Super hornet/6.png",
+                "Desmond the Super hornet/7.png",
+                "Desmond the Super hornet/8.png"
+            ],
+             "referenceSheetsPath": [
+                "Desmond the Super hornet/R1.png"
+            ]
+        },
+        {
+            "creator": "Yelin233",
+            "name": "Done the Triple Thousand",
+            "model": "A350-1000 Triple Thousand",
+            "galleryImagePaths": [
+                "Done the Triple Thousand/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Done the Triple Thousand/R1.png"
+            ]
+        },
+        {
+            "creator": "LAV",
+            "name": "Bodach the Spirit",
+            "model": "B-2 Spirit",
+            "galleryImagePaths": [
+                "Bodach the Spirit/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Bodach the Spirit/R1.png"
+            ]
+        },
+        {
+            "creator": "LAV",
+            "name": "Panopticon the Sentry",
+            "model": "E-3 Sentry",
+            "galleryImagePaths": [
+                "Panopticon the Sentry/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Panopticon the Sentry/R1.png"
+            ]
+        },
+        {
+            "creator": "Midnight",
+            "name": "Odin the Raven",
+            "model": "ADF-11F Raven (AC)",
+            "galleryImagePaths": [
+                "Odin the Raven/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Odin the Raven/R1.png"
+            ]
+        },
+        {
+            "creator": "Bin",
+            "name": "Veyron the Spirit",
+            "model": "B-2 Spirit",
+            "galleryImagePaths": [
+                "Veyron the Spirit/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Veyron the Spirit/R1.png"
+            ]
+        },
+        {
+            "creator": "Artificial Chiken",
+            "name": "Inka the Phantom",
+            "model": "F4-J Phantom II",
+            "galleryImagePaths": [
+                "Inka the Phantom/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Inka the Phantom/R1.png"
+            ]
+        },
+        {
+            "creator": "Ryedus",
+            "name": "Proteus the Proteus",
+            "model": "S.C Model 281 Proteus",
+            "galleryImagePaths": [
+                "Proteus the Proteus/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Proteus the Proteus/R1.png"
+            ]
+        },
+        {
+            "creator": "Ryedus",
+            "name": "Pehr the Gripen",
+            "model": "JAS-39E Gripen",
+            "galleryImagePaths": [
+                "Pehr the Gripen/T.png",
+                "Pehr the Gripen/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Pehr the Gripen/R1.png"
+            ]
         }
     ]
 }

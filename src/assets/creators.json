@@ -213,7 +213,7 @@
         },
         {
             "name": "Mocha",
-            "profileImage": "Mocha.png"
+            "profileImage": "Mocha.jpg"
         },
         {
             "name": "Von",
@@ -221,11 +221,39 @@
         },
         {
             "name": "Xosh Nadoran",
-            "profileImage": "Xosh Nadoran.png"
+            "profileImage": "Xosh Nadoran.jpg"
         },
         {
             "name": "schnouza",
             "profileImage": "schnouza.jpg"
+        },
+        {
+            "name": "Drakk",
+            "profileImage": "Drakk.jpg"
+        },
+        {
+            "name": "Yelin233",
+            "profileImage": "Yelin233.png"
+        },
+        {
+            "name": "LAV",
+            "profileImage": "LAV.jpg"
+        },
+        {
+            "name": "Midnight",
+            "profileImage": "Midnight.jpg"
+        },
+        {
+            "name": "Bin",
+            "profileImage": "Bin.jpg"
+        },
+        {
+            "name": "Artificial Chiken",
+            "profileImage": "Artificial Chiken.jpg"
+        },
+        {
+            "name": "Ryedus",
+            "profileImage": "Ryedus.jpg"
         }
     ]
 }
