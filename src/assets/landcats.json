@@ -5,14 +5,24 @@
             "name": "Shell the Sheridan",
             "model": "M551 Sheridan",
             "galleryImagePaths": [
-                "shell_the_sheridan/1.png"
-            ]
+                "shell_the_sheridan/T.png",
+                "shell_the_sheridan/1.png",
+                "shell_the_sheridan/2.png",
+                "shell_the_sheridan/3.png",
+                "shell_the_sheridan/4.png",
+                "shell_the_sheridan/5.png"
+            ],
+            "referenceSheetsPath": [
+                "shell_the_sheridan/R1.png",
+                "shell_the_sheridan/R2.png"
+            ]   
         },
         {
             "creator": "ToasTee",
             "name": "Tetril the EOD Vu",
             "model": "EOD Vehicle Unit",
             "galleryImagePaths": [
+                "tetril_the_eod_vu/T.png",
                 "tetril_the_eod_vu/tetril.png"
             ],
             "referenceSheetsPath": [
@@ -36,6 +46,67 @@
                 "Hemet/Ref.png",
                 "Hemet/Ref2.png"
             ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Vee the Humvee",
+            "model": "M1151 HMMWV",
+            "galleryImagePaths": [
+                "Vee/T.png",
+                "Vee/1.png"
+            ],
+            "referenceSheetsPath": [
+                "Vee/R1.png",
+                "Vee/R2.png"
+            ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Bmd the BMD-4",
+            "model": "BMD-4M",
+            "galleryImagePaths": [
+                "Bmd/T.png",
+                "Bmd/1.png"
+            ],
+            "referenceSheetsPath": [
+                "Bmd/R1.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Evem the Abrams",
+            "model": "M1A2 Abrams",
+            "galleryImagePaths": [
+                "Evem/T.png",
+                "Evem/1.png",
+                "Evem/2.png",
+                "Evem/3.png",
+                "Evem/4.png",
+                "Evem/5.png",
+                "Evem/6.png"
+            ],
+            "referenceSheetsPath": [
+                "Evem/R1.png",
+                "Evem/R2.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Bum the BVM",
+            "model": "T-80 BVM",
+            "galleryImagePaths": [
+                "Bum/T.png",
+                "Bum/1.png",
+                "Bum/2.png",
+                "Bum/3.png",
+                "Bum/4.png",
+                "Bum/5.png"
+            ],
+            "referenceSheetsPath": [
+                "Bum/R1.png",
+                "Bum/R2.png"
+            ]
         }
+        
     ]
 }

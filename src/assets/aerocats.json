@@ -3,31 +3,251 @@
         {
             "creator": "Presto",
             "name": "Patriot Panther",
-            "model": "F9F-5",
+            "model": "F9F-5 Panther",
             "galleryImagePaths": [
-                "patriot_panther/1.png"
+                "patriot_panther/T.jpg",
+                "patriot_panther/1.png",
+                "patriot_panther/2.png",
+                "patriot_panther/3.png",
+                "patriot_panther/4.png",
+                "patriot_panther/5.png",
+                "patriot_panther/6.png",
+                "patriot_panther/7.png",
+                "patriot_panther/8.png",
+                "patriot_panther/9.png",
+                "patriot_panther/10.png",
+                "patriot_panther/11.png",
+                "patriot_panther/12.png",
+                "patriot_panther/13.png",
+                "patriot_panther/14.png",
+                "patriot_panther/15.png",
+                "patriot_panther/16.png"
+            ],
+             "referenceSheetsPath": [
+                "patriot_panther/R1.png",
+                "patriot_panther/R2.png",
+                "patriot_panther/R3.png"
             ]
         },
         {
             "creator": "Presto",
             "name": "Coo the Cougar",
-            "model": "F9F-7",
+            "model": "F9F-7 Cougar",
             "galleryImagePaths": [
-                "coo_the_cougar/1.png"
+                "coo_the_cougar/T.png",
+                "coo_the_cougar/1.png",
+                "coo_the_cougar/2.png",
+                "coo_the_cougar/3.png",
+                "coo_the_cougar/4.png",
+                "coo_the_cougar/5.png",
+                "coo_the_cougar/6.png",
+                "coo_the_cougar/7.png",
+                "coo_the_cougar/8.png"
+            ],
+             "referenceSheetsPath": [
+                "coo_the_cougar/R1.png",
+                "coo_the_cougar/R2.png",
+                "coo_the_cougar/R3.png"
+            ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Ray the Sabre",
+            "model": "F-86-F Sabre",
+            "galleryImagePaths": [
+                "Ray the Sabre/T.png",
+                "Ray the Sabre/1.png",
+                "Ray the Sabre/2.png",
+                "Ray the Sabre/3.png",
+                "Ray the Sabre/4.png"
+            ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Aardk the Aardvark",
+            "model": "F111-F Aardvark",
+            "galleryImagePaths": [
+                "Aardk the Aardvark/T.png",
+                "Aardk the Aardvark/1.png",
+                "Aardk the Aardvark/2.png",
+                "Aardk the Aardvark/3.png",
+                "Aardk the Aardvark/4.png",
+                "Aardk the Aardvark/5.png",
+                "Aardk the Aardvark/6.png",
+                "Aardk the Aardvark/7.png",
+                "Aardk the Aardvark/8.png",
+                "Aardk the Aardvark/9.png",
+                "Aardk the Aardvark/10.png",
+                "Aardk the Aardvark/11.png"
+            ],
+             "referenceSheetsPath": [
+                "Aardk the Aardvark/R1.png",
+                "Aardk the Aardvark/R2.png",
+                "Aardk the Aardvark/R3.png"
+            ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Lancer the Lancer",
+            "model": "B-1B Lancer",
+            "galleryImagePaths": [
+                "Lancer the Lancer/T.png",
+                "Lancer the Lancer/1.png",
+                "Lancer the Lancer/2.png",
+                "Lancer the Lancer/3.png",
+                "Lancer the Lancer/4.png",
+                "Lancer the Lancer/5.png",
+                "Lancer the Lancer/6.png",
+                "Lancer the Lancer/7.png",
+                "Lancer the Lancer/8.png",
+                "Lancer the Lancer/9.png"
+            ],
+             "referenceSheetsPath": [
+                "Lancer the Lancer/R1.png"
+            ]
+        },
+        {
+            "creator": "Presto",
+            "name": "Hopekins the Nighthawk",
+            "model": "F-117 Nighthawk",
+            "galleryImagePaths": [
+                "Hopekins the Nighthawk/T.png",
+                "Hopekins the Nighthawk/1.png",
+                "Hopekins the Nighthawk/2.png",
+                "Hopekins the Nighthawk/3.png",
+                "Hopekins the Nighthawk/4.png"
             ]
         },
         {
             "creator": "NiceHatFox",
             "name": "Flit the Nighthawk",
-            "model": "F-117",
+            "model": "F-117 Nighthawk",
             "galleryImagePaths": [
-                "flit_the_nighthawk/1.png"
+                "flit_the_nighthawk/T.png",
+                "flit_the_nighthawk/1.png",
+                "flit_the_nighthawk/2.png",
+                "flit_the_nighthawk/3.png",
+                "flit_the_nighthawk/4.png",
+                "flit_the_nighthawk/5.png"
+            ],
+             "referenceSheetsPath": [
+                "flit_the_nighthawk/R1.png"
+            ]
+         },
+        {
+            "creator": "Presto",
+            "name": "Howl the Horten",
+            "model": "Ho-229 Horten",
+            "galleryImagePaths": [
+                "Howl the Horten/T.png",
+                "Howl the Horten/1.png",
+                "Howl the Horten/2.png",
+                "Howl the Horten/3.png",
+                "Howl the Horten/4.png",
+                "Howl the Horten/5.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Pahl the Fighting-Falcon",
+            "model": "F-16C Fighting-Falcon",
+            "galleryImagePaths": [
+                "Pahl the Fighting-Falcon/T.png",
+                "Pahl the Fighting-Falcon/1.png",
+                "Pahl the Fighting-Falcon/2.png",
+                "Pahl the Fighting-Falcon/3.png",
+                "Pahl the Fighting-Falcon/4.png",
+                "Pahl the Fighting-Falcon/5.png",
+                "Pahl the Fighting-Falcon/6.png",
+                "Pahl the Fighting-Falcon/7.png",
+                "Pahl the Fighting-Falcon/8.png",
+                "Pahl the Fighting-Falcon/9.png"
+            ],
+             "referenceSheetsPath": [
+                "Pahl the Fighting-Falcon/R1.png",
+                "Pahl the Fighting-Falcon/R2.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Tomm the Phantom II",
+            "model": "F-4J Phantom II",
+            "galleryImagePaths": [
+                "Tomm the Phantom II/T.png",
+                "Tomm the Phantom II/1.png",
+                "Tomm the Phantom II/2.png",
+                "Tomm the Phantom II/3.png",
+                "Tomm the Phantom II/4.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Fleric the Blackhawk",
+            "model": "UH-60L Blackhawk",
+            "galleryImagePaths": [
+                "Fleric the Blackhawk/T.png",
+                "Fleric the Blackhawk/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Fleric the Blackhawk/R1.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Kamorph the Alligator",
+            "model": "Ka-52 Alligator",
+            "galleryImagePaths": [
+                "Kamorph the Alligator/T.png",
+                "Kamorph the Alligator/1.png",
+                "Kamorph the Alligator/2.png",
+                "Kamorph the Alligator/3.png"
+            ]
+        },
+        {
+            "creator": "Karbine",
+            "name": "Bravo the Hawk",
+            "model": "BAE Hawk",
+            "galleryImagePaths": [
+                "Bravo the Hawk/T.png",
+                "Bravo the Hawk/1.png"
+            ]
+        },
+        {
+            "creator": "Daum",
+            "name": "Norman the Tomcat",
+            "model": "F-14B Bombcat",
+            "galleryImagePaths": [
+                "Norman the Tomcat/T.png",
+                "Norman the Tomcat/1.png",
+                "Norman the Tomcat/2.png",
+                "Norman the Tomcat/3.png",
+                "Norman the Tomcat/4.png",
+                "Norman the Tomcat/5.png",
+                "Norman the Tomcat/6.png",
+                "Norman the Tomcat/7.png",
+                "Norman the Tomcat/8.png"
+            ]
+        },
+        {
+            "creator": "Yong",
+            "name": "Darkstar the Darkstar",
+            "model": "SR-72 Darkstar",
+            "galleryImagePaths": [
+                "Darkstar the Darkstar/T.png",
+                "Darkstar the Darkstar/1.png",
+                "Darkstar the Darkstar/2.png",
+                "Darkstar the Darkstar/3.png"
+            ],
+            "referenceSheetsPath": [
+                "Darkstar the Darkstar/R1.png",
+                "Darkstar the Darkstar/R2.png",
+                "Darkstar the Darkstar/R3.png"
             ]
         },
         {
             "creator": "Zephyr",
             "name": "Bolt the Raptor",
-            "model": "F22",
+            "model": "F22A Raptor",
             "galleryImagePaths": [
                 "bolt_the_raptor/BOLT-1.png",
                 "bolt_the_raptor/BOLT-2.png"
@@ -36,6 +256,707 @@
                 "bolt_the_raptor/BOLT-REFSHEET-1.png",
                 "bolt_the_raptor/BOLT-REFSHEET-2.png",
                 "bolt_the_raptor/BOLT-REFSHEET-3.png"
+            ]
+        },
+        {
+            "creator": "Neutral Horizons",
+            "name": "Lockheart the Lightning ll",
+            "model": "F-35C Lightning ll",
+            "galleryImagePaths": [
+                "Lockheart the Lightning ll/T.png",
+                "Lockheart the Lightning ll/1.png",
+                "Lockheart the Lightning ll/2.png",
+                "Lockheart the Lightning ll/3.png",
+                "Lockheart the Lightning ll/4.png",
+                "Lockheart the Lightning ll/5.png",
+                "Lockheart the Lightning ll/6.png"
+            ]
+        },
+        {
+            "creator": "Starfoth",
+            "name": "Raven the Lightning II",
+            "model": "F35C",
+            "galleryImagePaths": [
+                "Raven the Lightning II/T.png",
+                "Raven the Lightning II/1.png",
+                "Raven the Lightning II/2.png",
+                "Raven the Lightning II/3.png",
+                "Raven the Lightning II/4.png"
+            ]
+        },
+        {
+            "creator": "Wit",
+            "name": "Ma-garin the Flanker",
+            "model": "SU-33 Flanker",
+            "galleryImagePaths": [
+                "Ma-garin the Flanker/T.png",
+                "Ma-garin the Flanker/1.png"
+            ]
+        },
+        {
+            "creator": "Sky",
+            "name": "Angelika the phanter",
+            "model": "F9F-5 Panther",
+            "galleryImagePaths": [
+                "Angelika the phanter/T.png",
+                "Angelika the phanter/1.png",
+                "Angelika the phanter/2.png",
+                "Angelika the phanter/3.png",
+                "Angelika the phanter/4.png",
+                "Angelika the phanter/5.png",
+                "Angelika the phanter/6.png",
+                "Angelika the phanter/7.png",
+                "Angelika the phanter/8.png"
+            ]
+        },
+        {
+            "creator": "Honeydragon",
+            "name": "Buff the Strarofortress",
+            "model": "B-52 Strarofortress",
+            "galleryImagePaths": [
+                "Buff the strarofortress/T.png",
+                "Buff the strarofortress/1.png",
+                "Buff the strarofortress/2.png",
+                "Buff the strarofortress/3.png",
+                "Buff the strarofortress/4.png",
+                "Buff the strarofortress/5.png",
+                "Buff the strarofortress/6.png",
+                "Buff the strarofortress/7.png",
+                "Buff the strarofortress/8.png",
+                "Buff the strarofortress/9.png"
+            ],
+             "referenceSheetsPath": [
+                "Buff the strarofortress/R1.png",
+                "Buff the strarofortress/R2.png"
+            ]
+        },
+        {
+            "creator": "Honeydragon",
+            "name": "MIGI the PAK DP",
+            "model": "MIG 41 PAK DP",
+            "galleryImagePaths": [
+                "MIGI the PAK DP/T.png"
+            ],
+             "referenceSheetsPath": [
+                "MIGI the PAK DP/R1.png"
+            ]
+        },
+        {
+            "creator": "Honeydragon",
+            "name": "Sigma the Hawk",
+            "model": "BAE Hawk",
+            "galleryImagePaths": [
+                "Sigma the Hawk/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sigma the Hawk/R1.png"
+            ]
+        },
+        {
+            "creator": "Lazycatto",
+            "name": "KC-135 the Stratotanker",
+            "model": "KC-135 Stratotanker",
+            "galleryImagePaths": [
+                "KC-135 the Stratotanker/T.png",
+                "KC-135 the Stratotanker/1.png"
+            ]
+        },
+        {
+            "creator": "Lazycatto",
+            "name": "F-104 the starfighter",
+            "model": "F-104 starfighter",
+            "galleryImagePaths": [
+                "F-104 the starfighter/T.png",
+                "F-104 the starfighter/1.png"
+            ],
+             "referenceSheetsPath": [
+                "F-104 the starfighter/R1.png"
+            ]
+        },
+        {
+            "creator": "Mackenzie",
+            "name": "Mirage the Blackbird",
+            "model": "SR-71 Blackbird",
+            "galleryImagePaths": [
+                "Mirage the Blackbird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mirage the Blackbird/R1.png"
+            ]
+        },
+        {
+            "creator": "Merlin",
+            "name": "Raijin the Shinden",
+            "model": "J7W2 Shinden",
+            "galleryImagePaths": [
+                "Raijin the Shinden/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Raijin the Shinden/R1.png",
+                "Raijin the Shinden/R2.png"
+            ]
+        },
+        {
+            "creator": "Merlin",
+            "name": "Leif the Viking",
+            "model": "S-3 Viking",
+            "galleryImagePaths": [
+                "Leif the Viking/T.png",
+                "Leif the Viking/1.png",
+                "Leif the Viking/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Leif the Viking/R1.png"
+            ]
+        },
+        {
+            "creator": "Merlin",
+            "name": "Package the Skorpion",
+            "model": "PZL 230 Skorpion",
+            "galleryImagePaths": [
+                "Package the Skorpion/T.png",
+                "Package the Skorpion/1.png"
+            ]
+        },
+        {
+            "creator": "Katla",
+            "name": "Jhett the Raptor",
+            "model": "F-22 Raptor",
+            "galleryImagePaths": [
+                "Jhett the raptor/T.png",
+                "Jhett the raptor/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Jhett the raptor/R1.png"
+            ]
+        },
+        {
+            "creator": "CathyPalug",
+            "name": "Felix the Eagle II",
+            "model": "F-15EX Eagle ll",
+            "galleryImagePaths": [
+                "Felix the Eagle II/T.png",
+                "Felix the Eagle II/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Felix the Eagle II/R1.png"
+            ]
+        },
+        {
+            "creator": "Cyrat",
+            "name": "Otto the Twin Otter",
+            "model": "DHC-6 Twin Otter",
+            "galleryImagePaths": [
+                "Otto the Twin Otter/T.png",
+                "Otto the Twin Otter/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Otto the Twin Otter/R1.png"
+            ]
+        },
+        {
+            "creator": "Cee",
+            "name": "Shikra the Strikeeagle",
+            "model": "F-15E Strikeeagle",
+            "galleryImagePaths": [
+                "Shikra the Strikeeagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Shikra the Strikeeagle/R1.png"
+            ]
+        },
+        {
+            "creator": "JaxtheKingRebal",
+            "name": "Mustang the Mustang",
+            "model": "P-51D Mustang",
+            "galleryImagePaths": [
+                "Mustang the Mustang/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mustang the Mustang/R1.png"
+            ]
+        },
+        {
+            "creator": "JaxtheKingRebal",
+            "name": "Brigade the Osprey",
+            "model": "V-22 Osprey",
+            "galleryImagePaths": [
+                "Brigade the Osprey/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Brigade the Osprey/R1.png"
+            ]
+        },
+        {
+            "creator": "Sandomite",
+            "name": "Eddie the Hawkeye",
+            "model": "E-2D Hawkeye",
+            "galleryImagePaths": [
+                "Eddie the Hawkeye/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Eddie the Hawkeye/R1.png"
+            ]
+        },
+        {
+            "creator": "Sandomite",
+            "name": "Lily the Dragonlady",
+            "model": "U-2 Dragonlady",
+            "galleryImagePaths": [
+                "Lily the Dragonlady/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Lily the Dragonlady/R1.png"
+            ]
+        },
+        {
+            "creator": "Sandomite",
+            "name": "Rem the Arsenal bird",
+            "model": "Arsenal Bird",
+            "galleryImagePaths": [
+                "Rem the Arsenal bird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Rem the Arsenal bird/R1.png"
+            ]
+        },
+        {
+            "creator": "Sandomite",
+            "name": "Ember the MQ-101",
+            "model": "MQ-101",
+            "galleryImagePaths": [
+                "Ember the MQ-101/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Ember the MQ-101/R1.png"
+            ]
+        },
+        {
+            "creator": "Fael Lysander",
+            "name": "Mavi the Fullback",
+            "model": "Su-34 Fullback",
+            "galleryImagePaths": [
+                "Mavi the Fullback/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mavi the Fullback/R1.png"
+            ]
+        },
+        {
+            "creator": "vanny1424",
+            "name": "X the F/A XX",
+            "model": "F/A XX",
+            "galleryImagePaths": [
+                "X the FA XX/T.png",
+                "X the FA XX/1.png"
+            ],
+             "referenceSheetsPath": [
+                "X the FA XX/R1.png"
+            ]
+        },
+        {
+            "creator": "vanny1424",
+            "name": "Cobra the Warthog",
+            "model": "A-10 Warthog",
+            "galleryImagePaths": [
+                "Cobra the Warthog/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Cobra the Warthog/R1.png"
+            ]
+        },
+        {
+            "creator": "Orion",
+            "name": "One the Blackbird",
+            "model": "SR-71 Blackbird",
+            "galleryImagePaths": [
+                "One the Blackbird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "One the Blackbird/R1.png",
+                "One the Blackbird/R2.png"
+            ]
+        },
+        {
+            "creator": "bawomp",
+            "name": "Erra the Spirit",
+            "model": "B-2 Spirit",
+            "galleryImagePaths": [
+                "Erra the Spirit/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Erra the Spirit/R1.png"
+            ]
+        },
+        {
+            "creator": "BanditboiiZ",
+            "name": "N1-CK the Nighthawk",
+            "model": "F-117 Nighthawk",
+            "galleryImagePaths": [
+                "N1-CK the Nighthawk/T.png"
+            ],
+             "referenceSheetsPath": [
+                "N1-CK the Nighthawk/R1.png",
+                "N1-CK the Nighthawk/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Asteri",
+            "name": "Vanta the Blackbird",
+            "model": "SR-71 Blackbird",
+            "galleryImagePaths": [
+                "Vanta the Blackbird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Vanta the Blackbird/R1.png"
+            ]
+        },
+        {
+            "creator": "Asteri",
+            "name": "Dr.Astro the TFARA",
+            "model": "X-36 TFARA",
+            "galleryImagePaths": [
+                "Dr.Astro the TFARA/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Dr.Astro the TFARA/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Harry the Harrier",
+            "model": "Harrier FRS.1",
+            "galleryImagePaths": [
+                "Harry the Harrier/T.png",
+                "Harry the Harrier/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Harry the Harrier/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Hornet the Super hornet",
+            "model": "F/A 18E Super hornet",
+            "galleryImagePaths": [
+                "Hornet the Super hornet/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Hornet the Super hornet/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Mira the Mirage",
+            "model": "F1C Mirage",
+            "galleryImagePaths": [
+                "Mira the Mirage/T.png",
+                "Mira the Mirage/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Mira the Mirage/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Tornado the Tornado",
+            "model": "Tornado IDS",
+            "galleryImagePaths": [
+                "Tornado the Tornado/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Tornado the Tornado/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Anatoly the Fargo",
+            "model": "MIG-9 Fargo",
+            "galleryImagePaths": [
+                "Anatoly the Fargo/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Anatoly the Fargo/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Sasha the Beagle",
+            "model": "IL-28 Beagle",
+            "galleryImagePaths": [
+                "Sasha the Beagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sasha the Beagle/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Mangusta the Mangusta",
+            "model": "A129 Mangusta",
+            "galleryImagePaths": [
+                "Mangusta the Mangusta/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mangusta the Mangusta/R1.png"
+            ]
+        },
+        {
+            "creator": "Hunglee",
+            "name": "Viper the Viper",
+            "model": "AH-1Z Viper",
+            "galleryImagePaths": [
+                "Viper the Viper/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Viper the Viper/R1.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Kars the UF-73",
+            "model": "UF-73(OF)",
+            "galleryImagePaths": [
+                "Kars the UF-73/T.png",
+                "Kars the UF-73/1.png",
+                "Kars the UF-73/2.png",
+                "Kars the UF-73/3.png",
+                "Kars the UF-73/4.png",
+                "Kars the UF-73/5.png",
+                "Kars the UF-73/6.png",
+                "Kars the UF-73/7.png"
+            ],
+             "referenceSheetsPath": [
+                "Kars the UF-73/R1.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Chester the Holster",
+            "model": "AAC-01D Holster(OF)",
+            "galleryImagePaths": [
+                "Chester the Holster/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Chester the Holster/R1.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Lester the Holster",
+            "model": "AAC-01A Holster P.P(OF)",
+            "galleryImagePaths": [
+                "Lester the Holster/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Lester the Holster/R1.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Alex the Big bang",
+            "model": "JB-95A Big bang(OF)",
+            "galleryImagePaths": [
+                "Alex the Big bang/T.png",
+                "Alex the Big bang/1.png",
+                "Alex the Big bang/2.png",
+                "Alex the Big bang/3.png",
+                "Alex the Big bang/4.png"
+            ],
+             "referenceSheetsPath": [
+                "Alex the Big bang/R1.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Kars the Freak",
+            "model": "EUF-2000 Freak(OF)",
+            "galleryImagePaths": [
+                "Kars the Freak/T.png",
+                "Kars the Freak/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Kars the Freak/R1.png",
+                "Kars the Freak/R2.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Pater the WU-01",
+            "model": "WU-01 XL(OF)",
+            "galleryImagePaths": [
+                "Pater the WU-01/T.png",
+                "Pater the WU-01/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Pater the WU-01/R1.png",
+                "Pater the WU-01/R2.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Cujo the Foible",
+            "model": "EF-87 Foible(OF)",
+            "galleryImagePaths": [
+                "Cujo the Foible/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Cujo the Foible/R1.png",
+                "Cujo the Foible/R2.png",
+                "Cujo the Foible/R3.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Jade the Hedge",
+            "model": "UAC-1D Hedge(OF)",
+            "galleryImagePaths": [
+                "Jade the Hedge/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Jade the Hedge/R1.jpeg"
+            ]
+        },
+        {
+            "creator": "Sawyer_Tea",
+            "name": "Samuel the Flying fortress",
+            "model": "B-17 Flying fortress",
+            "galleryImagePaths": [
+                "Samuel the Flying fortress/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Samuel the Flying fortress/R1.png"
+            ]
+        },
+        {
+            "creator": "Marccenary",
+            "name": "Philly the Golden eagle",
+            "model": "KAI T-50",
+            "galleryImagePaths": [
+                "Philly the Golden eagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Philly the Golden eagle/R1.png"
+            ]
+        },
+        {
+            "creator": "norameow",
+            "name": "Anastasia the Hercules",
+            "model": "C-130 Hercules",
+            "galleryImagePaths": [
+                "Anastasia the Hercules/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Anastasia the Hercules/R1.png",
+                "Anastasia the Hercules/R2.png"
+            ]
+        },
+        {
+            "creator": "Nuibit",
+            "name": "Jynx the Eurofighter typhoon",
+            "model": "EF-2000 Eurofighter typhoon",
+            "galleryImagePaths": [
+                "Jynx the Eurofighter typhoon/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Jynx the Eurofighter typhoon/R1.png"
+            ]
+        },
+        {
+            "creator": "Gomon",
+            "name": "Aim the AMX",
+            "model": "AMX A-1",
+            "galleryImagePaths": [
+                "Aim the AMX/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Aim the AMX/R1.png"
+            ]
+        },
+        {
+            "creator": "Gomon",
+            "name": "Dragon the Mighty Dragon",
+            "model": "J-20 Mighty Dragon",
+            "galleryImagePaths": [
+                "Dragon the Mighty Dragon/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Dragon the Mighty Dragon/R1.png"
+            ]
+        },
+        {
+            "creator": "Starburst",
+            "name": "Sea the Sea Aero",
+            "model": "seaplane etc.",
+            "galleryImagePaths": [
+                "Sea the Sea Aero/T.png",
+                "Sea the Sea Aero/1.png",
+                "Sea the Sea Aero/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Sea the Sea Aero/R1.png",
+                "Sea the Sea Aero/R2.png"
+            ]
+        },
+        {
+            "creator": "Sentionyx",
+            "name": "F22A the Raptor",
+            "model": "F22A Raptor",
+            "galleryImagePaths": [
+                "F22A the Raptor/T.png"
+            ],
+             "referenceSheetsPath": [
+                "F22A the Raptor/R1.png"
+            ]
+        },
+        {
+            "creator": "Sentionyx",
+            "name": "Thunderlight the Lightning ll",
+            "model": "F35B Lightning ll",
+            "galleryImagePaths": [
+                "Thunderlight the Lightning ll/T.png",
+                "Thunderlight the Lightning ll/1.png",
+                "Thunderlight the Lightning ll/2.png",
+                "Thunderlight the Lightning ll/3.png",
+                "Thunderlight the Lightning ll/4.png",
+                "Thunderlight the Lightning ll/5.png",
+                "Thunderlight the Lightning ll/6.png"
+            ],
+             "referenceSheetsPath": [
+                "Thunderlight the Lightning ll/R1.png"
+            ]
+        },
+        {
+            "creator": "Weli Undi",
+            "name": "Sipper the Fishbed",
+            "model": "MIG-21 Bis Fishbed",
+            "galleryImagePaths": [
+                "Sipper the Fishbed/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sipper the Fishbed/R1.png"
+            ]
+        },
+        {
+            "creator": "Weli Undi",
+            "name": "Lyre the Prowler",
+            "model": "EA-6B Prowler",
+            "galleryImagePaths": [
+                "Lyre the Prowler/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Lyre the Prowler/R1.png"
+            ]
+        },
+        {
+            "creator": "Quo",
+            "name": "Quo the Berkut",
+            "model": "SU-47 Berkut",
+            "galleryImagePaths": [
+                "Quo the Berkut/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Quo the Berkut/R1.png"
             ]
         }
     ]
