@@ -249,6 +249,20 @@
                 "bolt_the_raptor/BOLT-REFSHEET-2.png",
                 "bolt_the_raptor/BOLT-REFSHEET-3.png"
             ]
+        },
+        {
+            "creator": "Neutral Horizons",
+            "name": "Lockheart the Lightning ll",
+            "model": "F-35C Lightning ll",
+            "galleryImagePaths": [
+                "Lockheart the Lightning ll/T.png",
+                "Lockheart the Lightning ll/1.png",
+                "Lockheart the Lightning ll/2.png",
+                "Lockheart the Lightning ll/3.png",
+                "Lockheart the Lightning ll/4.png",
+                "Lockheart the Lightning ll/5.png",
+                "Lockheart the Lightning ll/6.png"
+            ]
         }
     ]
 }
