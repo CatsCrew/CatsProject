@@ -17,8 +17,8 @@
                     <Card>
                         <template #content>
                             <div class="hero-stat-item">
-                                <div class="hero-stat-item-label">
-                                    {{ cats?.length }}
+                                <div class="hero-stat-item-label active-units">
+                                    0
                                 </div>
                                 <div class="hero-stat-item-value">
                                     Active Units
@@ -150,18 +150,19 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue';
 import Radar from '@/components/radar/radar.vue';
 import Card from '@/components/card/card.vue';
 import Aerocat from '@assets/images/aerocats_logo.png';
 import Landcat from '@assets/images/landcats_logo.png';
 import Proto from '@assets/images/proto_logo.png';
 import { RouteNames } from '@/app.routes';
-import { CatFilter } from '@/models/cat-filter.enum';
 import Banner from '@/components/banner/banner.vue';
 import { BannerType } from '@/models/banner-type.enum';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import MeterGroup, { MeterItem } from 'primevue/metergroup';
+import { gsap } from 'gsap';
 
 const cat$ = useCatsStore();
 const { cats, aerocats, landcats, protos, discordUrl } = $(storeToRefs(cat$));
@@ -190,5 +191,16 @@ const catMetergroupItems = $computed<MeterItem[]>(() => {
     });
 
     return meterItems;
+});
+
+onMounted(() => {
+    gsap.to('.active-units', {
+        innerText: cats?.length,
+        duration: 2,
+        ease: 'power1.out',
+        snap: {
+            innerText: 1
+        }
+    });
 });
 </script>

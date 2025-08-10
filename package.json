@@ -20,6 +20,7 @@
     "@vueuse/core": "^13.6.0",
     "embla-carousel-class-names": "^8.6.0",
     "embla-carousel-vue": "^8.6.0",
+    "gsap": "^3.13.0",
     "pinia": "^3.0.2",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.3",
