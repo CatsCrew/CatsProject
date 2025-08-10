@@ -213,15 +213,19 @@
         },
         {
             "name": "Mocha",
-            "profileImage": "Mocha.jpg"
+            "profileImage": "Mocha.png"
         },
         {
             "name": "Von",
-            "profileImage": "Von.jpg"
+            "profileImage": "Von.png"
         },
         {
             "name": "Xosh Nadoran",
-            "profileImage": "Xosh Nadoran.jpg"
+            "profileImage": "Xosh Nadoran.png"
+        },
+        {
+            "name": "schnouza",
+            "profileImage": "schnouza.jpg"
         }
     ]
 }
