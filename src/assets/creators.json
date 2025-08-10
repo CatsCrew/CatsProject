@@ -22,6 +22,10 @@
         {
             "name": "Zephyr",
             "profileImage": "zephyr.png"
+        },
+        {
+            "name": "Daum",
+            "profileImage": "Daum.png"
         }
     ]
 }

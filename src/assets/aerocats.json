@@ -205,6 +205,22 @@
             ]
         },
         {
+            "creator": "Daum",
+            "name": "Norman the Tomcat",
+            "model": "F-14B Bombcat",
+            "galleryImagePaths": [
+                "Norman the Tomcat/T.png",
+                "Norman the Tomcat/1.png",
+                "Norman the Tomcat/2.png",
+                "Norman the Tomcat/3.png",
+                "Norman the Tomcat/4.png",
+                "Norman the Tomcat/5.png",
+                "Norman the Tomcat/6.png",
+                "Norman the Tomcat/7.png",
+                "Norman the Tomcat/8.png"
+            ]
+        },
+        {
             "creator": "Zephyr",
             "name": "Bolt the Raptor",
             "model": "F22",
