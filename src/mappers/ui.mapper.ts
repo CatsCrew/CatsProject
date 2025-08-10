@@ -9,16 +9,20 @@ import { Landcat as FileLandcat } from "@/models/formats/landcat.model";
 import { Proto as FileProto } from "@/models/formats/proto.model";
 import { UrlHelper } from '@/helper/url.helper';
 import { CatType } from '@/models/cat-type.enum';
+import Sqids from 'sqids';
 
-
+const sqids = new Sqids({minLength: 10});
 
 export class UiMapper {
+    static index = 1;
+
     public static toCreators(creators: FileCreator[]): Creator[] {
         return creators.map(this.toCreator) || [];
     }
 
     public static toAerocat(aerocat: FileAerocat, creator: Creator): Aerocat {
         return {
+            id: sqids.encode([this.index++]),
             creator,
             type: CatType.Aerocat,
             name: aerocat?.name,
@@ -31,6 +35,7 @@ export class UiMapper {
 
     public static toLandcat(landcat: FileLandcat, creator: Creator): Landcat {
         return {
+            id: sqids.encode([this.index++]),
             creator,
             type: CatType.Landcat,
             name: landcat?.name,
@@ -43,6 +48,7 @@ export class UiMapper {
 
     public static toProto(proto: FileProto, creator: Creator): Proto {
         return {
+            id: sqids.encode([this.index++]),
             creator,
             type: CatType.Proto,
             name: proto?.name,

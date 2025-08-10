@@ -6,6 +6,7 @@ export enum RouteNames {
     About = 'about',
     SpeciesSheet = 'species-sheet',
     Characters = 'characters',
+    Character = 'character',
     Aerocats = 'aerocats',
     Landcats = 'landcats',
     Protos = 'protos',
@@ -17,6 +18,7 @@ const RoutePathNames = {
     [RouteNames.About]: '/about',
     [RouteNames.SpeciesSheet]: '/species-sheet',
     [RouteNames.Characters]: '/characters',
+    [RouteNames.Character]: '/character/:id',
     [RouteNames.Lore]: '/lore'
 }
 
@@ -58,6 +60,12 @@ export const routes: RouteRecordRaw[] = [
                 component: () => import('./modules/characters/modules/protos/protos.vue'),
             }
         ]
+    } as RouteRecordRaw,
+    {
+        path: RoutePathNames[RouteNames.Character],
+        name: RouteNames.Character,
+        component: () => import('./modules/detail/detail.vue'),
+        props: true,
     } as RouteRecordRaw,
     {
         path: RoutePathNames[RouteNames.Lore],

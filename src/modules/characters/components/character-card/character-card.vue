@@ -52,6 +52,8 @@ import Card from '@/components/card/card.vue';
 import Skeleton from 'primevue/skeleton';
 import { Cat } from '@/models/cat.model';
 import DeferredContent from 'primevue/deferredcontent';
+import { useRouter } from 'vue-router';
+import { RouteNames } from '@/app.routes';
 
 const { cat, hoverable = true } = defineProps<{
     cat?: Cat;
@@ -62,10 +64,12 @@ const emit = defineEmits<{
     (e: 'cat-selected', cat: Cat): void;
 }>();
 
+const router$ = useRouter();
+
 let loading = $ref(true);
 
 function onAerocatClicked() {
-    emit('cat-selected', cat);
+    router$.push({ name: RouteNames.Character, params: { id: cat.id }});
 }
 
 function onImageLoad() {

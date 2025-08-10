@@ -6,8 +6,6 @@ import landcatJson from '@assets/landcats.json';
 import protoJson from '@assets/protos.json';
 import loreDocumentJson from '@assets/lore.json';
 import { CatType } from '@/models/cat-type.enum';
-import { CatFilter } from '@/models/cat-filter.enum';
-import { Cat } from '@/models/cat.model';
 import { Language } from '@/models/language.enum';
 import { SpeciesSheet } from '@/models/species-sheet.model';
 import { UiMapper } from '@/mappers/ui.mapper';
@@ -45,6 +43,9 @@ export const useCatsStore = defineStore('cats', {
             return speciesSheet.koreanImagePaths;
         }
       }
+    },
+    catById(state: CatsState) {
+      return (id: string) => state.cats.find(c => c.id === id);
     }
   },
   actions: {

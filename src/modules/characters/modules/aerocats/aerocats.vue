@@ -15,8 +15,7 @@
                     v-for="cat in filteredCats"
                     :key="cat.name"
                     :cat="cat"
-                    :hoverable="!isHandheldDevice"
-                    @cat-selected="onCatClicked">
+                    :hoverable="!isHandheldDevice">
                 </CharacterCard>
                 <CharacterCard
                     v-if="!searchTerm"
@@ -26,11 +25,6 @@
             </TransitionGroup>
         </div>
     </div>
-    <CatModal
-        v-if="showModal"
-        :cat="selectedCat"
-        @close="onModalClosed">
-    </CatModal>
 </template>
 
 <script setup lang="ts">
@@ -38,15 +32,12 @@ import IconField from 'primevue/iconfield';
 import InputIcon from 'primevue/inputicon';
 import InputText from 'primevue/inputtext';
 import CharacterCard from '../../components/character-card/character-card.vue';
-import CatModal from '../../components/character-modal/character-modal.vue';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import { Cat } from '@/models/cat.model';
 import AerocatPlaceholder from '@assets/images/aerocat_placeholder.png';
 
 let searchTerm = $ref<string>('');
-let showModal = $ref(false);
-let selectedCat = $ref<Cat>(null);
 
 const cats$ = useCatsStore();
 const { aerocats } = $(storeToRefs(cats$));
@@ -55,7 +46,7 @@ const isHandheldDevice = $computed(() => "ontouchstart" in window || navigator.m
 
 const placeholderCat = $computed<Cat>(() => {
     return {
-        model: `Your Landcat here!`,
+        model: `Your Aerocat here!`,
         galleryUrls: [AerocatPlaceholder]
     };
 });
@@ -74,12 +65,4 @@ const filteredCats = $computed(() => {
     );
 });
 
-function onCatClicked(cat: Cat) {
-    selectedCat = cat;
-    showModal = true;
-}
-
-function onModalClosed() {
-    showModal = false;
-}
 </script>

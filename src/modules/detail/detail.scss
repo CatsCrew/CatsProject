@@ -1,0 +1,35 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+.detail-container {
+  .cat-info-container {
+    .cat-info {
+      .name {
+        font-size: pxToRem(20);
+      }
+
+      .model {
+        color: $text-secondary;
+      }
+    }
+
+    .about {
+      .creator {
+        display: flex;
+        align-items: center;
+        gap: pxToRem(8);
+        padding-top: pxToRem(8);
+
+        .creator-img {
+          width: pxToRem(24);
+          height: pxToRem(24);
+          border-radius: pxToRem(6);
+        }
+      }
+
+      .description {
+        white-space: break-spaces;
+      }
+    }
+  }
+}
