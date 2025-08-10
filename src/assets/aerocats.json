@@ -107,11 +107,36 @@
             ]
         },
         {
+            "creator": "Presto",
+            "name": "Hopekins the Nighthawk",
+            "model": "F-117 Nighthawk",
+            "galleryImagePaths": [
+                "Hopekins the Nighthawk/T.png",
+                "Hopekins the Nighthawk/1.png",
+                "Hopekins the Nighthawk/2.png",
+                "Hopekins the Nighthawk/3.png",
+                "Hopekins the Nighthawk/4.png"
+            ]
+        },
+        {
             "creator": "NiceHatFox",
             "name": "Flit the Nighthawk",
             "model": "F-117",
             "galleryImagePaths": [
                 "flit_the_nighthawk/1.png"
+            ]
+         },
+        {
+            "creator": "Presto",
+            "name": "Howl the Horten",
+            "model": "Ho-229 Horten",
+            "galleryImagePaths": [
+                "Howl the Horten/T.png",
+                "Howl the Horten/1.png",
+                "Howl the Horten/2.png",
+                "Howl the Horten/3.png",
+                "Howl the Horten/4.png",
+                "Howl the Horten/5.png"
             ]
         },
         {
