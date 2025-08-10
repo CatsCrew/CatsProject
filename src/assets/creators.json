@@ -34,6 +34,30 @@
         {
             "name": "Neutral Horizons",
             "profileImage": "Neutral Horizons.png"
+        },
+        {
+            "name": "Starfoth",
+            "profileImage": "Starfoth.png"
+        },
+        {
+            "name": "Wit",
+            "profileImage": "Wit.png"
+        },
+        {
+            "name": "Sky",
+            "profileImage": "Sky.png"
+        },
+        {
+            "name": "Honeydragon",
+            "profileImage": "Honeydragon.png"
+        },
+        {
+            "name": "Lazycatto",
+            "profileImage": "Lazycatto.png"
+        },
+        {
+            "name": "Mackenzie",
+            "profileImage": "Mackenzie.png"
         }
     ]
 }

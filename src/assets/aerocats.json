@@ -3,7 +3,7 @@
         {
             "creator": "Presto",
             "name": "Patriot Panther",
-            "model": "F9F-5",
+            "model": "F9F-5 Panther",
             "galleryImagePaths": [
                 "patriot_panther/T.jpg",
                 "patriot_panther/1.png",
@@ -32,7 +32,7 @@
         {
             "creator": "Presto",
             "name": "Coo the Cougar",
-            "model": "F9F-7",
+            "model": "F9F-7 Cougar",
             "galleryImagePaths": [
                 "coo_the_cougar/T.png",
                 "coo_the_cougar/1.png",
@@ -53,7 +53,7 @@
         {
             "creator": "Presto",
             "name": "Ray the Sabre",
-            "model": "F-86-F",
+            "model": "F-86-F Sabre",
             "galleryImagePaths": [
                 "Ray the Sabre/T.png",
                 "Ray the Sabre/1.png",
@@ -65,7 +65,7 @@
         {
             "creator": "Presto",
             "name": "Aardk the Aardvark",
-            "model": "F111-F",
+            "model": "F111-F Aardvark",
             "galleryImagePaths": [
                 "Aardk the Aardvark/T.png",
                 "Aardk the Aardvark/1.png",
@@ -121,9 +121,17 @@
         {
             "creator": "NiceHatFox",
             "name": "Flit the Nighthawk",
-            "model": "F-117",
+            "model": "F-117 Nighthawk",
             "galleryImagePaths": [
-                "flit_the_nighthawk/1.png"
+                "flit_the_nighthawk/T.png",
+                "flit_the_nighthawk/1.png",
+                "flit_the_nighthawk/2.png",
+                "flit_the_nighthawk/3.png",
+                "flit_the_nighthawk/4.png",
+                "flit_the_nighthawk/5.png"
+            ],
+             "referenceSheetsPath": [
+                "flit_the_nighthawk/R1.png"
             ]
          },
         {
@@ -239,7 +247,7 @@
         {
             "creator": "Zephyr",
             "name": "Bolt the Raptor",
-            "model": "F22",
+            "model": "F22 Raptor",
             "galleryImagePaths": [
                 "bolt_the_raptor/BOLT-1.png",
                 "bolt_the_raptor/BOLT-2.png"
@@ -262,6 +270,118 @@
                 "Lockheart the Lightning ll/4.png",
                 "Lockheart the Lightning ll/5.png",
                 "Lockheart the Lightning ll/6.png"
+            ]
+        },
+        {
+            "creator": "Starpoth",
+            "name": "Raven the Lightning II",
+            "model": "F35C",
+            "galleryImagePaths": [
+                "Raven the Lightning II/T.png",
+                "Raven the Lightning II/1.png",
+                "Raven the Lightning II/2.png",
+                "Raven the Lightning II/3.png",
+                "Raven the Lightning II/4.png"
+            ]
+        },
+        {
+            "creator": "Wit",
+            "name": "Ma-garin the Flanker",
+            "model": "SU-33 Flanker",
+            "galleryImagePaths": [
+                "Ma-garin the Flanker/T.png",
+                "Ma-garin the Flanker/1.png"
+            ]
+        },
+        {
+            "creator": "Sky",
+            "name": "Angelika the phanter",
+            "model": "F9F-5 Panther",
+            "galleryImagePaths": [
+                "Angelika the phanter/T.png",
+                "Angelika the phanter/1.png",
+                "Angelika the phanter/2.png",
+                "Angelika the phanter/3.png",
+                "Angelika the phanter/4.png",
+                "Angelika the phanter/5.png",
+                "Angelika the phanter/6.png",
+                "Angelika the phanter/7.png",
+                "Angelika the phanter/8.png"
+            ]
+        },
+        {
+            "creator": "Honeydragon",
+            "name": "Buff the Strarofortress",
+            "model": "B-52 Strarofortress",
+            "galleryImagePaths": [
+                "Buff the Strarofortress/T.png",
+                "Buff the Strarofortress/1.png",
+                "Buff the Strarofortress/2.png",
+                "Buff the Strarofortress/3.png",
+                "Buff the Strarofortress/4.png",
+                "Buff the Strarofortress/5.png",
+                "Buff the Strarofortress/6.png",
+                "Buff the Strarofortress/7.png",
+                "Buff the Strarofortress/8.png",
+                "Buff the Strarofortress/9.png"
+            ],
+             "referenceSheetsPath": [
+                "Buff the Strarofortress/R1.png",
+                "Buff the Strarofortress/R2.png"
+            ]
+        },
+        {
+            "creator": "Honeydragon",
+            "name": "MIGI the PAK DP",
+            "model": "MIG 41 PAK DP",
+            "galleryImagePaths": [
+                "MIGI the PAK DP/T.png"
+            ],
+             "referenceSheetsPath": [
+                "MIGI the PAK DP/R1.png"
+            ]
+        },
+        {
+            "creator": "Honeydragon",
+            "name": "Sigma the Hawk",
+            "model": "BAE Hawk",
+            "galleryImagePaths": [
+                "Sigma the Hawk/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sigma the Hawk/R1.png"
+            ]
+        },
+        {
+            "creator": "Lazycatto",
+            "name": "KC-135 the Stratotanker",
+            "model": "KC-135 Stratotanker",
+            "galleryImagePaths": [
+                "KC-135 the Stratotanker/T.png",
+                "KC-135 the Stratotanker/1.png"
+            ]
+        },
+        {
+            "creator": "Lazycatto",
+            "name": "F-104 the starfighter",
+            "model": "F-104 starfighter",
+            "galleryImagePaths": [
+                "F-104 the starfighter/T.png",
+                "F-104 the starfighter/1.png"
+            ],
+             "referenceSheetsPath": [
+                "F-104 the starfighter/R1.png"
+            ]
+        },
+        {
+            "creator": "Mackenzie",
+            "name": "Mirage the Blackbird",
+            "model": "SR-71 Blackbird",
+            "galleryImagePaths": [
+                "Mirage the Blackbird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mirage the Blackbird/R1.png"
             ]
         }
     ]
