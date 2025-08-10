@@ -711,6 +711,111 @@
              "referenceSheetsPath": [
                 "Viper the Viper/R1.png"
             ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Kars the UF-73",
+            "model": "UF-73(OF)",
+            "galleryImagePaths": [
+                "Kars the UF-73/T.png",
+                "Kars the UF-73/1.png",
+                "Kars the UF-73/2.png",
+                "Kars the UF-73/3.png",
+                "Kars the UF-73/4.png",
+                "Kars the UF-73/5.png",
+                "Kars the UF-73/6.png",
+                "Kars the UF-73/7.png"
+            ],
+             "referenceSheetsPath": [
+                "Kars the UF-73/R1.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Chester the Holster",
+            "model": "AAC-01D Holster(OF)",
+            "galleryImagePaths": [
+                "Chester the Holster/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Chester the Holster/R1.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Lester the Holster",
+            "model": "AAC-01A Holster P.P(OF)",
+            "galleryImagePaths": [
+                "Lester the Holster/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Lester the Holster/R1.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Alex the Big bang",
+            "model": "JB-95A Big bang(OF)",
+            "galleryImagePaths": [
+                "Alex the Big bang/T.png",
+                "Alex the Big bang/1.png",
+                "Alex the Big bang/2.png",
+                "Alex the Big bang/3.png",
+                "Alex the Big bang/4.png"
+            ],
+             "referenceSheetsPath": [
+                "Alex the Big bang/R1.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Kars the Freak",
+            "model": "EUF-2000 Freak(OF)",
+            "galleryImagePaths": [
+                "Kars the Freak/T.png",
+                "Kars the Freak/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Kars the Freak/R1.png",
+                "Kars the Freak/R2.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Pater the WU-01",
+            "model": "WU-01 XL(OF)",
+            "galleryImagePaths": [
+                "Pater the WU-01/T.png",
+                "Pater the WU-01/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Pater the WU-01/R1.png",
+                "Pater the WU-01/R2.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Cujo the Foible",
+            "model": "EF-87 Foible(OF)",
+            "galleryImagePaths": [
+                "Cujo the Foible/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Cujo the Foible/R1.png",
+                "Cujo the Foible/R2.png",
+                "Cujo the Foible/R3.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Jade the Hedge",
+            "model": "UAC-1D Hedge(OF)",
+            "galleryImagePaths": [
+                "Jade the Hedge/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Jade the Hedge/R1.jpeg"
+            ]
         }
     ]
 }
