@@ -7,27 +7,44 @@
             </PrimaryCarousel>
         </section>
         <section class="cat-info-container">
-            <div class="cat-info">
-                <div class="name">
-                    {{ cat.name }}
+            <div class="cat-info-header">
+                <div class="cat-info">
+                    <div class="name">
+                        {{ cat?.name }}
+                    </div>
+                    <div class="model">
+                        {{ cat?.model || 'Unknown' }}
+                    </div>
                 </div>
-                <div class="model">
-                    {{ cat.model }}
+                <div
+                    v-if="cat.creator"
+                    class="creator-info">
+                    <div class="creator">
+                        <img 
+                            v-if="cat?.creator?.profileUrl"
+                            class="creator-img" 
+                            alt="creator profile image" 
+                            :src="cat?.creator?.profileUrl"/>
+                        <span class="creator-name"> {{ cat?.creator?.name }} </span>
+                    </div>
+                    <div
+                        v-if="cat.creator.socials"
+                        class="socials">
+                        <template v-for="[key, value] in Object.entries(cat.creator.socials)">
+                            <div class="social-link">
+                                <a :href="value" target="_blank">
+                                    <font-awesome-icon :icon="`fa-brands fa-${key}`" />
+                                </a>
+                            </div>
+                        </template>
+                    </div>
                 </div>
             </div>
             <div
                 v-if="cat.description"
                 class="about">
-                <div class="creator">
-                    <img 
-                        v-if="cat?.creator?.profileUrl"
-                        class="creator-img" 
-                        alt="creator profile image" 
-                        :src="cat?.creator?.profileUrl"/>
-                    <span class="creator-name"> {{ cat?.creator?.name }} </span>
-                </div>
                 <div class="header">
-                    About {{ cat.name}}
+                    About
                 </div>
                 <p class="description">
                     {{ cat.description }}
@@ -41,13 +58,13 @@
 import { defineAsyncComponent } from "vue";
 import { useCatsStore } from "@/store";
 import { storeToRefs } from "pinia";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 const PrimaryCarousel = defineAsyncComponent(() => import('@/components/primary-carousel/primary-carousel.vue'));
 
 const { id } = defineProps<{
     id?: string;
 }>();
-
 
 const cat$ = useCatsStore();
 const { catById } = $(storeToRefs(cat$));

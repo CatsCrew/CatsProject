@@ -25,14 +25,21 @@
           clamp(4.954921875rem, 13.213125vw, 15.85575rem)
         );
 
-        .embla__slide {
+        @media screen and (max-width: $breakpoint-xs) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+        }
+
+        &.hero {
+            :first-child {
+                grid-column: 1 / 3;
+                grid-row: 1 / 3;
+            }
+        }
+
+        .carousel-item {
           display: flex;
           justify-content: center;
-
-          &.hero-slide-item {
-            grid-column: 1 / 3;
-            grid-row: 1 / 3;
-          }
 
           .deferred-content {
             height: 100%;

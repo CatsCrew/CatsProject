@@ -11,7 +11,10 @@ import { UrlHelper } from '@/helper/url.helper';
 import { CatType } from '@/models/cat-type.enum';
 import Sqids from 'sqids';
 
-const sqids = new Sqids({minLength: 10});
+const sqids = new Sqids({
+    alphabet: 'bPqYthvRnlXJQWLxyo45FEgadiMcf7Vzr0UO6IAmpHwBDkGeCsT9u32KjZ8S1N',
+    minLength: 10
+});
 
 export class UiMapper {
     static index = 1;

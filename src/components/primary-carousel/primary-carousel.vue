@@ -4,12 +4,18 @@
   <div class="embla">
     <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
-        <div class="primary-carousel-slide">
-            <div v-for="image, index in images" :key="image" class="embla__slide" :class="{ 'hero-slide-item': index === 0}">
+        <div
+            class="primary-carousel-slide"
+            v-for="slide in slides"
+            :class="[slide.className]">
+            <div
+                class="carousel-item"
+                v-for="(image, index) in slide.imageUrls"
+                :key="index">
                 <Skeleton
-                v-if="imageLoadingStates[index]"
-                width="100%"
-                height="343px">
+                    v-if="imageLoadingStates[index]"
+                    width="100%"
+                    height="343px">
                 </Skeleton>
                 <DeferredContent class="deferred-content">
                     <Image 
@@ -41,9 +47,9 @@
         </button>
       </div>
 
-      <div class="embla__dots" v-if="images?.length > 1">
+      <div class="embla__dots" v-if="slides?.length > 1">
         <button
-            v-for="(image, index) in images"
+            v-for="(slide, index) in slides"
             :key="index"
             ref="dotNodes"
             class="embla__dot"
@@ -56,20 +62,22 @@
 
 <script setup lang="ts">
 import emblaCarouselVue from "embla-carousel-vue";
-import { onMounted, onUnmounted, useTemplateRef, ref } from "vue";
+import { onMounted, onUnmounted, useTemplateRef } from "vue";
 import Image from "primevue/image";
 import DeferredContent from 'primevue/deferredcontent';
 import Skeleton from 'primevue/skeleton';
+import { CarouselSlide } from "@/models/carousel-slide.model";
 
 const { images } = defineProps<{
   images?: string[];
 }>();
 
-const INITIAL_PAGE_SIZE = 7;
+const INITIAL_PAGE_SIZE = 5;
 const PAGE_SIZE = 10;
 
 const imageLoadingStates = $ref([]);
 const slideImageRefs = $ref([]);
+const slides = $ref<CarouselSlide[]>([]);
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue());
 const dotNodes = $(useTemplateRef('dotNodes'));
@@ -106,14 +114,18 @@ function setupKeyEvents(event: KeyboardEvent) {
 }
 
 function dotClicked(index: number) {
-    emblaApi.scrollTo(index);
+  emblaApi.scrollTo(index);
 }
 
 function toggleDotBtnsActive() {
-    const previous = emblaApi.previousScrollSnap();
-    const selected = emblaApi.selectedScrollSnap();
-    dotNodes[previous].classList.remove('embla__dot--selected');
-    dotNodes[selected].classList.add('embla__dot--selected');
+  if (!dotNodes) {
+    return;
+  }
+
+  const previous = emblaApi.previousScrollSnap();
+  const selected = emblaApi.selectedScrollSnap();
+  dotNodes[previous].classList.remove('embla__dot--selected');
+  dotNodes[selected].classList.add('embla__dot--selected');
 }
 
 function onImageLoaded(index: number) {
@@ -124,6 +136,25 @@ onMounted(() => {
   images.forEach((_, index) => {
     imageLoadingStates[index] = true;
   });
+
+  const pageOneImages = images.slice(0, INITIAL_PAGE_SIZE);
+  const remainingImages = images.slice(INITIAL_PAGE_SIZE);
+  if (pageOneImages.length) {
+    slides.push({
+        imageUrls: pageOneImages,
+        className: `images-${pageOneImages.length} hero`
+    });
+  }
+
+  if (remainingImages.length) {
+    for (let i = 0; i < remainingImages.length; i += PAGE_SIZE) {
+        const chunk = remainingImages.slice(i, i + PAGE_SIZE);
+        slides.push({
+            imageUrls: chunk,
+            className: 'images-10'
+        });
+    }
+  }
 
   document.addEventListener("keyup", setupKeyEvents);
   updateButtonVisibility();

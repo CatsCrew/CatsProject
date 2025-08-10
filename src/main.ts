@@ -5,8 +5,12 @@ import PrimeVue from "primevue/config";
 import Aura from "@primeuix/themes/aura";
 import { routes } from "./app.routes";
 import { createPinia } from 'pinia';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBluesky, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import './main.scss';
 import 'primeicons/primeicons.css';
+
+library.add(faBluesky, faInstagram, faTwitter);
 
 const router = createRouter({
   history: createWebHistory('/CatsProject/'),
