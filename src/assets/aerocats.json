@@ -221,6 +221,22 @@
             ]
         },
         {
+            "creator": "Yong",
+            "name": "Darkstar the Darkstar",
+            "model": "SR-72 Darkstar",
+            "galleryImagePaths": [
+                "Darkstar the Darkstar/T.png",
+                "Darkstar the Darkstar/1.png",
+                "Darkstar the Darkstar/2.png",
+                "Darkstar the Darkstar/3.png"
+            ],
+            "referenceSheetsPath": [
+                "Darkstar the Darkstar/R1.png",
+                "Darkstar the Darkstar/R2.png",
+                "Darkstar the Darkstar/R3.png"
+            ]
+        },
+        {
             "creator": "Zephyr",
             "name": "Bolt the Raptor",
             "model": "F22",
