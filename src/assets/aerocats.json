@@ -547,11 +547,11 @@
             "name": "X the F/A XX",
             "model": "F/A XX",
             "galleryImagePaths": [
-                "X the F/A XX/T.png",
-                "X the F/A XX/1.png"
+                "X the FA XX/T.png",
+                "X the FA XX/1.png"
             ],
              "referenceSheetsPath": [
-                "X the F/A XX/R1.png"
+                "X the FA XX/R1.png"
             ]
         },
         {
