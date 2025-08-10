@@ -816,6 +816,87 @@
              "referenceSheetsPath": [
                 "Jade the Hedge/R1.jpeg"
             ]
+        },
+        {
+            "creator": "Sawyer_Tea",
+            "name": "Samuel the Flying fortress",
+            "model": "B-17 Flying fortress",
+            "galleryImagePaths": [
+                "Samuel the Flying fortress/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Samuel the Flying fortress/R1.png"
+            ]
+        },
+        {
+            "creator": "Marccenary",
+            "name": "Philly the Golden eagle",
+            "model": "KAI T-50",
+            "galleryImagePaths": [
+                "Philly the Golden eagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Philly the Golden eagle/R1.png"
+            ]
+        },
+        {
+            "creator": "norameow",
+            "name": "Anastasia the Hercules",
+            "model": "C-130 Hercules",
+            "galleryImagePaths": [
+                "Anastasia the Hercules/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Anastasia the Hercules/R1.png",
+                "Anastasia the Hercules/R2.png"
+            ]
+        },
+        {
+            "creator": "Nuibit",
+            "name": "Jynx the Eurofighter typhoon",
+            "model": "EF-2000 Eurofighter typhoon",
+            "galleryImagePaths": [
+                "Jynx the Eurofighter typhoon/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Jynx the Eurofighter typhoon/R1.png"
+            ]
+        },
+        {
+            "creator": "Gomon",
+            "name": "Aim the AMX",
+            "model": "AMX A-1",
+            "galleryImagePaths": [
+                "Aim the AMX/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Aim the AMX/R1.png"
+            ]
+        },
+        {
+            "creator": "Gomon",
+            "name": "Dragon the Mighty Dragon",
+            "model": "J-20 Mighty Dragon",
+            "galleryImagePaths": [
+                "Dragon the Mighty Dragon/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Dragon the Mighty Dragon/R1.png"
+            ]
+        },
+        {
+            "creator": "Starburst",
+            "name": "Sea the Sea Aero",
+            "model": "seaplane etc.",
+            "galleryImagePaths": [
+                "Sea the Sea Aero/T.png",
+                "Sea the Sea Aero/1.png",
+                "Sea the Sea Aero/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Sea the Sea Aero/R1.png",
+                "Sea the Sea Aero/R2.png"
+            ]
         }
     ]
 }
