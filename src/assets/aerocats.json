@@ -247,7 +247,7 @@
         {
             "creator": "Zephyr",
             "name": "Bolt the Raptor",
-            "model": "F22 Raptor",
+            "model": "F22A Raptor",
             "galleryImagePaths": [
                 "bolt_the_raptor/BOLT-1.png",
                 "bolt_the_raptor/BOLT-2.png"
@@ -597,7 +597,7 @@
             ],
              "referenceSheetsPath": [
                 "N1-CK the Nighthawk/R1.png",
-                "N1-CK the Nighthawk/R2.png"
+                "N1-CK the Nighthawk/R2.jpg"
             ]
         },
         {
@@ -896,6 +896,67 @@
              "referenceSheetsPath": [
                 "Sea the Sea Aero/R1.png",
                 "Sea the Sea Aero/R2.png"
+            ]
+        },
+        {
+            "creator": "Sentionyx",
+            "name": "F22A the Raptor",
+            "model": "F22A Raptor",
+            "galleryImagePaths": [
+                "F22A the Raptor/T.png"
+            ],
+             "referenceSheetsPath": [
+                "F22A the Raptor/R1.png"
+            ]
+        },
+        {
+            "creator": "Sentionyx",
+            "name": "Thunderlight the Lightning ll",
+            "model": "F35B Lightning ll",
+            "galleryImagePaths": [
+                "Thunderlight the Lightning ll/T.png",
+                "Thunderlight the Lightning ll/1.png",
+                "Thunderlight the Lightning ll/2.png",
+                "Thunderlight the Lightning ll/3.png",
+                "Thunderlight the Lightning ll/4.png",
+                "Thunderlight the Lightning ll/5.png",
+                "Thunderlight the Lightning ll/6.png"
+            ],
+             "referenceSheetsPath": [
+                "Thunderlight the Lightning ll/R1.png"
+            ]
+        },
+        {
+            "creator": "Weli Undi",
+            "name": "Sipper the Fishbed",
+            "model": "MIG-21 Bis Fishbed",
+            "galleryImagePaths": [
+                "Sipper the Fishbed/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sipper the Fishbed/R1.png"
+            ]
+        },
+        {
+            "creator": "Weli Undi",
+            "name": "Lyre the Prowler",
+            "model": "EA-6B Prowler",
+            "galleryImagePaths": [
+                "Lyre the Prowler/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Lyre the Prowler/R1.png"
+            ]
+        },
+        {
+            "creator": "Quo",
+            "name": "Quo the Berkut",
+            "model": "SU-47 Berkut",
+            "galleryImagePaths": [
+                "Quo the Berkut/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Quo the Berkut/R1.png"
             ]
         }
     ]
