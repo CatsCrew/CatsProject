@@ -274,7 +274,7 @@
         {
             "creator": "Starfoth",
             "name": "Raven the Lightning II",
-            "model": "F-35C",
+            "model": "F-35C Lightning ll",
             "galleryImagePaths": [
                 "Raven the Lightning II/T.png",
                 "Raven the Lightning II/1.png",
@@ -2914,6 +2914,29 @@
             ],
              "referenceSheetsPath": [
                 "Howler the Zeroe/R1.png"
+            ]
+        },
+        {
+            "creator": "F!shy",
+            "name": "Sabre the Stratofortress",
+            "model": "B-52 Strarofortress",
+            "galleryImagePaths": [
+                "Sabre the Stratofortress/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sabre the Stratofortress/R1.png",
+                "Sabre the Stratofortress/R2.png"
+            ]
+        },
+        {
+            "creator": "Swapsy",
+            "name": "Pitot the Luna",
+            "model": "EMT Luna X-2000",
+            "galleryImagePaths": [
+                "Pitot the Luna/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Pitot the Luna/R1.png"
             ]
         }
     ]
