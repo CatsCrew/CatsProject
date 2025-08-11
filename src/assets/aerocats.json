@@ -2529,6 +2529,392 @@
              "referenceSheetsPath": [
                 "Aero the Hunter/R1.jpg"
             ]
+        },
+        {
+            "creator": "Feladi",
+            "name": "Angel the Spectre",
+            "model": "AC-130H Spectre",
+            "galleryImagePaths": [
+                "Angel the Spectre/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Angel the Spectre/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Tailstrike the Eagle",
+            "model": "F-15C Eagle",
+            "galleryImagePaths": [
+                "Tailstrike the Eagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Tailstrike the Eagle/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Hawke Wulf the Airwolf",
+            "model": "Airwolf (Movie)",
+            "galleryImagePaths": [
+                "Hawke Wulf the Airwolf/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Hawke Wulf the Airwolf/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "JAS the Falafel",
+            "model": "TAUN/MIG-1.50 FALAFEL (OF)",
+            "galleryImagePaths": [
+                "JAS the Falafel/T.png",
+                "JAS the Falafel/1.png",
+                "JAS the Falafel/2.png"
+            ],
+             "referenceSheetsPath": [
+                "JAS the Falafel/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Telya the Blinder-U",
+            "model": "T-4U Blinder-U",
+            "galleryImagePaths": [
+                "Telya the Blinder-U/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Telya the Blinder-U/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Resur the Moss",
+            "model": "Tu-126 Moss",
+            "galleryImagePaths": [
+                "Resur the Moss/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Resur the Moss/R1.png"
+            ]
+        },
+        {
+            "creator": "Sillycat",
+            "name": "Laserback the Rivet Joint",
+            "model": "RC-135 V/W Rivet Joint",
+            "galleryImagePaths": [
+                "Laserback the Rivet Joint/T.png",
+                "Laserback the Rivet Joint/1.png",
+                "Laserback the Rivet Joint/2.png",
+                "Laserback the Rivet Joint/3.png",
+                "Laserback the Rivet Joint/4.png",
+                "Laserback the Rivet Joint/5.png",
+                "Laserback the Rivet Joint/6.png"
+            ],
+             "referenceSheetsPath": [
+                "Laserback the Rivet Joint/R1.png"
+            ]
+        },
+        {
+            "creator": "Sillycat",
+            "name": "Taeyeong the MC-X",
+            "model": "MC-X",
+            "galleryImagePaths": [
+                "Taeyeong the MC-X/T.png",
+                "Taeyeong the MC-X/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Taeyeong the MC-X/R1.png"
+            ]
+        },
+        {
+            "creator": "Sillycat",
+            "name": "Dummy the Hercules",
+            "model": "H-4 Hercules",
+            "galleryImagePaths": [
+                "Dummy the Hercules/T.png",
+                "Dummy the Hercules/1.png",
+                "Dummy the Hercules/2.png",
+                "Dummy the Hercules/3.png",
+                "Dummy the Hercules/4.png",
+                "Dummy the Hercules/5.png"
+            ],
+             "referenceSheetsPath": [
+                "Dummy the Hercules/R1.png"
+            ]
+        },
+        {
+            "creator": "Sparky",
+            "name": "Sparky the Nighthawk",
+            "model": "F-117A Nighthawk",
+            "galleryImagePaths": [
+                "Sparky the Nighthawk/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sparky the Nighthawk/R1.png"
+            ]
+        },
+        {
+            "creator": "DatBlueHusky",
+            "name": "DAT-57 the Felon",
+            "model": "SU-57 Felon",
+            "galleryImagePaths": [
+                "DAT-57 the Felon/T.png"
+            ],
+             "referenceSheetsPath": [
+                "DAT-57 the Felon/R1.png"
+            ]
+        },
+        {
+            "creator": "Karicamewise",
+            "name": "Fas the Strike Wyvern",
+            "model": "X-02s Strike Wyvern (Game)",
+            "galleryImagePaths": [
+                "Fas the Strike Wyvern/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Fas the Strike Wyvern/R1.png"
+            ]
+        },
+        {
+            "creator": "Karicamewise",
+            "name": "Scint the Vampire",
+            "model": "XFA-33 Vampire (Game)",
+            "galleryImagePaths": [
+                "Scint the Vampire/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Scint the Vampire/R1.jpg"
+            ]
+        },
+        {
+            "creator": "APK",
+            "name": "Apk the Raptor",
+            "model": "F-22 Raptor",
+            "galleryImagePaths": [
+                "Apk the Raptor/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Apk the Raptor/R1.png"
+            ]
+        },
+        {
+            "creator": "Copycat",
+            "name": "Shnur the Frogfoot",
+            "model": "Su-25 Frogfoot",
+            "galleryImagePaths": [
+                "Shnur the Frogfoot/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Shnur the Frogfoot/R1.png"
+            ]
+        },
+        {
+            "creator": "Copycat",
+            "name": "Prorva the Mule",
+            "model": "Po-2ME Mule",
+            "galleryImagePaths": [
+                "Prorva the Mule/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Prorva the Mule/R1.png"
+            ]
+        },
+        {
+            "creator": "KAI",
+            "name": "Kai the Panther",
+            "model": "F9F-2 Panther",
+            "galleryImagePaths": [
+                "Kai the Panther/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Kai the Panther/R1.png"
+            ]
+        },
+        {
+            "creator": "KAI",
+            "name": "Ace the Tarantula",
+            "model": "VL-49 Tarantula (Game)",
+            "galleryImagePaths": [
+                "Ace the Tarantula/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Ace the Tarantula/R1.png"
+            ]
+        },
+        {
+            "creator": "Seba200725",
+            "name": "Takishido the Spirit",
+            "model": "B-2 Spirit",
+            "galleryImagePaths": [
+                "Takishido the Spirit/T.png",
+                "Takishido the Spirit/T.jpg"
+            ],
+             "referenceSheetsPath": [
+                "Takishido the Spirit/R1.jpg",
+                "Takishido the Spirit/R1.jpg"
+            ]
+        },
+        {
+            "creator": "SIU",
+            "name": "Wyndra the Tiny Bronco",
+            "model": "Wyndra Tiny Bronco-51 (Game)",
+            "galleryImagePaths": [
+                "Wyndra the Tiny Bronco/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Wyndra the Tiny Bronco/R1.png"
+            ]
+        },
+        {
+            "creator": "detron",
+            "name": "URV the H-20",
+            "model": "Xian H-20",
+            "galleryImagePaths": [
+                "URV the H-20/T.png",
+                "URV the H-20/1.png"
+            ],
+             "referenceSheetsPath": [
+                "URV the H-20/R1.jpg",
+                "URV the H-20/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Smoke the Warthog",
+            "model": "A-10 Thunderbolt ll",
+            "galleryImagePaths": [
+                "Smoke the Warthog/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Smoke the Warthog/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Chip the Flying Aircraft Carrier",
+            "model": "CL-1201 Flying Aircraft Carrier",
+            "galleryImagePaths": [
+                "Chip the Flying Aircraft Carrier/T.png",
+                "Chip the Flying Aircraft Carrier/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Chip the Flying Aircraft Carrier/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Shade the Aigaion",
+            "model": "P-1112 Aigaion (Game)",
+            "galleryImagePaths": [
+                "Shade the Aigaion/T.png",
+                "Shade the Aigaion/1.png",
+                "Shade the Aigaion/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Shade the Aigaion/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Nyla the Raider",
+            "model": "B-21 Raider",
+            "galleryImagePaths": [
+                "Nyla the Raider/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Nyla the Raider/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Ray the Stingray",
+            "model": "MQ-25 Stingray",
+            "galleryImagePaths": [
+                "Ray the Stingray/T.png",
+                "Ray the Stingray/1.jpg"
+            ],
+             "referenceSheetsPath": [
+                "Ray the Stingray/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Volt the Nighthawk",
+            "model": "F-117A Nighthawk",
+            "galleryImagePaths": [
+                "Volt the Nighthawk/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Volt the Nighthawk/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Reznov the Checkmate",
+            "model": "Su-75 Checkmate",
+            "galleryImagePaths": [
+                "Reznov the Checkmate/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Reznov the Checkmate/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Liberty the Comanche",
+            "model": "RAH-66 Comanche",
+            "galleryImagePaths": [
+                "Liberty the Comanche/T.png",
+                "Liberty the Comanche/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Liberty the Comanche/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Comet the Komet",
+            "model": "Me-163 Komet",
+            "galleryImagePaths": [
+                "Comet the Komet/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Comet the Komet/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Silver the Aurora",
+            "model": "UI-4054 Aurora (Game)",
+            "galleryImagePaths": [
+                "Silver the Aurora/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Silver the Aurora/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Kinta the Stratotanker",
+            "model": "KC-135 Stratotanker",
+            "galleryImagePaths": [
+                "Kinta the Stratotanker/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Kinta the Stratotanker/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Howler the Zeroe",
+            "model": "Airbus Zeroe",
+            "galleryImagePaths": [
+                "Howler the Zeroe/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Howler the Zeroe/R1.png"
+            ]
         }
     ]
 }
