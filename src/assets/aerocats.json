@@ -2938,6 +2938,205 @@
              "referenceSheetsPath": [
                 "Pitot the Luna/R1.png"
             ]
+        },
+        {
+            "creator": "Nahrafet",
+            "name": "Backer the Fullback",
+            "model": "Su-34M Fullback",
+            "galleryImagePaths": [
+                "Backer the Fullback/T.png",
+                "Backer the Fullback/1.png",
+                "Backer the Fullback/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Backer the Fullback/R1.png"
+            ]
+        },
+        {
+            "creator": "Nahrafet",
+            "name": "Tanya the White Swan",
+            "model": "TU-160 White Swan",
+            "galleryImagePaths": [
+                "Tanya the White Swan/T.png",
+                "Tanya the White Swan/1.png",
+                "Tanya the White Swan/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Tanya the White Swan/R1.png"
+            ]
+        },
+        {
+            "creator": "Karv",
+            "name": "Falken the Falken",
+            "model": "ADF-01 Falken",
+            "galleryImagePaths": [
+                "Falken the Falken/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Falken the Falken/R1.png"
+            ]
+        },
+        {
+            "creator": "Green PC",
+            "name": "Mriya the An-225",
+            "model": "An-225 Mriya",
+            "galleryImagePaths": [
+                "Mriya the An-225/T.png",
+                "Mriya the An-225/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Mriya the An-225/R1.png"
+            ]
+        },
+        {
+            "creator": "Socks",
+            "name": "Crow the Spirit",
+            "model": "B-2 Spirit",
+            "galleryImagePaths": [
+                "Crow the Spirit/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Crow the Spirit/R1.png"
+            ]
+        },
+        {
+            "creator": "Miller",
+            "name": "Echo the Strike Eagle",
+            "model": "F-15E Strike eagle",
+            "galleryImagePaths": [
+                "Echo the Strike Eagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Echo the Strike Eagle/R1.png"
+            ]
+        },
+        {
+            "creator": "Frigadae",
+            "name": "Freddy the Tiger II",
+            "model": "F-5E Tiger II",
+            "galleryImagePaths": [
+                "Freddy the Tiger II/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Freddy the Tiger II/R1.png"
+            ]
+        },
+        {
+            "creator": "Frigadae",
+            "name": "Freddy the Tiger II",
+            "model": "F-5E Tiger II",
+            "galleryImagePaths": [
+                "Freddy the Tiger II/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Freddy the Tiger II/R1.png"
+            ]
+        },
+        {
+            "creator": "Sky Shredder",
+            "name": "Navi the NAV Hawk",
+            "model": "A/F-117X NAV Hawk (Game)",
+            "galleryImagePaths": [
+                "Navi the NAV Hawk/T.png",
+                "Navi the NAV Hawk/1.png",
+                "Navi the NAV Hawk/2.png",
+                "Navi the NAV Hawk/3.png"
+            ],
+             "referenceSheetsPath": [
+                "Navi the NAV Hawk/R1.png",
+                "Navi the NAV Hawk/R2.png"
+            ]
+        },
+        {
+            "creator": "Sky Shredder",
+            "name": "Hunter the Prowler",
+            "model": "EA-6B Prowler",
+            "galleryImagePaths": [
+                "Hunter the Prowler/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Hunter the Prowler/R1.png"
+            ]
+        },
+        {
+            "creator": "Riker Maltov",
+            "name": "Salem the Salamander",
+            "model": "He 162 A Salamander",
+            "galleryImagePaths": [
+                "Salem the Salamander/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Salem the Salamander/R1.png"
+            ]
+        },
+        {
+            "creator": "Riker Maltov",
+            "name": "Hagen the BV-141",
+            "model": "BV-141",
+            "galleryImagePaths": [
+                "Hagen the BV-141/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Hagen the BV-141/R1.png",
+                "Hagen the BV-141/R2.png"
+            ]
+        },
+        {
+            "creator": "MardenInNl",
+            "name": "Harp the Canberra",
+            "model": "WB-57F Canberra",
+            "galleryImagePaths": [
+                "Harp the Canberra/T.png",
+                "Harp the Canberra/1.png",
+                "Harp the Canberra/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Harp the Canberra/R1.png"
+            ]
+        },
+        {
+            "creator": "Yaco",
+            "name": "Judie the reaper",
+            "model": "MQ-9 Reaper",
+            "galleryImagePaths": [
+                "Judie the reaper/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Judie the reaper/R1.png"
+            ]
+        },
+        {
+            "creator": "Yaco",
+            "name": "Light the Aigaion",
+            "model": "P-1112 Aigaion (Game)",
+            "galleryImagePaths": [
+                "Light the Aigaion/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Light the Aigaion/R1.png"
+            ]
+        },
+        {
+            "creator": "Yaco",
+            "name": "Mouse the Little bird",
+            "model": "MH-6 Little bird",
+            "galleryImagePaths": [
+                "Mouse the Little bird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mouse the Little bird/R1.png"
+            ]
+        },
+        {
+            "creator": "Winter",
+            "name": "Sesmian the Fishbed",
+            "model": "MIG-21F Fishbed",
+            "galleryImagePaths": [
+                "Sesmian the Fishbed/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sesmian the Fishbed/R1.png"
+            ]
         }
     ]
 }
