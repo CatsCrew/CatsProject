@@ -77,8 +77,7 @@
                 "Aardk the Aardvark/7.png",
                 "Aardk the Aardvark/8.png",
                 "Aardk the Aardvark/9.png",
-                "Aardk the Aardvark/10.png",
-                "Aardk the Aardvark/11.png"
+                "Aardk the Aardvark/10.png"
             ],
              "referenceSheetsPath": [
                 "Aardk the Aardvark/R1.png",
@@ -100,7 +99,7 @@
                 "Lancer the Lancer/6.png",
                 "Lancer the Lancer/7.png",
                 "Lancer the Lancer/8.png",
-                "Lancer the Lancer/9.png"
+                "Lancer the Lancer/9.jpg"
             ],
              "referenceSheetsPath": [
                 "Lancer the Lancer/R1.png"
@@ -126,8 +125,8 @@
                 "flit_the_nighthawk/T.png",
                 "flit_the_nighthawk/1.png",
                 "flit_the_nighthawk/2.png",
-                "flit_the_nighthawk/3.png",
-                "flit_the_nighthawk/4.png",
+                "flit_the_nighthawk/3.webp",
+                "flit_the_nighthawk/4.webp",
                 "flit_the_nighthawk/5.png"
             ],
              "referenceSheetsPath": [
@@ -152,20 +151,20 @@
             "name": "Pahl the Fighting-Falcon",
             "model": "F-16C Fighting-Falcon",
             "galleryImagePaths": [
-                "Pahl the Fighting-Falcon/T.png",
-                "Pahl the Fighting-Falcon/1.png",
-                "Pahl the Fighting-Falcon/2.png",
-                "Pahl the Fighting-Falcon/3.png",
-                "Pahl the Fighting-Falcon/4.png",
-                "Pahl the Fighting-Falcon/5.png",
+                "Pahl the Fighting-Falcon/T.jpg",
+                "Pahl the Fighting-Falcon/1.jpg",
+                "Pahl the Fighting-Falcon/2.jpg",
+                "Pahl the Fighting-Falcon/3.jpg",
+                "Pahl the Fighting-Falcon/4.jpg",
+                "Pahl the Fighting-Falcon/5.jpg",
                 "Pahl the Fighting-Falcon/6.png",
-                "Pahl the Fighting-Falcon/7.png",
-                "Pahl the Fighting-Falcon/8.png",
+                "Pahl the Fighting-Falcon/7.jpg",
+                "Pahl the Fighting-Falcon/8.jpg",
                 "Pahl the Fighting-Falcon/9.png"
             ],
              "referenceSheetsPath": [
-                "Pahl the Fighting-Falcon/R1.png",
-                "Pahl the Fighting-Falcon/R2.png"
+                "Pahl the Fighting-Falcon/R1.jpg",
+                "Pahl the Fighting-Falcon/R2.jpg"
             ]
         },
         {
@@ -175,9 +174,9 @@
             "galleryImagePaths": [
                 "Tomm the Phantom II/T.png",
                 "Tomm the Phantom II/1.png",
-                "Tomm the Phantom II/2.png",
-                "Tomm the Phantom II/3.png",
-                "Tomm the Phantom II/4.png"
+                "Tomm the Phantom II/2.jpg",
+                "Tomm the Phantom II/3.jpg",
+                "Tomm the Phantom II/4.jpg"
             ]
         },
         {
@@ -186,10 +185,10 @@
             "model": "UH-60L Blackhawk",
             "galleryImagePaths": [
                 "Fleric the Blackhawk/T.png",
-                "Fleric the Blackhawk/1.png"
+                "Fleric the Blackhawk/1.jpg"
             ],
              "referenceSheetsPath": [
-                "Fleric the Blackhawk/R1.png"
+                "Fleric the Blackhawk/R1.jpg"
             ]
         },
         {
@@ -223,7 +222,7 @@
                 "Norman the Tomcat/3.png",
                 "Norman the Tomcat/4.png",
                 "Norman the Tomcat/5.png",
-                "Norman the Tomcat/6.png",
+                "Norman the Tomcat/6.jpg",
                 "Norman the Tomcat/7.png",
                 "Norman the Tomcat/8.png"
             ]
@@ -265,10 +264,10 @@
             "galleryImagePaths": [
                 "Lockheart the Lightning ll/T.png",
                 "Lockheart the Lightning ll/1.png",
-                "Lockheart the Lightning ll/2.png",
-                "Lockheart the Lightning ll/3.png",
-                "Lockheart the Lightning ll/4.png",
-                "Lockheart the Lightning ll/5.png",
+                "Lockheart the Lightning ll/2.jpg",
+                "Lockheart the Lightning ll/3.jpg",
+                "Lockheart the Lightning ll/4.jpg",
+                "Lockheart the Lightning ll/5.jpg",
                 "Lockheart the Lightning ll/6.png"
             ]
         },
@@ -473,7 +472,7 @@
                 "Mustang the Mustang/T.png"
             ],
              "referenceSheetsPath": [
-                "Mustang the Mustang/R1.png"
+                "Mustang the Mustang/R1.jpg"
             ]
         },
         {
@@ -484,7 +483,7 @@
                 "Brigade the Osprey/T.png"
             ],
              "referenceSheetsPath": [
-                "Brigade the Osprey/R1.png"
+                "Brigade the Osprey/R1.jpg"
             ]
         },
         {
@@ -562,7 +561,7 @@
                 "Cobra the Warthog/T.png"
             ],
              "referenceSheetsPath": [
-                "Cobra the Warthog/R1.png"
+                "Cobra the Warthog/R1.jpg"
             ]
         },
         {
@@ -720,14 +719,14 @@
                 "Kars the UF-73/T.png",
                 "Kars the UF-73/1.png",
                 "Kars the UF-73/2.png",
-                "Kars the UF-73/3.png",
+                "Kars the UF-73/3.jpg",
                 "Kars the UF-73/4.png",
                 "Kars the UF-73/5.png",
                 "Kars the UF-73/6.png",
-                "Kars the UF-73/7.png"
+                "Kars the UF-73/7.jpg"
             ],
              "referenceSheetsPath": [
-                "Kars the UF-73/R1.png"
+                "Kars the UF-73/R1.jpg"
             ]
         },
         {
@@ -825,7 +824,7 @@
                 "Samuel the Flying fortress/T.png"
             ],
              "referenceSheetsPath": [
-                "Samuel the Flying fortress/R1.png"
+                "Samuel the Flying fortress/R1.jpg"
             ]
         },
         {
@@ -847,8 +846,8 @@
                 "Anastasia the Hercules/T.png"
             ],
              "referenceSheetsPath": [
-                "Anastasia the Hercules/R1.png",
-                "Anastasia the Hercules/R2.png"
+                "Anastasia the Hercules/R1.jpg",
+                "Anastasia the Hercules/R2.jpg"
             ]
         },
         {
@@ -870,7 +869,7 @@
                 "Aim the AMX/T.png"
             ],
              "referenceSheetsPath": [
-                "Aim the AMX/R1.png"
+                "Aim the AMX/R1.jpg"
             ]
         },
         {
@@ -890,12 +889,12 @@
             "model": "seaplane etc.",
             "galleryImagePaths": [
                 "Sea the Sea Aero/T.png",
-                "Sea the Sea Aero/1.png",
-                "Sea the Sea Aero/2.png"
+                "Sea the Sea Aero/1.jpg",
+                "Sea the Sea Aero/2.jpg"
             ],
              "referenceSheetsPath": [
                 "Sea the Sea Aero/R1.png",
-                "Sea the Sea Aero/R2.png"
+                "Sea the Sea Aero/R2.jpg"
             ]
         },
         {
@@ -906,7 +905,7 @@
                 "F22A the Raptor/T.png"
             ],
              "referenceSheetsPath": [
-                "F22A the Raptor/R1.png"
+                "F22A the Raptor/R1.jpg"
             ]
         },
         {
@@ -923,7 +922,7 @@
                 "Thunderlight the Lightning ll/6.png"
             ],
              "referenceSheetsPath": [
-                "Thunderlight the Lightning ll/R1.png"
+                "Thunderlight the Lightning ll/R1.jpg"
             ]
         },
         {
@@ -956,7 +955,7 @@
                 "Quo the Berkut/T.png"
             ],
              "referenceSheetsPath": [
-                "Quo the Berkut/R1.png"
+                "Quo the Berkut/R1.jpg"
             ]
          },
         {
@@ -965,13 +964,13 @@
             "model": "IL-76 Candid",
             "galleryImagePaths": [
                 "Est the Candid/T.png",
-                "Est the Candid/1.png",
-                "Est the Candid/2.png",
-                "Est the Candid/3.png"
+                "Est the Candid/1.jpg",
+                "Est the Candid/2.jpg",
+                "Est the Candid/3.jpg"
             ],
              "referenceSheetsPath": [
-                "Est the Candid/R1.png",
-                "Est the Candid/R2.png"
+                "Est the Candid/R1.jpg",
+                "Est the Candid/R2.jpg"
             ]
         },
         {
@@ -982,8 +981,8 @@
                 "Freyja the Fiddler/T.png"
             ],
              "referenceSheetsPath": [
-                "Freyja the Fiddler/R1.png",
-                "Freyja the Fiddler/R2.png"
+                "Freyja the Fiddler/R1.jpg",
+                "Freyja the Fiddler/R2.jpg"
             ]
         },
         {
@@ -994,8 +993,8 @@
                 "Est the Lightning ll/T.png"
             ],
              "referenceSheetsPath": [
-                "Est the Lightning ll/R1.png",
-                "Est the Lightning ll/R2.png"
+                "Est the Lightning ll/R1.jpg",
+                "Est the Lightning ll/R2.jpg"
             ]
         },
         {
@@ -1006,7 +1005,7 @@
                 "Yngvi the Raptor/T.png"
             ],
              "referenceSheetsPath": [
-                "Yngvi the Raptor/R1.png"
+                "Yngvi the Raptor/R1.jpg"
             ]
         },
         {
@@ -1017,7 +1016,7 @@
                 "Lexi the L3X1/T.png"
             ],
              "referenceSheetsPath": [
-                "Lexi the L3X1/R1.png"
+                "Lexi the L3X1/R1.jpg"
             ]
         },
         {
@@ -1040,7 +1039,7 @@
                 "Perci the Airbus/T.png"
             ],
              "referenceSheetsPath": [
-                "Perci the Airbus/R1.png"
+                "Perci the Airbus/R1.jpg"
             ]
         },
         {
@@ -1051,7 +1050,7 @@
                 "Ensenari the Raider/T.png"
             ],
              "referenceSheetsPath": [
-                "Ensenari the Raider/R1.png"
+                "Ensenari the Raider/R1.jpg"
             ]
         },
         {
@@ -1084,7 +1083,7 @@
                 "Torbar the Frogfoot/T.png",
                 "Torbar the Frogfoot/1.png",
                 "Torbar the Frogfoot/2.png",
-                "Torbar the Frogfoot/3.png",
+                "Torbar the Frogfoot/3.jpg",
                 "Torbar the Frogfoot/4.png"
             ],
              "referenceSheetsPath": [
@@ -1113,7 +1112,7 @@
             ],
              "referenceSheetsPath": [
                 "Pidgeon the Lancer/R1.png",
-                "Pidgeon the Lancer/R2.png"
+                "Pidgeon the Lancer/R2.jpg"
             ]
         },
         {
@@ -1198,7 +1197,7 @@
             "name": "Dasher the Black Dart",
             "model": "HVT-2 Black Dart",
             "galleryImagePaths": [
-                "Dasher the Black Dart/T.png",
+                "Dasher the Black Dart/T.jpg",
                 "Dasher the Black Dart/1.png"
             ],
              "referenceSheetsPath": [
@@ -1271,7 +1270,7 @@
                 "Von the crusader/T.png"
             ],
              "referenceSheetsPath": [
-                "Von the crusader/R1.png"
+                "Von the crusader/R1.jpg"
             ]
         },
         {
@@ -1282,7 +1281,7 @@
                 "Namo the Fighting falcon/T.png"
             ],
              "referenceSheetsPath": [
-                "Namo the Fighting falcon/R1.png"
+                "Namo the Fighting falcon/R1.jpg"
             ]
         },
         {
@@ -1323,7 +1322,7 @@
                 "Done the Triple Thousand/T.png"
             ],
              "referenceSheetsPath": [
-                "Done the Triple Thousand/R1.png"
+                "Done the Triple Thousand/R1.jpg"
             ]
         },
         {
@@ -1356,7 +1355,7 @@
                 "Odin the Raven/T.png"
             ],
              "referenceSheetsPath": [
-                "Odin the Raven/R1.png"
+                "Odin the Raven/R1.jpg"
             ]
         },
         {
@@ -1389,7 +1388,7 @@
                 "Proteus the Proteus/T.png"
             ],
              "referenceSheetsPath": [
-                "Proteus the Proteus/R1.png"
+                "Proteus the Proteus/R1.jpg"
             ]
         },
         {
@@ -1398,10 +1397,10 @@
             "model": "JAS-39E Gripen",
             "galleryImagePaths": [
                 "Pehr the Gripen/T.png",
-                "Pehr the Gripen/1.png"
+                "Pehr the Gripen/1.jpg"
             ],
              "referenceSheetsPath": [
-                "Pehr the Gripen/R1.png"
+                "Pehr the Gripen/R1.jpg"
             ]
         },
         {
@@ -1423,7 +1422,7 @@
                 "Fis the Eagle/T.png"
             ],
              "referenceSheetsPath": [
-                "Fis the Eagle/R1.png"
+                "Fis the Eagle/R1.jpg"
             ]
         },
         {
@@ -1434,7 +1433,7 @@
                 "Y the Evil meteor/T.png",
                 "Y the Evil meteor/1.png",
                 "Y the Evil meteor/2.png",
-                "Y the Evil meteor/3.png"
+                "Y the Evil meteor/3.jpg"
             ],
              "referenceSheetsPath": [
                 "Y the Evil meteor/R1.png",
@@ -1519,7 +1518,7 @@
                 "Hans the Apache/T.png"
             ],
              "referenceSheetsPath": [
-                "Hans the Apache/R1.png"
+                "Hans the Apache/R1.jpg"
             ]
         },
         {
@@ -1528,7 +1527,7 @@
             "model": "K/A-1 Puma (OF)",
             "galleryImagePaths": [
                 "Puma the KA-1/T.png",
-                "Puma the KA-1/1.png"
+                "Puma the KA-1/1.jpg"
             ],
              "referenceSheetsPath": [
                 "Puma the KA-1/R1.png"
@@ -1540,10 +1539,10 @@
             "model": "X-43a the Dart",
             "galleryImagePaths": [
                 "Dart the X-43a/T.png",
-                "Dart the X-43a/1.png"
+                "Dart the X-43a/1.jpg"
             ],
              "referenceSheetsPath": [
-                "Dart the X-43a/R1.png"
+                "Dart the X-43a/R1.jifi"
             ]
         },
         {
@@ -1552,9 +1551,9 @@
             "model": "X-43a the Dart",
             "galleryImagePaths": [
                 "Sentinel the UMBRA ll/T.png",
-                "Sentinel the UMBRA ll/1.png",
-                "Sentinel the UMBRA ll/2.png",
-                "Sentinel the UMBRA ll/3.png"
+                "Sentinel the UMBRA ll/1.jpg",
+                "Sentinel the UMBRA ll/2.jpg",
+                "Sentinel the UMBRA ll/3.jpg"
             ],
              "referenceSheetsPath": [
                 "Sentinel the UMBRA ll/R1.png"
@@ -1566,10 +1565,10 @@
             "model": "F-15E Strike eagle",
             "galleryImagePaths": [
                 "Raider the Strike eagle/T.png",
-                "Raider the Strike eagle/1.png"
+                "Raider the Strike eagle/1.jpg"
             ],
              "referenceSheetsPath": [
-                "Raider the Strike eagle/R1.png"
+                "Raider the Strike eagle/R1.jifi"
             ]
         },
         {
@@ -1580,7 +1579,7 @@
                 "Chief the Aardvark/T.png"
             ],
              "referenceSheetsPath": [
-                "Chief the Aardvark/R1.png"
+                "Chief the Aardvark/R1.jpg"
             ]
         },
         {
@@ -1591,7 +1590,7 @@
                 "Ray the X-47B/T.png"
             ],
              "referenceSheetsPath": [
-                "Ray the X-47B/R1.png"
+                "Ray the X-47B/R1.jpg"
             ]
         },
         {
@@ -1602,7 +1601,7 @@
                 "Vulcan the Arsenal bird/T.png"
             ],
              "referenceSheetsPath": [
-                "Vulcan the Arsenal bird/R1.png"
+                "Vulcan the Arsenal bird/R1.jpg"
             ]
         },
         {
@@ -1611,7 +1610,7 @@
             "model": "USN Akron-Class Airship",
             "galleryImagePaths": [
                 "Arc the Akron-Class/T.png",
-                "Arc the Akron-Class/1.png"
+                "Arc the Akron-Class/1.jpg"
             ],
              "referenceSheetsPath": [
                 "Arc the Akron-Class/R1.png"
@@ -1628,7 +1627,7 @@
                 "Fritz the DR1/R1.png",
                 "Fritz the DR1/R2.png",
                 "Fritz the DR1/R3.png",
-                "Fritz the DR1/R4.png"
+                "Fritz the DR1/R4.webp"
             ]
         },
         {
