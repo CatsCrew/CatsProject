@@ -2114,6 +2114,271 @@
              "referenceSheetsPath": [
                 "Erebus the Black Shark/R1.png"
             ]
+        },
+        {
+            "creator": "Nroy",
+            "name": "Cosmo the Tomcat",
+            "model": "F-14A Tomcat",
+            "galleryImagePaths": [
+                "Cosmo the Tomcat/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Cosmo the Tomcat/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Lumi",
+            "name": "Phos the Lancer",
+            "model": "B-1R Lancer",
+            "galleryImagePaths": [
+                "Phos the Lancer/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Phos the Lancer/R1.png",
+                "Phos the Lancer/R2.png"
+            ]
+        },
+        {
+            "creator": "Kite",
+            "name": "Whirl the Seahawk",
+            "model": "SH-60 Seahawk",
+            "galleryImagePaths": [
+                "Whirl the Seahawk/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Whirl the Seahawk/R1.png"
+            ]
+        },
+        {
+            "creator": "Filmor",
+            "name": "B-33 the Biplane",
+            "model": "Biplane etc.",
+            "galleryImagePaths": [
+                "B-33 the Biplane/T.png"
+            ],
+             "referenceSheetsPath": [
+                "B-33 the Biplane/R1.png"
+            ]
+        },
+        {
+            "creator": "leviathinh",
+            "name": "Twerl the Osprey",
+            "model": "V-22 Osprey",
+            "galleryImagePaths": [
+                "Twerl the Osprey/T.png",
+                "Twerl the Osprey/1.png",
+                "Twerl the Osprey/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Twerl the Osprey/R1.png"
+            ]
+        },
+        {
+            "creator": "leviathinh",
+            "name": "Ray the Star Radiance",
+            "model": "YAL-1 Airborne Laser Star Radiance",
+            "galleryImagePaths": [
+                "Ray the Star Radiance/T.png",
+                "Ray the Star Radiance/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Ray the Star Radiance/R1.png"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Abbacchio the Gina",
+            "model": "G.91 R/1 Gina",
+            "galleryImagePaths": [
+                "Abbacchio the Gina/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Abbacchio the Gina/R1.jpg",
+                "Abbacchio the Gina/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Scar Blaze the Hell Reaper",
+            "model": "M25 Hell Reaper",
+            "galleryImagePaths": [
+                "Scar Blaze the Hell Reaper/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Scar Blaze the Hell Reaper/R1.jpg",
+                "Scar Blaze the Hell Reaper/R2.jpg",
+                "Scar Blaze the Hell Reaper/R3.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Frosty Larks the Spear",
+            "model": "SP-34R (Game)",
+            "galleryImagePaths": [
+                "Frosty Larks the Spear/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Frosty Larks the Spear/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Fred the Scorpion",
+            "model": "PZL-230F Scorpion",
+            "galleryImagePaths": [
+                "Fred the Scorpion/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Fred the Scorpion/R1.jpg",
+                "Fred the Scorpion/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Abbacchio the Alpha Jet",
+            "model": "Alpha Jet",
+            "galleryImagePaths": [
+                "Abbacchio the Alpha Jet/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Abbacchio the Alpha Jet/R1.jpg",
+                "Abbacchio the Alpha Jet/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Pavel the Single engine",
+            "model": "MIG-33 Single engine",
+            "galleryImagePaths": [
+                "Pavel the Single engine/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Pavel the Single engine/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Thud the Thunderchief",
+            "model": "F-105 Thunderchief",
+            "galleryImagePaths": [
+                "Thud the Thunderchief/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Thud the Thunderchief/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Sylphid the Sylphe",
+            "model": "FFR-31 Sylph (Movie)",
+            "galleryImagePaths": [
+                "Sylphid the Sylphe/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sylphid the Sylphe/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Erich the Classic",
+            "model": "IL-62 Classic",
+            "galleryImagePaths": [
+                "Erich the Classic/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Erich the Classic/R1.png"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Eureka the Careless",
+            "model": "Tu-154 Careless",
+            "galleryImagePaths": [
+                "Eureka the Careless/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Eureka the Careless/R1.png"
+            ]
+        },
+        {
+            "creator": "Yuho",
+            "name": "Robo the Bear",
+            "model": "Tu-95MSM Bear",
+            "galleryImagePaths": [
+                "Robo the Bear/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Robo the Bear/R1.jfif"
+            ]
+        },
+        {
+            "creator": "purplecarmine",
+            "name": "Cobra the Xi'an",
+            "model": "Y-32 Xi'an (Game)",
+            "galleryImagePaths": [
+                "Cobra the Xi'an/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Cobra the Xi'an/R1.png"
+            ]
+        },
+        {
+            "creator": "Rocket",
+            "name": "Ze-ro the Dragon lady",
+            "model": "U-2 Dragon lady",
+            "galleryImagePaths": [
+                "Ze-ro the Dragon lady/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Ze-ro the Dragon lady/R1.jpg",
+                "Ze-ro the Dragon lady/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Abyssal",
+            "name": "Goliath the Airship",
+            "model": "Airship etc.",
+            "galleryImagePaths": [
+                "Goliath the Airship/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Goliath the Airship/R1.png"
+            ]
+        },
+        {
+            "creator": "Abyssal",
+            "name": "MirrorPie the Comanche",
+            "model": "RAH-66 Comanche",
+            "galleryImagePaths": [
+                "MirrorPie the Comanche/T.png"
+            ],
+             "referenceSheetsPath": [
+                "MirrorPie the Comanche/R1.png",
+                "MirrorPie the Comanche/R2.png"
+            ]
+        },
+        {
+            "creator": "ToasTee",
+            "name": "Tensor the Sentinel",
+            "model": "RQ-170 Sentinel",
+            "galleryImagePaths": [
+                "Tensor the Sentinel/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Tensor the Sentinel/R1.png",
+                "Tensor the Sentinel/R2.png"
+            ]
+        },
+        {
+            "creator": "WhiteGhost",
+            "name": "Gui ying the J-35",
+            "model": "Shenyang J-35",
+            "galleryImagePaths": [
+                "Gui ying the J-35/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Gui ying the J-35/R1.jpg"
+            ]
         }
     ]
 }
