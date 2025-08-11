@@ -3,7 +3,13 @@
 <template>
     <div class="detail-container">
         <section class="carousel-container">
-            <PrimaryCarousel :images="images">
+            <GalleryCarousel
+                v-if="isMobile"
+                :images="images">
+            </GalleryCarousel>
+            <PrimaryCarousel
+                v-else
+                :images="images">
             </PrimaryCarousel>
         </section>
         <section class="cat-info-container">
@@ -61,13 +67,14 @@ import { storeToRefs } from "pinia";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 const PrimaryCarousel = defineAsyncComponent(() => import('@/components/primary-carousel/primary-carousel.vue'));
+const GalleryCarousel = defineAsyncComponent(() => import('@/components/gallery-carousel/gallery-carousel.vue'));
 
 const { id } = defineProps<{
     id?: string;
 }>();
 
 const cat$ = useCatsStore();
-const { catById } = $(storeToRefs(cat$));
+const { catById, isMobile } = $(storeToRefs(cat$));
 
 const cat = $computed(() => catById(id));
 const images = $computed(() => {
