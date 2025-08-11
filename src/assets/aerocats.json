@@ -151,7 +151,7 @@
             "name": "Pahl the Fighting-Falcon",
             "model": "F-16C Fighting-Falcon",
             "galleryImagePaths": [
-                "Pahl the Fighting-Falcon/T.jpg",
+                "Pahl the Fighting-Falcon/T.png",
                 "Pahl the Fighting-Falcon/1.jpg",
                 "Pahl the Fighting-Falcon/2.jpg",
                 "Pahl the Fighting-Falcon/3.jpg",
@@ -1197,8 +1197,8 @@
             "name": "Dasher the Black Dart",
             "model": "HVT-2 Black Dart",
             "galleryImagePaths": [
-                "Dasher the Black Dart/T.jpg",
-                "Dasher the Black Dart/1.png"
+                "Dasher the Black Dart/T.png",
+                "Dasher the Black Dart/1.jpg"
             ],
              "referenceSheetsPath": [
                 "Dasher the Black Dart/R1.png",
