@@ -13,9 +13,8 @@
                 v-for="(image, index) in slide.imageUrls"
                 :key="index">
                 <Skeleton
-                    v-if="imageLoadingStates[index]"
                     width="100%"
-                    height="343px">
+                    height="100%">
                 </Skeleton>
                 <DeferredContent class="deferred-content">
                     <Image 
