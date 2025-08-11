@@ -3022,17 +3022,6 @@
             ]
         },
         {
-            "creator": "Frigadae",
-            "name": "Freddy the Tiger II",
-            "model": "F-5E Tiger II",
-            "galleryImagePaths": [
-                "Freddy the Tiger II/T.png"
-            ],
-             "referenceSheetsPath": [
-                "Freddy the Tiger II/R1.png"
-            ]
-        },
-        {
             "creator": "Sky Shredder",
             "name": "Navi the NAV Hawk",
             "model": "A/F-117X NAV Hawk (Game)",
