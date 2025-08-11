@@ -10,10 +10,11 @@
                     :options="catOptions"
                     @change="onLanguageSelected"/>
             </div>
-            <div class="select-item">
+            <div
+                v-if="hasLanguageSupport(catType)"
+                class="select-item">
                 <div class="select-header">Language</div>
                 <SelectButton
-                    v-if="hasLanguageSupport(catType)"
                     v-model="language"
                     :options="languageOptions"
                     :allow-empty="false"
