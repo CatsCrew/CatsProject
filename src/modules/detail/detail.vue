@@ -33,17 +33,6 @@
                             :src="cat?.creator?.profileUrl"/>
                         <span class="creator-name"> {{ cat?.creator?.name }} </span>
                     </div>
-                    <div
-                        v-if="cat.creator.socials"
-                        class="socials">
-                        <template v-for="[key, value] in Object.entries(cat.creator.socials)">
-                            <div class="social-link">
-                                <a :href="value" target="_blank">
-                                    <font-awesome-icon :icon="`fa-brands fa-${key}`" />
-                                </a>
-                            </div>
-                        </template>
-                    </div>
                 </div>
             </div>
             <div
