@@ -2379,6 +2379,157 @@
              "referenceSheetsPath": [
                 "Gui ying the J-35/R1.jpg"
             ]
+        },
+        {
+            "creator": "KandyKatz! (Barrier)",
+            "name": "Barrier the Foxbat",
+            "model": "MIG-25 Foxbat",
+            "galleryImagePaths": [
+                "Barrier the Foxbat/T.png",
+                "Barrier the Foxbat/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Barrier the Foxbat/R1.png"
+            ]
+        },
+        {
+            "creator": "Northwinded",
+            "name": "Awe the Arrowtail",
+            "model": "XF-4 Phantom II Arrowtail",
+            "galleryImagePaths": [
+                "Awe the Arrowtail/T.png",
+                "Awe the Arrowtail/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Awe the Arrowtail/R1.png"
+            ]
+        },
+        {
+            "creator": "Northwinded",
+            "name": "Shock the Phantom",
+            "model": "F-4E Phantom II",
+            "galleryImagePaths": [
+                "Shock the Phantom/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Shock the Phantom/R1.png"
+            ]
+        },
+        {
+            "creator": "gearwurk",
+            "name": "Uno the Drone",
+            "model": "Drone etc.",
+            "galleryImagePaths": [
+                "Uno the Drone/T.png",
+                "Uno the Drone/1.png",
+                "Uno the Drone/2.png"
+            ],
+             "referenceSheetsPath": [
+                "Uno the Drone/R1.png",
+                "Uno the Drone/R2.png"
+            ]
+        },
+        {
+            "creator": "gearwurk",
+            "name": "Z the Scorpion",
+            "model": "Freewing Scorpion",
+            "galleryImagePaths": [
+                "Z the Scorpion/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Z the Scorpion/R1.png"
+            ]
+        },
+        {
+            "creator": "Paincake",
+            "name": "Eggtart the Comanche",
+            "model": "RAH-66 Comanche",
+            "galleryImagePaths": [
+                "Eggtart the Comanche/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Eggtart the Comanche/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiwi",
+            "name": "Kiwi the Flying Aircraft Carrier",
+            "model": "CL-1201 Flying Aircraft Carrier",
+            "galleryImagePaths": [
+                "Kiwi the Flying Aircraft Carrier/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Kiwi the Flying Aircraft Carrier/R1.png"
+            ]
+        },
+        {
+            "creator": "Twig63",
+            "name": "'62 the Fire Scout",
+            "model": "MQ-8 Fire Scout",
+            "galleryImagePaths": [
+                "'62 the Fire Scout/T.png"
+            ],
+             "referenceSheetsPath": [
+                "'62 the Fire Scout/R1.jpg",
+                "'62 the Fire Scout/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Twig63",
+            "name": "Puffy the foxbat",
+            "model": "MIG-25P Foxbat",
+            "galleryImagePaths": [
+                "Puffy the foxbat/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Puffy the foxbat/R1.png",
+                "Puffy the foxbat/R2.png"
+            ]
+        },
+        {
+            "creator": "Twig63",
+            "name": "Habysco the Gripen",
+            "model": "JAS-39 Gripen",
+            "galleryImagePaths": [
+                "Habysco the Gripen/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Habysco the Gripen/R1.png"
+            ]
+        },
+        {
+            "creator": "牛大志falni",
+            "name": "B-17 the Flying Fortress",
+            "model": "B17 Flying Fortress",
+            "galleryImagePaths": [
+                "B-17 the Flying Fortress/T.png"
+            ],
+             "referenceSheetsPath": [
+                "B-17 the Flying Fortress/R1.jpg"
+            ]
+        },
+        {
+            "creator": "KeTTe-",
+            "name": "UNKNOWN",
+            "model": "UNKNOWN",
+            "galleryImagePaths": [
+                "UNKNOWN/T.png"
+            ],
+             "referenceSheetsPath": [
+                "UNKNOWN/R1.jpg",
+                "UNKNOWN/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Aero",
+            "name": "Aero the Hunter",
+            "model": "Hawker Hunter",
+            "galleryImagePaths": [
+                "Aero the Hunter/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Aero the Hunter/R1.jpg"
+            ]
         }
     ]
 }
