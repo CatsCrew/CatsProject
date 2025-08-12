@@ -322,17 +322,6 @@
             ]
         },
         {
-            "creator": "Honeydora",
-            "name": "Kato the K-3",
-            "model": "K-3",
-            "galleryImagePaths": [
-                "Kato the K-3/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Kato the K-3/R1.png"
-            ]
-        },
-        {
             "creator": "Merlin",
             "name": "Gokart the Locust",
             "model": "M22 Locust",
@@ -492,17 +481,6 @@
             ]
         },
         {
-            "creator": "Perci",
-            "name": "SnowDrift the BV 206A",
-            "model": "BV 206A",
-            "galleryImagePaths": [
-                "SnowDrift the BV 206A/T.png"
-            ],
-            "referenceSheetsPath": [
-                "SnowDrift the BV 206A/R1.png"
-            ]
-        },
-        {
             "creator": "A Droppa Inc.",
             "name": "Helios the HEMTT",
             "model": "HEMTT IFPC-HEL",
@@ -533,19 +511,6 @@
                 "Faust the Maus/R1.png",
                 "Faust the Maus/R2.png",
                 "Faust the Maus/R3.png"
-            ]
-        },
-        {
-            "creator": "A Droppa Inc.",
-            "name": "Grad the Tunguska",
-            "model": "2K22 Tunguska",
-            "galleryImagePaths": [
-                "Grad the Tunguska/T.png",
-                "Grad the Tunguska/1.png"
-            ],
-            "referenceSheetsPath": [
-                "Grad the Tunguska/R1.png",
-                "Grad the Tunguska/R2.png"
             ]
         },
         {
@@ -907,11 +872,11 @@
             "name": "Jackie the Humvee",
             "model": "M1151 HMMWV",
             "galleryImagePaths": [
-                "Jackie the Humvee/T.jpg",
-                "Jackie the Humvee/1.png"
+                "Jackie the Humvee/T.png",
+                "Jackie the Humvee/1.jpg"
             ],
             "referenceSheetsPath": [
-                "Jackie the Humvee/R1.png"
+                "Jackie the Humvee/R1.jpg"
             ]
         },
         {
