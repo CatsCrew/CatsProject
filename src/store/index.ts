@@ -68,7 +68,7 @@ export const useCatsStore = defineStore('cats', {
 
       protoJson?.protos?.forEach(p => {
         const creator = this.creators[p.creator];
-        this.landcats.push(UiMapper.toProto(p, creator));
+        this.protos.push(UiMapper.toProto(p, creator));
       })
 
       this.loreDocuments = loreDocumentJson.documents;
