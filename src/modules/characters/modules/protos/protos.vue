@@ -10,19 +10,17 @@
             </IconField>
         </div>
         <div class="characters">
-            <TransitionGroup name="cards">
-                <CharacterCard
-                    v-for="cat in filteredCats"
-                    :key="cat.name"
-                    :cat="cat"
-                    :hoverable="!isHandheldDevice">
-                </CharacterCard>
-                <CharacterCard
-                    v-if="!searchTerm"
-                    :cat="placeholderCat"
-                    :hoverable="false">
-                </CharacterCard>
-            </TransitionGroup>
+            <CharacterCard
+                v-for="cat in filteredCats"
+                :key="cat.name"
+                :cat="cat"
+                :hoverable="!isHandheldDevice">
+            </CharacterCard>
+            <CharacterCard
+                v-if="!searchTerm"
+                :cat="placeholderCat"
+                :hoverable="false">
+            </CharacterCard>
         </div>
     </div>
 </template>
