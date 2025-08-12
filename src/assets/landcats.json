@@ -78,16 +78,16 @@
             "model": "M1A2 Abrams",
             "galleryImagePaths": [
                 "Evem/T.png",
-                "Evem/1.png",
-                "Evem/2.png",
+                "Evem/1.jpg",
+                "Evem/2.jpg",
                 "Evem/3.png",
-                "Evem/4.png",
-                "Evem/5.png",
-                "Evem/6.png"
+                "Evem/4.jpg",
+                "Evem/5.jpg",
+                "Evem/6.jpg"
             ],
             "referenceSheetsPath": [
-                "Evem/R1.png",
-                "Evem/R2.png"
+                "Evem/R1.jpg",
+                "Evem/R2.jpg"
             ]
         },
         {
@@ -98,15 +98,491 @@
                 "Bum/T.png",
                 "Bum/1.png",
                 "Bum/2.png",
-                "Bum/3.png",
+                "Bum/3.jpg",
                 "Bum/4.png",
-                "Bum/5.png"
+                "Bum/5.jpg"
             ],
             "referenceSheetsPath": [
-                "Bum/R1.png",
+                "Bum/R1.jpg",
                 "Bum/R2.png"
             ]
+        },
+        {
+            "creator": "Daum",
+            "name": "Leo the Leopard",
+            "model": "Leopard2A5",
+            "galleryImagePaths": [
+                "Leo the Leopard/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Leo the Leopard/R1.png",
+                "Leo the Leopard/R2.png"
+            ]
+        },
+        {
+            "creator": "Bug",
+            "name": "Hummer the Humvee",
+            "model": "M1151 HMMWV",
+            "galleryImagePaths": [
+                "Hummer the Humvee/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Hummer the Humvee/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Jas the Kronstads",
+            "model": "XMBT-14 (OF)",
+            "galleryImagePaths": [
+                "Jas the Kronstads/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Jas the Kronstads/R1.jpg",
+                "Jas the Kronstads/R2.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Quickshot the ItPsV",
+            "model": "ItPsV Leopard",
+            "galleryImagePaths": [
+                "Quickshot the ItPsV/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Quickshot the ItPsV/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Uro the Centauro",
+            "model": "Centauro l 105 R",
+            "galleryImagePaths": [
+                "Uro the Centauro/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Uro the Centauro/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Sani the EFV",
+            "model": "Expeditionary Fighting Vehicle",
+            "galleryImagePaths": [
+                "Sani the EFV/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Sani the EFV/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "X the Object 490",
+            "model": "Object 490",
+            "galleryImagePaths": [
+                "X the Object 490/T.png"
+            ],
+            "referenceSheetsPath": [
+                "X the Object 490/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Frostbite the Giant Carrier",
+            "model": "Maz-7907 Giant Carrier",
+            "galleryImagePaths": [
+                "Frostbite the Giant Carrier/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Frostbite the Giant Carrier/R1.png"
+            ]
+        },
+        {
+            "creator": "Dekologen",
+            "name": "Zerstörer the Panther",
+            "model": "KF51 Panther",
+            "galleryImagePaths": [
+                "Zerstörer the Panther/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Zerstörer the Panther/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Maruhi",
+            "name": "Pat the Patton",
+            "model": "M48A3 Patton",
+            "galleryImagePaths": [
+                "Pat the Patton/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Pat the Patton/R1.png"
+            ]
+        },
+        {
+            "creator": "FantasticPhoenix",
+            "name": "Lion the Lion",
+            "model": "M3A4 Lion (OF)",
+            "galleryImagePaths": [
+                "Lion the Lion/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Lion the Lion/R1.png"
+            ]
+        },
+        {
+            "creator": "FantasticPhoenix",
+            "name": "Lion the Lion",
+            "model": "M3A4 Lion (OF)",
+            "galleryImagePaths": [
+                "Lion the Lion/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Lion the Lion/R1.jfif"
+            ]
+        },
+        {
+            "creator": "Naily",
+            "name": "Verdan the Stryker",
+            "model": "M1133 Stryker MEV",
+            "galleryImagePaths": [
+                "Verdan the Stryker/T.png",
+                "Verdan the Stryker/1.png"
+            ],
+            "referenceSheetsPath": [
+                "Verdan the Stryker/R1.png",
+                "Verdan the Stryker/R2.png"
+            ]
+        },
+        {
+            "creator": "Coralal",
+            "name": "Zechs the ZLAT",
+            "model": "ZLAT A3E1 (OF)",
+            "galleryImagePaths": [
+                "Zechs the ZLAT/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Zechs the ZLAT/R1.png",
+                "Zechs the ZLAT/R2.png"
+            ]
+        },
+        {
+            "creator": "XypherDraws",
+            "name": "L7nX the Lynx",
+            "model": "KF41 Lynx",
+            "galleryImagePaths": [
+                "L7nX the Lynx/T.png"
+            ],
+            "referenceSheetsPath": [
+                "L7nX the Lynx/R1.png"
+            ]
+        },
+        {
+            "creator": "XypherDraws",
+            "name": "L7nX the Lynx",
+            "model": "KF41 Lynx",
+            "galleryImagePaths": [
+                "L7nX the Lynx/T.png"
+            ],
+            "referenceSheetsPath": [
+                "L7nX the Lynx/R1.png",
+                "L7nX the Lynx/R2.png"
+            ]
+        },
+        {
+            "creator": "Sandomite",
+            "name": "Lance the Paladin",
+            "model": "M109A6 Paladin",
+            "galleryImagePaths": [
+                "Lance the Paladin/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Lance the Paladin/R1.png"
+            ]
+        },
+        {
+            "creator": "Alexei",
+            "name": "Jag the Jagdpanzer",
+            "model": "Jagdpanzer E-100",
+            "galleryImagePaths": [
+                "Jag the Jagdpanzer/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Jag the Jagdpanzer/R1.png"
+            ]
+        },
+        {
+            "creator": "Alexei",
+            "name": "Boombox the LRAD-CCTV",
+            "model": "LRAD-CCTV",
+            "galleryImagePaths": [
+                "Boombox the LRAD-CCTV/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Boombox the LRAD-CCTV/R1.png"
+            ]
+        },
+        {
+            "creator": "Alexei",
+            "name": "Erma the Brumbar",
+            "model": "Strumpanzer lV Brumbar",
+            "galleryImagePaths": [
+                "Erma the Brumbar/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Erma the Brumbar/R1.png"
+            ]
+        },
+        {
+            "creator": "Honeydora",
+            "name": "Kato the K-3",
+            "model": "K-3",
+            "galleryImagePaths": [
+                "Kato the K-3/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Kato the K-3/R1.png"
+            ]
+        },
+        {
+            "creator": "Honeydora",
+            "name": "Kato the K-3",
+            "model": "K-3",
+            "galleryImagePaths": [
+                "Kato the K-3/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Kato the K-3/R1.png"
+            ]
+        },
+        {
+            "creator": "Merlin",
+            "name": "Gokart the Locust",
+            "model": "M22 Locust",
+            "galleryImagePaths": [
+                "Gokart the Locust/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Gokart the Locust/R1.png",
+                "Gokart the Locust/R2.png"
+            ]
+        },
+        {
+            "creator": "Green PC",
+            "name": "St. Ogn. Stanisław the Star",
+            "model": "Star 244 PSP",
+            "galleryImagePaths": [
+                "St. Ogn. Stanisław the Star/T.png",
+                "St. Ogn. Stanisław the Star/1.png",
+                "St. Ogn. Stanisław the Star/2.jpg",
+                "St. Ogn. Stanisław the Star/3.png",
+                "St. Ogn. Stanisław the Star/4.png",
+                "St. Ogn. Stanisław the Star/5.png",
+                "St. Ogn. Stanisław the Star/6.png"
+            ],
+            "referenceSheetsPath": [
+                "St. Ogn. Stanisław the Star/R1.png",
+                "St. Ogn. Stanisław the Star/R2.png",
+                "St. Ogn. Stanisław the Star/R3.png"
+            ]
+        },
+        {
+            "creator": "Green PC",
+            "name": "Chor. Mieczysław the STAR 266",
+            "model": "STAR 266",
+            "galleryImagePaths": [
+                "Chor. Mieczysław the STAR 266/T.png",
+                "Chor. Mieczysław the STAR 266/1.png",
+                "Chor. Mieczysław the STAR 266/2.png"
+            ],
+            "referenceSheetsPath": [
+                "Chor. Mieczysław the STAR 266/R1.png",
+                "Chor. Mieczysław the STAR 266/R2.png",
+                "Chor. Mieczysław the STAR 266/R3.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Anjanath the EBR",
+            "model": "E.B.R-FL10-90",
+            "galleryImagePaths": [
+                "Anjanath the EBR/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Anjanath the EBR/R1.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Fenrir the Vidar",
+            "model": "K9 Thunder - Vidar",
+            "galleryImagePaths": [
+                "Fenrir the Vidar/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Fenrir the Vidar/R1.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Lima the Gepard",
+            "model": "Flakpanzer Gepard",
+            "galleryImagePaths": [
+                "Lima the Gepard/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Lima the Gepard/R1.png"
+            ]
+        },
+        {
+            "creator": "YuuStrand_69",
+            "name": "Sinclair the CRC",
+            "model": "AMX-10 RC Char à Roues Canon",
+            "galleryImagePaths": [
+                "Sinclair the CRC/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Sinclair the CRC/R1.png",
+                "Sinclair the CRC/R2.png"
+            ]
+        },
+        {
+            "creator": "BanditboiiZ",
+            "name": "N1ck the NSX1990",
+            "model": "Honda NSX 1990",
+            "galleryImagePaths": [
+                "N1ck the NSX1990/T.png"
+            ],
+            "referenceSheetsPath": [
+                "N1ck the NSX1990/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Azkal the Deer",
+            "name": "Wulfram the Proryv",
+            "model": "T-90M Proryv-3",
+            "galleryImagePaths": [
+                "Wulfram the Proryv/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Wulfram the Proryv/R1.png"
+            ]
+        },
+        {
+            "creator": "Mimp",
+            "name": "Vincent the Centauro",
+            "model": "B1 Centauro 120",
+            "galleryImagePaths": [
+                "Vincent the Centauro/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Vincent the Centauro/R1.png",
+                "Vincent the Centauro/R2.png"
+            ]
+        },
+        {
+            "creator": "Mimp",
+            "name": "Rosetta the Battle tank",
+            "model": "Battle tank (Game)",
+            "galleryImagePaths": [
+                "Rosetta the Battle tank/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Rosetta the Battle tank/R1.jpg"
+            ]
+        },
+        {
+            "creator": "ThaiScout",
+            "name": "Jägare the Stridsfordon",
+            "model": "Stridsfordon 265 Mark lA",
+            "galleryImagePaths": [
+                "Jägare the Stridsfordon/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Jägare the Stridsfordon/R1.png"
+            ]
+        },
+        {
+            "creator": "Perci",
+            "name": "SnowDrift the BV 206A",
+            "model": "BV 206A",
+            "galleryImagePaths": [
+                "SnowDrift the BV 206A/T.png"
+            ],
+            "referenceSheetsPath": [
+                "SnowDrift the BV 206A/R1.jpg",
+                "SnowDrift the BV 206A/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Perci",
+            "name": "SnowDrift the BV 206A",
+            "model": "BV 206A",
+            "galleryImagePaths": [
+                "SnowDrift the BV 206A/T.png"
+            ],
+            "referenceSheetsPath": [
+                "SnowDrift the BV 206A/R1.png"
+            ]
+        },
+        {
+            "creator": "A Droppa Inc.",
+            "name": "Helios the HEMTT",
+            "model": "HEMTT IFPC-HEL",
+            "galleryImagePaths": [
+                "Helios the HEMTT/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Helios the HEMTT/R1.png"
+            ]
+        },
+        {
+            "creator": "A Droppa Inc.",
+            "name": "Arbalest the FV4005",
+            "model": "FV4005 HGTN-1",
+            "galleryImagePaths": [
+                "Arbalest the FV4005/T.png"
+            ]
+        },
+        {
+            "creator": "A Droppa Inc.",
+            "name": "Faust the Maus",
+            "model": "Panzer VIII Maus",
+            "galleryImagePaths": [
+                "Faust the Maus/T.png",
+                "Faust the Maus/1.jpg"
+            ],
+            "referenceSheetsPath": [
+                "Faust the Maus/R1.png",
+                "Faust the Maus/R2.png",
+                "Faust the Maus/R3.png"
+            ]
+        },
+        {
+            "creator": "A Droppa Inc.",
+            "name": "Grad the Tunguska",
+            "model": "2K22 Tunguska",
+            "galleryImagePaths": [
+                "Grad the Tunguska/T.png",
+                "Grad the Tunguska/1.png"
+            ],
+            "referenceSheetsPath": [
+                "Grad the Tunguska/R1.png",
+                "Grad the Tunguska/R2.png"
+            ]
+        },
+        {
+            "creator": "A Droppa Inc.",
+            "name": "Grad the Tunguska",
+            "model": "2K22 Tunguska",
+            "galleryImagePaths": [
+                "Grad the Tunguska/T.png",
+                "Grad the Tunguska/1.png"
+            ],
+            "referenceSheetsPath": [
+                "Grad the Tunguska/R1.png",
+                "Grad the Tunguska/R2.png"
+            ]
         }
-        
     ]
 }

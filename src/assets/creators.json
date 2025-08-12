@@ -803,6 +803,34 @@
         {
             "name": "Valerie",
             "profileImage": "Valerie.jpg"
+        },
+        {
+            "name": "Bug",
+            "profileImage": "Bug.jpg"
+        },
+        {
+            "name": "Maruhi",
+            "profileImage": "Maruhi.png"
+        },
+        {
+            "name": "FantasticPhoenix",
+            "profileImage": "FantasticPhoenix.png"
+        },
+        {
+            "name": "XypherDraws",
+            "profileImage": "XypherDraws.png"
+        },
+        {
+            "name": "Alexei",
+            "profileImage": "Alexei.png"
+        },
+        {
+            "name": "Azkal the Deer",
+            "profileImage": "Azkal the Deer.png"
+        },
+        {
+            "name": "Mimp",
+            "profileImage": "Mimp.jpg"
         }
     ]
 }
