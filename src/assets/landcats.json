@@ -1044,6 +1044,640 @@
             "referenceSheetsPath": [
                 "Snuffy the Tankette/R1.png"
             ]
+        },
+        {
+            "creator": "Kray_z",
+            "name": "Duke the Comet",
+            "model": "A34 Comet l",
+            "galleryImagePaths": [
+                "Duke the Comet/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Duke the Comet/R1.png"
+            ]
+        },
+        {
+            "creator": "Kray_z",
+            "name": "Klime the KV-1",
+            "model": "KV-1 (ZIS-5)",
+            "galleryImagePaths": [
+                "Klime the KV-1/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Klime the KV-1/R1.png"
+            ]
+        },
+        {
+            "creator": "Kray_z",
+            "name": "Pion the Scorpion",
+            "model": "M56 Scorpion SPATG",
+            "galleryImagePaths": [
+                "Pion the Scorpion/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Pion the Scorpion/R1.png"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Volter the HSTV-L",
+            "model": "HSTV-L",
+            "galleryImagePaths": [
+                "Volter the HSTV-L/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Volter the HSTV-L/R1.jpg",
+                "Volter the HSTV-L/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Belkam the Derivatsiya-PVO",
+            "model": "2S38 Derivatsiya-PVO",
+            "galleryImagePaths": [
+                "Belkam the Derivatsiya-PVO/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Belkam the Derivatsiya-PVO/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Runner the XM-800",
+            "model": "XM-800",
+            "galleryImagePaths": [
+                "Runner the XM-800/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Runner the XM-800/R1.jpg",
+                "Runner the XM-800/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Jerokee the HMMWV",
+            "model": "HMMWV LOSAT",
+            "galleryImagePaths": [
+                "Jerokee the HMMWV/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Jerokee the HMMWV/R1.jpg",
+                "Jerokee the HMMWV/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Chamon the Saint-Chamond",
+            "model": "St.Chamond 1916",
+            "galleryImagePaths": [
+                "Chamon the Saint-Chamond/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Chamon the Saint-Chamond/R1.jpg",
+                "Chamon the Saint-Chamond/R2.jpg",
+                "Chamon the Saint-Chamond/R3.jpg"
+            ]
+        },
+        {
+            "creator": "Abbacchio",
+            "name": "Tristan the Rebel",
+            "model": "Object 490A Rebel",
+            "galleryImagePaths": [
+                "Tristan the Rebel/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Tristan the Rebel/R1.jpg",
+                "Tristan the Rebel/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Skull",
+            "name": "Garen the Guarani",
+            "model": "VBTP-MR Guarani",
+            "galleryImagePaths": [
+                "Garen the Guarani/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Garen the Guarani/R1.png",
+                "Garen the Guarani/R2.png"
+            ]
+        },
+        {
+            "creator": "Skull",
+            "name": "Nascimento the Zeus",
+            "model": "VBTP-MR Guarani",
+            "galleryImagePaths": [
+                "Nascimento the Zeus/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Nascimento the Zeus/R1.png"
+            ]
+        },
+        {
+            "creator": "GaryD12",
+            "name": "Aurelia the Semovente",
+            "model": "Semovente Da 75/18",
+            "galleryImagePaths": [
+                "Aurelia the Semovente/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Aurelia the Semovente/R1.png"
+            ]
+        },
+        {
+            "creator": "Riker Maltov",
+            "name": "Tavor the Steel Monster",
+            "model": "T30 Heavy tank",
+            "galleryImagePaths": [
+                "Tavor the Steel Monster/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Tavor the Steel Monster/R1.png"
+            ]
+        },
+        {
+            "creator": "Riker Maltov",
+            "name": "Reiko the Closed Arrow",
+            "model": "Type 93 Closed Arrow",
+            "galleryImagePaths": [
+                "Reiko the Closed Arrow/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Reiko the Closed Arrow/R1.png",
+                "Reiko the Closed Arrow/R2.png",
+                "Reiko the Closed Arrow/R3.png"
+            ]
+        },
+        {
+            "creator": "Yehnie",
+            "name": "Aura the Mjölner",
+            "model": "CV90 Mjölner",
+            "galleryImagePaths": [
+                "Aura the Mjölner/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Aura the Mjölner/R1.png"
+            ]
+        },
+        {
+            "creator": "Frigadae",
+            "name": "Kita the Type 89",
+            "model": "Type 89 I - Go",
+            "galleryImagePaths": [
+                "Kita the Type 89/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Kita the Type 89/R1.png"
+            ]
+        },
+        {
+            "creator": "Frigadae",
+            "name": "Schmidt the Marder lll",
+            "model": "Marder III ausf H",
+            "galleryImagePaths": [
+                "Schmidt the Marder lll/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Schmidt the Marder lll/R1.png"
+            ]
+        },
+        {
+            "creator": "Null",
+            "name": "Tradis the Blazer",
+            "model": "Chevrolet Blazer EV Police Pursuit Vehicle",
+            "galleryImagePaths": [
+                "Tradis the Blazer/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Tradis the Blazer/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Null",
+            "name": "Tradis the Blazer",
+            "model": "Chevrolet Blazer EV Police Pursuit Vehicle",
+            "galleryImagePaths": [
+                "Tradis the Blazer/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Tradis the Blazer/R1.png"
+            ]
+        },
+        {
+            "creator": "Reshiramwings",
+            "name": "Wilder BV 206",
+            "model": "BV 206 (RaBv 2061)",
+            "galleryImagePaths": [
+                "Wilder the BV 206/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Wilder the BV 206/R1.png"
+            ]
+        },
+        {
+            "creator": "Truly",
+            "name": "G.E.N.I the Scissor lift",
+            "model": "Diesel Scissor Lift etc.",
+            "galleryImagePaths": [
+                "G.E.N.I the Scissor lift/T.png"
+            ],
+            "referenceSheetsPath": [
+                "G.E.N.I the Scissor lift/R1.png",
+                "G.E.N.I the Scissor lift/R2.png"
+            ]
+        },
+        {
+            "creator": "Foxxee",
+            "name": "Sieghardt the Stug IV",
+            "model": "Sturmgeschütz IV",
+            "galleryImagePaths": [
+                "Sieghardt the Stug IV/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Sieghardt the Stug IV/R1.png"
+            ]
+        },
+        {
+            "creator": "Curian",
+            "name": "Gab the ST-A3",
+            "model": "ST-A3 MBT",
+            "galleryImagePaths": [
+                "Gab the ST-A3/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Gab the ST-A3/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Curian",
+            "name": "D1RTY BOM3 the Leclerc",
+            "model": "AMX Leclerc MBT",
+            "galleryImagePaths": [
+                "D1RTY BOM3 the Leclerc/T.jpg"
+            ],
+            "referenceSheetsPath": [
+                "D1RTY BOM3 the Leclerc/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Luttapon",
+            "name": "Brady the Bradley",
+            "model": "M3 Bradley CFV",
+            "galleryImagePaths": [
+                "Brady the Bradley/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Brady the Bradley/R1.png",
+                "Brady the Bradley/R2.png",
+                "Brady the Bradley/R3.jpg"
+            ]
+        },
+        {
+            "creator": "Northwinded",
+            "name": "Six-seven the Super Pershing",
+            "model": "T26E1-1 Super Pershing",
+            "galleryImagePaths": [
+                "Six-seven the Super Pershing/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Six-seven the Super Pershing/R1.png"
+            ]
+        },
+        {
+            "creator": "Nicky Ferrius",
+            "name": "Leonard the Alpine Hammer",
+            "model": "PZ 87 WE Alpine Hammer",
+            "galleryImagePaths": [
+                "Leonard the Alpine Hammer/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Leonard the Alpine Hammer/R1.png"
+            ]
+        },
+        {
+            "creator": "Marccenary",
+            "name": "Town the Commando",
+            "model": "V-150 Commando",
+            "galleryImagePaths": [
+                "Town the Commando/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Town the Commando/R1.png"
+            ]
+        },
+        {
+            "creator": "Whisk",
+            "name": "Natasha the T-90A",
+            "model": "T-90A Vladimir",
+            "galleryImagePaths": [
+                "Natasha the T-90A/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Natasha the T-90A/R1.png"
+            ]
+        },
+        {
+            "creator": "Whisk",
+            "name": "Tavor the M-ATV",
+            "model": "MRAP All-Terrain Vehicle",
+            "galleryImagePaths": [
+                "Tavor the M-ATV/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Tavor the M-ATV/R1.png"
+            ]
+        },
+        {
+            "creator": "YON",
+            "name": "Fel the Ferret",
+            "model": "Ferret Armoured Car",
+            "galleryImagePaths": [
+                "Fel the Ferret/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Fel the Ferret/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Lamp_Soul",
+            "name": "Maru the Landship",
+            "model": "Mark IV Heavy Tank",
+            "galleryImagePaths": [
+                "Maru the Landship/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Maru the Landship/R1.png",
+                "Maru the Landship/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Theta",
+            "name": "Linnaeus the Lago",
+            "model": "Stridsvagn m/42 EH Lago",
+            "galleryImagePaths": [
+                "Linnaeus the Lago/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Linnaeus the Lago/R1.png"
+            ]
+        },
+        {
+            "creator": "Robert",
+            "name": "Rex the Chase rig",
+            "model": "Chase Vehicle Dodge Ram 2500",
+            "galleryImagePaths": [
+                "Rex the Chase rig/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Rex the Chase rig/R1.png"
+            ]
+        },
+        {
+            "creator": "Skron",
+            "name": "CV90120-T the CV90120-T",
+            "model": "CV90120-T",
+            "galleryImagePaths": [
+                "CV90120-T the CV90120-T/T.png"
+            ],
+            "referenceSheetsPath": [
+                "CV90120-T the CV90120-T/R1.png"
+            ]
+        },
+        {
+            "creator": "MaShiRi",
+            "name": "Nergal",
+            "model": "Heavily Modified Vehicle etc.",
+            "galleryImagePaths": [
+                "Nergal/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Nergal/R1.jpg"
+            ]
+        },
+        {
+            "creator": "MaShiRi",
+            "name": "Nergal",
+            "model": "Heavily Modified Vehicle etc.",
+            "galleryImagePaths": [
+                "Nergal/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Nergal/R1.png"
+            ]
+        },
+        {
+            "creator": "Metholox",
+            "name": "Carmel Ridge the F-150",
+            "model": "Imp. F-150 Technical",
+            "galleryImagePaths": [
+                "Carmel Ridge the F-150/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Carmel Ridge the F-150/R1.png"
+            ]
+        },
+        {
+            "creator": "Metholox",
+            "name": "Fed the Bearcat",
+            "model": "Lenco Bearcat",
+            "galleryImagePaths": [
+                "Fed the Bearcat/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Fed the Bearcat/R1.png"
+            ]
+        },
+        {
+            "creator": "Metholox",
+            "name": "Tolsty-Kot the IS-3M",
+            "model": "IS-3M",
+            "galleryImagePaths": [
+                "Tolsty-Kot the IS-3M/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Tolsty-Kot the IS-3M/R1.png"
+            ]
+        },
+        {
+            "creator": "Dozer",
+            "name": "Aevol the A7V",
+            "model": "A7V",
+            "galleryImagePaths": [
+                "Aevol the A7V/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Aevol the A7V/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Kyda",
+            "name": "Kyda Byte the Krab",
+            "model": "AHS Krab",
+            "galleryImagePaths": [
+                "Kyda Byte the Krab/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Kyda Byte the Krab/R1.jpg"
+            ]
+        },
+        {
+            "creator": "RhythmWolfy",
+            "name": "Taiyo the Chi-nu",
+            "model": "Type 3 Chi-nu",
+            "galleryImagePaths": [
+                "Taiyo the Chi-nu/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Taiyo the Chi-nu/R1.png"
+            ]
+        },
+        {
+            "creator": "RhythmWolfy",
+            "name": "Taiyo the Chi-nu",
+            "model": "Type 3 Chi-nu",
+            "galleryImagePaths": [
+                "Taiyo the Chi-nu/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Taiyo the Chi-nu/R1.png"
+            ]
+        },
+        {
+            "creator": "Kazimierz",
+            "name": "Vista the Wasp",
+            "model": "9k33 OSA-AKM-P1",
+            "galleryImagePaths": [
+                "Vista the Wasp/T.png",
+                "Vista the Wasp/1.png"
+            ],
+            "referenceSheetsPath": [
+                "Vista the Wasp/R1.jpg",
+                "Vista the Wasp/R2.png"
+            ]
+        },
+        {
+            "creator": "Kasichi",
+            "name": "Sniper Fox the Grille",
+            "model": "155MM Grille",
+            "galleryImagePaths": [
+                "Sniper Fox the Grille/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Sniper Fox the Grille/R1.png",
+                "Sniper Fox the Grille/R2.png",
+                "Sniper Fox the Grille/R3.png"
+            ]
+        },
+        {
+            "creator": "Kasichi",
+            "name": "Scout Wolf the NC750X",
+            "model": "Honda NC750X",
+            "galleryImagePaths": [
+                "Scout Wolf the NC750X/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Scout Wolf the NC750X/R1.png"
+            ]
+        },
+        {
+            "creator": "Tal Goldpond",
+            "name": "Bandit the Bushmaster",
+            "model": "Bushmaster PMV",
+            "galleryImagePaths": [
+                "Bandit the Bushmaster/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Bandit the Bushmaster/R1.png",
+                "Bandit the Bushmaster/R2.png"
+            ]
+        },
+        {
+            "creator": "Konfetka",
+            "name": "Warden the TIV2",
+            "model": "Tornade Intercept Vehicle 2",
+            "galleryImagePaths": [
+                "Warden the TIV2/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Warden the TIV2/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Kuruma",
+            "name": "Shineray the Super-Comet",
+            "model": "380 Super-Comet (CASE 580SN)",
+            "galleryImagePaths": [
+                "Shineray the Super-Comet/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Shineray the Super-Comet/R1.png"
+            ]
+        },
+        {
+            "creator": "NIKO",
+            "name": "Leo the Lynx",
+            "model": "Lynx 120 (KF41)",
+            "galleryImagePaths": [
+                "Leo the Lynx/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Leo the Lynx/R1.png"
+            ]
+        },
+        {
+            "creator": "Shock",
+            "name": "Catt the CATTB",
+            "model": "CATTB",
+            "galleryImagePaths": [
+                "Catt the CATTB/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Catt the CATTB/R1.png"
+            ]
+        },
+        {
+            "creator": "Chazzed",
+            "name": "Mastodon the Monster",
+            "model": "MAZ-7310 Cargo Monster",
+            "galleryImagePaths": [
+                "Mastodon the Monster/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Mastodon the Monster/R1.png"
+            ]
+        },
+        {
+            "creator": "SonJi!",
+            "name": "Sen-J the Gavin",
+            "model": "M113A1 ZU-23",
+            "galleryImagePaths": [
+                "Sen-J the Gavin/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Sen-J the Gavin/R1.png"
+            ]
+        },
+        {
+            "creator": "Minty",
+            "name": "Bx3 the Abrams",
+            "model": "M1 Abrams",
+            "galleryImagePaths": [
+                "Bx3 the Abrams/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Bx3 the Abrams/R1.png"
+            ]
+        },
+        {
+            "creator": "A dum proto",
+            "name": "Mudcat the Lilla Stridsvagn",
+            "model": "Ikv 91 Light tank",
+            "galleryImagePaths": [
+                "Mudcat the Lilla Stridsvagn/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Mudcat the Lilla Stridsvagn/R1.png"
+            ]
         }
     ]
 }
