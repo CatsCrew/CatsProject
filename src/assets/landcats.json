@@ -1151,6 +1151,17 @@
             ]
         },
         {
+            "creator": "Abbacchio",
+            "name": "Siru the Sprut-SD",
+            "model": "2S25 Sprut-SD",
+            "galleryImagePaths": [
+                "Siru the Sprut-SD/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Siru the Sprut-SD/R1.jpg"
+            ]
+        },
+        {
             "creator": "Skull",
             "name": "Garen the Guarani",
             "model": "VBTP-MR Guarani",
@@ -1578,6 +1589,18 @@
             ],
             "referenceSheetsPath": [
                 "Shineray the Super-Comet/R1.png"
+            ]
+        },
+        {
+            "creator": "Kuruma",
+            "name": "Senior the Tracker",
+            "model": "CARCO Tracker Long Range XL",
+            "galleryImagePaths": [
+                "Senior the Tracker/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Senior the Tracker/R1.png",
+                "Senior the Tracker/R2.png"
             ]
         },
         {
