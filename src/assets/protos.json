@@ -1,5 +1,17 @@
 {
     "protos": [
-        
+        {
+            "creator": "Presto",
+            "name": "Ero the Proto2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Ero the Proto2.0/T.jpg"
+
+            ],
+             "referenceSheetsPath": [
+                "Ero the Proto2.0/R1.png",
+                "Ero the Proto2.0/R2.png"
+            ]
+        }
     ]
 }
