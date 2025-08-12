@@ -1253,18 +1253,7 @@
             ]
         },
         {
-            "creator": "Null",
-            "name": "Tradis the Blazer",
-            "model": "Chevrolet Blazer EV Police Pursuit Vehicle",
-            "galleryImagePaths": [
-                "Tradis the Blazer/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Tradis the Blazer/R1.png"
-            ]
-        },
-        {
-            "creator": "Reshiramwings",
+            "creator": "reshiramwings",
             "name": "Wilder BV 206",
             "model": "BV 206 (RaBv 2061)",
             "galleryImagePaths": [
@@ -1399,7 +1388,7 @@
             ]
         },
         {
-            "creator": "Lamp_Soul",
+            "creator": "Lamp_sOul",
             "name": "Maru the Landship",
             "model": "Mark IV Heavy Tank",
             "galleryImagePaths": [
@@ -1455,17 +1444,6 @@
             ]
         },
         {
-            "creator": "MaShiRi",
-            "name": "Nergal",
-            "model": "Heavily Modified Vehicle etc.",
-            "galleryImagePaths": [
-                "Nergal/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Nergal/R1.png"
-            ]
-        },
-        {
             "creator": "Metholox",
             "name": "Carmel Ridge the F-150",
             "model": "Imp. F-150 Technical",
@@ -1518,17 +1496,6 @@
             ],
             "referenceSheetsPath": [
                 "Kyda Byte the Krab/R1.jpg"
-            ]
-        },
-        {
-            "creator": "RhythmWolfy",
-            "name": "Taiyo the Chi-nu",
-            "model": "Type 3 Chi-nu",
-            "galleryImagePaths": [
-                "Taiyo the Chi-nu/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Taiyo the Chi-nu/R1.png"
             ]
         },
         {
