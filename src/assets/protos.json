@@ -5,12 +5,12 @@
             "name": "Ero the Proto2.0",
             "model": "Proto 2.0",
             "galleryImagePaths": [
-                "Ero the Proto2.0/T.jpg"
+                "Ero the Proto2.0/T.png",
+                "Ero the Proto2.0/1.png"
 
             ],
              "referenceSheetsPath": [
-                "Ero the Proto2.0/R1.png",
-                "Ero the Proto2.0/R2.png"
+                "Ero the Proto2.0/R1.png"
             ]
         }
     ]
