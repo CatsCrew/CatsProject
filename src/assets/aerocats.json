@@ -3143,10 +3143,10 @@
             "name": "Lyle/Kira the Black Widow II",
             "model": "YF-23 Black widow II",
             "galleryImagePaths": [
-                "Lyle/Kira the Black Widow II/T.png"
+                "LyleKira the Black Widow II/T.png"
             ],
              "referenceSheetsPath": [
-                "Lyle/Kira the Black Widow II/R1.jpg"
+                "LyleKira the Black Widow II/R1.jpg"
             ]
         },
         {
@@ -3361,18 +3361,7 @@
             ]
         },
         {
-            "creator": "Theta_LineN",
-            "name": "Victor the Bear",
-            "model": "Tu-95 MSM Bear",
-            "galleryImagePaths": [
-                "Victor the Bear/T.png"
-            ],
-             "referenceSheetsPath": [
-                "Victor the Bear/R1.png"
-            ]
-        },
-        {
-            "creator": "Theta_LineN",
+            "creator": "Theta_Line",
             "name": "Mercury the Orion",
             "model": "WP-3D Orion",
             "galleryImagePaths": [
@@ -3385,7 +3374,7 @@
         {
             "creator": "Typhoonflame",
             "name": "Xanthia the Dragonlady",
-            "model": "U-2 Dragonlady",
+            "model": "U-2 Dragon lady",
             "galleryImagePaths": [
                 "Xanthia the Dragonlady/T.png"
             ],

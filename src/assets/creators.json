@@ -590,7 +590,7 @@
         },
         {
             "name": "Tuna",
-            "profileImage": "Tuna.jpg"
+            "profileImage": "Tuna.png"
         },
         {
             "name": "Ember",
@@ -617,8 +617,8 @@
             "profileImage": "notwebber.jpg"
         },
         {
-            "name": "notwebber",
-            "profileImage": "notwebber.jpg"
+            "name": "Notwebber",
+            "profileImage": "Notwebber.jpg"
         },
         {
             "name": "Plamya-Lisa",
@@ -633,7 +633,7 @@
             "profileImage": "N.jpg"
         },
         {
-            "name": "Theta_LineN",
+            "name": "Theta_Line",
             "profileImage": "Theta_Line.jpg"
         },
         {
@@ -675,6 +675,10 @@
         {
             "name": "Chyper",
             "profileImage": "Chyper.jpg"
+        },
+        {
+            "name": "Cosmo",
+            "profileImage": "Cosmo.jpg"
         },
         {
             "name": "AbyssalFenge",
