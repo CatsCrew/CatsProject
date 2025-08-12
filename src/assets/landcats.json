@@ -231,27 +231,16 @@
             ]
         },
         {
-            "creator": "FantasticPhoenix",
-            "name": "Lion the Lion",
-            "model": "M3A4 Lion (OF)",
-            "galleryImagePaths": [
-                "Lion the Lion/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Lion the Lion/R1.jfif"
-            ]
-        },
-        {
             "creator": "Naily",
-            "name": "Verdan the Stryker",
+            "name": "Verdan the StrykerMEV",
             "model": "M1133 Stryker MEV",
             "galleryImagePaths": [
-                "Verdan the Stryker/T.png",
-                "Verdan the Stryker/1.png"
+                "Verdan the StrykerMEV/T.png",
+                "Verdan the StrykerMEV/1.png"
             ],
             "referenceSheetsPath": [
-                "Verdan the Stryker/R1.png",
-                "Verdan the Stryker/R2.png"
+                "Verdan the StrykerMEV/R1.png",
+                "Verdan the StrykerMEV/R2.png"
             ]
         },
         {
@@ -275,18 +264,6 @@
             ],
             "referenceSheetsPath": [
                 "L7nX the Lynx/R1.png"
-            ]
-        },
-        {
-            "creator": "XypherDraws",
-            "name": "L7nX the Lynx",
-            "model": "KF41 Lynx",
-            "galleryImagePaths": [
-                "L7nX the Lynx/T.png"
-            ],
-            "referenceSheetsPath": [
-                "L7nX the Lynx/R1.png",
-                "L7nX the Lynx/R2.png"
             ]
         },
         {
