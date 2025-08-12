@@ -831,6 +831,14 @@
         {
             "name": "Mimp",
             "profileImage": "Mimp.jpg"
+        },
+        {
+            "name": "Karvão",
+            "profileImage": "Karvão.jpg"
+        },
+        {
+            "name": "Bookworm",
+            "profileImage": "Bookworm.png"
         }
     ]
 }

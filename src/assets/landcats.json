@@ -560,6 +560,525 @@
                 "Grad the Tunguska/R1.png",
                 "Grad the Tunguska/R2.png"
             ]
+        },
+        {
+            "creator": "Robbercrab",
+            "name": "Stratos the S-TANK",
+            "model": "Strv 103",
+            "galleryImagePaths": [
+                "Stratos the S-TANK/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Stratos the S-TANK/R1.png",
+                "Stratos the S-TANK/R2.png"
+            ]
+        },
+        {
+            "creator": "Robbercrab",
+            "name": "Bagel the wiesel",
+            "model": "Wiesel 1A4",
+            "galleryImagePaths": [
+                "Bagel the wiesel/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Bagel the wiesel/R1.png"
+            ]
+        },
+        {
+            "creator": "Robbercrab",
+            "name": "Toast the wiesel",
+            "model": "Wiesel 1A4",
+            "galleryImagePaths": [
+                "Toast the wiesel/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Toast the wiesel/R1.png"
+            ]
+        },
+        {
+            "creator": "Robbercrab",
+            "name": "Oven the Ozelot",
+            "model": "Ozelot",
+            "galleryImagePaths": [
+                "Oven the Ozelot/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Oven the Ozelot/R1.png"
+            ]
+        },
+        {
+            "creator": "Robbercrab",
+            "name": "Teredinea the TBM",
+            "model": "Tunnel Boring Machine",
+            "galleryImagePaths": [
+                "Teredinea the TBM/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Teredinea the TBM/R1.png"
+            ]
+        },
+        {
+            "creator": "Robbercrab",
+            "name": "Sunny the AMB",
+            "model": "K312A1 Ambulance",
+            "galleryImagePaths": [
+                "Sunny the AMB/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Sunny the AMB/R1.png"
+            ]
+        },
+        {
+            "creator": "Damnbruhitsry",
+            "name": "Dallas the Mustang",
+            "model": "2020 Ford Mustang (OF)",
+            "galleryImagePaths": [
+                "Dallas the Mustang/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Dallas the Mustang/R1.png"
+            ]
+        },
+        {
+            "creator": "Miskreant",
+            "name": "Ch0p the Rebel 300",
+            "model": "Honda Rebel 300 Police",
+            "galleryImagePaths": [
+                "Ch0p the Rebel 300/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Ch0p the Rebel 300/R1.png"
+            ]
+        },
+        {
+            "creator": "Twig63",
+            "name": "Ashwagonda the THOR",
+            "model": "T.H.O.R AD System",
+            "galleryImagePaths": [
+                "Ashwagonda the THOR/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Ashwagonda the THOR/R1.png",
+                "Ashwagonda the THOR/R2.png"
+            ]
+        },
+        {
+            "creator": "Twig63",
+            "name": "Temp the Ural Ranger",
+            "model": "2WD Ural Ranger",
+            "galleryImagePaths": [
+                "Temp the Ural Ranger/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Temp the Ural Ranger/R1.png"
+            ]
+        },
+        {
+            "creator": "Twig63",
+            "name": "Glaggles the Merkava",
+            "model": "Merkava IIID Baz",
+            "galleryImagePaths": [
+                "Glaggles the Merkava/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Glaggles the Merkava/R1.png",
+                "Glaggles the Merkava/R2.png",
+                "Glaggles the Merkava/R3.png"
+            ]
+        },
+        {
+            "creator": "Twig63",
+            "name": "Kobalt the Foodtruck",
+            "model": "Foodtruck etc.",
+            "galleryImagePaths": [
+                "Kobalt the Foodtruck/T.jpg",
+                "Kobalt the Foodtruck/1.jpg",
+                "Kobalt the Foodtruck/2.jpg",
+                "Kobalt the Foodtruck/3.jpg"
+            ],
+            "referenceSheetsPath": [
+                "Kobalt the Foodtruck/R1.png",
+                "Kobalt the Foodtruck/R2.png"
+            ]
+        },
+        {
+            "creator": "Twig63",
+            "name": "Litter the Cougar",
+            "model": "Cougar MPAPV",
+            "galleryImagePaths": [
+                "Litter the Cougar/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Litter the Cougar/R1.png",
+                "Litter the Cougar/R2.png"
+            ]
+        },
+        {
+            "creator": "Yaco",
+            "name": "The SSC Twins",
+            "model": "Thrust SSC",
+            "galleryImagePaths": [
+                "The SSC Twins/T.png"
+            ],
+            "referenceSheetsPath": [
+                "The SSC Twins/R1.png",
+                "The SSC Twins/R2.png"
+            ]
+        },
+        {
+            "creator": "Yaco",
+            "name": "Trafico the Smart Fortwo",
+            "model": "Smart Fortwo",
+            "galleryImagePaths": [
+                "Trafico the Smart Fortwo/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Trafico the Smart Fortwo/R1.png"
+            ]
+        },
+        {
+            "creator": "Yaco",
+            "name": "Oswald the Bearcat",
+            "model": "Lenco Bearcat",
+            "galleryImagePaths": [
+                "Oswald the Bearcat/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Oswald the Bearcat/R1.png"
+            ]
+        },
+        {
+            "creator": "Yaco",
+            "name": "Holler the Stratos rally",
+            "model": "Lancia stratos rally car",
+            "galleryImagePaths": [
+                "Holler the Stratos rally/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Holler the Stratos rally/R1.png"
+            ]
+        },
+        {
+            "creator": "Sillycat",
+            "name": "Hauler the Sancheon",
+            "model": "KTX Sancheon",
+            "galleryImagePaths": [
+                "Hauler the Sancheon/T.png",
+                "Hauler the Sancheon/1.png",
+                "Hauler the Sancheon/2.png",
+                "Hauler the Sancheon/3.png",
+                "Hauler the Sancheon/4.png",
+                "Hauler the Sancheon/5.png",
+                "Hauler the Sancheon/6.png"
+            ],
+            "referenceSheetsPath": [
+                "Hauler the Sancheon/R1.png"
+            ]
+        },
+        {
+            "creator": "Sillycat",
+            "name": "Col. Corando the Corando",
+            "model": "Ssangyong Corando",
+            "galleryImagePaths": [
+                "Col. Corando the Corando/T.png",
+                "Col. Corando the Corando/1.png",
+                "Col. Corando the Corando/2.png",
+                "Col. Corando the Corando/3.jpg"
+            ],
+            "referenceSheetsPath": [
+                "Col. Corando the Corando/R1.png"
+            ]
+        },
+        {
+            "creator": "Sillycat",
+            "name": "Quarter the Interceptor",
+            "model": "2020 Ford Police IU",
+            "galleryImagePaths": [
+                "Quarter the Interceptor/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Quarter the Interceptor/R1.png"
+            ]
+        },
+        {
+            "creator": "Sillycat",
+            "name": "Connector the Class 345",
+            "model": "British Rail Class 345",
+            "galleryImagePaths": [
+                "Connector the Class 345/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Connector the Class 345/R1.png"
+            ]
+        },
+        {
+            "creator": "Karvão",
+            "name": "Wraith the Wraith",
+            "model": "CV90120/40 Wraith",
+            "galleryImagePaths": [
+                "Wraith the Wraith/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Wraith the Wraith/R1.png"
+            ]
+        },
+        {
+            "creator": "KandyKatz! (Barrier)",
+            "name": "L30 the Leopard ll",
+            "model": "Leopard2A6",
+            "galleryImagePaths": [
+                "L30 the Leopard ll/T.png",
+                "L30 the Leopard ll/1.png"
+            ],
+            "referenceSheetsPath": [
+                "L30 the Leopard ll/R1.jfif"
+            ]
+        },
+        {
+            "creator": "KandyKatz! (Barrier)",
+            "name": "Raven the Panzer lV",
+            "model": "Panzer lV",
+            "galleryImagePaths": [
+                "Raven the Panzer lV/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Raven the Panzer lV/R1.jpg"
+            ]
+        },
+        {
+            "creator": "KandyKatz! (Barrier)",
+            "name": "Katya the T-10",
+            "model": "IS-8 / T-10",
+            "galleryImagePaths": [
+                "Katya the T-10/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Katya the T-10/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Félix Auréle",
+            "name": "Vex the APC",
+            "model": "900HP DE APC (OF)",
+            "galleryImagePaths": [
+                "Vex the APC/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Vex the APC/R1.jpg",
+                "Vex the APC/R2.jpg",
+                "Vex the APC/R3.jpg"
+            ]
+        },
+        {
+            "creator": "Tuna",
+            "name": "Tumi the Stealth Tank",
+            "model": "PL-01 Concept",
+            "galleryImagePaths": [
+                "Tumi the Stealth Tank/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Tumi the Stealth Tank/R1.png"
+            ]
+        },
+        {
+            "creator": "Copycat",
+            "name": "Dvoika the Derivatsiya",
+            "model": "2C38 Derivatsiya-PVO",
+            "galleryImagePaths": [
+                "Dvoika the Derivatsiya/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Dvoika the Derivatsiya/R1.png"
+            ]
+        },
+        {
+            "creator": "Copycat",
+            "name": "Sheka the Tor",
+            "model": "9K330 Tor M-2",
+            "galleryImagePaths": [
+                "Sheka the Tor/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Sheka the Tor/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Jackie the Humvee",
+            "model": "M1151 HMMWV",
+            "galleryImagePaths": [
+                "Jackie the Humvee/T.jpg",
+                "Jackie the Humvee/1.png"
+            ],
+            "referenceSheetsPath": [
+                "Jackie the Humvee/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Umbra the SHT",
+            "model": "T-28 Super heavy tank",
+            "galleryImagePaths": [
+                "Umbra the SHT/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Umbra the SHT/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Next Gen Acela Train",
+            "model": "T-28 Super heavy tank",
+            "galleryImagePaths": [
+                "Ceasar the NGA trains/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Ceasar the NGA trains/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Hondo the Bearcat",
+            "model": "Lendo Bearcat",
+            "galleryImagePaths": [
+                "Hondo the Bearcat/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Hondo the Bearcat/R1.png",
+                "Hondo the Bearcat/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Raiko the Latte",
+            "model": "P-1000 Latte",
+            "galleryImagePaths": [
+                "Raiko the Latte/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Raiko the Latte/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Flynn the ADATS",
+            "model": "MIM-146 ADATS",
+            "galleryImagePaths": [
+                "Flynn the ADATS/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Flynn the ADATS/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Kira the Gustav Gun",
+            "model": "80 cm Kanone (E)",
+            "galleryImagePaths": [
+                "Kira the Gustav Gun/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Kira the Gustav Gun/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Milo the Spyder",
+            "model": "SPYDER AIO",
+            "galleryImagePaths": [
+                "Milo the Spyder/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Milo the Spyder/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Acting Captain Tai",
+            "model": "Honda SF1300PA",
+            "galleryImagePaths": [
+                "Acting Captain Tai/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Acting Captain Tai/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Justice the AbramsX",
+            "model": "Abrams X",
+            "galleryImagePaths": [
+                "Justice the AbramsX/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Justice the AbramsX/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Storm the I20 Coupe",
+            "model": "Hyundai I20 Coupe",
+            "galleryImagePaths": [
+                "Storm the I20 Coupe/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Storm the I20 Coupe/R1.png"
+            ]
+        },
+        {
+            "creator": "Bookworm",
+            "name": "Onus the forklift",
+            "model": "Military forklift etc.",
+            "galleryImagePaths": [
+                "Onus the forklift/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Onus the forklift/R1.png"
+            ]
+        },
+        {
+            "creator": "Bookworm",
+            "name": "Segurant the Armored Car",
+            "model": "Fordson Armored Car",
+            "galleryImagePaths": [
+                "Segurant the Armored Car/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Segurant the Armored Car/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Bookworm",
+            "name": "Tailspin the Kugelpanzer",
+            "model": "Kugelpanzer",
+            "galleryImagePaths": [
+                "Tailspin the Kugelpanzer/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Tailspin the Kugelpanzer/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Bookworm",
+            "name": "Circe the Clawtruck",
+            "model": "Claw Truck etc.",
+            "galleryImagePaths": [
+                "Circe the Clawtruck/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Circe the Clawtruck/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Bookworm",
+            "name": "Snuffy the Tankette",
+            "model": "TK-3 Tankette",
+            "galleryImagePaths": [
+                "Snuffy the Tankette/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Snuffy the Tankette/R1.png"
+            ]
         }
     ]
 }
