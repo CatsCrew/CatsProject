@@ -420,7 +420,7 @@
         {
             "creator": "Katla",
             "name": "Jhett the Raptor",
-            "model": "F-22 Raptor",
+            "model": "F-22A Raptor",
             "galleryImagePaths": [
                 "Jhett the raptor/T.png",
                 "Jhett the raptor/1.png"
@@ -500,7 +500,7 @@
         {
             "creator": "Sandomite",
             "name": "Lily the Dragonlady",
-            "model": "U-2 Dragonlady",
+            "model": "U-2 Dragon lady",
             "galleryImagePaths": [
                 "Lily the Dragonlady/T.png"
             ],
@@ -1000,7 +1000,7 @@
         {
             "creator": "Nyao",
             "name": "Yngvi the Raptor",
-            "model": "F-22 Raptor",
+            "model": "F-22A Raptor",
             "galleryImagePaths": [
                 "Yngvi the Raptor/T.png"
             ],
@@ -1886,7 +1886,7 @@
         {
             "creator": "JacieJace",
             "name": "Arthur the Black widow",
-            "model": "YF-23 Black widow",
+            "model": "YF-23 Black widow II",
             "galleryImagePaths": [
                 "Arthur the Black widow/T.png"
             ],
@@ -2690,7 +2690,7 @@
         {
             "creator": "APK",
             "name": "Apk the Raptor",
-            "model": "F-22 Raptor",
+            "model": "F-22A Raptor",
             "galleryImagePaths": [
                 "Apk the Raptor/T.png"
             ],
@@ -3125,6 +3125,646 @@
             ],
              "referenceSheetsPath": [
                 "Sesmian the Fishbed/R1.png"
+            ]
+        },
+        {
+            "creator": "Kyda",
+            "name": "Óskmey the Valkyrie",
+            "model": "XB-70 Valkyrie",
+            "galleryImagePaths": [
+                "Óskmey the Valkyrie/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Óskmey the Valkyrie/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Kyda",
+            "name": "Lyle/Kira the Black Widow II",
+            "model": "YF-23 Black widow II",
+            "galleryImagePaths": [
+                "Lyle/Kira the Black Widow II/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Lyle/Kira the Black Widow II/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Kyda",
+            "name": "Whitaker the Vulcan",
+            "model": "Avro Vulcan",
+            "galleryImagePaths": [
+                "Whitaker the Vulcan/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Whitaker the Vulcan/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Tuna",
+            "name": "Tuna the Tomcat",
+            "model": "F-14A Tomcat",
+            "galleryImagePaths": [
+                "Tuna the Tomcat/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Tuna the Tomcat/R1.png"
+            ]
+        },
+        {
+            "creator": "Tuna",
+            "name": "Exte the Extender",
+            "model": "KC-10 Extender",
+            "galleryImagePaths": [
+                "Exte the Extender/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Exte the Extender/R1.png"
+            ]
+        },
+        {
+            "creator": "Tuna",
+            "name": "Valo the Valor",
+            "model": "Bell V-280 Valor",
+            "galleryImagePaths": [
+                "Valo the Valor/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Valo the Valor/R1.png"
+            ]
+        },
+        {
+            "creator": "Ember",
+            "name": "Hades the Raptor",
+            "model": "F-22A Raptor",
+            "galleryImagePaths": [
+                "Hades the Raptor/T.png",
+                "Hades the Raptor/1.png",
+                "Hades the Raptor/2.png",
+                "Hades the Raptor/3.png",
+                "Hades the Raptor/4.png",
+                "Hades the Raptor/5.png",
+                "Hades the Raptor/6.png",
+                "Hades the Raptor/7.png",
+                "Hades the Raptor/8.png"
+            ],
+             "referenceSheetsPath": [
+                "Hades the Raptor/R1.png"
+            ]
+        },
+        {
+            "creator": "SlavaMedik",
+            "name": "Natalia the Halo",
+            "model": "MI-26 Halo",
+            "galleryImagePaths": [
+                "Natalia the Halo/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Natalia the Halo/R1.png"
+            ]
+        },
+        {
+            "creator": "tyler",
+            "name": "Rascal the Vigilante",
+            "model": "MI-26 Halo",
+            "galleryImagePaths": [
+                "Rascal the Vigilante/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Rascal the Vigilante/R1.png",
+                "Rascal the Vigilante/R2.png"
+            ]
+        },
+        {
+            "creator": "tyler",
+            "name": "Ark the Archangel",
+            "model": "Archangel (Game)",
+            "galleryImagePaths": [
+                "Ark the Archangel/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Rascal the Vigilante/R1.png",
+                "Rascal the Vigilante/R2.png"
+            ]
+        },
+        {
+            "creator": "Curian",
+            "name": "Reir the Shinden",
+            "model": "J7W1 Shinden",
+            "galleryImagePaths": [
+                "Reir the Shinden/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Reir the Shinden/R1.png",
+                "Reir the Shinden/R2.png"
+            ]
+        },
+        {
+            "creator": "Curian",
+            "name": "Asil the MIG-15",
+            "model": "MIG-15 Fagot",
+            "galleryImagePaths": [
+                "Asil the MIG-15/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Asil the MIG-15/R1.png",
+                "Asil the MIG-15/R2.png"
+            ]
+        },
+        {
+            "creator": "shaunthedragon",
+            "name": "Benji the Valkyrie",
+            "model": "XB-70 Valkyrie",
+            "galleryImagePaths": [
+                "Benji the Valkyrie/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Benji the Valkyrie/R1.png",
+                "Benji the Valkyrie/R2.png"
+            ]
+        },
+        {
+            "creator": "notwebber",
+            "name": "Civ the Glovemaster",
+            "model": "C-17 Glovemaster III",
+            "galleryImagePaths": [
+                "Civ the Glovemaster/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Civ the Glovemaster/R1.jpg"
+            ]
+        },
+        {
+            "creator": "notwebber",
+            "name": "Gazer the Super hornet",
+            "model": "F/A 18E Super hornet",
+            "galleryImagePaths": [
+                "Gazer the Super hornet/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Gazer the Super hornet/R1.jpg"
+            ]
+        },
+        {
+            "creator": "notwebber",
+            "name": "Aries the Raven",
+            "model": "EF-111A Raven",
+            "galleryImagePaths": [
+                "Aries the Raven/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Aries the Raven/R1.jpg"
+            ]
+        },
+        {
+            "creator": "notwebber",
+            "name": "Flare the Flying wing",
+            "model": "YB-49 Flying Wing",
+            "galleryImagePaths": [
+                "Flare the Flying wing/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Flare the Flying wing/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Plamya-Lisa",
+            "name": "Flamea the Foxhound",
+            "model": "MIG-31M Foxhound",
+            "galleryImagePaths": [
+                "Flamea the Foxhound/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Flamea the Foxhound/R1.png"
+            ]
+        },
+        {
+            "creator": "Buddha",
+            "name": "Manticore the Chimera",
+            "model": "ACG-01 Chimera (Game)",
+            "galleryImagePaths": [
+                "Manticore the Chimera/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Manticore the Chimera/R1.png"
+            ]
+        },
+        {
+            "creator": "N",
+            "name": "Victor the Bear",
+            "model": "Tu-95 MSM Bear",
+            "galleryImagePaths": [
+                "Victor the Bear/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Victor the Bear/R1.png"
+            ]
+        },
+        {
+            "creator": "Theta_LineN",
+            "name": "Victor the Bear",
+            "model": "Tu-95 MSM Bear",
+            "galleryImagePaths": [
+                "Victor the Bear/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Victor the Bear/R1.png"
+            ]
+        },
+        {
+            "creator": "Theta_LineN",
+            "name": "Mercury the Orion",
+            "model": "WP-3D Orion",
+            "galleryImagePaths": [
+                "Mercury the Orion/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Mercury the Orion/R1.png"
+            ]
+        },
+        {
+            "creator": "Typhoonflame",
+            "name": "Xanthia the Dragonlady",
+            "model": "U-2 Dragonlady",
+            "galleryImagePaths": [
+                "Xanthia the Dragonlady/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Xanthia the Dragonlady/R1.png"
+            ]
+        },
+        {
+            "creator": "Carmine",
+            "name": "Artemis the Strike Wyvern",
+            "model": "X-02s Strike Wyvern (Game)",
+            "galleryImagePaths": [
+                "Artemis the Strike Wyvern/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Artemis the Strike Wyvern/R1.png",
+                "Artemis the Strike Wyvern/R2.png"
+            ]
+        },
+        {
+            "creator": "Carmine",
+            "name": "AAC-89-G the Arsenal bird",
+            "model": "Arsenal Bird",
+            "galleryImagePaths": [
+                "AAC-89-G the Arsenal bird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "AAC-89-G the Arsenal bird/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Lamp_sOul",
+            "name": "Cassy the Strike eagle",
+            "model": "F-15E Strike eagle",
+            "galleryImagePaths": [
+                "Cassy the Strike eagle/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Cassy the Strike eagle/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Cerulean Drake",
+            "name": "Bis the Dragon lady",
+            "model": "U-2 Dragon lady",
+            "galleryImagePaths": [
+                "Bis the Dragon lady/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Bis the Dragon lady/R1.webp"
+            ]
+        },
+        {
+            "creator": "ATLAS",
+            "name": "Zero the Wardbird",
+            "model": "XH9 Wardbird VTOL (Game)",
+            "galleryImagePaths": [
+                "Zero the Wardbird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Zero the Wardbird/R1.png",
+                "Zero the Wardbird/R2.png"
+            ]
+        },
+        {
+            "creator": "Tal Goldpond",
+            "name": "Sheila the Boomerang",
+            "model": "CA-12 Boomerang",
+            "galleryImagePaths": [
+                "Sheila the Boomerang/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sheila the Boomerang/R1.png"
+            ]
+        },
+        {
+            "creator": "YON",
+            "name": "Tio and Codi the TIN COD",
+            "model": "TIN COD (Movie)",
+            "galleryImagePaths": [
+                "Tio and Codi the TIN COD/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Tio and Codi the TIN COD/R1.png",
+                "Tio and Codi the TIN COD/R2.jpg",
+                "Tio and Codi the TIN COD/R3.png"
+            ]
+        },
+        {
+            "creator": "YON",
+            "name": "Seb the Saberfish",
+            "model": "FF-S3 Saberfish (Movie)",
+            "galleryImagePaths": [
+                "Seb the Saberfish/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Seb the Saberfish/R1.png"
+            ]
+        },
+        {
+            "creator": "Kazimierz",
+            "name": "Fekhtov the Fencer",
+            "model": "SU-24M Fencer",
+            "galleryImagePaths": [
+                "Fekhtov the Fencer/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Fekhtov the Fencer/R1.png"
+            ]
+        },
+        {
+            "creator": "Kazimierz",
+            "name": "Azure the Viper zero",
+            "model": "F2A Viper Zero",
+            "galleryImagePaths": [
+                "Azure the Viper zero/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Azure the Viper zero/R1.png"
+            ]
+        },
+        {
+            "creator": "Galina",
+            "name": "Galina the Hind",
+            "model": "MI-24P Hind",
+            "galleryImagePaths": [
+                "Galina the Hind/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Galina the Hind/R1.png"
+            ]
+        },
+        {
+            "creator": "Chyper",
+            "name": "Cypher the Tomcat",
+            "model": "F-14A Tomcat",
+            "galleryImagePaths": [
+                "Cypher the Tomcat/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Cypher the Tomcat/R1.png"
+            ]
+        },
+        {
+            "creator": "Cosmo",
+            "name": "Cosmo the Lightning ll",
+            "model": "F-35B Lightning ll",
+            "galleryImagePaths": [
+                "Cosmo the Lightning ll/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Cosmo the Lightning ll/R1.jpg",
+                "Cosmo the Lightning ll/R2.png"
+            ]
+        },
+        {
+            "creator": "AbyssalFenge",
+            "name": "AB[Y]-554(L) the Fighting falcon",
+            "model": "F-16D Fighting-Falcon",
+            "galleryImagePaths": [
+                "AB[Y]-554(L) the Fighting falcon/T.png"
+            ],
+             "referenceSheetsPath": [
+                "AB[Y]-554(L) the Fighting falcon/R1.png",
+                "AB[Y]-554(L) the Fighting falcon/R2.png"
+            ]
+        },
+        {
+            "creator": "Frostwhiplash",
+            "name": "Faust the Fulcrum",
+            "model": "MIG-29 9-12A Fulcrum A",
+            "galleryImagePaths": [
+                "Faust the Fulcrum/T.png",
+                "Faust the Fulcrum/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Faust the Fulcrum/R1.jpg",
+                "Faust the Fulcrum/R2.jpg"
+            ]
+        },
+        {
+            "creator": "Robert",
+            "name": "Robert the Blackbird",
+            "model": "YF-12A Blackbird",
+            "galleryImagePaths": [
+                "Robert the Blackbird/T.png",
+                "Robert the Blackbird/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Robert the Blackbird/R1.png",
+                "Robert the Blackbird/R2.png"
+            ]
+        },
+        {
+            "creator": "Whisk",
+            "name": "Verokivich the Flanker",
+            "model": "Su-33 Flanker-D",
+            "galleryImagePaths": [
+                "Verokivich the Flanker/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Verokivich the Flanker/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Whisk",
+            "name": "Taphin the Lightning ll",
+            "model": "F-35C Lightning ll",
+            "galleryImagePaths": [
+                "Taphin the Lightning ll/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Taphin the Lightning ll/R1.png",
+                "Taphin the Lightning ll/R2.png"
+            ]
+        },
+        {
+            "creator": "Whisk",
+            "name": "Athen the Spirit",
+            "model": "B-2 Spirit",
+            "galleryImagePaths": [
+                "Athen the Spirit/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Athen the Spirit/R1.png"
+            ]
+        },
+        {
+            "creator": "Felix",
+            "name": "Felix the Viggen",
+            "model": "JA-37 Viggen",
+            "galleryImagePaths": [
+                "Felix the Viggen/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Felix the Viggen/R1.png"
+            ]
+        },
+        {
+            "creator": "Metholox",
+            "name": "Ruslan Daniarev the Fishbed",
+            "model": "MIG-21bis Fishbed-L",
+            "galleryImagePaths": [
+                "Ruslan Daniarev the Fishbed/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Ruslan Daniarev the Fishbed/R1.png"
+            ]
+        },
+        {
+            "creator": "Metholox",
+            "name": "Alyosha lvanov the TB-7",
+            "model": "Petlyakov PE-8",
+            "galleryImagePaths": [
+                "Alyosha lvanov the TB-7/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Alyosha lvanov the TB-7/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Metholox",
+            "name": "Krysinyy samolet the Flying Cannon",
+            "model": "YAK-9K",
+            "galleryImagePaths": [
+                "Krysinyy samolet the Flying Cannon/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Krysinyy samolet the Flying Cannon/R1.png"
+            ]
+        },
+        {
+            "creator": "Spree",
+            "name": "Hycil the Raptor",
+            "model": "F-22A Raptor",
+            "galleryImagePaths": [
+                "Hycil the Raptor/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Hycil the Raptor/R1.png"
+            ]
+        },
+        {
+            "creator": "Fizz",
+            "name": "Tandem the Predator",
+            "model": "MQ-1 Predator",
+            "galleryImagePaths": [
+                "Tandem the Predator/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Tandem the Predator/R1.png"
+            ]
+        },
+        {
+            "creator": "Bolt Stryker",
+            "name": "Dozer the Ghostrider",
+            "model": "AC-130J Ghostrider",
+            "galleryImagePaths": [
+                "Dozer the Ghostrider/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Dozer the Ghostrider/R1.png"
+            ]
+        },
+        {
+            "creator": "NIKO",
+            "name": "Midi the Medusa",
+            "model": "EW-25 Medusa (Game)",
+            "galleryImagePaths": [
+                "Midi the Medusa/T.png",
+                "Midi the Medusa/1.png",
+                "Midi the Medusa/2.png",
+                "Midi the Medusa/3.png",
+                "Midi the Medusa/4.png",
+                "Midi the Medusa/5.png"
+            ],
+             "referenceSheetsPath": [
+                "Midi the Medusa/R1.png"
+            ]
+        },
+        {
+            "creator": "NIKO",
+            "name": "Vesper the Revoker",
+            "model": "FS-12 Revoker (Game)",
+            "galleryImagePaths": [
+                "Vesper the Revoker/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Vesper the Revoker/R1.png"
+            ]
+        },
+        {
+            "creator": "bezitank",
+            "name": "Kuba the Fulcrum",
+            "model": "MIG-29 Fulcrum",
+            "galleryImagePaths": [
+                "Kuba the Fulcrum/T.png",
+                "Kuba the Fulcrum/1.png",
+                "Kuba the Fulcrum/2.png",
+                "Kuba the Fulcrum/3.png",
+                "Kuba the Fulcrum/4.png"
+            ],
+             "referenceSheetsPath": [
+                "Kuba the Fulcrum/R1.png",
+                "Kuba the Fulcrum/R2.png",
+                "Kuba the Fulcrum/R3.png"
+            ]
+        },
+        {
+            "creator": "Kirei",
+            "name": "Garner the Steadfast",
+            "model": "Standhaft Class airship",
+            "galleryImagePaths": [
+                "Garner the Steadfast/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Garner the Steadfast/R1.png"
+            ]
+        },
+        {
+            "creator": "Mystery",
+            "name": "Sam the Machtrainer",
+            "model": "S.14 Machtrainer",
+            "galleryImagePaths": [
+                "Sam the Machtrainer/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sam the Machtrainer/R1.png"
+            ]
+        },
+        {
+            "creator": "Mystery",
+            "name": "Sam the Machtrainer",
+            "model": "S.14 Machtrainer",
+            "galleryImagePaths": [
+                "Sam the Machtrainer/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sam the Machtrainer/R1.png"
             ]
         }
     ]
