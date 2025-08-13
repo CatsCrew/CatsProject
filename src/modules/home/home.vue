@@ -174,19 +174,19 @@ const catMetergroupItems = $computed<MeterItem[]>(() => {
 
     meterItems.push({
         label: 'Aerocats',
-        value: Math.floor(aerocats?.length / totalCats * 100) ?? 0,
+        value: aerocats?.length / totalCats * 100,
         color: '#00aaff'
     });
 
     meterItems.push({
         label: 'Landcats',
-        value: Math.floor(landcats?.length / totalCats * 100) ?? 0,
+        value: landcats?.length / totalCats * 100,
         color: '#ff8800'
     });
 
     meterItems.push({
         label: 'Protos',
-        value: Math.floor(protos?.length / totalCats * 100) ?? 0,
+        value: protos?.length / totalCats * 100,
         color: '#00ff88'
     });
 

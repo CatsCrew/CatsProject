@@ -6,20 +6,19 @@
         :class="[ cat.type, { hoverable }]"
         @click="onAerocatClicked">
         <template #header>
-            <div class="image-container">
+            <div
+                class="image-container"
+                ref="imageContainer">
                 <Skeleton
                     v-if="loading"
                     class="character-card-skeleton">
                 </Skeleton>
-                <DeferredContent
-                    class="deferred-content">
-                    <img
-                        class="cat-card-img"
-                        alt="aerocat profile image"
-                        :src="cat.galleryUrls[0]"
-                        :data-loading="loading"
-                        @load="onImageLoad"/>
-                </DeferredContent>
+                <img
+                    class="cat-card-img"
+                    alt="aerocat profile image"
+                    :data-src="cat.galleryUrls[0]"
+                    :data-loading="loading"
+                    @load="onImageLoad"/>
             </div>
         </template>
         <template #title>
@@ -48,12 +47,13 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted, onUpdated, useTemplateRef } from 'vue';
 import Card from '@/components/card/card.vue';
 import Skeleton from 'primevue/skeleton';
 import { Cat } from '@/models/cat.model';
-import DeferredContent from 'primevue/deferredcontent';
 import { useRouter } from 'vue-router';
 import { RouteNames } from '@/app.routes';
+import { DeferHelper } from '@/helper/defer.helper';
 
 const { cat, hoverable = true } = defineProps<{
     cat?: Cat;
@@ -65,6 +65,7 @@ const emit = defineEmits<{
 }>();
 
 const router$ = useRouter();
+const imageContainer = $(useTemplateRef('imageContainer'));
 
 let loading = $ref(true);
 
@@ -75,4 +76,12 @@ function onAerocatClicked() {
 function onImageLoad() {
     loading = false;
 }
+
+onMounted(() => {
+    DeferHelper.defer(imageContainer);
+});
+
+onUpdated(() => {
+    DeferHelper.defer(imageContainer);
+});
 </script>
