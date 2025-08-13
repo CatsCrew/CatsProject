@@ -191,14 +191,14 @@ onMounted(() => {
   });
 
   document.addEventListener("keyup", setupKeyEvents);
-  updateButtonVisibility();
 
   emblaApi
-      .on('select', updateButtonVisibility)
-      .on('init', toggleDotBtnsActive)
-      .on('reInit', toggleDotBtnsActive)
-      .on('select', toggleDotBtnsActive)
-      .on('select', onPageChanged);
+    .on('select', updateButtonVisibility)
+    .on('init', toggleDotBtnsActive)
+    .on('init', updateButtonVisibility)
+    .on('reInit', toggleDotBtnsActive)
+    .on('select', toggleDotBtnsActive)
+    .on('select', onPageChanged);
 });
 
 onUnmounted(() => {
