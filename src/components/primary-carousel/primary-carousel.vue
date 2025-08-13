@@ -7,26 +7,23 @@
         <div
             class="primary-carousel-slide"
             v-for="slide in slides"
-            :class="[slide.className]">
+            :class="[slide.className]"
+            ref="emblaSlides">
             <div
                 class="carousel-item"
-                v-for="(image, index) in slide.imageUrls"
-                :key="index">
+                v-for="image in slide.imageUrls"
+                :key="image">
                 <Skeleton
-                    v-if="imageLoadingStates[index]"
+                    v-if="imageLoadingStates[image]"
                     width="100%"
                     height="100%">
                 </Skeleton>
-                <DeferredContent class="deferred-content">
-                    <Image 
-                        :src="image" 
-                        preview
-                        alt="cat image" 
-                        imageClass="cat-ref-img"
-                        :data-loading="imageLoadingStates[index]"
-                        @load="onImageLoaded(index)"
-                        ref="slideImageRefs"/>
-                </DeferredContent>
+                <img
+                  class="cat-ref-img"
+                  alt="aerocat profile image"
+                  :data-src="image"
+                  :data-loading="imageLoadingStates[image]"
+                  @load="onImageLoaded(image)"/>
             </div>
         </div>
       </div>
@@ -57,16 +54,22 @@
         </button>
       </div>
     </div>
+    <Image 
+      v-if="selectedImage"
+      :src="selectedImage" 
+      preview
+      alt="cat image"
+      imageClass="cat-ref-img"/>
   </div>
 </template>
 
 <script setup lang="ts">
 import emblaCarouselVue from "embla-carousel-vue";
-import { onMounted, onUnmounted, useTemplateRef } from "vue";
+import { onMounted, onUnmounted, useTemplateRef, nextTick } from "vue";
 import Image from "primevue/image";
-import DeferredContent from 'primevue/deferredcontent';
 import Skeleton from 'primevue/skeleton';
 import { CarouselSlide } from "@/models/carousel-slide.model";
+import { DeferHelper } from "@/helper/defer.helper";
 
 const { images } = defineProps<{
   images?: string[];
@@ -75,15 +78,22 @@ const { images } = defineProps<{
 const INITIAL_PAGE_SIZE = 5;
 const PAGE_SIZE = 10;
 
-const imageLoadingStates = $ref([]);
-const slideImageRefs = $ref([]);
+const imageLoadingStates = $ref({} as Record<string, boolean>);
+const selectedImage = $ref('');
 const slides = $ref<CarouselSlide[]>([]);
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue());
+
 const dotNodes = $(useTemplateRef('dotNodes'));
+const slideRefs = $(useTemplateRef('emblaSlides'));
 
 let canScrollPrev = $ref(false);
 let canScrollNext = $ref(false);
+
+function onPageChanged() {
+  const selectedIndex = emblaApi?.selectedScrollSnap();
+  DeferHelper.defer(slideRefs[selectedIndex]);
+}
 
 function scrollNext() {
   emblaApi?.scrollNext();
@@ -105,10 +115,10 @@ function setupKeyEvents(event: KeyboardEvent) {
         return;
     switch (event.code) {
     case "ArrowLeft":
-        emblaApi.scrollPrev();
+        scrollPrev();
         break;
     case "ArrowRight":
-        emblaApi.scrollNext();
+        scrollNext();
         break;
     }
 }
@@ -128,13 +138,13 @@ function toggleDotBtnsActive() {
   dotNodes[selected].classList.add('embla__dot--selected');
 }
 
-function onImageLoaded(index: number) {
-  imageLoadingStates[index] = false;
+function onImageLoaded(src: string) {
+  imageLoadingStates[src] = false;
 }
 
 onMounted(() => {
-  images.forEach((_, index) => {
-    imageLoadingStates[index] = true;
+  images.forEach(i => {
+    imageLoadingStates[i] = true;
   });
 
   const pageOneImages = images.slice(0, INITIAL_PAGE_SIZE);
@@ -156,6 +166,10 @@ onMounted(() => {
     }
   }
 
+  nextTick(() => {
+    DeferHelper.defer(slideRefs[0]);
+  });
+
   document.addEventListener("keyup", setupKeyEvents);
   updateButtonVisibility();
 
@@ -163,7 +177,8 @@ onMounted(() => {
       .on('select', updateButtonVisibility)
       .on('init', toggleDotBtnsActive)
       .on('reInit', toggleDotBtnsActive)
-      .on('select', toggleDotBtnsActive);
+      .on('select', toggleDotBtnsActive)
+      .on('select', onPageChanged);
 });
 
 onUnmounted(() => {

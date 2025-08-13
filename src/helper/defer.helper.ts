@@ -10,6 +10,7 @@ export class DeferHelper {
     };
 
     public static defer(container: HTMLElement) {
+        console.log('defer start');
         const images = container.querySelectorAll<HTMLImageElement>('img[data-src]');
 
         if ('IntersectionObserver' in window) {
@@ -17,10 +18,10 @@ export class DeferHelper {
                 (entries, observer) => {
                     entries.forEach((entry) => {
                         if (entry.isIntersecting) {
-                            console.log('defer loaded...');
                             const img = entry.target as HTMLImageElement;
                             img.src = img.dataset.src;
                             img.removeAttribute('data-src');
+                            console.log('image loaded:', img.src);
                             observer.unobserve(img);
                         }
                     });
