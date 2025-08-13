@@ -26,19 +26,19 @@
         );
 
         &.images-10 {
-            grid-template-columns: repeat(5, 1fr);
+          grid-template-columns: repeat(5, 1fr);
         }
 
         @media screen and (max-width: $breakpoint-xs) {
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(1, 1fr);
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(1, 1fr);
         }
 
         &.hero {
-            :first-child {
-                grid-column: 1 / 3;
-                grid-row: 1 / 3;
-            }
+          :first-child {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+          }
         }
 
         .carousel-item {
@@ -46,14 +46,38 @@
           justify-content: center;
           position: relative;
 
-          .cat-ref-img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            opacity: 0;
-        
-            &[data-loading="false"] {
+          .image-container {
+            position: relative;
+
+            .cat-ref-img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+              opacity: 0;
+
+              &[data-loading="false"] {
                 opacity: 1;
+              }
+            }
+
+            .image-overlay {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 0, 0, 0.5);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: none;
+              padding: 0;
+              opacity: 0;
+
+              &:hover {
+                opacity: 1;
+                cursor: pointer;
+              }
             }
           }
         }
@@ -114,13 +138,7 @@
     }
   }
 
-  img {
-    border-radius: pxToRem(6);
-  }
-
-  .cat-ref-thumbnail {
-    width: pxToRem(80);
-    height: pxToRem(80);
-    object-fit: contain;
+  .p-image {
+    display: none;
   }
 }

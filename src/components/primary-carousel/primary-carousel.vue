@@ -18,12 +18,19 @@
                     width="100%"
                     height="100%">
                 </Skeleton>
-                <img
-                  class="cat-ref-img"
-                  alt="aerocat profile image"
-                  :data-src="image"
-                  :data-loading="imageLoadingStates[image]"
-                  @load="onImageLoaded(image)"/>
+                <div class="image-container">
+                  <img
+                    class="cat-ref-img"
+                    alt="aerocat profile image"
+                    :data-src="image"
+                    :data-loading="imageLoadingStates[image]"
+                    @load="onImageLoaded(image)"/>
+                  <button
+                    class="image-overlay"
+                    @click="onImageClicked(image)">
+                    <i class="pi pi-icon pi-eye"></i>
+                  </button>
+                </div>
             </div>
         </div>
       </div>
@@ -54,12 +61,11 @@
         </button>
       </div>
     </div>
-    <Image 
-      v-if="selectedImage"
+    <Image
       :src="selectedImage" 
       preview
       alt="cat image"
-      imageClass="cat-ref-img"/>
+      ref="previewImg"/>
   </div>
 </template>
 
@@ -79,16 +85,17 @@ const INITIAL_PAGE_SIZE = 5;
 const PAGE_SIZE = 10;
 
 const imageLoadingStates = $ref({} as Record<string, boolean>);
-const selectedImage = $ref('');
 const slides = $ref<CarouselSlide[]>([]);
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue());
 
 const dotNodes = $(useTemplateRef('dotNodes'));
 const slideRefs = $(useTemplateRef('emblaSlides'));
+const previewImg = $(useTemplateRef('previewImg'));
 
 let canScrollPrev = $ref(false);
 let canScrollNext = $ref(false);
+let selectedImage = $ref('');
 
 function onPageChanged() {
   const selectedIndex = emblaApi?.selectedScrollSnap();
@@ -111,16 +118,24 @@ function updateButtonVisibility() {
 }
 
 function setupKeyEvents(event: KeyboardEvent) {
+  if (previewImg.previewVisible) {
+    const currentIndex = images.findIndex(i => i === selectedImage);
+    const dir = event.code === 'ArrowLeft' ? -1 : 1;
+    const newIndex = ((currentIndex + dir) % images.length + images.length) % images.length;
+    selectedImage = images[newIndex];
+  } else {
     if (!emblaApi) 
-        return;
+      return;
+
     switch (event.code) {
-    case "ArrowLeft":
-        scrollPrev();
-        break;
-    case "ArrowRight":
-        scrollNext();
-        break;
+      case "ArrowLeft":
+          scrollPrev();
+          break;
+      case "ArrowRight":
+          scrollNext();
+          break;
     }
+  }
 }
 
 function dotClicked(index: number) {
@@ -140,6 +155,11 @@ function toggleDotBtnsActive() {
 
 function onImageLoaded(src: string) {
   imageLoadingStates[src] = false;
+}
+
+function onImageClicked(image: string) {
+  selectedImage = image;
+  previewImg.onImageClick();
 }
 
 onMounted(() => {
