@@ -19,6 +19,9 @@
                 class="asset-img"
                 download>
                 <img :src="asset"></img>
+                <div class="asset-overlay">
+                    <i class="pi pi-icon pi-download"></i>
+                </div>
             </a>
         </div>
     </div>

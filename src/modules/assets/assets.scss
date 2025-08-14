@@ -10,6 +10,10 @@
 }
 
 .assets-container {
+  display: flex;
+  flex-direction: column;
+  gap: pxToRem(8);
+  
   .selection-container {
     display: flex;
     gap: pxToRem(32);
@@ -36,12 +40,38 @@
     gap: pxToRem(16);
 
     .asset-img {
+      position: relative;
       width: pxToRem(164);
       height: pxToRem(169);
 
       img {
         width: 100%;
         height: 100%;
+      }
+
+      .asset-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        padding: 0;
+        opacity: 0;
+
+        &:hover {
+          opacity: 1;
+          cursor: pointer;
+        }
+
+        .pi-download {
+          color: white;
+          font-size: pxToRem(24);
+        }
       }
     }
   }
