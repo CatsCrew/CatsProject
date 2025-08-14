@@ -2333,6 +2333,17 @@
             ]
         },
         {
+            "creator": "Abbacchio",
+            "name": "Pavel the Super fulmar",
+            "model": "MIG 41M Super fulmar (Game)",
+            "galleryImagePaths": [
+                "Pavel the Super fulmar/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Pavel the Super fulmar/R1.jpg"
+            ]
+        },
+        {
             "creator": "Yuho",
             "name": "Robo the Bear",
             "model": "Tu-95MSM Bear",
@@ -3979,6 +3990,17 @@
             ],
              "referenceSheetsPath": [
                 "Dasha the Berkut/R1.png"
+            ]
+        },
+        {
+            "creator": "RhythmWolfy",
+            "name": "Tsuki the Rafale",
+            "model": "Dassault Rafale",
+            "galleryImagePaths": [
+                "Tsuki the Rafale/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Tsuki the Rafale/R1.png"
             ]
         }
     ]

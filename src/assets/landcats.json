@@ -1668,6 +1668,17 @@
             "referenceSheetsPath": [
                 "Mudcat the Lilla Stridsvagn/R1.png"
             ]
+        },
+        {
+            "creator": "Ryedus",
+            "name": "Fuches the Striker MGS",
+            "model": "M1128 Striker Mobile gun system",
+            "galleryImagePaths": [
+                "Fuches the Striker MGS/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Fuches the Striker MGS/R1.png"
+            ]
         }
     ]
 }
