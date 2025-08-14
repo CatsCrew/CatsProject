@@ -1,0 +1,31 @@
+{
+    "assets": [
+        {
+            "type": "aerocat",
+            "assets": [
+                "0106 라운델.png",
+                "GE-Fictional.png",
+                "RED-Fictional.png",
+                "Profile_Aerocats.png",
+                "AC-DC2.png",
+                "AC-Logo.png",
+                "AC-DC.png"
+            ]
+        },
+        {
+            "type": "landcat",
+            "assets": [
+                "Profile_Landcats.png",
+                "LC-DC2.png",
+                "NC-Logo.png",
+                "LC-DC.png"
+            ]
+        },
+        {
+            "type": "proto",
+            "assets": [
+                "PT-DC.png"
+            ]
+        }
+    ]
+}

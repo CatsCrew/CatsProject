@@ -1,0 +1,48 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+:deep(.p-selectbutton) {
+  .p-togglebutton {
+    .p-togglebutton-label {
+      text-transform: capitalize;
+    }
+  }
+}
+
+.assets-container {
+  .selection-container {
+    display: flex;
+    gap: pxToRem(32);
+
+    @media screen and (max-width: $breakpoint-xs) {
+      flex-direction: column;
+      gap: pxToRem(8);
+    }
+
+    .select-item {
+      display: flex;
+      flex-direction: column;
+      gap: pxToRem(8);
+
+      .select-header {
+        font-size: pxToRem(18);
+      }
+    }
+  }
+
+  .asset-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: pxToRem(16);
+
+    .asset-img {
+      width: pxToRem(164);
+      height: pxToRem(169);
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

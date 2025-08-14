@@ -5,11 +5,13 @@ import aerocatJson from '@assets/aerocats.json';
 import landcatJson from '@assets/landcats.json';
 import protoJson from '@assets/protos.json';
 import loreDocumentJson from '@assets/lore.json';
+import assetJson from '@assets/assets.json';
 import { CatType } from '@/models/cat-type.enum';
 import { Language } from '@/models/language.enum';
 import { SpeciesSheet } from '@/models/species-sheet.model';
 import { UiMapper } from '@/mappers/ui.mapper';
 import { Creator } from '@/models/creator.model';
+import { UrlHelper } from '@/helper/url.helper';
 
 interface ModuleImportInterface {
   default: Object;
@@ -23,6 +25,7 @@ export const useCatsStore = defineStore('cats', {
     protos: [],
     cats: null,
     speciesSheets: {} as Record<Language, SpeciesSheet>,
+    assets: {} as Record<CatType, string[]>,
     loreDocuments: null,
     discordUrl: 'https://discord.gg/xYm6skrZ3b'
   }),
@@ -73,6 +76,7 @@ export const useCatsStore = defineStore('cats', {
 
       this.loreDocuments = loreDocumentJson.documents;
       this.fetchSpeciesSheets();
+      this.fetchAssets();
 
       this.cats = [...this.aerocats, ...this.landcats, ...this.protos];
     },
@@ -89,6 +93,11 @@ export const useCatsStore = defineStore('cats', {
           case CatType.Proto:
             this.speciesSheets[CatType.Proto] = value;
         }
+      });
+    },
+    fetchAssets(): void {
+      assetJson.assets.forEach(a => {
+        this.assets[a.type] = a.assets.map(x => UrlHelper.buildAssetPath(a.type as CatType, x));
       });
     },
     groupSpeciesSheetAssetUrls(globRecord: Record<string, ModuleImportInterface>): Record<string, SpeciesSheet> {

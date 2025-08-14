@@ -39,6 +39,11 @@
                 </router-link>
               </li>
               <li @click="onDrawerItemClicked">
+                <router-link :to="{ name: RouteNames.Assets }">
+                  Assets
+                </router-link>
+              </li>
+              <li @click="onDrawerItemClicked">
                 <router-link :to="{ name: RouteNames.Lore }">
                   Lore
                 </router-link>
@@ -126,7 +131,6 @@ import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import Typewriter from 'typewriter-effect/dist/core';
 import { vOnClickOutside } from '@vueuse/components'
-import { CatFilter } from '@/models/cat-filter.enum';
 
 const cat$ = useCatsStore();
 const { isMobile } = $(storeToRefs(cat$));
@@ -168,11 +172,16 @@ const menuItems = $ref<MenuItem[]>([
   },
   {
     id: 3,
+    label: 'Assets',
+    to: { name: RouteNames.Assets }
+  },
+  {
+    id: 4,
     label: 'Lore',
     to: { name: RouteNames.Lore }
   },
   {
-    id: 4,
+    id: 5,
     label: 'Characters',
     children: characterMenuItems
   }

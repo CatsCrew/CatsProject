@@ -4,25 +4,25 @@ export class UrlHelper {
     static CLOUDFRONT_URL = 'https://d3f1w0zhip1fpv.cloudfront.net';
 
     static buildCharacterPath(type: CatType, name: string): string {
-        let characterPath = 'characters/';
-        switch (type) {
-            case CatType.Aerocat:
-                characterPath += 'aerocats/';
-                break;
-            case CatType.Landcat:
-                characterPath += 'landcats/';
-                break;
-            case CatType.Proto: 
-                characterPath += 'protos/';
-                break;
-        }
-
-        characterPath += name;
-
-        return `${this.CLOUDFRONT_URL}/${characterPath}`;
+        return `${this.CLOUDFRONT_URL}/characters/${this.getCatFolderFromType(type)}/${name}`;
     }
 
     static buildCreatorPath(name: string): string {
         return `${this.CLOUDFRONT_URL}/profiles/${name}`;
+    }
+
+    static buildAssetPath(type: CatType, name: string): string {
+        return `${this.CLOUDFRONT_URL}/assets/${this.getCatFolderFromType(type)}/${name}`;
+    }
+
+    static getCatFolderFromType(type: CatType): string {
+        switch (type) {
+            case CatType.Aerocat:
+                return 'aerocats';
+            case CatType.Landcat:
+                return 'landcats';
+            case CatType.Proto: 
+                return 'protos';
+        }
     }
 }
