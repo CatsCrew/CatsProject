@@ -56,7 +56,7 @@ const blips = reactive([
         id: 'landcat',
         type: 'landcat',
         x: 60,
-        y: 70,
+        y: 20,
         isCurrentlyVisible: false,
         wasHitBySweep: false,
         lastDetectedTime: 0,
@@ -65,7 +65,7 @@ const blips = reactive([
         id: 'proto',
         type: 'proto',
         x: 60,
-        y: 20,
+        y: 70,
         isCurrentlyVisible: false,
         wasHitBySweep: false,
         lastDetectedTime: 0

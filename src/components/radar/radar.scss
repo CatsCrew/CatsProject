@@ -90,13 +90,13 @@
       }
 
       &.landcat {
-        background: $terminal-orange;
-        box-shadow: 0 0 pxToRem(15) $terminal-orange;
+        background: $terminal-green;
+        box-shadow: 0 0 pxToRem(15) $terminal-green;
       }
 
       &.proto {
-        background: $terminal-green;
-        box-shadow: 0 0 pxToRem(15) $terminal-green;
+        background: $terminal-silver;
+        box-shadow: 0 0 pxToRem(15) $terminal-silver;
       }
     }
   }

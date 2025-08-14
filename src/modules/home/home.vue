@@ -181,13 +181,13 @@ const catMetergroupItems = $computed<MeterItem[]>(() => {
     meterItems.push({
         label: 'Landcats',
         value: landcats?.length / totalCats * 100,
-        color: '#ff8800'
+        color: '#00ff88'
     });
 
     meterItems.push({
         label: 'Protos',
         value: protos?.length / totalCats * 100,
-        color: '#00ff88'
+        color: '#C0C0C0'
     });
 
     return meterItems;
