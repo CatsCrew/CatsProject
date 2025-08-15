@@ -53,7 +53,6 @@
 import { defineAsyncComponent } from "vue";
 import { useCatsStore } from "@/store";
 import { storeToRefs } from "pinia";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 const PrimaryCarousel = defineAsyncComponent(() => import('@/components/primary-carousel/primary-carousel.vue'));
 const GalleryCarousel = defineAsyncComponent(() => import('@/components/gallery-carousel/gallery-carousel.vue'));

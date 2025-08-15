@@ -6,10 +6,12 @@ import { Proto } from '@/models/proto.model';
 import { Creator as FileCreator } from '@/models/formats/creator.model';
 import { Aerocat as FileAerocat } from "@/models/formats/aerocat.model";
 import { Landcat as FileLandcat } from "@/models/formats/landcat.model";
+import { Cat as FileCat } from "@/models/formats/cat.model";
 import { Proto as FileProto } from "@/models/formats/proto.model";
 import { UrlHelper } from '@/helper/url.helper';
 import { CatType } from '@/models/cat-type.enum';
 import Sqids from 'sqids';
+import hash from "object-hash";
 
 const sqids = new Sqids({
     alphabet: 'bPqYthvRnlXJQWLxyo45FEgadiMcf7Vzr0UO6IAmpHwBDkGeCsT9u32KjZ8S1N',
@@ -25,7 +27,7 @@ export class UiMapper {
 
     public static toAerocat(aerocat: FileAerocat, creator: Creator): Aerocat {
         return {
-            id: sqids.encode([this.index++]),
+            id: this.hashCat(aerocat),
             creator,
             type: CatType.Aerocat,
             name: aerocat?.name,
@@ -38,7 +40,7 @@ export class UiMapper {
 
     public static toLandcat(landcat: FileLandcat, creator: Creator): Landcat {
         return {
-            id: sqids.encode([this.index++]),
+            id: this.hashCat(landcat),
             creator,
             type: CatType.Landcat,
             name: landcat?.name,
@@ -51,7 +53,7 @@ export class UiMapper {
 
     public static toProto(proto: FileProto, creator: Creator): Proto {
         return {
-            id: sqids.encode([this.index++]),
+            id: this.hashCat(proto),
             creator,
             type: CatType.Proto,
             name: proto?.name,
@@ -62,11 +64,22 @@ export class UiMapper {
         };
     }
 
+    private static hashCat(cat: FileCat): string {
+        const hashValue = hash(cat, { algorithm: "md5" });
+
+        // Take the first 13 hexadecimal characters (52 bits) to ensure it fits
+        // perfectly within JavaScript's Number.MAX_SAFE_INTEGER (53 bits).
+        // 13 hex chars = 13 * 4 = 52 bits.
+        const truncatedHashHex = hashValue.substring(0, 13);
+        const numericId = parseInt(truncatedHashHex, 16);
+
+        return sqids.encode([numericId]);
+    }
+
 
     private static toCreator(creator: FileCreator): Creator {
         return {
             name: creator.name,
-            socials: creator.socials,
             profileUrl: UrlHelper.buildCreatorPath(creator.profileImage)
         }
     }

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@primeuix/themes": "^1.0.3",
+    "@types/object-hash": "^3.0.6",
     "@types/webpack": "^5.28.5",
     "@vue-macros/define-models": "^1.3.5",
     "@vue-macros/reactivity-transform": "^1.1.4",
@@ -18,6 +19,7 @@
     "embla-carousel-class-names": "^8.6.0",
     "embla-carousel-vue": "^8.6.0",
     "gsap": "^3.13.0",
+    "object-hash": "^3.0.0",
     "pinia": "^3.0.2",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.3",
