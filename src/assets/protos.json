@@ -2,7 +2,7 @@
     "protos": [
         {
             "creator": "Presto",
-            "name": "Ero the Proto2.0",
+            "name": "Ero the Proto 2.0",
             "model": "Proto 2.0",
             "galleryImagePaths": [
                 "Ero the Proto2.0/T.png",
@@ -11,6 +11,78 @@
             ],
              "referenceSheetsPath": [
                 "Ero the Proto2.0/R1.png"
+            ]
+        },
+        {
+            "creator": "Robert",
+            "name": "Buster the Proto P",
+            "model": "Proto 1.0 Type P",
+            "galleryImagePaths": [
+                "Buster the Proto P/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Buster the Proto P/R1.png"
+            ]
+        },
+        {
+            "creator": "Const",
+            "name": "Const the Proto 2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Const the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Const the Proto 2.0/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Kasichi",
+            "name": "Kasichi the Proto 2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Kasichi the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Kasichi the Proto 2.0/R1.png"
+            ]
+        },
+        {
+            "creator": "Kasichi",
+            "name": "Itero the Proto P",
+            "model": "Proto 1.0 Type P",
+            "galleryImagePaths": [
+                "Itero the Proto P/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Itero the Proto P/R1.png"
+            ]
+        },
+        {
+            "creator": "Ryedus",
+            "name": "Pehr the Proto I",
+            "model": "Proto 1.0 Type I",
+            "galleryImagePaths": [
+                "Pehr the Proto I/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Pehr the Proto I/R1.png"
+            ]
+        },
+        {
+            "creator": "Kiote",
+            "name": "Shiela the Proto 2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Shiela the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Shiela the Proto 2.0/R1.png"
             ]
         }
     ]
