@@ -102,22 +102,46 @@
   }
 
   .radar-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-top: pxToRem(24);
     font-size: pxToRem(14);
     width: 100%;
 
-    .info-line {
+    .radar-info-content {
       display: flex;
-      justify-content: space-between;
-      margin-bottom: pxToRem(4);
+      flex-direction: column;
+      gap: pxToRem(8);
+
+      .info-line {
+        display: flex;
+        gap: pxToRem(8);
+        margin-bottom: pxToRem(4);
+      }
+
+      .info-label {
+        color: $text-secondary;
+      }
+
+      .info-value {
+        color: $terminal-green;
+      }
     }
 
-    .info-label {
-      color: $text-secondary;
-    }
+    .radar-proto {
+      .radar-proto-img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: auto;
+        height: pxToRem(160);
 
-    .info-value {
-      color: $terminal-green;
+        @media screen and (max-width: $breakpoint-xs) {
+          height: pxToRem(140);
+        }
+      }
     }
   }
 }

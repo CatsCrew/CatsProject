@@ -20,13 +20,20 @@
             </div>
             </div>
             <div class="radar-info">
-                <div class="info-line">
-                    <span class="info-label">AIRSPACE:</span>
-                    <span class="info-value">SECURE</span>
+                <div class="radar-info-content">
+                    <div class="info-line">
+                        <span class="info-label">AIRSPACE:</span>
+                        <span class="info-value">SECURE</span>
+                    </div>
+                    <div class="info-line">
+                        <span class="info-label">GROUND:</span>
+                        <span class="info-value">PATROLLED</span>
+                    </div>
                 </div>
-                <div class="info-line">
-                    <span class="info-label">GROUND:</span>
-                    <span class="info-value">PATROLLED</span>
+                <div class="radar-proto">
+                    <img
+                        class="radar-proto-img"
+                        :src="RadarProto"/>
                 </div>
             </div>
         </div>
@@ -34,6 +41,7 @@
 
 <script setup>
 import { ref, reactive, onMounted, onBeforeUnmount } from "vue";
+import RadarProto from '@/assets/images/radar-proto.webp';
 
 let sweepAngle = $ref(0); // Current angle of the sweep in degrees
 const sweepSpeed = 0.5; // Degrees per frame (adjust for speed)
