@@ -6,7 +6,6 @@ import vueDefineModels from '@vue-macros/define-models/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/CatsProject/',
   build: {
     rollupOptions: {
       input: {
