@@ -4,7 +4,8 @@
     <Card
         class="cat-card"
         :class="[ cat.type, { hoverable }]"
-        @click="onAerocatClicked">
+        @click="onAerocatClicked"
+        ref="characterCard">
         <template #header>
             <div
                 class="image-container"
@@ -34,12 +35,13 @@
         <template #footer>
             <div
                 v-if="cat?.creator"
-                class="creator">
+                class="creator"
+                ref="creatorContainer">
                 <img 
                     v-if="cat?.creator?.profileUrl"
                     class="creator-img" 
                     alt="creator profile image" 
-                    :src="cat?.creator?.profileUrl"/>
+                    :data-src="cat?.creator?.profileUrl"/>
                 <span class="creator-name"> {{ cat?.creator?.name }} </span>
             </div>
         </template>
@@ -60,12 +62,8 @@ const { cat, hoverable = true } = defineProps<{
     hoverable?: boolean;
 }>();
 
-const emit = defineEmits<{
-    (e: 'cat-selected', cat: Cat): void;
-}>();
-
 const router$ = useRouter();
-const imageContainer = $(useTemplateRef('imageContainer'));
+const characterCard = $(useTemplateRef('characterCard'));
 
 let loading = $ref(true);
 
@@ -78,10 +76,10 @@ function onImageLoad() {
 }
 
 onMounted(() => {
-    DeferHelper.defer(imageContainer);
+    DeferHelper.defer(characterCard.$el);
 });
 
 onUpdated(() => {
-    DeferHelper.defer(imageContainer);
+    DeferHelper.defer(characterCard.$el);
 });
 </script>
