@@ -65,7 +65,12 @@ export class UiMapper {
     }
 
     private static hashCat(cat: FileCat): string {
-        const hashValue = hash(cat, { algorithm: "md5" });
+        const hashValue = hash({
+            name: cat.name,
+            type: cat.type,
+            model: cat.model,
+            creator: cat.creator
+         } as FileCat, { algorithm: "md5" });
 
         // Take the first 13 hexadecimal characters (52 bits) to ensure it fits
         // perfectly within JavaScript's Number.MAX_SAFE_INTEGER (53 bits).
