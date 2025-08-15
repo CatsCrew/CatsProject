@@ -1053,6 +1053,17 @@
             ]
         },
         {
+            "creator": "Félix Auréle",
+            "name": "Kio the Kiowa",
+            "model": "OH-58 Kiowa",
+            "galleryImagePaths": [
+                "Kio the Kiowa/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Kio the Kiowa/R1.png"
+            ]
+        },
+        {
             "creator": "Trocke las",
             "name": "Te-Lum",
             "model": "B-2/F-117A",
