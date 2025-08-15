@@ -9,7 +9,7 @@ import './main.scss';
 import 'primeicons/primeicons.css';
 
 const router = createRouter({
-  history: createWebHistory('/CatsProject/'),
+  history: createWebHistory(),
   routes,
 });
 
