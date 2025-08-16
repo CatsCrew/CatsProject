@@ -84,6 +84,18 @@
              "referenceSheetsPath": [
                 "Shiela the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "Lossi",
+            "name": "Eva the Proto 2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Eva the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Eva the Proto 2.0/R1.png"
+            ]
         }
     ]
 }

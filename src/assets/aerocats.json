@@ -4013,6 +4013,17 @@
              "referenceSheetsPath": [
                 "Tsuki the Rafale/R1.png"
             ]
+        },
+        {
+            "creator": "ShadowForest",
+            "name": "EnderC-001 the Plane",
+            "model": "Plane etc.",
+            "galleryImagePaths": [
+                "EnderC-001 the Plane/T.png"
+            ],
+             "referenceSheetsPath": [
+                "EnderC-001 the Plane/R1.png"
+            ]
         }
     ]
 }
