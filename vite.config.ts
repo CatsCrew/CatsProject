@@ -6,14 +6,6 @@ import vueDefineModels from '@vue-macros/define-models/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  build: {
-    rollupOptions: {
-      input: {
-        main: 'index.html',
-        error: '404.html',
-      }
-    }
-  },
   plugins: [
     vue({
       template: {
