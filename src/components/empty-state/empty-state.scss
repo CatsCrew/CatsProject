@@ -1,0 +1,21 @@
+@use "@assets/mixins.scss" as *;
+@use '@assets/variables.scss' as *;
+
+.empty-state-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: pxToRem(16);
+
+    .empty-state-img {
+        height: pxToRem(124);
+        width: auto;
+    }
+
+    .empty-state-content {
+        .header {
+            font-size: pxToRem(20);
+        }
+    }
+}

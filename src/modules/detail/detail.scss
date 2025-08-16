@@ -26,21 +26,35 @@
         }
       }
 
-      .creator-info {
+      .cat-right-rail {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        gap: pxToRem(8);
 
-        .creator {
-          display: flex;
-          align-items: center;
-          gap: pxToRem(8);
-          padding-top: pxToRem(8);
+        .menu-btn {
+          border: none;
+          background: transparent;
+          margin: 0;
+          padding: 0;
+          cursor: pointer;
+        }
+      }
+    }
 
-          .creator-img {
-            width: pxToRem(24);
-            height: pxToRem(24);
-            border-radius: pxToRem(6);
-          }
+    .creator-info {
+      display: flex;
+      flex-direction: column;
+
+      .creator {
+        display: flex;
+        align-items: center;
+        gap: pxToRem(8);
+
+        .creator-img {
+          width: pxToRem(24);
+          height: pxToRem(24);
+          border-radius: pxToRem(6);
         }
       }
     }

@@ -35,7 +35,14 @@
         flex-wrap: wrap;
         gap: pxToRem(20);
 
+        &.empty {
+            justify-content: center;
+        }
+
         @media screen and (max-width: $breakpoint-xs) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             padding-bottom: pxToRem(32);
         }
 
