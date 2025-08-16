@@ -33,7 +33,8 @@
                 <div class="radar-proto">
                     <img
                         class="radar-proto-img"
-                        :src="RadarProto"/>
+                        :src="RadarProto"
+                        alt="radar proto"/>
                 </div>
             </div>
         </div>

@@ -7,10 +7,14 @@ import { routes } from "./app.routes";
 import { createPinia } from 'pinia';
 import './main.scss';
 import 'primeicons/primeicons.css';
+import ToastService from 'primevue/toastservice';
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior() {
+    return { top: 0, left: 0 }
+  }
 });
 
 const pinia = createPinia();
@@ -18,6 +22,7 @@ const pinia = createPinia();
 createApp(App)
   .use(router)
   .use(pinia)
+  .use(ToastService)
   .use(PrimeVue, {
     // Default theme configuration
     theme: {

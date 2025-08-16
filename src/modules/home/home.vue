@@ -73,11 +73,9 @@
                         </Banner>
                     </template>
                     <template #footer>
-                        <button class="gradient-btn">
-                            <router-link :to="{ name: RouteNames.Aerocats }">
-                                Access Database <i class="pi pi-icon pi-arrow-right"></i>
-                            </router-link>
-                        </button>
+                        <router-link class="gradient-btn" :to="{ name: RouteNames.Aerocats }">
+                            Access Database <i class="pi pi-icon pi-arrow-right"></i>
+                        </router-link>
                     </template>
                 </Card>
                 <Card class="cat-card">
@@ -94,11 +92,9 @@
                         </Banner>
                     </template>
                     <template #footer>
-                        <button class="gradient-btn">
-                            <router-link :to="{ name: RouteNames.Landcats }">
-                                Access Database <i class="pi pi-icon pi-arrow-right"></i>
-                            </router-link>
-                        </button>
+                        <router-link class="gradient-btn" :to="{ name: RouteNames.Landcats }">
+                            Access Database <i class="pi pi-icon pi-arrow-right"></i>
+                        </router-link>
                     </template>
                 </Card>
                 <Card class="cat-card">
@@ -112,11 +108,9 @@
                         <p>PROTOs were developed before the CATS and served as the foundation for many of their technologies. In the world's setting, they function as support robots. They are a sub-species, not a main species.</p>
                     </template>
                     <template #footer>
-                        <button class="gradient-btn">
-                            <router-link :to="{ name: RouteNames.Protos }">
-                                Access Database <i class="pi pi-icon pi-arrow-right"></i>
-                            </router-link>
-                        </button>
+                        <router-link class="gradient-btn" :to="{ name: RouteNames.Protos }">
+                            Access Database <i class="pi pi-icon pi-arrow-right"></i>
+                        </router-link>
                     </template>
                 </Card>
                 <Card>
