@@ -69,7 +69,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted, useTemplateRef, onUpdated } from 'vue';
+import { onMounted, onUnmounted, useTemplateRef } from 'vue';
 import SelectButton from 'primevue/selectbutton';
 import { Language } from '@models/language.enum';
 import { CatType } from '@/models/cat-type.enum';
@@ -78,14 +78,13 @@ import { storeToRefs } from 'pinia';
 import emblaCarouselVue from "embla-carousel-vue";
 import Image from "primevue/image";
 import ClassNames from 'embla-carousel-class-names';
+import { useRoute, useRouter } from 'vue-router';
 
 const cat$ = useCatsStore();
 const { speciesSheetByCatAndLanguage } = $(storeToRefs(cat$));
 
-const catType = $ref(CatType.Aerocat);
-let prevCatType = $ref(null);
-const language = $ref(Language.English);
-let images = $ref(speciesSheetByCatAndLanguage(catType, language));
+const router$ = useRouter();
+const route$ = useRoute();
 
 const catOptions = $ref([CatType.Aerocat, CatType.Landcat, CatType.Proto]);
 const languageOptions = $ref([Language.English, Language.Korean, Language.Japanese]);
@@ -93,8 +92,12 @@ const languageOptions = $ref([Language.English, Language.Korean, Language.Japane
 const [emblaRef, emblaApi] = $(emblaCarouselVue({}, [ClassNames()]));
 const dotNodes = $(useTemplateRef('dotNodes'));
 
+let catType = $ref(CatType.Aerocat);
+let language = $ref(Language.English);
 let canScrollPrev = $ref(false);
 let canScrollNext = $ref(false);
+let prevCatType = $ref(null);
+let images = $ref([]);
 
 function hasLanguageSupport(catType: CatType) {
     return catType === CatType.Aerocat || catType === CatType.Landcat;
@@ -143,9 +146,43 @@ function toggleDotBtnsActive() {
     dotNodes[selected].classList?.add('embla__dot--selected');
 }
 
+function updateRouteQuery() {
+    router$.replace({
+        query: {
+            c: catType,
+            l: language
+        }
+    });
+}
+
+function onLanguageSelected(): void {
+    if (catType !== prevCatType) {
+        emblaApi.scrollTo(0);
+    }
+    prevCatType = catType;
+    images = speciesSheetByCatAndLanguage(catType, language);
+
+    updateRouteQuery();
+}
+
 onMounted(() => {
     document.addEventListener("keyup", setupKeyEvents);
     updateButtonVisibility();
+
+    const validCatTypes = Object.values(CatType);
+    const validLanguages = Object.values(Language);
+
+    const queryCat = route$.query.c;
+    const queryLang = route$.query.l;
+
+    if (validCatTypes.includes(queryCat as CatType)) {
+        catType = queryCat as CatType;
+    }
+    if (validLanguages.includes(queryLang as Language)) {
+        language = queryLang as Language;
+    }
+
+    images = speciesSheetByCatAndLanguage(catType, language);
 
     emblaApi
         .on('select', updateButtonVisibility)
@@ -160,12 +197,4 @@ onUnmounted(() => {
     emblaApi.destroy();
     document.removeEventListener("keyup", setupKeyEvents);
 });
-
-function onLanguageSelected(): void {
-    if (catType !== prevCatType) {
-        emblaApi.scrollTo(0);
-    }
-    prevCatType = catType;
-    images = speciesSheetByCatAndLanguage(catType, language);
-}
 </script>
