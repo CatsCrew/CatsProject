@@ -21,7 +21,9 @@
             class="nav-drawer">
             <template #header>
               <div class="logo">
-                <router-link :to="{ name: RouteNames.Home }">
+                <router-link
+                  @click="onDrawerItemClicked"
+                  :to="{ name: RouteNames.Home }">
                     <img class="logo-img" alt="Cats Logo" :src="CatsLogo" />
                     <span class="logo-text">PROJECT C.A.T.S</span>
                 </router-link>
