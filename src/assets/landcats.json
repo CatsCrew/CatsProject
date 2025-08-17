@@ -1433,6 +1433,17 @@
             ]
         },
         {
+            "creator": "Robert",
+            "name": "Avalanche the Explorer",
+            "model": "2015 Ford Explorer Police Interceptor",
+            "galleryImagePaths": [
+                "Avalanche the Explorer/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Avalanche the Explorer/R1.png"
+            ]
+        },
+        {
             "creator": "Skron",
             "name": "CV90120-T the CV90120-T",
             "model": "CV90120-T",
