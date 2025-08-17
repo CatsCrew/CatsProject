@@ -1,4 +1,6 @@
 import { RouteRecordRaw } from "vue-router";
+import { useCatsStore } from '@/store';
+import { NavigationGuardNext, RouteLocationNormalized } from 'vue-router';
 
 export enum RouteNames {
     Home = 'home',
@@ -10,7 +12,8 @@ export enum RouteNames {
     Aerocats = 'aerocats',
     Landcats = 'landcats',
     Protos = 'protos',
-    Lore = 'lore'
+    Lore = 'lore',
+    Error = 'error'
 }
 
 const RoutePathNames = {
@@ -21,6 +24,18 @@ const RoutePathNames = {
     [RouteNames.Characters]: '/characters',
     [RouteNames.Character]: '/character/:id',
     [RouteNames.Lore]: '/lore'
+}
+
+function onBeforeEnterDetail(to: RouteLocationNormalized, from: RouteLocationNormalized, next: NavigationGuardNext) {
+    const catStore = useCatsStore();
+    const id = to.params.id as string;
+    const cat = catStore.catById(id);
+
+    if (!cat) {
+        next({ name: RouteNames.Error });
+    } else {
+        next();
+    }
 }
 
 export const routes: RouteRecordRaw[] = [
@@ -70,6 +85,7 @@ export const routes: RouteRecordRaw[] = [
         path: RoutePathNames[RouteNames.Character],
         name: RouteNames.Character,
         component: () => import('./modules/detail/detail.vue'),
+        beforeEnter: onBeforeEnterDetail,
         props: true,
     },
     {
@@ -77,4 +93,10 @@ export const routes: RouteRecordRaw[] = [
         name: RouteNames.Lore,
         component: () => import('./modules/lore/lore.vue')
     },
+    {
+        // Catch-all route for Vue 3
+        path: '/:pathMatch(.*)*',
+        name: RouteNames.Error,
+        component: () => import('./components/error-page/error-page.vue')
+    }
 ];
