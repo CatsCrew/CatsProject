@@ -1,5 +1,6 @@
 @use "@assets/mixins.scss" as *;
 @use '@assets/variables.scss' as *;
+@use '../../variables.scss' as *;
 
 .characters-container {
     display: flex;
@@ -24,9 +25,13 @@
 
         @media screen and (max-width: $breakpoint-xs) {
             position: sticky;
-            top: 0;
+            top: $header-height;
             background-color: $background-secondary;
-            padding: pxToRem(16) pxToRem(8);
+            padding: pxToRem(16);
+            z-index: $z-header;
+            margin-left: pxToRem(-32);
+            margin-right: pxToRem(-32);
+            margin-top: pxToRem(-32);
         }
     }
 
