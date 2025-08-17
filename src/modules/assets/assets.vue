@@ -33,20 +33,40 @@ import { CatType } from '@/models/cat-type.enum';
 import SelectButton from 'primevue/selectbutton';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
+import { useRoute, useRouter } from 'vue-router';
 
 const cat$ = useCatsStore();
 const { assets } = $(storeToRefs(cat$));
 
-const catType = $ref(CatType.Aerocat);
+const router$ = useRouter();
+const route$ = useRoute();
+
 const catOptions = $ref([CatType.Aerocat, CatType.Landcat, CatType.Proto]);
 
+let catType = $ref(CatType.Aerocat);
 let assetImageUrls = $ref([]);
+
+function updateRouteQuery() {
+    router$.replace({
+        query: {
+            c: catType
+        }
+    });
+}
 
 function onCatTypeSelected() {
     assetImageUrls = assets[catType];
+    updateRouteQuery();
 }
 
 onMounted(() => {
+    const validCatTypes = Object.values(CatType);
+
+    const queryCat = route$.query.c;
+    if (validCatTypes.includes(queryCat as CatType)) {
+        catType = queryCat as CatType;
+    }
+
     assetImageUrls = assets[catType];
 });
 </script>
