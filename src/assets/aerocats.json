@@ -3180,13 +3180,13 @@
         },
         {
             "creator": "Winter",
-            "name": "Sesmian the Fishbed",
+            "name": "Volishin the Fishbed",
             "model": "MIG-21F Fishbed",
             "galleryImagePaths": [
-                "Sesmian the Fishbed/T.png"
+                "Volishin the Fishbed/T.png"
             ],
              "referenceSheetsPath": [
-                "Sesmian the Fishbed/R1.png"
+                "Volishin the Fishbed/R1.png"
             ]
         },
         {
@@ -3953,17 +3953,6 @@
              "referenceSheetsPath": [
                 "CDC the Kobra/R1.png",
                 "CDC the Kobra/R2.png"
-            ]
-        },
-        {
-            "creator": "Volishin",
-            "name": "Volishin the Fishbed",
-            "model": "MIG-21F Fishbed",
-            "galleryImagePaths": [
-                "Volishin the Fishbed/T.png"
-            ],
-             "referenceSheetsPath": [
-                "Volishin the Fishbed/R1.png"
             ]
         },
         {
