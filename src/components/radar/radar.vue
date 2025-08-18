@@ -11,11 +11,13 @@
             <div
                 v-for="blip in blips"
                 :key="blip.id"
-                :class="['radar-blip', blip.type, { detected: blip.isCurrentlyVisible }]"
+                :class="['radar-blip', blip.type, { 
+                    detected: blip.isCurrentlyVisible,
+                    'fade-out': !blip.isCurrentlyVisible && blip.lastDetectedTime > 0
+                }]"
                 :style="{ 
                     top: blip.y + '%',
-                    left: blip.x + '%',
-                    opacity: blip.isCurrentlyVisible ? 1 : 0 
+                    left: blip.x + '%'
                 }">
             </div>
             </div>
@@ -48,38 +50,79 @@ let sweepAngle = $ref(0); // Current angle of the sweep in degrees
 const sweepSpeed = 0.5; // Degrees per frame (adjust for speed)
 const detectionRange = 15; // Degrees: how wide the sweep detection "cone" is
 const lingerDuration = 1000; // Milliseconds: how long blips stay visible after being hit by sweep
+const minBlips = 3; // Minimum amount of blips at once
+const maxBlips = 8; // Maximum amount of blips at once
+const blipTypes = ['aerocat', 'landcat', 'proto'];
+const regenerationInterval = 8000; // How often blips generate
+const minDistanceFromCenter = 15; // Minimum distance from center%
+const maxDistanceFromCenter = 45; // Maximum distance from center%
+const blipLifetime = 12000; // How long a blip lives before i take them out
+const fadeOutDuration = 2000; // How long fade-out takes
 
 let animationFrameId = $ref(null);
+let regenerationTimerId = $ref(null);
 
-const blips = reactive([
-    {
-        id: 'aerocat',
-        type: 'aerocat',
-        x: 40,
-        y: 30,
-        isCurrentlyVisible: false, // Controls v-show (for actual visibility)
-        wasHitBySweep: false, // Indicates if the sweep is currently over it
-        lastDetectedTime: 0, // Timestamp when it was last directly hit by sweep
-    },
-    {
-        id: 'landcat',
-        type: 'landcat',
-        x: 60,
-        y: 20,
-        isCurrentlyVisible: false,
-        wasHitBySweep: false,
-        lastDetectedTime: 0,
-    },
-    {
-        id: 'proto',
-        type: 'proto',
-        x: 60,
-        y: 70,
-        isCurrentlyVisible: false,
-        wasHitBySweep: false,
-        lastDetectedTime: 0
+const blips = reactive([]);
+
+const generateRandomBlips = () => {
+    const currentTime = performance.now();
+    
+    for (let i = blips.length - 1; i >= 0; i--) {
+        const blip = blips[i];
+        if (currentTime - blip.birthTime > blipLifetime) {
+            blips.splice(i, 1);
+        }
     }
-]);
+    
+    const targetCount = Math.floor(Math.random() * (maxBlips - minBlips + 1)) + minBlips;
+    const currentCount = blips.length;
+    const blipsToAdd = Math.max(0, targetCount - currentCount);
+    
+    for (let i = 0; i < blipsToAdd; i++) {
+        const angle = Math.random() * 2 * Math.PI;
+        const distance = Math.random() * (maxDistanceFromCenter - minDistanceFromCenter) + minDistanceFromCenter;
+        const x = 50 + distance * Math.cos(angle);
+        const y = 50 + distance * Math.sin(angle);
+        const type = blipTypes[Math.floor(Math.random() * blipTypes.length)];
+        
+        blips.push({
+            id: `blip-${Date.now()}-${Math.random()}`,
+            type: type,
+            x: Math.max(5, Math.min(95, x)),
+            y: Math.max(5, Math.min(95, y)),
+            isCurrentlyVisible: false,
+            wasHitBySweep: false,
+            lastDetectedTime: 0,
+            birthTime: currentTime,
+            isExpiring: false
+        });
+    }
+};
+
+const generateInitialBlips = () => {
+    const currentTime = performance.now();
+    const blipCount = Math.floor(Math.random() * (maxBlips - minBlips + 1)) + minBlips;
+    
+    for (let i = 0; i < blipCount; i++) {
+        const angle = Math.random() * 2 * Math.PI;
+        const distance = Math.random() * (maxDistanceFromCenter - minDistanceFromCenter) + minDistanceFromCenter;
+        const x = 50 + distance * Math.cos(angle);
+        const y = 50 + distance * Math.sin(angle);
+        const type = blipTypes[Math.floor(Math.random() * blipTypes.length)];
+        
+        blips.push({
+            id: `blip-${Date.now()}-${Math.random()}`,
+            type: type,
+            x: Math.max(5, Math.min(95, x)),
+            y: Math.max(5, Math.min(95, y)),
+            isCurrentlyVisible: false,
+            wasHitBySweep: false,
+            lastDetectedTime: 0,
+            birthTime: currentTime,
+            isExpiring: false
+        });
+    }
+};
 
 // --- Methods ---
 
@@ -94,14 +137,18 @@ const animateRadar = () => {
 
     // Update visibility based on hit status and linger duration
     blips.forEach((blip) => {
-        if (blip.wasHitBySweep) {
-            blip.isCurrentlyVisible = true; // Always visible if sweep is directly on it
+        const age = currentTime - blip.birthTime;
+        if (age > blipLifetime - fadeOutDuration && !blip.isExpiring) {
+            blip.isExpiring = true;
+        }
+
+        if (blip.wasHitBySweep && !blip.isExpiring) {
+            blip.isCurrentlyVisible = true;
         } else {
-            // If not currently hit by sweep, check if linger duration has passed
-            if (currentTime - blip.lastDetectedTime > lingerDuration) {
-                blip.isCurrentlyVisible = false; // Set to false to trigger fade-out
+            if (blip.lastDetectedTime > 0 && 
+                (currentTime - blip.lastDetectedTime > lingerDuration || blip.isExpiring)) {
+                blip.isCurrentlyVisible = false;
             }
-            // Else, remain visible due to linger effect
         }
     });
 
@@ -149,12 +196,19 @@ const checkIntersections = (currentTime) => {
 // --- Lifecycle Hooks ---
 
 onMounted(() => {
+    generateInitialBlips();
     animationFrameId = requestAnimationFrame(animateRadar);
+    regenerationTimerId = setInterval(() => {
+        generateRandomBlips();
+    }, regenerationInterval);
 });
 
 onBeforeUnmount(() => {
     if (animationFrameId) {
         cancelAnimationFrame(animationFrameId);
+    }
+    if (regenerationTimerId) {
+        clearInterval(regenerationTimerId);
     }
 });
 </script>
