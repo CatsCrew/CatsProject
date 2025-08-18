@@ -4012,13 +4012,13 @@
         },
         {
             "creator": "ShadowForest",
-            "name": "EnderC-001 the Plane",
-            "model": "Plane etc.",
+            "name": "EnderC-001 the Fulcrum",
+            "model": "MIG-29 Fulcrum",
             "galleryImagePaths": [
-                "EnderC-001 the Plane/T.png"
+                "EnderC-001 the Fulcrum/T.png"
             ],
              "referenceSheetsPath": [
-                "EnderC-001 the Plane/R1.png"
+                "EnderC-001 the Fulcrum/R1.png"
             ]
         }
     ]
