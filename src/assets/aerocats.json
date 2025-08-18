@@ -1046,7 +1046,10 @@
             "name": "Lexi the L3X1",
             "model": "JU-57 CSG(OF)",
             "galleryImagePaths": [
-                "Lexi the L3X1/T.png"
+                "Lexi the L3X1/T.png",
+                "Lexi the L3X1/1.png",
+                "Lexi the L3X1/2.png",
+                "Lexi the L3X1/3.jpg"
             ],
              "referenceSheetsPath": [
                 "Lexi the L3X1/R1.jpg"
@@ -1742,7 +1745,11 @@
             "name": "Diamondback the Aardvark",
             "model": "F-111C Aardvark",
             "galleryImagePaths": [
-                "Diamondback the Aardvark/T.png"
+                "Diamondback the Aardvark/T.png",
+                "Diamondback the Aardvark/1.png",
+                "Diamondback the Aardvark/2.png",
+                "Diamondback the Aardvark/3.png",
+                "Diamondback the Aardvark/4.png"
             ],
              "referenceSheetsPath": [
                 "Diamondback the Aardvark/R1.png"
