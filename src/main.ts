@@ -12,9 +12,12 @@ import ToastService from 'primevue/toastservice';
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior() {
-    return { top: 0, left: 0 }
-  }
+    scrollBehavior(_to, _from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition;
+      }
+      return { top: 0, left: 0 };
+    }
 });
 
 const pinia = createPinia();
