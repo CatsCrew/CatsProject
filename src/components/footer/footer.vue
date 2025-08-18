@@ -16,7 +16,7 @@
                 <h5 class="footer-header">SYSTEM INFO</h5>
                 <div class="footer-text">
                     <div class="sub-text">Last Updated: 3025.08.18</div>
-                    <div class="sub-text">System Version: 0.0.1</div>
+                    <div class="sub-text">System Version: 1.0.1</div>
                     <div class="sub-text">Made by: Zephyr</div>
                     <div class="sub-text">Design: MeFinity</div>
                     <div class="sub-text">C.A.T.S Created by: Dr.Presto and Dr.Karbine</div>
