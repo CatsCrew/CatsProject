@@ -96,6 +96,18 @@
              "referenceSheetsPath": [
                 "Eva the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "gearwurk",
+            "name": "Repair the Proto P",
+            "model": "Proto 1.0 Type P",
+            "galleryImagePaths": [
+                "Repair the Proto P/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Repair the Proto P/R1.png"
+            ]
         }
     ]
 }

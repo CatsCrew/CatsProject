@@ -1545,6 +1545,17 @@
             ]
         },
         {
+            "creator": "Kazimierz",
+            "name": "Kazimierz the Lynx",
+            "model": "KF41 Lynx",
+            "galleryImagePaths": [
+                "Kazimierz the Lynx/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Kazimierz the Lynx/R1.jpg"
+            ]
+        },
+        {
             "creator": "Kasichi",
             "name": "Sniper Fox the Grille",
             "model": "155MM Grille",
