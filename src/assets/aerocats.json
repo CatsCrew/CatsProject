@@ -2986,7 +2986,7 @@
             "name": "Whiteclaw the Raider X",
             "model": "Raider X",
             "galleryImagePaths": [
-                "Whiteclaw the Raider x/T.png"
+                "Whiteclaw the Raider x/0.png"
             ],
              "referenceSheetsPath": [
                 "Whiteclaw the Raider x/R1.png"
@@ -3798,7 +3798,7 @@
             "name": "Kuba the Fulcrum",
             "model": "MIG-29 Fulcrum",
             "galleryImagePaths": [
-                "Kuba the Fulcrum/T.png",
+                "Kuba the Fulcrum/0.png",
                 "Kuba the Fulcrum/1.png",
                 "Kuba the Fulcrum/2.png",
                 "Kuba the Fulcrum/3.png",
