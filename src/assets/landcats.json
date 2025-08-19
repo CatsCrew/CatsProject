@@ -244,15 +244,17 @@
             ]
         },
         {
-            "creator": "Coralal",
+            "creator": "Coralral",
             "name": "Zechs the ZLAT",
-            "model": "ZLAT A3E1 (OF)",
+            "model": "ZLAT A3E2 (OF)",
             "galleryImagePaths": [
-                "Zechs the ZLAT/T.png"
+                "Zechs the ZLAT/T.png",
+                "Zechs the ZLAT/1.png"
             ],
             "referenceSheetsPath": [
                 "Zechs the ZLAT/R1.png",
-                "Zechs the ZLAT/R2.png"
+                "Zechs the ZLAT/R2.png",
+                "Zechs the ZLAT/R3.webp"
             ]
         },
         {
@@ -1506,7 +1508,8 @@
                 "Aevol the A7V/T.png"
             ],
             "referenceSheetsPath": [
-                "Aevol the A7V/R1.jpg"
+                "Aevol the A7V/R1.jpg",
+                "Aevol the A7V/R2.jpg"
             ]
         },
         {

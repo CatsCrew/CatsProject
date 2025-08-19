@@ -113,8 +113,8 @@
             "profileImage": "Hunglee.jpg"
         },
         {
-            "name": "Coralal",
-            "profileImage": "Coralal.jpg"
+            "name": "Coralral",
+            "profileImage": "Coralral.jpg"
         },
         {
             "name": "Sawyer_Tea",
@@ -907,6 +907,10 @@
         {
             "name": "ShadowForest",
             "profileImage": "ShadowForest.jpg"
+        },
+        {
+            "name": "Doldol",
+            "profileImage": "Doldol.jpg"
         }
     ]
 }

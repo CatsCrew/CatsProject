@@ -744,9 +744,9 @@
             ]
         },
         {
-            "creator": "Coralal",
-            "name": "Kars the UF-73",
-            "model": "UF-73(OF)",
+            "creator": "Coralral",
+            "name": "Kars the Fault",
+            "model": "UF-73 Fault (OF)",
             "galleryImagePaths": [
                 "Kars the UF-73/T.png",
                 "Kars the UF-73/1.png",
@@ -762,7 +762,7 @@
             ]
         },
         {
-            "creator": "Coralal",
+            "creator": "Coralral",
             "name": "Chester the Holster",
             "model": "AAC-01D Holster(OF)",
             "galleryImagePaths": [
@@ -773,18 +773,19 @@
             ]
         },
         {
-            "creator": "Coralal",
+            "creator": "Coralral",
             "name": "Lester the Holster",
             "model": "AAC-01A Holster P.P(OF)",
             "galleryImagePaths": [
-                "Lester the Holster/T.png"
+                "Lester the Holster/T.png",
+                "Lester the Holster/1.png"
             ],
              "referenceSheetsPath": [
                 "Lester the Holster/R1.png"
             ]
         },
         {
-            "creator": "Coralal",
+            "creator": "Coralral",
             "name": "Alex the Big bang",
             "model": "JB-95A Big bang(OF)",
             "galleryImagePaths": [
@@ -799,7 +800,7 @@
             ]
         },
         {
-            "creator": "Coralal",
+            "creator": "Coralral",
             "name": "Kars the Freak",
             "model": "EUF-2000 Freak(OF)",
             "galleryImagePaths": [
@@ -812,12 +813,13 @@
             ]
         },
         {
-            "creator": "Coralal",
+            "creator": "Coralral",
             "name": "Pater the WU-01",
             "model": "WU-01 XL(OF)",
             "galleryImagePaths": [
                 "Pater the WU-01/T.png",
-                "Pater the WU-01/1.png"
+                "Pater the WU-01/1.png",
+                "Pater the WU-01/2.png"
             ],
              "referenceSheetsPath": [
                 "Pater the WU-01/R1.png",
@@ -825,7 +827,7 @@
             ]
         },
         {
-            "creator": "Coralal",
+            "creator": "Coralral",
             "name": "Cujo the Foible",
             "model": "EF-87 Foible(OF)",
             "galleryImagePaths": [
@@ -838,11 +840,13 @@
             ]
         },
         {
-            "creator": "Coralal",
+            "creator": "Coralral",
             "name": "Jade the Hedge",
             "model": "UAC-1D Hedge(OF)",
             "galleryImagePaths": [
-                "Jade the Hedge/T.png"
+                "Jade the Hedge/T.png",
+                "Jade the Hedge/1.png",
+                "Jade the Hedge/2.png"
             ],
              "referenceSheetsPath": [
                 "Jade the Hedge/R1.jpeg"
@@ -2978,6 +2982,17 @@
             ]
         },
         {
+            "creator": "Kiote",
+            "name": "Whiteclaw the Raider X",
+            "model": "Raider X",
+            "galleryImagePaths": [
+                "Whiteclaw the Raider x/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Whiteclaw the Raider x/R1.png"
+            ]
+        },
+        {
             "creator": "F!shy",
             "name": "Sabre the Stratofortress",
             "model": "B-52 Strarofortress",
@@ -3708,6 +3723,17 @@
             ]
         },
         {
+            "creator": "MacDouglas the Globetrotter",
+            "name": "Krysinyy samolet the Flying Cannon",
+            "model": "C-17 Globetrotter (OF)",
+            "galleryImagePaths": [
+                "MacDouglas the Globetrotter/T.png"
+            ],
+             "referenceSheetsPath": [
+                "MacDouglas the Globetrotter/R1.png"
+            ]
+        },
+        {
             "creator": "Spree",
             "name": "Hycil the Raptor",
             "model": "F-22A Raptor",
@@ -4018,6 +4044,19 @@
             ],
              "referenceSheetsPath": [
                 "EnderC-001 the Fulcrum/R1.png"
+            ]
+        },
+        {
+            "creator": "Doldol",
+            "name": "Rapi the Air Ambulance",
+            "model": "MIG-29 Fulcrum",
+            "galleryImagePaths": [
+                "Rapi the Air Ambulance/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Rapi the Air Ambulance/R1.jpg",
+                "Rapi the Air Ambulance/R2.png",
+                "Rapi the Air Ambulance/R3.png"
             ]
         }
     ]
