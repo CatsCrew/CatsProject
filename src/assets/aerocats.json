@@ -279,7 +279,6 @@
             "creator": "Zephyr",
             "name": "Bolt the Raptor",
             "model": "F-22A Raptor",
-            "description": "Bolt the raptor description here!\n\nThis is on a newline",
             "galleryImagePaths": [
                 "bolt_the_raptor/BOLT-1.png",
                 "bolt_the_raptor/BOLT-2.png"
