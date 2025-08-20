@@ -77,7 +77,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUpdated, useTemplateRef } from 'vue';
+import { onMounted, useTemplateRef } from 'vue';
 import Card from '@/components/card/card.vue';
 import Skeleton from 'primevue/skeleton';
 import { Cat } from '@/models/cat.model';
