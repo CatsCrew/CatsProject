@@ -6,76 +6,79 @@
     text-decoration: none;
     cursor: pointer;
     color: white;
-    
-    .cat-card {
-      width: pxToRem(240);
-      overflow: hidden;
-      border: pxToRem(2) solid $background-primary;
-      transition: all 0.4s ease;
-      height: 100%;
+  }
 
+  .cat-card {
+    width: pxToRem(240);
+    overflow: hidden;
+    border: pxToRem(2) solid $background-primary;
+    transition: all 0.4s ease;
+    height: 100%;
+
+    @media screen and (max-width: $breakpoint-xs) {
+      width: 100%;
+    }
+
+    &.hoverable:hover {
+      cursor: pointer;
+
+      &.aerocat {
+        border-color: $terminal-blue;
+      }
+
+      &.landcat {
+        border-color: $terminal-green;
+      }
+
+      &.proto {
+        border-color: $terminal-silver;
+      }
+    }
+
+    .image-container {
+      width: 100%;
+      height: pxToRem(200);
       @media screen and (max-width: $breakpoint-xs) {
-        width: 100%;
+        height: pxToRem(240);
       }
 
-      &.hoverable:hover {
-        cursor: pointer;
-
-        &.aerocat {
-          border-color: $terminal-blue;
-        }
-
-        &.landcat {
-          border-color: $terminal-green;
-        }
-
-        &.proto {
-          border-color: $terminal-silver;
-        }
+      .character-card-skeleton {
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 20;
       }
+    }
 
-      .image-container {
-        width: 100%;
-        height: pxToRem(200);
-        @media screen and (max-width: $breakpoint-xs) {
-          height: pxToRem(240);
-        }
+    .cat-card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
 
-        .character-card-skeleton {
-          width: 100% !important;
-          height: 100% !important;
-          z-index: 20;
-        }
-      }
-
-      .cat-card-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: top;
+      &[data-loading="true"] {
         opacity: 0;
-
-        &[data-loading="false"] {
-          opacity: 1;
-        }
       }
 
-      .cat-model {
-        font-size: pxToRem(20);
+      &[data-loading="false"] {
+        opacity: 1;
       }
+    }
 
-      .creator {
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        gap: pxToRem(8);
-        padding-top: pxToRem(8);
+    .cat-model {
+      font-size: pxToRem(20);
+    }
 
-        .creator-img {
-          width: pxToRem(24);
-          height: pxToRem(24);
-          border-radius: pxToRem(6);
-        }
+    .creator {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      gap: pxToRem(8);
+      padding-top: pxToRem(8);
+
+      .creator-img {
+        width: pxToRem(24);
+        height: pxToRem(24);
+        border-radius: pxToRem(6);
       }
     }
   }
