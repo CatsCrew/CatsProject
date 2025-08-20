@@ -3794,6 +3794,17 @@
             ]
         },
         {
+            "creator": "NIKO",
+            "name": "Pandora the Chicane",
+            "model": "SAH-46 chicane (Game)",
+            "galleryImagePaths": [
+                "Pandora the Chicane/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Pandora the Chicane/R1.png"
+            ]
+        },
+        {
             "creator": "bezitank",
             "name": "Kuba the Fulcrum",
             "model": "MIG-29 Fulcrum",

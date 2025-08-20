@@ -108,6 +108,18 @@
              "referenceSheetsPath": [
                 "Repair the Proto P/R1.png"
             ]
+        },
+        {
+            "creator": "Metholox",
+            "name": "Cash the Proto 2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Cash the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Cash the Proto 2.0/R1.png"
+            ]
         }
     ]
 }
