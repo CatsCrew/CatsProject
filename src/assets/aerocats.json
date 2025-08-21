@@ -3730,7 +3730,7 @@
                 "MacDouglas the Globetrotter/T.png"
             ],
              "referenceSheetsPath": [
-                "MacDouglas the Globetrotter/R1.png"
+                "MacDouglas the Globetrotter/R1-1.png"
             ]
         },
         {
@@ -3791,6 +3791,17 @@
             ],
              "referenceSheetsPath": [
                 "Vesper the Revoker/R1.png"
+            ]
+        },
+        {
+            "creator": "NIKO",
+            "name": "Pandora the Chicane",
+            "model": "SAH-46 chicane (Game)",
+            "galleryImagePaths": [
+                "Pandora the Chicane/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Pandora the Chicane/R1.png"
             ]
         },
         {
