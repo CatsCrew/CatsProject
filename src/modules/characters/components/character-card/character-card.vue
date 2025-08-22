@@ -2,10 +2,30 @@
 
 <template>
     <div class="character-card-container">
-        <template v-if="hoverable">
+        <template v-if="isPlaceholder">
+            <Card
+                class="cat-card">
+                <template #header>
+                    <div
+                        class="image-container"
+                        ref="imageContainer">
+                        <img
+                            class="cat-card-img"
+                            alt="aerocat profile image"
+                            :src="cat.galleryUrls[0]"/>
+                    </div>
+                </template>
+                <template #title>
+                    <div class="cat-model">
+                        {{ cat?.model }}
+                    </div>
+                </template>
+            </Card>  
+        </template>
+        <template v-else>
             <router-link
                 class="cat-wrapper"
-                :to="{ name: RouteNames.Character, params: { id: cat.id || 0 }}">
+                :to="{ name: RouteNames.Character, params: { id: cat.id }}">
                 <Card
                     class="cat-card"
                     :class="[ cat.type, { hoverable }]"
@@ -53,26 +73,6 @@
                 </Card>
             </router-link>
         </template>
-        <template v-else>
-            <Card
-                class="cat-card">
-                <template #header>
-                    <div
-                        class="image-container"
-                        ref="imageContainer">
-                        <img
-                            class="cat-card-img"
-                            alt="aerocat profile image"
-                            :src="cat.galleryUrls[0]"/>
-                    </div>
-                </template>
-                <template #title>
-                    <div class="cat-model">
-                        {{ cat?.model }}
-                    </div>
-                </template>
-            </Card>
-        </template>
     </div>
 </template>
 
@@ -85,9 +85,10 @@ import { useRouter } from 'vue-router';
 import { RouteNames } from '@/app.routes';
 import { DeferHelper } from '@/helper/defer.helper';
 
-const { cat, hoverable = true } = defineProps<{
+const { cat, hoverable = true, isPlaceholder = false } = defineProps<{
     cat?: Cat;
     hoverable?: boolean;
+    isPlaceholder?: boolean;
 }>();
 
 const router$ = useRouter();

@@ -13,15 +13,16 @@
             class="characters"
             :class="{ 'empty': searchResultsEmpty }">
             <CharacterCard
-                v-for="cat in filteredCats"
+                v-for="cat in pagedCats"
                 :key="cat.name"
                 :cat="cat"
                 :hoverable="!isHandheldDevice">
             </CharacterCard>
             <CharacterCard
-                v-if="!searchTerm"
+                v-if="!searchTerm && pagedCats.length === filteredCats.length"
                 :cat="placeholderCat"
-                :hoverable="false">
+                :hoverable="false"
+                :is-placeholder="true">
             </CharacterCard>
             <EmptyState
                 v-if="searchResultsEmpty"
@@ -33,7 +34,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineAsyncComponent } from 'vue';
+import { defineAsyncComponent, computed, watch, onMounted, onUnmounted } from 'vue';
 import IconField from 'primevue/iconfield';
 import InputIcon from 'primevue/inputicon';
 import InputText from 'primevue/inputtext';
@@ -46,20 +47,18 @@ import ProtoWhat from '@assets/images/proto-what.png';
 
 const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/empty-state.vue'));
 
-let searchTerm = $ref<string>('');
-
 const cats$ = useCatsStore();
 const { landcats } = $(storeToRefs(cats$));
 
-const isHandheldDevice = $computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
-const searchResultsEmpty = $computed(() => filteredCats?.length === 0 && searchTerm?.length > 0);
+const isHandheldDevice = computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
+const PAGE_SIZE = 24;
+const searchTerm = $ref('');
+let currentPage = $ref(1);
 
-const placeholderCat = $computed<Cat>(() => {
-    return {
-        model: `Your Landcat here!`,
-        galleryUrls: [LandcatPlaceholder]
-    };
-});
+const placeholderCat = $computed<Cat>(() => ({
+    model: `Your Landcat here!`,
+    galleryUrls: [LandcatPlaceholder]
+}));
 
 const filteredCats = $computed(() => {
     if (!searchTerm) {
@@ -74,4 +73,31 @@ const filteredCats = $computed(() => {
         cat.creator.name.toLowerCase().includes(formattedSearchTerm)
     );
 });
+
+const pagedCats = computed(() => filteredCats.slice(0, currentPage * PAGE_SIZE));
+const searchResultsEmpty = computed(() => filteredCats.length === 0 && searchTerm.length > 0);
+
+function onScroll() {
+  const scrollHeight = document.documentElement.scrollHeight;
+  const scrollTop = document.documentElement.scrollTop;
+  const clientHeight = document.documentElement.clientHeight;
+
+    // Check if the user has scrolled near the bottom (e.g., within 200px)
+    if (scrollTop + clientHeight >= scrollHeight - 200) {
+        currentPage++;
+    }
+}
+
+watch(() => searchTerm, () => {
+    currentPage = 1;
+});
+
+onMounted(() => {
+  window.addEventListener('scroll', onScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', onScroll);
+});
+
 </script>

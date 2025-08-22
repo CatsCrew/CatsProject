@@ -33,6 +33,9 @@ export const useCatsStore = defineStore('cats', {
     isMobile: () => {
         return window.innerWidth <= 600;
     },
+    isHandheldDevice: () => {
+      return "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    },
     speciesSheetByCatAndLanguage(state: CatsState) {
       const { speciesSheets } = state;
       return (catType: CatType, language: Language): string[] => {
