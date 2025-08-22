@@ -31,7 +31,7 @@ createApp(App)
     theme: {
       preset: Aura,
       options: {
-        darkModeSelector: true,
+        darkModeSelector: '.dark-app',
       },
     },
   })
