@@ -3694,7 +3694,8 @@
             "name": "Ruslan Daniarev the Fishbed",
             "model": "MIG-21bis Fishbed-L",
             "galleryImagePaths": [
-                "Ruslan Daniarev the Fishbed/T.png"
+                "Ruslan Daniarev the Fishbed/T.png",
+                "Ruslan Daniarev the Fishbed/T.jpg"
             ],
              "referenceSheetsPath": [
                 "Ruslan Daniarev the Fishbed/R1.png"
@@ -3705,7 +3706,9 @@
             "name": "Alyosha lvanov the TB-7",
             "model": "Petlyakov PE-8",
             "galleryImagePaths": [
-                "Alyosha lvanov the TB-7/T.png"
+                "Alyosha lvanov the TB-7/T.png",
+                "Alyosha lvanov the TB-7/1.png",
+                "Alyosha lvanov the TB-7/2.png"
             ],
              "referenceSheetsPath": [
                 "Alyosha lvanov the TB-7/R1.jpg"
