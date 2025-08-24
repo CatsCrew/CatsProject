@@ -4071,6 +4071,17 @@
                 "Rapi the Air Ambulance/R2.png",
                 "Rapi the Air Ambulance/R3.png"
             ]
+        },
+        {
+            "creator": "BeeCrazy",
+            "name": "Kaku the Spirit",
+            "model": "Learjet 45 Air Ambulance",
+            "galleryImagePaths": [
+                "Kaku the Spirit/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Kaku the Spirit/R1.png"
+            ]
         }
     ]
 }
