@@ -1685,7 +1685,8 @@
             "name": "Oliver the Camel",
             "model": "Sopwith Camel 1917",
             "galleryImagePaths": [
-                "Oliver the Camel/T.png"
+                "Oliver the Camel/T.png",
+                "Oliver the Camel/1.png"
             ],
              "referenceSheetsPath": [
                 "Oliver the Camel/R1.png",

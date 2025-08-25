@@ -120,6 +120,18 @@
              "referenceSheetsPath": [
                 "Cash the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "Green PC",
+            "name": "Stanisław the Proto P",
+            "model": "Proto 1.0 Type P",
+            "galleryImagePaths": [
+                "Stanisław the Proto P/T1.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Stanisław the Proto P/R1.png"
+            ]
         }
     ]
 }
