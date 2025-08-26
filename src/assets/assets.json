@@ -3,28 +3,39 @@
         {
             "type": "aerocat",
             "assets": [
-                "0106 라운델.png",
-                "GE-Fictional.png",
-                "RED-Fictional.png",
-                "Profile_Aerocats.png",
-                "AC-DC2.png",
                 "AC-Logo.png",
-                "AC-DC.png"
+                "AC-Logo2.png",
+                "Profile_Aerocats.png",
+                "Profile_Aerocats2.png",
+                "CHN-1.png",
+                "DEU-3.png",
+                "FRN-1.png",
+                "RUS-1.png",
+                "USA-1.png",
+                "VNM-1.png"
             ]
         },
         {
             "type": "landcat",
             "assets": [
+                "Landcats-Logo.png",
+                "Landcats-Logo2.png",
                 "Profile_Landcats.png",
-                "LC-DC2.png",
-                "NC-Logo.png",
-                "LC-DC.png"
+                "Profile_Landcats2.png",
+                "CHN-1.png",
+                "CHN-2.png",
+                "DEU-1.png",
+                "DEU-2.png",
+                "RUS-2.png",
+                "USA-2.png",
+                "VNM-2.png"
             ]
         },
         {
             "type": "proto",
             "assets": [
-                "PT-DC.png"
+                "Profile_Proto.png",
+                "PROTO_LOGO.png"
             ]
         }
     ]
