@@ -2875,10 +2875,10 @@
             "galleryImagePaths": [
                 "Shade the Aigaion/T.png",
                 "Shade the Aigaion/1.png",
-                "Shade the Aigaion/2.png"
+                "Shade the Aigaion/2.jpg"
             ],
              "referenceSheetsPath": [
-                "Shade the Aigaion/R1.png"
+                "Shade the Aigaion/R1.jpg"
             ]
         },
         {
@@ -3282,8 +3282,7 @@
                 "Hades the Raptor/4.png",
                 "Hades the Raptor/5.png",
                 "Hades the Raptor/6.png",
-                "Hades the Raptor/7.png",
-                "Hades the Raptor/8.png"
+                "Hades the Raptor/7.png"
             ],
              "referenceSheetsPath": [
                 "Hades the Raptor/R1.png"
