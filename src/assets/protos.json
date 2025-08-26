@@ -132,6 +132,30 @@
              "referenceSheetsPath": [
                 "Stanisław the Proto P/R1.png"
             ]
+        },
+        {
+            "creator": "Mr.orlando",
+            "name": "Rookie the Proto P",
+            "model": "Proto 1.0 Type P",
+            "galleryImagePaths": [
+                "Rookie the Proto P/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Rookie the Proto P/R1.png"
+            ]
+        },
+        {
+            "creator": "Umbra",
+            "name": "Sol the Proto 2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Sol the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Sol the Proto 2.0/R1.jpg"
+            ]
         }
     ]
 }

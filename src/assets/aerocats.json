@@ -4083,6 +4083,17 @@
              "referenceSheetsPath": [
                 "Kaku the Spirit/R1.png"
             ]
+        },
+        {
+            "creator": "The Supreme Kitten",
+            "name": "Valis the Tiger",
+            "model": "EC665 Tiger",
+            "galleryImagePaths": [
+                "Valis the Tiger/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Valis the Tiger/R1.png"
+            ]
         }
     ]
 }

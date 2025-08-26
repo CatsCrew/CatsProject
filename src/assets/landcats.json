@@ -1222,6 +1222,18 @@
             ]
         },
         {
+            "creator": "Riker Maltov",
+            "name": "Valorie the Autoblinda",
+            "model": "FIAT AUBL/74 ",
+            "galleryImagePaths": [
+                "Valorie the Autoblinda/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Valorie the Autoblinda/R1.png",
+                "Valorie the Autoblinda/R2.png"
+            ]
+        },
+        {
             "creator": "Yehnie",
             "name": "Aura the Mjölner",
             "model": "CV90 Mjölner",
