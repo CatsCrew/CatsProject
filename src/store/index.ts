@@ -27,7 +27,12 @@ export const useCatsStore = defineStore('cats', {
     speciesSheets: {} as Record<Language, SpeciesSheet>,
     assets: {} as Record<CatType, string[]>,
     loreDocuments: null,
-    discordUrl: 'https://discord.gg/xYm6skrZ3b'
+    discordUrl: 'https://discord.gg/xYm6skrZ3b',
+    searchTerms: {
+      [CatType.Aerocat]: '',
+      [CatType.Landcat]: '',
+      [CatType.Proto]: '',
+    },
   }),
   getters: {
     isMobile: () => {

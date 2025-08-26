@@ -6,7 +6,7 @@
             <span class="characters-header-title">Garage</span>
             <IconField>
                 <InputIcon class="pi pi-search" />
-                <InputText type="text" v-model="searchTerm" placeholder="Search" />
+                <InputText type="text" v-model="searchTerms[CatType.Landcat]" placeholder="Search" />
             </IconField>
         </div>
         <div
@@ -44,15 +44,16 @@ import { storeToRefs } from 'pinia';
 import { Cat } from '@/models/cat.model';
 import LandcatPlaceholder from '@assets/images/landcat_placeholder.png';
 import ProtoWhat from '@assets/images/proto-what.png';
+import { CatType } from '@/models/cat-type.enum';
 
 const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/empty-state.vue'));
 
 const cats$ = useCatsStore();
-const { landcats } = $(storeToRefs(cats$));
+const { landcats, searchTerms } = $(storeToRefs(cats$));
 
 const isHandheldDevice = computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
 const PAGE_SIZE = 24;
-const searchTerm = $ref('');
+const searchTerm = $computed(() => searchTerms[CatType.Landcat]);
 let currentPage = $ref(1);
 
 const placeholderCat = $computed<Cat>(() => ({
