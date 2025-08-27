@@ -2,6 +2,11 @@
 
 <template>
     <div class="detail-container">
+        <div class="back-container">
+            <button class="back-btn" @click="onBack">
+                <i class="pi pi-icon pi-arrow-left"></i>
+            </button>
+        </div>
         <section class="carousel-container">
             <GalleryCarousel
                 v-if="isMobile"
@@ -82,6 +87,8 @@ import { useCatsStore } from "@/store";
 import { storeToRefs } from "pinia";
 import Menu from 'primevue/menu';
 import { useToast } from "primevue/usetoast";
+import { useRouter } from "vue-router";
+import { RouteNames } from "@/app.routes";
 
 const PrimaryCarousel = defineAsyncComponent(() => import('@/components/primary-carousel/primary-carousel.vue'));
 const GalleryCarousel = defineAsyncComponent(() => import('@/components/gallery-carousel/gallery-carousel.vue'));
@@ -94,6 +101,7 @@ const cat$ = useCatsStore();
 const { catById, isMobile } = $(storeToRefs(cat$));
 
 const toast = useToast();
+const router$ = useRouter();
 
 const cat = $computed(() => catById(id));
 const images = $computed(() => {
@@ -132,7 +140,11 @@ const items = $ref([
     }
 ]);
 
-const toggle = (event) => {
+const toggle = (event: Event) => {
     menu.toggle(event);
 };
+
+function onBack() {
+    router$.back();
+}
 </script>
