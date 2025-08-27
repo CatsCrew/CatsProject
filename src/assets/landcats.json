@@ -837,6 +837,18 @@
             ]
         },
         {
+            "creator": "Félix Auréle",
+            "name": "Mikail the Barak",
+            "model": "Merkava Mk.V Barak",
+            "galleryImagePaths": [
+                "Mikail the Barak/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Mikail the Barak/R1.png",
+                "Mikail the Barak/R2.png"
+            ]
+        },
+        {
             "creator": "Blackback the shark cat",
             "name": "Tumi the Stealth Tank",
             "model": "PL-01 Concept",

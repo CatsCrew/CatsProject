@@ -2994,6 +2994,17 @@
             ]
         },
         {
+            "creator": "Kiote",
+            "name": "Floral the Air Tanker",
+            "model": "C-130 Air tanker",
+            "galleryImagePaths": [
+                "Floral the Air Tanker/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Floral the Air Tanker/R1.png"
+            ]
+        },
+        {
             "creator": "F!shy",
             "name": "Sabre the Stratofortress",
             "model": "B-52 Strarofortress",
@@ -4093,6 +4104,17 @@
             ],
              "referenceSheetsPath": [
                 "Valis the Tiger/R1.png"
+            ]
+        },
+        {
+            "creator": "Const",
+            "name": "Radian the Raptor",
+            "model": "EC665 Tiger",
+            "galleryImagePaths": [
+                "Radian the Raptor/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Radian the Raptor/R1.jpg"
             ]
         }
     ]
