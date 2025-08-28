@@ -1929,9 +1929,10 @@
             "name": "Aeris the Lightning ll",
             "model": "F-35A Lightning ll",
             "galleryImagePaths": [
-                "Aeris the Lightning ll/T.png",
+                "Aeris the Lightning ll/T1.png",
                 "Aeris the Lightning ll/1.png",
-                "Aeris the Lightning ll/2.png"
+                "Aeris the Lightning ll/2.png",
+                "Aeris the Lightning ll/3.png"
             ],
              "referenceSheetsPath": [
                 "Aeris the Lightning ll/R1.png",
