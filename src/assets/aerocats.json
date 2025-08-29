@@ -1929,9 +1929,10 @@
             "name": "Aeris the Lightning ll",
             "model": "F-35A Lightning ll",
             "galleryImagePaths": [
-                "Aeris the Lightning ll/T.png",
+                "Aeris the Lightning ll/T1.png",
                 "Aeris the Lightning ll/1.png",
-                "Aeris the Lightning ll/2.png"
+                "Aeris the Lightning ll/2.png",
+                "Aeris the Lightning ll/3.png"
             ],
              "referenceSheetsPath": [
                 "Aeris the Lightning ll/R1.png",
@@ -2994,6 +2995,17 @@
             ]
         },
         {
+            "creator": "Kiote",
+            "name": "Floral the Air Tanker",
+            "model": "C-130 Air tanker",
+            "galleryImagePaths": [
+                "Floral the Air Tanker/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Floral the Air Tanker/R1.png"
+            ]
+        },
+        {
             "creator": "F!shy",
             "name": "Sabre the Stratofortress",
             "model": "B-52 Strarofortress",
@@ -3624,7 +3636,8 @@
             "model": "MIG-29 9-12A Fulcrum A",
             "galleryImagePaths": [
                 "Faust the Fulcrum/T.png",
-                "Faust the Fulcrum/1.png"
+                "Faust the Fulcrum/1.png",
+                "Faust the Fulcrum/2.png"
             ],
              "referenceSheetsPath": [
                 "Faust the Fulcrum/R1.jpg",
@@ -4093,6 +4106,17 @@
             ],
              "referenceSheetsPath": [
                 "Valis the Tiger/R1.png"
+            ]
+        },
+        {
+            "creator": "Const",
+            "name": "Radian the Raptor",
+            "model": "F-22A Raptor",
+            "galleryImagePaths": [
+                "Radian the Raptor/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Radian the Raptor/R1.jpg"
             ]
         }
     ]

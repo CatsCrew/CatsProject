@@ -837,6 +837,21 @@
             ]
         },
         {
+            "creator": "Félix Auréle",
+            "name": "Mikhail the Merkava",
+            "model": "Merkava Mk.V Barak",
+            "galleryImagePaths": [
+                "Mikhail the Merkava/T.png",
+                "Mikhail the Merkava/1.png",
+                "Mikhail the Merkava/2.png",
+                "Mikhail the Merkava/3.png"
+            ],
+            "referenceSheetsPath": [
+                "Mikhail the Merkava/R1.png",
+                "Mikhail the Merkava/R2.png"
+            ]
+        },
+        {
             "creator": "Blackback the shark cat",
             "name": "Tumi the Stealth Tank",
             "model": "PL-01 Concept",
@@ -1309,6 +1324,17 @@
             ],
             "referenceSheetsPath": [
                 "Sieghardt the Stug IV/R1.png"
+            ]
+        },
+        {
+            "creator": "Foxxee",
+            "name": "Yan the Sapozhok",
+            "model": "T-26",
+            "galleryImagePaths": [
+                "Yan the Sapozhok/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Yan the Sapozhok/R1.png"
             ]
         },
         {
