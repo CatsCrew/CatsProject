@@ -1327,6 +1327,17 @@
             ]
         },
         {
+            "creator": "Foxxee",
+            "name": "Yan the Sapozhok",
+            "model": "T-26",
+            "galleryImagePaths": [
+                "Yan the Sapozhok/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Yan the Sapozhok/R1.png"
+            ]
+        },
+        {
             "creator": "Curian",
             "name": "Gab the ST-A3",
             "model": "ST-A3 MBT",
