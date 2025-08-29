@@ -33,6 +33,11 @@ export const useCatsStore = defineStore('cats', {
       [CatType.Landcat]: '',
       [CatType.Proto]: '',
     },
+    pageRecord: {
+      [CatType.Aerocat]: 1,
+      [CatType.Landcat]: 1,
+      [CatType.Proto]: 1,
+    }
   }),
   getters: {
     isMobile: () => {

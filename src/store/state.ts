@@ -19,4 +19,5 @@ export interface CatsState {
     loreDocuments?: LoreDocument[];
     discordUrl?: string;
     searchTerms?: Record<CatType, string>;
+    pageRecord?: Record<CatType, number>;
 }

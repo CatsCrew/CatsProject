@@ -49,11 +49,10 @@ import { CatType } from '@/models/cat-type.enum';
 const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/empty-state.vue'));
 
 const cats$ = useCatsStore();
-const { aerocats, searchTerms } = $(storeToRefs(cats$));
+const { aerocats, searchTerms, pageRecord } = $(storeToRefs(cats$));
 
 const isHandheldDevice = computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
 const PAGE_SIZE = 24;
-let currentPage = $ref(1);
 const searchTerm = $computed(() => searchTerms[CatType.Aerocat]);
 
 const placeholderCat = $computed<Cat>(() => ({
@@ -75,7 +74,7 @@ const filteredCats = $computed(() => {
     );
 });
 
-const pagedCats = computed(() => filteredCats.slice(0, currentPage * PAGE_SIZE));
+const pagedCats = computed(() => filteredCats.slice(0, pageRecord[CatType.Aerocat] * PAGE_SIZE));
 const searchResultsEmpty = computed(() => filteredCats.length === 0 && searchTerm.length > 0);
 
 function onScroll() {
@@ -85,12 +84,12 @@ function onScroll() {
 
     // Check if the user has scrolled near the bottom (e.g., within 200px)
     if (scrollTop + clientHeight >= scrollHeight - 200) {
-        currentPage++;
+        pageRecord[CatType.Aerocat]++;
     }
 }
 
 watch(() => searchTerm, () => {
-    currentPage = 1;
+    pageRecord[CatType.Aerocat] = 1;
 });
 
 onMounted(() => {

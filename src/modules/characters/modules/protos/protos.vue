@@ -49,12 +49,11 @@ import { CatType } from '@/models/cat-type.enum';
 const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/empty-state.vue'));
 
 const cats$ = useCatsStore();
-const { protos, searchTerms } = $(storeToRefs(cats$));
+const { protos, searchTerms, pageRecord } = $(storeToRefs(cats$));
 
 const isHandheldDevice = computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
 const PAGE_SIZE = 24;
 const searchTerm = $computed(() => searchTerms[CatType.Proto]);
-let currentPage = $ref(1);
 
 const placeholderCat = $computed<Cat>(() => ({
     model: `Your Proto here!`,
@@ -75,7 +74,7 @@ const filteredCats = $computed(() => {
     );
 });
 
-const pagedCats = computed(() => filteredCats.slice(0, currentPage * PAGE_SIZE));
+const pagedCats = computed(() => filteredCats.slice(0, pageRecord[CatType.Proto] * PAGE_SIZE));
 const searchResultsEmpty = computed(() => filteredCats.length === 0 && searchTerm.length > 0);
 
 function onScroll() {
@@ -85,12 +84,12 @@ function onScroll() {
 
     // Check if the user has scrolled near the bottom (e.g., within 200px)
     if (scrollTop + clientHeight >= scrollHeight - 200) {
-        currentPage++;
+        pageRecord[CatType.Proto]++;
     }
 }
 
 watch(() => searchTerm, () => {
-    currentPage = 1;
+    pageRecord[CatType.Proto] = 1;
 });
 
 onMounted(() => {
