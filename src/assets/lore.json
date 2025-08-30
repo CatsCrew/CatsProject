@@ -3,7 +3,6 @@
     {
       "title": "Welcome Guide",
       "description": "It contains only basic information.",
-      "category": "guide",
       "languages": [
         {
           "culture": "EN",
@@ -20,8 +19,6 @@
     {
       "title": "Advanced Guidebook",
       "description": "This guide is intended for those seeking proper character builds and in-depth approaches.",
-      "category": "guide",
-      "lastUpdated": "07.17.2025 Updated (KR)",
       "languages": [
         {
           "culture": "EN",
@@ -38,8 +35,6 @@
     {
       "title": "Anthology of Short Stories",
       "description": "This is a storybook designed to help you better understand the worldbuilding.",
-      "category": "lore",
-      "lastUpdated": "07.02.2025 Updated (ENG)",
       "languages": [
         {
           "culture": "EN",
