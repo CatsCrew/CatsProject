@@ -3006,6 +3006,17 @@
             ]
         },
         {
+            "creator": "Kiote",
+            "name": "Annie the Horten",
+            "model": "Ho-229 Horten",
+            "galleryImagePaths": [
+                "Annie the Horten/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Annie the Horten/R1.png"
+            ]
+        },
+        {
             "creator": "F!shy",
             "name": "Sabre the Stratofortress",
             "model": "B-52 Strarofortress",
