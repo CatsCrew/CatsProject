@@ -1742,6 +1742,17 @@
             "referenceSheetsPath": [
                 "Fuches the Striker MGS/R1.png"
             ]
+        },
+        {
+            "creator": "toastedanxiety",
+            "name": "Cayden the EMBT",
+            "model": "European Main Battle Tank",
+            "galleryImagePaths": [
+                "Cayden the EMBT/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Cayden the EMBT/R1.png"
+            ]
         }
     ]
 }

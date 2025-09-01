@@ -326,18 +326,18 @@
         },
         {
             "creator": "Sky",
-            "name": "Angelika the phanter",
+            "name": "Angelika the panther",
             "model": "F9F-5 Panther",
             "galleryImagePaths": [
-                "Angelika the phanter/T.png",
-                "Angelika the phanter/1.png",
-                "Angelika the phanter/2.png",
-                "Angelika the phanter/3.png",
-                "Angelika the phanter/4.png",
-                "Angelika the phanter/5.png",
-                "Angelika the phanter/6.png",
-                "Angelika the phanter/7.png",
-                "Angelika the phanter/8.png"
+                "Angelika the panther/T.png",
+                "Angelika the panther/1.png",
+                "Angelika the panther/2.png",
+                "Angelika the panther/3.png",
+                "Angelika the panther/4.png",
+                "Angelika the panther/5.png",
+                "Angelika the panther/6.png",
+                "Angelika the panther/7.png",
+                "Angelika the panther/8.png"
             ]
         },
         {
@@ -3284,6 +3284,17 @@
         },
         {
             "creator": "Blackback the shark cat",
+            "name": "Ashley the Blizzard",
+            "model": "AC(L)-130 Blizzard (OF)",
+            "galleryImagePaths": [
+                "Ashley the Blizzard/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Ashley the Blizzard/R1.png"
+            ]
+        },
+        {
+            "creator": "Blackback the shark cat",
             "name": "Valo the Valor",
             "model": "Bell V-280 Valor",
             "galleryImagePaths": [
@@ -4082,6 +4093,17 @@
             ],
              "referenceSheetsPath": [
                 "EnderC-001 the Fulcrum/R1.png"
+            ]
+        },
+        {
+            "creator": "ShadowForest",
+            "name": "OverNight the Fulcrum",
+            "model": "MIG-29 Fulcrum",
+            "galleryImagePaths": [
+                "OverNight the Fulcrum/T.png"
+            ],
+             "referenceSheetsPath": [
+                "OverNight the Fulcrum/R1.png"
             ]
         },
         {
