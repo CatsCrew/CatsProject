@@ -18,89 +18,41 @@
             </PrimaryCarousel>
         </section>
         <section class="cat-info-container">
-            <div class="cat-info-header">
-                <div class="cat-info">
-                    <div class="name">
-                        {{ cat?.name }}
-                    </div>
-                    <div class="model">
-                        {{ cat?.model || 'Unknown' }}
-                    </div>
-                </div>
-                <div class="cat-right-rail">
-                    <div
-                        v-if="!isMobile && cat.creator"
-                        class="creator-info">
-                        <div class="creator">
-                            <img 
-                                v-if="cat?.creator?.profileUrl"
-                                class="creator-img" 
-                                alt="creator profile image" 
-                                :src="cat?.creator?.profileUrl"/>
-                            <span class="creator-name"> {{ cat?.creator?.name }} </span>
-                        </div>
-                    </div>
-                    <button
-                        class="menu-btn"
-                        @click="toggle"
-                        aria-haspopup="true"
-                        aria-controls="overlay_menu">
-                        <i class="pi pi-ellipsis-v"></i>
-                    </button>
-                    <Menu
-                        ref="menu"
-                        id="overlay_menu"
-                        :model="items"
-                        popup>
-                    </Menu>
-                </div>
-            </div>
-            <div
-                v-if="isMobile && cat.creator"
-                class="creator-info">
-                <div class="creator">
-                    <img 
-                        v-if="cat?.creator?.profileUrl"
-                        class="creator-img" 
-                        alt="creator profile image" 
-                        :src="cat?.creator?.profileUrl"/>
-                    <span class="creator-name"> {{ cat?.creator?.name }} </span>
-                </div>
-            </div>
-            <div
-                v-if="cat.description"
-                class="about">
-                <div class="header">
-                    About
-                </div>
-                <p class="description">
-                    {{ cat.description }}
-                </p>
-            </div>
+            <component
+                :is="components[cat.type]"
+                :cat="cat"
+                :is-mobile="isMobile">
+            </component>
         </section>
     </div>
 </template>
 
 <script setup lang="ts">
-import { defineAsyncComponent, useTemplateRef } from "vue";
+import { defineAsyncComponent } from "vue";
 import { useCatsStore } from "@/store";
 import { storeToRefs } from "pinia";
-import Menu from 'primevue/menu';
-import { useToast } from "primevue/usetoast";
 import { useRouter } from "vue-router";
-import { RouteNames } from "@/app.routes";
+import { CatType } from "@/models/cat-type.enum";
 
 const PrimaryCarousel = defineAsyncComponent(() => import('@/components/primary-carousel/primary-carousel.vue'));
 const GalleryCarousel = defineAsyncComponent(() => import('@/components/gallery-carousel/gallery-carousel.vue'));
+const Aerocat = defineAsyncComponent(() => import('./components/aerocat/aerocat.vue'));
+const Landcat = defineAsyncComponent(() => import('./components/landcat/landcat.vue'));
+const Proto = defineAsyncComponent(() => import('./components/proto/proto.vue'));
 
 const { id } = defineProps<{
     id?: string;
 }>();
 
+const components = {
+    [CatType.Aerocat]: Aerocat,
+    [CatType.Landcat]: Landcat,
+    [CatType.Proto]: Proto
+};
+
 const cat$ = useCatsStore();
 const { catById, isMobile } = $(storeToRefs(cat$));
 
-const toast = useToast();
 const router$ = useRouter();
 
 const cat = $computed(() => catById(id));
@@ -117,32 +69,7 @@ const images = $computed(() => {
     return allImages;
 });
 
-const menu = $(useTemplateRef('menu'));
-const items = $ref([
-    {
-        label: 'Options',
-        items: [
-            {
-                label: 'Copy Link',
-                icon: 'pi pi-share-alt',
-                command: async () => {
-                    await navigator.clipboard.writeText(window.location.href);
-                    toast.add({
-                        severity: 'success',
-                        summary: 'Success',
-                        detail: 'Link Copied!',
-                        life: 3000,
-                        group: isMobile ? 'mobile' : 'desktop'
-                    });
-                }
-            },
-        ]
-    }
-]);
 
-const toggle = (event: Event) => {
-    menu.toggle(event);
-};
 
 function onBack() {
     router$.back();

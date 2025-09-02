@@ -279,6 +279,9 @@
             "creator": "Zephyr",
             "name": "Bolt the Raptor",
             "model": "F-22A Raptor",
+            "description": "Bolt is a big fan of archery so he uses his H.O.L.O to form a bow shape when firing missiles.",
+            "copilot": "Kanapi",
+            "faction": "USA",
             "galleryImagePaths": [
                 "bolt_the_raptor/BOLT-1.png",
                 "bolt_the_raptor/BOLT-2.png"

@@ -33,6 +33,8 @@ export class UiMapper {
             name: aerocat?.name,
             description: aerocat?.description,
             model: aerocat?.model,
+            faction: aerocat?.faction,
+            copilot: aerocat?.copilot,
             referenceUrls: aerocat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Aerocat, r)),
             galleryUrls: aerocat?.galleryImagePaths?.map(g => UrlHelper.buildCharacterPath(CatType.Aerocat, g))
         };
@@ -46,6 +48,7 @@ export class UiMapper {
             name: landcat?.name,
             description: landcat?.description,
             model: landcat?.model,
+            crewmate: landcat?.crewmate,
             referenceUrls: landcat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Landcat, r)),
             galleryUrls: landcat?.galleryImagePaths?.map(g => UrlHelper.buildCharacterPath(CatType.Landcat, g))
         };

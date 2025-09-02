@@ -6,6 +6,7 @@ export interface Cat {
     type?: CatType;
     model?: string;
     description?: string;
+    faction?: string;
     referenceSheetsPath?: string[];
     galleryImagePaths?: string[];
 }
