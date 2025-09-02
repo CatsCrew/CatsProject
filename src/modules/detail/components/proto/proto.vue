@@ -1,4 +1,4 @@
-<style lang="scss" scoped src="./landcat.scss"></style>
+<style lang="scss" scoped src="./proto.scss"></style>
 
 <template>
     <BaseCat
