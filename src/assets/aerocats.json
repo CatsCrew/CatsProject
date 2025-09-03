@@ -4025,7 +4025,8 @@
             "name": "CDC the Kobra",
             "model": "Su-30MK2 Hổ mang chúa",
             "galleryImagePaths": [
-                "CDC the Kobra/T.png"
+                "CDC the Kobra/T.png",
+                "CDC the Kobra/1.png"
             ],
              "referenceSheetsPath": [
                 "CDC the Kobra/R1.png",

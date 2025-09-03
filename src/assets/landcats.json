@@ -1602,7 +1602,9 @@
             "name": "Sniper Fox the Grille",
             "model": "155MM Grille",
             "galleryImagePaths": [
-                "Sniper Fox the Grille/T.png"
+                "Sniper Fox the Grille/T.png",
+                "Sniper Fox the Grille/1.png",
+                "Sniper Fox the Grille/2.png"
             ],
             "referenceSheetsPath": [
                 "Sniper Fox the Grille/R1.png",
