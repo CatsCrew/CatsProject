@@ -1622,6 +1622,18 @@
             ]
         },
         {
+            "creator": "Kasichi",
+            "name": "Lynx the Pháo Tự Hành",
+            "model": "PTH-152",
+            "galleryImagePaths": [
+                "Lynx the Pháo Tự Hành/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Lynx the Pháo Tự Hành/R1.png",
+                "Lynx the Pháo Tự Hành/R2.png"
+            ]
+        },
+        {
             "creator": "Tal Goldpond",
             "name": "Bandit the Bushmaster",
             "model": "Bushmaster PMV",
