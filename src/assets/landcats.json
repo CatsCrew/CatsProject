@@ -1754,6 +1754,17 @@
             "referenceSheetsPath": [
                 "Cayden the EMBT/R1.png"
             ]
+        },
+        {
+            "creator": "Mike Arson",
+            "name": "Zeus the Barracuda",
+            "model": "TM-170 Barracuda",
+            "galleryImagePaths": [
+                "Zeus the Barracuda/T.jpg"
+            ],
+            "referenceSheetsPath": [
+                "Zeus the Barracuda/R1.jpg"
+            ]
         }
     ]
 }
