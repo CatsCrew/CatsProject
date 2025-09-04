@@ -25,7 +25,9 @@
             </a>
         </div>
         <Banner :type="BannerType.Info">
-            Interested in seeing other assets available? Check out the <a class="asset-studio" href="https://discord.com/channels/1326595987749470299/1384102985998794823" target="_blank">#asset-studio</a>discord channel for more!
+            <div class="asset-banner">
+                Interested in seeing other assets available? Check out the <a class="asset-studio" href="https://discord.com/channels/1326595987749470299/1384102985998794823" target="_blank">#asset-studio</a>discord channel for more!
+            </div>
         </Banner>
     </div>
 </template>
