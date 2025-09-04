@@ -12,7 +12,7 @@
 .assets-container {
   display: flex;
   flex-direction: column;
-  gap: pxToRem(8);
+  gap: pxToRem(16);
   
   .selection-container {
     display: flex;
@@ -75,5 +75,11 @@
         }
       }
     }
+  }
+
+  .asset-studio {
+    padding: 0 pxToRem(4);
+    color: inherit;
+    text-decoration: underline;
   }
 }

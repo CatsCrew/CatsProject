@@ -24,6 +24,9 @@
                 </div>
             </a>
         </div>
+        <Banner :type="BannerType.Info">
+            Interested in seeing other assets available? Check out the <a class="asset-studio" href="https://discord.com/channels/1326595987749470299/1384102985998794823" target="_blank">#asset-studio</a>discord channel for more!
+        </Banner>
     </div>
 </template>
 
@@ -34,6 +37,8 @@ import SelectButton from 'primevue/selectbutton';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import { useRoute, useRouter } from 'vue-router';
+import Banner from '@/components/banner/banner.vue';
+import { BannerType } from '@/models/banner-type.enum';
 
 const cat$ = useCatsStore();
 const { assets } = $(storeToRefs(cat$));
