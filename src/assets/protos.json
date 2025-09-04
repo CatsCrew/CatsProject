@@ -156,6 +156,30 @@
              "referenceSheetsPath": [
                 "Sol the Proto 2.0/R1.jpg"
             ]
+        },
+        {
+            "creator": "Félix Auréle",
+            "name": "Mikhail the Proto 2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Mikhail the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Mikhail the Proto 2.0/R1.png"
+            ]
+        },
+        {
+            "creator": "Dozer",
+            "name": "Fritz the Proto 2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Fritz the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Fritz the Proto 2.0/R1.jpg"
+            ]
         }
     ]
 }
