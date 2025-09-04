@@ -3290,7 +3290,8 @@
             "name": "Ashley the Blizzard",
             "model": "AC(L)-130 Blizzard (OF)",
             "galleryImagePaths": [
-                "Ashley the Blizzard/T.png"
+                "Ashley the Blizzard/T.png",
+                "Ashley the Blizzard/1.png"
             ],
              "referenceSheetsPath": [
                 "Ashley the Blizzard/R1.png"
