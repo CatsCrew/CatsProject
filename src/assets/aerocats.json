@@ -60,6 +60,9 @@
             "creator": "Presto",
             "name": "Ray the Sabre",
             "model": "F-86F Sabre",
+            "description": "Ray is a veteran member of the Air Knights, an older-generation Aerocats model. Despite his limitation of being unable to exceed Mach 1, he has demonstrated a high mission success rate in various support flights. He possesses strong pride in himself and has a consistently stern personality. His co-pilot, Rabbi, is the type who is very affectionate and charming. On the rare occasions when the two are seen talking, one can witness the only moments where Ray shows a gentle side.",
+            "copilot": "Rabbi",
+            "faction": "USA - Air Knights",
             "galleryImagePaths": [
                 "Ray the Sabre/T.png",
                 "Ray the Sabre/1.png",
@@ -72,7 +75,9 @@
             "creator": "Presto",
             "name": "Aardk the Aardvark",
             "model": "F-111F Aardvark",
-            "description": "Vark\n\nVark Vark\n\nVark",
+            "description": "Aardk the Aardvark is his full name. However, since all CATS and PROTOs find his name difficult to pronounce, it has become something of a tradition to simply call him “VARK.” His personality is warm, calculating, and somewhat nerdy. His hobby is surfing the internet.\n\nHis callsign is KING, and like Ray, he is a member of the Air Knights, specializing in low-altitude penetration and bombing. He does not have a co-pilot, instead using the H.O.L.O system merely as a crown-shaped hologram display.\n\nHis 3,000lbs bomb replica is nicknamed Tuna, which he does not use but rather keeps in his hangar, sometimes even hugging it to sleep. Occasionally, new PROTO recruits mistake it for a live bomb and end up calling in the EOD team.",
+            "copilot": "None",
+            "faction": "USA - Air Knights",
             "galleryImagePaths": [
                 "Aardk the Aardvark/T.png",
                 "Aardk the Aardvark/1.png",
@@ -96,6 +101,9 @@
             "creator": "Presto",
             "name": "Lancer the Lancer",
             "model": "B-1B Lancer",
+            "description": "Lancer is one of the most taciturn and dangerous CATS. He rarely questions his own actions, carrying out missions exactly as ordered, embodying the textbook definition of strict discipline. He is also very demanding toward his own squad members. Even so, he demonstrates an exceptionally high mission success rate, proving his reason for existence. He commands the Night Reapers.",
+            "copilot": "Lance",
+            "faction": "USA - Night Reapers",
             "galleryImagePaths": [
                 "Lancer the Lancer/T.png",
                 "Lancer the Lancer/1.png",
@@ -116,6 +124,9 @@
             "creator": "Presto",
             "name": "Hopekins the Nighthawk",
             "model": "F-117A Nighthawk",
+            "description": "Hopkins is an incredibly kind and cheerful prankster. Many CATS suffer from his antics, but the truth is that his mission success rate is very high, placing him among the veterans compared to others. Under Lancer’s command, he takes part in small-scale precision bombing or reconnaissance, and on days without missions, he spends his time cleaning his hangar. He suffers from a strong obsession with his personal belongings, which has resulted in him having the cleanest hangar of them all.\n\nHe can only fly at subsonic speeds, and he does feel regret about that limitation. However, he remains focused on accomplishing his missions perfectly despite it.\n\nThere is a record of him having crashed once during an operation, after which he received a new body.",
+            "copilot": "Happy Hoppy",
+            "faction": "USA - Night Reapers",
             "galleryImagePaths": [
                 "Hopekins the Nighthawk/T.png",
                 "Hopekins the Nighthawk/1.png",
