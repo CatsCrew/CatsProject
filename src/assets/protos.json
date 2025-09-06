@@ -180,6 +180,18 @@
              "referenceSheetsPath": [
                 "Fritz the Proto 2.0/R1.jpg"
             ]
+        },
+        {
+            "creator": "Sol",
+            "name": "Hikori the Proto 2.0",
+            "model": "Proto 2.0",
+            "galleryImagePaths": [
+                "Hikori the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Hikori the Proto 2.0/R1.jpg"
+            ]
         }
     ]
 }
