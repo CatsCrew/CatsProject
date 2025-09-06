@@ -4,6 +4,9 @@
             "creator": "Presto",
             "name": "Patriot Panther",
             "model": "F9F-5 Panther",
+            "description": "Patriot is a gentle and consistently optimistic Aero unit, whose excessive positivity often requires intervention from his co-pilot, MIAW. He was designed on the same day as Coo but at a different time, with the design assigning Patriot the role of the elder brother.",
+            "copilot": "MIAW",
+            "faction": "USA - Sea Gremlins",
             "galleryImagePaths": [
                 "patriot_panther/T.jpg",
                 "patriot_panther/1.png",
@@ -33,6 +36,9 @@
             "creator": "Presto",
             "name": "Coo the Cougar",
             "model": "F9F-7 Cougar",
+            "description": "Coo is passionate and strict, the type who adheres closely to the rules. He was manufactured on the same day as his older brother Patriot, and although he and his co-pilot LEX work in perfect sync, they don’t often engage in conversation. However, just by looking at LEX’s expression, one can always tell that Coo’s decisions were the right ones.",
+            "copilot": "LEX",
+            "faction": "USA - Sea Gremlins",
             "galleryImagePaths": [
                 "coo_the_cougar/T.png",
                 "coo_the_cougar/1.png",
