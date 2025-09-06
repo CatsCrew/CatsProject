@@ -113,11 +113,11 @@
                 "Lancer the Lancer/5.png",
                 "Lancer the Lancer/6.png",
                 "Lancer the Lancer/7.png",
-                "Lancer the Lancer/8.png",
-                "Lancer the Lancer/9.jpg"
+                "Lancer the Lancer/8.png"
             ],
              "referenceSheetsPath": [
-                "Lancer the Lancer/R1.png"
+                "Lancer the Lancer/R1.png",
+                "Lancer the Lancer/R2.png"
             ]
         },
         {
