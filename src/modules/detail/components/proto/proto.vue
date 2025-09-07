@@ -42,7 +42,12 @@ const { cat, isMobile } = defineProps<{
 const kpiItems = $computed(() => {
     const kpis: Option[] = [];
 
-    // todo
+    if (cat.faction) {
+        kpis.push({
+            label: 'Faction',
+            value: cat.faction
+        });
+    }
 
     return kpis;
 });

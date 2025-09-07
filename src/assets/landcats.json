@@ -1633,6 +1633,9 @@
             "creator": "Kasichi",
             "name": "Lynx the Pháo Tự Hành",
             "model": "PTH-152",
+            "crewmate": "Viettold A.I | V.T.AI",
+            "faction": "Vietnam People's Army",
+            "description": "A LANDCATS long-range self-propelled artillery unit developed by Viettold Military Industry and Telecoms Group. As one of the newest units, still in trial missions, he has already shown precise calculations and excellent marksmanship down to the finest detail. However, being recently assembled, Lynx often comes across as cold and distant. Lately, though, teammates have noticed him showing more warmth and learning to interact more closely with humans.",
             "galleryImagePaths": [
                 "Lynx the Pháo Tự Hành/T.png"
             ],

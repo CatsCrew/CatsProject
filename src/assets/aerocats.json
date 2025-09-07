@@ -4043,6 +4043,9 @@
             "creator": "Kasichi",
             "name": "CDC the Kobra",
             "model": "Su-30MK2 Hổ mang chúa",
+            "copilot": "Neko A.I.",
+            "faction": "Vietnam People's Air Force",
+            "description": "A fighter jet belonging to the Vietnam People's Air Force, CdC is one of the core units defending the nation's skies. Strict, confident, and very professional in his duties, yet in everyday life he is friendly and approachable, earning trust from children, comrades, and those around him.",
             "galleryImagePaths": [
                 "CDC the Kobra/T.png",
                 "CDC the Kobra/1.png"
