@@ -1619,6 +1619,9 @@
             "creator": "Kasichi",
             "name": "Scout Wolf the NC750X",
             "model": "Honda NC750X",
+            "crewmate": "Polar Bear A.I | P.B.AI",
+            "faction": "Sniper Operations Service",
+            "description": "A retired LANDCATS motorbike unit once used for high-speed pursuit missions, now decommissioned as his registration is near expiration. Small and lightweight, he excels in agile maneuvers and evasive actions. With a custom-built tail designed for close combat, he is well-suited for reconnaissance and intelligence-gathering missions. He lives and works together with Sniper Fox, taking on contracts from various factions to earn a living.",
             "galleryImagePaths": [
                 "Scout Wolf the NC750X/T.png"
             ],
