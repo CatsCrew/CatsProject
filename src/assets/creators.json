@@ -935,6 +935,10 @@
         {
             "name": "Hikori",
             "profileImage": "hikori.png"
+        },
+        {
+            "name": "Fluffull",
+            "profileImage": "Fluffull.png"
         }
     ]
 }
