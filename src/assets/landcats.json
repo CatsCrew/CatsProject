@@ -22,6 +22,7 @@
             "creator": "ToasTee",
             "name": "Tetril the EOD Vu",
             "model": "EOD Vehicle Unit",
+            "description": "An EOD unit with encyclopedic knowledge of explosives, has developed a love for them and the risks associated with its task. Despite having availability for long range and precision disposal tools, prefers to disarm explosives hands-on to experience the rush of doing the job themselves... very much to its crewmate's (and face shield) dismay. This method has also helped them study (and later experiment with) the variety of explosives. Any ordinances that he has come into contact with mysteriously disappear.",
             "galleryImagePaths": [
                 "tetril_the_eod_vu/T.png",
                 "tetril_the_eod_vu/tetril.png"
