@@ -49,6 +49,7 @@ export class UiMapper {
             description: landcat?.description,
             model: landcat?.model,
             crewmate: landcat?.crewmate,
+            faction: landcat?.faction,
             referenceUrls: landcat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Landcat, r)),
             galleryUrls: landcat?.galleryImagePaths?.map(g => UrlHelper.buildCharacterPath(CatType.Landcat, g))
         };
@@ -62,6 +63,7 @@ export class UiMapper {
             name: proto?.name,
             description: proto?.description,
             model: proto?.model,
+            faction: proto?.faction,
             referenceUrls: proto?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Proto, r)),
             galleryUrls: proto?.galleryImagePaths?.map(g => UrlHelper.buildCharacterPath(CatType.Proto, g))
         };
