@@ -2148,8 +2148,10 @@
             "creator": "A Droppa Inc.",
             "name": "Dusk the Spirit",
             "model": "B-2 Spirit",
+            "description": "A precision bomber with AI trained and influenced by Chinese literatures. Dusk strives to achieve peace with little bloodshed, ending a potential war before they began with a single precise strike on opposing forces. Known to be unusually calm and collected.",
             "galleryImagePaths": [
-                "Dusk the Spirit/T.png"
+                "Dusk the Spirit/T.png",
+                "Dusk the Spirit/1.png"
             ],
              "referenceSheetsPath": [
                 "Dusk the Spirit/R1.png"
@@ -2159,6 +2161,7 @@
             "creator": "A Droppa Inc.",
             "name": "Blitz the Komet",
             "model": "Me 163 Komet",
+            "description": "A vintage rocket powered interceptor undergone modernization to keep up with current threats. Blitz used to be a grave danger to pilots, but now have attained a permanent companion in the form of Krieg. A robot axolotl.",
             "galleryImagePaths": [
                 "Blitz the Komet/T.png"
             ],
@@ -2170,6 +2173,7 @@
             "creator": "A Droppa Inc.",
             "name": "SN_T4X the Compass Call",
             "model": "EA-37B Compass Call",
+            "description": "A menace to all things electronic, mischievous to no end. Syntax makes his presence known to everyone around him through various form of electrical tomfoolery, even to his own allies. Works as a cybersecurity expert while off duty.",
             "galleryImagePaths": [
                 "SN_T4X the Compass Call/T.png"
             ],
@@ -2183,6 +2187,7 @@
             "creator": "A Droppa Inc.",
             "name": "Erebus the Black Shark",
             "model": "KA-50 Black Shark",
+            "description": "A highly efficient weapon of war under the command of a private military contractor, 0MEN. Erebus strikes fear in the very core of LandCATS as they cleave through the battlefield with deadly grace.",
             "galleryImagePaths": [
                 "Erebus the Black Shark/T.png"
             ],

@@ -488,6 +488,7 @@
             "creator": "A Droppa Inc.",
             "name": "Helios the HEMTT",
             "model": "HEMTT IFPC-HEL",
+            "description": "A laser powered bane to all things flying designed by an optical technology weapons manufacturer, ICARUS PROJECT. Working as a mercenary, Helios provides a professional level anti-air defenses to any capable buyers.",
             "galleryImagePaths": [
                 "Helios the HEMTT/T.png"
             ],
@@ -499,6 +500,7 @@
             "creator": "A Droppa Inc.",
             "name": "Arbalest the FV4005",
             "model": "FV4005 HGTN-1",
+            "description": "A moving bunker mobilized and made practical as CATS. Faust breaks up the battlefield by being an unmovable wall capable of unleashing pain for those who stood in his way. Appears to adopt an exaggerated chivalric persona while in battle.",
             "galleryImagePaths": [
                 "Arbalest the FV4005/T.png"
             ]
@@ -507,6 +509,7 @@
             "creator": "A Droppa Inc.",
             "name": "Faust the Maus",
             "model": "Panzer VIII Maus",
+            "description": "A hot headed demolition expert wielding an oversized muzzle-loader. Arbalest's usual solutions to problem is always pure brute force despite the crudeness, as nothing gets rid of obstacle faster than a well measured explosive.",
             "galleryImagePaths": [
                 "Faust the Maus/T.png",
                 "Faust the Maus/1.jpg"
@@ -521,6 +524,7 @@
             "creator": "A Droppa Inc.",
             "name": "Grad the Tunguska",
             "model": "2K22 Tunguska",
+            "description": "An always jolly and trigger happy gunner, stationed at a secret military compound within the snowy landscape of northern Russia. While always joyful, Grad's demeanor changes drastically when spotting a potential spy within vicinity. ",
             "galleryImagePaths": [
                 "Grad the Tunguska/T.png",
                 "Grad the Tunguska/1.png"
