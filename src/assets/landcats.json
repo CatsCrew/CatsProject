@@ -269,31 +269,6 @@
             ]
         },
         {
-            "creator": "Coralral",
-            "name": "Quarter the Interceptor",
-            "model": "2020 Ford Police IU",
-            "galleryImagePaths": [
-                "Quarter the Interceptor/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Quarter the Interceptor/R1.png"
-            ]
-        },
-        {
-            "creator": "Coralral",
-            "name": "Col. Corando the Corando",
-            "model": "Ssangyong Corando",
-            "galleryImagePaths": [
-                "Col. Corando the Corando/T.png",
-                "Col. Corando the Corando/1.png",
-                "Col. Corando the Corando/2.png",
-                "Col. Corando the Corando/3.jpg"
-            ],
-            "referenceSheetsPath": [
-                "Col. Corando the Corando/R1.png"
-            ]
-        },
-        {
             "creator": "XypherDraws",
             "name": "L7nX the Lynx",
             "model": "KF41 Lynx",
@@ -836,6 +811,31 @@
             "referenceSheetsPath": [
                 "Mikhail the Merkava/R1.png",
                 "Mikhail the Merkava/R2.png"
+            ]
+        },
+        {
+            "creator": "Félix Auréle",
+            "name": "Quarter the Interceptor",
+            "model": "2020 Ford Police IU",
+            "galleryImagePaths": [
+                "Quarter the Interceptor/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Quarter the Interceptor/R1.png"
+            ]
+        },
+        {
+            "creator": "Félix Auréle",
+            "name": "Col. Corando the Corando",
+            "model": "Ssangyong Corando",
+            "galleryImagePaths": [
+                "Col. Corando the Corando/T.png",
+                "Col. Corando the Corando/1.png",
+                "Col. Corando the Corando/2.png",
+                "Col. Corando the Corando/3.jpg"
+            ],
+            "referenceSheetsPath": [
+                "Col. Corando the Corando/R1.png"
             ]
         },
         {

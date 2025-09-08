@@ -1090,6 +1090,51 @@
             ]
         },
         {
+            "creator": "Félix Auréle",
+            "name": "Laserback the Rivet Joint",
+            "model": "RC-135 V/W Rivet Joint",
+            "galleryImagePaths": [
+                "Laserback the Rivet Joint/T.png",
+                "Laserback the Rivet Joint/1.png",
+                "Laserback the Rivet Joint/2.png",
+                "Laserback the Rivet Joint/3.png",
+                "Laserback the Rivet Joint/4.png",
+                "Laserback the Rivet Joint/5.png",
+                "Laserback the Rivet Joint/6.png"
+            ],
+             "referenceSheetsPath": [
+                "Laserback the Rivet Joint/R1.png"
+            ]
+        },
+        {
+            "creator": "Félix Auréle",
+            "name": "Taeyeong the MC-X",
+            "model": "MC-X",
+            "galleryImagePaths": [
+                "Taeyeong the MC-X/T.png",
+                "Taeyeong the MC-X/1.png"
+            ],
+             "referenceSheetsPath": [
+                "Taeyeong the MC-X/R1.png"
+            ]
+        },
+        {
+            "creator": "Félix Auréle",
+            "name": "Dummy the Hercules",
+            "model": "H-4 Hercules",
+            "galleryImagePaths": [
+                "Dummy the Hercules/T.png",
+                "Dummy the Hercules/1.png",
+                "Dummy the Hercules/2.png",
+                "Dummy the Hercules/3.png",
+                "Dummy the Hercules/4.png",
+                "Dummy the Hercules/5.png"
+            ],
+             "referenceSheetsPath": [
+                "Dummy the Hercules/R1.png"
+            ]
+        },
+        {
             "creator": "Trocke las",
             "name": "Te-Lum",
             "model": "B-2/F-117A",
