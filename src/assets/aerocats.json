@@ -3954,6 +3954,17 @@
             ]
         },
         {
+            "creator": "Kuruma",
+            "name": "Dodo the Airsky",
+            "model": "AirSky 180 (Cessna 150)(GAME)",
+            "galleryImagePaths": [
+                "Dodo the Airsky/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Dodo the Airsky/R1.png"
+            ]
+        },
+        {
             "creator": "Cinnamon",
             "name": "Babu the Blackbird",
             "model": "SR-71 Blackbird",
