@@ -57,7 +57,7 @@ const searchTerm = $computed(() => searchTerms[CatType.Landcat]);
 
 const placeholderCat = $computed<Cat>(() => ({
     model: `Your Landcat here!`,
-    galleryUrls: [LandcatPlaceholder]
+    thumbnail: LandcatPlaceholder
 }));
 
 const filteredCats = $computed(() => {

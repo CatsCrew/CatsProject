@@ -35,8 +35,9 @@ export class UiMapper {
             model: aerocat?.model,
             faction: aerocat?.faction,
             copilot: aerocat?.copilot,
+            thumbnail: UrlHelper.buildCharacterPath(CatType.Aerocat, aerocat?.galleryImagePaths[0]),
             referenceUrls: aerocat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Aerocat, r)),
-            galleryUrls: aerocat?.galleryImagePaths?.map(g => UrlHelper.buildCharacterPath(CatType.Aerocat, g))
+            galleryUrls: aerocat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Aerocat, g))
         };
     }
 
@@ -50,8 +51,9 @@ export class UiMapper {
             model: landcat?.model,
             crewmate: landcat?.crewmate,
             faction: landcat?.faction,
+            thumbnail: UrlHelper.buildCharacterPath(CatType.Landcat, landcat?.galleryImagePaths[0]),
             referenceUrls: landcat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Landcat, r)),
-            galleryUrls: landcat?.galleryImagePaths?.map(g => UrlHelper.buildCharacterPath(CatType.Landcat, g))
+            galleryUrls: landcat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Landcat, g))
         };
     }
 
@@ -64,8 +66,9 @@ export class UiMapper {
             description: proto?.description,
             model: proto?.model,
             faction: proto?.faction,
+            thumbnail: UrlHelper.buildCharacterPath(CatType.Proto, proto?.galleryImagePaths[0]),
             referenceUrls: proto?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Proto, r)),
-            galleryUrls: proto?.galleryImagePaths?.map(g => UrlHelper.buildCharacterPath(CatType.Proto, g))
+            galleryUrls: proto?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Proto, g))
         };
     }
 

@@ -9,6 +9,7 @@ export interface Cat {
     model?: string;
     faction?: string;
     description?: string;
+    thumbnail?: string;
     referenceUrls?: string[];
     galleryUrls?: string[];
 }

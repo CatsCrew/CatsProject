@@ -300,6 +300,7 @@
             "copilot": "Kanapi",
             "faction": "USA",
             "galleryImagePaths": [
+                "bolt_the_raptor/T.png",
                 "bolt_the_raptor/BOLT-1.png",
                 "bolt_the_raptor/BOLT-2.png"
             ],

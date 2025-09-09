@@ -12,7 +12,7 @@
                         <img
                             class="cat-card-img"
                             alt="aerocat profile image"
-                            :src="cat.galleryUrls[0]"/>
+                            :src="cat.thumbnail"/>
                     </div>
                 </template>
                 <template #title>
@@ -42,7 +42,7 @@
                             <img
                                 class="cat-card-img"
                                 alt="aerocat profile image"
-                                :data-src="cat.galleryUrls[0]"
+                                :data-src="cat.thumbnail"
                                 :data-loading="loading"
                                 @load="onImageLoad"/>
                         </div>
@@ -108,6 +108,5 @@ onMounted(() => {
     if (characterCard) {
         DeferHelper.defer(characterCard.$el);
     }
-    
 });
 </script>

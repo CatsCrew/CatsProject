@@ -57,7 +57,7 @@ const searchTerm = $computed(() => searchTerms[CatType.Proto]);
 
 const placeholderCat = $computed<Cat>(() => ({
     model: `Your Proto here!`,
-    galleryUrls: [ProtoPlaceholder]
+    thumbnail: ProtoPlaceholder
 }));
 
 const filteredCats = $computed(() => {

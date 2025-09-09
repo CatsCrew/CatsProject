@@ -57,7 +57,7 @@ const searchTerm = $computed(() => searchTerms[CatType.Aerocat]);
 
 const placeholderCat = $computed<Cat>(() => ({
     model: `Your Aerocat here!`,
-    galleryUrls: [AerocatPlaceholder]
+    thumbnail: AerocatPlaceholder
 }));
 
 const filteredCats = $computed(() => {
