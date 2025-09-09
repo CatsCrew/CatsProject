@@ -741,59 +741,6 @@
             ]
         },
         {
-            "creator": "Sillycat",
-            "name": "Hauler the Sancheon",
-            "model": "KTX Sancheon",
-            "galleryImagePaths": [
-                "Hauler the Sancheon/T.png",
-                "Hauler the Sancheon/1.png",
-                "Hauler the Sancheon/2.png",
-                "Hauler the Sancheon/3.png",
-                "Hauler the Sancheon/4.png",
-                "Hauler the Sancheon/5.png",
-                "Hauler the Sancheon/6.png"
-            ],
-            "referenceSheetsPath": [
-                "Hauler the Sancheon/R1.png"
-            ]
-        },
-        {
-            "creator": "Sillycat",
-            "name": "Col. Corando the Corando",
-            "model": "Ssangyong Corando",
-            "galleryImagePaths": [
-                "Col. Corando the Corando/T.png",
-                "Col. Corando the Corando/1.png",
-                "Col. Corando the Corando/2.png",
-                "Col. Corando the Corando/3.jpg"
-            ],
-            "referenceSheetsPath": [
-                "Col. Corando the Corando/R1.png"
-            ]
-        },
-        {
-            "creator": "Sillycat",
-            "name": "Quarter the Interceptor",
-            "model": "2020 Ford Police IU",
-            "galleryImagePaths": [
-                "Quarter the Interceptor/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Quarter the Interceptor/R1.png"
-            ]
-        },
-        {
-            "creator": "Sillycat",
-            "name": "Connector the Class 345",
-            "model": "British Rail Class 345",
-            "galleryImagePaths": [
-                "Connector the Class 345/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Connector the Class 345/R1.png"
-            ]
-        },
-        {
             "creator": "Karvão",
             "name": "Wraith the Wraith",
             "model": "CV90120/40 Wraith",
@@ -864,6 +811,31 @@
             "referenceSheetsPath": [
                 "Mikhail the Merkava/R1.png",
                 "Mikhail the Merkava/R2.png"
+            ]
+        },
+        {
+            "creator": "Félix Auréle",
+            "name": "Quarter the Interceptor",
+            "model": "2020 Ford Police IU",
+            "galleryImagePaths": [
+                "Quarter the Interceptor/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Quarter the Interceptor/R1.png"
+            ]
+        },
+        {
+            "creator": "Félix Auréle",
+            "name": "Col. Corando the Corando",
+            "model": "Ssangyong Corando",
+            "galleryImagePaths": [
+                "Col. Corando the Corando/T.png",
+                "Col. Corando the Corando/1.png",
+                "Col. Corando the Corando/2.png",
+                "Col. Corando the Corando/3.jpg"
+            ],
+            "referenceSheetsPath": [
+                "Col. Corando the Corando/R1.png"
             ]
         },
         {
