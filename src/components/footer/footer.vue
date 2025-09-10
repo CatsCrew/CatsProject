@@ -29,7 +29,7 @@
 <script setup lang="ts">
 import { RouteNames } from '../../app.routes';
 
-const updatedDate = new Date('2025-08-25');
+const updatedDate = new Date('2025-09-09');
 const version = '1.0.1';
 
 const formattedDate = new Intl.DateTimeFormat(navigator.language).format(updatedDate);

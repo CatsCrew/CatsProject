@@ -103,27 +103,5 @@ export const useCatsStore = defineStore('cats', {
         this.assets[a.type] = a.assets.map(x => UrlHelper.buildAssetPath(a.type as CatType, x));
       });
     },
-    sortFileByNumberName(a: string, b: string): number {
-      // Extract the filename from each URL
-      const filenameA = a.split('/').pop() || '';
-      const filenameB = b.split('/').pop() || '';
-
-      // Remove the file extension
-      const nameA = filenameA.split('.')[0];
-      const nameB = filenameB.split('.')[0];
-
-      // Convert to numbers for comparison
-      const numA = parseInt(nameA, 10);
-      const numB = parseInt(nameB, 10);
-
-      // Handle cases where names might not be purely numeric
-      if (isNaN(numA) || isNaN(numB)) {
-          // If either is not a number, fall back to alphabetical sort
-          return nameA.localeCompare(nameB);
-      } else {
-          // Otherwise, perform numerical sort
-          return numA - numB;
-      }
-    }
   },
 });
