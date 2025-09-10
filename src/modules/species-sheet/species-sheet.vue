@@ -158,6 +158,7 @@ function updateRouteQuery() {
 function onLanguageSelected(): void {
     if (catType !== prevCatType) {
         emblaApi.scrollTo(0);
+        language = Language.English;
     }
     prevCatType = catType;
     images = speciesSheetByCatAndLanguage(catType, language);

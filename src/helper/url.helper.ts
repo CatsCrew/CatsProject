@@ -15,6 +15,10 @@ export class UrlHelper {
         return `${this.CLOUDFRONT_URL}/assets/${this.getCatFolderFromType(type)}/${name}`;
     }
 
+    static buildSpeciesSheetPath(type: CatType, language: string, name: string): string {
+        return `${this.CLOUDFRONT_URL}/species_sheets/${this.getCatFolderFromType(type)}/${language}/${name}`;
+    }
+
     static getCatFolderFromType(type: CatType): string {
         switch (type) {
             case CatType.Aerocat:

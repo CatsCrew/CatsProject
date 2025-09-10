@@ -6,6 +6,8 @@ import landcatJson from '@assets/landcats.json';
 import protoJson from '@assets/protos.json';
 import loreDocumentJson from '@assets/lore.json';
 import assetJson from '@assets/assets.json';
+import catLinksJson from '@assets/cat-links.json';
+import speciesSheetJson from '@assets/species-sheet.json';
 import { CatType } from '@/models/cat-type.enum';
 import { Language } from '@/models/language.enum';
 import { SpeciesSheet } from '@/models/species-sheet.model';
@@ -24,7 +26,7 @@ export const useCatsStore = defineStore('cats', {
     landcats: [],
     protos: [],
     cats: null,
-    speciesSheets: {} as Record<Language, SpeciesSheet>,
+    speciesSheets: {} as Record<CatType, Record<Language, string[]>>,
     assets: {} as Record<CatType, string[]>,
     loreDocuments: null,
     discordUrl: 'https://discord.gg/xYm6skrZ3b',
@@ -48,17 +50,7 @@ export const useCatsStore = defineStore('cats', {
     },
     speciesSheetByCatAndLanguage(state: CatsState) {
       const { speciesSheets } = state;
-      return (catType: CatType, language: Language): string[] => {
-        const speciesSheet = speciesSheets[catType];
-        switch (language) {
-          case Language.English:
-            return speciesSheet.englishImagePaths;
-          case Language.Japanese:
-            return speciesSheet.japeneseImagePaths;
-          case Language.Korean:
-            return speciesSheet.koreanImagePaths;
-        }
-      }
+      return (catType: CatType, language: Language): string[] => speciesSheets[catType][language];
     },
     catById(state: CatsState) {
       return (id: string) => state.cats.find(c => c.id === id);
@@ -85,7 +77,7 @@ export const useCatsStore = defineStore('cats', {
       protoJson?.protos?.forEach(p => {
         const creator = this.creators[p.creator];
         this.protos.push(UiMapper.toProto(p, creator));
-      })
+      });
 
       this.loreDocuments = loreDocumentJson.documents;
       this.fetchSpeciesSheets();
@@ -94,94 +86,22 @@ export const useCatsStore = defineStore('cats', {
       this.cats = [...this.aerocats, ...this.landcats, ...this.protos];
     },
     fetchSpeciesSheets(): void {
-      const speciesSheetsGlob = import.meta.glob<ModuleImportInterface>('/src/assets/images/species-sheets/**/*', { eager: true });
-      const groupedLanguageAssets = this.groupSpeciesSheetAssetUrls(speciesSheetsGlob);
-      Object.keys(groupedLanguageAssets || {}).forEach((key) => {
-        const value = groupedLanguageAssets[key];
-        switch(key) {
-          case CatType.Aerocat:
-            this.speciesSheets[CatType.Aerocat] = value;
-          case CatType.Landcat:
-            this.speciesSheets[CatType.Landcat] = value;
-          case CatType.Proto:
-            this.speciesSheets[CatType.Proto] = value;
-        }
+      speciesSheetJson.species.forEach(species => {
+        this.speciesSheets[species.type] = {} as Record<Language, string[]>;
+        species.languages.forEach(language => {
+          const imagePaths = [];
+          const formattedLanguage = language.toLocaleLowerCase();
+          species.sheets.forEach(sheet => {
+            imagePaths.push(UrlHelper.buildSpeciesSheetPath(species.type as CatType, formattedLanguage, sheet));
+          });
+          this.speciesSheets[species.type][formattedLanguage] = imagePaths;
+        });
       });
     },
     fetchAssets(): void {
       assetJson.assets.forEach(a => {
         this.assets[a.type] = a.assets.map(x => UrlHelper.buildAssetPath(a.type as CatType, x));
       });
-    },
-    groupSpeciesSheetAssetUrls(globRecord: Record<string, ModuleImportInterface>): Record<string, SpeciesSheet> {
-      const initialGroupedUrls: Record<string, string[]> = {};
-      const urlHashRecord: Record<string, string> = {};
-
-      for (const [assetPath, assetHashedPath] of Object.entries(globRecord)) {
-        urlHashRecord[assetPath] = assetHashedPath.default as string;
-      }
-
-      for (const url of Object.keys(globRecord)) {
-        const parts = url.split('/');
-    
-        // We need at least 3 parts from the right for the grouping directory
-        // plus the filename and its parent directory. So a total of 5 parts minimum.
-        if (parts.length >= 5) {
-          // The third part from the right is at index `parts.length - 3`
-          const groupKey = parts[parts.length - 3];
-    
-          if (initialGroupedUrls[groupKey]) {
-            initialGroupedUrls[groupKey].push(url);
-          } else {
-            initialGroupedUrls[groupKey] = [url];
-          }
-        }
-      }
-
-      const groupedAssetsByName: Record<string, SpeciesSheet> = {};
-      for (const groupKey in initialGroupedUrls) {
-        groupedAssetsByName[groupKey] = {
-          englishImagePaths: [],
-          japeneseImagePaths: [],
-          koreanImagePaths: []
-        };
-
-        const urlsInGroup = initialGroupedUrls[groupKey];
-
-        for (const url of urlsInGroup) {
-          const parts = url.split('/');
-
-          if (parts.length >= 2) { // Ensure there's at least a subdirectory and a filename
-            const language = parts[parts.length - 2];
-
-            switch (language) {
-              case Language.English:
-                if (groupedAssetsByName[groupKey].englishImagePaths) {
-                  groupedAssetsByName[groupKey].englishImagePaths.push(urlHashRecord[url])
-                } else {
-                  groupedAssetsByName[groupKey].englishImagePaths = [urlHashRecord[url]];
-                }
-                break;
-              case Language.Korean: 
-                if (groupedAssetsByName[groupKey].koreanImagePaths) {
-                  groupedAssetsByName[groupKey].koreanImagePaths.push(urlHashRecord[url])
-                } else {
-                  groupedAssetsByName[groupKey].koreanImagePaths = [urlHashRecord[url]];
-                }
-                break;
-              case Language.Japanese:
-                if (groupedAssetsByName[groupKey].japeneseImagePaths) {
-                  groupedAssetsByName[groupKey].japeneseImagePaths.push(urlHashRecord[url])
-                } else {
-                  groupedAssetsByName[groupKey].japeneseImagePaths = [urlHashRecord[url]];
-                }
-                break;
-            }
-          }
-        }
-      }
-
-      return groupedAssetsByName;
     },
     sortFileByNumberName(a: string, b: string): number {
       // Extract the filename from each URL

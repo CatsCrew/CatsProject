@@ -5,7 +5,6 @@ import type { Landcat } from "@/models/landcat.model";
 import type { Language } from "@/models/language.enum";
 import type { LoreDocument } from "@/models/lore-document.model";
 import type { Proto } from "@/models/proto.model";
-import type { SpeciesSheet } from "@/models/species-sheet.model";
 import type { Aerocat } from "@models/aerocat.model";
 
 export interface CatsState {
@@ -14,7 +13,7 @@ export interface CatsState {
     aerocats?: Aerocat[];
     landcats?: Landcat[];
     protos?: Proto[];
-    speciesSheets?: Record<Language, SpeciesSheet>;
+    speciesSheets?: Record<CatType, Record<Language, string[]>>;
     assets?: Record<CatType, string[]>;
     loreDocuments?: LoreDocument[];
     discordUrl?: string;
