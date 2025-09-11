@@ -1526,18 +1526,6 @@
             ]
         },
         {
-            "creator": "Dozer",
-            "name": "Aevol the A7V",
-            "model": "A7V",
-            "galleryImagePaths": [
-                "Aevol the A7V/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Aevol the A7V/R1.jpg",
-                "Aevol the A7V/R2.png"
-            ]
-        },
-        {
             "creator": "Kyda",
             "name": "Kyda Byte the Krab",
             "model": "AHS Krab",

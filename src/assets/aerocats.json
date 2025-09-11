@@ -1688,34 +1688,6 @@
             ]
         },
         {
-            "creator": "Dozer",
-            "name": "Fritz the DR1",
-            "model": "Dreidecker.1",
-            "galleryImagePaths": [
-                "Fritz the DR1/T.png"
-            ],
-             "referenceSheetsPath": [
-                "Fritz the DR1/R1.png",
-                "Fritz the DR1/R2.png",
-                "Fritz the DR1/R3.png",
-                "Fritz the DR1/R4.webp"
-            ]
-        },
-        {
-            "creator": "Dozer",
-            "name": "Oliver the Camel",
-            "model": "Sopwith Camel 1917",
-            "galleryImagePaths": [
-                "Oliver the Camel/T.png",
-                "Oliver the Camel/1.png"
-            ],
-             "referenceSheetsPath": [
-                "Oliver the Camel/R1.png",
-                "Oliver the Camel/R2.png",
-                "Oliver the Camel/R3.png"
-            ]
-        },
-        {
             "creator": "Marcus",
             "name": "Rook the Thunderbolt ll",
             "model": "A-10 Thunderbolt ll",
@@ -2478,7 +2450,9 @@
             "model": "MIG-25 Foxbat",
             "galleryImagePaths": [
                 "Barrier the Foxbat/T.png",
-                "Barrier the Foxbat/1.png"
+                "Barrier the Foxbat/1.png",
+                "Barrier the Foxbat/2.jpg",
+                "Barrier the Foxbat/3.jpg"
             ],
              "referenceSheetsPath": [
                 "Barrier the Foxbat/R1.png"
@@ -3962,6 +3936,17 @@
             ],
              "referenceSheetsPath": [
                 "Dodo the Airsky/R1.png"
+            ]
+        },
+        {
+            "creator": "Kuruma",
+            "name": "Sunray the Concorde",
+            "model": "Concorde",
+            "galleryImagePaths": [
+                "Sunray the Concorde/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sunray the Concorde/R1.png"
             ]
         },
         {
