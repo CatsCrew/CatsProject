@@ -4174,6 +4174,20 @@
             ]
         },
         {
+            "creator": "TommyBc1",
+            "name": "Darklight the Blackbird",
+            "model": "SR-71 Blackbird",
+            "description": "(besides the refs info) His main weapon was custom made! meant specifically for less lethal confrontation when flying over armed territories, though there's always bad situations even with it",
+            "copilot": "Unknown",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Darklight the Blackbird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Darklight the Blackbird/R1.png"
+            ]
+        },
+        {
             "creator": "PvtPetey",
             "name": "Molly the Corsair",
             "model": "A-7E Corsair II",
