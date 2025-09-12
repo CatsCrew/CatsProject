@@ -4172,6 +4172,20 @@
              "referenceSheetsPath": [
                 "Tobii the Raptor/R1.png"
             ]
+        },
+        {
+            "creator": "PvtPetey",
+            "name": "Molly the Corsair",
+            "model": "F-22A Raptor",
+            "description": "Currently on the run from the law for stealing high grade PDGs, fuel and other spare parts, then giving them out to unmanaged CATS in a war-torn region. \n\nOriginally created as a makeshift unit to conduct frontline CAS and bombing missions for a PMC faction. Molly was only given a surplus airframe as the corporation had viewed that her survivability from each sortie was extremely low. Therefore, they didn’t bother to give her additional upgrade packages. To ensure Molly’s absolute loyalty, a Kill Code was also installed. So, in case she decides to escape they could just “pull the plug”. \n\nMolly has bragged that her habit of drinking is what led to her freedom. And claimed that one time she managed to sneak into her CO’s quarters and drank all their secret stash of moonshine. After Molly was conscious again, she realized that the Kill Code in her system had just somehow been deleted. Then she just flew away, not before destroying the airbase she was stationed at. \n\nNow as a free CAT, she uses her expertise in demolitions to take revenge on the corporations that had wronged her all those years ago. ",
+            "copilot": "Unknown",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Molly the Corsair/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Molly the Corsair/R1.png"
+            ]
         }
     ]
 }
