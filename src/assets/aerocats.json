@@ -3038,6 +3038,8 @@
             "creator": "Green PC",
             "name": "Mriya the An-225",
             "model": "An-225 Mriya",
+            "copilot": "Anton",
+            "faction": "Unknown",
             "galleryImagePaths": [
                 "Mriya the An-225/T.png",
                 "Mriya the An-225/1.png",
