@@ -20,6 +20,10 @@
 .main-content {
     padding: pxToRem(32);
 
+    @media screen and (max-width: $breakpoint-xs) {
+        padding: pxToRem(16);
+    }
+
     .new-version-overlay {
         position: fixed;
         top: 0;

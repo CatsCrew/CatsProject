@@ -25,7 +25,6 @@
 <script setup lang="ts">
 import { useSlots } from 'vue';
 
-
 const slots = useSlots();
 const hasTitle = $computed(() => slots.title);
 

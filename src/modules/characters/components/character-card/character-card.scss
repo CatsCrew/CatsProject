@@ -17,6 +17,15 @@
 
     @media screen and (max-width: $breakpoint-xs) {
       width: 100%;
+      flex-direction: row;
+    }
+
+    :deep(.card-body) {
+      @media screen and (max-width: $breakpoint-xs) {
+        height: unset;
+        padding: pxToRem(16);
+        width: 100%;
+      }
     }
 
     &.hoverable:hover {
@@ -38,8 +47,9 @@
     .image-container {
       width: 100%;
       height: pxToRem(200);
+
       @media screen and (max-width: $breakpoint-xs) {
-        height: pxToRem(240);
+        width: pxToRem(180);
       }
 
       .character-card-skeleton {
@@ -74,6 +84,12 @@
       align-items: flex-end;
       gap: pxToRem(8);
       padding-top: pxToRem(8);
+
+      @media screen and (max-width: $breakpoint-xs) {
+        justify-content: flex-start;
+        align-items: center;
+      }
+
 
       .creator-img {
         width: pxToRem(24);

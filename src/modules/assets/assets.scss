@@ -13,6 +13,10 @@
   display: flex;
   flex-direction: column;
   gap: pxToRem(16);
+
+  @media screen and (max-width: $breakpoint-xs) {
+    justify-content: center;
+  }
   
   .selection-container {
     display: flex;
