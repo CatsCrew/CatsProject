@@ -1688,34 +1688,6 @@
             ]
         },
         {
-            "creator": "Dozer",
-            "name": "Fritz the DR1",
-            "model": "Dreidecker.1",
-            "galleryImagePaths": [
-                "Fritz the DR1/T.png"
-            ],
-             "referenceSheetsPath": [
-                "Fritz the DR1/R1.png",
-                "Fritz the DR1/R2.png",
-                "Fritz the DR1/R3.png",
-                "Fritz the DR1/R4.webp"
-            ]
-        },
-        {
-            "creator": "Dozer",
-            "name": "Oliver the Camel",
-            "model": "Sopwith Camel 1917",
-            "galleryImagePaths": [
-                "Oliver the Camel/T.png",
-                "Oliver the Camel/1.png"
-            ],
-             "referenceSheetsPath": [
-                "Oliver the Camel/R1.png",
-                "Oliver the Camel/R2.png",
-                "Oliver the Camel/R3.png"
-            ]
-        },
-        {
             "creator": "Marcus",
             "name": "Rook the Thunderbolt ll",
             "model": "A-10 Thunderbolt ll",
@@ -2478,7 +2450,9 @@
             "model": "MIG-25 Foxbat",
             "galleryImagePaths": [
                 "Barrier the Foxbat/T.png",
-                "Barrier the Foxbat/1.png"
+                "Barrier the Foxbat/1.png",
+                "Barrier the Foxbat/2.jpg",
+                "Barrier the Foxbat/3.jpg"
             ],
              "referenceSheetsPath": [
                 "Barrier the Foxbat/R1.png"
@@ -3965,6 +3939,17 @@
             ]
         },
         {
+            "creator": "Kuruma",
+            "name": "Sunray the Concorde",
+            "model": "Concorde",
+            "galleryImagePaths": [
+                "Sunray the Concorde/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sunray the Concorde/R1.png"
+            ]
+        },
+        {
             "creator": "Cinnamon",
             "name": "Babu the Blackbird",
             "model": "SR-71 Blackbird",
@@ -4172,6 +4157,48 @@
             ],
              "referenceSheetsPath": [
                 "Argalia the Gripen/R1.jpg"
+            ]
+        },
+        {
+            "creator": "Szuzu Fox",
+            "name": "Tobii the Raptor",
+            "model": "F-22A Raptor",
+            "description": "a bit shy and socially awkward when trying to chat with others or in a rather public setting, however when in the heat of a mission they're calm and collected. He prefers to follow orders but can play a more leading role in a pinch. \n\nLoves to keep his Marksman Rifle polished and clean and will get very upset if someone tells him that his weapon is 'bad' or 'outdated'",
+            "copilot": "Unknown",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Tobii the Raptor/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Tobii the Raptor/R1.png"
+            ]
+        },
+        {
+            "creator": "TommyBc1",
+            "name": "Darklight the Blackbird",
+            "model": "SR-71 Blackbird",
+            "description": "(besides the refs info) His main weapon was custom made! meant specifically for less lethal confrontation when flying over armed territories, though there's always bad situations even with it",
+            "copilot": "Unknown",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Darklight the Blackbird/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Darklight the Blackbird/R1.png"
+            ]
+        },
+        {
+            "creator": "PvtPetey",
+            "name": "Molly the Corsair",
+            "model": "A-7E Corsair II",
+            "description": "Currently on the run from the law for stealing high grade PDGs, fuel and other spare parts, then giving them out to unmanaged CATS in a war-torn region. \n\nOriginally created as a makeshift unit to conduct frontline CAS and bombing missions for a PMC faction. Molly was only given a surplus airframe as the corporation had viewed that her survivability from each sortie was extremely low. Therefore, they didn’t bother to give her additional upgrade packages. To ensure Molly’s absolute loyalty, a Kill Code was also installed. So, in case she decides to escape they could just “pull the plug”. \n\nMolly has bragged that her habit of drinking is what led to her freedom. And claimed that one time she managed to sneak into her CO’s quarters and drank all their secret stash of moonshine. After Molly was conscious again, she realized that the Kill Code in her system had just somehow been deleted. Then she just flew away, not before destroying the airbase she was stationed at. \n\nNow as a free CAT, she uses her expertise in demolitions to take revenge on the corporations that had wronged her all those years ago. ",
+            "copilot": "Unknown",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Molly the Corsair/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Molly the Corsair/R1.png"
             ]
         }
     ]
