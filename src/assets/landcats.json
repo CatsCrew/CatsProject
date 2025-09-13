@@ -696,6 +696,17 @@
             ]
         },
         {
+            "creator": "Twig63",
+            "name": "Sierra the Red Beast",
+            "model": "MLC 300 Red Beast",
+            "galleryImagePaths": [
+                "Sierra the Red Beast/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Sierra the Red Beast/R1.png"
+            ]
+        },
+        {
             "creator": "Yaco",
             "name": "The SSC Twins",
             "model": "Thrust SSC",
