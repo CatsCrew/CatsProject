@@ -76,7 +76,7 @@
             "name": "Aardk the Aardvark",
             "model": "F-111F Aardvark",
             "description": "Aardk the Aardvark is his full name. However, since all CATS and PROTOs find his name difficult to pronounce, it has become something of a tradition to simply call him “VARK.” His personality is warm, calculating, and somewhat nerdy. His hobby is surfing the internet.\n\nHis callsign is KING, and like Ray, he is a member of the Air Knights, specializing in low-altitude penetration and bombing. He does not have a co-pilot, instead using the H.O.L.O system merely as a crown-shaped hologram display.\n\nHis 3,000lbs bomb replica is nicknamed Tuna, which he does not use but rather keeps in his hangar, sometimes even hugging it to sleep. Occasionally, new PROTO recruits mistake it for a live bomb and end up calling in the EOD team.",
-            "copilot": "None",
+            "copilot": "N/A",
             "faction": "USA - Air Knights",
             "galleryImagePaths": [
                 "Aardk the Aardvark/T.png",
@@ -3139,6 +3139,20 @@
             ]
         },
         {
+            "creator": "Riker Maltov",
+            "name": "Sareena the Barracuda",
+            "model": "PBJ-1H",
+            "description": "Personality: Laid back and very social, tends to enjoy times near the ocean, Wise and a very good listener (supportive type) \n\n\nMajor Info: Created by Kathrine Arms, Sareena was created as a response to defense and offense of pirate related vessels at sea. Usually being able to not only spot, but also engage in combat to neutralize/immobilize vessels containing illegal goods or hostile pirates, effectively causing a massive drop in black market for the distribution of Illegally Salvaged C.A.T.S parts. With a Vehicle kill count of 42(being a mix of some ground but mostly sea vessels) , Sareena had built a reputation for herself earning her the callsign Barracuda, fast, dangerous, and quiet. For each of her strikes she tends to turn off her engines before a dive to prevent the craft from hearing her giving an edge in surprise attacks with her 75mm rifle. In rougher weather her APS-3 Radar keeps her on course with the target she can see them, but sometimes they can't see her. Making her a major threat to hostile ground and sea vehicles. But at the end of the day she does love to relax and socialize, usually joining group based events and even offering aid to those who need it. \n\nExtra Info: \nShe loves to give hugs, and is always there to give emotional support if someone needs it.\nEach of those turrets do move and she can control them, what would be considered “eyes” as she can defend herself while being intercepted. \nShe loves the beach! “Warm temperatures and a nice spray of the ocean always feels nice.”\nHer rifle had 42 notches on the stock to signify her confirmed vehicle kills. \nShe does think the “Peanut Butter and Jelly (for PBJ)” joke is kind of funny but also silly.",
+            "copilot": "N/A",
+            "faction": "USA",
+            "galleryImagePaths": [
+                "Sareena the Barracuda/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Sareena the Barracuda/R1.png"
+            ]
+        },
+        {
             "creator": "MardenInNl",
             "name": "Harp the Canberra",
             "model": "WB-57F Canberra",
@@ -3639,7 +3653,7 @@
             "creator": "Robert",
             "name": "Robert the Blackbird",
             "model": "YF-12A Blackbird",
-            "copilot": "None",
+            "copilot": "N/A",
             "faction": "USA - KEDLOCK",
             "description": "Robert is usually kept to himself, he sometimes acts different depending on his mood, but mostly he hesitates before speaking, designed as a testament to further improve CATS, and sporting a mix of legacy and modern technology, however leading to interesting results",
             "galleryImagePaths": [
