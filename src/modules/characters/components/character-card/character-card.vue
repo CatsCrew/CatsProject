@@ -48,14 +48,18 @@
                         </div>
                     </template>
                     <template #title>
-                        <div class="cat-model">
-                            {{ cat?.model }}
-                        </div>
+                        <slot name="title">
+                            <div class="cat-model">
+                                {{ cat?.model }}
+                            </div>
+                        </slot>
                     </template>
                     <template #subtitle>
-                        <div class="cat-name">
-                            {{ cat?.name }}
-                        </div>
+                        <slot name="subtitle">
+                            <div class="cat-name">
+                                {{ cat?.name }}
+                            </div>
+                        </slot>
                     </template>
                     <template #footer>
                         <div

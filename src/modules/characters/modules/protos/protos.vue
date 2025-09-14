@@ -17,6 +17,9 @@
                 :key="cat.name"
                 :cat="cat"
                 :hoverable="!isHandheldDevice">
+                <template #title>
+                    Proto <Tag class="proto-tag" :value="cat.model"/>
+                </template>
             </CharacterCard>
             <CharacterCard
                 v-if="!searchTerm && pagedCats.length === filteredCats.length"
@@ -45,6 +48,7 @@ import { Cat } from '@/models/cat.model';
 import ProtoPlaceholder from '@assets/images/proto_placeholder.png';
 import ProtoWhat from '@assets/images/proto-what.png';
 import { CatType } from '@/models/cat-type.enum';
+import Tag from 'primevue/tag';
 
 const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/empty-state.vue'));
 

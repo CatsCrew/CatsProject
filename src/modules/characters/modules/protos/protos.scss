@@ -51,19 +51,9 @@
             padding-bottom: pxToRem(32);
         }
 
-        .cards-move,
-        .cards-enter-active,
-        .cards-leave-active {
-            transition: all 0.5s ease;
-        }
-
-        .cards-enter-from,
-        .cards-leave-to {
-            opacity: 0;
-        }
-
-        .cards-leave-active {
-            position: absolute;
+        .proto-tag {
+            background: $background-secondary;
+            color: $terminal-silver;
         }
 
         :deep(.card-body) {
