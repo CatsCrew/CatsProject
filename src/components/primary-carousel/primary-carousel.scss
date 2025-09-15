@@ -35,6 +35,18 @@
         }
 
         &.hero {
+          // &.images-3 {
+          //   grid-template-columns: repeat(5, 1fr);
+
+          //   :first-child {
+          //     grid-column: 2 / 4;
+          //   }
+
+          //   :not(:first-child) {
+          //     grid-column: 4 / 5;
+          //   }
+          // }
+
           &.images-2 {
             grid-template-columns: repeat(10, 1fr);
             
@@ -53,7 +65,7 @@
             grid-template-columns: repeat(10, 1fr);
 
             :first-child {
-               grid-column: 4 / 8;
+              grid-column: 4 / 8;
               grid-row: 1 / 3;
             }
           }

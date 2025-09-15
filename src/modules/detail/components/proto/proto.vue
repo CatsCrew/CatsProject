@@ -15,7 +15,13 @@
                         :key="item.label">
                         <div class="kpi-item">
                             <span class="kpi-header">{{ item.label }}</span>
-                            <span class="kpi-value">{{ item.value }}</span>
+                            <RouterLink
+                                v-if="item.route"
+                                :to="item.route"
+                                class="kpi-value">
+                                {{ item.value }}
+                            </RouterLink>
+                            <span v-else class="kpi-value">{{ item.value }}</span>
                         </div>
                         <div
                             v-if="index < kpiItems.length - 1"
@@ -33,6 +39,8 @@
 import { Option } from '@/models/option.model';
 import BaseCat from '../base-cat/base-cat.vue';
 import { Proto } from '@/models/proto.model';
+import { CatType } from '@/models/cat-type.enum';
+import { RouteNames } from '@/app.routes';
 
 const { cat, isMobile } = defineProps<{
     cat: Proto;
@@ -47,6 +55,14 @@ const kpiItems = $computed(() => {
             label: 'Faction',
             value: cat.faction
         });
+    }
+
+    if (cat.linkedCats) {
+        kpis.push({
+            label: 'Assigned CAT',
+            value: cat.linkedCats.filter(c => c.type !== CatType.Proto).map(c => c.name).join(', '),
+            route: { name: RouteNames.Character, params: { id: cat.linkedCats[0].id }}
+        })
     }
 
     return kpis;

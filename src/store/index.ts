@@ -84,6 +84,17 @@ export const useCatsStore = defineStore('cats', {
       this.fetchAssets();
 
       this.cats = [...this.aerocats, ...this.landcats, ...this.protos];
+
+      catLinksJson?.links?.forEach(l => {
+        const names = l?.cats;
+        names?.forEach(n => {
+          const others = names.filter(x => x !== n);
+          const targetCat = this.cats.find(c => c.name === n);
+          if (targetCat) {
+            targetCat.linkedCats = this.cats.filter(c => others.includes(c.name));
+          }
+        });
+      });
     },
     fetchSpeciesSheets(): void {
       speciesSheetJson.species.forEach(species => {

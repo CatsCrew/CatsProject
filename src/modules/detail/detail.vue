@@ -10,10 +10,12 @@
         <section class="carousel-container">
             <GalleryCarousel
                 v-if="isMobile"
+                :key="`gallery-carousel-${id}`"
                 :images="images">
             </GalleryCarousel>
             <PrimaryCarousel
                 v-else
+                :key="`primary-carousel-${id}`"
                 :images="images">
             </PrimaryCarousel>
         </section>

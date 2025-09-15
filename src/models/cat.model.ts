@@ -12,4 +12,5 @@ export interface Cat {
     thumbnail?: string;
     referenceUrls?: string[];
     galleryUrls?: string[];
+    linkedCats?: Cat[];
 }

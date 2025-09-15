@@ -81,12 +81,12 @@ import ClassNames from 'embla-carousel-class-names';
 import { useRoute, useRouter } from 'vue-router';
 
 const cat$ = useCatsStore();
-const { speciesSheetByCatAndLanguage } = $(storeToRefs(cat$));
+const { speciesSheets, speciesSheetByCatAndLanguage } = $(storeToRefs(cat$));
 
 const router$ = useRouter();
 const route$ = useRoute();
 
-const catOptions = $ref([CatType.Aerocat, CatType.Landcat, CatType.Proto]);
+const catOptions = $ref(Object.values(CatType));
 const languageOptions = $ref([Language.English, Language.Korean, Language.Japanese]);
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue({}, [ClassNames()]));
@@ -100,7 +100,7 @@ let prevCatType = $ref(null);
 let images = $ref([]);
 
 function hasLanguageSupport(catType: CatType) {
-    return catType === CatType.Aerocat || catType === CatType.Landcat;
+    return Object.values(speciesSheets[catType])?.length > 1;
 }
 
 function scrollNext() {
