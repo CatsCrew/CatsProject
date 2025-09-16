@@ -210,6 +210,20 @@
              "referenceSheetsPath": [
                 "Hikori the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "Zephyr",
+            "name": "Byte the Proto 2.0",
+            "model": "2.0",
+            "description": "Byte is a proto specialized in programming. He knows a lot of programming languages and can learn any new language he needs at a moments notice. As he has been programming throughout the years he has developed different personalities that he likes to portray when he programs in a certain language. You can tell which module he is in based on the screen on his arm and his face. His name tag functions as a normal name tag as well as a projector for a mini debugger he likes to use when he encounters issues and needs to look at stuff closely. His paw pads help function as grip for typing as well as functioning as a 'fingerprint' biometric bypass. He only uses this when he has consent and the approval to do so in order to do what he needs to do.",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Byte the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Byte the Proto 2.0/R1.png"
+            ]
         }
     ]
 }

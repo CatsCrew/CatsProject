@@ -1773,6 +1773,19 @@
             "referenceSheetsPath": [
                 "Zeus the Barracuda/R1.jpg"
             ]
+        },
+        {
+            "creator": "ScarTheWerewolf",
+            "name": "Scar the Abrams X",
+            "model": "Abrams X",
+            "description": "An independent mercenary Landcat without a master to serve, he accepts every contract from every factions he met. He once saved a Proto from the ruined Factory and now he with his Proto companion travels around the battlefield to seek more work and place to stay. ",
+            "crewmate": "JACKAL",
+            "galleryImagePaths": [
+                "Scar the Abrams X/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Scar the Abrams X/R1.png"
+            ]
         }
     ]
 }
