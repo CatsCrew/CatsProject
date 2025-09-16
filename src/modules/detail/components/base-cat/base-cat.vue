@@ -7,9 +7,11 @@
                 <div class="name">
                     {{ cat?.name }}
                 </div>
-                <div class="model">
-                    {{ cat?.model || 'Unknown' }}
-                </div>
+                <slot name="model">
+                    <div class="model">
+                        {{ cat?.model || 'Unknown' }}
+                    </div>
+                </slot>
             </div>
             <div class="cat-right-rail">
                 <div

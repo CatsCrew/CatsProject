@@ -4,6 +4,11 @@
     <BaseCat
         :cat="cat"
         :is-mobile="isMobile">
+        <template #model>
+            <div class="model">
+                Proto {{ cat.model }}
+            </div>
+        </template>
         <template
             v-if="kpiItems?.length"
             #kpi>
