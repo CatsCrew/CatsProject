@@ -258,6 +258,9 @@
             "creator": "Coralral",
             "name": "Zechs the ZLAT",
             "model": "ZLAT A3E2 (OF)",
+            "description": "",
+            "crewmate": "Unknown",
+            "faction": "Euseria federation/EGF(Euserian Ground Force)",
             "galleryImagePaths": [
                 "Zechs the ZLAT/T.png",
                 "Zechs the ZLAT/1.png"

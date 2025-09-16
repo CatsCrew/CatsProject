@@ -768,6 +768,9 @@
             "creator": "Coralral",
             "name": "Kars the Fault",
             "model": "UF-73 Fault (OF)",
+            "description": "",
+            "copilot": "BIT",
+            "faction": "Euseria federation/UN Peacekeepers",
             "galleryImagePaths": [
                 "Kars the UF-73/T.png",
                 "Kars the UF-73/1.png",
@@ -786,6 +789,9 @@
             "creator": "Coralral",
             "name": "Chester the Holster",
             "model": "AAC-01D Holster(OF)",
+            "description": "",
+            "copilot": "Unknown",
+            "faction": "Euseria federation/CMP(CATS Military Police)",
             "galleryImagePaths": [
                 "Chester the Holster/T.png"
             ],
@@ -797,6 +803,9 @@
             "creator": "Coralral",
             "name": "Lester the Holster",
             "model": "AAC-01A Holster P.P(OF)",
+            "description": "",
+            "copilot": "Unknown",
+            "faction": "Euseria federation/CMP(CATS Military Police)",
             "galleryImagePaths": [
                 "Lester the Holster/T.png",
                 "Lester the Holster/1.png"
@@ -809,6 +818,9 @@
             "creator": "Coralral",
             "name": "Alex the Big bang",
             "model": "JB-95A Big bang(OF)",
+            "description": "",
+            "copilot": "Victoria (red) / Vanguard (green)",
+            "faction": "Euseria federation/EFAF(Euseria Federation Air Force)",
             "galleryImagePaths": [
                 "Alex the Big bang/T.png",
                 "Alex the Big bang/1.png",
@@ -824,6 +836,9 @@
             "creator": "Coralral",
             "name": "Kars the Freak",
             "model": "EUF-2000 Freak(OF)",
+            "description": "",
+            "copilot": "Unknown",
+            "faction": "Euseria federation/EFAF(Euseria Federation Air Force)",
             "galleryImagePaths": [
                 "Kars the Freak/T.png",
                 "Kars the Freak/1.png"
@@ -837,6 +852,9 @@
             "creator": "Coralral",
             "name": "Pater the WU-01",
             "model": "WU-01 XL(OF)",
+            "description": "",
+            "copilot": "Unknown",
+            "faction": "Euseria federation/UFNA(eUseria Federation Naval Aviation)",
             "galleryImagePaths": [
                 "Pater the WU-01/T.png",
                 "Pater the WU-01/1.png",
@@ -851,6 +869,9 @@
             "creator": "Coralral",
             "name": "Cujo the Foible",
             "model": "EF-87 Foible(OF)",
+            "description": "",
+            "copilot": "FANG",
+            "faction": "Euseria federation/EFAF & EDEN(Euseria federation Disloyalty Exterminate National institution)",
             "galleryImagePaths": [
                 "Cujo the Foible/T.png"
             ],
@@ -864,6 +885,9 @@
             "creator": "Coralral",
             "name": "Jade the Hedge",
             "model": "UAC-1D Hedge(OF)",
+            "description": "",
+            "copilot": "Unknown",
+            "faction": "Euseria federation/EGAF(Euserian Ground Air Force)",
             "galleryImagePaths": [
                 "Jade the Hedge/T.png",
                 "Jade the Hedge/1.png",
