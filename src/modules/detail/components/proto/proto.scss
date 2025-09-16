@@ -12,6 +12,11 @@
   }
 }
 
+.model {
+  font-size: pxToRem(18);
+  color: $text-secondary;
+}
+
 .kpi-container {
   display: flex;
   flex-direction: column;
