@@ -350,7 +350,7 @@
             "creator": "Green PC",
             "name": "St. Ogn. Stanisław the Star",
             "model": "Star 244 PSP",
-            "description": "He is a brother of Mieczysław.",
+            "description": "Ranked as 'Starszy Ogniomistrz' in the national fire brigade. Has most experience within densely forested areas, thus needs thick treads to traverse the terrain. Powerful winch used to climb, remove blockages and pull others. Searchlight for the darkest and foggiest nights, and of course plenty of tools in his backpack. He has a younger, but larger, brother by the name of Mieczysław, a STAR 266 within the military with a rank of Chorąży. Stasiek's love for forests has also made him befriend an UAZ 469 in forestry.",
             "crewmate": "Unknown",
             "faction": "Poland",
             "galleryImagePaths": [
@@ -372,7 +372,7 @@
             "creator": "Green PC",
             "name": "Chor. Mieczysław the STAR 266",
             "model": "STAR 266",
-            "description": "He is a brother of Stanisław.",
+            "description": "Although he's bigger and has a higher comparable rank, he's actually Stanisław's younger brother. Ranked as a 'Chorąży' (Standard-bearer, this is mostly done as a reference to a Polish meme) has most experience with planning logistics routes and carrying supplies. Has big treads, just like his older brother, which help traverse muddy and more difficult forested terrain. Whenever needed, can carry a ZU-23 anti-aircraft gun instead of cargo, which he can use relatively well.",
             "crewmate": "Unknown",
             "faction": "Poland",
             "galleryImagePaths": [
@@ -1259,6 +1259,9 @@
             "creator": "Yehnie",
             "name": "Aura the Mjölner",
             "model": "CV90 Mjölner",
+            "description": "AURA became a specialist due to her ability to accurately hit targets, as far as records show she hasn't missed a single target. Due to this fact she's known as a valuable target.\n\nShe's able to carry one personnel (Driver) and prefers it that way, as she would rather have a bond with a singular living entity at any given time. However, AURA is rebellious, and if her current driver goes against multiple of her interests or wrongs her, then she would immediately seize control, restrain the driver inside, and discipline them. Afterwards, she would work on her own until a new driver is assigned to her.\n\nShould the opposite happen, and she's assigned a driver who really works with her, or she simply likes, then she'll let loose and either temporarily turn her driver into her rubbery drone, or hypnotize them with her intoxicating smoke for the duration of their mission, usually at the expense of the driver's consciousness. The driver essentially belongs to AURA during this time. \n\nHer demeanor is alert and cold towards others at first glance, but being close to her or being one of her drivers, then she'll open up and turn friendly, albeit still alert. Her mere presence is very much menacing/intimidating, as she's not the 'playing around' type (unless she really likes you). She won't hesitate to mortar strike someone either; it's what she's made to do.\n\nAlso. Under any circumstances, DO NOT put on her mask; the effects may be irreversible.",
+            "crewmate": "Unknown",
+            "faction": "Sweden",
             "galleryImagePaths": [
                 "Aura the Mjölner/T.png"
             ],
