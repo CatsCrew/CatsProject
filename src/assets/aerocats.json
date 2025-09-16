@@ -1466,6 +1466,9 @@
             "creator": "Ryedus",
             "name": "Pehr the Gripen",
             "model": "JAS-39E Gripen",
+            "description": "Being one of the most maneuverable fighter jets on the field, he's quite the slippery one and spends most his time dogfighting other CATS to tone his skills. Capable of carrying a variety of ordnance and flying with one of the most advanced avionics, Pehr's name strikes fear into it's enemies. And also his name is Pehr Gripen, like the guy from the show Family Guy, lmao.",
+            "copilot": "Unknown",
+            "faction": "Sweden",
             "galleryImagePaths": [
                 "Pehr the Gripen/T.png",
                 "Pehr the Gripen/1.jpg"

@@ -350,6 +350,9 @@
             "creator": "Green PC",
             "name": "St. Ogn. Stanisław the Star",
             "model": "Star 244 PSP",
+            "description": "He is a brother of Mieczysław.",
+            "crewmate": "Unknown",
+            "faction": "Poland",
             "galleryImagePaths": [
                 "St. Ogn. Stanisław the Star/T.png",
                 "St. Ogn. Stanisław the Star/1.png",
@@ -369,6 +372,9 @@
             "creator": "Green PC",
             "name": "Chor. Mieczysław the STAR 266",
             "model": "STAR 266",
+            "description": "He is a brother of Stanisław.",
+            "crewmate": "Unknown",
+            "faction": "Poland",
             "galleryImagePaths": [
                 "Chor. Mieczysław the STAR 266/T.png",
                 "Chor. Mieczysław the STAR 266/1.png",
