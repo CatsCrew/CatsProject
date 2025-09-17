@@ -224,6 +224,20 @@
              "referenceSheetsPath": [
                 "Byte the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "ScarTheWerewolf",
+            "name": "Yumi the Proto 2.0",
+            "model": "2.0",
+            "description": "A cheerful and tomboy proto that specialized in programming, payload and engineering. She's enjoying her work until she met Scar when she's wandering alone after her factory where once she work for destroyed into ruins. Ever since that, she always stay with her rescuer and do whatever she takes to ensure his safety.",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Yumi the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Yumi the Proto 2.0/R1.png"
+            ]
         }
     ]
 }
