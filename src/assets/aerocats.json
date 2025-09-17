@@ -543,6 +543,9 @@
             "creator": "Sandomite",
             "name": "Eddie the Hawkeye",
             "model": "E-2D Hawkeye",
+            "description": "A bit of a loner on base, he's often out in the sky regardless of his mood coordinating others in the skies. However the job's tiresome so his copilot, Zeal, is often out to keep him both awake and in the air for however terrible it's own copiloting ability is. Is often having to be careful on the ground to avoid scuffing his sensitive sensor suite and is often just seen standing around.",
+            "copilot": "Unknown",
+            "faction": "USA",
             "galleryImagePaths": [
                 "Eddie the Hawkeye/T.png"
             ],
@@ -554,6 +557,9 @@
             "creator": "Sandomite",
             "name": "Lily the Dragonlady",
             "model": "U-2 Dragon lady",
+            "description": "After having her purpose slipped out from under her due to the advancement of missile technology and their range, U-2 is more used for surveying and mapping relatively saver areas with her built in camera. Which works well with her shy nature. Has always had trouble landing.",
+            "copilot": "Unknown",
+            "faction": "USA",
             "galleryImagePaths": [
                 "Lily the Dragonlady/T.png"
             ],
@@ -565,6 +571,9 @@
             "creator": "Sandomite",
             "name": "Rem the Arsenal bird",
             "model": "Arsenal Bird",
+            "description": "A massive aerial carrier. Originally made to only carrying UAVs but modified to carry smaller aerocats aboard in cell like gel containers on her wing's undersides. In addition to her swarm of UAVs she controls with a collar, Rem also has a limited number of AAMs to use against enemy planes that get too close.\n\nWhile a large target, Rem still thinks very highly of herself, to an arrogant level.",
+            "copilot": "Unknown",
+            "faction": "Unknown",
             "galleryImagePaths": [
                 "Rem the Arsenal bird/T.png"
             ],
@@ -576,6 +585,9 @@
             "creator": "Sandomite",
             "name": "Ember the MQ-101",
             "model": "MQ-101",
+            "description": "1 of the 36 drones Rem carries 24/7, a drone only meant to be docked onto the aerial carrier. She's very hot headed and near lacks any sort of self preservation as due to her chassis' cheap nature she'll be able to be backed up and uploaded into a new form quite easily. This carefree way of backups is mainly attributed to her constant connection to Rem, which also allows Rem to control Ember's 1.5 meter (4 feet 9 inches) body remotely as if it were her own. Being designed for that purpose, Ember has no issues whenever this may happen.\n\nLore wise though the MQ-101 is nearly as much as a money sink as Rem was, not really being worth the development time or cost. Though she isn't as bothered as much about that as Rem is. None of the drones are really\n\nEmber's red markings is really only for maintained teams and others to tell the drones apart as Rem can do so from her connections to them. ",
+            "copilot": "Unknown",
+            "faction": "USA",
             "galleryImagePaths": [
                 "Ember the MQ-101/T.png"
             ],
