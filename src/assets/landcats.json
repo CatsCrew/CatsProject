@@ -806,19 +806,6 @@
         },
         {
             "creator": "Félix Auréle",
-            "name": "Vex the APC",
-            "model": "900HP DE APC (OF)",
-            "galleryImagePaths": [
-                "Vex the APC/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Vex the APC/R1.jpg",
-                "Vex the APC/R2.jpg",
-                "Vex the APC/R3.jpg"
-            ]
-        },
-        {
-            "creator": "Félix Auréle",
             "name": "Mikhail the Merkava",
             "model": "Merkava Mk.V Barak",
             "description": "Usually cold and unfeeling, unless he's talking abt The Monolith, has a tendency of spending long periods of time with no sleep, being very methodical. doesnt like to interact much with others\n\nCrewmate personality: Ilyusha's the more sociable one, often keeping Mikhail's bluntness in check\n\nExtra info: He carries a foldable 120mm rifle, a 7.62x54mm PKM and often a 12.7x55mm DShK machinegun. he's often seen carrying around a strange lamp with a hazy blue glow. peeps that get near it too long report headaches and even hearing voices...",
@@ -1799,6 +1786,19 @@
             ],
             "referenceSheetsPath": [
                 "Scar the Abrams X/R1.png"
+            ]
+        },
+        {
+            "creator": "fur-tea",
+            "name": "Vex the APC",
+            "model": "900HP DE APC (OF)",
+            "galleryImagePaths": [
+                "Vex the APC/T.png"
+            ],
+            "referenceSheetsPath": [
+                "Vex the APC/R1.jpg",
+                "Vex the APC/R2.jpg",
+                "Vex the APC/R3.jpg"
             ]
         }
     ]
