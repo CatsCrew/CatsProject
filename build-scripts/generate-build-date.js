@@ -5,11 +5,10 @@ import path from "path";
 function generateBuildDate() {
   const buildDate = new Date();
 
-  const envFilePath = path.resolve(process.cwd(), ".env.production.local");
+  const envFilePath = path.resolve(process.cwd(), ".env");
   fs.writeFileSync(
     envFilePath,
-    `VITE_APP_LAST_UPDATED="${buildDate}"\n`,
-    { flag: "a" }
+    `VITE_APP_LAST_UPDATED="${buildDate}"\n`
   );
 
   console.log(`Build date set to: ${buildDate}`);
