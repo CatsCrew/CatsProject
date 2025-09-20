@@ -299,6 +299,14 @@
             "description": "Bolt is a big fan of archery so he uses his H.O.L.O to form a bow shape when firing missiles.",
             "copilot": "Kanapi",
             "faction": "USA",
+            "weight": "43,430 lbs",
+            "height": "62'",
+            "equipment": [
+                {
+                    "name": "Missiles",
+                    "description": "AIM 9EEX"
+                }
+            ],
             "galleryImagePaths": [
                 "bolt_the_raptor/T.png",
                 "bolt_the_raptor/BOLT-1.png",
@@ -3707,8 +3715,7 @@
                 "Robert the Blackbird/1.png"
             ],
              "referenceSheetsPath": [
-                "Robert the Blackbird/R1.png",
-                "Robert the Blackbird/R2.png"
+                "Robert the Blackbird/R1.jpg"
             ]
         },
         {
