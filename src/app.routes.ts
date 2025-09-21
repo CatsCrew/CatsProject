@@ -13,6 +13,7 @@ export enum RouteNames {
     Landcats = 'landcats',
     Protos = 'protos',
     Lore = 'lore',
+    FAQ = 'faq',
     Error = 'error'
 }
 
@@ -23,7 +24,8 @@ const RoutePathNames = {
     [RouteNames.Assets]: '/assets',
     [RouteNames.Characters]: '/characters',
     [RouteNames.Character]: '/character/:id',
-    [RouteNames.Lore]: '/lore'
+    [RouteNames.Lore]: '/lore',
+    [RouteNames.FAQ]: '/faq'
 }
 
 function onBeforeEnterDetail(to: RouteLocationNormalized, from: RouteLocationNormalized, next: NavigationGuardNext) {
@@ -92,6 +94,11 @@ export const routes: RouteRecordRaw[] = [
         path: RoutePathNames[RouteNames.Lore],
         name: RouteNames.Lore,
         component: () => import('./modules/lore/lore.vue')
+    },
+    {
+        path: RoutePathNames[RouteNames.FAQ],
+        name: RouteNames.FAQ,
+        component: () => import('./modules/faq/faq.vue')
     },
     {
         // Catch-all route for Vue 3

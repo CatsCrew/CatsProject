@@ -10,6 +10,7 @@
                     <router-link :to="{ name: RouteNames.About }">About</router-link>
                     <router-link :to="{ name: RouteNames.SpeciesSheet }">Species Sheet</router-link>
                     <router-link :to="{ name: RouteNames.Lore }">Lore</router-link>
+                    <router-link :to="{ name: RouteNames.FAQ }">FAQ</router-link>
                 </div>
             </div>
             <div class="footer-section">
@@ -29,7 +30,7 @@
 <script setup lang="ts">
 import { RouteNames } from '../../app.routes';
 
-const updatedDate = new Date('2025-09-09');
+const updatedDate = new Date(import.meta.env.VITE_APP_LAST_UPDATED ?? new Date("2025-09-08"));
 const version = '1.0.1';
 
 const formattedDate = new Intl.DateTimeFormat(navigator.language).format(updatedDate);

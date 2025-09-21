@@ -1,0 +1,25 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+.faq-container {
+    .header {
+        display: inline-flex;
+        flex-direction: column;
+        font-size: pxToRem(22);
+
+        &::after {
+        height: pxToRem(2);
+        content: "";
+        background: $cats-gradient-accent;
+        border-radius: pxToRem(4);
+        }
+    }
+
+    .faq-content {
+        margin-top: pxToRem(16);
+        
+        .faq-answer {
+            margin: 0;
+        }
+    }   
+}

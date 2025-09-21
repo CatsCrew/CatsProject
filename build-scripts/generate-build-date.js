@@ -8,7 +8,8 @@ function generateBuildDate() {
   const envFilePath = path.resolve(process.cwd(), ".env");
   fs.writeFileSync(
     envFilePath,
-    `VITE_APP_LAST_UPDATED="${buildDate}"\n`
+    `VITE_APP_LAST_UPDATED="${buildDate}"\n`,
+    { flag: "w" }
   );
 
   console.log(`Build date set to: ${buildDate}`);
