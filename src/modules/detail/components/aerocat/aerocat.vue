@@ -25,7 +25,8 @@
                         </div>
                         <div
                             v-if="index < kpiItems.length - 1"
-                            class="divider vertical">
+                            class="divider"
+                            :class="{ 'vertical': !isMobile }">
                         </div>
                     </template>
                 </div>
@@ -54,6 +55,20 @@ const kpiItems = $computed(() => {
         kpis.push({
             label: 'Copilot',
             value: cat.copilot
+        });
+    }
+
+    if (cat.weight) {
+        kpis.push({
+            label: 'Weight',
+            value: cat.weight
+        });
+    }
+
+    if (cat.height) {
+        kpis.push({
+            label: 'Height',
+            value: cat.height
         });
     }
 

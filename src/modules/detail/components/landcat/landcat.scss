@@ -17,16 +17,31 @@
   flex-direction: column;
   gap: pxToRem(8);
 
+  @media screen and (max-width: $breakpoint-sm) {
+    gap: 0;
+  }
+
   .kpi {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 
+    @media screen and (max-width: $breakpoint-sm) {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
     .kpi-item {
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      @media screen and (max-width: $breakpoint-sm) {
+        flex-direction: row;
+        gap: pxToRem(8);
+        padding: pxToRem(8) 0;
+      }
 
       .kpi-header {
         font-size: pxToRem(20);
