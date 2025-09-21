@@ -59,14 +59,14 @@ export class UnitHelper {
         const feetFormatter = new Intl.NumberFormat(locale, {
           style: "unit",
           unit: "foot",
-          unitDisplay: "short",
+          unitDisplay: 'short',
           maximumFractionDigits: 0, // No decimal for feet
         });
 
         const inchFormatter = new Intl.NumberFormat(locale, {
           style: "unit",
           unit: "inch",
-          unitDisplay: "short",
+          unitDisplay: 'short',
           maximumFractionDigits: 0, // No decimal for inches
         });
 
@@ -83,7 +83,7 @@ export class UnitHelper {
         const formatter = new Intl.NumberFormat(locale, {
           style: "unit",
           unit: "foot",
-          unitDisplay: "long", // 'long' or 'short' depending on preference
+          unitDisplay: 'short',
           minimumFractionDigits: 0,
           maximumFractionDigits: 0,
         });
@@ -94,7 +94,7 @@ export class UnitHelper {
       const formatter = new Intl.NumberFormat(locale, {
         style: "unit",
         unit: "meter",
-        unitDisplay: "long",
+        unitDisplay: 'short',
         minimumFractionDigits: 0,
         maximumFractionDigits: 2,
       });
@@ -185,7 +185,7 @@ export class UnitHelper {
         const formatter = new Intl.NumberFormat(locale, {
           style: "unit",
           unit: "pound",
-          unitDisplay: "long",
+          unitDisplay: 'short',
           minimumFractionDigits: 0,
           maximumFractionDigits: 0, // Usually 0 or 1 decimal for pounds
         });
@@ -196,7 +196,7 @@ export class UnitHelper {
       const formatter = new Intl.NumberFormat(locale, {
         style: "unit",
         unit: "kilogram",
-        unitDisplay: "long",
+        unitDisplay: 'short',
         minimumFractionDigits: 0,
         maximumFractionDigits: 1, // Usually 0 or 1 decimal for kg
       });
