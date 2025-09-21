@@ -7,7 +7,7 @@
         </div>
         <div class="faq-content">
             <div v-if="isEmpty">
-                No FAQ items yet! Come back later!
+                No FAQ yet! Come back later!
             </div>
             <Accordion value="0">
                 <AccordionPanel
