@@ -4278,6 +4278,20 @@
              "referenceSheetsPath": [
                 "Molly the Corsair/R1.png"
             ]
+        },
+        {
+            "creator": "Phoenyx",
+            "name": "Willow the Raider",
+            "model": "B-21 Raider",
+            "description": "Semi-friendly, usually not that talkative because she's working on major projects involving technology & weapons.",
+            "copilot": "Unknown",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Willow the Raider/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Willow the Raider/R1.png"
+            ]
         }
     ]
 }
