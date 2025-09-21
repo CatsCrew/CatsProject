@@ -299,8 +299,8 @@
             "description": "Bolt is a big fan of archery so he uses his H.O.L.O to form a bow shape when firing missiles.",
             "copilot": "Kanapi",
             "faction": "USA",
-            "weight": "43,430 lbs",
-            "height": "62'",
+            "weight": 19699517,
+            "height": 18.9,
             "equipment": [
                 {
                     "name": "Missiles",

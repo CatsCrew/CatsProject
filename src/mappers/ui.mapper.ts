@@ -13,6 +13,7 @@ import { UrlHelper } from '@/helper/url.helper';
 import { CatType } from '@/models/cat-type.enum';
 import Sqids from 'sqids';
 import hash from "object-hash";
+import { UnitHelper } from '@/helper/unit.helper';
 
 const sqids = new Sqids({
     alphabet: 'bPqYthvRnlXJQWLxyo45FEgadiMcf7Vzr0UO6IAmpHwBDkGeCsT9u32KjZ8S1N',
@@ -33,8 +34,8 @@ export class UiMapper {
             model: cat.model,
             faction: cat.faction,
             description: cat.description,
-            weight: cat.weight,
-            height: cat.height,
+            weight: UnitHelper.formatWeightForLocale(cat.weight, navigator.language),
+            height: UnitHelper.formatHeightForLocale(cat.height, navigator.language, false),
             equipment: cat.equipment
         };
     }

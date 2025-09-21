@@ -6,8 +6,8 @@ export interface Cat {
     model?: string;
     description?: string;
     faction?: string;
-    weight?: string;
-    height?: string;
+    weight?: number;
+    height?: number;
     equipment?: Equipment[];
     referenceSheetsPath?: string[];
     galleryImagePaths?: string[];
