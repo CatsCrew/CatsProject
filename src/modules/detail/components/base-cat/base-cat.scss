@@ -2,78 +2,84 @@
 @use "@assets/variables.scss" as *;
 
 .cat-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: pxToRem(16);
+
+  .cat-info-header {
     display: flex;
-    flex-direction: column;
-    gap: pxToRem(16);
+    justify-content: space-between;
 
-    .cat-info-header {
-      display: flex;
-      justify-content: space-between;
-
-      .cat-info {
-        .name {
-          font-size: pxToRem(28);
-        }
-
-        .model {
-          font-size: pxToRem(18);
-          color: $text-secondary;
-        }
+    .cat-info {
+      .name {
+        font-size: pxToRem(28);
       }
 
-      .cat-right-rail {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: pxToRem(8);
-
-        .menu-btn {
-          border: none;
-          background: transparent;
-          margin: 0;
-          padding: 0;
-          cursor: pointer;
-
-          i {
-            color: white;
-          }
-        }
+      .model {
+        font-size: pxToRem(18);
+        color: $text-secondary;
       }
     }
 
-    .creator-info {
+    .cat-right-rail {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      align-items: center;
+      gap: pxToRem(8);
 
-      .creator {
-        display: flex;
-        align-items: center;
-        gap: pxToRem(8);
+      .menu-btn {
+        border: none;
+        background: transparent;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
 
-        .creator-img {
-          width: pxToRem(24);
-          height: pxToRem(24);
-          border-radius: pxToRem(6);
+        i {
+          color: white;
         }
-      }
-    }
-
-    .about {
-      .header {
-        display: inline-flex;
-        flex-direction: column;
-        font-size: pxToRem(22);
-
-        &::after {
-          height: pxToRem(2);
-          content: "";
-          background: $cats-gradient-accent;
-          border-radius: pxToRem(4);
-        }
-      }
-
-      .description {
-        white-space: break-spaces;
       }
     }
   }
+
+  .creator-info {
+    display: flex;
+    flex-direction: column;
+
+    .creator {
+      display: flex;
+      align-items: center;
+      gap: pxToRem(8);
+
+      .creator-img {
+        width: pxToRem(24);
+        height: pxToRem(24);
+        border-radius: pxToRem(6);
+      }
+    }
+  }
+
+  .about {
+    .description {
+      white-space: break-spaces;
+    }
+  }
+
+  .equipment {
+    .header {
+      padding-bottom: pxToRem(8);
+    }
+  }
+
+  .header {
+    display: inline-flex;
+    flex-direction: column;
+    font-size: pxToRem(22);
+
+    &::after {
+      height: pxToRem(2);
+      content: "";
+      background: $cats-gradient-accent;
+      border-radius: pxToRem(4);
+    }
+  }
+}

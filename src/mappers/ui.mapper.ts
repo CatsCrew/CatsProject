@@ -2,6 +2,7 @@ import { Creator } from '@/models/creator.model';
 import { Aerocat } from '@/models/aerocat.model';
 import { Landcat } from '@/models/landcat.model';
 import { Proto } from '@/models/proto.model';
+import { Cat } from '@/models/cat.model';
 
 import { Creator as FileCreator } from '@/models/formats/creator.model';
 import { Aerocat as FileAerocat } from "@/models/formats/aerocat.model";
@@ -25,15 +26,24 @@ export class UiMapper {
         return creators.map(this.toCreator) || [];
     }
 
+    public static toCat(cat: FileCat, creator: Creator): Cat {
+        return {
+            creator,
+            name: cat.name,
+            model: cat.model,
+            faction: cat.faction,
+            description: cat.description,
+            weight: cat.weight,
+            height: cat.height,
+            equipment: cat.equipment
+        };
+    }
+
     public static toAerocat(aerocat: FileAerocat, creator: Creator): Aerocat {
         return {
             id: this.hashCat(aerocat),
-            creator,
             type: CatType.Aerocat,
-            name: aerocat?.name,
-            description: aerocat?.description,
-            model: aerocat?.model,
-            faction: aerocat?.faction,
+            ...this.toCat(aerocat, creator),
             copilot: aerocat?.copilot,
             thumbnail: UrlHelper.buildCharacterPath(CatType.Aerocat, aerocat?.galleryImagePaths[0]),
             referenceUrls: aerocat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Aerocat, r)),
@@ -44,13 +54,9 @@ export class UiMapper {
     public static toLandcat(landcat: FileLandcat, creator: Creator): Landcat {
         return {
             id: this.hashCat(landcat),
-            creator,
             type: CatType.Landcat,
-            name: landcat?.name,
-            description: landcat?.description,
-            model: landcat?.model,
+            ...this.toCat(landcat, creator),
             crewmate: landcat?.crewmate,
-            faction: landcat?.faction,
             thumbnail: UrlHelper.buildCharacterPath(CatType.Landcat, landcat?.galleryImagePaths[0]),
             referenceUrls: landcat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Landcat, r)),
             galleryUrls: landcat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Landcat, g))
@@ -60,12 +66,8 @@ export class UiMapper {
     public static toProto(proto: FileProto, creator: Creator): Proto {
         return {
             id: this.hashCat(proto),
-            creator,
             type: CatType.Proto,
-            name: proto?.name,
-            description: proto?.description,
-            model: proto?.model,
-            faction: proto?.faction,
+            ...this.toCat(proto, creator),
             thumbnail: UrlHelper.buildCharacterPath(CatType.Proto, proto?.galleryImagePaths[0]),
             referenceUrls: proto?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Proto, r)),
             galleryUrls: proto?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Proto, g))
@@ -75,7 +77,6 @@ export class UiMapper {
     private static hashCat(cat: FileCat): string {
         const hashValue = hash({
             name: cat.name,
-            type: cat.type,
             model: cat.model,
             creator: cat.creator
          } as FileCat, { algorithm: "md5" });

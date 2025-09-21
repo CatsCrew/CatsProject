@@ -1,5 +1,6 @@
 import { CatType } from "./cat-type.enum";
 import { Creator } from "./creator.model";
+import { Equipment } from "./equipment.model";
 
 export interface Cat {
     id?: string;
@@ -9,6 +10,9 @@ export interface Cat {
     model?: string;
     faction?: string;
     description?: string;
+    weight?: string;
+    height?: string;
+    equipment?: Equipment[];
     thumbnail?: string;
     referenceUrls?: string[];
     galleryUrls?: string[];

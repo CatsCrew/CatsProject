@@ -64,6 +64,17 @@
                 {{ cat.description }}
             </p>
         </div>
+        <div 
+            v-if="cat.equipment"
+            class="equipment">
+            <div class="header">
+                Equipment
+            </div>
+            <DataTable :value="cat.equipment">
+                <Column field="name" header="Name"></Column>
+                <Column field="description" header="Description"></Column>
+            </DataTable>
+        </div>
     </section>
 </template>
 
@@ -72,6 +83,8 @@ import { useTemplateRef } from 'vue';
 import { Cat } from '@/models/cat.model';
 import Menu from 'primevue/menu';
 import { useToast } from "primevue/usetoast";
+import DataTable from 'primevue/datatable';
+import Column from 'primevue/column';
 
 const { cat, isMobile } = defineProps<{
     cat: Cat;
