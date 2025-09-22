@@ -2011,8 +2011,10 @@
             "name": "EEKA the Gripen",
             "model": "JAS-39E Gripen",
             "description": "Although relatively new to the scene he's already been on various successful missions. Working mainly alone he's also been shown to work well in teams, being versatile and able to change his role in the heat of the moment either from Spying to Air-to-Air or Air-to-Surface combat. \n\nEEKA is generally relaxed and friendly although on rare occurances can become intimidating/menacing if pushed too much. His Copilot named 'LAGKAPTEN (Team Captain)' is a more seasoned veteran and has been through past traumatic incidents, this in turn makes him act like a serious big brother towards EEKA as he constantly tries to lecture and scold EEKA and they're often butting heads. After a few missions though they found out that they make a really solid pair. He's usually more formal towards his fellow Aerocats. ",
-            "copilot": "Unknown",
+            "copilot": "LAGKAPTEN",
             "faction": "Sweden - EEKA Large specialty store for household goods",
+            "weight": 14000000,
+            "height": 14.1,
             "galleryImagePaths": [
                 "EEKA the Gripen/T.png"
             ],
