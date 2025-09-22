@@ -261,6 +261,8 @@
             "description": "",
             "crewmate": "Unknown",
             "faction": "Euseria federation/EGF(Euserian Ground Force)",
+            "weight": 15027000,
+            "height": 4,
             "galleryImagePaths": [
                 "Zechs the ZLAT/T.png",
                 "Zechs the ZLAT/1.png"
@@ -1590,6 +1592,8 @@
             "crewmate": "Polar Bear A.I | P.B.AI",
             "faction": "Sniper Operations Service",
             "description": "A LANDCATS long-range self-propelled artillery unit with a silent and cold personality, giving him a calm and dignified presence on any battlefield. Armed with a powerful 155mm artillery and a Cheytac Intervention 40mm rifle, alongside his companions Polar Bear A.I. and Scout Wolf, he can decide the fate of his targets even at extreme distances.",
+            "weight": 12061000,
+            "height": 3.5,
             "galleryImagePaths": [
                 "Sniper Fox the Grille/T.png",
                 "Sniper Fox the Grille/1.png",
@@ -1608,6 +1612,8 @@
             "crewmate": "Polar Bear A.I | P.B.AI",
             "faction": "Sniper Operations Service",
             "description": "A retired LANDCATS motorbike unit once used for high-speed pursuit missions, now decommissioned as his registration is near expiration. Small and lightweight, he excels in agile maneuvers and evasive actions. With a custom-built tail designed for close combat, he is well-suited for reconnaissance and intelligence-gathering missions. He lives and works together with Sniper Fox, taking on contracts from various factions to earn a living.",
+            "weight": 214000,
+            "height": 1.83,
             "galleryImagePaths": [
                 "Scout Wolf the NC750X/T.png"
             ],
@@ -1622,6 +1628,8 @@
             "crewmate": "Viettold A.I | V.T.AI",
             "faction": "Vietnam People's Army",
             "description": "A LANDCATS long-range self-propelled artillery unit developed by Viettold Military Industry and Telecoms Group. As one of the newest units, still in trial missions, he has already shown precise calculations and excellent marksmanship down to the finest detail. However, being recently assembled, Lynx often comes across as cold and distant. Lately, though, teammates have noticed him showing more warmth and learning to interact more closely with humans.",
+            "weight": 13364000,
+            "height": 15,
             "galleryImagePaths": [
                 "Lynx the Pháo Tự Hành/T.png"
             ],

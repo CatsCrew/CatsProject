@@ -791,6 +791,8 @@
             "description": "",
             "copilot": "BIT",
             "faction": "Euseria federation/UN Peacekeepers",
+            "weight": 2825000,
+            "height": 4.5,
             "galleryImagePaths": [
                 "Kars the UF-73/T.png",
                 "Kars the UF-73/1.png",
@@ -812,6 +814,8 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/CMP(CATS Military Police)",
+            "weight": 4101000,
+            "height": 4.6,
             "galleryImagePaths": [
                 "Chester the Holster/T.png"
             ],
@@ -826,6 +830,8 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/CMP(CATS Military Police)",
+            "weight": 2703000,
+            "height": 4,
             "galleryImagePaths": [
                 "Lester the Holster/T.png",
                 "Lester the Holster/1.png"
@@ -841,6 +847,8 @@
             "description": "",
             "copilot": "Victoria (red) / Vanguard (green)",
             "faction": "Euseria federation/EFAF(Euseria Federation Air Force)",
+            "weight": 400679000,
+            "height": 95,
             "galleryImagePaths": [
                 "Alex the Big bang/T.png",
                 "Alex the Big bang/1.png",
@@ -859,6 +867,8 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/EFAF(Euseria Federation Air Force)",
+            "weight": 10501000,
+            "height": 6.9,
             "galleryImagePaths": [
                 "Kars the Freak/T.png",
                 "Kars the Freak/1.png"
@@ -875,6 +885,8 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/UFNA(eUseria Federation Naval Aviation)",
+            "weight": 902000,
+            "height": 2,
             "galleryImagePaths": [
                 "Pater the WU-01/T.png",
                 "Pater the WU-01/1.png",
@@ -892,6 +904,8 @@
             "description": "",
             "copilot": "FANG",
             "faction": "Euseria federation/EFAF & EDEN(Euseria federation Disloyalty Exterminate National institution)",
+            "weight": 4315000,
+            "height": 5,
             "galleryImagePaths": [
                 "Cujo the Foible/T.png"
             ],
@@ -908,6 +922,8 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/EGAF(Euserian Ground Air Force)",
+            "weight": 12108000,
+            "height": 6.7,
             "galleryImagePaths": [
                 "Jade the Hedge/T.png",
                 "Jade the Hedge/1.png",
@@ -4090,6 +4106,8 @@
             "copilot": "Neko A.I.",
             "faction": "Vietnam People's Air Force",
             "description": "A fighter jet belonging to the Vietnam People's Air Force, CdC is one of the core units defending the nation's skies. Strict, confident, and very professional in his duties, yet in everyday life he is friendly and approachable, earning trust from children, comrades, and those around him.",
+            "weight": 13364000,
+            "height": 15,
             "galleryImagePaths": [
                 "CDC the Kobra/T.png",
                 "CDC the Kobra/1.png"

@@ -49,6 +49,8 @@
             "model": "2.0",
             "description": "KsC, or Kasichi, is the latest PROTO unit, version 2.0. Known for his quiet nature when he focuses intently on his own tasks. Yet when approached in conversation, he is cheerful and friendly. As an independent operating PROTO, KsC works under contract for different factions and facilities to earn money and resources. Still, he makes time to rest, study, and even learn how to express emotions.",
             "faction": "Wrench Wizard",
+            "weight": 60000,
+            "height": 1.6,
             "galleryImagePaths": [
                 "Kasichi the Proto 2.0/T.png"
 
