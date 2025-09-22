@@ -14,6 +14,14 @@ export class UnitHelper {
     locale: string,
     includeInches = true
   ) {
+    if (
+      heightInMeters === null ||
+      heightInMeters === undefined ||
+      isNaN(heightInMeters)
+    ) {
+      return "";
+    }
+
     // Rough mapping of locales to preferred height units.
     // This is a simplified example and might need to be expanded for more edge cases.
     const localeUnitMap = {
@@ -117,6 +125,14 @@ export class UnitHelper {
     locale: string,
     includeStoneAndPounds = false
   ) {
+    if (
+      weightInGrams === null ||
+      weightInGrams === undefined ||
+      isNaN(weightInGrams)
+    ) {
+      return "";
+    }
+
     const weightInKg = weightInGrams / 1000;
 
     // Rough mapping of locales to preferred weight units.
