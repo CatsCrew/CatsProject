@@ -62,6 +62,20 @@ const kpiItems = $computed(() => {
         });
     }
 
+    if (cat.weight) {
+        kpis.push({
+            label: 'Weight',
+            value: cat.weight
+        });
+    }
+
+    if (cat.height) {
+        kpis.push({
+            label: 'Height',
+            value: cat.height
+        });
+    }
+
     if (cat.linkedCats) {
         kpis.push({
             label: 'Assigned CAT',
