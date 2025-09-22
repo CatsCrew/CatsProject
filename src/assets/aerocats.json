@@ -2881,8 +2881,11 @@
             "creator": "Kiote",
             "name": "Shade the Aigaion",
             "model": "P-1112 Aigaion (Game)",
+            "description": "",
             "copilot": "Alan",
             "faction": "Black Void",
+            "weight": 353700,
+            "height": 100,
             "galleryImagePaths": [
                 "Shade the Aigaion/T.png",
                 "Shade the Aigaion/1.png",
