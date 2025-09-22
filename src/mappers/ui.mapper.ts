@@ -34,8 +34,8 @@ export class UiMapper {
             model: cat.model,
             faction: cat.faction,
             description: cat.description,
-            weight: UnitHelper.formatWeightForLocale(cat.weight, navigator.language),
-            height: UnitHelper.formatHeightForLocale(cat.height, navigator.language, false),
+            weight: cat.weight ? UnitHelper.formatWeightForLocale(cat.weight, navigator.language) : null,
+            height: cat.height ? UnitHelper.formatHeightForLocale(cat.height, navigator.language, false) : null,
             equipment: cat.equipment
         };
     }
