@@ -2016,7 +2016,16 @@
             "weight": 14000000,
             "height": 14.1,
             "galleryImagePaths": [
-                "EEKA the Gripen/T.png"
+                "EEKA the Gripen/T.png",
+                "EEKA the Gripen/1.png",
+                "EEKA the Gripen/2.png",
+                "EEKA the Gripen/3.png",
+                "EEKA the Gripen/4.png",
+                "EEKA the Gripen/5.jpeg",
+                "EEKA the Gripen/6.png",
+                "EEKA the Gripen/7.png",
+                "EEKA the Gripen/8.png",
+                "EEKA the Gripen/9.png"
             ],
              "referenceSheetsPath": [
                 "EEKA the Gripen/R1.png",
