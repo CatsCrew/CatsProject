@@ -1,0 +1,74 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+.stats-container {
+  .header {
+    display: inline-flex;
+    flex-direction: column;
+    font-size: pxToRem(22);
+
+    &::after {
+      height: pxToRem(2);
+      content: "";
+      background: $cats-gradient-accent;
+      border-radius: pxToRem(4);
+    }
+  }
+
+  .stats-content {
+    display: flex;
+    flex-direction: column;
+    gap: pxToRem(16);
+    margin-top: pxToRem(16);
+
+    .composition-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: pxToRem(16);
+
+      .composition-header {
+        font-size: pxToRem(24);
+
+        &.aerocats-count {
+          color: $terminal-blue;
+        }
+
+        &.landcats-count {
+          color: $terminal-green;
+        }
+
+        &.protos-count {
+          color: $terminal-silver;
+        }
+      }
+
+      .composition-item {
+        color: $text-secondary;
+      }    
+    }
+
+    .ownership-charts {
+      display: flex;
+      flex-direction: column;
+      gap: pxToRem(16);
+      
+      .cats-ownership-charts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: pxToRem(16);
+      }
+    }
+
+    .fill-rate-charts {
+      display: flex;
+      flex-direction: column;
+      gap: pxToRem(16);
+
+      .fill-rate-charts-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: pxToRem(16);
+      }
+    }
+  }
+}

@@ -14,6 +14,7 @@ export enum RouteNames {
     Protos = 'protos',
     Lore = 'lore',
     FAQ = 'faq',
+    Stats = 'stats',
     Error = 'error'
 }
 
@@ -80,6 +81,11 @@ export const routes: RouteRecordRaw[] = [
                 path: RouteNames.Protos,
                 name: RouteNames.Protos,
                 component: () => import('./modules/characters/modules/protos/protos.vue'),
+            },
+            {
+                path: RouteNames.Stats,
+                name: RouteNames.Stats,
+                component: () => import('./modules/characters/modules/stats/stats.vue')
             }
         ]
     },

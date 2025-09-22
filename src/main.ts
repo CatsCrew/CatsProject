@@ -8,6 +8,8 @@ import { createPinia } from 'pinia';
 import './main.scss';
 import 'primeicons/primeicons.css';
 import ToastService from 'primevue/toastservice';
+import { Chart as ChartJS } from 'chart.js';
+import { VennDiagramController, ArcSlice } from 'chartjs-chart-venn';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -19,6 +21,9 @@ const router = createRouter({
       return { top: 0, left: 0 };
     }
 });
+
+ChartJS.register(VennDiagramController, ArcSlice);
+ChartJS.defaults.color = "#fff";
 
 const pinia = createPinia();
 
