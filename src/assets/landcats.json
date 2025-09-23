@@ -1499,6 +1499,28 @@
             "creator": "Robert",
             "name": "Avalanche the Explorer",
             "model": "2015 Ford Explorer Police Interceptor",
+            "crewmate": "None",
+            "weight": 2067.02,
+            "height": 5.00634,
+            "faction": "USA - CMP",
+            "equipment": [
+                {
+                    "name": "Gun",
+                    "description": "Custom Glock 22"
+                },
+                {
+                    "name": "Utility",
+                    "description": "Spike Strips"
+                },
+                {
+                    "name": "Utility",
+                    "description": "Taser"
+                },
+                {
+                    "name": "Defense",
+                    "description": "Riot Shield"
+                }
+            ],
             "galleryImagePaths": [
                 "Avalanche the Explorer/T.png"
             ],
