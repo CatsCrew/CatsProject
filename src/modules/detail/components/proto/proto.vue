@@ -30,7 +30,8 @@
                         </div>
                         <div
                             v-if="index < kpiItems.length - 1"
-                            class="divider vertical">
+                            class="divider"
+                            :class="{ 'vertical': !isMobile }">
                         </div>
                     </template>
                 </div>
