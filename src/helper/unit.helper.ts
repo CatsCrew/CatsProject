@@ -121,19 +121,17 @@ export class UnitHelper {
    * @returns {string} The formatted weight string.
    */
   public static formatWeightForLocale(
-    weightInGrams: number,
+    weightInKg: number,
     locale: string,
     includeStoneAndPounds = false
   ) {
     if (
-      weightInGrams === null ||
-      weightInGrams === undefined ||
-      isNaN(weightInGrams)
+      weightInKg === null ||
+      weightInKg === undefined ||
+      isNaN(weightInKg)
     ) {
       return "";
     }
-
-    const weightInKg = weightInGrams / 1000;
 
     // Rough mapping of locales to preferred weight units.
     // This is a simplified example and might need to be expanded.

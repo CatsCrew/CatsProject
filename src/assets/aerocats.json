@@ -299,7 +299,7 @@
             "description": "Bolt is a big fan of archery so he uses his H.O.L.O to form a bow shape when firing missiles.",
             "copilot": "Kanapi",
             "faction": "USA",
-            "weight": 19699517,
+            "weight": 19659,
             "height": 18.9,
             "equipment": [
                 {
@@ -791,7 +791,7 @@
             "description": "",
             "copilot": "BIT",
             "faction": "Euseria federation/UN Peacekeepers",
-            "weight": 2825000,
+            "weight": 2825,
             "height": 4.5,
             "galleryImagePaths": [
                 "Kars the UF-73/T.png",
@@ -814,7 +814,7 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/CMP(CATS Military Police)",
-            "weight": 4101000,
+            "weight": 4101,
             "height": 4.6,
             "galleryImagePaths": [
                 "Chester the Holster/T.png"
@@ -830,7 +830,7 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/CMP(CATS Military Police)",
-            "weight": 2703000,
+            "weight": 2703,
             "height": 4,
             "galleryImagePaths": [
                 "Lester the Holster/T.png",
@@ -847,7 +847,7 @@
             "description": "",
             "copilot": "Victoria (red) / Vanguard (green)",
             "faction": "Euseria federation/EFAF(Euseria Federation Air Force)",
-            "weight": 400679000,
+            "weight": 400679,
             "height": 95,
             "galleryImagePaths": [
                 "Alex the Big bang/T.png",
@@ -867,7 +867,7 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/EFAF(Euseria Federation Air Force)",
-            "weight": 10501000,
+            "weight": 10501,
             "height": 6.9,
             "galleryImagePaths": [
                 "Kars the Freak/T.png",
@@ -885,7 +885,7 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/UFNA(eUseria Federation Naval Aviation)",
-            "weight": 902000,
+            "weight": 902,
             "height": 2,
             "galleryImagePaths": [
                 "Pater the WU-01/T.png",
@@ -904,7 +904,7 @@
             "description": "",
             "copilot": "FANG",
             "faction": "Euseria federation/EFAF & EDEN(Euseria federation Disloyalty Exterminate National institution)",
-            "weight": 4315000,
+            "weight": 4315,
             "height": 5,
             "galleryImagePaths": [
                 "Cujo the Foible/T.png"
@@ -922,7 +922,7 @@
             "description": "",
             "copilot": "Unknown",
             "faction": "Euseria federation/EGAF(Euserian Ground Air Force)",
-            "weight": 12108000,
+            "weight": 12108,
             "height": 6.7,
             "galleryImagePaths": [
                 "Jade the Hedge/T.png",
@@ -2013,7 +2013,7 @@
             "description": "Although relatively new to the scene he's already been on various successful missions. Working mainly alone he's also been shown to work well in teams, being versatile and able to change his role in the heat of the moment either from Spying to Air-to-Air or Air-to-Surface combat. \n\nEEKA is generally relaxed and friendly although on rare occurances can become intimidating/menacing if pushed too much. His Copilot named 'LAGKAPTEN (Team Captain)' is a more seasoned veteran and has been through past traumatic incidents, this in turn makes him act like a serious big brother towards EEKA as he constantly tries to lecture and scold EEKA and they're often butting heads. After a few missions though they found out that they make a really solid pair. He's usually more formal towards his fellow Aerocats. ",
             "copilot": "LAGKAPTEN",
             "faction": "Sweden - EEKA Large specialty store for household goods",
-            "weight": 14000000,
+            "weight": 14000,
             "height": 14.1,
             "galleryImagePaths": [
                 "EEKA the Gripen/T.png",
@@ -2911,7 +2911,7 @@
             "description": "",
             "copilot": "Alan",
             "faction": "Black Void",
-            "weight": 353700000,
+            "weight": 353700,
             "height": 100,
             "galleryImagePaths": [
                 "Shade the Aigaion/T.png",
@@ -4117,7 +4117,7 @@
             "copilot": "Neko A.I.",
             "faction": "Vietnam People's Air Force",
             "description": "A fighter jet belonging to the Vietnam People's Air Force, CdC is one of the core units defending the nation's skies. Strict, confident, and very professional in his duties, yet in everyday life he is friendly and approachable, earning trust from children, comrades, and those around him.",
-            "weight": 13364000,
+            "weight": 13364,
             "height": 15,
             "galleryImagePaths": [
                 "CDC the Kobra/T.png",
@@ -4246,7 +4246,27 @@
             "model": "F-22A Raptor",
             "description": "germaphobe / mysophobia / neat freak\n\nCan’t stand fingerprints on his visor (constantly polishing it)\n\nThe most effective way to provoke him is to throw something dirty at him, and it is even more effective if it is wet.",
             "copilot": "N/A",
-            "faction": "Unknown",
+            "faction": "USA",
+            "weight": 19659,
+            "height": 18.9,
+            "equipment": [
+                {
+                    "name": "Missile",
+                    "description": "AIM-120 AMRAAM"
+                },
+                {
+                    "name": "Missile",
+                    "description": "AIM-9 Sidewinder"
+                },
+                {
+                    "name": "Machine Gun",
+                    "description": "M61A2 20 mm"
+                },
+                {
+                    "name": "Bomb",
+                    "description": "JDAM/SDBs"
+                }
+            ],
             "galleryImagePaths": [
                 "Radian the Raptor/T.png"
             ],
