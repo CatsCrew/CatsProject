@@ -7,6 +7,8 @@
             "description": "Patriot is a gentle and consistently optimistic Aero unit, whose excessive positivity often requires intervention from his co-pilot, MIAW. He was designed on the same day as Coo but at a different time, with the design assigning Patriot the role of the elder brother.",
             "copilot": "MIAW",
             "faction": "USA - Sea Gremlins",
+            "weight": 1640,
+            "height": 2.8,
             "galleryImagePaths": [
                 "patriot_panther/T.jpg",
                 "patriot_panther/1.png",
@@ -39,6 +41,8 @@
             "description": "Coo is passionate and strict, the type who adheres closely to the rules. He was manufactured on the same day as his older brother Patriot, and although he and his co-pilot LEX work in perfect sync, they don’t often engage in conversation. However, just by looking at LEX’s expression, one can always tell that Coo’s decisions were the right ones.",
             "copilot": "LEX",
             "faction": "USA - Sea Gremlins",
+            "weight": 2240,
+            "height": 2.8,
             "galleryImagePaths": [
                 "coo_the_cougar/T.png",
                 "coo_the_cougar/1.png",
@@ -63,6 +67,8 @@
             "description": "Ray is a veteran member of the Air Knights, an older-generation Aerocats model. Despite his limitation of being unable to exceed Mach 1, he has demonstrated a high mission success rate in various support flights. He possesses strong pride in himself and has a consistently stern personality. His co-pilot, Rabbi, is the type who is very affectionate and charming. On the rare occasions when the two are seen talking, one can witness the only moments where Ray shows a gentle side.",
             "copilot": "Rabbi",
             "faction": "USA - Air Knights",
+            "weight": 1900,
+            "height": 3,
             "galleryImagePaths": [
                 "Ray the Sabre/T.png",
                 "Ray the Sabre/1.png",
@@ -78,6 +84,8 @@
             "description": "Aardk the Aardvark is his full name. However, since all CATS and PROTOs find his name difficult to pronounce, it has become something of a tradition to simply call him “VARK.” His personality is warm, calculating, and somewhat nerdy. His hobby is surfing the internet.\n\nHis callsign is KING, and like Ray, he is a member of the Air Knights, specializing in low-altitude penetration and bombing. He does not have a co-pilot, instead using the H.O.L.O system merely as a crown-shaped hologram display.\n\nHis 3,000lbs bomb replica is nicknamed Tuna, which he does not use but rather keeps in his hangar, sometimes even hugging it to sleep. Occasionally, new PROTO recruits mistake it for a live bomb and end up calling in the EOD team.",
             "copilot": "N/A",
             "faction": "USA - Air Knights",
+            "weight": 9080,
+            "height": 5.8,
             "galleryImagePaths": [
                 "Aardk the Aardvark/T.png",
                 "Aardk the Aardvark/1.png",
@@ -104,6 +112,8 @@
             "description": "Lancer is one of the most taciturn and dangerous CATS. He rarely questions his own actions, carrying out missions exactly as ordered, embodying the textbook definition of strict discipline. He is also very demanding toward his own squad members. Even so, he demonstrates an exceptionally high mission success rate, proving his reason for existence. He commands the Night Reapers.",
             "copilot": "Lance",
             "faction": "USA - Night Reapers",
+            "weight": 54100,
+            "height": 11,
             "galleryImagePaths": [
                 "Lancer the Lancer/T.png",
                 "Lancer the Lancer/1.png",
@@ -127,6 +137,8 @@
             "description": "Hopkins is an incredibly kind and cheerful prankster. Many CATS suffer from his antics, but the truth is that his mission success rate is very high, placing him among the veterans compared to others. Under Lancer’s command, he takes part in small-scale precision bombing or reconnaissance, and on days without missions, he spends his time cleaning his hangar. He suffers from a strong obsession with his personal belongings, which has resulted in him having the cleanest hangar of them all.\n\nHe can only fly at subsonic speeds, and he does feel regret about that limitation. However, he remains focused on accomplishing his missions perfectly despite it.\n\nThere is a record of him having crashed once during an operation, after which he received a new body.",
             "copilot": "Happy Hoppy",
             "faction": "USA - Night Reapers",
+            "weight": 5950,
+            "height": 5,
             "galleryImagePaths": [
                 "Hopekins the Nighthawk/T.png",
                 "Hopekins the Nighthawk/1.png",
@@ -155,6 +167,11 @@
             "creator": "Presto",
             "name": "Howl the Horten",
             "model": "Ho-229 Horten",
+            "description": "Howl belonged to the RELICCS Foundation, which is unaffiliated with any specific nation, and participated in a program dedicated to reviving prototype fighters from past generations. He was one of the old-generation CATS given a new life through restoration and reprogramming, and he developed an unusually strong fascination with PDG, likely caused by an error that occurred during memory overwriting.\n\nHe regards himself as a nobleman and exhibits a peculiar, almost vampire-like behavior. His PDG color is a deep red, resembling blood. As the sixth unit under the RELICCS Foundation, he is occasionally deployed for public events or serves as a demonstrator to gather operational data.\n\nHe has a particular fondness for consuming high-quality PDG orally and engages in bizarre behavior, attempting to pierce other CATS with his fangs in order to feed. At present, he is contributing to the German Air Force in a dispatch role.",
+            "copilot": "Fieps",
+            "faction": "RELICCS",
+            "weight": 2225,
+            "height": 4,
             "galleryImagePaths": [
                 "Howl the Horten/T.png",
                 "Howl the Horten/1.png",

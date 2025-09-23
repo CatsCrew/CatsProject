@@ -7,6 +7,14 @@
             "description": "Shell (nickname: Shelly) is a former airborne tank-type reconnaissance CATS from the special operations forces. With his rapid infiltration capabilities and heavy armament, he was deployed in numerous missions. He takes pride in those days, holding great honor in having served as a member of one of the finest airborne reconnaissance units. After the end of the Cold War, he formally went through the retirement process and stepped away from the battlefield.\n\nFollowing his retirement, he transitioned into the role of an instructor, training new airborne soldiers. Thanks to his past experience operating across multiple countries, he naturally developed a fondness for travel. However, upon leaving active duty as an operational unit, he was required to return all of his visual data recording equipment. This, in turn, sparked a desire to once again see the world directly with his own eyes. Around this time, HEMET invited him to join Oshitoky Logistics, and through this opportunity, Shelly began a new journey, traveling the world alongside the team.\n\nHe is now a member of Tokis, serving as a reliable guide for the group. Calm and composed by nature, he occasionally clashes with the hot-headed VEE, though in terms of combat ability, Shell’s superior skill allows him to subdue such conflicts swiftly.",
             "crewmate": "Bob",
             "faction": "OSHITOKY LOGISTICS",
+            "weight": 3800,
+            "height": 2.3,
+            "equipment": [
+                {
+                    "name": "155 Gun-Launcher System — Little Cat",
+                    "description": "It is a 155mm gun-launcher system developed in the United States for airborne-deployed CATS. A first-generation CATS weapon, it was created by upgrading an existing service launcher and remaking it into a personal armament. Shell removed the stock to improve mobility and calls this variant the 'Little Kitten.'"
+                }
+            ],
             "galleryImagePaths": [
                 "shell_the_sheridan/T1.png",
                 "shell_the_sheridan/1.png",
@@ -28,6 +36,8 @@
             "description": "HEMET is a former member of the LANDCATS who was discharged due to injuries. He now works as an arms dealer, running his own logistics company, Oshitoky Logistics. Though small in scale, the group operates like mercenaries and is frequently hired thanks to their solid reputation and skill. Far from being an ordinary shipping service, they specialize in conflict-zone logistics — delivering everything from perfectly ordinary, safe supplies to high-risk materials, whether into war-torn regions or peaceful territories alike.\n\nHEMET wears a tarp-like device resembling pants to conceal his injuries, and he reacts with extreme anger if anyone tries to remove it. Beneath it, his old body made of discontinued parts gives off a bizarre impression, which seems to be connected to his phobia of PROTOs.\n\nUpon his discharge, he returned his Crewmate, a decision he sometimes regrets when he feels its absence. His personality changes noticeably depending on whether he’s wearing his glasses — without them, he becomes cheerful and laid back, but when he puts them on, he turns serious and nerdy.",
             "crewmate": "None",
             "faction": "OSHITOKY LOGISTICS",
+            "weight": 4500,
+            "height": 3.5,
             "galleryImagePaths": [
                 "Hemet/1.png",
                 "Hemet/2.png",
@@ -48,6 +58,8 @@
             "description": "VEE is another member of the LANDCATS who, like HEMET, transitioned from the regular army to a private enterprise. He currently works at OSHITOKY LOGISTICS and has a long-standing history with HEMET, having worked with him since before their current venture. As a result, the two have great chemistry and work well together.\n\nHe has a fiery personality and tends to rush into things, but HEMET usually steps in to keep him in check. VEE sees HEMET like an older brother, though he sometimes gets too ahead of himself. In fact, as proof of this impulsiveness, he’s gone as far as tattooing the company logo on what he personally considers his most sensitive body part.\n\nVEE previously served as an infantry support CATS, and after joining the company, he now operates as HEMET’s escort vehicle. He loves close-quarters, hand-to-hand combat the most, but due to the high cost of repairing his parts afterward, HEMET constantly finds himself stressed out over it.",
             "crewmate": "None",
             "faction": "OSHITOKY LOGISTICS",
+            "weight": 585,
+            "height": 2.3,
             "galleryImagePaths": [
                 "Vee/T.png",
                 "Vee/1.png"
@@ -61,6 +73,11 @@
             "creator": "Presto",
             "name": "Bmd the BMD-4",
             "model": "BMD-4M",
+            "description": "The BMD is a CATS developed as a modernized modification of the BMD-4 model, adopted under Russia’s combat vehicle replacement program, Project: Zheleznaya Koshka. It is a small airborne combat reconnaissance CATS, designed to be dropped from transport aircraft together with paratroopers for deep infiltration into enemy rear areas. During airdrops, it is deployed individually along with the soldiers and its own armaments.\n\nAlthough rather old-fashioned, producing engine noises whenever it moves, which it personally regards as a flaw, the paratroopers do not consider it a drawback, as the sound of its engine is said to give them a sense of comfort.\n\nIt is currently on active duty and maintains a rivalry with the M551 model CATS Shell. Both were deployed for the same objectives during the Cold War, but after a brief skirmish and subsequent withdrawal, they suffered heavy losses among their units. Since then, they have lived as bitter adversaries. More recently, it has even encountered Shell, now working as a Tokis, in conflict zones.",
+            "crewmate": "Mry",
+            "faction": "RUS - Zelyonyy Bars",
+            "weight": 3400,
+            "height": 2.3,
             "galleryImagePaths": [
                 "Bmd/T.png",
                 "Bmd/1.png"
