@@ -84,17 +84,18 @@
             ]
         },
         {
-            "creator": "Ryedus",
+            "creator": "NightRye_",
             "name": "Pehr the Proto I",
             "model": "1.0 Type I",
-            "description": "Before Pehr was rebuilt as a part of the Next Generation Fighter Jet Program, he served in the conscription program as a crew chief/ramp agent for aerocats, often helping with rearming and refueling them while engaging in small talk to try and study about the mechanics of flying before his rebuild.",
+            "description": "Before Pehr was an Aerocat, he was a conscript for the army, serving as a crew chief/ramp agent for other Aerocats, often helping with rearming and refueling while engaging in a lot of conversations with other Aerocats to try and study about the mechanics of flying. He was selected as a prime candidate for the JAS-39E/F Proto Evolution Program and rebuilt for this reason as his superiors saw his potential as an aviator.",
             "faction": "Sweden",
             "galleryImagePaths": [
                 "Pehr the Proto I/T.png"
 
             ],
              "referenceSheetsPath": [
-                "Pehr the Proto I/R1.png"
+                "Pehr the Proto I/R1.png",
+                "Pehr the Proto I/R2.png"
             ]
         },
         {

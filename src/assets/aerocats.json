@@ -1529,7 +1529,7 @@
             ]
         },
         {
-            "creator": "Ryedus",
+            "creator": "NightRye_",
             "name": "Proteus the Proteus",
             "model": "S.C Model 281 Proteus",
             "galleryImagePaths": [
@@ -1540,11 +1540,11 @@
             ]
         },
         {
-            "creator": "Ryedus",
+            "creator": "NightRye_",
             "name": "Pehr the Gripen",
             "model": "JAS-39E Gripen",
-            "description": "Being one of the most maneuverable fighter jets on the field, he's quite the slippery one and spends most his time dogfighting other CATS to tone his skills. Capable of carrying a variety of ordnance and flying with one of the most advanced avionics, Pehr's name strikes fear into it's enemies. And also his name is Pehr Gripen, like the guy from the show Family Guy, lmao.",
-            "copilot": "Unknown",
+            "description": "Being one of the most maneuverable fighter jets on the field, he's quite the slippery one and spends most his time simulating dogfights with other CATS to hone his skills. Capable of carrying a variety of ordnance and flying with one of the most advanced avionics, Pehr's name strikes fear into it's enemies. The CO-PILOT system is omitted from this unit and is replaced with the 'AXIOM' (Advanced-Electro-Imaging-Optics-Mechanism) with integrated Machine-Aerocat-Collaborative (MAC) technology, a signature look featured as 'third eye' of the Gripen, allowing the Aerocat swifter aeronautical decision making and sharper combat responses, as well as removing the buffer from a CO-PILOT. Due to the sheer processing power required for the AXIOM, it's computational unit has taken up space for the old CO-PILOT hence its absence. The AXIOM immediately displays all relevant information on HOLO projection as well as calculating all possible scenarios for a first-look, first-shot, first-kill capability, giving Pehr a decisive combat advantage against most foes. But this comes with a certain, personality drawbacks. It has been noted that Pehr developed a sense of over-confidence soon after scoring multiple air kills within simulated battle against various 5th generation fighter Aerocats. This later triggered an internal investigation which revealed that an unsanctioned interception of an lethal escaped FERAL MIG-29 was shot down over a prohibited airspace by an unidentified JAS-39 turned out to be Pehr.\n\nAlso he is named after Peter Griffin, haha.",
+            "copilot": "Replaced",
             "faction": "Sweden",
             "galleryImagePaths": [
                 "Pehr the Gripen/T.png",
