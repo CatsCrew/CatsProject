@@ -35,6 +35,8 @@
             "model": "2.0",
             "description": "Const is a V2 PROTO originally engineered for the high-performance CATS unit x#7!qL9z@. Following the unit’s decommissioning due to cause string x@3F!92_∆5, Const remained unassigned for an extended period. During this time, he developed traits atypical of standard PROTOs, including an aversion to menial tasks and a preference for research and technical work—behaviors more closely aligned with CATS units.\n\nHe was later reassigned to operate with Radian, the F-22. While they are seldom observed together in operations, they are regarded as maintaining a strong private rapport.",
             "faction": "Unknown",
+            "weight": 60,
+            "height": 1.6,
             "galleryImagePaths": [
                 "Const the Proto 2.0/T.png"
 
