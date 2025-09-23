@@ -8,6 +8,12 @@
             "faction": "N/A",
             "weight": 72,
             "height": 1.6,
+            "equipment": [
+                {
+                    "name": "Claw pen 2.0",
+                    "description": "This is a claw-shaped pen compatible with the painting tool Proto Paint Studio 4.0, and while in use its tip flashes in the exact color you’ve selected."
+                }
+            ],
             "galleryImagePaths": [
                 "Ero the Proto2.0/T.png",
                 "Ero the Proto2.0/1.png"
