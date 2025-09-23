@@ -3739,7 +3739,19 @@
             "model": "YF-12A Blackbird",
             "copilot": "N/A",
             "faction": "USA - KEDLOCK",
+            "weight": 27605.632,
+            "height": 30.97,
             "description": "Robert is usually kept to himself, he sometimes acts different depending on his mood, but mostly he hesitates before speaking, designed as a testament to further improve CATS, and sporting a mix of legacy and modern technology, however leading to interesting results",
+            "equipment": [
+                {
+                    "name": "Missile",
+                    "description": "AIM-47 Falcon"
+                },
+                {
+                    "name": "Machine Gun",
+                    "description": "M61A2 Vulcan"
+                }
+            ],
             "galleryImagePaths": [
                 "Robert the Blackbird/T.png",
                 "Robert the Blackbird/1.png"
