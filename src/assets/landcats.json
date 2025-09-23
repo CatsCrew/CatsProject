@@ -11,8 +11,16 @@
             "height": 2.3,
             "equipment": [
                 {
-                    "name": "155 Gun-Launcher System — Little Cat",
+                    "name": "155 Gun-Launcher System 'Little Cat'",
                     "description": "It is a 155mm gun-launcher system developed in the United States for airborne-deployed CATS. A first-generation CATS weapon, it was created by upgrading an existing service launcher and remaking it into a personal armament. Shell removed the stock to improve mobility and calls this variant the 'Little Kitten.'"
+                },
+                {
+                    "name": "MBHS-Multifunctional boonie hat system",
+                    "description": "MBHS was developed for airborne-deployed CATS. It can be equipped with everything from night vision to precision headsets for sound amplification."
+                },
+                {
+                    "name": "CNVG-551 'Window'",
+                    "description": "A special CNVG issued to the 551 model provides high-sensitivity thermal imaging and night vision. It also features camera functionality, making it specialized for reconnaissance, and it is shaped like a window."
                 }
             ],
             "galleryImagePaths": [
@@ -38,6 +46,16 @@
             "faction": "OSHITOKY LOGISTICS",
             "weight": 4500,
             "height": 3.5,
+            "equipment": [
+                {
+                    "name": "HEMTTIA 150",
+                    "description": "It is a type of backpack developed by Hemet that uses its own tail for fastening. A branded product of Hemet, it is designed for use by CATS with tails made of cords, like Hemet’s."
+                },
+                {
+                    "name": "CNVG-88 'NERDY'",
+                    "description": "It is a pair of night vision and thermal goggles developed by Hemet, called Nedry, which look like glasses. They give off a nerdy appearance."
+                }
+            ],
             "galleryImagePaths": [
                 "Hemet/1.png",
                 "Hemet/2.png",
@@ -60,6 +78,16 @@
             "faction": "OSHITOKY LOGISTICS",
             "weight": 585,
             "height": 2.3,
+            "equipment": [
+                {
+                    "name": "CLAW System",
+                    "description": "This is a combat knife designed like a cat’s claw, serving as auxiliary equipment for lightweight CATS that engage in hand-to-hand combat. Lightweight CATS are required to use the knife, but since it is a retractable blade integrated with the hand, it allows for a wide variety of attacks in emergencies."
+                },
+                {
+                    "name": "CVS-7 'Mono eye'",
+                    "description": "This CVS is an auxiliary device designed primarily for CATS with damaged eyes. It is mounted on one side and compensates for vision during combat, providing thermal imaging and night vision. It is typically operated by infantry-unit CATS."
+                }
+            ],
             "galleryImagePaths": [
                 "Vee/T.png",
                 "Vee/1.png"
@@ -78,6 +106,12 @@
             "faction": "RUS - Zelyonyy Bars",
             "weight": 3400,
             "height": 2.3,
+            "equipment": [
+                {
+                    "name": "DBCW-927 'Malen’kiy Drug'",
+                    "description": "This is a Russian variation of the Double-Barrel CATS Weapon system, a personal armament invented for CATS. It is equipped with a 30 mm large-caliber cannon and a 100 mm grenade launcher."
+                }
+            ],
             "galleryImagePaths": [
                 "Bmd/T.png",
                 "Bmd/1.png"
