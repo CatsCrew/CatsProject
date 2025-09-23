@@ -1488,6 +1488,20 @@
             "creator": "Robert",
             "name": "Rex the Chase rig",
             "model": "Chase Vehicle Dodge Ram 2500",
+            "crewmate": "None",
+            "weight": 5443.108,
+            "height": 6.949,
+            "faction": "USA - NWS",
+            "equipment": [
+                {
+                    "name": "Utility",
+                    "description": "Augers"
+                },
+                {
+                    "name": "Utility",
+                    "description": "Flare Rockets"
+                }
+            ],
             "galleryImagePaths": [
                 "Rex the Chase rig/T.png"
             ],
