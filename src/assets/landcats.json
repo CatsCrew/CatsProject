@@ -1388,8 +1388,30 @@
             "creator": "Nicky Ferrius",
             "name": "Leonard the Alpine Hammer",
             "model": "PZ 87 WE Alpine Hammer",
+            "crewmate": "Broger",
+            "weight": 50802.345,
+            "height": 2.89,
+            "faction": "Cavalerie Bravo",
+            "description": "Leonard is one of the cavalerie Bravo units defending his territory from any adversary.\nBut he is very friendly and enjoys a drink.",
+            "equipment": [
+                {
+                    "name": "Main Gun",
+                    "description": "120mm with a magazine of 4 round"
+                },
+                {
+                    "name": "Prototype Gun",
+                    "description": "140mm bolt-action sniper gun"
+                },
+                {
+                    "name": "Training Gun",
+                    "description": "hand gun lazer with the lazer tag suit"
+                }
+            ],
             "galleryImagePaths": [
-                "Leonard the Alpine Hammer/T.png"
+                "Leonard the Alpine Hammer/T.png",
+                "Leonard the Alpine Hammer/1.jpg",
+                "Leonard the Alpine Hammer/2.jpg",
+                "Leonard the Alpine Hammer/3.jpg"
             ],
             "referenceSheetsPath": [
                 "Leonard the Alpine Hammer/R1.png"
