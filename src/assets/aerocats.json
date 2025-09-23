@@ -1548,10 +1548,14 @@
             "faction": "Sweden",
             "galleryImagePaths": [
                 "Pehr the Gripen/T.png",
-                "Pehr the Gripen/1.jpg"
+                "Pehr the Gripen/1.png",
+                "Pehr the Gripen/2.png",
+                "Pehr the Gripen/3.png"
+
             ],
              "referenceSheetsPath": [
-                "Pehr the Gripen/R1.jpg"
+                "Pehr the Gripen/R1.png"
+                "Pehr the Gripen/R2.jpg"
             ]
         },
         {
