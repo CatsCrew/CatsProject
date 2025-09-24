@@ -270,10 +270,20 @@
             "creator": "Nicky Ferrius",
             "name": "NF-05AX the Proto P",
             "model": "1.0 Type P",
-            "description": "",
+            "description": "Service prototype for the maintenance of machines and C.A.T.S units, used by the company AXE-CORP.",
             "faction": "Unknown",
             "weight": 80,
             "height": 1.5,
+            "equipment": [
+                {
+                    "name": "Toolbox",
+                    "description": "Can change for specific jobs"
+                },
+                {
+                    "name": "CATS manual",
+                    "description": "easter egg about me during my military service"
+                }
+            ],
             "galleryImagePaths": [
                 "NF-05AX the Proto P/T.png",
                 "NF-05AX the Proto P/1.png",
