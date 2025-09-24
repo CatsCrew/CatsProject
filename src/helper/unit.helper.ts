@@ -25,24 +25,24 @@ export class UnitHelper {
     // Rough mapping of locales to preferred height units.
     // This is a simplified example and might need to be expanded for more edge cases.
     const localeUnitMap = {
-      // English-speaking countries often use imperial for height
-      "en-US": "foot", // US uses feet and inches
-      "en-GB": "foot", // UK commonly uses feet and inches for height
-      "en-CA": "meter", // Canada is officially metric, but feet/inches are also common
-      "en-AU": "meter", // Australia is metric
+      // // English-speaking countries often use imperial for height
+      // "en-US": "foot", // US uses feet and inches
+      // "en-GB": "foot", // UK commonly uses feet and inches for height
+      // "en-CA": "meter", // Canada is officially metric, but feet/inches are also common
+      // "en-AU": "meter", // Australia is metric
 
-      // European countries are generally metric
-      "de-DE": "meter",
-      "fr-FR": "meter",
-      "es-ES": "meter",
-      "it-IT": "meter",
+      // // European countries are generally metric
+      // "de-DE": "meter",
+      // "fr-FR": "meter",
+      // "es-ES": "meter",
+      // "it-IT": "meter",
 
-      // Other countries
-      "ja-JP": "meter",
-      "zh-CN": "meter",
-      "ru-RU": "meter",
-      "pt-BR": "meter",
-      "ar-SA": "meter", // Most of the Middle East is metric
+      // // Other countries
+      // "ja-JP": "meter",
+      // "zh-CN": "meter",
+      // "ru-RU": "meter",
+      // "pt-BR": "meter",
+      // "ar-SA": "meter", // Most of the Middle East is metric
     };
 
     // Default to meter if the locale is not explicitly mapped or unknown
@@ -136,24 +136,24 @@ export class UnitHelper {
     // Rough mapping of locales to preferred weight units.
     // This is a simplified example and might need to be expanded.
     const localeUnitMap = {
-      // English-speaking countries
-      "en-US": "pound", // US uses pounds
-      "en-GB": "pound", // UK uses stones and pounds (culturally), or just pounds, or kg
-      "en-CA": "kilogram", // Canada is officially metric
-      "en-AU": "kilogram", // Australia is metric
+      // // English-speaking countries
+      // "en-US": "pound", // US uses pounds
+      // "en-GB": "pound", // UK uses stones and pounds (culturally), or just pounds, or kg
+      // "en-CA": "kilogram", // Canada is officially metric
+      // "en-AU": "kilogram", // Australia is metric
 
-      // European countries are generally metric
-      "de-DE": "kilogram",
-      "fr-FR": "kilogram",
-      "es-ES": "kilogram",
-      "it-IT": "kilogram",
+      // // European countries are generally metric
+      // "de-DE": "kilogram",
+      // "fr-FR": "kilogram",
+      // "es-ES": "kilogram",
+      // "it-IT": "kilogram",
 
-      // Other countries
-      "ja-JP": "kilogram",
-      "zh-CN": "kilogram",
-      "ru-RU": "kilogram",
-      "pt-BR": "kilogram",
-      "ar-SA": "kilogram",
+      // // Other countries
+      // "ja-JP": "kilogram",
+      // "zh-CN": "kilogram",
+      // "ru-RU": "kilogram",
+      // "pt-BR": "kilogram",
+      // "ar-SA": "kilogram",
     };
 
     // Default to kilogram if the locale is not explicitly mapped or unknown
