@@ -265,6 +265,24 @@
              "referenceSheetsPath": [
                 "Eddie the Proto P/R1.png"
             ]
+        },
+        {
+            "creator": "Nicky Ferrius",
+            "name": "NF-05AX the Proto P",
+            "model": "1.0 Type P",
+            "description": "",
+            "faction": "Unknown",
+            "weight": 80,
+            "height": 1.5,
+            "galleryImagePaths": [
+                "NF-05AX the Proto P/T.png",
+                "NF-05AX the Proto P/1.png",
+                "NF-05AX the Proto P/2.png"
+
+            ],
+             "referenceSheetsPath": [
+                "NF-05AX the Proto P/R1.png"
+            ]
         }
     ]
 }
