@@ -3396,18 +3396,34 @@
             "creator": "Ember",
             "name": "Hades the Raptor",
             "model": "F-22A Raptor",
+            "description": "Hades is a well-trained, psychotic apex predator of the skies. Master of stealth. When she hunts, you won't have even the slightest clue of her presence on sensors until it's too late. To allies, she's a typical hotshot-ace type individual. She's overconfident and reckless. Though it cannot be denied that her unorthodox moves provide an advantage in unpredictability. She manages to dodge incoming munitions with relative ease, and when combined with her stealth, cutting-edge technology, maneuverability, and aggressive attack patterns, she proves to be an extremely dangerous combatant on the battlefield, and should be avoided at all costs.",
+            "copilot": "Cinder",
+            "faction": "USA",
+            "weight": 20446,
+            "height": 18.9,
+            "equipment": [
+                {
+                    "name": "Missiles",
+                    "description": "MAKO, AIM-260, AIM-120, AIM-9X"
+                },
+                {
+                    "name": "Cannons",
+                    "description": "75mm HEAVENPIERCER, 20mm M61A2"
+                }
+            ],
             "galleryImagePaths": [
                 "Hades the Raptor/T.png",
-                "Hades the Raptor/1-1.png",
-                "Hades the Raptor/1-2.png",
-                "Hades the Raptor/1-3.png",
-                "Hades the Raptor/1-4.png",
-                "Hades the Raptor/1-5.png",
-                "Hades the Raptor/1-6.png",
-                "Hades the Raptor/1-7.png"
+                "Hades the Raptor/1.png",
+                "Hades the Raptor/2.png",
+                "Hades the Raptor/3.png",
+                "Hades the Raptor/4.png",
+                "Hades the Raptor/5.png",
+                "Hades the Raptor/6.png",
+                "Hades the Raptor/7.png"
             ],
              "referenceSheetsPath": [
-                "Hades the Raptor/R1.png"
+                "Hades the Raptor/R1.png",
+                "Hades the Raptor/R2.png"
             ]
         },
         {
