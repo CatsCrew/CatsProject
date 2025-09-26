@@ -68,9 +68,9 @@ const filteredCats = $computed(() => {
     const formattedSearchTerm = searchTerm.toLowerCase().trim();
 
     return landcats.filter((cat) => 
-        cat.name.toLowerCase().includes(formattedSearchTerm) ||
-        cat.model.toLowerCase().includes(formattedSearchTerm) || 
-        cat.creator.name.toLowerCase().includes(formattedSearchTerm)
+        cat?.name?.toLowerCase()?.includes(formattedSearchTerm) ||
+        cat?.model?.toLowerCase()?.includes(formattedSearchTerm) || 
+        cat?.creator?.name?.toLowerCase()?.includes(formattedSearchTerm)
     );
 });
 

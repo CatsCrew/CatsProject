@@ -72,9 +72,9 @@ const filteredCats = $computed(() => {
     const formattedSearchTerm = searchTerm.toLowerCase().trim();
 
     return protos.filter((cat) => 
-        cat.name.toLowerCase().includes(formattedSearchTerm) ||
-        cat.model.toLowerCase().includes(formattedSearchTerm) || 
-        cat.creator.name.toLowerCase().includes(formattedSearchTerm)
+        cat?.name?.toLowerCase()?.includes(formattedSearchTerm) ||
+        cat?.model?.toLowerCase()?.includes(formattedSearchTerm) || 
+        cat?.creator?.name?.toLowerCase()?.includes(formattedSearchTerm)
     );
 });
 
