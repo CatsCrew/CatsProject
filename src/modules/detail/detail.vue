@@ -35,6 +35,7 @@ import { useCatsStore } from "@/store";
 import { storeToRefs } from "pinia";
 import { useRouter } from "vue-router";
 import { CatType } from "@/models/cat-type.enum";
+import { RouteNames } from "@/app.routes";
 
 const PrimaryCarousel = defineAsyncComponent(() => import('@/components/primary-carousel/primary-carousel.vue'));
 const GalleryCarousel = defineAsyncComponent(() => import('@/components/gallery-carousel/gallery-carousel.vue'));
@@ -74,6 +75,16 @@ const images = $computed(() => {
 
 
 function onBack() {
-    router$.back();
+    switch (cat.type) {
+        case CatType.Aerocat:
+            router$.push({ name: RouteNames.Aerocats });
+            break;
+        case CatType.Landcat:
+            router$.push({ name: RouteNames.Landcats });
+            break;
+        case CatType.Proto:
+            router$.push({ name: RouteNames.Protos });
+            break;
+    }
 }
 </script>
