@@ -1,4 +1,4 @@
-<style scoped lang="scss" src="./app.scss"></style>
+<style  lang="scss" src="./app.scss"></style>
 
 <template>
   <Header></Header>
@@ -17,22 +17,62 @@
   <Footer></Footer>
   <Toast group="desktop"/>
   <Toast position="bottom-center" group="mobile"/>
+  <Dialog
+    v-model:visible="showWarningModal"
+    :closable="false"
+    :close-on-escape="false"
+    class="warning-dialog"
+    pt:mask:style="backdrop-filter: blur(8px)"
+    :position="position">
+    <template #header>
+      <div class="warning-title">
+        NSFW Warning
+      </div>
+    </template>
+    <div class="warning-modal-content">
+      <span>
+        This species can include a wide range of NSFW and NSFL content such as war machines, disaster relief, rubber textures, and robotics, so it is fundamentally classified as R-18+.
+      </span>
+      <div class="consent-form">
+         <Checkbox
+          v-model="consented"
+          input-id="age-consent"
+          binary>
+        </Checkbox>
+        <label for="age-consent"> I am 18 years or older </label>
+      </div>
+      <div class="actions">
+        <Button
+          :disabled="!consented"
+          @click="finishWarning">Finish</Button>
+      </div>
+    </div>
+  </Dialog>
 </template>
 
 <script setup lang="ts">
 import Header from './components/header/header.vue';
 import Footer from './components/footer/footer.vue';
 import Button from 'primevue/button';
-import { useCatsStore } from './store';
 import Toast from 'primevue/toast';
+import { useCatsStore } from './store';
 import { useRouter } from 'vue-router';
+import { useStorage } from '@vueuse/core';
+import Dialog from 'primevue/dialog';
+import Checkbox from 'primevue/checkbox';
+import { storeToRefs } from 'pinia';
 
 const router$ = useRouter();
 
 const cats$ = useCatsStore();
+const { isMobile } = $(storeToRefs(cats$));
 cats$.initialize();
 
 let showNewVersionOverlay = $ref(false);
+let acceptedWarning = $(useStorage('accepted-warning', false));
+let showWarningModal = $ref(!acceptedWarning);
+let consented = $ref(false);
+let position = $computed(() => isMobile ? "bottom": null);
 
 router$.onError((error) => {
   const isChunkLoadError =
@@ -52,6 +92,11 @@ router$.onError((error) => {
 
 function reloadApp() {
   window.location.reload();
+}
+
+function finishWarning() {
+  acceptedWarning = true;
+  showWarningModal = false;
 }
 </script>
 

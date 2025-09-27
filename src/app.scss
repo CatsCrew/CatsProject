@@ -44,3 +44,38 @@
         }
     }
 }
+
+.warning-modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: pxToRem(16);
+
+    .consent-form {
+        display: flex;
+        flex-direction: row;
+        gap: pxToRem(8);
+    }
+
+    .actions {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.warning-dialog {
+    &.p-dialog {
+        width: 50vw;
+        
+        @media screen and (max-width: $breakpoint-xs) {
+            width: 100%;
+            border-radius: 0;
+            margin: 0 !important;
+            border-top-left-radius: pxToRem(12);
+            border-top-right-radius: pxToRem(12);
+        }
+    }
+
+    .warning-title {
+        font-size: pxToRem(20);
+    }
+}

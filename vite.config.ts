@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vueReactivityTransform from '@vue-macros/reactivity-transform/vite';
 import vueDefineModels from '@vue-macros/define-models/vite';
+import vueDevTools from 'vite-plugin-vue-devtools';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -20,7 +21,8 @@ export default defineConfig({
       }
     }),
     vueReactivityTransform(),
-    vueDefineModels()
+    vueDefineModels(),
+    vueDevTools()
   ],
   resolve: {
     alias: {
