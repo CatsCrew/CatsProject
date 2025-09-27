@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'ZTGatha';
     src: url('/src/assets/fonts/ZTGatha-SemiBold.ttf') format('trueType');
+    font-display: swap; // Helps reduce CLS
 }
 
 html {
