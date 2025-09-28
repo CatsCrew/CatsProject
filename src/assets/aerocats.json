@@ -4168,6 +4168,24 @@
             "description": "A fighter jet belonging to the Vietnam People's Air Force, CdC is one of the core units defending the nation's skies. Strict, confident, and very professional in his duties, yet in everyday life he is friendly and approachable, earning trust from children, comrades, and those around him.",
             "weight": 13364,
             "height": 15,
+            "equipment": [
+                {
+                    "name": "AL-31FP thrusters",
+                    "description": "Detachable AL-31FP thrusters with armor legging"
+                },
+                {
+                    "name": "CnC Collar",
+                    "description": "Communicator Collar"
+                },
+                {
+                    "name": "Visor",
+                    "description": "Visor with IRS&T attached"
+                },
+                {
+                    "name": "GHs-31 30mm",
+                    "description": "Mounted GHs-31 30mm auto canon on the right arm"
+                }
+            ],
             "galleryImagePaths": [
                 "CDC the Kobra/T.png",
                 "CDC the Kobra/1.png"
@@ -4175,6 +4193,32 @@
              "referenceSheetsPath": [
                 "CDC the Kobra/R1.png",
                 "CDC the Kobra/R2.png"
+            ]
+        },
+        {
+            "creator": "Kasichi",
+            "name": "VU-MALE the UAV",
+            "model": "UAV",
+            "copilot": "Foxxo A.I",
+            "faction": "Vietnam People's Air Force",
+            "description": "V.M is an AEROCATS medium-altitude, long-endurance unmanned aerial vehicle (MALE UAV), developed by the Viettold Military Telecommunications Corporation in [Redacted]. He and Foxxo mission is advanced electronic warfare, real-time reconnaissance, and direct strikes with missiles and bomb to establish deterrence.\n\nV.M's personality is calm and composed, always focused on completing missions and delivering the most accurate intelligence to his comrades. Off duty, however, he is friendly and sociable with both his teammates and the civilians around him. Yet, due to his large and heavy frame, he often feels timid—afraid of accidentally harming those nearby, so he usually stays inside his hangar.\n\nIn peacetime, V.M often takes on security reconnaissance missions to help maintain order in the city. He has a peculiar habit: whenever someone waves at him from the ground—be it a fellow soldier or a civilian—he always responds by slightly tilting his wings or simply raising a hand in return, ignoring standard protocol. Maintenance crews have repeatedly checked this behavior, but found no faults in his systems. As for him, he just simply says, 'It’s just basic courtesy.'",
+            "weight": 1000,
+            "height": 8.5,
+            "equipment": [
+                {
+                    "name": "Weapons",
+                    "description": "LMM Martlet missile pods, smart bomb"
+                },
+                {
+                    "name": "Communicator",
+                    "description": "Cased smartphone with Co-Pilot A.I. integrated"
+                }
+            ],
+            "galleryImagePaths": [
+                "CDC the Kobra/T.png"
+            ],
+             "referenceSheetsPath": [
+                "CDC the Kobra/R1.png"
             ]
         },
         {
