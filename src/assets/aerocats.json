@@ -4437,6 +4437,26 @@
              "referenceSheetsPath": [
                 "Willow the Raider/R1.png"
             ]
+        },
+        {
+            "creator": "Kris meows",
+            "name": "Arisaka the Zero",
+            "model": "A6M Zero (OF)",
+            "description": "An old aircraft model retrofitted for modern combat, though it is highly inadvisable now due to the habit Arisaka still holds from past combats (The habit of  ████████████ ████████ ██ ███ ████████ ███ ████ ██████ ███████ ██ '████████'). \n\nThe propeller system also been upgraded to a modern turbo propeller type engine to give Arisaka more aerial performance and better compatibility of a modern fuel type available. ",
+            "faction": "Unknown",
+            "height": 4.2,
+            "equipment": [
+                {
+                    "name": "Weapon",
+                    "description": "Arisaka type 99 rifle with hidden fixed bayonet"
+                }
+            ],
+            "galleryImagePaths": [
+                "Arisaka the Zero/T.png"
+            ],
+             "referenceSheetsPath": [
+                "Arisaka the Zero/R1.png"
+            ]
         }
     ]
 }
