@@ -8,6 +8,7 @@
                 <SelectButton
                     v-model="catType"
                     :options="catOptions"
+                    :allow-empty="false"
                     @change="onLanguageSelected"/>
             </div>
             <div
