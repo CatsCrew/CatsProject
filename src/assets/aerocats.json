@@ -4387,13 +4387,14 @@
             "name": "Tobii the Raptor",
             "model": "F-22A Raptor",
             "description": "a bit shy and socially awkward when trying to chat with others or in a rather public setting, however when in the heat of a mission they're calm and collected. He prefers to follow orders but can play a more leading role in a pinch. \n\nLoves to keep his Marksman Rifle polished and clean and will get very upset if someone tells him that his weapon is 'bad' or 'outdated'",
-            "copilot": "Unknown",
+            "copilot": "Epsilon",
             "faction": "Unknown",
             "galleryImagePaths": [
                 "Tobii the Raptor/T.png"
             ],
              "referenceSheetsPath": [
-                "Tobii the Raptor/R1.png"
+                "Tobii the Raptor/R1.png",
+                "Tobii the Raptor/R2.png"
             ]
         },
         {
