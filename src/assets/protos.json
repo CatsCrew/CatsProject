@@ -293,6 +293,44 @@
              "referenceSheetsPath": [
                 "NF-05AX the Proto P/R1.png"
             ]
+        },
+        {
+            "creator": "TibbsThePooltoyOtter",
+            "name": "Cobalt the Proto 2.0",
+            "model": "2.0",
+            "description": "Aquatic maintenance and survey prototype for machines or C.A.T.S units. When a pipe bursts, or a C.A.T.S unit makes an emergency aquatic landing, this unit is up to the task of locating and repairing anything out in the depths of the sea. ",
+            "faction": "Unknown",
+            "equipment": [
+                {
+                    "name": "Toolbox",
+                    "description": "It’s a toolbox."
+                },
+                {
+                    "name": "Welding mask",
+                    "description": "It’s a welding mask."
+                }
+            ],
+            "galleryImagePaths": [
+                "Cobalt the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Cobalt the Proto 2.0/R1.png"
+            ]
+        },
+        {
+            "creator": "Copycat",
+            "name": "Shnur the Proto 2.0",
+            "model": "2.0",
+            "description": "A spare body with was generally provided for use in times of heavy maintenance of main CATS body or base spare personal requirements.\n\nRecently has been assigned to use his Proto body more by his commanding officer in use for civilian work despite his military origin, his multiple requests to return him back to military purposes was denied.\n\nCurrently has been reported to work as a bartender, a spare base maintenance personal and several other unspecified jobs, possible misinformation from his commanding officer suspected.",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Shnur the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Shnur the Proto 2.0/R1.png"
+            ]
         }
     ]
 }

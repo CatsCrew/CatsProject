@@ -4444,6 +4444,7 @@
             "name": "Arisaka the Zero",
             "model": "A6M Zero (OF)",
             "description": "An old aircraft model retrofitted for modern combat, though it is highly inadvisable now due to the habit Arisaka still holds from past combats (The habit of  ████████████ ████████ ██ ███ ████████ ███ ████ ██████ ███████ ██ '████████'). \n\nThe propeller system also been upgraded to a modern turbo propeller type engine to give Arisaka more aerial performance and better compatibility of a modern fuel type available. ",
+            "copilot": "Unknown",
             "faction": "Unknown",
             "height": 4.2,
             "equipment": [
@@ -4458,6 +4459,22 @@
             ],
              "referenceSheetsPath": [
                 "Arisaka the Zero/R1.png"
+            ]
+        },
+        {
+            "creator": "Jupiter",
+            "name": "King the Morgan",
+            "model": "ADFX-02 Morgan",
+            "description": "A skilled and smug Mercenary who's quiet and very kept to himself, quite antisocial preferring to work alone yet he's very serious at the same time willing to get a job done by any means, being ruthless and striking without emotion\n\nDespite having a massive dislike for AI co-pilots, King actually has one but he forcibly disabled it himself and buried it away in his systems, he's a major rock fan so he personally Paw crafted a Electric Guitar he secretly plays, his tail houses Spare Missles and his IEWS (Integrated Electronic Warfare System) a major reason why his tail is large and heavy, he also has a Reinforced airframe to hold more missles which slows him down more.",
+            "copilot": "Jester",
+            "faction": "Unknown",
+            "weight": 24000,
+            "height": 24,
+            "galleryImagePaths": [
+                "King the Morgan/T.png"
+            ],
+             "referenceSheetsPath": [
+                "King the Morgan/R1.png"
             ]
         }
     ]
