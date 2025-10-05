@@ -126,6 +126,8 @@ onMounted(() => {
       .on('init', toggleDotBtnsActive)
       .on('reInit', toggleDotBtnsActive)
       .on('select', toggleDotBtnsActive);
+
+  emblaApi.reInit();
 });
 
 onUnmounted(() => {

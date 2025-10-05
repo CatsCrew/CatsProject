@@ -72,8 +72,6 @@ const images = $computed(() => {
     return allImages;
 });
 
-
-
 function onBack() {
     if (window.history.length > 1) {
         window.history.back();
