@@ -75,16 +75,20 @@ const images = $computed(() => {
 
 
 function onBack() {
-    switch (cat.type) {
-        case CatType.Aerocat:
-            router$.push({ name: RouteNames.Aerocats });
-            break;
-        case CatType.Landcat:
-            router$.push({ name: RouteNames.Landcats });
-            break;
-        case CatType.Proto:
-            router$.push({ name: RouteNames.Protos });
-            break;
+    if (window.history.length > 1) {
+        window.history.back();
+    } else {
+        switch (cat.type) {
+            case CatType.Aerocat:
+                router$.push({ name: RouteNames.Aerocats });
+                break;
+            case CatType.Landcat:
+                router$.push({ name: RouteNames.Landcats });
+                break;
+            case CatType.Proto:
+                router$.push({ name: RouteNames.Protos });
+                break;
+        }
     }
 }
 </script>
