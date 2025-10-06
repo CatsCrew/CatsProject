@@ -31,10 +31,17 @@
                             :key="image"
                             class="embla__slide"
                             :class="catType">
-                            <Image
-                                :src="image" 
-                                preview
-                                alt="species sheet image"/>
+                            <div class="image-container">
+                                <img
+                                    class="ref-sheet-img"
+                                    alt="species sheet image"
+                                    :src="image"/>
+                                <button
+                                    class="image-overlay"
+                                    @click="onImageClicked(image)">
+                                    <i class="pi pi-icon pi-eye"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,6 +73,11 @@
                 </div>
             </div>
         </div>
+        <Image
+            :src="selectedImage" 
+            preview
+            alt="cat image"
+            ref="previewImg" />
     </div>
 </template>
 
@@ -92,6 +104,7 @@ const languageOptions = $ref([Language.English, Language.Korean, Language.Japane
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue({}, [ClassNames()]));
 const dotNodes = $(useTemplateRef('dotNodes'));
+const previewImg = $(useTemplateRef('previewImg'));
 
 let catType = $ref(CatType.Aerocat);
 let language = $ref(Language.English);
@@ -99,6 +112,7 @@ let canScrollPrev = $ref(false);
 let canScrollNext = $ref(false);
 let prevCatType = $ref(null);
 let images = $ref([]);
+let selectedImage = $ref('');
 
 function hasLanguageSupport(catType: CatType) {
     return Object.values(speciesSheets[catType])?.length > 1;
@@ -120,15 +134,24 @@ function updateButtonVisibility() {
 }
 
 function setupKeyEvents(event: KeyboardEvent) {
-    if (!emblaApi) 
+    if (previewImg.previewVisible) {
+        const currentIndex = images.findIndex(i => i === selectedImage);
+        const dir = event.code === 'ArrowLeft' ? -1 : 1;
+        const newIndex = ((currentIndex + dir) % images.length + images.length) % images.length;
+        selectedImage = images[newIndex];
+        emblaApi.scrollTo(newIndex);
+    } else {
+        if (!emblaApi) 
         return;
-    switch (event.code) {
-    case "ArrowLeft":
-        emblaApi.scrollPrev();
-        break;
-    case "ArrowRight":
-        emblaApi.scrollNext();
-        break;
+
+        switch (event.code) {
+        case "ArrowLeft":
+            scrollPrev();
+            break;
+        case "ArrowRight":
+            scrollNext();
+            break;
+        }
     }
 }
 
@@ -165,6 +188,12 @@ function onLanguageSelected(): void {
     images = speciesSheetByCatAndLanguage(catType, language);
 
     updateRouteQuery();
+}
+
+
+function onImageClicked(image: string) {
+  selectedImage = image;
+  previewImg.onImageClick();
 }
 
 onMounted(() => {
