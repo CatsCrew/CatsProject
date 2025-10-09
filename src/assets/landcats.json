@@ -454,17 +454,6 @@
         },
         {
             "creator": "YuuStrand_69",
-            "name": "Fenrir the Vidar",
-            "model": "K9 Thunder - Vidar",
-            "galleryImagePaths": [
-                "Fenrir the Vidar/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Fenrir the Vidar/R1.png"
-            ]
-        },
-        {
-            "creator": "YuuStrand_69",
             "name": "Lima the Gepard",
             "model": "Flakpanzer Gepard",
             "galleryImagePaths": [
