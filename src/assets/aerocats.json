@@ -318,6 +318,7 @@
             "faction": "USA",
             "weight": 19659,
             "height": 18.9,
+            "official": true,
             "equipment": [
                 {
                     "name": "Missiles",
@@ -4373,10 +4374,15 @@
             "model": "JAS-39 Gripen",
             "description": "Argalia is a quiet and reserved unit, rarely ever starting conversations, but highly enjoys the company of others. He may at times seem absent minded, as he is always calculating possibilities and analyzing his surroundings.\n\nAfter he was sent to a pdg farm elimination mission in the arctic, Argalia became MIA without any means of detection, Returning only a year later as a SUIT unit. While most of his body was repaired, he refused any attempt to fix his HOLO's screen",
             "copilot": "Unknown",
-            "faction": "Unknown",
+            "faction": "Pawb AB",
+            "weight": 2340,
+            "height": 3.2,
             "galleryImagePaths": [
                 "Argalia the Gripen/T.jpg",
-                "Argalia the Gripen/1.jpg"
+                "Argalia the Gripen/1.jpg",
+                "Argalia the Gripen/2.png",
+                "Argalia the Gripen/3.png",
+                "Argalia the Gripen/4.png"
             ],
              "referenceSheetsPath": [
                 "Argalia the Gripen/R1.jpg"
