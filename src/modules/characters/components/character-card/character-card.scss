@@ -47,6 +47,7 @@
     .image-container {
       width: 100%;
       height: pxToRem(200);
+      position: relative;
 
       @media screen and (max-width: $breakpoint-xs) {
         width: pxToRem(180);
@@ -56,6 +57,12 @@
         width: 100% !important;
         height: 100% !important;
         z-index: 20;
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: pxToRem(4);
+        right: pxToRem(4);
       }
     }
 

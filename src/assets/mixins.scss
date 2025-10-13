@@ -5,6 +5,10 @@
     @return math.div($size, 16) * 1rem;
 }
 
+@function apply-opacity($color, $opacity) {
+  @return rgba($color, $opacity);
+}
+
 @mixin gradient-text($gradient) {
     background: $gradient;
     -webkit-background-clip: text;

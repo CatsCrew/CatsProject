@@ -10,6 +10,7 @@ import 'primeicons/primeicons.css';
 import ToastService from 'primevue/toastservice';
 import { Chart as ChartJS } from 'chart.js';
 import { VennDiagramController, ArcSlice } from 'chartjs-chart-venn';
+import Tooltip from 'primevue/tooltip';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -40,4 +41,5 @@ createApp(App)
       },
     },
   })
+  .directive('tooltip', Tooltip)
   .mount("#app");

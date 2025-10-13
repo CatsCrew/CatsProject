@@ -36,7 +36,8 @@ export class UiMapper {
             description: cat.description,
             weight: UnitHelper.formatWeightForLocale(cat.weight, navigator.language),
             height: UnitHelper.formatHeightForLocale(cat.height, navigator.language, false),
-            equipment: cat.equipment
+            equipment: cat.equipment,
+            outdated: cat.outdated
         };
     }
 

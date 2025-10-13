@@ -17,4 +17,5 @@ export interface Cat {
     referenceUrls?: string[];
     galleryUrls?: string[];
     linkedCats?: Cat[];
+    outdated?: boolean;
 }

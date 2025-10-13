@@ -1,0 +1,8 @@
+@use "@assets/mixins.scss" as *;
+@use '@assets/variables.scss' as *;
+
+@media screen and (max-width: $breakpoint-xs) {
+    .custom-tooltip {
+        display: none !important;
+    }
+}

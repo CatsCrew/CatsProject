@@ -51,19 +51,22 @@
             padding-bottom: pxToRem(32);
         }
 
-        .cards-move,
-        .cards-enter-active,
-        .cards-leave-active {
-            transition: all 0.5s ease;
-        }
+        .outdated-warning {
+            background-color: apply-opacity($background-secondary, 0.75);
+            border-radius: pxToRem(8);
+            padding: pxToRem(4);
+            border: pxToRem(1) solid white;
+            height: pxToRem(56);
+            transition: all 0.4s ease;
 
-        .cards-enter-from,
-        .cards-leave-to {
-            opacity: 0;
-        }
+            &:hover {
+                border-color: yellow;
+            }
 
-        .cards-leave-active {
-            position: absolute;
+            .outdated-img {
+                width: pxToRem(48);
+                height: pxToRem(48);
+            }
         }
 
         :deep(.card-body) {

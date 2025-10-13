@@ -11,4 +11,5 @@ export interface Cat {
     equipment?: Equipment[];
     referenceSheetsPath?: string[];
     galleryImagePaths?: string[];
+    outdated?: boolean;
 }

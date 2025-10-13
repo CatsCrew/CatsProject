@@ -45,6 +45,9 @@
                                 :data-src="cat.thumbnail"
                                 :data-loading="loading"
                                 @load="onImageLoad"/>
+                            <div class="overlay">
+                                <slot name="overlay-content"></slot>
+                            </div>
                         </div>
                     </template>
                     <template #title>

@@ -17,6 +17,18 @@
                 :key="cat.name"
                 :cat="cat"
                 :hoverable="!isHandheldDevice">
+                <template
+                    v-if="cat.outdated"
+                    #overlay-content>
+                    <Tooltip :tooltip-text="tooltipText">
+                        <div
+                            class="outdated-warning">
+                            <img
+                                class="outdated-img" 
+                                :src="OutdatedLandcatLogo"/>
+                        </div>
+                    </Tooltip>
+                </template>
             </CharacterCard>
             <CharacterCard
                 v-if="!searchTerm && pagedCats.length === filteredCats.length"
@@ -45,8 +57,10 @@ import { Cat } from '@/models/cat.model';
 import LandcatPlaceholder from '@assets/images/landcat_placeholder.png';
 import ProtoWhat from '@assets/images/proto-what.png';
 import { CatType } from '@/models/cat-type.enum';
+import OutdatedLandcatLogo from '@assets/images/outdated_logo_lc.webp';
 
 const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/empty-state.vue'));
+const Tooltip = defineAsyncComponent(() => import('@/components/tooltip/tooltip.vue'));
 
 const cats$ = useCatsStore();
 const { landcats, searchTerms, pageRecord } = $(storeToRefs(cats$));
@@ -54,6 +68,8 @@ const { landcats, searchTerms, pageRecord } = $(storeToRefs(cats$));
 const isHandheldDevice = computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
 const PAGE_SIZE = 24;
 const searchTerm = $computed(() => searchTerms[CatType.Landcat]);
+
+const tooltipText = 'This character was made under the old registration standards, and may not reflect our current rules.';
 
 const placeholderCat = $computed<Cat>(() => ({
     model: `Your Landcat here!`,
