@@ -190,6 +190,7 @@ const events = [
     { label: 'Lore short story collection released', date: '06/26/2025'},
 
     // August 2025
+    { label: 'PROTO registration system', date: '08/13/2025'},
     { label: 'New website officially launched', date: '08/18/2025'},
 ];
 
