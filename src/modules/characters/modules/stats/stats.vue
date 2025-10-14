@@ -185,7 +185,7 @@ const events = [
 
     // June 2025
 
-    { label: 'Lore released along with Welcome and Advanced Guides', date: '06/15/25'},
+    { label: 'Lore released along with Welcome and Advanced Guides', date: '06/15/2025'},
     { label: 'PROTO 2.0 and industrial models revealed', date: '06/16/2025'},
     { label: 'Lore short story collection released', date: '06/26/2025'},
 
