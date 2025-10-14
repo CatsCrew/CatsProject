@@ -12,6 +12,20 @@
                 prompt="~">
             </Terminal>
             <template v-else>
+                <div class="timeline-container">
+                    <div> Historical Timeline </div>
+                    <Timeline
+                        :value="events"
+                        layout="horizontal"
+                        align="top">
+                        <template #opposite="slotProps">
+                            <span class="date"> {{ slotProps.item.date }} </span>
+                        </template>
+                        <template #content="slotProps">
+                            {{ slotProps.item.label }}
+                        </template>
+                    </Timeline>
+                </div>
                 <div class="composition-container">
                     <Card>
                         <template #content>
@@ -113,6 +127,7 @@ import Terminal from 'primevue/terminal';
 import TerminalService from 'primevue/terminalservice';
 import Card from '@/components/card/card.vue';
 import Chart from 'primevue/chart';
+import Timeline from 'primevue/timeline';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import { gsap } from 'gsap';
@@ -121,7 +136,7 @@ import { extractSets } from 'chartjs-chart-venn';
 const cats$ = useCatsStore();
 const { cats, aerocats, landcats, protos } = $(storeToRefs(cats$));
 
-let loggedIn = $ref(false);
+let loggedIn = $ref(true);
 let showStats = $ref(false);
 
 const commandHandler = (text: string) => {
@@ -156,6 +171,27 @@ const commandHandler = (text: string) => {
     
     TerminalService.emit('response', response);
 };
+
+// { label: '', date: ''},
+const events = [
+    // January 2025
+    { label: 'Discord server officially opened, species semi-open launch, WIX site activated', date: '01/10/2025'},
+    { label: 'AEROCATS & LANDCATS registration system', date: '01/14/2025'},
+    { label: 'Proto 1.0 Type P revealed', date: '01/23/2025'},
+
+    // March 2025
+    { label: 'LANDCATS management transferred to Presto; 2nd revision sheets for AEROCATS & LANDCATS released', date: '03/15/2025'},
+    { label: 'Official CATS Bluesky news channel opened', date: '03/19/2025'},
+
+    // June 2025
+
+    { label: 'Lore released along with Welcome and Advanced Guides', date: '06/15/25'},
+    { label: 'PROTO 2.0 and industrial models revealed', date: '06/16/2025'},
+    { label: 'Lore short story collection released', date: '06/26/2025'},
+
+    // August 2025
+    { label: 'New website officially launched', date: '08/18/2025'},
+];
 
 function loadStats() {
     gsap.to('.cats-count', {

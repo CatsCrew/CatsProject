@@ -21,6 +21,12 @@
     gap: pxToRem(16);
     margin-top: pxToRem(16);
 
+    .timeline-container {
+      width: 100%;
+      max-width: 100vw;
+      overflow-x: auto;
+    }
+
     .composition-container {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -68,6 +74,24 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: pxToRem(16);
+      }
+    }
+
+    .date {
+      color: $text-secondary;
+    }
+
+    :deep(.p-timeline) {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start; 
+      min-width: fit-content;
+
+      .p-timeline-event {
+        .p-timeline-event-content {
+          padding-right: pxToRem(16);
+          max-width: pxToRem(350);
+        }
       }
     }
   }
