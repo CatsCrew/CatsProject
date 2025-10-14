@@ -136,7 +136,7 @@ import { extractSets } from 'chartjs-chart-venn';
 const cats$ = useCatsStore();
 const { cats, aerocats, landcats, protos } = $(storeToRefs(cats$));
 
-let loggedIn = $ref(true);
+let loggedIn = $ref(false);
 let showStats = $ref(false);
 
 const commandHandler = (text: string) => {
