@@ -1849,17 +1849,6 @@
             ]
         },
         {
-            "creator": "NightRye_",
-            "name": "Fuches the Striker MGS",
-            "model": "M1128 Striker Mobile gun system",
-            "galleryImagePaths": [
-                "Fuches the Striker MGS/T.png"
-            ],
-            "referenceSheetsPath": [
-                "Fuches the Striker MGS/R1.png"
-            ]
-        },
-        {
             "creator": "toastedanxiety",
             "name": "Cayden the EMBT",
             "model": "European Main Battle Tank",
