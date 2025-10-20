@@ -1294,7 +1294,9 @@
             "crewmate": "Unknown",
             "faction": "Sweden",
             "galleryImagePaths": [
-                "Aura the Mjölner/T.png"
+                "Aura the Mjölner/T.png",
+                "Aura the Mjölner/1.png",
+                "Aura the Mjölner/2.png"
             ],
             "referenceSheetsPath": [
                 "Aura the Mjölner/R1.png"
