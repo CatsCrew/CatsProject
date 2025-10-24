@@ -100,7 +100,7 @@ const router$ = useRouter();
 const route$ = useRoute();
 
 const catOptions = $ref(Object.values(CatType));
-const languageOptions = $ref([Language.English, Language.Korean, Language.Japanese]);
+const languageOptions = $ref([Language.English, Language.Korean]);
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue({}, [ClassNames()]));
 const dotNodes = $(useTemplateRef('dotNodes'));
