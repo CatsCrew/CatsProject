@@ -16,7 +16,7 @@ export class UrlHelper {
     }
 
     static buildSpeciesSheetPath(type: CatType, language: string, name: string): string {
-        return `${this.CLOUDFRONT_URL}/species_sheets/${this.getCatFolderFromType(type)}/${language}/${name}`;
+        return `${this.CLOUDFRONT_URL}/species_reference_sheets/${this.getCatFolderFromType(type)}/${language}/${name}`;
     }
 
     static getCatFolderFromType(type: CatType): string {
