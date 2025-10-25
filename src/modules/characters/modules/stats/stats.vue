@@ -194,7 +194,7 @@ const events = [
     { label: 'New website officially launched', date: '08/18/2025' },
 
     // October 2025
-    { label: 'Species Sheet Rework', date: '10/24/2025' }
+    { label: 'AEROCATS & LANDCATS Species Rework', date: '10/24/2025' }
 ];
 
 function loadStats() {
