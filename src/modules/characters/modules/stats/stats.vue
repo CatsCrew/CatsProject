@@ -175,23 +175,26 @@ const commandHandler = (text: string) => {
 // { label: '', date: ''},
 const events = [
     // January 2025
-    { label: 'Discord server officially opened, species semi-open launch, WIX site activated', date: '01/10/2025'},
-    { label: 'AEROCATS & LANDCATS registration system', date: '01/14/2025'},
-    { label: 'Proto 1.0 Type P revealed', date: '01/23/2025'},
+    { label: 'Discord server officially opened, species semi-open launch, WIX site activated', date: '01/10/2025' },
+    { label: 'AEROCATS & LANDCATS registration system', date: '01/14/2025' },
+    { label: 'Proto 1.0 Type P revealed', date: '01/23/2025' },
 
     // March 2025
-    { label: 'LANDCATS management transferred to Presto; 2nd revision sheets for AEROCATS & LANDCATS released', date: '03/15/2025'},
-    { label: 'Official CATS Bluesky news channel opened', date: '03/19/2025'},
+    { label: 'LANDCATS management transferred to Presto; 2nd revision sheets for AEROCATS & LANDCATS released', date: '03/15/2025' },
+    { label: 'Official CATS Bluesky news channel opened', date: '03/19/2025' },
 
     // June 2025
 
-    { label: 'Lore released along with Welcome and Advanced Guides', date: '06/15/2025'},
-    { label: 'PROTO 2.0 and industrial models revealed', date: '06/16/2025'},
-    { label: 'Lore short story collection released', date: '06/26/2025'},
+    { label: 'Lore released along with Welcome and Advanced Guides', date: '06/15/2025' },
+    { label: 'PROTO 2.0 and industrial models revealed', date: '06/16/2025' },
+    { label: 'Lore short story collection released', date: '06/26/2025' },
 
     // August 2025
-    { label: 'PROTO registration system', date: '08/13/2025'},
-    { label: 'New website officially launched', date: '08/18/2025'},
+    { label: 'PROTO registration system', date: '08/13/2025' },
+    { label: 'New website officially launched', date: '08/18/2025' },
+
+    // October 2025
+    { label: 'Species Sheet Rework', date: '10/24/2025' }
 ];
 
 function loadStats() {
