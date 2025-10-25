@@ -1044,8 +1044,8 @@
     },
     {
       "creator": "Kiote",
-      "name": "Raiko the Latte",
-      "model": "P-1000 Latte",
+      "name": "Raiko the Ratte",
+      "model": "P-1000 Ratte",
       "galleryImagePaths": [
         "Raiko the Latte/T.png"
       ],
@@ -1396,7 +1396,9 @@
       "crewmate": "Unknown",
       "faction": "Sweden",
       "galleryImagePaths": [
-        "Aura the Mjölner/T.png"
+        "Aura the Mjölner/T.png",
+        "Aura the Mjölner/1.png",
+        "Aura the Mjölner/2.png"
       ],
       "referenceSheetsPath": [
         "Aura the Mjölner/R1.png"
@@ -1429,13 +1431,13 @@
     },
     {
       "creator": "Null",
-      "name": "Tradis the Blazer",
+      "name": "Felo the Blazer",
       "model": "Chevrolet Blazer EV Police Pursuit Vehicle",
       "galleryImagePaths": [
-        "Tradis the Blazer/T.png"
+        "Felo the Blazer/T.png"
       ],
       "referenceSheetsPath": [
-        "Tradis the Blazer/R1.jpg"
+        "Felo the Blazer/R1.jpg"
       ],
       "outdated": true
     },
@@ -1990,18 +1992,6 @@
       ],
       "referenceSheetsPath": [
         "Mudcat the Lilla Stridsvagn/R1.png"
-      ],
-      "outdated": true
-    },
-    {
-      "creator": "NightRye_",
-      "name": "Fuches the Striker MGS",
-      "model": "M1128 Striker Mobile gun system",
-      "galleryImagePaths": [
-        "Fuches the Striker MGS/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Fuches the Striker MGS/R1.png"
       ],
       "outdated": true
     },
