@@ -3853,18 +3853,6 @@
       "outdated": true
     },
     {
-      "creator": "Theta_Line",
-      "name": "Mercury the Orion",
-      "model": "WP-3D Orion",
-      "galleryImagePaths": [
-        "Mercury the Orion/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Mercury the Orion/R1.png"
-      ],
-      "outdated": true
-    },
-    {
       "creator": "Typhoonflame",
       "name": "Xanthia the Dragonlady",
       "model": "U-2 Dragon lady",
