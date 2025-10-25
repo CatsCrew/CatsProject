@@ -208,6 +208,7 @@ onMounted(() => {
 
     if (validCatTypes.includes(queryCat as CatType)) {
         catType = queryCat as CatType;
+        prevCatType = catType;
     }
     if (validLanguages.includes(queryLang as Language)) {
         language = queryLang as Language;
