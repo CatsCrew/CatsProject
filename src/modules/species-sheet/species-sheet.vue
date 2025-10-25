@@ -100,7 +100,7 @@ const router$ = useRouter();
 const route$ = useRoute();
 
 const catOptions = $ref(Object.values(CatType));
-const languageOptions = $ref([Language.English, Language.Korean, Language.Japanese]);
+const languageOptions = $ref([Language.English, Language.Korean]);
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue({}, [ClassNames()]));
 const dotNodes = $(useTemplateRef('dotNodes'));
@@ -208,6 +208,7 @@ onMounted(() => {
 
     if (validCatTypes.includes(queryCat as CatType)) {
         catType = queryCat as CatType;
+        prevCatType = catType;
     }
     if (validLanguages.includes(queryLang as Language)) {
         language = queryLang as Language;
