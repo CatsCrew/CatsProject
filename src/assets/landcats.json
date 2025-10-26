@@ -1072,18 +1072,6 @@
     },
     {
       "creator": "Kiote",
-      "name": "Kira the Gustav Gun",
-      "model": "80 cm Kanone (E)",
-      "galleryImagePaths": [
-        "Kira the Gustav Gun/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Kira the Gustav Gun/R1.png"
-      ],
-      "outdated": true
-    },
-    {
-      "creator": "Kiote",
       "name": "Milo the Spyder",
       "model": "SPYDER AIO",
       "galleryImagePaths": [
