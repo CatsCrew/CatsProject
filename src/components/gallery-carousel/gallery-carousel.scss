@@ -24,15 +24,37 @@
           width: 100%;
         }
 
-        .p-image {
-          :deep(.cat-ref-img) {
+        .image-container {
+          position: relative;
+
+          .cat-ref-img {
             width: 100%;
             height: pxToRem(343);
             object-fit: contain;
-            display: none;
+            opacity: 0;
 
             &[data-loading="false"] {
-                display: block;
+              opacity: 1;
+            }
+          }
+
+          .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            padding: 0;
+            opacity: 0;
+
+            &:hover {
+              opacity: 1;
+              cursor: pointer;
             }
           }
         }

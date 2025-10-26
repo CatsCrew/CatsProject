@@ -11,13 +11,19 @@
               height="343px">
             </Skeleton>
             <DeferredContent>
-              <Image 
-                :src="image" 
-                preview
-                alt="cat image" 
-                imageClass="cat-ref-img"
-                :data-loading="imageLoadingStates[index]"
-                @load="onImageLoaded(index)"/>
+              <div class="image-container">
+                <img 
+                  :src="image" 
+                  alt="cat image" 
+                  class="cat-ref-img"
+                  :data-loading="imageLoadingStates[index]"
+                  @load="onImageLoaded(index)"/>
+                <button
+                    class="image-overlay"
+                    @click="onImageClicked(image)">
+                    <i class="pi pi-icon pi-eye"></i>
+                </button>
+              </div>
             </DeferredContent>
         </div>
       </div>
@@ -48,15 +54,21 @@
         </button>
       </div>
     </div>
+    <ImageViewer
+      v-if="selectedImage"
+      :src="selectedImage" 
+      alt="cat image"
+      @close="onViewerClosed" />
   </div>
 </template>
 
 <script setup lang="ts">
 import emblaCarouselVue from "embla-carousel-vue";
-import { onMounted, onUnmounted, useTemplateRef } from "vue";
-import Image from "primevue/image";
+import { onMounted, onUnmounted, useTemplateRef, defineAsyncComponent } from "vue";
 import DeferredContent from 'primevue/deferredcontent';
 import Skeleton from 'primevue/skeleton';
+
+const ImageViewer = defineAsyncComponent(() => import('@/components/image-viewer/image-viewer.vue'));
 
 const { images } = defineProps<{
   images?: string[];
@@ -69,6 +81,7 @@ const dotNodes = $(useTemplateRef('dotNodes'));
 
 let canScrollPrev = $ref(false);
 let canScrollNext = $ref(false);
+let selectedImage = $ref('');
 
 function scrollNext() {
   emblaApi?.scrollNext();
@@ -111,6 +124,14 @@ function toggleDotBtnsActive() {
 
 function onImageLoaded(index: number) {
   imageLoadingStates[index] = false;
+}
+
+function onImageClicked(image: string) {
+  selectedImage = image;
+}
+
+function onViewerClosed() {
+    selectedImage = null;
 }
 
 onMounted(() => {

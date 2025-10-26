@@ -77,7 +77,6 @@
             v-if="selectedImage"
             :src="selectedImage"
             alt="Selected Cat Image"
-            ref="imageViewer"
             @close="onViewerClosed" />
     </div>
 </template>
@@ -106,7 +105,6 @@ const languageOptions = $ref([Language.English, Language.Korean]);
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue({}, [ClassNames()]));
 const dotNodes = $(useTemplateRef('dotNodes'));
-const imageViewer = $(useTemplateRef('imageViewer'));
 
 let catType = $ref(CatType.Aerocat);
 let language = $ref(Language.English);
@@ -191,7 +189,6 @@ function onLanguageSelected(): void {
 
     updateRouteQuery();
 }
-
 
 function onImageClicked(image: string) {
     selectedImage = image;
