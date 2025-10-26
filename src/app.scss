@@ -99,7 +99,7 @@
 
 .viewer-container {
     .viewer-button {
-        background: rgba(255, 255, 255, 0.1);
+        background: apply-opacity(white, 0.1);
         backdrop-filter: blur(pxToRem(8));
         right: pxToRem(16);
         top: pxToRem(16);
