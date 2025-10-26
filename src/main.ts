@@ -7,6 +7,7 @@ import { routes } from "./app.routes";
 import { createPinia } from 'pinia';
 import './main.scss';
 import 'primeicons/primeicons.css';
+import 'viewerjs/dist/viewer.css';
 import ToastService from 'primevue/toastservice';
 import { Chart as ChartJS } from 'chart.js';
 import { VennDiagramController, ArcSlice } from 'chartjs-chart-venn';

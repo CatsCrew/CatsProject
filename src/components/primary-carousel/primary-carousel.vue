@@ -61,21 +61,22 @@
         </button>
       </div>
     </div>
-    <Image
+    <ImageViewer
+      v-if="selectedImage"
       :src="selectedImage" 
-      preview
       alt="cat image"
-      ref="previewImg"/>
+      @close="onViewerClosed" />
   </div>
 </template>
 
 <script setup lang="ts">
 import emblaCarouselVue from "embla-carousel-vue";
-import { onMounted, onUnmounted, useTemplateRef, nextTick } from "vue";
-import Image from "primevue/image";
+import { onMounted, onUnmounted, useTemplateRef, nextTick, defineAsyncComponent } from "vue";
 import Skeleton from 'primevue/skeleton';
 import { CarouselSlide } from "@/models/carousel-slide.model";
 import { DeferHelper } from "@/helper/defer.helper";
+
+const ImageViewer = defineAsyncComponent(() => import('@/components/image-viewer/image-viewer.vue'));
 
 const { images } = defineProps<{
   images?: string[];
@@ -91,7 +92,6 @@ const [emblaRef, emblaApi] = $(emblaCarouselVue());
 
 const dotNodes = $(useTemplateRef('dotNodes'));
 const slideRefs = $(useTemplateRef('emblaSlides'));
-const previewImg = $(useTemplateRef('previewImg'));
 
 let canScrollPrev = $ref(false);
 let canScrollNext = $ref(false);
@@ -118,7 +118,7 @@ function updateButtonVisibility() {
 }
 
 function setupKeyEvents(event: KeyboardEvent) {
-  if (previewImg.previewVisible) {
+  if (selectedImage) {
     const currentIndex = images.findIndex(i => i === selectedImage);
     const dir = event.code === 'ArrowLeft' ? -1 : 1;
     const newIndex = ((currentIndex + dir) % images.length + images.length) % images.length;
@@ -159,7 +159,10 @@ function onImageLoaded(src: string) {
 
 function onImageClicked(image: string) {
   selectedImage = image;
-  previewImg.onImageClick();
+}
+
+function onViewerClosed() {
+    selectedImage = null;
 }
 
 onMounted(() => {

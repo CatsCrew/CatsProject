@@ -96,3 +96,20 @@
         background-color: apply-opacity($background-secondary, 0.8);
     }
 }
+
+.viewer-container {
+    .viewer-button {
+        background: apply-opacity(white, 0.1);
+        backdrop-filter: blur(pxToRem(8));
+        right: pxToRem(16);
+        top: pxToRem(16);
+        height: pxToRem(48);
+        width: pxToRem(48);
+
+        &::before {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

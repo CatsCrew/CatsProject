@@ -24,16 +24,14 @@
           width: 100%;
         }
 
-        .p-image {
-          :deep(.cat-ref-img) {
-            width: 100%;
-            height: pxToRem(343);
-            object-fit: contain;
-            display: none;
+        .cat-ref-img {
+          width: 100%;
+          height: pxToRem(343);
+          object-fit: contain;
+          opacity: 0;
 
-            &[data-loading="false"] {
-                display: block;
-            }
+          &[data-loading="false"] {
+            opacity: 1;
           }
         }
       }

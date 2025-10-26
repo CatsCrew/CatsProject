@@ -35,7 +35,8 @@
                                 <img
                                     class="ref-sheet-img"
                                     alt="species sheet image"
-                                    :src="image"/>
+                                    :src="image"
+                                    @click="onImageClicked(image)"/>
                                 <button
                                     class="image-overlay"
                                     @click="onImageClicked(image)">
@@ -73,25 +74,26 @@
                 </div>
             </div>
         </div>
-        <Image
-            :src="selectedImage" 
-            preview
-            alt="cat image"
-            ref="previewImg" />
+        <ImageViewer
+            v-if="selectedImage"
+            :src="selectedImage"
+            alt="Selected Cat Image"
+            @close="onViewerClosed" />
     </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted, useTemplateRef } from 'vue';
+import { onMounted, onUnmounted, useTemplateRef, defineAsyncComponent } from 'vue';
 import SelectButton from 'primevue/selectbutton';
 import { Language } from '@models/language.enum';
 import { CatType } from '@/models/cat-type.enum';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import emblaCarouselVue from "embla-carousel-vue";
-import Image from "primevue/image";
 import ClassNames from 'embla-carousel-class-names';
 import { useRoute, useRouter } from 'vue-router';
+
+const ImageViewer = defineAsyncComponent(() => import('@/components/image-viewer/image-viewer.vue'));
 
 const cat$ = useCatsStore();
 const { speciesSheets, speciesSheetByCatAndLanguage } = $(storeToRefs(cat$));
@@ -104,7 +106,6 @@ const languageOptions = $ref([Language.English, Language.Korean]);
 
 const [emblaRef, emblaApi] = $(emblaCarouselVue({}, [ClassNames()]));
 const dotNodes = $(useTemplateRef('dotNodes'));
-const previewImg = $(useTemplateRef('previewImg'));
 
 let catType = $ref(CatType.Aerocat);
 let language = $ref(Language.English);
@@ -134,7 +135,7 @@ function updateButtonVisibility() {
 }
 
 function setupKeyEvents(event: KeyboardEvent) {
-    if (previewImg.previewVisible) {
+    if (selectedImage) {
         const currentIndex = images.findIndex(i => i === selectedImage);
         const dir = event.code === 'ArrowLeft' ? -1 : 1;
         const newIndex = ((currentIndex + dir) % images.length + images.length) % images.length;
@@ -190,10 +191,12 @@ function onLanguageSelected(): void {
     updateRouteQuery();
 }
 
-
 function onImageClicked(image: string) {
-  selectedImage = image;
-  previewImg.onImageClick();
+    selectedImage = image;
+}
+
+function onViewerClosed() {
+    selectedImage = null;
 }
 
 onMounted(() => {
