@@ -11,19 +11,13 @@
               height="343px">
             </Skeleton>
             <DeferredContent>
-              <div class="image-container">
-                <img 
-                  :src="image" 
-                  alt="cat image" 
-                  class="cat-ref-img"
-                  :data-loading="imageLoadingStates[index]"
-                  @load="onImageLoaded(index)"/>
-                <button
-                    class="image-overlay"
-                    @click="onImageClicked(image)">
-                    <i class="pi pi-icon pi-eye"></i>
-                </button>
-              </div>
+              <img 
+                :src="image" 
+                alt="cat image" 
+                class="cat-ref-img"
+                :data-loading="imageLoadingStates[index]"
+                @load="onImageLoaded(index)"
+                @click="onImageClicked(image)"/>
             </DeferredContent>
         </div>
       </div>

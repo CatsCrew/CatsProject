@@ -24,38 +24,14 @@
           width: 100%;
         }
 
-        .image-container {
-          position: relative;
+        .cat-ref-img {
+          width: 100%;
+          height: pxToRem(343);
+          object-fit: contain;
+          opacity: 0;
 
-          .cat-ref-img {
-            width: 100%;
-            height: pxToRem(343);
-            object-fit: contain;
-            opacity: 0;
-
-            &[data-loading="false"] {
-              opacity: 1;
-            }
-          }
-
-          .image-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: none;
-            padding: 0;
-            opacity: 0;
-
-            &:hover {
-              opacity: 1;
-              cursor: pointer;
-            }
+          &[data-loading="false"] {
+            opacity: 1;
           }
         }
       }
