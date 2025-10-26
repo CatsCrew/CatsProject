@@ -1,4 +1,4 @@
-<style  lang="scss" src="./app.scss"></style>
+<style lang="scss" src="./app.scss"></style>
 
 <template>
   <Header></Header>
