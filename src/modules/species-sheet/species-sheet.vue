@@ -35,7 +35,8 @@
                                 <img
                                     class="ref-sheet-img"
                                     alt="species sheet image"
-                                    :src="image"/>
+                                    :src="image"
+                                    @click="onImageClicked(image)"/>
                                 <button
                                     class="image-overlay"
                                     @click="onImageClicked(image)">
