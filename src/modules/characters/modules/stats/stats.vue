@@ -139,7 +139,7 @@ const { cats, aerocats, landcats, protos } = $(storeToRefs(cats$));
 let loggedIn = $ref(false);
 let showStats = $ref(false);
 
-const commandHandler = (text: string) => {
+function commandHandler(text: string) {
     let response = "";
     let argsIndex = text.indexOf(' ');
     let command = argsIndex !== -1 ? text.substring(0, argsIndex) : text;
@@ -172,7 +172,7 @@ const commandHandler = (text: string) => {
     TerminalService.emit('response', response);
 };
 
-// { label: '', date: ''},
+// { label: '', date: '' },
 const events = [
     // January 2025
     { label: 'Discord server officially opened, species semi-open launch, WIX site activated', date: '01/10/2025' },

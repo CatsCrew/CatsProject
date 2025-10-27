@@ -6,7 +6,7 @@
             v-for="loreDocument, index in loreDocuments"
             :key="index"
             class="lore-document">
-            <Card>
+            <Card :class="{ 'disabled': loreDocument.disabled }">
                 <template #title>
                     <div class="lore-title">
                         {{ loreDocument.title }}
