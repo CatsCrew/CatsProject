@@ -4836,6 +4836,23 @@
     },
     {
       "creator": "KandyKatz! (Barrier)",
+      "name": "Vanta the Blackbird",
+      "model": "SR-71 Blackbird",
+      "description": "She’s quiet and commanding most days, if you get her to crack a smile because of a joke be proud of it.",
+      "copilot": false,
+      "faction": "Unknown",
+      "weight": 48000,
+      "height": 7.9,
+      "galleryImagePaths": [
+        "Vanta the Blackbird/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Vanta the Blackbird/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "KandyKatz! (Barrier)",
       "name": "Glint the Typhoon",
       "model": "EF-2000 Eurofighter typhoon",
       "description": "he’s extremely egotistical. He loves taking care of himself and his looks. \n\nWhen in the field he’s a trustworthy guy always trying to ease tensions with jokes. When on base, you can find him cleaning smudges and soot…At all times. He always has to be shiny.",
