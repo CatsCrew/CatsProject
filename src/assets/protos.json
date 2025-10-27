@@ -331,6 +331,21 @@
              "referenceSheetsPath": [
                 "Shnur the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "Flare",
+            "name": "MP 4.2 the Proto 2.0",
+            "model": "2.0",
+            "description": "Made to act as the dj on large music stages and able to be used has impromptu sound system for when a mobile sound system is required",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "MP 4.2 the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "MP 4.2 the Proto 2.0/R1.png",
+                "MP 4.2 the Proto 2.0/R2.png"
+            ]
         }
     ]
 }

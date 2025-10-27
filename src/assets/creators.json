@@ -971,6 +971,10 @@
         {
             "name": "Jupiter",
             "profileImage": "Jupiter.jpg"
+        },
+        {
+            "name": "Flare",
+            "profileImage": "Flare.jpg"
         }
     ]
 }
