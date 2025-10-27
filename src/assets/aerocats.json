@@ -4807,8 +4807,6 @@
       "description": "A skilled and smug Mercenary who's quiet and very kept to himself, quite antisocial preferring to work alone yet he's very serious at the same time willing to get a job done by any means, being ruthless and striking without emotion\n\nDespite having a massive dislike for AI co-pilots, King actually has one but he forcibly disabled it himself and buried it away in his systems, he's a major rock fan so he personally Paw crafted a Electric Guitar he secretly plays, his tail houses Spare Missles and his IEWS (Integrated Electronic Warfare System) a major reason why his tail is large and heavy, he also has a Reinforced airframe to hold more missles which slows him down more.",
       "copilot": "Jester",
       "faction": "Unknown",
-      "weight": 24000,
-      "height": 24,
       "galleryImagePaths": [
         "King the Morgan/T.png"
       ],
@@ -4841,7 +4839,6 @@
       "description": "Washington was originally made to be a standard F-15C but was selected for a publicity squadron. He was modified to have two firework launchers installed in both of his upper arms. His offical name is Washington but is known as 'Stars N' Stripes' by the public for his livery.",
       "copilot": false,
       "faction": "USA",
-      "weight": false,
       "height": 19,
       "galleryImagePaths": [
         "Washington the eagle/T.png"
