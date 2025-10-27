@@ -4818,6 +4818,23 @@
       "outdated": true
     },
     {
+      "creator": "Jupiter",
+      "name": "Omega the NGAD",
+      "model": "NGAD Fighter Jet F-47",
+      "description": "A-076-Omega (Short name: Omega, Alias: F.G.S.B.T.U.) is an ultra-high-speed unit designed based on the NGAD fighter jet (Next Generation Air Dominance Fighter Jet), featuring lightweight defense while prioritizing optimization for speed and anti-overheating functions. It boasts very high accuracy, excelling in precision targeting, and is primarily used for missions to swiftly deliver specific items to other bases, though it occasionally performs light support fire roles as well. Initial acceleration starts at around 90 mph and takes time to reach top speed, but following a recent canon update, the maximum speed has been raised to Mach 2 (approximately 1,578 mph) (previous record: 289 mph).\n\nThe design and capabilities are subject to changes based on feedback (nerfs, buffs, or revisions), and any pointed-out mistakes will be incorporated.",
+      "copilot": false,
+      "faction": "USA",
+      "weight": false,
+      "height": false,
+      "galleryImagePaths": [
+        "Omega the NGAD/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Omega the NGAD/R1.jpg"
+      ],
+      "outdated": true
+    },
+    {
       "creator": "Metholox",
       "name": "Washington the eagle",
       "model": "F-15C Eagle",
