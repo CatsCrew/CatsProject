@@ -4,4 +4,5 @@ export interface LoreDocument {
     title?: string;
     description?: string;
     languages?: Translation[];
+    disabled?: boolean;
 }

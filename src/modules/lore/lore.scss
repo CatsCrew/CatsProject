@@ -94,5 +94,9 @@
                 }
             }
         }
+
+        .card-container.disabled {
+            pointer-events: none;
+        }
     }
 }
