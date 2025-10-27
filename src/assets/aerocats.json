@@ -4816,6 +4816,40 @@
         "King the Morgan/R1.jpg"
       ],
       "outdated": true
+    },
+    {
+      "creator": "Metholox",
+      "name": "Washington the eagle",
+      "model": "F-15C Eagle",
+      "description": "Washington was originally made to be a standard F-15C but was selected for a publicity squadron. He was modified to have two firework launchers installed in both of his upper arms. His offical name is Washington but is known as 'Stars N' Stripes' by the public for his livery.",
+      "copilot": false,
+      "faction": "USA",
+      "weight": false,
+      "height": 19,
+      "galleryImagePaths": [
+        "Washington the eagle/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Washington the eagle/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "KandyKatz! (Barrier)",
+      "name": "Glint the Typhoon",
+      "model": "EF-2000 Eurofighter typhoon",
+      "description": "he’s extremely egotistical. He loves taking care of himself and his looks. \n\nWhen in the field he’s a trustworthy guy always trying to ease tensions with jokes. When on base, you can find him cleaning smudges and soot…At all times. He always has to be shiny.",
+      "copilot": false,
+      "faction": "Unknown",
+      "weight": 20000,
+      "height": 2,
+      "galleryImagePaths": [
+        "Glint the Typhoon/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Glint the Typhoon/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
