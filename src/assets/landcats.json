@@ -1241,8 +1241,8 @@
     },
     {
       "creator": "Abbacchio",
-      "name": "Runner the XM-800",
-      "model": "XM-800",
+      "name": "Runner the XM800T",
+      "model": "XM800T",
       "galleryImagePaths": [
         "Runner the XM-800/T.png"
       ],
@@ -2038,6 +2038,42 @@
         "Vex the APC/R3.jpg"
       ],
       "outdated": true
+    },
+    {
+      "creator": "KatarIK",
+      "name": "Kiwi the XM800T",
+      "model": "XM800T",
+      "description":"",
+      "crewmate": "Midori",
+      "faction": "MST-K",
+      "weight": 840,
+      "height": 2.4,
+      "equipment": [
+        {
+          "name": "20mm M139 Autocannon",
+          "description": "Based on the same model used in the XM800T platform. Mounted on an interchangeable modular base, allowing rapid replacement in the event of damage. High rate of fire and optimized for suppression of light armored targets, drones, and reconnaissance units."
+        },
+        {
+          "name": "7.62mm Machine Gun (assumed)",
+          "description": "Auxiliary weapon for close-range defense and anti-personnel engagement. Integrated with servo-linked targeting systems for synchronized operation with the main cannon."
+        },
+        {
+          "name": "Reinforced Servo Framework",
+          "description": "Provides enhanced structural stability and recoil absorption during firing. Includes an automatic balance correction system under load or uneven terrain conditions."
+        },
+        {
+          "name": "Advanced Optical Suite",
+          "description": "Developed through private-sector collaboration with the regular army. Combines night vision, infrared, and electronic warfare detection capabilities for long-range scouting and target acquisition."
+        }
+      ],
+      "galleryImagePaths": [
+        "Kiwi the XM800T/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Kiwi the XM800T/R1.png",
+        "Kiwi the XM800T/R2.png"
+      ],
+      "outdated": false
     }
   ]
 }

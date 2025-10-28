@@ -4881,6 +4881,23 @@
         "Glint the Typhoon/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "VeasleyKess",
+      "name": " Kistrel 'Lavende' the Tornado",
+      "model": "Tornado ECR",
+      "description": "To her the sky is a sandbox until you get fined for disrupting the airspace for other CATS, which got her into trouble with veteran units on multiple occasions.\n\nShe's extremely positive and caring despite her rowdy nature. Speaking of her rowdy nature it is the main reason on why she has two co-pilots ( C4rrot I and C4rrot II ).\n'The last thing you want is a test unit exceeding testing limits'\n\nHer role is experimental equipment testing (excluding weapons due to testing regulations being strict about experimental weapons).\n'As long as I can still fly, I'll keep you safe even if it means I get fined for it.'",
+      "copilot": "C4rrot I, C4rrot II",
+      "faction": " '████████' Test Team ",
+      "weight": 20000,
+      "height": 16.7,
+      "galleryImagePaths": [
+        "Lavende the Tornado/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Lavende the Tornado/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
