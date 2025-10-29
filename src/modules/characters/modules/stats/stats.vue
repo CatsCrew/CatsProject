@@ -89,6 +89,15 @@
                                 </Chart>
                             </template>
                         </Card>
+                        <Card>
+                            <template #content>
+                                <Chart
+                                    type="bar"
+                                    :data="loadOutdatedPercentageChartData()"
+                                    :options="outdatedChartOptions">
+                                </Chart>
+                            </template>
+                        </Card>
                     </div>
                 </div>
                 <div class="fill-rate-charts">
@@ -360,6 +369,51 @@ function loadProtoOptionalFieldFillRate() {
         ]
     };
 }
+
+function loadOutdatedPercentageChartData() {
+    const aerocatTotal = aerocats?.length || 0;
+    const landcatTotal = landcats?.length || 0;
+
+    const aerocatOutdated = aerocatTotal > 0 ? (aerocats.filter(a => a.outdated === true).length / aerocatTotal) * 100 : 0;
+    const landcatOutdated = landcatTotal > 0 ? (landcats.filter(a => a.outdated === true).length / landcatTotal) * 100 : 0;
+
+    return {
+        labels: ['Aerocats', 'Landcats'],
+        datasets: [
+            {
+                label: 'Outdated Percentage (%)',
+                data: [aerocatOutdated, landcatOutdated],
+                backgroundColor: ['#00aaff', '#00ff88']
+            }
+        ]
+    };
+}
+
+const outdatedChartOptions = {
+    scales: {
+        y: {
+            beginAtZero: true,
+            max: 100,
+            ticks: {
+                callback: function(value: any) {
+                    return value + '%';
+                }
+            }
+        }
+    },
+    plugins: {
+        tooltip: {
+            callbacks: {
+                label: function(context: any) {
+                    const v = context.parsed.y ?? context.parsed;
+                    return `${Number(v).toFixed(2)}%`;
+                }
+            }
+        }
+    }
+};
+
+
 
 onMounted(() => {
     TerminalService.on('command', commandHandler);
