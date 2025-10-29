@@ -406,7 +406,7 @@ const outdatedChartOptions = {
             callbacks: {
                 label: function(context: any) {
                     const v = context.parsed.y ?? context.parsed;
-                    return `${v}%`;
+                    return `${Number(v).toFixed(2)}%`;
                 }
             }
         }
