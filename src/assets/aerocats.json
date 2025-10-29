@@ -4217,7 +4217,7 @@
       "referenceSheetsPath": [
         "Dozer the Ghostrider/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "NIKO",
@@ -4884,7 +4884,7 @@
     },
     {
       "creator": "VeasleyKess",
-      "name": " Kistrel 'Lavende' the Tornado",
+      "name": "Kistrel 'Lavende' the Tornado",
       "model": "Tornado ECR",
       "description": "To her the sky is a sandbox until you get fined for disrupting the airspace for other CATS, which got her into trouble with veteran units on multiple occasions.\n\nShe's extremely positive and caring despite her rowdy nature. Speaking of her rowdy nature it is the main reason on why she has two co-pilots ( C4rrot I and C4rrot II ).\n'The last thing you want is a test unit exceeding testing limits'\n\nHer role is experimental equipment testing (excluding weapons due to testing regulations being strict about experimental weapons).\n'As long as I can still fly, I'll keep you safe even if it means I get fined for it.'",
       "copilot": "C4rrot I, C4rrot II",
@@ -4896,6 +4896,23 @@
       ],
       "referenceSheetsPath": [
         "Lavende the Tornado/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Misaki",
+      "name": "Misaki the hornet",
+      "model": "F/A-18C Hornet",
+      "description": "Misaki is very friendly and always cares about others.\nBut once she’s in the air, she doesn’t joke around – if someone breaks the rules, she’ll notice right away.\nShe’s filed more violation reports than anyone else and proudly holds the record.\nNaturally, this has led to plenty of clashes with other CATS,\nbut Misaki stands firm: safety comes before friendship. ",
+      "copilot": "Joyce",
+      "faction": "Unknown",
+      "weight": 25401,
+      "height": 4.66,
+      "galleryImagePaths": [
+        "Misaki the hornet/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Misaki the hornet/R1.png"
       ],
       "outdated": false
     }
