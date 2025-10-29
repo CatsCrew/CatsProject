@@ -3224,7 +3224,7 @@
       "model": "RAH-66 Comanche",
       "galleryImagePaths": [
         "Liberty the Comanche/T.png",
-        "Liberty the Comanche/1.png"
+        "Liberty the Comanche/1.jpg"
       ],
       "referenceSheetsPath": [
         "Liberty the Comanche/R1.png"
@@ -3396,7 +3396,7 @@
       "referenceSheetsPath": [
         "Mriya the An-225/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Socks",
