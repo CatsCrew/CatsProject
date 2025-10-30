@@ -2017,6 +2017,23 @@
       "model": "Abrams X",
       "description": "An independent mercenary Landcat without a master to serve, he accepts every contract from every factions he met. He once saved a Proto from the ruined Factory and now he with his Proto companion travels around the battlefield to seek more work and place to stay. ",
       "crewmate": "JACKAL",
+      "faction": "Unknown",
+      "weight": 500,
+      "height": 2.44,
+      "equipment": [
+        {
+          "name": "XM360 Shoulder Mounted Cannon",
+          "description": "Primary Ammo: 120×570mm APSDF, Special Ammo: 120x570mm APHESDF and 120x570mm DUFSDS, Magazine load: 5 + 1, Firing mode: Semi-auto"
+        },
+        {
+          "name": "HC-7 .50 AE",
+          "description": "SECONDARY WEAPON, Primary Ammo: .50 AE JHP, Special Ammo: .50 AE AP, .50 AE HP, .50 AE API, Magazine load: 7 + 1, Firing mode: Semi-auto"
+        },
+        {
+          "name": "GADGETS/EQUIPMENTS",
+          "description": "Combat Interface Display Unit Goggles, Detachable External Backpack, Shoulder Fog lights and Camera"
+        }
+      ],
       "galleryImagePaths": [
         "Scar the Abrams X/T.png"
       ],
