@@ -4915,6 +4915,23 @@
         "Misaki the hornet/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Hopel",
+      "name": "Miko the Vosmyorka",
+      "model": "Mil Mi-8M",
+      "description": "Mikovich 'Miko'\n\n•Miko is the youngest and newest member of the AAF, undergoing extensive training to prepare for military activities\n•He has a calm and confident personality with his role. He is an introvert with his other colleagues, but when acting he is very noticeable with a friendly and supportive character\nMiko has a bipolar personality*\n•His obedience is very grateful within the Central Command\n•Its role is based on air support during direct clashes, where its objective is to ensure the arrival of Advanced Troops",
+      "copilot": "Nextel",
+      "faction": "Unknown",
+      "weight": 9.000,
+      "height": 6.5,
+      "galleryImagePaths": [
+        "Misaki the hornet/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Misaki the hornet/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
