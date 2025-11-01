@@ -346,6 +346,20 @@
                 "MP 4.2 the Proto 2.0/R1.png",
                 "MP 4.2 the Proto 2.0/R2.png"
             ]
+        },
+        {
+            "creator": "Fwop",
+            "name": "Fwop the Proto 2.0",
+            "model": "2.0",
+            "description": "Maintenence and handyman Proto for Shnur the Frogfoot, yells at him all the time to make sure he's okay",
+            "faction": "Unknown",
+            "galleryImagePaths": [
+                "Fwop the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Fwop the Proto 2.0/R1.png"
+            ]
         }
     ]
 }

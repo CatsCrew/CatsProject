@@ -2091,6 +2091,23 @@
         "Kiwi the XM800T/R2.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Espero",
+      "name": "Duban the Yuk-gong",
+      "model": "K-511A1 2½-ton truck",
+      "description":"This cat is an unarmed military transport vehicle developed for the Republic of Korea Armed Forces for personnel and material transport. Equipped with a simple powertrain, it can carry a backpack-style cargo bed or tow a carrier-style trailer for transport. It is equipped with basic lighting equipment for use on civilian roads. It can travel at a maximum speed of 86 km/h, can accommodate up to 20 passengers, and can carry up to 4 tons in its cargo hold. Its maximum gradeability is 60 degrees and its range is 530 km. A bonnet is attached to the chest for easy maintenance.",
+      "crewmate": "N/A",
+      "faction": "ROK",
+      "weight": 5790,
+      "height": 6.7,
+      "galleryImagePaths": [
+        "Duban the Yuk-gong/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Duban the Yuk-gong/R1.jpg"
+      ],
+      "outdated": false
     }
   ]
 }

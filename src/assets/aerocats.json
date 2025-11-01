@@ -4932,6 +4932,23 @@
         "Miko the Vosmyorka/R1.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Le Fishly au",
+      "name": "Salmon the Salmon",
+      "model": "Lockheed XFV-1 Salmon",
+      "description": "A nearly-destroyed V.T.O.L XFV-1 that was founded, revived and majorly reworked. Now capable of instantaneous vertical take-offs, on top of very durable and flexible materials to withstand up to a few lethal hits. Able to dive and move underwater for a few minutes to hide from some situations. Having a very high traversal speed and fuel reserves comes with a cost in total ammunition and power. Salmon is fitted with a size-fitted rocket sidearm. The firearm's appearance resembles to that of a Gyrojet with a spring-retractable stock, a longer barrel and a front-foldable foregrip, and topped off with an aerocat size-fitted version of a Micro T-1 sight. Holds 12 special type 70mm (2.75 in) rockets, and 48 rockets in reserve. Calibrated for left-handed usage.\n\nThe Synthetic 'hair' helps cover and protect the 'bad eye', very sensitive to light, can be a weakpoint that causes dizziness under bright lights. But said eye is exceptional at target aquisition, works best at night.\n\n(>Credits goes to Kasichi for the creation of the fish reference sheet",
+      "copilot": "'nChovy",
+      "faction": "Unknown",
+      "weight": 4990,
+      "height": 4.2,
+      "galleryImagePaths": [
+        "Salmon the Salmon/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Salmon the Salmon/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }

@@ -995,6 +995,18 @@
         {
             "name": "Hopel",
             "profileImage": "Hopel.jpg"
+        },
+        {
+            "name": "Espero",
+            "profileImage": "Espero.jpg"
+        },
+        {
+            "name": "Fwop",
+            "profileImage": "Fwop.png"
+        },
+        {
+            "name": "Le Fishly au",
+            "profileImage": "Le Fishly au.jpg"
         }
     ]
 }
