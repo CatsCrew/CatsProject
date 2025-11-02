@@ -1805,7 +1805,7 @@
         "Kazimierz the Lynx/T.png"
       ],
       "referenceSheetsPath": [
-        "Kazimierz the Lynx/R1.jpg"
+        "Kazimierz the Lynx/R1.png"
       ],
       "outdated": true
     },
@@ -2017,13 +2017,30 @@
       "model": "Abrams X",
       "description": "An independent mercenary Landcat without a master to serve, he accepts every contract from every factions he met. He once saved a Proto from the ruined Factory and now he with his Proto companion travels around the battlefield to seek more work and place to stay. ",
       "crewmate": "JACKAL",
+      "faction": "Unknown",
+      "weight": 500,
+      "height": 2.44,
+      "equipment": [
+        {
+          "name": "XM360 Shoulder Mounted Cannon",
+          "description": "Primary Ammo: 120×570mm APSDF, Special Ammo: 120x570mm APHESDF and 120x570mm DUFSDS, Magazine load: 5 + 1, Firing mode: Semi-auto"
+        },
+        {
+          "name": "HC-7 .50 AE",
+          "description": "SECONDARY WEAPON, Primary Ammo: .50 AE JHP, Special Ammo: .50 AE AP, .50 AE HP, .50 AE API, Magazine load: 7 + 1, Firing mode: Semi-auto"
+        },
+        {
+          "name": "GADGETS/EQUIPMENTS",
+          "description": "Combat Interface Display Unit Goggles, Detachable External Backpack, Shoulder Fog lights and Camera"
+        }
+      ],
       "galleryImagePaths": [
         "Scar the Abrams X/T.png"
       ],
       "referenceSheetsPath": [
         "Scar the Abrams X/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "fur-tea",
@@ -2072,6 +2089,23 @@
       "referenceSheetsPath": [
         "Kiwi the XM800T/R1.png",
         "Kiwi the XM800T/R2.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Espero",
+      "name": "Duban the Yuk-gong",
+      "model": "K-511A1 2½-ton truck",
+      "description":"This cat is an unarmed military transport vehicle developed for the Republic of Korea Armed Forces for personnel and material transport. Equipped with a simple powertrain, it can carry a backpack-style cargo bed or tow a carrier-style trailer for transport. It is equipped with basic lighting equipment for use on civilian roads. It can travel at a maximum speed of 86 km/h, can accommodate up to 20 passengers, and can carry up to 4 tons in its cargo hold. Its maximum gradeability is 60 degrees and its range is 530 km. A bonnet is attached to the chest for easy maintenance.",
+      "crewmate": "N/A",
+      "faction": "ROK",
+      "weight": 5790,
+      "height": 6.7,
+      "galleryImagePaths": [
+        "Duban the Yuk-gong/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Duban the Yuk-gong/R1.jpg"
       ],
       "outdated": false
     }
