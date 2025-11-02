@@ -118,6 +118,10 @@ function updateButtonVisibility() {
 }
 
 function setupKeyEvents(event: KeyboardEvent) {
+  if (event.code !== 'ArrowLeft' && event.code !== 'ArrowRight') {
+    return;
+  }
+
   if (selectedImage) {
     const currentIndex = images.findIndex(i => i === selectedImage);
     const dir = event.code === 'ArrowLeft' ? -1 : 1;

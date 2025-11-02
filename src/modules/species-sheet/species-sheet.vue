@@ -135,6 +135,10 @@ function updateButtonVisibility() {
 }
 
 function setupKeyEvents(event: KeyboardEvent) {
+    if (event.code !== 'ArrowLeft' && event.code !== 'ArrowRight') {
+        return;
+    }
+
     if (selectedImage) {
         const currentIndex = images.findIndex(i => i === selectedImage);
         const dir = event.code === 'ArrowLeft' ? -1 : 1;
@@ -143,15 +147,15 @@ function setupKeyEvents(event: KeyboardEvent) {
         emblaApi.scrollTo(newIndex);
     } else {
         if (!emblaApi) 
-        return;
+            return;
 
         switch (event.code) {
-        case "ArrowLeft":
-            scrollPrev();
-            break;
-        case "ArrowRight":
-            scrollNext();
-            break;
+            case "ArrowLeft":
+                scrollPrev();
+                break;
+            case "ArrowRight":
+                scrollNext();
+                break;
         }
     }
 }

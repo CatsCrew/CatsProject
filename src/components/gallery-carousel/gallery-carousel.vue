@@ -96,12 +96,12 @@ function setupKeyEvents(event: KeyboardEvent) {
     if (!emblaApi) 
         return;
     switch (event.code) {
-    case "ArrowLeft":
-        emblaApi.scrollPrev();
-        break;
-    case "ArrowRight":
-        emblaApi.scrollNext();
-        break;
+      case "ArrowLeft":
+          emblaApi.scrollPrev();
+          break;
+      case "ArrowRight":
+          emblaApi.scrollNext();
+          break;
     }
 }
 
