@@ -4949,6 +4949,23 @@
         "Salmon the Salmon/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Le Fishly au",
+      "name": "Cooper the Cougar",
+      "model": "milovali",
+      "description": "Cooper is rather laid back and a bit coy on the ground, but is quick and nimble in the air. A naval fighter preferring short to medium range encounters.  They use built in guns in his arms.",
+      "copilot": "N/A",
+      "faction": "Unknown",
+      "weight": 2700,
+      "height": 2.1,
+      "galleryImagePaths": [
+        "Cooper the Cougar/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Cooper the Cougar/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
