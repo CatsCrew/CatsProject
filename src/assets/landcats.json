@@ -1119,6 +1119,23 @@
       "outdated": true
     },
     {
+      "creator": "Kiote",
+      "name": "Ghost the Karl-Gerat",
+      "model": "Gerät 041 Karl-Gerät",
+      "description": "Ghost was created when his country was in a war with a far bigger country and knowing that they could never hope to match the enemy with numbers decided to create project O.W.F.P\n\nOr project overwhelming firepower. Where they poured almost all their resources into creating a single cat in hopes the pure power of the 60cm cannon he had would turn the tides of the war. But his rushed construction caused many faults including the extreme exhaust he created upon start up and whenever he fires his gun, this exhaust issue was unable to be fixed as all resources were swapped over to creating ammo for the ghost right after he was completed. And ultimately his country was forced to surrender shortly after. So ghost became a wanderer before he was found and recruited into the black void where he went under some modifications, fixing the exhaust upon start up issue but increasing exhaust caused by firing his weapon.",
+      "crewmate": "Silver",
+      "faction": "Black void",
+      "weight": 124000,
+      "height": 11,
+      "galleryImagePaths": [
+        "Ghost the Karl-Gerat/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Ghost the Karl-Gerat/R1.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Bookworm",
       "name": "Onus the forklift",
       "model": "Military forklift etc.",
