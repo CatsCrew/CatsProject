@@ -3423,6 +3423,26 @@
       "outdated": true
     },
     {
+      "creator": "Miller",
+      "name": "Javelin the Spear",
+      "model": "SR-34R Spear(Game)",
+      "description": "Javelin, one of MilSTAR advanced CATS design that has left the drawing board recently in 202X, is a AEROCATS that the main function is a dogfighter / brawler / escort, designed to fly on low altitude and utilizing terrain masking to sneak around, equipped with 4x 20mm M61A1 Vulcan, 1x bofors 40mm L/70 with programmable HE fuze & AHEAD shell (custom)(fixed mount on the back), and 1x Railgun, specs are highly classified, but it is able to fire 5 shots before needing a maintenance\n\nDespite coming as a Advanced AI PROTO origin, they do not treat other PROTO units as inferior beings thankfully, it is suspected it is from their unbroken comraderies with their fellow PROTO team as AEROCATS unit 'Echo' maintenance crew, atleast they still retain their professionalism manner.\n\nOriginally created as a state of the art and tech that MilSTAR has to offer, and combined with a Advanced AI PROTO that excels on their simulation score on dogfight, it can be potentionally a unrivaled menace in the sky, unfortunately, we cannot recreate it anymore due to factory no. [REDACTED] had burned down to a fatal workplace accident, Javelin will be one of a kind that MilSTAR has ever made, though, their purpose still serve a goal, instead of seeing the frontline of a battlefield, instead, it will be a experimental AEROCATS for research and public showcase model\n\nEDIT: please remove some of the unnecessary description and PLEASE censor which factory they were manufactured.\nRE-EDIT: already done\nRE-RE-EDIT: thank you, but it seems their personality is optional, cut it down\nRE-RE-RE-EDIT: can do, though, can we include a overly summarized bits of their personality?\nRE-RE-RE-RE-EDIT: fine. you are permitted to do so.",
+      "copilot": "N/A",
+      "faction": "MilSTAR",
+      "weight": 7600,
+      "height": 9.3,
+      "galleryImagePaths": [
+        "Javelin the Spear/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Javelin the Spear/R1.png",
+        "Javelin the Spear/R2.png",
+        "Javelin the Spear/R3.png",
+        "Javelin the Spear/R4.png"
+      ],
+      "outdated": true
+    },
+    {
       "creator": "Frigadae",
       "name": "Freddy the Tiger II",
       "model": "F-5E Tiger II",
