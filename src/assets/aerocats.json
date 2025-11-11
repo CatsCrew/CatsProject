@@ -4997,6 +4997,32 @@
         "Cooper the Cougar/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Dawson",
+      "name": "Patch the Stratofortress",
+      "model": "B-52 Strarofortress(OF)",
+      "copilot": "N/A",
+      "galleryImagePaths": [
+        "Patch the Stratofortress/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Patch the Stratofortress/R1.png"
+      ],
+      "outdated": true
+    },
+    {
+      "creator": "Dawson",
+      "name": "Spark the Microfighter",
+      "model": "Model 985-121 Microfighter",
+      "copilot": "N/A",
+      "galleryImagePaths": [
+        "Spark the Microfighter/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Spark the Microfighter/R1.png"
+      ],
+      "outdated": true
     }
   ]
 }

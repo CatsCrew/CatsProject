@@ -1015,6 +1015,10 @@
         {
             "name": "Milo!",
             "profileImage": "Milo!.jpg"
+        },
+        {
+            "name": "Dawson",
+            "profileImage": "Dawson.jpg"
         }
     ]
 }
