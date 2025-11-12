@@ -2520,11 +2520,12 @@
       "name": "Abbacchio the Gina",
       "model": "G.91 R/1 Gina",
       "galleryImagePaths": [
-        "Abbacchio the Gina/T.png"
+        "Abbacchio the Gina/T.png",
+        "Abbacchio the Gina/1.jpg",
+        "Abbacchio the Gina/2.jpg"
       ],
       "referenceSheetsPath": [
-        "Abbacchio the Gina/R1.jpg",
-        "Abbacchio the Gina/R2.jpg"
+        "Abbacchio the Gina/R1.png"
       ],
       "outdated": true
     },
