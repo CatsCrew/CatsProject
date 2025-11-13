@@ -776,7 +776,7 @@
     {
       "creator": "Hunglee",
       "name": "Hornet the Super hornet",
-      "model": "F/A 18E Super hornet",
+      "model": "F/A-18E Super hornet",
       "galleryImagePaths": [
         "Hornet the Super hornet/T.png"
       ],
@@ -1553,7 +1553,7 @@
     {
       "creator": "Drakk",
       "name": "Desmond the Super hornet",
-      "model": "F/A 18E/F Super hornet",
+      "model": "F/A-18E/F Super hornet",
       "galleryImagePaths": [
         "Desmond the Super hornet/T.png",
         "Desmond the Super hornet/1.png",
@@ -3822,7 +3822,7 @@
     {
       "creator": "Notwebber",
       "name": "Gazer the Super hornet",
-      "model": "F/A 18E Super hornet",
+      "model": "F/A-18E Super hornet",
       "galleryImagePaths": [
         "Gazer the Super hornet/T.png"
       ],
