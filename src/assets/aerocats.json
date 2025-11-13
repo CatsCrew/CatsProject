@@ -2187,7 +2187,7 @@
       "model": "JAS-39E Gripen",
       "description": "Although relatively new to the scene he's already been on various successful missions. Working mainly alone he's also been shown to work well in teams, being versatile and able to change his role in the heat of the moment either from Spying to Air-to-Air or Air-to-Surface combat. \n\nEEKA is generally relaxed and friendly although on rare occurances can become intimidating/menacing if pushed too much. His Copilot named 'LAGKAPTEN (Team Captain)' is a more seasoned veteran and has been through past traumatic incidents, this in turn makes him act like a serious big brother towards EEKA as he constantly tries to lecture and scold EEKA and they're often butting heads. After a few missions though they found out that they make a really solid pair. He's usually more formal towards his fellow Aerocats. ",
       "copilot": "LAGKAPTEN",
-      "faction": "Sweden - EEKA Large specialty store for household goods",
+      "faction": "Pawb AB",
       "weight": 14000,
       "height": 14.1,
       "galleryImagePaths": [
@@ -2253,6 +2253,9 @@
       "creator": "cattmilkk",
       "name": "Glint the Blackbird",
       "model": "SR-71 Blackbird",
+      "description": "",
+      "copilot": "N/A",
+      "faction": "Wing 38",
       "galleryImagePaths": [
         "Glint the Blackbird/T.png"
       ],
@@ -3464,7 +3467,7 @@
       "name": "Navi the NAV Hawk",
       "model": "A/F-117X NAV Hawk (Game)",
       "copilot": "Nemo",
-      "faction": "Unknown",
+      "faction": "Wing 38",
       "description": "Navi is a soft spoken, by-the-book, multi-role, Cat, he serves from an offshoot base away from many of the other CATS. Navi speaks very seldom and does not care for boasting, preferring to let actions speak for him. Navi is a master of hit-and-run, ambush attacks, deep strike operations within enemy held territory, and destruction of VIP ground and air targets deemed too dangerous for many to handle. His preferred method of combat is to wait for the right time to strike, only attacking when the kill is guaranteed and a 100% successful operation rating ensures that victory is always within reach. While capable of engaging in air-to-air combat, Navi prefers not to be in prolonged dogfights as the longer a fight goes, the slimmer the chances of an advantage presenting itself are. Designed as a new prototype CATS AI for usage with experimental aircraft, Navi's AI can be mounted on COFFIN compatible aircraft, though his preferred body is the modernized F-117 dubbed the NAV Hawk; an aircraft with heavily upgraded speed and maneuverability, stealth that's practically invisible to modern radar and is capable of mounting anti-air armaments. Navi is paired with his Co-Pilot AI, Nemo, an advanced AI designed to completely adapt to it's Cat, operating like a fully functioning second brain and complete extension of the Cat it serves with. Navi and Nemo's systems are programmed with numerous redundancies, providing complete immunity to hacking or hijacking attempts. Navi is very rarely called to serve with other CATS as he prefers to not be bogged down waiting for others, though sometimes they make a good distraction for the enemy.",
       "galleryImagePaths": [
         "Navi the NAV Hawk/T.png",
@@ -3698,7 +3701,7 @@
       "model": "F-22A Raptor",
       "description": "Hades is a well-trained, psychotic apex predator of the skies. Master of stealth. When she hunts, you won't have even the slightest clue of her presence on sensors until it's too late. To allies, she's a typical hotshot-ace type individual. She's overconfident and reckless. Though it cannot be denied that her unorthodox moves provide an advantage in unpredictability. She manages to dodge incoming munitions with relative ease, and when combined with her stealth, cutting-edge technology, maneuverability, and aggressive attack patterns, she proves to be an extremely dangerous combatant on the battlefield, and should be avoided at all costs.",
       "copilot": "Cinder",
-      "faction": "USA",
+      "faction": "Wing 38",
       "weight": 20446,
       "height": 18.9,
       "equipment": [
@@ -4989,7 +4992,7 @@
     {
       "creator": "Milo!",
       "name": "Cooper the Cougar",
-      "model": "milovali",
+      "model": "F9F-8 Cougar",
       "description": "Cooper is rather laid back and a bit coy on the ground, but is quick and nimble in the air. A naval fighter preferring short to medium range encounters.  They use built in guns in his arms.",
       "copilot": "N/A",
       "faction": "Unknown",
@@ -5026,6 +5029,24 @@
       ],
       "referenceSheetsPath": [
         "Spark the Microfighter/R1.png"
+      ],
+      "outdated": true
+    },
+    {
+      "creator": "AWACS Black Shark",
+      "name": "Seraph the Nosferatu",
+      "model": "CFA-44 Nosferatu (Game)",
+      "description": "Based on the Carrier Fighter Attacker - 44 airframe Seravael is classed as a multirole carrier-based jet with semi stealth capabilities. They have a relatively medium sized fuel tank however with the usage of all 8 thrusters the operational range is significantly reduced making any long range strike missions requiring frequent stops or strong logistics chains. This inherit design also makes Seraph primarily a defensive fighter that lingers around sub 700~km combat radius of their stationed base. With the defensive combat style and Seraph's tandem 4 data cores they are mainly deployed to help control and cull any loose FERALs. The data cores will correct each other with a wipe and rewrite which mean helps increase resilience towards any data corruption, any unsavable cores are isolated and if all 4 cores are down Seraph will briefly power down and switch to a previously isolated low power auxiliary core unit to give enough processing power to fallback and replace the whole core unit. Specially equipped with electronic warfare and ADMM salvos their tell-tale sign is a heavy electronic interference before a saturation bombardment of micro missiles, other armaments includes two 30mm autocannons and miniaturized short range AAMs up to 4 in total which could be substituted for even more but smaller and shorter ranged micro missiles used by their ADMM pods. Personality wise Seraph has a more motherly approach despite their build and likes to sleep with assigned protos in a pile, they also have a proto hoarding issue where any unassigned protos that stumbled upon them will mysteriously become theirs. Their copilot Ramiel has a 360 sensor suite to help with situational awareness and decision making.",
+      "copilot": "Ramiel",
+      "faction": "Wing 38",
+      "weight": 3900,
+      "height": 5,
+      "galleryImagePaths": [
+        "Seraph the Nosferatu/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Seraph the Nosferatu/R1.png",
+        "Seraph the Nosferatu/R1.png"
       ],
       "outdated": true
     }
