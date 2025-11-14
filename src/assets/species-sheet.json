@@ -19,7 +19,6 @@
             ],
             "languages": [
                 "English",
-                "Japanese",
                 "Korean",
                 "Russian"
             ]
@@ -44,7 +43,6 @@
             ],
             "languages": [
                 "English",
-                "Japanese",
                 "Korean",
                 "Russian"
             ]
@@ -59,7 +57,8 @@
                 "5.jpg"
             ],
             "languages": [
-                "English"
+                "English",
+                "Russian"
             ]
         }
     ]
