@@ -3824,12 +3824,13 @@
       "name": "Gazer the Super hornet",
       "model": "F/A-18E Super hornet",
       "galleryImagePaths": [
-        "Gazer the Super hornet/T.png"
+        "Gazer the Super hornet/T.png",
+        "Gazer the Super hornet/1.jpg"
       ],
       "referenceSheetsPath": [
         "Gazer the Super hornet/R1.jpg"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Notwebber",
