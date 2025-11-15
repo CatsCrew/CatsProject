@@ -36,7 +36,7 @@
         "shell_the_sheridan/R2.png",
         "shell_the_sheridan/R3.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Presto",
@@ -69,7 +69,7 @@
         "Hemet/Ref.png",
         "Hemet/Ref2.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Presto",
@@ -98,7 +98,7 @@
         "Vee/R1.png",
         "Vee/R2.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Presto",
