@@ -101,9 +101,6 @@ const { speciesSheets, speciesSheetByCatAndLanguage } = $(storeToRefs(cat$));
 const router$ = useRouter();
 const route$ = useRoute();
 
-const catOptions = $ref(Object.values(CatType));
-const languageOptions = $ref([Language.English, Language.Korean]);
-
 const [emblaRef, emblaApi] = $(emblaCarouselVue({}, [ClassNames()]));
 const dotNodes = $(useTemplateRef('dotNodes'));
 
@@ -114,6 +111,9 @@ let canScrollNext = $ref(false);
 let prevCatType = $ref(null);
 let images = $ref([]);
 let selectedImage = $ref('');
+
+const catOptions = $ref(Object.values(CatType));
+const languageOptions = $computed(() => Object.keys(speciesSheets[catType]));
 
 function hasLanguageSupport(catType: CatType) {
     return Object.values(speciesSheets[catType])?.length > 1;
