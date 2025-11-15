@@ -111,7 +111,7 @@ let catType = $ref(CatType.Aerocat);
 let language = $ref(Language.English);
 let canScrollPrev = $ref(false);
 let canScrollNext = $ref(false);
-let prevCatType = $ref(null);
+let prevCatType = $ref(CatType.Aerocat);
 let images = $ref([]);
 let selectedImage = $ref('');
 
