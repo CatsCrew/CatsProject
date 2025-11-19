@@ -4955,7 +4955,10 @@
       "weight": 25401,
       "height": 4.66,
       "galleryImagePaths": [
-        "Misaki the hornet/T.png"
+        "Misaki the hornet/T.png",
+        "Misaki the hornet/1.png",
+        "Misaki the hornet/2.png",
+        "Misaki the hornet/3.png"
       ],
       "referenceSheetsPath": [
         "Misaki the hornet/R1.png"
