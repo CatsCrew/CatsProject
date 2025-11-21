@@ -1027,6 +1027,14 @@
         {
             "name": "Jon the Weapon Expert spirit",
             "profileImage": "Jon the Weapon Expert spirit.jpg"
+        },
+        {
+            "name": "Token",
+            "profileImage": "Token.jpg"
+        },
+        {
+            "name": "Wealthypopcorner",
+            "profileImage": "Wealthypopcorner.jpg"
         }
     ]
 }
