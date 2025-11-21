@@ -5079,9 +5079,9 @@
     },
     {
       "creator": "Token",
-      "name": "Mayday",
+      "name": "Mayday the Lightning II",
       "model": "F-35B Lightning II",
-      "description": "Personality: tends to be timid and shy around strangers, sometimes he can be very serious about everything for nothing, but can also be very silly and clumsy around the ones he knows. He loves spending most of his leisure time doing chores and housework for his corner because he needs everything to be tidy, in his own way.\n\nBackground: One of the CATS units survived through the fall of ISEA research facility. Few months after the incident, he was adopted and recruited by [REDACTED] organization. As [REDACTED] provided him with a full conversion, official registration and upgrade package for an AEROCATS unit, he became an independent operator involved with multiple types of missions. His tasks can be varied, from patrolling, providing ground support to VIP protection and HVT elimination. His targets are mostly terrorist cells, drug dealers and individuals who are involved deeply with PROTOs and CATS abductions. Due to the nature of his tasks and joint operations, he’s well known to many military and special forces from all over the globe. Some believe he was recruited by an intelligence agency funded by multiple governments working together, some others said it’s only a person. No one knows what real intentions behind [REDACTED] and his missions are, but the people who had worked with him all felt the same thing – hope, for a better world.",
+      "description": "Mayday is a bit of a shy Aerocat, not very talkative and preferring to be alone, and due to their role as a multipurpose stealth jet they use their specialized tech to remain unseen, usually slipping away from groups of people or going to a quiet secluded spot. they're typically armed with cameras and radios for reconnaissance missions over enemy territory. their short stature is due to the fact that they serve onboard aircraft carriers, their thick wings allow them to tolerate catapult launches better than other aircraft, as well as being harder to break off in general. their wings also contain a folding system, making them slightly smaller than if they were folded out allowing them to keep their 'equipment' on and navigate the tighter more claustrophobic parts of the ship.",
       "copilot": "N/A",
       "faction": "USA",
       "weight": 10000,
@@ -5091,23 +5091,6 @@
       ],
       "referenceSheetsPath": [
         "F-35B Lightning II/R1.png"
-      ],
-      "outdated": false
-    },
-    {
-      "creator": "Token",
-      "name": "Mayday",
-      "model": "F-35B Lightning II",
-      "description": "Mayday is a bit of a shy Aerocat, not very talkative and preferring to be alone, and due to their role as a multipurpose stealth jet they use their specialized tech to remain unseen, usually slipping away from groups of people or going to a quiet secluded spot. they're typically armed with cameras and radios for reconnaissance missions over enemy territory. their short stature is due to the fact that they serve onboard aircraft carriers, their thick wings allow them to tolerate catapult launches better than other aircraft, as well as being harder to break off in general. their wings also contain a folding system, making them slightly smaller than if they were folded out allowing them to keep their 'equipment' on and navigate the tighter more claustrophobic parts of the ship.",
-      "copilot": "N/A",
-      "faction": "USA",
-      "weight": 10000,
-      "height": 8,
-      "galleryImagePaths": [
-        "Hope the Thunderbolt II/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Hope the Thunderbolt II/R1.png"
       ],
       "outdated": false
     },
