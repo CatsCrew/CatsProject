@@ -141,20 +141,6 @@
             ]
         },
         {
-            "creator": "Metholox",
-            "name": "Cash the Proto 2.0",
-            "model": "2.0",
-            "description": "Employee of the month at MacDouglas's Proto Queen for 18 consecutive months. He's permanently exhausted at all times and doesn't know what's causing it. Whether it be the C.A.T.S he has to deal with or the burgers, drinks, and fries that are the size of him. He has a little space to live in above the Proto Queen when barracks are not provided.",
-            "faction": "USA - MacDouglas's Proto Queen",
-            "galleryImagePaths": [
-                "Cash the Proto 2.0/T1.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Cash the Proto 2.0/R1.png"
-            ]
-        },
-        {
             "creator": "Green PC",
             "name": "Stanisław the Proto P",
             "model": "1.0 Type P",

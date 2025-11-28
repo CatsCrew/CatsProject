@@ -4212,57 +4212,6 @@
       "outdated": true
     },
     {
-      "creator": "Metholox",
-      "name": "Ruslan Daniarev the Fishbed",
-      "model": "MIG-21bis Fishbed-L",
-      "galleryImagePaths": [
-        "Ruslan Daniarev the Fishbed/T.png",
-        "Ruslan Daniarev the Fishbed/1.png"
-      ],
-      "referenceSheetsPath": [
-        "Ruslan Daniarev the Fishbed/R1.jpg"
-      ],
-      "outdated": true
-    },
-    {
-      "creator": "Metholox",
-      "name": "Alyosha lvanov the TB-7",
-      "model": "Petlyakov PE-8",
-      "galleryImagePaths": [
-        "Alyosha lvanov the TB-7/T1.png",
-        "Alyosha lvanov the TB-7/1.png"
-      ],
-      "referenceSheetsPath": [
-        "Alyosha lvanov the TB-7/R1.png"
-      ],
-      "outdated": true
-    },
-    {
-      "creator": "Metholox",
-      "name": "Krysinyy samolet the Flying Cannon",
-      "model": "YAK-9K",
-      "galleryImagePaths": [
-        "Krysinyy samolet the Flying Cannon/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Krysinyy samolet the Flying Cannon/R1.png"
-      ],
-      "outdated": true
-    },
-    {
-      "creator": "Metholox",
-      "name": "MacDouglas the Globetrotter",
-      "model": "C-17 Globetrotter (OF)",
-      "galleryImagePaths": [
-        "MacDouglas the Globetrotter/T1.png",
-        "MacDouglas the Globetrotter/1.png"
-      ],
-      "referenceSheetsPath": [
-        "MacDouglas the Globetrotter/R1.png"
-      ],
-      "outdated": true
-    },
-    {
       "creator": "Spree",
       "name": "Hycil the Raptor",
       "model": "F-22A Raptor",
@@ -4912,22 +4861,6 @@
         "Omega the NGAD/R1.png"
       ],
       "outdated": true
-    },
-    {
-      "creator": "Metholox",
-      "name": "Washington the eagle",
-      "model": "F-15C Eagle",
-      "description": "Washington was originally made to be a standard F-15C but was selected for a publicity squadron. He was modified to have two firework launchers installed in both of his upper arms. His offical name is Washington but is known as 'Stars N' Stripes' by the public for his livery.",
-      "copilot": false,
-      "faction": "USA",
-      "height": 19,
-      "galleryImagePaths": [
-        "Washington the eagle/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Washington the eagle/R1.png"
-      ],
-      "outdated": false
     },
     {
       "creator": "KandyKatz! (Barrier)",

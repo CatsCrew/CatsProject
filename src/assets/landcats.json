@@ -1742,42 +1742,6 @@
       "outdated": true
     },
     {
-      "creator": "Metholox",
-      "name": "Carmel Ridge the F-150",
-      "model": "Imp. F-150 Technical",
-      "galleryImagePaths": [
-        "Carmel Ridge the F-150/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Carmel Ridge the F-150/R1.png"
-      ],
-      "outdated": true
-    },
-    {
-      "creator": "Metholox",
-      "name": "Fed the Bearcat",
-      "model": "Lenco Bearcat",
-      "galleryImagePaths": [
-        "Fed the Bearcat/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Fed the Bearcat/R1.png"
-      ],
-      "outdated": true
-    },
-    {
-      "creator": "Metholox",
-      "name": "Tolsty-Kot the IS-3M",
-      "model": "IS-3M",
-      "galleryImagePaths": [
-        "Tolsty-Kot the IS-3M/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Tolsty-Kot the IS-3M/R1.png"
-      ],
-      "outdated": true
-    },
-    {
       "creator": "Kyda",
       "name": "Kyda Byte the Krab",
       "model": "AHS Krab",
