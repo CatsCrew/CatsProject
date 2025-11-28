@@ -3769,6 +3769,24 @@
       "outdated": true
     },
     {
+      "creator": "tyler",
+      "name": "Siren the Growler",
+      "model": "EA-18G Growler",
+      "description": "Further Info:\n'I don't know what happened, man.. I was flying into contested airspace with my wingman and then there's this.. ear-splitting siren like noise on the radio, like- from inside my head.. so loud I couldn't think clearly at all- and then I- I look off to the side to try sign to my wingman and he's just gone- apparently he crashed, but I never even noticed him break off..'\nAnonymous report from an aerocat claiming to have had a run-in with Siren\n\nOne of W38's newest projects, S1-R3N (referred to as just 'Siren') marks a stark difference from their previous fighter designs, designed around electronic warfare support rather than direct combat. Often carrying a very light internal air-to-air missile armament for self defence, and a slightly heavier external load of anti-radiation missiles for suppression of enemy air defence missions, along with his standard jamming and electronic intelligence suite.\n\nDespite carrying a subpar offensive armament, Siren still manages to achieve staggering mission success rate and killcounts when flying solo, through a number of tricks he developed using his electronic warfare equipment, making use of jamming, signature augmentation, cyberattacks, and just plain good acting to trick hostiles into engaging each other rather than him. When he isn't solo, he makes use of his equipment to both disorient the enemy and employ his own forms of psychological warfare against them, often leaving them easy, defenceless prey for those he's flying with.\n\nWhile semi-professional (if a bit of a showoff) on mission, Siren is generally regarded as overly smug, immature and antisocial off-duty, with his attitude being compared to that of an 'angsty teenager'. He's known for blasting music on random radio frequencies when bored, even reportedly running his own pirate radio station off his built-in equipment from time to time, always on a slightly different frequency. He also has a tendency to use his equipment to pull various pranks around bases he's on, messing with remote door locks, unsecured PA systems, looking into CCTV unauthorised, and so on.\nDespite all this, he's apparently much friendlier if you get to know him well, especially if you have some kind of common ground or interest, with him being known to pay the most attention to other W38 CATS and other electronic warfare specialists.\nNot a lot is known about his co-pilot, 'DJ', Siren's own shortening of D.J.A-E (Digital Jamming Assistant - Experimental), the unit's official designation. Those who have interacted with DJ claim him to be even more smug and boastful than Siren, but generally less hostile overall.\n\nA number of rumours circle Siren, some more out there than others. The main two generally tend to be that he's fitted with some form of experimental weapon, to which some evidence has been given, although most of which is spotty and mostly second-hand accounts of it's use. The second common rumour is that organics and protos tend to disappear on bases Siren visits on contract, not being seen again till he moves on, returning with long-lasting physical or behavioural differences. This, however, was only be proven to have happened once, and with no direct link to Siren himself, as CCTV footage and radar data showed him in the air when the disappearance was claimed to have happened.",
+      "copilot": "DJ",
+      "faction": "Wing 38",
+      "weight": 6000,
+      "height": 9,
+      "galleryImagePaths": [
+        "Siren the Growler/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Siren the Growler/R1.png",
+        "Siren the Growler/R2.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Curian",
       "name": "Reir the Shinden",
       "model": "J7W1 Shinden",
@@ -4098,6 +4116,23 @@
         "Faust the Fulcrum/R2.jpg"
       ],
       "outdated": true
+    },
+    {
+      "creator": "Frostwhiplash",
+      "name": "Clover the White swan",
+      "model": "TU-160 White Swan",
+      "description": "Clover, a TU-160M, was supposed to take a practice flight from the main base he was stationed at to another. Unfortunately he ended up at the wrong base, a makeshift one belonging to an enemy. There he was ultimately manipulated into believing he was at the correct one.\n\nClover was sent on 5 missions, being used by the enemy for their purposes. Trouble occurred on the last two when Clover was unwilling to drop his payload.\nUpon his return Clover was given an ultimatum, he could either cooperate or be destroyed. \n\nA deal was struck and Clover was offered a special drugged gas to help with docility. \nWhen inhaled Clover remains conscious enough to understand what he was told to do, but not enough to understand the effects of what he was doing. \n\nThis 'high' comes with a major side effect; short term memory loss until usage of the drug has ceased.\n\nKey facts: The gas is called ESG (Emotional suppressant gas)It has an orange color along with a citrus scent. Having been on the gas for so long, Clover has grown dependent on ESG and believes it is helping him, feeding his long term use of the suppressant.\n\nPersonality: Clover is anti war and believes it is morally wrong.\n\nClover believes any harm done to any being or CATS is wrong, enemy or not.\nHe remains kind and caring, doing the best he can to help those in need, soft spoken and quiet. \n\n'I wish I was an airliner' - Clover",
+      "copilot": "N/A",
+      "faction": "Unknown",
+      "height": 54.1,
+      "galleryImagePaths": [
+        "Clover the White swan/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Clover the White swan/R1.png",
+        "Clover the White swan/R2.png"
+      ],
+      "outdated": false
     },
     {
       "creator": "Robert",
