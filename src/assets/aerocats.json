@@ -4155,10 +4155,11 @@
       ],
       "galleryImagePaths": [
         "Robert the Blackbird/T.png",
-        "Robert the Blackbird/1.png"
+        "Robert the Blackbird/1.jpg",
+        "Robert the Blackbird/2.png"
       ],
       "referenceSheetsPath": [
-        "Robert the Blackbird/R1.jpg"
+        "Robert the Blackbird/R1.png"
       ],
       "outdated": true
     },
