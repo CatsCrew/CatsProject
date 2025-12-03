@@ -362,6 +362,22 @@
              "referenceSheetsPath": [
                 "Packet the Proto P/R1.png"
             ]
+        },
+        {
+            "creator": "Bnoy",
+            "name": "Bnoy the Proto 2.0",
+            "model": "2.0",
+            "description": "he is the personal mechanic for the aero cat barrier (MiG 25) he can be bratty and bossy but only while working other than that hes rather kind to everyone",
+            "faction": "Echo fang",
+            "weight": 60,
+            "height": 1.6,
+            "galleryImagePaths": [
+                "Bnoy the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Bnoy the Proto 2.0/R1.png"
+            ]
         }
     ]
 }
