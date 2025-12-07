@@ -2090,6 +2090,24 @@
         "Duban the Yuk-gong/R1.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Cernunnos",
+      "name": "Cernunnos the PZH 2000",
+      "model": "PZH 2000",
+      "description":"A landcat that anyone could trust, just a silly artillery-thing that has a cute smile and is described as 'too kind for his own good'. He absolutely loves protos, choosing to have them assist him instead of a crew-mate. But all of that is outside of combat. He is still a ruthless murderer, the 155mm sniper rifle he uses being a tool of destruction unmatched by any.\n\nno AI, only has protos assisting (backpack MG)",
+      "crewmate": "N/A",
+      "faction": "Unknown",
+      "weight": 5790,
+      "height": 12,
+      "galleryImagePaths": [
+        "Cernunnos the PZH 2000/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Cernunnos the PZH 2000/R1.png",
+        "Cernunnos the PZH 2000/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
