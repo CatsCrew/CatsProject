@@ -3839,16 +3839,35 @@
     },
     {
       "creator": "Notwebber",
-      "name": "Gazer the Super hornet",
+      "name": "Throne the Super hornet",
       "model": "F/A-18E Super hornet",
+      "description": "Rarely talks, mostly uses their antenna to communicate.\nLoves to display images using said antenna.\nTail/Stinger may act on AI-copilot’s command, and without Spirit’s input, consume protos, this has led to many incidents where Spirit requires assistants from other CATS to pull them out.",
+      "copilot": "Eyes",
+      "faction": "Unknown",
+      "height": 2.4,
+      "equipment": [
+        {
+          "name": "AI-copilot named “eyes”",
+          "description": "equipped with infrared search and track."
+        },
+        {
+          "name": "Tail/Stinger splits",
+          "description": "Bomb bay housed within an expanded tail structure, open into bomb bay"
+        },
+        {
+          "name": "IFF Antenna",
+          "description": "allows to display holographic messages and radio signals through their antenna for distinguishing friend from foe, and for communication."
+        }
+      ],
       "galleryImagePaths": [
-        "Gazer the Super hornet/T.png",
-        "Gazer the Super hornet/1.jpg"
+        "Throne the Super hornet/T.png",
+        "Throne the Super hornet/1.jpg",
+        "Throne the Super hornet/2.jpg"
       ],
       "referenceSheetsPath": [
-        "Gazer the Super hornet/R1.jpg"
+        "Throne the Super hornet/R1.jpg"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Notwebber",
