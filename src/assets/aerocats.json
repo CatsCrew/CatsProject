@@ -4824,7 +4824,7 @@
       "referenceSheetsPath": [
         "Willow the Raider/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Kris meows",
@@ -5095,6 +5095,21 @@
       ],
       "referenceSheetsPath": [
         "Lucifer the Stinger II/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Dan",
+      "name": "Mirage the Mirage",
+      "model": "Mirage III EA",
+      "description": "Retired, for demonstration only",
+      "copilot": "Unknown",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        "Mirage the Mirage/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Mirage the Mirage/R1.jpg"
       ],
       "outdated": false
     }

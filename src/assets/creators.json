@@ -1043,6 +1043,10 @@
         {
             "name": "Cernunnos",
             "profileImage": "Cernunnos.jpg"
+        },
+        {
+            "name": "Dan",
+            "profileImage": "Dan.png"
         }
     ]
 }
