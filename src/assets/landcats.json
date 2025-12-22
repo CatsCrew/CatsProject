@@ -2111,6 +2111,22 @@
         "Cernunnos the PZH 2000/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Fishe",
+      "name": "Outrider the Bradley",
+      "model": "M3A3 Bradley",
+      "description":"Outrider is a scouting landcat that often finds themselves observing from afar. Very friendly with the protos they're in touch with, they will do their best to pave the safest way available for their team. Outrider won't attempt to engage in a fight alone, but if necessary, they have their 25mm bushmaster and head mounted tows to support the situation",
+      "crewmate": "Vigil",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        "Outrider the Bradley/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Outrider the Bradley/R1.png",
+        "Outrider the Bradley/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
