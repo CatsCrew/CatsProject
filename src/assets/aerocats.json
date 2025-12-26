@@ -4604,12 +4604,14 @@
       "name": "Marine the Supermarine",
       "model": "Supermarine Spitfire MK.VIII",
       "galleryImagePaths": [
-        "Marine the Supermarine/T.png"
+        "Marine the Supermarine/T.png",
+        "Marine the Supermarine/1.png"
       ],
       "referenceSheetsPath": [
-        "Marine the Supermarine/R1.png"
+        "Marine the Supermarine/R1.png",
+        "Marine the Supermarine/R2.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Byte C.",
