@@ -2127,6 +2127,58 @@
         "Outrider the Bradley/R2.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Redbnr",
+      "name": "Soap the Supacat",
+      "model": "Supacat 6x6 MUV",
+      "description":"The vehicle is provided for infantry support and supplying. It has backpack-style cargo container supposed to carry light and medium infantry supply as: ammunition for infantry firearm, Light and Heavy machineguns ammo, mortar grenades and separated infantry mortars needed to be installed after. His backpack system has a flat bed behind with belt system to carry extra containers in cost of his mobility.\nHas one searchlight as his headgear and eye-protection visor.\nCan travel at maximum speed of 78 km/h and can carry up to 1,8 tons in its cargo containers (2,2 tons with additional storage). Without refueling his travel range is 960 km\nHas a 12.7mm M2/249 Browning (Fictional) as infantry support weapon. Not able to be main assault unit due to his weak armor and heavy weapon, provides only a support role in combat",
+      "crewmate": "N/A",
+      "faction": "South-Asian Expeditionary Forces",
+      "weight": 2900,
+      "height": 3.2,
+      "galleryImagePaths": [
+        "Soap the Supacat/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Soap the Supacat/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Gale",
+      "name": "Sglazka the Monarch",
+      "model": "T-90 Monarch(OF)",
+      "description":"Sglazka is an experimental purpose modified CATS, serving as the platform to test various new electronic warfare measures in a combat chassis under the T-90 'Monarch' Project.\n\nSglazka is built almost 30% larger compared to a standard T-90, making for an imposing figure to spearhead assaults and provide support to their surrounding team. However, they make up for this with increased space for electronic countermeasures, weaponry and heavier armour.\n\nMovement is supported through the installation of enhanced actuators and mechanical assists akin to the IS-7. Numerous other non-standard modifications have been made, such as the addition of extra weaponry salvaged from closely related models, and the usage of a gas turbine engine over a diesel engine for superior power to weight and lower noise profile.\n\nSglazka is not a very common sight on the field, either by their own choice or circumstances of their usage. Their affiliation isn't concrete; private paramilitary company association suspected.\n\n\nAdditional Notes: As a project initially created prior to the guidelines update, I intend to register Sglazka under Legacy guidelines.",
+      "crewmate": "N/A",
+      "faction": "Unknown",
+      "weight": 6500,
+      "height": 13,
+      "galleryImagePaths": [
+        "Sglazka the Monarch/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Sglazka the Monarch/R1.png",
+        "Sglazka the Monarch/R2.png"
+      ],
+      "outdated": true
+    },
+    {
+      "creator": "Gale",
+      "name": "Erna the Jagdtiger",
+      "model": "Jagdpanzer VI",
+      "description":"Erna is a Long-Range Anti-Tank Ambush Landcat. Taking hidden positions behind the Frontline, her powerful cannon allows here to eliminate key targets and support infantry. Often calm and collected under fire, she takes things quite slow, sometimes to the detriment to those around her. With an underpowered engine and absurd amount of armor/armament, she gets bogged down by the slightest difficulty in terrain, guzzling Dizero and taking hours to reposition. Once settled however, it takes nothing short of an ambush to take her down, able to break through most if not all armor she comes up against.\n\nDue to her basis, her original creators and occupation aren't known in detail, be it lost to time or simply for privacy. All that is known is that she has seen notable service before being withdrawn and eventually sold to a private company, one who weren't too bothered by her tendency to deplete fuel reserves and keep allies waiting. Now relegated to mercenary work under Delta Industries' C.A.T.S Division, operations are regular and far-reaching, as much as she groans about having to move around so much.\n\nWhen armed, it weighs 40 tons.",
+      "crewmate": "Gustav",
+      "faction": "Delta Industries.",
+      "weight": 10000,
+      "height": 5.3,
+      "galleryImagePaths": [
+        "Erna the Jagdtiger/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Erna the Jagdtiger/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
