@@ -2152,7 +2152,7 @@
       "description":"Sglazka is an experimental purpose modified CATS, serving as the platform to test various new electronic warfare measures in a combat chassis under the T-90 'Monarch' Project.\n\nSglazka is built almost 30% larger compared to a standard T-90, making for an imposing figure to spearhead assaults and provide support to their surrounding team. However, they make up for this with increased space for electronic countermeasures, weaponry and heavier armour.\n\nMovement is supported through the installation of enhanced actuators and mechanical assists akin to the IS-7. Numerous other non-standard modifications have been made, such as the addition of extra weaponry salvaged from closely related models, and the usage of a gas turbine engine over a diesel engine for superior power to weight and lower noise profile.\n\nSglazka is not a very common sight on the field, either by their own choice or circumstances of their usage. Their affiliation isn't concrete; private paramilitary company association suspected.\n\n\nAdditional Notes: As a project initially created prior to the guidelines update, I intend to register Sglazka under Legacy guidelines.",
       "crewmate": "N/A",
       "faction": "Unknown",
-      "weight": 6500,
+      "weight": 65000,
       "height": 13,
       "galleryImagePaths": [
         "Sglazka the Monarch/T.png"
