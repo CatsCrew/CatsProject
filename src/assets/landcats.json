@@ -2179,6 +2179,23 @@
         "Erna the Jagdtiger/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Jay",
+      "name": "Götz the Gepard",
+      "model": "Flakpanzer Gepard 1A2",
+      "description":"Specialized in taking down low flying aircraft, Götz (full name Gottfried) takes pride in giving humility to those who claim to own the sky.\n\nAs a mercenary, he is often called upon by those who can afford him to protect strategic assets from air attacks.\n\nThe bulk of his equipment is located in his removable backpack. This modular system houses the ammo drum, two stinger rocket launchers and his search radar as well as other tertiary systems.\n\nAn assisting proto is needed for the backpack's ammo drum to be reloaded quickly but Götz can still accomplish this by himself during an emergency by removing the backpack.\n\nA human pilot was originally intended to be in full control of Götz but over time his personality became dominant enough for him to only allow people he likes inside him. The presence of a pilot increases combat efficiency greatly but this is not commonly done due to his disliking of most people.\n\nEither as a quirk of his programing or as a learnt behavior, Götz takes a sadistic pleasure in destroying his targets.\n\ncrewmate: 2 \none proto ammo loader for backpack\none optional internal human 'pilot'",
+      "crewmate": "Gustav",
+      "faction": "Mercenary (no allegiance)",
+      "weight": 2000,
+      "height": 3.65,
+      "galleryImagePaths": [
+        "Götz the Gepard/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Götz the Gepard/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
