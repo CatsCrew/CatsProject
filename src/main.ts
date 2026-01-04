@@ -12,6 +12,7 @@ import ToastService from 'primevue/toastservice';
 import { Chart as ChartJS } from 'chart.js';
 import { VennDiagramController, ArcSlice } from 'chartjs-chart-venn';
 import Tooltip from 'primevue/tooltip';
+import './extensions';
 
 const router = createRouter({
   history: createWebHistory(),

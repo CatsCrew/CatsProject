@@ -50,6 +50,9 @@
                             </div>
                         </div>
                     </template>
+                    <template #pills>
+                        <slot name="pills"></slot>
+                    </template>
                     <template #title>
                         <slot name="title">
                             <div class="cat-model">

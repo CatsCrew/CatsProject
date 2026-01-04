@@ -9,6 +9,9 @@
             <div
                 v-if="hasTitle"
                 class="card-caption">
+                <div class="card-pills">
+                    <slot name="pills"></slot>
+                </div>
                 <div class="card-title">
                     <slot name="title"></slot>
                 </div>

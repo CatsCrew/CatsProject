@@ -13,12 +13,12 @@
             class="characters"
             :class="{ 'empty': searchResultsEmpty }">
             <CharacterCard
-                v-for="cat in pagedCats"
-                :key="cat.name"
-                :cat="cat"
+                v-for="filteredCat in pagedCats"
+                :key="filteredCat.cat.name"
+                :cat="filteredCat.cat"
                 :hoverable="!isHandheldDevice">
                 <template
-                    v-if="cat.outdated"
+                    v-if="filteredCat.cat.outdated"
                     #overlay-content>
                     <Tooltip :tooltip-text="tooltipText">
                         <div
@@ -28,6 +28,11 @@
                                 :src="OutdatedLandcatLogo"/>
                         </div>
                     </Tooltip>
+                </template>
+                <template 
+                    v-if="filteredCat.matchType"
+                    #pills>
+                    <Badge severity="secondary">{{ filteredCat.matchType.toProperCase() }} match</Badge>
                 </template>
             </CharacterCard>
             <CharacterCard
@@ -50,6 +55,7 @@ import { defineAsyncComponent, computed, watch, onMounted, onUnmounted } from 'v
 import IconField from 'primevue/iconfield';
 import InputIcon from 'primevue/inputicon';
 import InputText from 'primevue/inputtext';
+import Badge from 'primevue/badge';
 import CharacterCard from '../../components/character-card/character-card.vue';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
@@ -58,6 +64,8 @@ import LandcatPlaceholder from '@assets/images/landcat_placeholder.png';
 import ProtoWhat from '@assets/images/proto-what.png';
 import { CatType } from '@/models/cat-type.enum';
 import OutdatedLandcatLogo from '@assets/images/outdated_logo_lc.webp';
+import { FilteredCat } from '@/models/filtered-cat.model';
+import { MatchType } from '@/models/match-type.enum';
 
 const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/empty-state.vue'));
 const Tooltip = defineAsyncComponent(() => import('@/components/tooltip/tooltip.vue'));
@@ -76,19 +84,34 @@ const placeholderCat = $computed<Cat>(() => ({
     thumbnail: LandcatPlaceholder
 }));
 
-const filteredCats = $computed(() => {
+const filteredCats = $computed<FilteredCat[]>(() => {
     if (!searchTerm) {
-        return landcats;
+        return landcats.map(cat => {
+            return {
+                cat
+            } as FilteredCat;
+        });
     }
 
     const formattedSearchTerm = searchTerm.toLowerCase().trim();
 
-    return landcats.filter((cat) => 
-        cat?.name?.toLowerCase()?.includes(formattedSearchTerm) ||
-        cat?.model?.toLowerCase()?.includes(formattedSearchTerm) || 
-        cat?.creator?.name?.toLowerCase()?.includes(formattedSearchTerm) || 
-        cat?.faction?.toLowerCase()?.includes(formattedSearchTerm)
-    );
+    return landcats.map(cat => {
+        let matchType = MatchType.Unknown;
+        if (cat?.name?.toLowerCase()?.includes(formattedSearchTerm)) {
+            matchType = MatchType.Name;
+        } else if (cat?.model?.toLowerCase()?.includes(formattedSearchTerm)) {
+            matchType = MatchType.Model;
+        } else if (cat?.creator?.name?.toLowerCase()?.includes(formattedSearchTerm)) {
+            matchType = MatchType.Creator;
+        } else if (cat?.faction?.toLowerCase()?.includes(formattedSearchTerm)) {
+            matchType = MatchType.Faction;
+        }
+
+        return {
+            cat,
+            matchType
+        } as FilteredCat;
+    }).filter(filtered => filtered.matchType !== MatchType.Unknown);
 });
 
 const pagedCats = computed(() => filteredCats.slice(0, pageRecord[CatType.Landcat] * PAGE_SIZE));
