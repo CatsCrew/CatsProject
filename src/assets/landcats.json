@@ -2196,6 +2196,23 @@
         "Götz the Gepard/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Apex",
+      "name": "Otto the HX3 6x6",
+      "model": "HX3 6x6",
+      "description":"FK-12 “Frachtkater-12” | CALLSIGN: “Otto” | ID: RM-DEULC-HX3-FK012\n\nHeavy logistics LANDCATS operating under Euro Logistics Corp for transport and resupply. Handles cargo, convoy movement support, towing, and field distribution. Can be optionally outfitted for artillery-support logistics (smoke/illum coordination, base interface support, moving mortar/utility loads, or acting as a comms node for a battery).\nHas a logistics backpack module, that consists of a pallet-lock frame with rail mounts and tie-down points, integrated work-lights, optional small drone bay module and a rear VMS strip for convoy messaging (“CONVOY/SLOW/HAZARD”).\nBuilt with a large variety of utility features such as a tow pintle, air/power ports, small service access hatches and a right-torso micro-crane hatch for light handling tasks. Retractable auxiliary wheels in calf fairings (for long rolls/stability) supported by paw pads for traction and impact damping and utility tip mounts for winch/rigging support. Compact SMG carried as a self-defence tool, not a primary combat role.\nA steady, professional quartermaster type. Polite, dependable, and quietly warm when off-duty. When working, his posture tightens into crisp “convoy discipline.” Uses dry humour and mild sarcasm, but it’s never mean.\n\n“GENERAL” functions as a mission supervisor voice interface, overseeing operations while providing checklist-based intelligence that organizes, tracks, and verifies objectives step by step.",
+      "crewmate": "GENERAL",
+      "faction": "DEU",
+      "weight": 23500,
+      "height": 6.1,
+      "galleryImagePaths": [
+        "Otto the HX3 6x6/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Otto the HX3 6x6/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
