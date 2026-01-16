@@ -4906,7 +4906,7 @@
       "creator": "KandyKatz! (Barrier)",
       "name": "Glint the Typhoon",
       "model": "EF-2000 Eurofighter typhoon",
-      "description": "he’s extremely egotistical. He loves taking care of himself and his looks. \n\nWhen in the field he’s a trustworthy guy always trying to ease tensions with jokes. When on base, you can find him cleaning smudges and soot…At all times. He always has to be shiny.",
+      "description": "he's extremely egotistical. He loves taking care of himself and his looks. \n\nWhen in the field he's a trustworthy guy always trying to ease tensions with jokes. When on base, you can find him cleaning smudges and soot…At all times. He always has to be shiny.",
       "copilot": false,
       "faction": "Unknown",
       "weight": 20000,
@@ -4921,18 +4921,18 @@
     },
     {
       "creator": "VeasleyKess",
-      "name": "Kistrel 'Lavende' the Tornado",
+      "name": "Kistrel the Tornado",
       "model": "Tornado ECR",
-      "description": "To her the sky is a sandbox until you get fined for disrupting the airspace for other CATS, which got her into trouble with veteran units on multiple occasions.\n\nShe's extremely positive and caring despite her rowdy nature. Speaking of her rowdy nature it is the main reason on why she has two co-pilots ( C4rrot I and C4rrot II ).\n'The last thing you want is a test unit exceeding testing limits'\n\nHer role is experimental equipment testing (excluding weapons due to testing regulations being strict about experimental weapons).\n'As long as I can still fly, I'll keep you safe even if it means I get fined for it.'",
+      "description": "First of the three Tornado units of the CottonTails Test Team, she serves as a test bed for safety and electronic equipment, Her whole body is compatible with many standard and experimental parts even with other Aero frame parts although its only for her arms and legs.\nShe's a big fan of Mecha anime and because of it she requested her handlers to paint her torso similar to a mobile suit which also includes remodeling her holo-visor to include a V-fin",
       "copilot": "C4rrot I, C4rrot II",
-      "faction": " '████████' Test Team ",
-      "weight": 20000,
-      "height": 16.7,
+      "faction": "CottonTails Test Team ",
+      "weight": 14500,
+      "height": 5.95,
       "galleryImagePaths": [
-        "Lavende the Tornado/T.png"
+        "Lavende the Tornado/T.jpg"
       ],
       "referenceSheetsPath": [
-        "Lavende the Tornado/R1.png"
+        "Lavende the Tornado/R1.jpg"
       ],
       "outdated": false
     },
