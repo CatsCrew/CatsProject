@@ -379,6 +379,22 @@
              "referenceSheetsPath": [
                 "Bnoy the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "Porto Morio",
+            "name": "Tenpo the Proto 2.0",
+            "model": "2.0",
+            "description": "Tenpo used to belong to a wealthy writer, but after certain circumstances, he came to belong to a musician. Now he is a bass guitarist. Tenpo has remained kind, affectionate, and peaceful. Although he is shy around the public, with good friends he is open and cheerful. He wears T-shirt of a band where he is participating",
+            "faction": "N/A",
+            "weight": 60,
+            "height": 1.6,
+            "galleryImagePaths": [
+                "Tenpo the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Tenpo the Proto 2.0/R1.png"
+            ]
         }
     ]
 }
