@@ -4,8 +4,8 @@
       "creator": "Presto",
       "name": "Shell the Sheridan",
       "model": "M551 Sheridan",
-      "description": "Shell (nickname: Shelly) is a former airborne tank-type reconnaissance CATS from the special operations forces. With his rapid infiltration capabilities and heavy armament, he was deployed in numerous missions. He takes pride in those days, holding great honor in having served as a member of one of the finest airborne reconnaissance units. After the end of the Cold War, he formally went through the retirement process and stepped away from the battlefield.\n\nFollowing his retirement, he transitioned into the role of an instructor, training new airborne soldiers. Thanks to his past experience operating across multiple countries, he naturally developed a fondness for travel. However, upon leaving active duty as an operational unit, he was required to return all of his visual data recording equipment. This, in turn, sparked a desire to once again see the world directly with his own eyes. Around this time, HEMET invited him to join Oshitoky Logistics, and through this opportunity, Shelly began a new journey, traveling the world alongside the team.\n\nHe is now a member of Tokis, serving as a reliable guide for the group. Calm and composed by nature, he occasionally clashes with the hot-headed VEE, though in terms of combat ability, Shell’s superior skill allows him to subdue such conflicts swiftly.",
       "crewmate": "Bob",
+      "description": "Shell (nickname: Shelly) is a former airborne tank-type reconnaissance CATS from the special operations forces. With his rapid infiltration capabilities and heavy armament, he was deployed in numerous missions. He takes pride in those days, holding great honor in having served as a member of one of the finest airborne reconnaissance units. After the end of the Cold War, he formally went through the retirement process and stepped away from the battlefield.\n\nFollowing his retirement, he transitioned into the role of an instructor, training new airborne soldiers. Thanks to his past experience operating across multiple countries, he naturally developed a fondness for travel. However, upon leaving active duty as an operational unit, he was required to return all of his visual data recording equipment. This, in turn, sparked a desire to once again see the world directly with his own eyes. Around this time, HEMET invited him to join Oshitoky Logistics, and through this opportunity, Shelly began a new journey, traveling the world alongside the team.\n\nHe is now a member of Tokis, serving as a reliable guide for the group. Calm and composed by nature, he occasionally clashes with the hot-headed VEE, though in terms of combat ability, Shell’s superior skill allows him to subdue such conflicts swiftly.",
       "faction": "OSHITOKY LOGISTICS",
       "weight": 3800,
       "height": 2.3,
@@ -1003,14 +1003,25 @@
       "creator": "Kiote",
       "name": "Jackie the Humvee",
       "model": "M1151 HMMWV",
+      "crewmate": "N/A",
+      "description": "Jackie was made with extra big joins in his limbs for increased flexibility and added power allowing her to move faster and be able to go through more challenging environments. She also has small vents on his sides for exhaust and the body armor she wears also has pouches for anything important like radio and other devices. the middle of her armor has the black void faction emblem that she drew on herself",
+      "faction": "Black void",
+      "height": 4.5,
+      "equipment": [
+        {
+          "name": "Main Gun",
+          "description": "M240 50 Cal machine gun"
+        }
+      ],
       "galleryImagePaths": [
         "Jackie the Humvee/T.png",
-        "Jackie the Humvee/1.jpg"
+        "Jackie the Humvee/1.jpg",
+        "Jackie the Humvee/2.png"
       ],
       "referenceSheetsPath": [
-        "Jackie the Humvee/R1.jpg"
+        "Jackie the Humvee/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Kiote",
@@ -1796,22 +1807,24 @@
     },
     {
       "creator": "Kasichi",
-      "name": "Sniper Fox the Grille",
-      "model": "155MM Grille",
+      "name": "Sniper Fox the Paladin",
+      "model": "M109A6 Paladin",
       "crewmate": "Polar Bear A.I | P.B.AI",
       "faction": "Sniper Operations Service",
-      "description": "A LANDCATS long-range self-propelled artillery unit with a silent and cold personality, giving him a calm and dignified presence on any battlefield. Armed with a powerful 155mm artillery and a Cheytac Intervention 40mm rifle, alongside his companions Polar Bear A.I. and Scout Wolf, he can decide the fate of his targets even at extreme distances.",
-      "weight": 12061,
-      "height": 3.5,
+      "description": "Was assembled by ScW-750X, and currently become ScW-750X's servant plus his lover. Both are currently based in an abandoned hangar deep within a snow covered forest, carrying out contracts issued by various factions. Their assignments typically involve targets such as destroying outposts or ambushing supply convoy, and collecting information, all in order to secure additional income to purchase fuel, spare parts, and maintenance services. In practical terms, they can be classified as mercenaries, and they are highly active at present., holding a reputation for the lowest mission failure rate ever recorded. Numerous factions have places bounties on both, making concealment and a low profile absolutely essential.\n\nSF-M109A6, armed with a powerful 155mm cannon mounted on his back, capable of annihilating enemy forces from far away with extreme precision, supported by reconnaissance data from ScW-750X and his own AI assistant, Polar Bear A.I. He is exceptionally serious and disciplined when it comes to his duties. However, outside of combat operations, he reveals himself to be a genuinely kinda and emotionally attentive unit, despite rarely showing any outward expression. Driven by an inherently curious nature, he constantly studies and observes the small details of the world surround him, making Scout Wolf frustrate often, especially when that curiosity leads him into dangerous situations.",
+      "weight": 35000,
+      "height": 6.8,
       "galleryImagePaths": [
         "Sniper Fox the Grille/T.png",
         "Sniper Fox the Grille/1.png",
-        "Sniper Fox the Grille/2.png"
+        "Sniper Fox the Grille/2.png",
+        "Sniper Fox the Grille/3.png",
+        "Sniper Fox the Grille/4.png",
+        "Sniper Fox the Grille/5.png"
       ],
       "referenceSheetsPath": [
         "Sniper Fox the Grille/R1.png",
-        "Sniper Fox the Grille/R2.png",
-        "Sniper Fox the Grille/R3.png"
+        "Sniper Fox the Grille/R2.png"
       ],
       "outdated": true
     },
