@@ -4357,15 +4357,21 @@
       "creator": "Gasoline Drinker",
       "name": "Ave the Arrow",
       "model": "CF-105 Arrow",
+      "description": "Intercepted radio chatter from [redacted]: sir I’m telling you I know what I saw, I don’t even know what aircraft that was, it looked like an interceptor but faster… it took out [redacted] and half our formation when we came to assist… we need to get out of these skies…\n\nThe subsequent Aerocat was send for a memory wiping upon return to base to ensure no leak of data occurred. His organic mechanic who had been listening in additionally was reported kia under mysterious circumstances.\n\nAves usage is only to be know by [redacted] and [redacted] outside sources will be expunged upon knowledge of ave.\n\nDespite calls to be decommissioned a very secretive group decided it was just unprofitable to maintain all five of the avro-arrow frames, out of all his siblings ave was selected for his lack of care and ability to make cold decisions without moral trouble during missions. He is known to have poor coping mechanisms when off mission.\n\nAfter his siblings were decommissioned he was given the ability to transfer his body between bodies. Despite an odd glitch setting of his pain receptors when out of a certain range he can very easily adapt depending on mission scenarios due to this feature as each frame has variables.\n\nMission histories are redacted.\n\nhow does it feel to die to something that doesn’t exist ",
+      "copilot": "N/A",
+      "faction": "Wing 38",
+      "weight": 22240,
+      "height": 20,
       "galleryImagePaths": [
         "Ave the Arrow/T.png",
         "Ave the Arrow/1.png",
-        "Ave the Arrow/2.png"
+        "Ave the Arrow/2.png",
+        "Ave the Arrow/3.png"
       ],
       "referenceSheetsPath": [
         "Ave the Arrow/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Your opinion",
