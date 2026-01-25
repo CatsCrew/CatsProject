@@ -611,8 +611,7 @@
       "weight" : 19000,
       "height" : 17,
       "galleryImagePaths": [
-        "Eddie the Hawkeye/T.png",
-        "Eddie the Hawkeye/1.png"
+        "Eddie the Hawkeye/T.png"
       ],
       "referenceSheetsPath": [
         "Eddie the Hawkeye/R1.png"
