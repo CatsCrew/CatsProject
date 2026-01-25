@@ -604,17 +604,20 @@
     {
       "creator": "Sandomite",
       "name": "Eddie the Hawkeye",
-      "model": "E-2D Hawkeye",
-      "description": "A bit of a loner on base, he's often out in the sky regardless of his mood coordinating others in the skies. However the job's tiresome so his copilot, Zeal, is often out to keep him both awake and in the air for however terrible it's own copiloting ability is. Is often having to be careful on the ground to avoid scuffing his sensitive sensor suite and is often just seen standing around.",
-      "copilot": "Unknown",
-      "faction": "USA",
+      "model": "E-2D Advance Hawkeye",
+      "description": "A loner on most bases he's assigned forced to coordinate others and offer a plethora of support. Which often means he's out longer and worked more than others. However his copilot keeps him both awake and in the air ever he tires (Making up for it's unhelpfulness in assisting in flying). Has to be careful on the ground to avoid scuffing up his sensitive sensor suite which is left always on due to cost cuts from his faction. This leads to him being cautious around others and seeking places of solitude when he can. He can't take his radome off for similar reasons.",
+      "copilot": "Zeal",
+      "faction": "Might Industries",
+      "weight" : 19000,
+      "height" : 17,
       "galleryImagePaths": [
-        "Eddie the Hawkeye/T.png"
+        "Eddie the Hawkeye/T.png",
+        "Eddie the Hawkeye/1.png"
       ],
       "referenceSheetsPath": [
         "Eddie the Hawkeye/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Sandomite",
