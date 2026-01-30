@@ -4945,6 +4945,23 @@
       "outdated": false
     },
     {
+      "creator": "VeasleyKess",
+      "name": "Merida the Tornado",
+      "model": "Tornado ECR",
+      "description": "The second Tornado unit of the CottonTails Test Team, She's the testbed for propulsion and maneuverability, Similar to Her sister, her frame is also compatible with other Aero parts, she only prefer leg thrusters which surprisingly made maintenance easier yet expensive, She refuses to use conventional CATS legs, she's so picky...\n\nUnlike her sister, Merida still goes into reconnaissance missions, although the data gathered is only used for research and mapping.\n\nHer paint scheme  was suggested by Kistrel herself which she easily agreed with, she also has a V-fin on her holo-visor to keep consistency with her siblings.",
+      "copilot": "C4rrot IV",
+      "faction": "CottonTails Test Team ",
+      "weight": 14500,
+      "height": 6.10,
+      "galleryImagePaths": [
+        "Merida the Tornado/T.jpg"
+      ],
+      "referenceSheetsPath": [
+        "Merida the Tornado/R1.jpg"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Misaki",
       "name": "Misaki the hornet",
       "model": "F/A-18C Hornet",
