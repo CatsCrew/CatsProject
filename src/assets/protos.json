@@ -395,6 +395,22 @@
              "referenceSheetsPath": [
                 "Tenpo the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "Seba200725",
+            "name": "Perez the Proto I",
+            "model": "1.0 Type I",
+            "description": "[REDACTED]",
+            "faction": "[The angels of fire] - ERADICATED",
+            "weight": 67,
+            "height": 1.5,
+            "galleryImagePaths": [
+                "Perez the Proto I/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Perez the Proto I/R1.png"
+            ]
         }
     ]
 }
