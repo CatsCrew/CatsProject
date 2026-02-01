@@ -18,6 +18,9 @@
                 <SelectButton
                     v-model="language"
                     :options="languageOptions"
+                    option-disabled="disabled"
+                    option-label="name"
+                    option-value="value"
                     :allow-empty="false"
                     @change="onLanguageSelected"/>
             </div>
@@ -113,7 +116,24 @@ let images = $ref([]);
 let selectedImage = $ref('');
 
 const catOptions = $ref(Object.values(CatType));
-const languageOptions = $computed(() => Object.keys(speciesSheets[catType]));
+const wipLanguagesPerCatType = {
+    [CatType.Aerocat]: [Language.Vietnamese],
+    [CatType.Landcat]: [Language.Vietnamese],
+    [CatType.Proto]: [Language.Korean, Language.Vietnamese]
+};
+
+const languageOptions = $computed(() => { 
+    const options = [];
+    Object.keys(speciesSheets[catType]).forEach(k => {
+        options.push({ name: k, value: k, disabled: false });
+    });
+
+    wipLanguagesPerCatType[catType].forEach(l => {
+        options.push({ name: l, value: l, disabled: true });
+    });
+
+    return options;
+});
 
 function hasLanguageSupport(catType: CatType) {
     return Object.values(speciesSheets[catType])?.length > 1;
