@@ -117,8 +117,8 @@ let selectedImage = $ref('');
 
 const catOptions = $ref(Object.values(CatType));
 const wipLanguagesPerCatType = {
-    [CatType.Aerocat]: [Language.Vietnamese],
-    [CatType.Landcat]: [Language.Vietnamese],
+    [CatType.Aerocat]: ,
+    [CatType.Landcat]: ,
     [CatType.Proto]: [Language.Korean, Language.Vietnamese]
 };
 
