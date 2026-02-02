@@ -411,6 +411,22 @@
              "referenceSheetsPath": [
                 "Perez the Proto I/R1.png"
             ]
+        },
+        {
+            "creator": "VeasleyKess",
+            "name": "Hazel the Proto 2.0",
+            "model": "2.0",
+            "description": "Originally named 'C4rrot V' he was the Lead of the CottonTails Research and Development Division before stepping down and joining the CottonTails Test Team as an assistant for director Kesstrel, He later adopted the name 'Hazel' given to him by the team as way to prevent confusion with the C4rrot co-pilots as well being part of the Test Team's family.\n\nHe gave the C4rrot Co-pilot's their own nicknames, C4rrot I is now Called Calibre, C4rrot II as Woundwort and lastly C4rrot IV as Owsla\n\nHe's also very accident prone, the more notable example was when he almost got his whole head burned due to him ignoring the testing parameters, luckily his internals was fine only his display and ear plugs got heavily damaged which later got replaced by new parts which took the team two weeks to outsource.",
+            "faction": "CottonTails Test Team",
+            "weight": 72,
+            "height": 1.6,
+            "galleryImagePaths": [
+                "Hazel the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Hazel the Proto 2.0/R1.png"
+            ]
         }
     ]
 }

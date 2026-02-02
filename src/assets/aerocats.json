@@ -527,6 +527,22 @@
       "outdated": true
     },
     {
+      "creator": "Merlin",
+      "name": "Skipper the Shusui",
+      "model": "KI 200 Shusui",
+      "description": "Desc: the Ki200 is a rare prototype based off the german me163 that was doomed to run out of time before her creators could finish her. In spite of that, Skipper's designers saw potential in the agile delta and built her to be a performance craft for flashy tricks and showing off. Skipper spends more time on the fashion and display runways than she does on the airfield runway, showing off her too-nice paint and glittering gimmicks. But that isnt to say she isnt a fighter. Whenever she can she takes part in mock battles and dogfighting, sometimes even with live ammo. For fun, of course. More often than not, however, when she's in the air it's for some show and she's spending her time performing the newest crazy stunt her choreographer has come up with. ",
+      "equipment": [
+        {
+          "name": "type 5 30mm autocannon",
+          "description": "Two are installed."
+        }
+      ],
+      "galleryImagePaths": [
+        "Skipper the Shusui/T.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Katla",
       "name": "Jhett the Raptor",
       "model": "F-22A Raptor",
@@ -3099,17 +3115,20 @@
     },
     {
       "creator": "Seba200725",
-      "name": "Takishido the Spirit",
-      "model": "B-2 Spirit",
+      "name": "Pérez the Flanker-C",
+      "model": "Su-30MK2 Flanker-C",
+      "description": "Current status: Missing, escaped at 05:47pm followed by 8 common fighters to shoot him down, those fighters did not return, it is believed that Pérez managed to escape to an unknown location.",
+      "copilot": "Takishido/Tuxedo",
+      "faction": "The Angels of Fire",
+      "weight": 34500,
+      "height": 6.4,
       "galleryImagePaths": [
-        "Takishido the Spirit/T.png",
-        "Takishido the Spirit/T.jpg"
+        "Pérez the Flanker-C/T.png"
       ],
       "referenceSheetsPath": [
-        "Takishido the Spirit/R1.jpg",
-        "Takishido the Spirit/R1.jpg"
+        "Pérez the Flanker-C/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "SIU",
@@ -4066,15 +4085,18 @@
     },
     {
       "creator": "Kazimierz",
-      "name": "Azure the Viper zero",
-      "model": "F2A Viper Zero",
+      "name": "Dazzle the Eagle",
+      "model": "F-15J Eagle",
+      "description": "A Commemorative livery on a standard F15J, dazzle is usually seen at airshows and public outreach events. While usually not outfitted with any armaments, She is fully capable of flying real missions if duty calls.",
+      "height": 19,
       "galleryImagePaths": [
-        "Azure the Viper zero/T.png"
+        "Dazzle the Eagle/T.png",
+        "Dazzle the Eagle/1.jpg"
       ],
       "referenceSheetsPath": [
-        "Azure the Viper zero/R1.png"
+        "Dazzle the Eagle/R1.jpg"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Galina",
