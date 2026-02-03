@@ -1564,7 +1564,10 @@
       "name": "Rafael the Rafale",
       "model": "Dassault Rafale",
       "galleryImagePaths": [
-        "Rafael the Rafale/T.png"
+        "Rafael the Rafale/T.png",
+        "Rafael the Rafale/1.png",
+        "Rafael the Rafale/2.png",
+        "Rafael the Rafale/3.png"
       ],
       "referenceSheetsPath": [
         "Rafael the Rafale/R1.png"
