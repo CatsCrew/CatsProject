@@ -119,7 +119,7 @@ const catOptions = $ref(Object.values(CatType));
 const wipLanguagesPerCatType = {
     [CatType.Aerocat]: [],
     [CatType.Landcat]: [],
-    [CatType.Proto]: [Language.Korean, Language.Vietnamese]
+    [CatType.Proto]: [],
 };
 
 const languageOptions = $computed(() => { 
