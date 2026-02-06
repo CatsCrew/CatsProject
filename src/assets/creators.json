@@ -1075,6 +1075,10 @@
         {
             "name": "Porto Morio",
             "profileImage": "Porto Morio.png"
+        },
+        {
+            "name": "Scootchies",
+            "profileImage": "scootchies.png"
         }
     ]
 }
