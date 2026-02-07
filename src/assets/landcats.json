@@ -964,6 +964,26 @@
       "outdated": true
     },
     {
+      "creator": "Félix Auréle",
+      "name": "Artyom the Crocodile",
+      "model": "Kraz 255 Crocodile",
+      "description":"Heavy truck with an anti-aircraft system installed on it, tasked with protecting the skies above Monolith strongholds and bases Commands the Granite-4 Anti Aircraft squad, and is the love interest of Mikhaik Has two AA guns and a radar backpack with missile launchers",
+      "crewmate": "Kalin",
+      "faction": "Monolith",
+      "weight": 25000,
+      "height": 5,
+      "galleryImagePaths": [
+        "Artyom the Crocodile/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Artyom the Crocodile/R1.jpg",
+        "Artyom the Crocodile/R2.jpg",
+        "Artyom the Crocodile/R3.jpg"
+        
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Ash",
       "name": "Tumi the Stealth Tank",
       "model": "PL-01 Concept",
@@ -2224,26 +2244,6 @@
       ],
       "referenceSheetsPath": [
         "Otto the HX3 6x6/R1.png"
-      ],
-      "outdated": false
-    },
-    {
-      "creator": "Artyom the Crocodile",
-      "name": "Artyom the Crocodile",
-      "model": "Kraz 255 Crocodile",
-      "description":"Heavy truck with an anti-aircraft system installed on it, tasked with protecting the skies above Monolith strongholds and bases Commands the Granite-4 Anti Aircraft squad, and is the love interest of Mikhaik Has two AA guns and a radar backpack with missile launchers",
-      "crewmate": "Kalin",
-      "faction": "Monolith",
-      "weight": 25000,
-      "height": 5,
-      "galleryImagePaths": [
-        "Artyom the Crocodile/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Artyom the Crocodile/R1.jpg",
-        "Artyom the Crocodile/R2.jpg",
-        "Artyom the Crocodile/R3.jpg"
-        
       ],
       "outdated": false
     }
