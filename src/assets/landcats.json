@@ -2246,6 +2246,40 @@
         "Otto the HX3 6x6/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Nirune",
+      "name": "POL the Charger",
+      "model": "Dodge Charger PPV",
+      "description":"General description: Pol is a calm and focused landcat in his work area, but when there is someone to chase, he sees it as a true challenge. Even though his face often looks serious or cold, he is actually very optimistic and motivated. He is a big fan of racing and cars. Whenever he sees a vehicle speeding by, he can’t help but wonder if he could beat it in a race.\n\nRole as a police officer: Pol mainly works in traffic control. He can be stationed on highways or within the city. His primary duty is to ensure that traffic laws are followed, and he is very strict about them. He always stays visible to remind people to drive carefully and to show that he is there to help if needed.\n\nPersonality and relationships: Although Pol is quiet and doesn’t talk much, he is very friendly and always willing to help his coworkers. His support goes beyond the police force: during an incident that caused a fire at the police station, he used his speed, area knowledge, and resources to help firefighters and ambulances reach the scene faster. Because of this, he formed strong friendships with firefighters and hospital staff, who trust him to manage traffic and find faster routes during emergencies.\n\nOn the road: When patrolling highways, Pol is always alert and excited. More than just stopping offenders, he enjoys competing with those who drive over the speed limit.\n\n- If he wins a chase, he considers it a major achievement and writes it down in his small notebook.\n- If he loses, he feels a bit sad but records what happened to improve his technique. This gives him an extra boost of motivation to keep training and increase his speed.\n\n Fun facts: Due to frequent races and high-speed chases, Pol needs more DIZERO. Sometimes he accepts bribes to avoid issuing fines, using that money to buy more DIZERO for his races. Before starting his shift, he always stretches. Skipping this can cause problems during a pursuit. He has two ways to start his engine:\n- During warm-up, using a pose called Greeting Stretch.\n- In sudden situations, by simply running and activating his engine once he reaches a certain speed.\n\nCurrent situation: There has been a strange increase in people whenever Pol is patrolling or stationed at the police department. His coworker Pim believes there is a group of fans who admire Pol. However, rumors say that one of them may be an obsessive secret admirer or even a stalker. Pol is unaware of this, but Pim always watches his back just in case.(Sorry for the long text, I got a bit carried away haha)",
+      "crewmate": "PIM",
+      "faction": "Unknown",
+      "weight": 1795,
+      "height": 3.04,
+      "galleryImagePaths": [
+        "POL the Charger/T.png"
+      ],
+      "referenceSheetsPath": [
+        "POL the Charger/R1.jpg"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "BlueBear",
+      "name": "Leer the Boxer",
+      "model": "Boxer CRV",
+      "description":"he’s an armored wheeled reconnaissance vehicle, featuring a MK 30-2/ABM gun Main gun with a a RMG 7.62 Machine gun mount, it has 8 Wheels and could carry up to 4 realistically but for his sake he Carry’s 1, his main gun can be placed on his backpack to free up his arm, his pack carry’s all his ammo and a mounted right side turret ",
+      "crewmate": "N/A",
+      "faction": "Unknown",
+      "weight": 38000,
+      "height": 5.4,
+      "galleryImagePaths": [
+        "Leer the Boxer/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Leer the Boxer/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }

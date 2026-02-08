@@ -1079,6 +1079,14 @@
         {
             "name": "Scootchies",
             "profileImage": "scootchies.png"
+        },
+        {
+            "name": "Nirune",
+            "profileImage": "Nirune.png"
+        },
+        {
+            "name": "BlueBear",
+            "profileImage": "BlueBear.png"
         }
     ]
 }
