@@ -3422,8 +3422,9 @@
       "name": "Mriya the An-225",
       "model": "An-225 Mriya",
       "description": "being one of the largest cargo aircraft, has huge cargo capacity. Very squishy and rubbery insides allow to carry even the most sensitive of equipment without damage, as well as other aero- and landcats. If needed, can carry Personell too in great amounts. Due to large size and capacity, needs good grip to be able to stop, thus wears a bit of extra rubber on the paws. In general... Big, Soft and squishy ",
-      "copilot": "Unknown",
+      "copilot": "Anton",
       "faction": "Unknown",
+      "height": 84,
       "galleryImagePaths": [
         "Mriya the An-225/T.png",
         "Mriya the An-225/1.png",

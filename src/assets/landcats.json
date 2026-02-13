@@ -436,6 +436,7 @@
       "description": "Ranked as 'Starszy Ogniomistrz' in the national fire brigade. Has most experience within densely forested areas, thus needs thick treads to traverse the terrain. Powerful winch used to climb, remove blockages and pull others. Searchlight for the darkest and foggiest nights, and of course plenty of tools in his backpack. He has a younger, but larger, brother by the name of Mieczysław, a STAR 266 within the military with a rank of Chorąży. Stasiek's love for forests has also made him befriend an UAZ 469 in forestry.",
       "crewmate": "Unknown",
       "faction": "Poland",
+      "height": 2.5,
       "galleryImagePaths": [
         "St. Ogn. Stanisław the Star/T.png",
         "St. Ogn. Stanisław the Star/1.png",
@@ -458,6 +459,7 @@
       "description": "Although he's bigger and has a higher comparable rank, he's actually Stanisław's younger brother. Ranked as a 'Chorąży' (Standard-bearer, this is mostly done as a reference to a Polish meme) has most experience with planning logistics routes and carrying supplies. Has big treads, just like his older brother, which help traverse muddy and more difficult forested terrain. Whenever needed, can carry a ZU-23 anti-aircraft gun instead of cargo, which he can use relatively well.",
       "crewmate": "Unknown",
       "faction": "Poland",
+      "height": 3.15,
       "galleryImagePaths": [
         "Chor. Mieczysław the STAR 266/T.png",
         "Chor. Mieczysław the STAR 266/1.png",
