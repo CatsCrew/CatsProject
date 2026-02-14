@@ -44,7 +44,16 @@
 
 <script setup>
 import { ref, reactive, onMounted, onBeforeUnmount } from "vue";
+import { useCatsStore } from '@/store';
+import { storeToRefs } from 'pinia';
 import RadarProto from '@/assets/images/radar-proto.webp';
+
+const cat$ = useCatsStore();
+const { aerocats, landcats, protos } = $(storeToRefs(cat$));
+
+const aerocatsCount = aerocats.length;
+const landcatsCount = landcats.length;
+const protosCount = protos.length;
 
 let sweepAngle = $ref(0); // Current angle of the sweep in degrees
 const sweepSpeed = 0.5; // Degrees per frame (adjust for speed)
@@ -63,6 +72,29 @@ let animationFrameId = $ref(null);
 let regenerationTimerId = $ref(null);
 
 const blips = reactive([]);
+
+// Choose a blip type proportionally to the available counts
+const getTypeFromCounts = () => {
+    const counts = [
+        aerocatsCount,
+        landcatsCount,
+        protosCount
+    ];
+
+    const total = counts.reduce((s, c) => s + c, 0);
+    if (total === 0) {
+        return blipTypes[Math.floor(Math.random() * blipTypes.length)];
+    }
+    
+    let r = Math.random() * total;
+    for (let i = 0; i < counts.length; i++) {
+        if (r < counts[i]) {
+            return blipTypes[i];
+        }
+        r -= counts[i];
+    }
+    return blipTypes[blipTypes.length - 1];
+};
 
 const generateRandomBlips = () => {
     const currentTime = performance.now();
@@ -83,7 +115,7 @@ const generateRandomBlips = () => {
         const distance = Math.random() * (maxDistanceFromCenter - minDistanceFromCenter) + minDistanceFromCenter;
         const x = 50 + distance * Math.cos(angle);
         const y = 50 + distance * Math.sin(angle);
-        const type = blipTypes[Math.floor(Math.random() * blipTypes.length)];
+        const type = getTypeFromCounts();
         
         blips.push({
             id: `blip-${Date.now()}-${Math.random()}`,
@@ -108,7 +140,7 @@ const generateInitialBlips = () => {
         const distance = Math.random() * (maxDistanceFromCenter - minDistanceFromCenter) + minDistanceFromCenter;
         const x = 50 + distance * Math.cos(angle);
         const y = 50 + distance * Math.sin(angle);
-        const type = blipTypes[Math.floor(Math.random() * blipTypes.length)];
+        const type = getTypeFromCounts();
         
         blips.push({
             id: `blip-${Date.now()}-${Math.random()}`,
