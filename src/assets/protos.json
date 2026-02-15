@@ -427,6 +427,22 @@
              "referenceSheetsPath": [
                 "Hazel the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "notwebber",
+            "name": "Dr.Ruby the Proto 2.0",
+            "model": "2.0",
+            "description": "Chemist, assigned to research the properties and origins  of PDG and the effects it has on organisms and CATS.\n\nNotes: Has difficultly interacting with CATS and Protos outside of their small social circle...",
+            "faction": "Unknown",
+            "weight": 65,
+            "height": 1.6,
+            "galleryImagePaths": [
+                "Dr.Ruby the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Dr.Ruby the Proto 2.0/R1.png"
+            ]
         }
     ]
 }
