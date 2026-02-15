@@ -473,43 +473,6 @@
       "outdated": false
     },
     {
-      "creator": "YuuStrand_69",
-      "name": "Anjanath the EBR",
-      "model": "E.B.R-FL10-90",
-      "galleryImagePaths": [
-        "Anjanath the EBR/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Anjanath the EBR/R1.png"
-      ],
-      "outdated": true
-    },
-    {
-      "creator": "YuuStrand_69",
-      "name": "Lima the Gepard",
-      "model": "Flakpanzer Gepard",
-      "galleryImagePaths": [
-        "Lima the Gepard/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Lima the Gepard/R1.png"
-      ],
-      "outdated": true
-    },
-    {
-      "creator": "YuuStrand_69",
-      "name": "Sinclair the CRC",
-      "model": "AMX-10 RC Char à Roues Canon",
-      "galleryImagePaths": [
-        "Sinclair the CRC/T.png"
-      ],
-      "referenceSheetsPath": [
-        "Sinclair the CRC/R1.png",
-        "Sinclair the CRC/R2.png"
-      ],
-      "outdated": true
-    },
-    {
       "creator": "BanditboiiZ",
       "name": "N1ck the NSX1990",
       "model": "Honda NSX 1990",
