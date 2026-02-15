@@ -122,18 +122,23 @@
                     <template #content>
                         <div class="communication-container">
                             <div class="communication-item">
-                                <div class="communication-header">
-                                    <div class="communication-title">
-                                        Discord Server
+                                <div class="communication-content">
+                                    <div class="communication-header">
+                                        <div class="communication-title">
+                                            Discord Server
+                                        </div>
+                                        <div class="communication-subtitle">
+                                            C.A.T.S
+                                        </div>
                                     </div>
-                                    <div class="communication-subtitle">
-                                        C.A.T.S
-                                    </div>
+                                    <a class="discord-btn" :href="discordUrl" target="_blank">
+                                        <i class="pi pi-icon pi-discord"></i>
+                                        Join
+                                    </a>
                                 </div>
-                                <a class="discord-btn" :href="discordUrl" target="_blank">
-                                    <i class="pi pi-icon pi-discord"></i>
-                                    Join
-                                </a>
+                                <Banner :type="BannerType.Warning">
+                                    Only users 20+ will be accepted
+                                </Banner>
                             </div>
                         </div>
                     </template>

@@ -61,6 +61,9 @@
                                 <div class="discord">
                                     <div class="header">Discord</div>
                                     <p class="sub-text">The Discord server is a space for archive access, light community interaction, and information sharing! Please make sure to read the rules when you join!</p>
+                                    <Banner :type="BannerType.Warning">
+                                        Only users 20+ will be accepted
+                                    </Banner>
                                     <a class="discord-btn" :href="discordUrl">
                                         <i class="pi pi-icon pi-discord"></i>Join C.A.T.S discord
                                     </a>

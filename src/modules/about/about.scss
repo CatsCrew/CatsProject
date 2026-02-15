@@ -102,6 +102,7 @@
       .discord {
         display: flex;
         flex-direction: column;
+        gap: pxToRem(8);
 
         .header {
           font-size: pxToRem(24);
@@ -109,6 +110,10 @@
 
         .sub-text {
           color: $text-secondary;
+        }
+
+        p {
+          margin: 0;
         }
 
         .discord-btn {

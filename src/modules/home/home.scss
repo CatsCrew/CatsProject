@@ -207,36 +207,42 @@
             .communication-container {
                 .communication-item {
                     display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    justify-content: space-between;
+                    flex-direction: column;
+                    gap: pxToRem(8);
                     background: $background-secondary;
                     border-radius: pxToRem(8);
                     padding: pxToRem(16);
 
-                    .communication-header {
+                    .communication-content {
                         display: flex;
                         flex-direction: row;
                         align-items: center;
-                        gap: pxToRem(12);
+                        justify-content: space-between;
 
-                        .communication-subtitle {
-                            color: $text-secondary;
-                            font-size: pxToRem(14);
+                        .communication-header {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap: pxToRem(12);
+
+                            .communication-subtitle {
+                                color: $text-secondary;
+                                font-size: pxToRem(14);
+                            }
                         }
-                    }
 
-                    a {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        gap: pxToRem(8);
-                        min-width: pxToRem(100);
-                        padding: pxToRem(8);
-                        border-radius: pxToRem(4);
-                        background: $discord-gradient;
-                        text-decoration: none;
-                        color: white;
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: pxToRem(8);
+                            min-width: pxToRem(100);
+                            padding: pxToRem(8);
+                            border-radius: pxToRem(4);
+                            background: $discord-gradient;
+                            text-decoration: none;
+                            color: white;
+                        }
                     }
                 }
             }
