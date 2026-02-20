@@ -2435,13 +2435,30 @@
       "creator": "leviathinh",
       "name": "Twerl the Osprey",
       "model": "V-22 Osprey",
+      "description": "it's Twerl he can fly",
+      "copilot": "COD",
       "galleryImagePaths": [
         "Twerl the Osprey/T.png",
         "Twerl the Osprey/1.png",
-        "Twerl the Osprey/2.png"
+        "Twerl the Osprey/2.png",
+        "Twerl the Osprey/3.png",
+        "Twerl the Osprey/4.png",
+        "Twerl the Osprey/5.png",
+        "Twerl the Osprey/6.png",
+        "Twerl the Osprey/7.png",
+        "Twerl the Osprey/8.png",
+        "Twerl the Osprey/9.jpg",
+        "Twerl the Osprey/10.png",
+        "Twerl the Osprey/11.png",
+        "Twerl the Osprey/12.png",
+        "Twerl the Osprey/13.png",
+        "Twerl the Osprey/14.gif",
+        "Twerl the Osprey/15.png",
+        "Twerl the Osprey/16.jpg",
+        "Twerl the Osprey/17.jpg"
       ],
       "referenceSheetsPath": [
-        "Twerl the Osprey/R1.png"
+        "Twerl the Osprey/R1.jpg"
       ],
       "outdated": true
     },
