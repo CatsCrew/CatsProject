@@ -5111,6 +5111,39 @@
         "Mirage the Mirage/R1.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Mint Lad",
+      "name": "Nior the Spirit",
+      "model": "B-2 Spirit",
+      "description": "Nior is a somewhat reserved Aerocat, usually preferring to have an assignment done properly before relaxing. His Co-pilot Rouge usually ends up annoying him, most often joking about any situation they may find themselves in, frequently leading to small passive aggressive arguments. Hobbies consist mostly of photography and enjoying music, primarily jazz.",
+      "copilot": "Rouge",
+      "faction": "Unknown",
+      "height": 19.2,
+      "galleryImagePaths": [
+        "Nior the Spirit/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Nior the Spirit/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Akiori",
+      "name": "Akiori the Raptor",
+      "model": "F-22A Raptor",
+      "description": "",
+      "copilot": "Rouge",
+      "faction": "USA",
+      "weight": 12000,
+      "height": 15.3,
+      "galleryImagePaths": [
+        "Akiori the Raptor/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Akiori the Raptor/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }

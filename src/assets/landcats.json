@@ -2180,6 +2180,24 @@
       "outdated": false
     },
     {
+      "creator": "Jagdtiger844",
+      "name": "Klutz the Scout",
+      "model": "International Scout 800A",
+      "description":" Klutz is the clumsy, earnest sort. Being raised as a PROTO Boy Scout that helps around Bluerock National Park, he grew to love the woods. With the tight budgets within the Rangers, only one CAT could be bought, and with Klutz's attitude and exemplary performance, he was an easy pick to be the only LandCAT within Bluerock National Park. His chassis created by Phoenix Lab, and transfer carried out by them as well, a few problems came with the cheap service. Memories of another LandCAT interspersed with his, appearing as Night Terrors and Familiarity with specific places. With a newfound fear of Firearms in particular, his clumsiness got elevated as he got used to his new form.\n\nBeing as large and kitted as he is, he's responsible for helping with any heavy labour/rescue efforts within the park, his winch hooks and natural agility allowing him to get through many parts of the park without much fuss (Except when his clumsiness gets him turtled or stuck in odd ways). With his friendliness and love for idle converse, he's quick to make friends with those he meets, sharing snacks, stories, and even tunes with an Acoustic Guitar he learned to make from one of the Rangers. ",
+      "crewmate": "Piney",
+      "faction": "Bluerock Park Rangers",
+      "weight": 1054,
+      "height": 2.95,
+      "galleryImagePaths": [
+        "Klutz the Scout/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Klutz the Scout/R1.png",
+        "Klutz the Scout/R2.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Jay",
       "name": "Götz the Gepard",
       "model": "Flakpanzer Gepard 1A2",
