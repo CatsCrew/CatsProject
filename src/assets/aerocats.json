@@ -5114,17 +5114,20 @@
     },
     {
       "creator": "Mint Lad",
-      "name": "Nior the Spirit",
+      "name": "Noir the Spirit",
       "model": "B-2 Spirit",
-      "description": "Nior is a somewhat reserved Aerocat, usually preferring to have an assignment done properly before relaxing. His Co-pilot Rouge usually ends up annoying him, most often joking about any situation they may find themselves in, frequently leading to small passive aggressive arguments. Hobbies consist mostly of photography and enjoying music, primarily jazz.",
+      "description": "Noir is a somewhat reserved Aerocat, usually preferring to have an assignment done properly before relaxing. His Co-pilot Rouge usually ends up annoying him, most often joking about any situation they may find themselves in, frequently leading to small passive aggressive arguments. Hobbies consist mostly of photography and enjoying music, primarily jazz.",
       "copilot": "Rouge",
       "faction": "Unknown",
       "height": 19.2,
       "galleryImagePaths": [
-        "Nior the Spirit/T.png"
+        "Noir the Spirit/T.png",
+        "Noir the Spirit/1.png",
+        "Noir the Spirit/2.png",
+        "Noir the Spirit/3.png"
       ],
       "referenceSheetsPath": [
-        "Nior the Spirit/R1.png"
+        "Noir the Spirit/R1.png"
       ],
       "outdated": false
     },
