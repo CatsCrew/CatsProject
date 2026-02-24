@@ -709,7 +709,7 @@
     },
     {
       "creator": "vanny1424",
-      "name": "Cobra the Warthog",
+      "name": "Cobra the Thunderbolt ll",
       "model": "A-10 Thunderbolt ll",
       "galleryImagePaths": [
         "Cobra the Warthog/T.png"
@@ -3095,7 +3095,7 @@
     },
     {
       "creator": "Kiote",
-      "name": "Smoke the Warthog",
+      "name": "Smoke the Thunderbolt ll",
       "model": "A-10 Thunderbolt ll",
       "galleryImagePaths": [
         "Smoke the Warthog/T.png"
@@ -5145,6 +5145,41 @@
       ],
       "referenceSheetsPath": [
         "Akiori the Raptor/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Gale",
+      "name": "Mozambique the Thunderbolt II",
+      "model": "A-10 Thunderbolt ll",
+      "description": "High energy and always ready to rally up morale, Mozambique serves in missions as Close Air Support, vigilantly watching from the skies to protect her comrades. Built like a titanium fridge and packing immense firepower in the form of her massive GAU-8 Avenger rotary machine gun, spirits stay high when they hear her bullets fly. When she's not out flying missions, she prefers to clean and maintain her weapons in pristine condition, ready for the next sortie. She'll also happily discuss her passion for anything that fires bullets in the quadruple digit rate with anyone who asks.",
+      "copilot": "N/A",
+      "faction": "USA",
+      "weight": 11300,
+      "height": 16.26,
+      "galleryImagePaths": [
+        "Mozambique the Thunderbolt II/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Mozambique the Thunderbolt II/R1.png",
+        "Mozambique the Thunderbolt II/R2.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "daniraine",
+      "name": "Douglas the Skytrain",
+      "model": "Douglas C-47A Skytrain",
+      "description": "Role: Military Transport Aircraft\n\nMore Info given in the sheet!",
+      "copilot": "Unknown",
+      "faction": "USA",
+      "weight": 8226,
+      "height": 19.43,
+      "galleryImagePaths": [
+        "Douglas the Skytrain/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Douglas the Skytrain/R1.png"
       ],
       "outdated": false
     }
