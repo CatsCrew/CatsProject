@@ -5182,6 +5182,23 @@
         "Douglas the Skytrain/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Redbnr",
+      "name": "ABY the Felon",
+      "model": "SU-57 Felon",
+      "description": "Aerocat specialized on high maneuver air-to-air battles, making high-percision strikes. Her engines and wing construction allows her making high-class maneuvers midair, avoiding enemy missiles and attacks easily. She takes deaths like a joke, war is not a serious thing, just an entertainment for her. Despite that, she's kind to her allies, others love to spent free time with her. Has a good sense of humor and cute face. Her extreme battle efficiency made her to the Ace rank Aerocat.",
+      "copilot": "N/A",
+      "faction": "Mercenary",
+      "weight": 7500,
+      "height": 4.5,
+      "galleryImagePaths": [
+        "ABY the Felon/T.png"
+      ],
+      "referenceSheetsPath": [
+        "ABY the Felon/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
