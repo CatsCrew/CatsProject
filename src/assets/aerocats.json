@@ -5199,6 +5199,23 @@
         "ABY the Felon/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Sage",
+      "name": "Cross the Fulcrum-F",
+      "model": "MIG-35 Fulcrum-F",
+      "description": "",
+      "copilot": "Unknown",
+      "faction": "Unknown",
+      "weight": 17500,
+      "height": 17.3,
+      "galleryImagePaths": [
+        "Cross the Fulcrum-F/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Cross the Fulcrum-F/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
