@@ -2198,6 +2198,24 @@
       "outdated": false
     },
     {
+      "creator": "Jagdtiger844",
+      "name": "Cinder the Churchill Crocodile",
+      "model": "Churchill Crocodile",
+      "description":"Cinder is a quiet, reserved CAT. Originally commissioned to fulfill an Anti-Infantry role, poor timing and delays in payment lead to her coming about in a time she wasn't needed. Armed with a Flamethrower and Revolver, she was moved between outposts and checkpoints, never seeing any real combat, though with her sensory issues out from the factory, most of her peers considered her ill-suited for battle anyway.\n\nThrough unfortunate circumstances, she eventually sought new work under Wing 38, her marksmanship with her revolver and her penchant for burning things down making her well suited towards any contract that involved complete erasure/destruction of a target. Often found in quieter parts of the base, she tends to keep away from any noise. Music, Flame, or Dead Quiet being her only solace from the world around her.\n\n(20,300 kg w/ Gear.)",
+      "crewmate": "N/A",
+      "faction": "Wing 38",
+      "weight": 6400,
+      "height": 4.72,
+      "galleryImagePaths": [
+        "Cinder the Churchill Crocodile/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Cinder the Churchill Crocodile/R1.png",
+        "Cinder the Churchill Crocodile/R2.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Jay",
       "name": "Götz the Gepard",
       "model": "Flakpanzer Gepard 1A2",

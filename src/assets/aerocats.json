@@ -5234,6 +5234,40 @@
         "Cross the Fulcrum-F/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Sleepiestvampire",
+      "name": "Trecolga the Super Tomcat",
+      "model": "F-14D Super Tomcat",
+      "description": "80’s American Interceptor/Multirole Jet with variable swept wings and patterning to match the nickname. Missiles can be loaded onto the arms or wings with pylons.",
+      "copilot": "Ewo",
+      "faction": "Unknown",
+      "weight": 7090,
+      "height": 5.4,
+      "galleryImagePaths": [
+        "Trecolga the Super Tomcat/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Trecolga the Super Tomcat/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Realbigstink",
+      "name": "Casey the Tristar",
+      "model": "Tristar KC.1",
+      "description": "Cheery aerial tanker that doesnt mind helping others, enjoys 'cooking food' but is really just JETO presented in various ways",
+      "copilot": "Unknown",
+      "faction": "Unknown",
+      "weight": 25000,
+      "height": 18.98,
+      "galleryImagePaths": [
+        "Casey the Tristar/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Casey the Tristar/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
