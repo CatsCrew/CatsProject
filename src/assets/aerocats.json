@@ -601,6 +601,10 @@
       "creator": "JaxtheKingRebal",
       "name": "Mustang the Mustang",
       "model": "P-51D Mustang",
+      "description": "A hot headed, full of himself, veteran of the sky. Mustang is one who knows a few dirty tricks when it comes to Ariel combat and really chooses to push the limit on what he can get away with. Sal-E his co pilots keeps him in line enough at least to where they aren’t fully taken out of service.",
+      "copilot": "Sal-E",
+      "weight": 5262,
+      "height": 9.83,
       "galleryImagePaths": [
         "Mustang the Mustang/T.png"
       ],
@@ -613,6 +617,9 @@
       "creator": "JaxtheKingRebal",
       "name": "Brigade the Osprey",
       "model": "V-22 Osprey",
+      "description": "he’s not very social and and is extremely resilient. Hes got some anger issues that need to be taken care of. Hes dosent seem to keep his co pilots “in one piece” so he was given a map",
+      "weight": 23859,
+      "height": 17.47,
       "galleryImagePaths": [
         "Brigade the Osprey/T.png"
       ],
