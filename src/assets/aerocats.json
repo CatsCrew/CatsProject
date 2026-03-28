@@ -5277,6 +5277,23 @@
         "Casey the Tristar/R1.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Flare",
+      "name": "Senty the Sentinel",
+      "model": "RQ-170 Sentinel",
+      "description": "Military stealth C.A.T.S designed for intelligence gathering. Originally worked under US military to gather intel about enemy C.A.T.S bases and illegal operations she was dishonorable discharged for leaking military intel to the press, she was able to find a mercenary group to take her in and work under outside of US's direct reach.",
+      "copilot": "N/A",
+      "faction": "Mercenary",
+      "weight": 80,
+      "height": 1,
+      "galleryImagePaths": [
+        "Senty the Sentinel/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Senty the Sentinel/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }

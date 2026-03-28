@@ -2282,6 +2282,23 @@
         "Leer the Boxer/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Freyja Darling",
+      "name": "Aki the Jeepney",
+      "model": "Jeepney",
+      "description":"Aki is a happy-go-lucky jeepney with a route within the capital region of the Philippines, moving passengers from location to location, on occasion moving goods when privately hired. Her life is as simple as it gets with the usual camaraderie with the other CATS and Non-CATS she meets, though usually in the middle of traffic or at a local sari-sari store.\n\nDue to the nature of jeepneys, her becoming was assisted by Phoenix Labs from what was previously as Willys Jeep LandCAT, now its memories manifesting as nightmares and some reflexes that are beyond her. Despite such, she lives her life as normally as she can, thinking that those are normal for others too and choosing to uplift them to help them get through.\n\nTaur extension: Metal Kalesa. Variation of the Kalesa for specific use for Jeepneys LandCATS. Attachments allowing Jeepney LandCATs to transport more than just their body's carrying capacity. Aki's extension allows her to transport 20 more people.",
+      "crewmate": "N/A",
+      "faction": "Makina de Sampaguita",
+      "weight": 3600,
+      "height": 4,
+      "galleryImagePaths": [
+        "Aki the Jeepney/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Aki the Jeepney/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
