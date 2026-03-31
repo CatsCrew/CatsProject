@@ -2031,7 +2031,9 @@
       "name": "Vex the APC",
       "model": "900HP DE APC (OF)",
       "galleryImagePaths": [
-        "Vex the APC/T.png"
+        "Vex the APC/T.png",
+        "Vex the APC/1.png",
+        "Vex the APC/2.jpg"
       ],
       "referenceSheetsPath": [
         "Vex the APC/R1.jpg",
