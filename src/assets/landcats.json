@@ -828,15 +828,50 @@
     },
     {
       "creator": "Karvão",
-      "name": "Wraith the Wraith",
-      "model": "CV90120/40 Wraith",
+      "name": "Wraith the Ghost",
+      "model": "CV90120/40 Ghost",
+      "crewmate": "Unknown",
+      "description": "A Stealth Technology Demonstrator version of a CV90120, featuring active thermal camouflage and reduced radar signature.\nThe stealth project was discontinued, but since its still a functional LANDCAT it got called into active service so it doesn't go to waste.\nWraith wasn't really made for the battlefield so they had to install and experimental chip that would suppress all of the horrors of a war, making him able to serve efficiently without thinking of it, leaving him being kinda disconnected from reality and his actions, being positive and playful even in the worst conditions.\n\nWraith also has a collar with most of the CV90120 sensors installed in it, it serves almost like a silent co-pilot since as a Tech demonstrator, he didn't have one before. It can deploy smoke automatically and can even take control of Wraiths body in order to move him into safety.\nThe active thermal camo has very limited uses.",
+      "faction": "Unknown",
+      "weight": 42000,
+      "height": 6.6,
+      "equipment": [
+        {
+          "name": "120MM Cannon",
+          "description": "the cannon of the normal cv90120 but with a more stealthy look and more protection against radar detection, semi automatic"
+        },
+        {
+          "name": "12.7mm Machinegun",
+          "description": "12.7mm Machinegun"
+        },
+        {
+          "name": "Claw and Teeth",
+          "description": "Claws and teeth may be used  in close combat."
+        }
+      ],
       "galleryImagePaths": [
-        "Wraith the Wraith/T.png"
+        "Wraith the Ghost/T.png"
       ],
       "referenceSheetsPath": [
-        "Wraith the Wraith/R1.png"
+        "Wraith the Ghost/R1.png"
       ],
-      "outdated": true
+      "outdated": false
+    },
+    {
+      "creator": "Karvão",
+      "name": "Big Wind the Big wind",
+      "model": "Big Wind - T55",
+      "crewmate": "Unknown",
+      "description": "A firefighting landcat based on an older military landcat model, fitted with two firefighting devices on arms, attached to its back.\nIts main purpose was fighting oil well fires using the mig-21 engines, injecting water behind the exhaust at 6000l/min\n\nNot a very talkative cat but gets the job done, if there is any, he doesnt get a lot of work and he cant use roads on its own because he has no rubber padded paws so he mostly just stays in one place.",
+      "faction": "Unknown",
+      "height": 5.9,
+      "galleryImagePaths": [
+        "Big Wind the Big wind/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Big Wind the Big wind/R1.png"
+      ],
+      "outdated": false
     },
     {
       "creator": "KandyKatz! (Barrier)",
