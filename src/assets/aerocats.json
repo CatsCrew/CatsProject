@@ -3769,6 +3769,23 @@
       "outdated": false
     },
     {
+      "creator": "Tyler",
+      "name": "Midi the Medusa",
+      "model": "EW-25 Medusa (Game)",
+      "galleryImagePaths": [
+        "Midi the Medusa/T.png",
+        "Midi the Medusa/1.png",
+        "Midi the Medusa/2.png",
+        "Midi the Medusa/3.png",
+        "Midi the Medusa/4.png",
+        "Midi the Medusa/5.png"
+      ],
+      "referenceSheetsPath": [
+        "Midi the Medusa/R1.png"
+      ],
+      "outdated": true
+    },
+    {
       "creator": "Curian",
       "name": "Reir the Shinden",
       "model": "J7W1 Shinden",
@@ -4269,23 +4286,6 @@
         "Dozer the Ghostrider/R1.png"
       ],
       "outdated": false
-    },
-    {
-      "creator": "NIKO",
-      "name": "Midi the Medusa",
-      "model": "EW-25 Medusa (Game)",
-      "galleryImagePaths": [
-        "Midi the Medusa/T.png",
-        "Midi the Medusa/1.png",
-        "Midi the Medusa/2.png",
-        "Midi the Medusa/3.png",
-        "Midi the Medusa/4.png",
-        "Midi the Medusa/5.png"
-      ],
-      "referenceSheetsPath": [
-        "Midi the Medusa/R1.png"
-      ],
-      "outdated": true
     },
     {
       "creator": "NIKO",
@@ -4937,10 +4937,14 @@
       "weight": 14500,
       "height": 5.95,
       "galleryImagePaths": [
-        "Lavende the Tornado/T.jpg"
+        "Lavende the Tornado/T.png",
+        "Lavende the Tornado/1.png",
+        "Lavende the Tornado/2.png",
+        "Lavende the Tornado/3.jpg"
       ],
       "referenceSheetsPath": [
-        "Lavende the Tornado/R1.jpg"
+        "Lavende the Tornado/R1.png",
+        "Lavende the Tornado/R2.png"
       ],
       "outdated": false
     },
