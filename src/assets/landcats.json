@@ -2362,6 +2362,23 @@
         "Aki the Jeepney/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Realbigstink",
+      "name": "Zval the Terminator",
+      "model": "BMPT Terminator",
+      "description":"Landcat designed for urban combat with sufficient armor coverage and firepower to boot, Zval utilises two 30mm submachine guns alongside other secondary armaments. Has four manipulators on his back that can mount either 2x5 ERA plates for defense or ATGMs for offense, both of which can be switched out for a secondary 6-round HE grenade launcher.\n\nDespite being designed with urban warfare in mind, he doesnt like being in cramped spaces due to his several 'poor experiences' in the field (or city), subsequently developing some level of claustrophobia and paranoia. Has a quiet personality and enjoys sightseeing or walks in large open fields.",
+      "crewmate": "N/A",
+      "faction": "N/A",
+      "weight": 37000,
+      "height": 6,
+      "galleryImagePaths": [
+        "Zval the Terminator/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Zval the Terminator/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }

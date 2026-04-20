@@ -5267,6 +5267,23 @@
       "outdated": false
     },
     {
+      "creator": "Sage",
+      "name": "Vitas the Wedgetail",
+      "model": "E-7 Wedgetail",
+      "description": "Vitas, also commonly called Vita due to its similar spelling, is a E-7 Wedgetail from the region of Oceania, specifically Australia. He can be a stern and irritable AEROCATS, sometimes coming off as rude even when not intended. He takes a disliking to the in-experienced or incompetent, also having a disliking towards 'godless' Mercenaries or PMCs due to a disbelief in their credibility or skill. He is very passionate about his homeland and takes great offense when it is talked negatively of by those who never lived in it.",
+      "copilot": "Unknown",
+      "faction": "Pacific Federation",
+      "weight": 46606,
+      "height": 33.6,
+      "galleryImagePaths": [
+        "Vitas the Wedgetail/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Vitas the Wedgetail/R1.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Sleepiestvampire",
       "name": "Trecolga the Super Tomcat",
       "model": "F-14D Super Tomcat",
