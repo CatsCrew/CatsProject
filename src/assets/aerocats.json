@@ -4312,6 +4312,21 @@
       "outdated": true
     },
     {
+      "creator": "NIKO",
+      "name": "Nick the Lightning ll",
+      "model": "F-35B Lightning II",
+      "description": "Nick is a short, chubby AEROCATS unit, known for his bubbly, charming personality. He is extremely knowledgeable about aeronautical/aerospace engineering, having previously been one of the head engineers for the ORION Research and Development Corporation back when he was an organic being. Despite this, he is still very much a novice when it comes to combat and advanced flight, and often looks to Hades for help or advice.",
+      "faction": "Trident Aeronautics",
+      "galleryImagePaths": [
+        "Nick the Lightning ll/T.png",
+        "Nick the Lightning ll/1.png"
+      ],
+      "referenceSheetsPath": [
+        "Nick the Lightning ll/R1.png"
+      ],
+      "outdated": true
+    },
+    {
       "creator": "bezitank",
       "name": "Kuba the Fulcrum",
       "model": "MIG-29 Fulcrum",
@@ -5300,6 +5315,46 @@
       ],
       "referenceSheetsPath": [
         "Senty the Sentinel/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Vix",
+      "name": "Eris the Sentry",
+      "model": "E-3 Sentry",
+      "description": "Eris is a recently modified E-3 Sentry designed to adapt to developing technologies and enhancing survivability for himself and his allies through his new, stronger defensive and support systems fitting for his platform. The major change primarily focuses on his rotodome, boasting a new heavy electronic warfare suite along with an enhanced radar allowing for longer distance support and suppression - While such changes resulted in having a larger and heavier rotodome than similar models, the most striking visual change however is the visual display of radar returns. Such displays are not only for show, as the bottom facing lights are capable of an incredible, blinding and ███████ flash penetrating through even the strongest protective tints that can severely disorient other CATS closing in their airspace. He actively flies and coordinate with other AEROCATS providing support with those enhanced sensors and e-war equipment whenever needed from the backline. His co-pilot, Vue, is to help him oversee his actions and keep him clear from pitfalls such as tunnel vision while overseeing the air picture.\n\nPersonality wise, he usually presents himself rather cheery with his ally AEROCATS, often expressing enjoyment in presenting JETO in a variety of manners similar to food for humans most notably burgers - preparing these for himself and the others. On duty however he maintains a concise and efficient tone occasionally broken up by any consumption of JETO mid mission returning to that familiar cheeriness until its done. The same cold tone is demonstrated against any deemed hostile targets he comes in contact with.\n\nThere are rumours of a moving blue halo in the shadows and night all alone, but there are no official internal nor external records confirming whether or not these rumours are linked to Eris himself.",
+      "copilot": "Vue",
+      "faction": "Wing 38",
+      "weight": 149210,
+      "height": 47,
+      "galleryImagePaths": [
+        "Eris the Sentry/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Eris the Sentry/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "CoffeeMartin",
+      "name": "PÁL the Fitter-J",
+      "model": "SU-22M3 Fitter-J",
+      "description": "Pál is a Su-22M3 Fitter built to fulfil the fighter-bomber role for the Hungarian air force. Despite being based off an older generation of jets, he is perfectly capable of facing off against other CATS. His armaments can be a mix of a selection of missiles, rocket pods or a modified AK with a scope for target designation and dogfighting. During peacetime training and routine patrol flights with physical pilots, he often pulls high-G maneuvers and unauthorised aerobatics spooking whoever is unfortunate enough to be in the cockpit on his back. He tends to be quite smug and his favourite pilot is a certain fennec fox named Martin.",
+      "copilot": "Physical copilot",
+      "faction": "Wing 38",
+      "weight": 10767,
+      "height": 4.13,
+      "equipment": [
+        {
+          "name": "AMD-65+1PN58",
+          "description": "for target designator, missile guidance & dogfight/defence"
+        }
+      ],
+      "galleryImagePaths": [
+        "PÁL the Fitter-J/T.png"
+      ],
+      "referenceSheetsPath": [
+        "PÁL the Fitter-J/R1.png"
       ],
       "outdated": false
     }
