@@ -360,13 +360,19 @@
       "creator": "Sandomite",
       "name": "Lance the Paladin",
       "model": "M109A6 Paladin",
+      "description" : "A heavy Landcat who's paintjob changes depending on acting area. Currently desert set with tans and white. Lugs around a bulky backpack that contains all his ammo, fuel, external radio and angle calculator as well as supplies for any squad he may be in at that time. An autoloader refills and deploys mags for his large 155mm Howitzer that he lugs around and (Much to mechanics disappointment) leans against as a rest. Equipped with a 50 caliber machine gun for close encounters, however rare they are.\n\nLance's home company and manufacturer, Might Industries, being ever on the back foot in terms of finances due to disaster and lack of improvement in it's latter years sends it's CATS out as mercenaries to make up it's cost of production. Lance being one such cat who has been across multiple countries and companies before landing a job with Wing 38, with the money being great and access to more specialized munitions, some of which were pulled from Might Industries stockpile and some provided by Wing 38. Seeing as there was a hole in Wing 38's land forces, he figured he will do just fine as while air cleans up the place, holding things require feet on the ground, and Lance's good at keeping those feet away from whatever they clear after the fact",
+      "crewmate" : "Point",
+      "faction" : "Wing 38",
+      "weight" : "36000",
+      "height" : "6.1",
       "galleryImagePaths": [
-        "Lance the Paladin/T.png"
+        "Lance the Paladin/T.png",
+        "Lance the Paladin/1.png"
       ],
       "referenceSheetsPath": [
         "Lance the Paladin/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Alexei",
