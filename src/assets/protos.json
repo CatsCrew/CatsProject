@@ -459,6 +459,22 @@
                 "BASH™ the Proto 2.0/R1.png",
                 "BASH™ the Proto 2.0/R2.png"
             ]
+        },
+        {
+            "creator": "SwetD",
+            "name": "Pinky the Proto 2.0",
+            "model": "2.0",
+            "description": "Actually this proto was designed as a weapon. Pretty appearance should make the victim step closer, before the core explodes. Deals more impact being closer to the target, as it should. While on base or safe object the core stays unarmed.\n\nNotes: Don't poke the belly, it has a small chance to make the core armed.",
+            "faction": "N/A",
+            "height": 1.6,
+            "weight": 85,
+            "galleryImagePaths": [
+                "Pinky the Proto 2.0/T.jpg"
+
+            ],
+             "referenceSheetsPath": [
+                "Pinky the Proto 2.0/R1.png"
+            ]
         }
     ]
 }

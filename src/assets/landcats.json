@@ -2385,6 +2385,23 @@
         "Zval the Terminator/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "wallace0368",
+      "name": "Wallace the G14",
+      "model": "BSA G14",
+      "description": "Wallace is a mobile anti aircraft deterent. He carries a dshk machine gun. He also has a inbuilt breaching shotgun that can carry only two shots.\n\nHis tail features a mount for the machine gun and a seat so he can have a passenger. The passenger can then use the gun while he is moving.  He lacks significant armor to maximize his mobility and speed.\n\nHe has a very energetic attitude and can hardly sit still. He is quite protective of his friends and will often get in trouble for trying to pick fights with those much larger than him. He has a radio built into his backpack so that he and his passenger can get orders or deliver them to other units.",
+      "crewmate": "N/A",
+      "faction": "N/A",
+      "weight": 5000,
+      "height":2.5,
+      "galleryImagePaths": [
+        "Wallace the G14/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Wallace the G14/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
