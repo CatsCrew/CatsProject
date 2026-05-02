@@ -5375,6 +5375,27 @@
         "PÁL the Fitter-J/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Freccia",
+      "name": "Freccia the Eurofighter typhoon",
+      "model": "EF-2000 Eurofighter typhoon",
+      "description": "Freccia (Arrow) was the result of a collaboration between European superpowers, aimed at ensuring their independence and aerial superiority in response to the introduction of the new Soviet CATS.\nFreccia's personality can be described as energetic, with a strong sense of duty and protection. He often relies on his instinct and raw power; he doesn't just lead with his head-he wants to feel the control in his paws, which often makes him impulsive in his decision-making.\nAlthough generally deployed across the European continent for border surveillance, Freccia has also been involved in reconnaissance operations in the Middle East, making him one of the few CATS to face direct combat while still being relatively inexperienced.",
+      "copilot": "N/A",
+      "faction": "Italian Republic - 9º Gruppo Aerogatti",
+      "weight": 11000,
+      "height": 3.5,
+      "galleryImagePaths": [
+        "Freccia the Eurofighter typhoon/T.png",
+        "Freccia the Eurofighter typhoon/1.png"
+      ],
+      "referenceSheetsPath": [
+        "Freccia the Eurofighter typhoon/R1.png",
+        "Freccia the Eurofighter typhoon/R2.png",
+        "Freccia the Eurofighter typhoon/R3.png",
+        "Freccia the Eurofighter typhoon/R4.png"
+      ],
+      "outdated": false
     }
   ]
 }
