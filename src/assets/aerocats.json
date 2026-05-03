@@ -4982,6 +4982,23 @@
       "outdated": false
     },
     {
+      "creator": "VeasleyKess",
+      "name": "Theta the Tornado",
+      "model": "Tornado ADV",
+      "description": "The Third and last unit of CottonTails Test Team, His frame despite being slightly shorter still has the same build as his sisters, even though his frame is compatible with what his sisters can attach to, he prefers to be less modified as to not affect his working conditions during patrol, He is very attentive and will doing anything that's ordered to him by Kesstrel or Hazel.\n\nHis engine is directly welded to his frame and cannot be removed so he prefers to be in proto form when out of work to lessen maintenance time.\n\nHis Holo-visor has the shape of fox ears instead of a V-fin yet still follows the numbering scheme of how many spikes or fins that are present on the holo-visor.",
+      "copilot": "C4rrot III",
+      "faction": "CottonTails Test Team ",
+      "weight": 13500,
+      "height": 5.86,
+      "galleryImagePaths": [
+        "Theta the Tornado/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Theta the Tornado/R1.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Misaki",
       "name": "Misaki the hornet",
       "model": "F/A-18C Hornet",

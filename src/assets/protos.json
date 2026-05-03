@@ -475,6 +475,24 @@
              "referenceSheetsPath": [
                 "Pinky the Proto 2.0/R1.png"
             ]
+        },
+        {
+            "creator": "Mangoshibi",
+            "name": "D04-TY the Proto 2.0",
+            "model": "2.0",
+            "description": "'aka dirty'\n\nGeneral Janitor. Got a hanger that needs a clean up? Co-Pilot that hasn't taken out all the take-out?? She's the girl to call!! ",
+            "faction": "Unknown",
+            "height": 1.6,
+            "weight": 85,
+            "galleryImagePaths": [
+                "D04-TY the Proto 2.0/T.png",
+                "D04-TY the Proto 2.0/1.png"
+
+            ],
+             "referenceSheetsPath": [
+                "D04-TY the Proto 2.0/R1.png"
+                
+            ]
         }
     ]
 }

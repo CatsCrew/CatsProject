@@ -1135,6 +1135,10 @@
         {
             "name": "Freccia",
             "profileImage": "Freccia.png"
+        },
+        {
+            "name": "Mangoshibi",
+            "profileImage": "Mangoshibi.png"
         }
     ]
 }
