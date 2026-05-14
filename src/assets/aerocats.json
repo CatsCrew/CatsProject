@@ -5302,6 +5302,23 @@
       "outdated": false
     },
     {
+      "creator": "Sage",
+      "name": "Gryf the Gripen",
+      "model": "JAS-39E Gripen",
+      "description": "Gryf is a Monolithian aerocat acting as a head of air assets (Granite-4) of Monolith.\nIt is unknown how a Gripen E CATS got into Monoliths hands or why he is so loyal to the faction, but it is believed he was stolen at some point.\n\nHis failure to fulfil some of the factions practices (due to height) has led to him fighting and operating with much more effort than expected of a unit. As a warrior, he takes pride in his kills and proudly displays they on his forearm.\n\nArt by: 2008 Toyota Corolla 10th gen/Leitraz (downtheproto)",
+      "copilot": "N/A",
+      "faction": "Monolith",
+      "weight": 10000,
+      "height": 15.2,
+      "galleryImagePaths": [
+        "Gryf the Gripen/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Gryf the Gripen/R1.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Sleepiestvampire",
       "name": "Trecolga the Super Tomcat",
       "model": "F-14D Super Tomcat",
@@ -5411,6 +5428,40 @@
         "Freccia the Eurofighter typhoon/R2.png",
         "Freccia the Eurofighter typhoon/R3.png",
         "Freccia the Eurofighter typhoon/R4.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "YuuStrand_69",
+      "name": "Mikah the Foxhound",
+      "model": "MiG-31 Foxhound",
+      "description": "Mikah was trained from Proto Academy to always follow orders, he was the captain of the Hellhound Squadron, sadly only he survived mission after mission and the corrosion of time, being constantly updated till his body can't take more and has to be replaced he had doubts always.. but his main program was to serve and follow, the ''perfect soldier'' corporations always try to create.\n\nAfter the incident of Point Lima he was asigned to be part of S.A.F, Stranded Air Force, a military force owned by Strand Manufacturing Industries, serving as a soldier, but also as subject of various experiments with his advance A.I brain\n\n''who says a machine can't evolve and break their limits?.. they just need a little push forward.'",
+      "copilot": "C-4 'Hound'",
+      "faction": "S.A.F | Stranded Air Force ",
+      "weight": 12600,
+      "height": 14,
+      "galleryImagePaths": [
+        "Mikah the Foxhound/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Mikah the Foxhound/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "bird_rifleman",
+      "name": "Texas the Raptor",
+      "model": "F-22 Super Raptor",
+      "description": "",
+      "copilot": "Alamo",
+      "faction": "N/A",
+      "weight": 19000,
+      "height": 15.30,
+      "galleryImagePaths": [
+        "Texas the Raptor/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Texas the Raptor/R1.png"
       ],
       "outdated": false
     }

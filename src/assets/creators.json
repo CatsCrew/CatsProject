@@ -1143,6 +1143,10 @@
         {
             "name": "Mister_nxt",
             "profileImage": "Mister_nxt.png"
+        },
+        {
+            "name": "bird_rifleman",
+            "profileImage": "bird_rifleman.png"
         }
     ]
 }
