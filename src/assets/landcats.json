@@ -2402,6 +2402,48 @@
         "Wallace the G14/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Mister_nxt",
+      "name": "Amix the Roland",
+      "model": "AMX 30R Roland",
+      "description": "Designated for patrolling Delta sites rotating locations securing the airspace from any unauthorised vehicles or CATS units, equipped with two wrist mounted missiles with auxiliary ammunition in the thighs, a mobile SAM site rotating between guard positions with additional equipment for CQB if required.\n\nIn idle moments on mission or on patrol Amix is relaxed joking around with other CATS units (much to command's dismay) giving off a sassy energy at nearly all moments. Once combat begins Her demeanour changes, a lot of the sass goes as she focuses on the target, though some jokes will make it in mid combat.\n\nHas a tendency to wander off from patrol locations when attention is elsewhere.",
+      "crewmate": "N/A",
+      "faction": "Delta Industries",
+      "galleryImagePaths": [
+        "Amix the Roland/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Amix the Roland/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Notwebber",
+      "name": "Graben the Bagger 293",
+      "model": "TAKRAF RB293 Bucket-wheel excavator",
+      "description": "",
+      "crewmate": "N/A",
+      "faction": "N/A",
+      "weight": 14000,
+      "height":96,
+      "equipment": [
+        {
+          "name": "Day bell",
+          "description": "A spotlight used for brightening large dark for safer digging measures, known as the day bell for shining at 10,000 lumens."
+        },
+        {
+          "name": "Bucket claw",
+          "description": "A conveyor belt like excavator that sends minerals to the arms to get processed, the cables use pullies to help lift his arms."
+        }
+      ],
+      "galleryImagePaths": [
+        "Graben the Bagger 293/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Graben the Bagger 293/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
