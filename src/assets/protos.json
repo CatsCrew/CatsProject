@@ -445,22 +445,6 @@
             ]
         },
         {
-            "creator": "Abbacchio",
-            "name": "BASH™ the Proto 2.0",
-            "model": "2.0",
-            "description": "uuuuuuhh. Hello I love explosions and IED I don't like CATS units that much....thaaaaat's all what did you expect?...IDK",
-            "faction": "looking for Faction : (",
-            "height": 1.6,
-            "galleryImagePaths": [
-                "BASH™ the Proto 2.0/T.jpg"
-
-            ],
-             "referenceSheetsPath": [
-                "BASH™ the Proto 2.0/R1.png",
-                "BASH™ the Proto 2.0/R2.png"
-            ]
-        },
-        {
             "creator": "SwetD",
             "name": "Pinky the Proto 2.0",
             "model": "2.0",
