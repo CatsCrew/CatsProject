@@ -4024,7 +4024,7 @@
       "model": "Rafale M F3-R",
       "description": "product of incident, and once human, Princeton was a sheltered prince for all his life, living his life confined and independent, spoon fed wealth and power.\n\nTragedy struck when the resort and getaway he was staying at suddenly caught fire, Princeton unfortunately did not make it out in time, suffering severe burns all over his body.\n\nPrinceton’s father was told his son could possibly be killed in the process of recovery with intense surgeries, quietly his father brought Princeton back home where he would contemplate his options.\n\nWanting what was best for his son, he sought out other means of possibly saving his life, until one day he was visited by a strange man offering a chance to help Princeton.\n\nThe only catch was it involved conscious transfer, the idea of C.A.T.S was brought up.\n\nPrinceton’s father had thought about it, how this could be an opportunity for Princeton to go out, see the world and fly wherever he wanted, make as many friends as he wanted.\n\nPrinceton’s father would eventually agree to the idea and follow through, Princeton’s transfer process was a success, his conscious would be placed into that of an M F3-R Rafale CATS, with the thought of exploring the oceans in mind.\n\nPrincetons father would say goodbye, choosing bits of Princetons memory to be erased, where he came from, what had happened that tragic night, and his family.\n\nThinking Princeton would grow to hate his father, Princeton’s father chose what he thought was best for his son, a second chance at life with hopes of being social, Princeton would be given life lasting wealth with his own fleet of ships and carrier, as well as his own “Faction”  to control.\n\nDetails: Princeton is known for his striking details and choice of wardrobe.\nStruggles to socialize leading to paying others to be friends with him.\nPrinceton is the prince of “Ciel bleu”\nIncident reports were to be kept secret or wiped.\nPrinceton has a deep fear for fire/flames that are near him.",
       "copilot": "Mugg",
-      "faction": "Blue Water Sky Patrol ",
+      "faction": "Blue Water Sky Patrol",
       "weight": 10000,
       "height": 15.27,
       "galleryImagePaths": [
@@ -4032,6 +4032,23 @@
       ],
       "referenceSheetsPath": [
         "Princeton the Rafale/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Frostwhiplash",
+      "name": "Hornet the Alligator",
+      "model": "Ka-52 Alligator",
+      "description": "having originally been from a KA-52 strike group called the “Yellow Hornets” all of their funding would be cut as result of low effectiveness, the group was no longer needed and was abandoned.\n\nThe group tried to keep going on, but with a severed funding leaving maintenance and spare parts immensely difficult to come by. Tragically, slowly but surely members started withering away. Eventually leaving a lone Hornet as the only remaining and operational of the group. He decided to leave and try and seek a better future for himself.\n\nHe took the name “Hornet” as tribute to honor the friends he had lost to neglect. His original name is unknown.\n\nAs of today, Hornet works as a freelance weapons and parts dealer, collecting various kinds of gear as he travels around the world.\n\nIf you can think of it, he most likely has it.\n\nHaving a vast knowledge of gear and parts, he is described as what some would call a “nerd” However, Hornet takes pride in that fact, knowing he can supply those with what he has to offer.\n\nJust be quick to catch him if there is something you want.\n\nKey fact: Hornet has a deep fear of SR-71/YF-12 A CATS. ",
+      "copilot": "N/A",
+      "faction": "N/A",
+      "weight": 7700,
+      "height": 12,
+      "galleryImagePaths": [
+        "Hornet the Alligator/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Hornet the Alligator/R1.png"
       ],
       "outdated": false
     },
@@ -5246,6 +5263,25 @@
       ],
       "referenceSheetsPath": [
         "Eris the Sentry/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Vix",
+      "name": "Mirko the Fullback",
+      "model": "Su-34M Fullback",
+      "description": "Mirko on paper is designed to be one of the more accessible fighter-bomber within the factions line-up to handle more common and frequent contracts, but truthfully he is a testbed for project COLLARED FERAL, where FERAL code is injected and executed in a regulated or controlled manner that attempts to enhance the abilities or performance of the CATS unit, pushing to the very limit without going beyond the point of no return. His performance with such is stellar, if not puts him to be on par with his far more advanced peers.\n\nPersonality wise, Mirko is an eager and energetic CATS unit, taking pride in his work and often not caring much in regards to the consequences of the contracts he takes and fulfils. He often has his ears perk up at the slight mention of anything explosives adjacent from bombs to nukes, and its use in any jobs he may take, even prioritizing bombing contracts as a result. His excitable energy may turn away a few contractors, but that would barely halt his momentum as he'd bounce to the next one and after. The COFFIN visor he wears however aims to help regulate his personality just so he can properly present himself, as well as ensuring proper decision making while in flight, painting a more calm but still cheery tone. Rarely would one see him without his visor, if at all.\n\nHis Co-Pilot, Monarch, provides additional assistance in processing the fine details of the mission, taking much of the heavy computational work while he focuses on executing the plan produced by said Co-Pilot. It is also in charge of bringing situational awareness and often issues priority instructions to Mirko should something more important needs to be resolved swiftly outside of his desire to bomb every marked target.",
+      "copilot": "Monarch",
+      "faction": "Wing 38",
+      "weight": 16000,
+      "height": 9.25,
+      "galleryImagePaths": [
+        "Mirko the Fullback/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Mirko the Fullback/R1.png",
+        "Mirko the Fullback/R2.png",
+        "Mirko the Fullback/R3.png"
       ],
       "outdated": false
     },
