@@ -4853,7 +4853,9 @@
       "weight": 14500,
       "height": 6.10,
       "galleryImagePaths": [
-        "Merida the Tornado/T.png"
+        "Merida the Tornado/T.png",
+        "Merida the Tornado/1.png",
+        "Merida the Tornado/2.png"
       ],
       "referenceSheetsPath": [
         "Merida the Tornado/R1.png"
@@ -5380,7 +5382,10 @@
         "Dmitri the Felon/6.png",
         "Dmitri the Felon/7.png",
         "Dmitri the Felon/8.png",
-        "Dmitri the Felon/9.gif"
+        "Dmitri the Felon/9.gif",
+        "Dmitri the Felon/10.png",
+        "Dmitri the Felon/11.png",
+        "Dmitri the Felon/12.png"
       ],
       "referenceSheetsPath": [
         "Dmitri the Felon/R1.png"
