@@ -1139,6 +1139,10 @@
         {
             "name": "bird_rifleman",
             "profileImage": "bird_rifleman.png"
+        },
+        {
+            "name": "DraxAneko",
+            "profileImage": "DraxAneko.png"
         }
     ]
 }

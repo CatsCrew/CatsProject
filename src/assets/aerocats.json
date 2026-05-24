@@ -5362,6 +5362,21 @@
         "Texas the Raptor/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "DraxAneko",
+      "name": "Dmitri the Felon",
+      "model": "SU-57 Felon",
+      "description": "Dmitri is the leading force behind the FERAL Code at Wing 38, with his work furthering the countermeasures against potential uses in the future.  His work can be seen as cruel to those with morals, tormenting CATS just for his experiments, but he deems such experiments as necessary for the future of CATS as a species.  He looks for ways to prevent the computer virus from infecting CATS, as well as testing how it can spread from one another.  His most vital part of working on FERAL, though, is trying to find ways to reverse the process and return the infected CATS into functional units again.  His work hasn't borne any fruit in that matter, but it has helped him with how to improve the ferocity and lethality of CATS, especially on himself.\n\nDmitri's work in Wing 38 doesn't just start there, as being a former organic neurologist who worked on CATS Personality CORES was important for bringing Wing 38 into where it is now.  Having worked with Wing 38 before the CATS takeover, he was forced into becoming a CATS to preserve his life, fueling a life-long hatred for CATS.  He has upgraded his frame, transferring his AI into new frames over and over again, leading to where he is now.  As time passed, he grew a new hatred for organics, initially only to hide among the CATS at Wing 38, but it quickly grew into a desire to transfer organic consciousness into CATS.  His work on the FERAL code is his way to stay on the top of CATS 'evolution', to ensure he doesn't have to worry about his countermeasures being bypassed, but it exists mainly to keep his enemies at bay, as he is constantly improving on the code to make it deadlier.\n\nThe mask conceals a secret that modern CATS would be paralyzed at even the faintest imagination of.  Though written off as his stealth coating maintaining his anonymity, the reality is, Dmitri's face cannot be computationally understood by modern CATS systems, with only older CATS models being able to faintly pick up bits and pieces of the true face that lies under.  Dmitri has never officially registered himself, as revealing details of his construction is for Wing 38 eyes only.  As such, modern CATS are not able to comprehend what truly goes on underneath the visor, as their reliance on the CATS Identification System relies on pulling from known data.",
+      "copilot": "Pyre",
+      "faction": "Wing 38",
+      "galleryImagePaths": [
+        "Dmitri the Felon/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Dmitri the Felon/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
