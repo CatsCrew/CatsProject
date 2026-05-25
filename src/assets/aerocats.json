@@ -3435,7 +3435,10 @@
       "name": "Mouse the Little bird",
       "model": "MH-6 Little bird",
       "galleryImagePaths": [
-        "Mouse the Little bird/T.png"
+        "Mouse the Little bird/T.png",
+        "Mouse the Little bird/1.png",
+        "Mouse the Little bird/2.png",
+        "Mouse the Little bird/3.png"
       ],
       "referenceSheetsPath": [
         "Mouse the Little bird/R1.png"
