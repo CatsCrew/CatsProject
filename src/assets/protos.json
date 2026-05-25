@@ -429,6 +429,22 @@
             ]
         },
         {
+            "creator": "VeasleyKess",
+            "name": "Saturn the Proto 2.0",
+            "model": "2.0",
+            "description": "Saturn works at THAPPS and is a radio communications officer for the service making sure that all orders are sent properly and followed.\n\nShe is the 'Sister' of Hazel, this is because they were very close to each other while working and acting like the sister of Hazel as they were helping each other on their tasks and taking turns on radio duty. This was before leaving CottonTails and persuing a radio communications job at THAPPS.\n\nShe has a short temper often getting angry when orders are not followed immediately. The Ring on her head  has a dual purpose a radio antenna and a guide handle for CATS units with vision impairments.",
+            "faction": "THAPPS",
+            "weight": 80,
+            "height": 1.8,
+            "galleryImagePaths": [
+                "Saturn the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Saturn the Proto 2.0/R1.png"
+            ]
+        },
+        {
             "creator": "notwebber",
             "name": "Dr.Ruby the Proto 2.0",
             "model": "2.0",
@@ -493,6 +509,23 @@
             ],
              "referenceSheetsPath": [
                 "HA-08 the Proto P/R1.png"
+                
+            ]
+        },
+        {
+            "creator": "Freyja Darling",
+            "name": "New haven the Proto 2.0",
+            "model": "2.0",
+            "description": "Captain New Haven, nicknamed Javi, was an experiment for the Navy of having a PROTO in charge of a carrier ship. Having orders and commands pass through them and serving as a black box in case of emergencies, having better memory keeping as well as a more amicable personality than a screen with buttons.\n\nJavi acts friendly and approachable and yet on the field, commands the crew effortlessly, able to maneuver across the ocean and seas in battle or on cruise all the while being able to share a drink with at the end of the day.\n\nNote: Service revolver is confiscated for the time being due to rising tensions and requires permission from a higher ranking, non-CAT officer.",
+            "faction": "Fifth Star",
+            "height": 1.6,
+            "weight": 75,
+            "galleryImagePaths": [
+                "New haven the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "New haven the Proto 2.0/R1.png"
                 
             ]
         }
