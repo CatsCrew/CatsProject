@@ -3910,6 +3910,8 @@
       "creator": "Kazimierz",
       "name": "Fekhtov the Fencer",
       "model": "Su-24M Fencer",
+      "copilot" : "Unknown",
+      "faction" : "Unknown",
       "galleryImagePaths": [
         "Fekhtov the Fencer/T.png"
       ],
@@ -3920,9 +3922,26 @@
     },
     {
       "creator": "Kazimierz",
+      "name": "Azure the Viper zero",
+      "model": "F2A Viper zero",
+      "description": "",
+      "copilot" : "Unknown",
+      "faction" : "Unknown",
+      "galleryImagePaths": [
+        "Azure the Viper zero/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Azure the Viper zero/R1.jpg"
+      ],
+      "outdated": true
+    },
+    {
+      "creator": "Kazimierz",
       "name": "Dazzle the Eagle",
       "model": "F-15J Eagle",
       "description": "A Commemorative livery on a standard F15J, dazzle is usually seen at airshows and public outreach events. While usually not outfitted with any armaments, She is fully capable of flying real missions if duty calls.",
+      "copilot" : "Unknown",
+      "faction" : "Unknown",
       "height": 19,
       "galleryImagePaths": [
         "Dazzle the Eagle/T.png",
@@ -3930,6 +3949,22 @@
       ],
       "referenceSheetsPath": [
         "Dazzle the Eagle/R1.jpg"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Kazimierz",
+      "name": "Gennaro the Globaleye",
+      "model": "Saab Globaleye",
+      "description": "Gennaro is a true enigma of an aerocats unit, produced using one countries base cats unit by a second country for a third country to adopt he has some identity issues and really doesnt know who he is supposed to feel committed to. He is slow to trust and quick to doubt\n\nAffialiation: up for hire",
+      "copilot" : "Unknown",
+      "faction" : "Unknown",
+      "height": 30,
+      "galleryImagePaths": [
+        "Gennaro the Globaleye/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Gennaro the Globaleye/R1.jpg"
       ],
       "outdated": false
     },
