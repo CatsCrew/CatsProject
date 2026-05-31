@@ -5456,6 +5456,22 @@
         "Dmitri the Felon/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "fz_b739f",
+      "name": "Frax the Stratotanker",
+      "model": "KC-135 Stratotanker",
+      "description": "Frax is an AEROCAT adapted off of a KC-135, featuring minor improvements to engine speed, take off, and a slightly improved service ceiling. His Copilot, ATLaS III, serves not only as Frax's copilot, but also as his aerial boom operator for airborne refueling.\nFrax is generally outgoing and friendly but does not do well speaking to a crowd. He also has a passion for his role and love for playing a supportive role. Due to what Frax is and how he's built, he does not have any means of ranged combat. The most he could do is throw a punch or a kick.\n'Refueling is my passion and my job is a hobby.'\n\nATLaS III is the third iteration of an adaptive copilot unit for AGEM aircraft, capable of rapid adaptation to its surrounding environment and providing what it deems 'the best course of action' for the pilot or AEROCAT it is assigned to. Usually sounding monotone yet fluid and straight to the point, Frax's variant of the ATLaS III copilot features a more gruff sounding voice.\nThis variant has gotten accustomed to Frax and the two would occasionally insult each other in a joking manner, exchange jokes, have general discussions, and even normal short to long conversations.\n'You take care of me and I'll take care of you.'\n\nParent Company: Asther Gaussian Experimental Militaryworks",
+      "copilot": "ATLaS III (Aerial Trajectory Lineup and Surveyor V3.1.6)",
+      "faction": "Unknown",
+      "height": 38.1,
+      "galleryImagePaths": [
+        "Frax the Stratotanker/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Frax the Stratotanker/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
