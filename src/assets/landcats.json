@@ -24,12 +24,13 @@
         }
       ],
       "galleryImagePaths": [
-        "shell_the_sheridan/T1.png",
+        "shell_the_sheridan/T.png",
         "shell_the_sheridan/1.png",
         "shell_the_sheridan/2.png",
         "shell_the_sheridan/3.png",
         "shell_the_sheridan/4.png",
-        "shell_the_sheridan/5.png"
+        "shell_the_sheridan/5.png",
+        "shell_the_sheridan/6.png"
       ],
       "referenceSheetsPath": [
         "shell_the_sheridan/R1.png",
@@ -63,7 +64,9 @@
         "Hemet/3.png",
         "Hemet/4.png",
         "Hemet/5.png",
-        "Hemet/6.png"
+        "Hemet/6.png",
+        "Hemet/7.png",
+        "Hemet/8.png"
       ],
       "referenceSheetsPath": [
         "Hemet/Ref.png",
@@ -92,7 +95,9 @@
       ],
       "galleryImagePaths": [
         "Vee/T.png",
-        "Vee/1.png"
+        "Vee/1.png",
+        "Vee/2.png",
+        "Vee/3.png"
       ],
       "referenceSheetsPath": [
         "Vee/R1.png",
@@ -141,7 +146,7 @@
         "Evem/R1.jpg",
         "Evem/R2.jpg"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Karbine",
@@ -159,7 +164,7 @@
         "Bum/R1.jpg",
         "Bum/R2.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "ToasTee",
@@ -187,7 +192,7 @@
         "Leo the Leopard/R1.png",
         "Leo the Leopard/R2.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Bug",
