@@ -2366,6 +2366,24 @@
         "Graben the Bagger 293/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Freccia",
+      "name": "Argo the OTOMATIC",
+      "model": "OTOMATIC 76/62",
+      "description": "Deployed usually in strategic locations like airbases and forward camps, Argo’s primary directive is to keep the airspace entirely off-limits. He carries out these defensive duties with the expected military precision, his demeanor thought changes entirely the moment he goes off-duty. Free from operational constraints, he adopts a cocky, flirtatious attitude and frequently checks out other units passing through the base. His actual focus, however, is a persistent interest in Aerocats. drawn to their specific designs and often found loitering around hangar bays for no clear operational reason. Whenever caught near the flight lines, he immediately scrambles for an excuse or slips away before base security can question him. A.I.S.A. routinely flags and scolds this erratic behavior, though the warnings apparently do little to deter him from wandering back toward the runways.",
+      "crewmate": "A.I.S.A(Assistente Intelligente per la Sorveglianza Aerea)",
+      "faction": "Italian Republic - 12° Gruppo 'Cerbero'",
+      "weight": 420,
+      "height":2.3,
+      "galleryImagePaths": [
+        "Argo the OTOMATIC/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Argo the OTOMATIC/R1.png",
+        "Argo the OTOMATIC/R2.png"
+      ],
+      "outdated": false
     }
   ]
 }

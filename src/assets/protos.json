@@ -528,6 +528,23 @@
                 "New haven the Proto 2.0/R1.png"
                 
             ]
+        },
+        {
+            "creator": "Whisk",
+            "name": "Hazelnut the Proto I",
+            "model": "1.0 Type I",
+            "description": "Hazelnut is an industrial unit who works for a mining company known as Lotus inc. Lotus Inc specializes in the mining of rare earth minerals and is one of the largest coal importers. Hazelnuts job is to mine rare earth minerals primarily.. mainly gold. to increase company profit.",
+            "faction": "Unknown",
+            "height": 1.6,
+            "weight": 90,
+            "galleryImagePaths": [
+                "Hazelnut the Proto I/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Hazelnut the Proto I/R1.png"
+                
+            ]
         }
     ]
 }
