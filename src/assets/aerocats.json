@@ -5397,6 +5397,23 @@
       "outdated": false
     },
     {
+      "creator": "Freccia",
+      "name": "Folgore the Starfighter",
+      "model": "F-104S Starfighter",
+      "description": "Folgore has a very smug, provocative and borderline arrogant personality. He is built on a purebred interceptor, built for nothing but straight line velocity, and so considers speed the ultimate measurement of a CATS worth. He makes the airspace his personal stage, regularly taunting the newer or bulkier Aerocats for their broader wingspans or their first acceleration curves.He loves to push buttons, to bait other units into spur-of-the-moment speed contests, always making sure he has the advantage before the race even starts. This absolute bravado conceals a well-known tactical insecurity. He is extremely aware that his incredible velocity comes at the cost of agility; his turning radius is notoriously wide and he requires high speeds just to maintain stable flight. Deep down he envies how easily the units he mocks can manoeuvre and how modern and versatile they are. This only makes him act twice as boastful to overcompensate.",
+      "copilot": "N/A",
+      "faction": "Italian Republic - 9º Gruppo Aerogatti",
+      "weight": 4800,
+      "height": 4.8,
+      "galleryImagePaths": [
+        "Folgore the Starfighter/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Folgore the Starfighter/R1.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "YuuStrand_69",
       "name": "Mikah the Foxhound",
       "model": "MiG-31 Foxhound",
@@ -5470,6 +5487,23 @@
       ],
       "referenceSheetsPath": [
         "Frax the Stratotanker/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "aury_polaris",
+      "name": "Twen-ti the X-29",
+      "model": "X-29",
+      "description": "Originally designed and built as a prototype research unit. After her retirement from the avionics research program, Twen-ti decided to take on a racing career, focusing mainly on her high maneuverability in otherwise very difficult scenarios. While racing for a local championship event, she caught the eye of Trident Aeronautics president who offered her a position in the newly established racing subdivision and a whole competition tune-up in exchange for Trident's name to be on the leaderboards.",
+      "copilot": "N/A",
+      "faction": "Trident Aeronautics",
+      "weight": 1000,
+      "height": 8,
+      "galleryImagePaths": [
+        "Twen-ti the X-29/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Twen-ti the X-29/R1.png"
       ],
       "outdated": false
     }

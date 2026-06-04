@@ -2389,6 +2389,23 @@
         "Argo the OTOMATIC/R2.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "VeasleyKess",
+      "name": "Aria the PZH 2000",
+      "model": "PZH 2000 A1",
+      "description": "The main unit of THAPPS, her main role for the team is to be a long-range support with the help of Saturn. She is a caring Landcat especially to protos because of this her operator 'JC' compared her to that of a mother.\n\nShe may be a caring Landcat but one wrong move and you'll be a puddle on the ground.",
+      "crewmate": "Saturn",
+      "faction": "THAPPS",
+      "weight": 55800,
+      "height":12.5,
+      "galleryImagePaths": [
+        "Aria the PZH 2000/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Aria the PZH 2000/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
