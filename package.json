@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "typecheck": "vue-tsc --noEmit",
+    "check": "npm run typecheck",
     "build": "node build-scripts/generate-build-date.js && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@primeuix/themes": "^1.0.3",
     "@types/object-hash": "^3.0.6",
-    "@types/webpack": "^5.28.5",
     "@vue-macros/define-models": "^1.3.5",
     "@vue-macros/reactivity-transform": "^1.1.4",
     "@vueuse/components": "^13.6.0",

@@ -18,8 +18,11 @@ export class DeferHelper {
                     entries.forEach((entry) => {
                         if (entry.isIntersecting) {
                             const img = entry.target as HTMLImageElement;
-                            img.src = img.dataset.src;
-                            img.removeAttribute('data-src');
+                            const src = img.dataset.src;
+                            if (src) {
+                                img.src = src;
+                                img.removeAttribute('data-src');
+                            }
                             observer.unobserve(img);
                         }
                     });
@@ -31,8 +34,11 @@ export class DeferHelper {
         } else {
             // Fallback for browsers that do not support IntersectionObserver
             images.forEach((img) => {
-                img.src = img.dataset.src;
-                img.removeAttribute('data-src');
+                const src = img.dataset.src;
+                if (src) {
+                    img.src = src;
+                    img.removeAttribute('data-src');
+                }
             });
         }
     }

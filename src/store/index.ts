@@ -10,25 +10,24 @@ import catLinksJson from '@assets/cat-links.json';
 import speciesSheetJson from '@assets/species-sheet.json';
 import { CatType } from '@/models/cat-type.enum';
 import { Language } from '@/models/language.enum';
-import { SpeciesSheet } from '@/models/species-sheet.model';
 import { UiMapper } from '@/mappers/ui.mapper';
 import { Creator } from '@/models/creator.model';
+import type { LoreDocument } from '@/models/lore-document.model';
 import { UrlHelper } from '@/helper/url.helper';
-
-interface ModuleImportInterface {
-  default: Object;
-}
+import type { Aerocat as FileAerocat } from '@/models/formats/aerocat.model';
+import type { Landcat as FileLandcat } from '@/models/formats/landcat.model';
+import type { Proto as FileProto } from '@/models/formats/proto.model';
 
 export const useCatsStore = defineStore('cats', {
   state: (): CatsState => ({
-    creators: null,
+    creators: {} as Record<string, Creator>,
     aerocats: [],
     landcats: [],
     protos: [],
-    cats: null,
+    cats: [],
     speciesSheets: {} as Record<CatType, Record<Language, string[]>>,
     assets: {} as Record<CatType, string[]>,
-    loreDocuments: null,
+    loreDocuments: [],
     discordUrl: 'https://discord.gg/xYm6skrZ3b',
     searchTerms: {
       [CatType.Aerocat]: '',
@@ -61,25 +60,36 @@ export const useCatsStore = defineStore('cats', {
       const mappedCreators = UiMapper.toCreators(creatorJson.creators);
       this.creators = {} as Record<string, Creator>;
       mappedCreators.forEach(c => {
-        this.creators[c.name] = c;
+        if (c.name) {
+          this.creators[c.name] = c;
+        }
       });
 
-      aerocatJson?.aerocats?.forEach(a => {
+      const aerocatList = (aerocatJson?.aerocats ?? []) as FileAerocat[];
+      aerocatList.forEach(a => {
+        if (!a.creator) return;
         const creator = this.creators[a.creator];
+        if (!creator) return;
         this.aerocats.push(UiMapper.toAerocat(a, creator));
       });
 
-      landcatJson?.landcats?.forEach(l => {
+      const landcatList = (landcatJson?.landcats ?? []) as FileLandcat[];
+      landcatList.forEach(l => {
+        if (!l.creator) return;
         const creator = this.creators[l.creator];
+        if (!creator) return;
         this.landcats.push(UiMapper.toLandcat(l, creator));
       });
 
-      protoJson?.protos?.forEach(p => {
+      const protoList = (protoJson?.protos ?? []) as FileProto[];
+      protoList.forEach(p => {
+        if (!p.creator) return;
         const creator = this.creators[p.creator];
+        if (!creator) return;
         this.protos.push(UiMapper.toProto(p, creator));
       });
 
-      this.loreDocuments = loreDocumentJson.documents;
+      this.loreDocuments = loreDocumentJson.documents as LoreDocument[];
       this.fetchSpeciesSheets();
       this.fetchAssets();
 
@@ -91,27 +101,28 @@ export const useCatsStore = defineStore('cats', {
           const others = names.filter(x => x !== n);
           const targetCat = this.cats.find(c => c.name === n);
           if (targetCat) {
-            targetCat.linkedCats = this.cats.filter(c => others.includes(c.name));
+            targetCat.linkedCats = this.cats.filter(c => c.name ? others.includes(c.name) : false);
           }
         });
       });
     },
     fetchSpeciesSheets(): void {
       speciesSheetJson.species.forEach(species => {
-        this.speciesSheets[species.type] = {} as Record<Language, string[]>;
+        const catType = species.type as CatType;
+        const languageMap = this.speciesSheets[catType] ??= {} as Record<Language, string[]>;
         species.languages.forEach(language => {
-          const imagePaths = [];
-          const formattedLanguage = language.toLocaleLowerCase();
+          const imagePaths: string[] = [];
+          const formattedLanguage = language.toLocaleLowerCase() as Language;
           species.sheets.forEach(sheet => {
-            imagePaths.push(UrlHelper.buildSpeciesSheetPath(species.type as CatType, formattedLanguage, sheet));
+            imagePaths.push(UrlHelper.buildSpeciesSheetPath(catType, formattedLanguage, sheet));
           });
-          this.speciesSheets[species.type][formattedLanguage] = imagePaths;
+          languageMap[formattedLanguage] = imagePaths;
         });
       });
     },
     fetchAssets(): void {
       assetJson.assets.forEach(a => {
-        this.assets[a.type] = a.assets.map(x => UrlHelper.buildAssetPath(a.type as CatType, x));
+        this.assets[a.type as CatType] = a.assets.map(x => UrlHelper.buildAssetPath(a.type as CatType, x));
       });
     },
   },

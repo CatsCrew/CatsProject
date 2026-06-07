@@ -8,15 +8,15 @@ import type { Proto } from "@/models/proto.model";
 import type { Aerocat } from "@models/aerocat.model";
 
 export interface CatsState {
-    creators?: Record<string, Creator>;
-    cats?: Cat[];
-    aerocats?: Aerocat[];
-    landcats?: Landcat[];
-    protos?: Proto[];
-    speciesSheets?: Record<CatType, Record<Language, string[]>>;
-    assets?: Record<CatType, string[]>;
-    loreDocuments?: LoreDocument[];
+    creators: Record<string, Creator>;
+    cats: Cat[];
+    aerocats: Aerocat[];
+    landcats: Landcat[];
+    protos: Proto[];
+    speciesSheets: Record<CatType, Record<Language, string[]>>;
+    assets: Record<CatType, string[]>;
+    loreDocuments: LoreDocument[];
     discordUrl?: string;
-    searchTerms?: Record<CatType, string>;
-    pageRecord?: Record<CatType, number>;
+    searchTerms: Record<CatType, string>;
+    pageRecord: Record<CatType, number>;
 }

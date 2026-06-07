@@ -6,7 +6,7 @@ import vueDefineModels from '@vue-macros/define-models/vite';
 import vueDevTools from 'vite-plugin-vue-devtools';
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   base: '/',
   plugins: [
     vue({
@@ -22,7 +22,7 @@ export default defineConfig({
     }),
     vueReactivityTransform(),
     vueDefineModels(),
-    vueDevTools()
+    ...(mode !== 'production' ? [vueDevTools()] : [])
   ],
   resolve: {
     alias: {
@@ -31,4 +31,4 @@ export default defineConfig({
       '@models': fileURLToPath(new URL('./src/models', import.meta.url)),
     },
   }
-})
+}))

@@ -4,10 +4,13 @@
     "target": "ESNext",
     "module": "ESNext",
     "strict": false,
-    "strictPropertyInitialization": false,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictPropertyInitialization": true,
     "noImplicitThis": true,
     "jsx": "preserve",
     "moduleResolution": "bundler",
+    "skipLibCheck": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "forceConsistentCasingInFileNames": true,
@@ -29,8 +32,8 @@
       "@assets/": ["./src/assets"],
       "@assets/*": ["./src/assets/*"],
       "@models/": ["./src/models"],
-      "@models/*": ["./src/models/*"],
-    },
+      "@models/*": ["./src/models/*"]
+    }
   },
   "include": [
     "./**/*.ts",
