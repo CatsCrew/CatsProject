@@ -3,5 +3,6 @@ export enum Language {
     Korean = 'korean',
     Japanese = 'japanese',
     Russian = 'russian',
-    Vietnamese = 'vietnamese'
+    Vietnamese = 'vietnamese',
+    Italian = 'italian'
 }

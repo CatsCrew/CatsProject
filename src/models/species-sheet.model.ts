@@ -1,5 +1,6 @@
 export interface SpeciesSheet {
     englishImagePaths?: string[];
-    japeneseImagePaths?: string[];
+    japaneseImagePaths?: string[];
     koreanImagePaths?: string[];
+    italianImagePaths?: string[];
 }
