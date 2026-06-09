@@ -4817,6 +4817,24 @@
       "outdated": true
     },
     {
+      "creator": "Jupiter",
+      "name": "Knox the Viper Zero",
+      "model": "F2A Viper zero",
+      "description": "Personality: Shy and nervous, Fidgety but hes very sweet and caring once he comes around\n\nKnox was an attempt by Dmitri to replicate and copy Navi and his AI Nemo however it went very wrong. Knox has a terrible preformance record every performance test he went through barely passed. Even with his special upgrades which consists of a thrust vectoring system along with the test-bed for a Advanced AI. Nemesis his AI was the only positive that came out correct, having been feed years of combat experience, learning different maneuvers and fighting patterns, hes become a highly advanced and intelligent AI. Nemesis is the only reason knox is still around as Nemesis can cover for Knox by taking control of him in mainly life threatening situations, a life line if anything. Nemesis can only keep control of Knox for so long. besides being a life line, hes always in the background doing calculations and coaching knox on what to do. theres even rumors Nemesis could predict others moves.",
+      "copilot": "Nemesis",
+      "faction": "Wing 38",
+      "weight": 10500,
+      "height": 7.5,
+      "galleryImagePaths": [
+        "Knox the Viper Zero/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Knox the Viper Zero/R1.png",
+        "Knox the Viper Zero/R1.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "imafloppnow",
       "name": "Omega the NGAD",
       "model": "NGAD Fighter Jet F-47",
@@ -5508,6 +5526,23 @@
       ],
       "referenceSheetsPath": [
         "Twen-ti the X-29/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "mleczarz",
+      "name": "Izybor the Iryda",
+      "model": "PZL I-22 Iryda",
+      "description": "History:\nLittle is known about the initial purpose of this unit aside from the fact that it trained other CATS for various combat scenarios. In **, the unit was declared MIA. After several years, it reappeared as an independent aircraft with a completely new personality and extensively upgraded design. Izybor has numerous connections across airports worldwide, allowing him to obtain repairs and places to rest. While most mercenaries operate for benefit or a cause, he prefers to trust his instincts and find enjoyment in all his work, regardless of its nature... Although he relishes aerial battles the most, treating them almost like a sport.\n\nTechnical:\nIt remains unclear who altered Izybor and what specific technology was employed. The main modifications from the original model include reduced weight, rapid adaptation of its AI core to the surrounding environment, AESA radar, RAM coating, and enhanced weapon accuracy and power. The unit refuses to undergo inspections by anyone in that field, despite many technicians attempting to do so.\n\nPersonality:\nAside from the complete secrecy surrounding his origins, which he keeps to himself, Izybor embodies a multitude of vices and a general disregard for both opponents and allies. Even with his inflated ego and an almost concerning passion for combat, he is still capable of empathy and genuine care for others. He declines contracts that would harm innocents or cause actual chaos in the world. Outside of missions, he is bratty and lazy, a CAT supposedly 'without a care in the world,' often spending his time flirting with other units and repairing his nearly always damaged hull.",
+      "copilot": "VELES",
+      "faction": "Ex-Polish Airforce now Independent/Mercenary ",
+      "weight": 1500,
+      "height": 13,
+      "galleryImagePaths": [
+        "Izybor the Iryda/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Izybor the Iryda/R1.png"
       ],
       "outdated": false
     }

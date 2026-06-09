@@ -545,6 +545,42 @@
                 "Hazelnut the Proto I/R1.png"
                 
             ]
+        },
+        {
+            "creator": "BanditboiiZ",
+            "name": "N1-CK the Proto I",
+            "model": "1.0 Type I",
+            "description": "A menace with transparent belly, his purpose..forget about it! He's ready to terrorize other protos in every airbase so be careful. ",
+            "faction": "Unknown",
+            "height": 1.55,
+            "weight": 65,
+            "galleryImagePaths": [
+                "N1-CK the Proto I/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "N1-CK the Proto I/R1.png",
+                "N1-CK the Proto I/R1.png"
+                
+            ]
+        },
+        {
+            "creator": "Riley Peyton",
+            "name": "Wylo the Proto 2.0",
+            "model": "2.0",
+            "description": "Wylo was a Proto indie graffiti artist, later hired as a painter for Field Medic, an organization that offers quick on-field services and repairs. Due to a 'personal favoured highly efficient setup' and ultilization of color-mixing based on CMYK theory, small to medium paintjobs are viable, mostly for repainting faction logos or country patches for quick identification.",
+            "copilot": "N/A",
+            "faction": "Field Medic",
+            "height": 165,
+            "weight": 75,
+            "galleryImagePaths": [
+                "N1-CK the Proto I/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Wylo the Proto 2.0/R1.png"
+                
+            ]
         }
     ]
 }
