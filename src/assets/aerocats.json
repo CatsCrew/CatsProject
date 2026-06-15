@@ -3832,6 +3832,23 @@
       "outdated": true
     },
     {
+      "creator": "Carmine",
+      "name": "Hustler the Hustler",
+      "model": "B-58A Hustler",
+      "description":"Personality: Bold, Willing to take risks\n\nHustler was added to the Apollyon foundation as a Test aircraft for radar equipment, to test the Artemis in flight. Later was armed in sent into service. He is known to be bold and run missions that have heavily weighted risks. Not just bold in the sky, he is bold on the ground, often picking on protos and other smaller cats. Yet, he is respectful to authority  and loyal to the Foundation.",
+      "copilot": "Genesis",
+      "faction": "Apollyon Foundation",
+      "weight":30786,
+      "height":9.12,
+      "galleryImagePaths": [
+        "Hustler the Hustler/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Hustler the Hustler/R1.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Lamp_sOul",
       "name": "Cassy the Strike eagle",
       "model": "F-15E Strike eagle",
