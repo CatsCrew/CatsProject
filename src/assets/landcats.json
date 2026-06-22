@@ -2406,6 +2406,23 @@
         "Aria the PZH 2000/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Toasty",
+      "name": "Koda the HIMARS",
+      "model": "M142 HIMARS",
+      "description": "Koda is the principle mode of transport and aiming for a light guided multiple rocket launch system. He himself is nothing particularly special, in essence a repurposed cargo Landcat, but instead of lugging around crates of supplies he hauls a rocket pod to quickly demolish targets at extremely long ranges.\n\nLaid back and easy going, Koda coasts by, confident that his superior range and ability to easily relocate essentially renders him immune any form of counter-battery fire. So self-assured is he in this, that he doesn’t even bother with appropriate camouflage for whatever environment he finds himself in, sticking with the factory woodland camo. This attitude often gets him in trouble with his superiors, but he doesn’t care much.",
+      "crewmate": "N/A",
+      "faction": "USMC",
+      "weight": 8500,
+      "height":3.9,
+      "galleryImagePaths": [
+        "Koda the HIMARS/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Koda the HIMARS/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }

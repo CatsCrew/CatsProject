@@ -5562,6 +5562,23 @@
         "Izybor the Iryda/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Stoat_guy",
+      "name": "Altair the Valkyrie",
+      "model": "XB-70 Valkyrie",
+      "description": "The Altair is a super-heavy, high-speed strategic C.A.T.S. bomber developed from the B-70 'Valkyrie.' Unlike its prototype, the Altair has been modified with state-of-the-art technology, featuring advanced avionics and control systems (including obstacle avoidance at extremely low altitudes), boundary layer control (BLC), variable-geometry wings, advanced target acquisition and guidance systems, electronic warfare capabilities, and an expanded weapons arsenal, including not only free-fall thermonuclear bombs but also JDAM guided bombs and cruise missiles. Optionally, the Altair can serve as a carrier for smaller aircraft due to the high maximum payload provided by the 'Tail' module. A striking distinguishing feature of the Altair compared to other C.A.T.S. is the ability to detach the tail module, replacing it with a plug or a conventional tail without an engine. \n\nPersonality: Altair is a malicious, arrogant, self-obsessed, conceited, insame bitch. Even if a hint of empathy for those around her occasionally surfaces in her pride-stricken heart, the command still views her penchant for total destruction and pyro mania with suspicion. One of the reasons cited is the toxic borohydride fuel used in the accelerators...\n\nAlso, her strange penchant for flirting with Proto, small C.A.T.S., and the staff does not go unnoticed either. On one occasion, a missing employee was found in a semi-conscious state, packed into a cargo bay on her stomach, more than a day after the disappearance was reported. Disciplinary measures have only a temporary effect on Altair, and so the question remains: how can she be controlled at all?\n\nThis is done due to the excessive size and weight of the engines, as well as the associated delta wing, which severely disrupts the logistics and ground deployment of the Altair.\n\nAltair’s combat use is limited whenever possible due to constant “overkill.” She is notably impulsive and strives to inflict as much damage as possible, regardless of the mission context, though with a proper briefing and the assistance of other C.A.T.S., she can be persuaded to take more restrained measures. \n\nDespite this, her track record remains flawless, and her effectiveness when she is needed is undeniable. The special modifications she has undergone allow her to perform tasks typically assigned to the B-1, but with an emphasis on her excessive speed and larger payload. Over the course of her service, Altair—despite her bad temper—has earned a reputation as an excellent unit, adaptable and willing to go the distance, and—allowing for communication difficulties—capable of carrying out special missions requiring an unconventional approach.\n\nPlus, she’s slept with everyone her size, so please, transfer her to some remote airfield far away from here!",
+      "copilot": "KobalD / Live pilot",
+      "faction": "Wing 38",
+      "weight": 23750,
+      "height": 12.1,
+      "galleryImagePaths": [
+        "Altair the Valkyrie/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Altair the Valkyrie/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
