@@ -5006,7 +5006,9 @@
       "weight": 9.000,
       "height": 6.5,
       "galleryImagePaths": [
-        "Miko the Vosmyorka/T.png"
+        "Miko the Vosmyorka/T.jpg",
+        "Miko the Vosmyorka/1.jpg",
+        "Miko the Vosmyorka/2.jpg"
       ],
       "referenceSheetsPath": [
         "Miko the Vosmyorka/R1.jpg"
