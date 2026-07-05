@@ -4965,7 +4965,7 @@
       "model": "Tornado ADV",
       "description": "The Third and last unit of CottonTails Test Team, His frame despite being slightly shorter still has the same build as his sisters, even though his frame is compatible with what his sisters can attach to, he prefers to be less modified as to not affect his working conditions during patrol, He is very attentive and will doing anything that's ordered to him by Kesstrel or Hazel.\n\nHis engine is directly welded to his frame and cannot be removed so he prefers to be in proto form when out of work to lessen maintenance time.\n\nHis Holo-visor has the shape of fox ears instead of a V-fin yet still follows the numbering scheme of how many spikes or fins that are present on the holo-visor.",
       "copilot": "C4rrot III",
-      "faction": "CottonTails Test Team ",
+      "faction": "CottonTails Test Team",
       "weight": 13500,
       "height": 5.86,
       "galleryImagePaths": [
@@ -4973,6 +4973,23 @@
       ],
       "referenceSheetsPath": [
         "Theta the Tornado/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "VeasleyKess",
+      "name": "SILH the Tornado",
+      "model": "Tornado IDS",
+      "description": "Silh was once part of Cottontails Test Team before joining Wing 38, she was one of the oldest proto 1.0  working for CTTT  but after Mrs.Kesstrel's  revision of the whole team she was given an Aerocat body that was an offshoot of Unit-02's development and was given the 'S'  designation mostly standing for 'search' as the body was made to further develop reconnaissance systems, her frame is considered outdated for CottonTails standards, Kesstrel suggested that she join Wing 38 and SILH willingly volunteered.\n\nShe's harsh, cold and very calculative to her peers. She is an excellent strategist, her missions are related to recon and during down time She handles paperwork, but with how she handles paperwork Some have suspected that she was leaking information to Cottontails but no one knows for sure..",
+      "copilot": "C4rrot IV-S",
+      "faction": "Wing 38",
+      "weight": 14100,
+      "height": 5.80,
+      "galleryImagePaths": [
+        "SILH the Tornado/T.png"
+      ],
+      "referenceSheetsPath": [
+        "SILH the Tornado/R1.png"
       ],
       "outdated": false
     },
