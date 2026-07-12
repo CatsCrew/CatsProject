@@ -4969,10 +4969,13 @@
       "weight": 13500,
       "height": 5.86,
       "galleryImagePaths": [
-        "Theta the Tornado/T.png"
+        "Theta the Tornado/T.png",
+        "Theta the Tornado/1.png",
+        "Theta the Tornado/2.png"
       ],
       "referenceSheetsPath": [
-        "Theta the Tornado/R1.png"
+        "Theta the Tornado/R1.png",
+        "Theta the Tornado/R2.png"
       ],
       "outdated": false
     },
