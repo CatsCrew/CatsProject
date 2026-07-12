@@ -573,17 +573,20 @@
       "outdated": true
     },
     {
-      "creator": "Cyrat",
+      "creator": "Cyus42",
       "name": "Otto the Twin Otter",
       "model": "DHC-6 Twin Otter",
       "galleryImagePaths": [
         "Otto the Twin Otter/T.png",
-        "Otto the Twin Otter/1.png"
+        "Otto the Twin Otter/1.png",
+        "Otto the Twin Otter/2.gif",
+        "Otto the Twin Otter/3.png"
       ],
       "referenceSheetsPath": [
-        "Otto the Twin Otter/R1.png"
+        "Otto the Twin Otter/R1.png",
+        "Otto the Twin Otter/R2.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Cee",
