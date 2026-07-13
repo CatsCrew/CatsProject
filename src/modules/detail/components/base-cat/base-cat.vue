@@ -75,6 +75,37 @@
                 <Column field="description" header="Description"></Column>
             </DataTable>
         </div>
+        <div
+            v-if="cat.stories"
+            class="story-container">
+            <div class="header">
+                Stories
+            </div>
+            <Accordion
+                multiple
+                lazy
+                v-model:value="activeValues"
+                @update:value="onTabChange">
+                <AccordionPanel
+                    v-for="(story, index) in cat.stories"
+                    :key="story.title"
+                    :value="index">
+                    <AccordionHeader>
+                        {{ story.title }}
+                    </AccordionHeader>
+                    <AccordionContent>
+                        <div v-if="story.loaded">
+                            <p class="story-content">
+                                {{ story.content || 'No content available.' }}
+                            </p>
+                        </div>
+                        <div v-else>
+                            <ProgressSpinner style="width: 50px; height: 50px" />
+                        </div>
+                    </AccordionContent>
+                </AccordionPanel>
+            </Accordion>
+        </div>
     </section>
 </template>
 
@@ -85,6 +116,11 @@ import Menu from 'primevue/menu';
 import { useToast } from "primevue/usetoast";
 import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
+import Accordion from 'primevue/accordion';
+import AccordionPanel from 'primevue/accordionpanel';
+import AccordionHeader from 'primevue/accordionheader';
+import AccordionContent from 'primevue/accordioncontent';
+import ProgressSpinner from 'primevue/progressspinner';
 
 const { cat, isMobile } = defineProps<{
     cat: Cat;
@@ -115,8 +151,40 @@ const items = $ref([
         ]
     }
 ]);
+const activeValues = $ref([]); // Array because multiple is true
 
 const toggle = (event: Event) => {
     menu.toggle(event);
 };
+
+const onTabChange = async (values: number[]) => {
+    if (!values || !cat.stories) {
+        return;
+    }
+
+    // Loop over every active index in the array
+    for (const index of values) {
+        const story = cat.stories[index];
+
+        // Only fetch if the story exists and hasn't been loaded/isn't loading
+        if (story && !story.loaded) {
+            try {
+                const response = await fetch(story.path);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                
+                const text = await response.text();
+                story.content = text;
+                story.loaded = true;
+            } catch (error) {
+                story.content = "Error loading story content.";
+            } finally {
+                story.loaded = true;
+            }
+        }
+    }
+};
+
+
 </script>

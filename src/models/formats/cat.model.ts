@@ -1,4 +1,5 @@
 import { Equipment } from "../equipment.model";
+import { Story } from "../story.model";
 
 export interface Cat {
     creator?: string;
@@ -12,4 +13,5 @@ export interface Cat {
     referenceSheetsPath?: string[];
     galleryImagePaths?: string[];
     outdated?: boolean;
+    stories?: Story[];
 }

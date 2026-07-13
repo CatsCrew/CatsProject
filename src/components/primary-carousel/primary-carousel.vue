@@ -81,6 +81,7 @@ const ImageViewer = defineAsyncComponent(() => import('@/components/image-viewer
 const { images } = defineProps<{
   images?: string[];
 }>();
+const imgs = images ?? [];
 
 const INITIAL_PAGE_SIZE = 5;
 const PAGE_SIZE = 10;
@@ -99,7 +100,9 @@ let selectedImage = $ref('');
 
 function onPageChanged() {
   const selectedIndex = emblaApi?.selectedScrollSnap();
-  DeferHelper.defer(slideRefs[selectedIndex]);
+  if (selectedIndex == null || !slideRefs) return;
+  const node = slideRefs[selectedIndex] as HTMLElement | undefined;
+  if (node) DeferHelper.defer(node);
 }
 
 function scrollNext() {
@@ -123,10 +126,10 @@ function setupKeyEvents(event: KeyboardEvent) {
   }
 
   if (selectedImage) {
-    const currentIndex = images.findIndex(i => i === selectedImage);
+    const currentIndex = imgs.findIndex(i => i === selectedImage);
     const dir = event.code === 'ArrowLeft' ? -1 : 1;
-    const newIndex = ((currentIndex + dir) % images.length + images.length) % images.length;
-    selectedImage = images[newIndex];
+    const newIndex = ((currentIndex + dir) % imgs.length + imgs.length) % imgs.length;
+    selectedImage = imgs[newIndex];
   } else {
     if (!emblaApi) 
       return;
@@ -143,18 +146,18 @@ function setupKeyEvents(event: KeyboardEvent) {
 }
 
 function dotClicked(index: number) {
-  emblaApi.scrollTo(index);
+  emblaApi?.scrollTo(index);
 }
 
 function toggleDotBtnsActive() {
-  if (!dotNodes) {
-    return;
-  }
-
+  if (!dotNodes || !emblaApi) return;
   const previous = emblaApi.previousScrollSnap();
   const selected = emblaApi.selectedScrollSnap();
-  dotNodes[previous].classList.remove('embla__dot--selected');
-  dotNodes[selected].classList.add('embla__dot--selected');
+  if (previous == null || selected == null) return;
+  const prevNode = dotNodes[previous] as Element | undefined;
+  const selNode = dotNodes[selected] as Element | undefined;
+  prevNode?.classList.remove('embla__dot--selected');
+  selNode?.classList.add('embla__dot--selected');
 }
 
 function onImageLoaded(src: string) {
@@ -166,16 +169,16 @@ function onImageClicked(image: string) {
 }
 
 function onViewerClosed() {
-    selectedImage = null;
+  selectedImage = '';
 }
 
 onMounted(() => {
-  images.forEach(i => {
+  imgs.forEach(i => {
     imageLoadingStates[i] = true;
   });
 
-  const pageOneImages = images.slice(0, INITIAL_PAGE_SIZE);
-  const remainingImages = images.slice(INITIAL_PAGE_SIZE);
+  const pageOneImages = imgs.slice(0, INITIAL_PAGE_SIZE);
+  const remainingImages = imgs.slice(INITIAL_PAGE_SIZE);
   if (pageOneImages.length) {
     slides.push({
         imageUrls: pageOneImages,
@@ -194,22 +197,27 @@ onMounted(() => {
   }
 
   nextTick(() => {
-    DeferHelper.defer(slideRefs[0]);
+    if (slideRefs && slideRefs[0]) {
+      const first = slideRefs[0] as HTMLElement | undefined;
+      if (first) DeferHelper.defer(first);
+    }
   });
 
   document.addEventListener("keyup", setupKeyEvents);
 
-  emblaApi
-    .on('select', updateButtonVisibility)
-    .on('init', toggleDotBtnsActive)
-    .on('init', updateButtonVisibility)
-    .on('reInit', toggleDotBtnsActive)
-    .on('select', toggleDotBtnsActive)
-    .on('select', onPageChanged);
+  if (emblaApi) {
+    emblaApi
+      .on('select', updateButtonVisibility)
+      .on('init', toggleDotBtnsActive)
+      .on('init', updateButtonVisibility)
+      .on('reInit', toggleDotBtnsActive)
+      .on('select', toggleDotBtnsActive)
+      .on('select', onPageChanged);
+  }
 });
 
 onUnmounted(() => {
-    emblaApi.destroy();
+    emblaApi?.destroy();
     document.removeEventListener("keyup", setupKeyEvents);
 });
 </script>

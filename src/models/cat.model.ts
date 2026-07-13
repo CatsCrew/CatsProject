@@ -1,6 +1,7 @@
 import { CatType } from "./cat-type.enum";
 import { Creator } from "./creator.model";
 import { Equipment } from "./equipment.model";
+import { Story } from "./story.model";
 
 export interface Cat {
     id?: string;
@@ -18,4 +19,5 @@ export interface Cat {
     galleryUrls?: string[];
     linkedCats?: Cat[];
     outdated?: boolean;
+    stories?: Story[];
 }

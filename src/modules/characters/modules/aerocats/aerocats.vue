@@ -115,15 +115,16 @@ const filteredCats = $computed<FilteredCat[]>(() => {
 });
 
 const pagedCats = $computed(() => filteredCats.slice(0, pageRecord[CatType.Aerocat] * PAGE_SIZE));
-const searchResultsEmpty = $computed(() => filteredCats.length === 0 && searchTerm.length > 0);
+const searchResultsEmpty = $computed(() => filteredCats.length === 0 && searchTerm?.length > 0);
 
 function onScroll() {
   const scrollHeight = document.documentElement.scrollHeight;
   const scrollTop = document.documentElement.scrollTop;
   const clientHeight = document.documentElement.clientHeight;
+  const maxPage = Math.max(1, Math.ceil(filteredCats.length / PAGE_SIZE));
 
     // Check if the user has scrolled near the bottom (e.g., within 200px)
-    if (scrollTop + clientHeight >= scrollHeight - 200) {
+    if (scrollTop + clientHeight >= scrollHeight - 200 && pageRecord[CatType.Aerocat] < maxPage) {
         pageRecord[CatType.Aerocat]++;
     }
 }

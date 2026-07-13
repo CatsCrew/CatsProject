@@ -64,7 +64,7 @@
     }
   }
 
-  .equipment {
+  .equipment, .story-container {
     .header {
       padding-bottom: pxToRem(8);
     }
@@ -81,5 +81,10 @@
       background: $cats-gradient-accent;
       border-radius: pxToRem(4);
     }
+  }
+
+  .story-content {
+    margin: 0;
+    white-space: pre-line;
   }
 }

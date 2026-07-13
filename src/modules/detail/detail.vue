@@ -21,7 +21,8 @@
         </section>
         <section class="cat-info-container">
             <component
-                :is="components[cat.type]"
+                v-if="componentToRender"
+                :is="componentToRender"
                 :cat="cat"
                 :is-mobile="isMobile">
             </component>
@@ -58,15 +59,24 @@ const { catById, isMobile } = $(storeToRefs(cat$));
 
 const router$ = useRouter();
 
-const cat = $computed(() => catById(id));
+const cat = $computed(() => id ? catById(id) : undefined);
+const componentToRender = $computed(() => {
+    const c = id ? catById(id) : undefined;
+    if (!c || c.type == null) return null;
+    return components[c.type];
+});
 const images = $computed(() => {
-    let allImages = [];
-    if (cat?.referenceUrls?.length) {
-        allImages.push(...cat.referenceUrls);
+    const c = id ? catById(id) : undefined;
+    let allImages: string[] = [];
+    const refUrls: string[] = c?.referenceUrls ?? [];
+    const galUrls: string[] = c?.galleryUrls ?? [];
+
+    if (refUrls.length) {
+        allImages.push(...refUrls);
     }
 
-    if (cat?.galleryUrls?.length) {
-        allImages.push(...cat.galleryUrls);
+    if (galUrls.length) {
+        allImages.push(...galUrls);
     }
 
     return allImages;
@@ -76,7 +86,13 @@ function onBack() {
     if (window.history.length > 1) {
         window.history.back();
     } else {
-        switch (cat.type) {
+        const c = cat;
+        if (!c) {
+            router$.push({ name: RouteNames.Home });
+            return;
+        }
+
+        switch (c.type) {
             case CatType.Aerocat:
                 router$.push({ name: RouteNames.Aerocats });
                 break;

@@ -62,7 +62,7 @@
                   v-if="mobileMenuExpanded"
                   :model="mobileCharacterMenuItems">
                   <template #item="{ item }">
-                    <router-link :to="item.to">
+                    <router-link :to="item.to!">
                       <span> {{ item.label }}</span>
                     </router-link>
                   </template>
@@ -91,10 +91,10 @@
                     class="submenu"
                     :class="{ 'active': openDropdownId === menuItem.id }">
                     <li
-                      v-for="submenuItem, index in menuItem.children"
+                      v-for="(submenuItem, index) in menuItem.children"
                       :key="index">
                       <router-link
-                        :to="submenuItem.to">
+                        :to="submenuItem.to!">
                         {{ submenuItem.label }}
                       </router-link>
                     </li>
@@ -102,7 +102,7 @@
                 </template>
                 <router-link
                   v-else
-                  :to="menuItem.to">
+                  :to="menuItem.to!">
                   {{ menuItem.label }}
                 </router-link>
               </li>
@@ -137,7 +137,7 @@ import { vOnClickOutside } from '@vueuse/components'
 const cat$ = useCatsStore();
 const { isMobile } = $(storeToRefs(cat$));
 
-let openDropdownId = $ref<number>(null);
+let openDropdownId = $ref<number | null>(null);
 
 const statusMessages = [
   "systems online",

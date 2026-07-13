@@ -124,11 +124,12 @@ const wipLanguagesPerCatType = {
 
 const languageOptions = $computed(() => { 
     const options = [];
-    Object.keys(speciesSheets[catType]).forEach(k => {
+    const sheetsForType = speciesSheets[catType as CatType] ?? {};
+    Object.keys(sheetsForType).forEach(k => {
         options.push({ name: k, value: k, disabled: false });
     });
 
-    wipLanguagesPerCatType[catType].forEach(l => {
+    (wipLanguagesPerCatType[catType as CatType] ?? []).forEach(l => {
         options.push({ name: l, value: l, disabled: true });
     });
 
@@ -136,7 +137,8 @@ const languageOptions = $computed(() => {
 });
 
 function hasLanguageSupport(catType: CatType) {
-    return Object.values(speciesSheets[catType])?.length > 1;
+    const sheetsForType = speciesSheets[catType] ?? {};
+    return Object.values(sheetsForType).length > 1;
 }
 
 function scrollNext() {
@@ -210,7 +212,7 @@ function onLanguageSelected(): void {
         language = Language.English;
     }
     prevCatType = catType;
-    images = speciesSheetByCatAndLanguage(catType, language);
+    images = speciesSheetByCatAndLanguage(catType as CatType, language as Language);
 
     updateRouteQuery();
 }
@@ -220,7 +222,7 @@ function onImageClicked(image: string) {
 }
 
 function onViewerClosed() {
-    selectedImage = null;
+    selectedImage = '';
 }
 
 onMounted(() => {
@@ -241,7 +243,7 @@ onMounted(() => {
         language = queryLang as Language;
     }
 
-    images = speciesSheetByCatAndLanguage(catType, language);
+    images = speciesSheetByCatAndLanguage(catType as CatType, language as Language);
 
     emblaApi
         .on('select', updateButtonVisibility)

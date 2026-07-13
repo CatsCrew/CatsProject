@@ -3,17 +3,21 @@ import { Aerocat } from '@/models/aerocat.model';
 import { Landcat } from '@/models/landcat.model';
 import { Proto } from '@/models/proto.model';
 import { Cat } from '@/models/cat.model';
+import { Story } from '@/models/story.model';
 
 import { Creator as FileCreator } from '@/models/formats/creator.model';
 import { Aerocat as FileAerocat } from "@/models/formats/aerocat.model";
 import { Landcat as FileLandcat } from "@/models/formats/landcat.model";
 import { Cat as FileCat } from "@/models/formats/cat.model";
 import { Proto as FileProto } from "@/models/formats/proto.model";
+import { Story as FileStory } from '@models/formats/story.model';
+
 import { UrlHelper } from '@/helper/url.helper';
 import { CatType } from '@/models/cat-type.enum';
 import Sqids from 'sqids';
 import hash from "object-hash";
 import { UnitHelper } from '@/helper/unit.helper';
+
 
 const sqids = new Sqids({
     alphabet: 'bPqYthvRnlXJQWLxyo45FEgadiMcf7Vzr0UO6IAmpHwBDkGeCsT9u32KjZ8S1N',
@@ -49,7 +53,8 @@ export class UiMapper {
             copilot: aerocat?.copilot,
             thumbnail: UrlHelper.buildCharacterPath(CatType.Aerocat, aerocat?.galleryImagePaths[0]),
             referenceUrls: aerocat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Aerocat, r)),
-            galleryUrls: aerocat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Aerocat, g))
+            galleryUrls: aerocat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Aerocat, g)),
+            stories: this.toStories(CatType.Aerocat, aerocat.stories)
         };
     }
 
@@ -61,7 +66,8 @@ export class UiMapper {
             crewmate: landcat?.crewmate,
             thumbnail: UrlHelper.buildCharacterPath(CatType.Landcat, landcat?.galleryImagePaths[0]),
             referenceUrls: landcat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Landcat, r)),
-            galleryUrls: landcat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Landcat, g))
+            galleryUrls: landcat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Landcat, g)),
+            stories: this.toStories(CatType.Landcat, landcat.stories)
         };
     }
 
@@ -72,7 +78,8 @@ export class UiMapper {
             ...this.toCat(proto, creator),
             thumbnail: UrlHelper.buildCharacterPath(CatType.Proto, proto?.galleryImagePaths[0]),
             referenceUrls: proto?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Proto, r)),
-            galleryUrls: proto?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Proto, g))
+            galleryUrls: proto?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Proto, g)),
+            stories: this.toStories(CatType.Proto, proto.stories)
         };
     }
 
@@ -97,6 +104,19 @@ export class UiMapper {
         return {
             name: creator.name,
             profileUrl: UrlHelper.buildCreatorPath(creator.profileImage)
+        }
+    }
+
+    private static toStories(catType: CatType, stories: FileStory[]): Story[] {
+        return stories?.map(s => this.toStory(catType, s)) ?? [];
+    }
+
+    private static toStory(catType: CatType, story: FileStory): Story {
+        return {
+            path: UrlHelper.buildStoryPath(catType, story.path),
+            title: story.title,
+            loaded: false,
+            content: ''
         }
     }
 }

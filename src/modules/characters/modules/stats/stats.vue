@@ -132,6 +132,11 @@
 
 <script setup lang="ts">
 import { onMounted, onBeforeUnmount, nextTick } from 'vue';
+import type { ChartOptions, TooltipItem } from 'chart.js';
+import type { Aerocat } from '@/models/aerocat.model';
+import type { Landcat } from '@/models/landcat.model';
+import type { Proto } from '@/models/proto.model';
+import type { Cat } from '@/models/cat.model';
 import Terminal from 'primevue/terminal';
 import TerminalService from 'primevue/terminalservice';
 import Card from '@/components/card/card.vue';
@@ -245,9 +250,9 @@ function loadStats() {
 }
 
 function loadCompositionVenndiagramData() {
-    const aerocatCreators = new Set(aerocats.map(a => a.creator.name));
-    const landcatCreators = new Set(landcats.map(a => a.creator.name));
-    const protosCreators = new Set(protos.map(a => a.creator.name));
+    const aerocatCreators = new Set(aerocats.map(a => a.creator?.name ?? 'Unknown'));
+    const landcatCreators = new Set(landcats.map(a => a.creator?.name ?? 'Unknown'));
+    const protosCreators = new Set(protos.map(a => a.creator?.name ?? 'Unknown'));
 
     return extractSets(
         [
@@ -265,7 +270,7 @@ function loadCatsPerPersonData() {
     // Count cats per person
     const ownerCounts: Record<string, number> = {};
     cats.forEach(cat => {
-        const ownerName = cat.creator.name;
+        const ownerName = cat.creator?.name ?? 'Unknown';
         ownerCounts[ownerName] = (ownerCounts[ownerName] || 0) + 1;
     });
 
@@ -299,9 +304,15 @@ function loadAerocatOptionalFieldFillRate() {
         'height',
         'equipment'
     ];
+    const typedFields = fields as (keyof Aerocat)[];
 
-    const fillRates = fields.map(field => {
-        const filled = aerocats.filter(a => a[field] !== undefined && a[field] !== null && a[field] !== '').length;
+    const fillRates = typedFields.map(field => {
+        if (!aerocats.length) return 0;
+        const filled = aerocats.filter(a => {
+            const val = a[field];
+            if (Array.isArray(val)) return val.length > 0;
+            return val !== undefined && val !== null && val !== '';
+        }).length;
         return (filled / aerocats.length) * 100;
     });
 
@@ -326,9 +337,15 @@ function loadLandcatOptionalFieldFillRate() {
         'height',
         'equipment'
     ];
+    const typedFields = fields as (keyof Landcat)[];
 
-    const fillRates = fields.map(field => {
-        const filled = landcats.filter(a => a[field] !== undefined && a[field] !== null && a[field] !== '').length;
+    const fillRates = typedFields.map(field => {
+        if (!landcats.length) return 0;
+        const filled = landcats.filter(a => {
+            const val = a[field];
+            if (Array.isArray(val)) return val.length > 0;
+            return val !== undefined && val !== null && val !== '';
+        }).length;
         return (filled / landcats.length) * 100;
     });
 
@@ -352,9 +369,15 @@ function loadProtoOptionalFieldFillRate() {
         'height',
         'equipment'
     ];
+    const typedFields = fields as (keyof Proto)[];
 
-    const fillRates = fields.map(field => {
-        const filled = protos.filter(a => a[field] !== undefined && a[field] !== null && a[field] !== '').length;
+    const fillRates = typedFields.map(field => {
+        if (!protos.length) return 0;
+        const filled = protos.filter(a => {
+            const val = a[field];
+            if (Array.isArray(val)) return val.length > 0;
+            return val !== undefined && val !== null && val !== '';
+        }).length;
         return (filled / protos.length) * 100;
     });
 
@@ -389,23 +412,22 @@ function loadOutdatedPercentageChartData() {
     };
 }
 
-const outdatedChartOptions = {
+const outdatedChartOptions: ChartOptions<'bar'> = {
     scales: {
         y: {
             beginAtZero: true,
             max: 100,
             ticks: {
-                callback: function(value: any) {
-                    return value + '%';
-                }
+                callback: (value: string | number) => `${value}%`
             }
         }
     },
     plugins: {
         tooltip: {
             callbacks: {
-                label: function(context: any) {
-                    const v = context.parsed.y ?? context.parsed;
+                label: (context: TooltipItem<'bar'>) => {
+                    const parsed = context.parsed;
+                    const v = typeof parsed === 'object' && parsed !== null ? parsed.y : parsed;
                     return `${Number(v).toFixed(2)}%`;
                 }
             }

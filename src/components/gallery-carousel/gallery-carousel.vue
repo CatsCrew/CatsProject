@@ -67,6 +67,7 @@ const ImageViewer = defineAsyncComponent(() => import('@/components/image-viewer
 const { images } = defineProps<{
   images?: string[];
 }>();
+const imgs = images ?? [];
 
 const imageLoadingStates = $ref([]);
 
@@ -106,14 +107,18 @@ function setupKeyEvents(event: KeyboardEvent) {
 }
 
 function dotClicked(index: number) {
-    emblaApi.scrollTo(index);
+  emblaApi?.scrollTo(index);
 }
 
 function toggleDotBtnsActive() {
-    const previous = emblaApi.previousScrollSnap();
-    const selected = emblaApi.selectedScrollSnap();
-    dotNodes[previous].classList.remove('embla__dot--selected');
-    dotNodes[selected].classList.add('embla__dot--selected');
+  if (!emblaApi || !dotNodes) return;
+  const previous = emblaApi.previousScrollSnap();
+  const selected = emblaApi.selectedScrollSnap();
+  if (previous == null || selected == null) return;
+  const prevNode = dotNodes[previous] as Element | undefined;
+  const selNode = dotNodes[selected] as Element | undefined;
+  prevNode?.classList.remove('embla__dot--selected');
+  selNode?.classList.add('embla__dot--selected');
 }
 
 function onImageLoaded(index: number) {
@@ -125,28 +130,30 @@ function onImageClicked(image: string) {
 }
 
 function onViewerClosed() {
-    selectedImage = null;
+    selectedImage = '';
 }
 
 onMounted(() => {
-  images.forEach((_, index) => {
+  imgs.forEach((_, index) => {
     imageLoadingStates[index] = true;
   });
 
   document.addEventListener("keyup", setupKeyEvents);
   updateButtonVisibility();
 
-  emblaApi
+  if (emblaApi) {
+    emblaApi
       .on('select', updateButtonVisibility)
       .on('init', toggleDotBtnsActive)
       .on('reInit', toggleDotBtnsActive)
       .on('select', toggleDotBtnsActive);
 
-  emblaApi.reInit();
+    emblaApi.reInit();
+  }
 });
 
 onUnmounted(() => {
-    emblaApi.destroy();
+    emblaApi?.destroy();
     document.removeEventListener("keyup", setupKeyEvents);
 });
 </script>
