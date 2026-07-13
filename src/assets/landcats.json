@@ -1817,10 +1817,17 @@
       "weight": 214,
       "height": 1.83,
       "galleryImagePaths": [
-        "Scout Wolf the NC750X/T.png"
+        "Scout Wolf the NC750X/T.png",
+        "Scout Wolf the NC750X/1.png"
       ],
       "referenceSheetsPath": [
         "Scout Wolf the NC750X/R1.png"
+      ],
+      "stories": [
+      { 
+        "title": "REC_LOG_16-INTERNAL SECURITY CHANNEL",
+        "path": "Scout Wolf the NC750X/stories/REC_LOG_16-INTERNAL SECURITY CHANNEL.txt"
+      }
       ],
       "outdated": true
     },

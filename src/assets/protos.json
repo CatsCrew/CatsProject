@@ -62,11 +62,18 @@
             "weight": 60,
             "height": 1.6,
             "galleryImagePaths": [
-                "Kasichi the Proto 2.0/T.png"
+                "Kasichi the Proto 2.0/T.png",
+                "Kasichi the Proto 2.0/1.png"
 
             ],
              "referenceSheetsPath": [
                 "Kasichi the Proto 2.0/R1.png"
+            ],
+            "stories": [
+            { 
+             "title": "REC_LOG_27-PROTO_MULTI-PLATFORM_MAINTENANCE_STATION",
+             "path": "Kasichi the Proto 2.0/stories/REC_LOG_27-PROTO_MULTI-PLATFORM_MAINTENANCE_STATION.txt"
+            }
             ]
         },
         {

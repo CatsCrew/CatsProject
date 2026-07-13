@@ -4549,11 +4549,18 @@
         "CDC the Kobra/T.png",
         "CDC the Kobra/1.png",
         "CDC the Kobra/2.png",
-        "CDC the Kobra/3.png"
+        "CDC the Kobra/3.png",
+        "CDC the Kobra/4.png"
       ],
       "referenceSheetsPath": [
         "CDC the Kobra/R1.png",
         "CDC the Kobra/R2.png"
+      ],
+      "stories": [
+      { 
+        "title": "PK-KG_REC-XXXXXX-014",
+        "path": "CDC the Kobra/stories/PK-KG_REC-XXXXXX-014.txt"
+      }
       ],
       "outdated": true
     },
