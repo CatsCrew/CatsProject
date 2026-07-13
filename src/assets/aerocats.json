@@ -1906,7 +1906,7 @@
       "stories": [
       { 
         "title": "TigraAmazingLore",
-        "Path": "Tigra the MB-339/stories/TigraAmazingLore.txt"
+        "path": "Tigra the MB-339/stories/TigraAmazingLore.txt"
       }
       ],
       "outdated": false
