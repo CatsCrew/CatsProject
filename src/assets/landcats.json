@@ -2430,6 +2430,57 @@
         "Koda the HIMARS/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Martes",
+      "name": "Canine the Thunder",
+      "model": "K-9 Thunder",
+      "description": "As the core firepower of the ROK Army CATS division's artillery battery, CANINE's job is to locate, fire, relocate and repeat. He uses his backpack module of 155mm cannon and his double-barrel 50.cal machine gun integrated in his right arm. Since the whole CATS division is small in size, they usually work alongside other units, and CANINE enjoys spending time with them. This sometimes seems to hinder his work efficiency during combat but his passion toward unit integrity helps the whole group to work as a team, boosting morale.\n\nAlthough he doesn't have a copilot or a crewmate, he has his superior, Buddy, alongside him most of the time. He doesn't seem to mind him, but he always distances from BUDDY whenever he wants some rest.",
+      "crewmate": "N/A",
+      "faction": "R.O.K.A CATS DIV",
+      "weight":28000,
+      "height":3.8,
+      "galleryImagePaths": [
+        "Canine the Thunder/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Canine the Thunder/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Martes",
+      "name": "Buddy the K10",
+      "model": "K10 ARV",
+      "description": "Carrying an ammunition package with a loader on his back, BUDDY is not only the ammo carrier of the artillery battery, ROK Army CATS division, but also the commander of the battery. His backpack holds the fire direction center systems and comms as well as ammunition. While he directs fire he ensures everyone has enough ammo before relocating. He also has a winch on his left leg in case anyone gets stuck during a mission.\n\nBuddy is usually found lingering near CANINE, watching him work or discussing mission specifics. However, some say they definitely saw him flirting with CANINE, only for him to have no success every time. When not with CANINE he jumpscares others with his big grin and surprise inspections.",
+      "crewmate": "N/A",
+      "faction": "R.O.K.A CATS DIV",
+      "weight":23000,
+      "height":3.8,
+      "galleryImagePaths": [
+        "Buddy the K10/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Buddy the K10/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "paidy",
+      "name": "Cobra the CV90120",
+      "model": "CV90120",
+      "description": "Cobra was originally human at a certain point recognized under the name of 'jasper', a rambunctious merc with dreams and hopes to make his family proud and have the company chime into a more productive future through contracts, unfortunately however he had experienced a major set-back and has made a few mistakes to land him where he is now, he had taken a recorder with him and planned to use it for the purpose of making memories, however the recorder he was using had volatile elements tied to it such as explosive properties which lead to it being shot while he was on the field under a high paying contract, it detonated luckily leaving him mostly intact, unfortunately though he had to go through a unbearable process which involved his mind/memories to be uploaded into 'Cobra' coming out on the other end as having half his memories scrubbed and gone, and the other half being very hazy and foggy",
+      "crewmate": "Cherry",
+      "faction": "Red Ace Company",
+      "weight":27500,
+      "height":8.8,
+      "galleryImagePaths": [
+        "Cobra the CV90120/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Cobra the CV90120/R1.jpg"
+      ],
+      "outdated": false
     }
   ]
 }
