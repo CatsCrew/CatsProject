@@ -2890,17 +2890,20 @@
     },
     {
       "creator": "Copycat",
-      "name": "Shnur the Frogfoot",
-      "model": "Su-25 Frogfoot",
-      "copilot": "Kontur",
-      "description": "Shnur was the last deployed Aerocat working for a cover up PMC Organisation in a South-Central Asia in a high contested economic region. Identified by their khaki paint job and roughly made legs with make em visible from afar. Reported to be in near constant active service with minimal or no repair between sorties, this unit was later marked for chance of operations to special package delivery. (noted over ruled request to return to standard sorties). Before relocation was recorded as silent and duty full. Currently charged to curios and fearful of new attachments. While records of their construction are un documented, the system backlogs scanned during initial introduction maintenance, show his origins are from a rearmament program of a regional super power. (Maintenance crew are adviced with a wronging for non standard part usage in this unit structure) Currently on employment as a international contractor for military grade physical data transfer.",
+      "name": "Shnur the Grach",
+      "model": "Su-25TM Grach",
+      "copilot": "N/A",
+      "description": "Pre reconstruction: Shnur was the last working Aerocat for a cover up PMC Organisation in a South-Central Asia's highly contested economic region. Identified by their khaki paint job and roughly damaged legs with made them visible from afar. Reported to be in near constant active service with minimal or no repair between sorties while working in the region, this unit was later marked for operations to deliver special packages. (noted multiple overruled request's to return to standard sortie operations post return to manufacturer). Before relocation was recorded as silent and dutiful. Then charged to curious and fearful of new attachments. While records of their construction are un documented, the system backlogs scanning during initial introduction maintenance, show his origins are from a rearmament program of a regional super power. After some time working for as a international contractor for military grade physical data transfer, was deemed valuable enough for reconstruction to minimize maintenance costs and increase operational flexibility.\n\nPost reconstruction: Upgraded Shnur has received modern avionics and internal systems update, improved targeting sight and universal payload mount system. Has been reported by local maintenance crews for increasing reports about exceeding his own stress limits by competing with sonic capable multi-role aircraft.",
+      "faction": "Ex-regional Airforce, now Independent/Mercenary",
+      "weight":10225,
+      "height":4.53,
       "galleryImagePaths": [
-        "Shnur the Frogfoot/T.png"
+        "Shnur the Grach/T.png"
       ],
       "referenceSheetsPath": [
-        "Shnur the Frogfoot/R1.jpg"
+        "Shnur the Grach/R1.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Copycat",
