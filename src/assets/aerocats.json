@@ -5641,6 +5641,41 @@
         "Altair the Valkyrie/R1.png"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Eshika",
+      "name": "Eshika the Flipper",
+      "model": "Ye-166 Flipper",
+      "description": "Based on the experimental E-166 model, he was created to test the combination of existing technologies with the CATS chassis. During the creation and testing, there were many structural problems and critical issues, which led to constant breakdowns and even a couple of fires in the early stages due to the novelty of the technology. Due to the constant alterations and refinements, Eshika developed an almost physical craving for giant heights (since he rarely reached them), and due to the attention, his character was quite naive, talkative, and emotional. Success was achieved, all expectations were met, but due to rapid obsolescence and problematic nature, he was locked in a hangar for a long time to gather dust. The long time in confinement took away his ability to talk so much and to be too excited, so when he managed to break out of the gray prison, aeroCATS almost never returned to the ground, preferring to stay constantly in the air. Currently he cooperates with Monolith, engaging in attacks from high altitudes on single targets and territory reconnaissance.",
+      "copilot": "N/A",
+      "faction": "Monolith",
+      "weight": 6200,
+      "height": 4.8,
+      "galleryImagePaths": [
+        "Eshika the Flipper/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Eshika the Flipper/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "cctv",
+      "name": "Hawthorn the Harrier",
+      "model": "Harrier GR.9",
+      "description": "Hawthorn is a capable CATS unit who has no problem with putting all of his effort into achieving a goal successfully and can easily deal with most missions that he's tasked with, however despite this, most of the time his head is in the clouds, and he tries to wriggle out of boring routines to do the things he deems more important and interesting for him. He likes to improvise on missions and sometimes approaches tasks from his point of view if the achieved result will be the same as expected. Hawthorn is loyal and more on the softer side with aerocats that he knows, however he's initially cautious with new ones, trying first to understand who he is dealing with.\n\nHawthorn has a VTOL engine which allows him hover precisely like a helicopter in a single place for prolonged time. With that he can use both of his paws freely, effortlessly operating with handheld weaponry. The limitations to hovering are mostly tied to onboard weight, since proper hovering can be achieved only while partially armed.\n\nWhile he still can, his main role is not for air-to-air combat, but more for ground attacks and reconnaissance. Hawthorn is a subsonic aircraft, and doesn't have a radar, he's meant for assisting ground forces in missions. The engine can auto-stabilize on its own to some extend when hovering, not requiring any attention for it from Hawthorn himself. When off-duty, without nozzles attached, he still can lift off from the ground to some extent, but even at full thrust performance is mediocre at best.",
+      "copilot": "N/A",
+      "faction": "N/A",
+      "weight": 2025,
+      "height": 3.5,
+      "galleryImagePaths": [
+        "Hawthorn the Harrier/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Hawthorn the Harrier/R1.jpg",
+        "Hawthorn the Harrier/R2.jpg"
+      ],
+      "outdated": false
     }
   ]
 }
