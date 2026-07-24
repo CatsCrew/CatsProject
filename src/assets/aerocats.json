@@ -5571,10 +5571,19 @@
         "Dmitri the Felon/9.gif",
         "Dmitri the Felon/10.png",
         "Dmitri the Felon/11.png",
-        "Dmitri the Felon/12.png"
+        "Dmitri the Felon/12.png",
+        "Dmitri the Felon/13.png",
+        "Dmitri the Felon/14.png",
+        "Dmitri the Felon/15.png"
       ],
       "referenceSheetsPath": [
         "Dmitri the Felon/R1.png"
+      ],
+      "stories": [
+      { 
+        "title": "message",
+        "path": "Dmitri the Felon/stories/message.txt"
+      }
       ],
       "outdated": false
     },
