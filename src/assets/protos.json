@@ -588,6 +588,24 @@
                 "Wylo the Proto 2.0/R1.png"
                 
             ]
+        },
+        {
+            "creator": "Shell",
+            "name": "SHELL the Proto 2.0",
+            "model": "2.0",
+            "description": "SHELL (The E is tilted like the DELL logo :3c) is a P.R.O.T.O. unit that has been spotted around various Wing 38 facilities, and appears to have what seems to be multiple duties within' the organization. It's unsure if the unit is serving in the maintenance team of any specific C.A.T.S, as an assistant to a human, or is for some reason independent. Sightings of the unit have just started recently. The popular thought is that due to the customization of the chassis and clear intel of a complex personality, the production and memory of the unit must of been done by non-standard and most likely immoral ways.\n\nReports believe SHELL to be a polite P.R.O.T.O. unit based off various gestures and physical traits that have been perceived. Although being spotted in Wing 38 uniforms, it's unknown of what rank or position SHELL holds, or even what gender they consider themselves as, if any.\n\nSHELL has been spotted at least once meowing, as if feline in nature.",
+            "copilot": "N/A",
+            "faction": "Wing 38",
+            "height": 1.62,
+            "weight": 86,
+            "galleryImagePaths": [
+                "SHELL the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "SHELL the Proto 2.0/R1.png"
+                
+            ]
         }
     ]
 }

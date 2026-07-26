@@ -2481,6 +2481,23 @@
         "Cobra the CV90120/R1.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Herbie",
+      "name": "Herbie the Beetle",
+      "model": "Volkswagen Beetle 1963",
+      "description": "Cobra was originally human at a certain point recognized under the name of 'jasper', a rambunctious merc with dreams and hopes to make his family proud and have the company chime into a more productive future through contracts, unfortunately however he had experienced a major set-back and has made a few mistakes to land him where he is now, he had taken a recorder with him and planned to use it for the purpose of making memories, however the recorder he was using had volatile elements tied to it such as explosive properties which lead to it being shot while he was on the field under a high paying contract, it detonated luckily leaving him mostly intact, unfortunately though he had to go through a unbearable process which involved his mind/memories to be uploaded into 'Cobra' coming out on the other end as having half his memories scrubbed and gone, and the other half being very hazy and foggy",
+      "crewmate": "N/A",
+      "faction": "N/A",
+      "weight":350,
+      "height":2,
+      "galleryImagePaths": [
+        "Herbie the Beetle/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Herbie the Beetle/R1.jpg"
+      ],
+      "outdated": false
     }
   ]
 }
