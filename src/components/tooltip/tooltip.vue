@@ -3,8 +3,7 @@
 <template>
     <div
         class="tooltip-container"
-        v-tooltip.top="tooltipConfig"
-        :v-tooltip.focus="!isHandheldDevice"
+        v-tooltip.top.focus="tooltipConfig"
         @click.stop.prevent="onClick">
         <slot></slot>
         <Drawer

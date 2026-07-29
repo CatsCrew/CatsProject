@@ -29,8 +29,9 @@ const RoutePathNames = {
     [RouteNames.FAQ]: '/faq'
 }
 
-function onBeforeEnterDetail(to: RouteLocationNormalized, from: RouteLocationNormalized) {
+async function onBeforeEnterDetail(to: RouteLocationNormalized, from: RouteLocationNormalized) {
     const catStore = useCatsStore();
+    await catStore.initialize();
     const id = to.params.id as string;
     const cat = catStore.catById(id);
 

@@ -1,9 +1,6 @@
 import { defineStore } from 'pinia';
+import { useWindowSize } from '@vueuse/core';
 import { CatsState } from './state';
-import creatorJson from '@assets/creators.json';
-import aerocatJson from '@assets/aerocats.json';
-import landcatJson from '@assets/landcats.json';
-import protoJson from '@assets/protos.json';
 import loreDocumentJson from '@assets/lore.json';
 import assetJson from '@assets/assets.json';
 import catLinksJson from '@assets/cat-links.json';
@@ -17,6 +14,10 @@ import { UrlHelper } from '@/helper/url.helper';
 import type { Aerocat as FileAerocat } from '@/models/formats/aerocat.model';
 import type { Landcat as FileLandcat } from '@/models/formats/landcat.model';
 import type { Proto as FileProto } from '@/models/formats/proto.model';
+
+const { width: windowWidth } = useWindowSize();
+
+let initPromise: Promise<void> | null = null;
 
 export const useCatsStore = defineStore('cats', {
   state: (): CatsState => ({
@@ -42,7 +43,7 @@ export const useCatsStore = defineStore('cats', {
   }),
   getters: {
     isMobile: () => {
-        return window.innerWidth <= 600;
+        return windowWidth.value <= 600;
     },
     isHandheldDevice: () => {
       return "ontouchstart" in window || navigator.maxTouchPoints > 0;
@@ -74,7 +75,25 @@ export const useCatsStore = defineStore('cats', {
     }
   },
   actions: {
-    initialize() {
+    initialize(): Promise<void> {
+      if (!initPromise) {
+        initPromise = this.loadData();
+      }
+      return initPromise;
+    },
+    async loadData() {
+      const [
+        { default: creatorJson },
+        { default: aerocatJson },
+        { default: landcatJson },
+        { default: protoJson },
+      ] = await Promise.all([
+        import('@assets/creators.json'),
+        import('@assets/aerocats.json'),
+        import('@assets/landcats.json'),
+        import('@assets/protos.json'),
+      ]);
+
       const mappedCreators = UiMapper.toCreators(creatorJson.creators);
       this.creators = {} as Record<string, Creator>;
       mappedCreators.forEach(c => {
@@ -82,6 +101,10 @@ export const useCatsStore = defineStore('cats', {
           this.creators[c.name] = c;
         }
       });
+
+      this.aerocats = [];
+      this.landcats = [];
+      this.protos = [];
 
       const aerocatList = (aerocatJson?.aerocats ?? []) as FileAerocat[];
       aerocatList.forEach(a => {
@@ -113,13 +136,17 @@ export const useCatsStore = defineStore('cats', {
 
       this.cats = [...this.aerocats, ...this.landcats, ...this.protos];
 
+      const catsByName = new Map(this.cats.filter(c => c.name).map(c => [c.name as string, c]));
+
       catLinksJson?.links?.forEach(l => {
         const names = l?.cats;
         names?.forEach(n => {
-          const others = names.filter(x => x !== n);
-          const targetCat = this.cats.find(c => c.name === n);
+          const targetCat = catsByName.get(n);
           if (targetCat) {
-            targetCat.linkedCats = this.cats.filter(c => c.name ? others.includes(c.name) : false);
+            targetCat.linkedCats = names
+              .filter(x => x !== n)
+              .map(x => catsByName.get(x))
+              .filter((c): c is typeof this.cats[number] => !!c);
           }
         });
       });
