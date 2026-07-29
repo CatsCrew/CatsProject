@@ -76,7 +76,7 @@
             </DataTable>
         </div>
         <div
-            v-if="cat.stories"
+            v-if="cat.stories && cat.stories.length"
             class="story-container">
             <div class="header">
                 Stories
