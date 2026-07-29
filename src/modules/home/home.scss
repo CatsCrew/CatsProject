@@ -163,16 +163,20 @@
 
                 .cat-logo {
                     height: pxToRem(120);
+                    width: auto;
 
                     &.aerocat {
+                        aspect-ratio: 1 / 1;
                         filter: drop-shadow(0 4px 15px rgba(0, 170, 255, 0.6));
                     }
 
                     &.landcat {
+                        aspect-ratio: 344 / 320;
                         filter: drop-shadow(0 4px 15px rgba(0, 255, 0, 0.6));
                     }
 
                     &.proto {
+                        aspect-ratio: 1 / 1;
                         filter: drop-shadow(0 4px 15px rgba(192, 192, 192, 0.6));
                     }
                 }

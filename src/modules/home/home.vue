@@ -33,7 +33,9 @@
                             </div>
                         </template>
                         <template #content>
-                            <MeterGroup :value="catMetergroupItems">
+                            <MeterGroup
+                                :value="catMetergroupItems"
+                                aria-label="C.A.T.S composition by species">
                                 <template #label="{ value }">
                                     <ol class="markers">
                                         <li
@@ -63,7 +65,7 @@
                 <Card class="cat-card">
                     <template #title>
                         <div class="logo-container">
-                            <img :src="Aerocat" alt="Aerocat Logo" class="cat-logo aerocat"/>
+                            <img :src="Aerocat" alt="Aerocat Logo" width="240" height="240" class="cat-logo aerocat"/>
                             <div class="cat-type">AEROCATS</div>
                         </div>
                     </template>
@@ -82,7 +84,7 @@
                 <Card class="cat-card">
                     <template #title>
                         <div class="logo-container">
-                            <img :src="Landcat" alt="Landcat Logo" class="cat-logo landcat"/>
+                            <img :src="Landcat" alt="Landcat Logo" width="344" height="320" class="cat-logo landcat"/>
                             <div class="cat-type">LANDCATS</div>
                         </div>
                     </template>
@@ -101,7 +103,7 @@
                 <Card class="cat-card">
                     <template #title>
                         <div class="logo-container">
-                            <img :src="Proto" alt="Proto Logo" class="cat-logo proto"/>
+                            <img :src="Proto" alt="Proto Logo" width="240" height="240" class="cat-logo proto"/>
                             <div class="cat-type">PROTOS</div>
                         </div>
                     </template>
@@ -153,9 +155,9 @@
 import { computed, onMounted } from 'vue';
 import Radar from '@/components/radar/radar.vue';
 import Card from '@/components/card/card.vue';
-import Aerocat from '@assets/images/aerocats_logo.png';
-import Landcat from '@assets/images/landcats_logo.png';
-import Proto from '@assets/images/proto_logo.png';
+import Aerocat from '@assets/images/aerocats_logo.avif';
+import Landcat from '@assets/images/landcats_logo.avif';
+import Proto from '@assets/images/proto_logo.avif';
 import { RouteNames } from '@/app.routes';
 import Banner from '@/components/banner/banner.vue';
 import { BannerType } from '@/models/banner-type.enum';

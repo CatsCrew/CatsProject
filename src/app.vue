@@ -22,6 +22,7 @@
     :closable="false"
     :close-on-escape="false"
     class="warning-dialog"
+    aria-label="NSFW Warning"
     pt:mask:style="backdrop-filter: blur(8px)"
     :position="position">
     <template #header>

@@ -4,7 +4,7 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h5 class="footer-header">QUICK ACCESS</h5>
+                <h4 class="footer-header">QUICK ACCESS</h4>
                 <div class="quick-links">
                     <router-link :to="{ name: RouteNames.Home }">Home</router-link>
                     <router-link :to="{ name: RouteNames.About }">About</router-link>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="footer-section">
-                <h5 class="footer-header">SYSTEM INFO</h5>
+                <h4 class="footer-header">SYSTEM INFO</h4>
                 <div class="footer-text">
                     <div class="sub-text">Last Updated: {{ formattedDate }}</div>
                     <div class="sub-text">System Version: {{ version }}</div>

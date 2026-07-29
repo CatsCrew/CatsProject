@@ -1,6 +1,7 @@
 import { RouteRecordRaw } from "vue-router";
 import { useCatsStore } from '@/store';
 import { RouteLocationNormalized } from 'vue-router';
+import Home from './modules/home/home.vue';
 
 export enum RouteNames {
     Home = 'home',
@@ -44,7 +45,7 @@ export const routes: RouteRecordRaw[] = [
     {
         path: RoutePathNames[RouteNames.Home],
         name: RouteNames.Home,
-        component: () => import('./modules/home/home.vue')
+        component: Home
     },
     {
         path: RoutePathNames[RouteNames.About],

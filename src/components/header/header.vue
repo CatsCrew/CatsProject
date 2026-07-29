@@ -7,7 +7,7 @@
         <div class="logo-container">
           <div class="logo">
             <router-link :to="{ name: RouteNames.Home }">
-                <img class="logo-img" alt="Cats Logo" :src="CatsLogo" />
+                <img class="logo-img" alt="Cats Logo" :src="CatsLogo" width="200" height="200" />
                 <span class="logo-text">PROJECT C.A.T.S</span>
             </router-link>
           </div>
@@ -24,7 +24,7 @@
                 <router-link
                   @click="onDrawerItemClicked"
                   :to="{ name: RouteNames.Home }">
-                    <img class="logo-img" alt="Cats Logo" :src="CatsLogo" />
+                    <img class="logo-img" alt="Cats Logo" :src="CatsLogo" width="200" height="200" />
                     <span class="logo-text">PROJECT C.A.T.S</span>
                 </router-link>
               </div>
@@ -70,7 +70,10 @@
               </li>
             </ul>
           </Drawer>
-          <Button icon="pi pi-bars" @click="onDrawerClick">
+          <Button
+            icon="pi pi-bars"
+            aria-label="Open navigation menu"
+            @click="onDrawerClick">
           </Button>
         </div>
         <nav class="nav-links-container" v-else>

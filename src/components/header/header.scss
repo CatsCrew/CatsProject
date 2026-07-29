@@ -17,6 +17,8 @@
 
     .logo-img {
       width: pxToRem(60);
+      height: auto;
+      aspect-ratio: 1 / 1;
       color: white;
       filter: drop-shadow(0 0 10px var(--p-green-500));
     }
@@ -118,6 +120,8 @@
 
           .logo-img {
             width: pxToRem(60);
+            height: auto;
+            aspect-ratio: 1 / 1;
             color: white;
             filter: drop-shadow(0 0 10px var(--p-green-500));
           }

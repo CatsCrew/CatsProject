@@ -18,11 +18,12 @@
             .quick-links {
                 display: flex;
                 flex-direction: column;
-                gap: pxToRem(4);
                 font-size: pxToRem(14);
                 list-style: none;
 
                 a {
+                    display: inline-block;
+                    padding: pxToRem(6) 0;
                     text-decoration: none;
                     color: $text-secondary;
 
