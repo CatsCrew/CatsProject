@@ -87,7 +87,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, useTemplateRef } from 'vue';
+import { onMounted, ref, useTemplateRef } from 'vue';
 import Card from '@/components/card/card.vue';
 import Skeleton from 'primevue/skeleton';
 import { Cat } from '@/models/cat.model';
@@ -102,21 +102,21 @@ const { cat, hoverable = true, isPlaceholder = false } = defineProps<{
 }>();
 
 const router$ = useRouter();
-const characterCard = $(useTemplateRef('characterCard'));
+const characterCard = useTemplateRef('characterCard');
 
-let loading = $ref(true);
+const loading = ref(true);
 
 function onAerocatClicked() {
     router$.push({ name: RouteNames.Character, params: { id: cat.id }});
 }
 
 function onImageLoad() {
-    loading = false;
+    loading.value = false;
 }
 
 onMounted(() => {
-    if (characterCard) {
-        DeferHelper.defer(characterCard.$el);
+    if (characterCard.value) {
+        DeferHelper.defer(characterCard.value.$el);
     }
 });
 </script>

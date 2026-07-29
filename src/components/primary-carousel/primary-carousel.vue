@@ -2,7 +2,7 @@
 
 <template>
   <div class="embla">
-    <div class="embla__viewport" ref="emblaRef">
+    <div class="embla__viewport" :ref="(el) => emblaRef = el as HTMLElement">
       <div class="embla__container">
         <div
             class="primary-carousel-slide"
@@ -71,7 +71,7 @@
 
 <script setup lang="ts">
 import emblaCarouselVue from "embla-carousel-vue";
-import { onMounted, onUnmounted, useTemplateRef, nextTick, defineAsyncComponent } from "vue";
+import { onMounted, onUnmounted, ref, useTemplateRef, nextTick, defineAsyncComponent } from "vue";
 import Skeleton from 'primevue/skeleton';
 import { CarouselSlide } from "@/models/carousel-slide.model";
 import { DeferHelper } from "@/helper/defer.helper";
@@ -86,37 +86,37 @@ const imgs = images ?? [];
 const INITIAL_PAGE_SIZE = 5;
 const PAGE_SIZE = 10;
 
-const imageLoadingStates = $ref({} as Record<string, boolean>);
-const slides = $ref<CarouselSlide[]>([]);
+const imageLoadingStates = ref({} as Record<string, boolean>);
+const slides = ref<CarouselSlide[]>([]);
 
-const [emblaRef, emblaApi] = $(emblaCarouselVue());
+const [emblaRef, emblaApi] = emblaCarouselVue();
 
-const dotNodes = $(useTemplateRef('dotNodes'));
-const slideRefs = $(useTemplateRef('emblaSlides'));
+const dotNodes = useTemplateRef('dotNodes');
+const slideRefs = useTemplateRef('emblaSlides');
 
-let canScrollPrev = $ref(false);
-let canScrollNext = $ref(false);
-let selectedImage = $ref('');
+const canScrollPrev = ref(false);
+const canScrollNext = ref(false);
+const selectedImage = ref('');
 
 function onPageChanged() {
-  const selectedIndex = emblaApi?.selectedScrollSnap();
-  if (selectedIndex == null || !slideRefs) return;
-  const node = slideRefs[selectedIndex] as HTMLElement | undefined;
+  const selectedIndex = emblaApi.value?.selectedScrollSnap();
+  if (selectedIndex == null || !slideRefs.value) return;
+  const node = slideRefs.value[selectedIndex] as HTMLElement | undefined;
   if (node) DeferHelper.defer(node);
 }
 
 function scrollNext() {
-  emblaApi?.scrollNext();
+  emblaApi.value?.scrollNext();
 }
 
 function scrollPrev() {
-  emblaApi?.scrollPrev();
+  emblaApi.value?.scrollPrev();
 }
 
 function updateButtonVisibility() {
-  if (emblaApi) {
-    canScrollPrev = emblaApi.canScrollPrev();
-    canScrollNext = emblaApi.canScrollNext();
+  if (emblaApi.value) {
+    canScrollPrev.value = emblaApi.value.canScrollPrev();
+    canScrollNext.value = emblaApi.value.canScrollNext();
   }
 }
 
@@ -125,13 +125,13 @@ function setupKeyEvents(event: KeyboardEvent) {
     return;
   }
 
-  if (selectedImage) {
-    const currentIndex = imgs.findIndex(i => i === selectedImage);
+  if (selectedImage.value) {
+    const currentIndex = imgs.findIndex(i => i === selectedImage.value);
     const dir = event.code === 'ArrowLeft' ? -1 : 1;
     const newIndex = ((currentIndex + dir) % imgs.length + imgs.length) % imgs.length;
-    selectedImage = imgs[newIndex];
+    selectedImage.value = imgs[newIndex];
   } else {
-    if (!emblaApi) 
+    if (!emblaApi.value)
       return;
 
     switch (event.code) {
@@ -146,41 +146,41 @@ function setupKeyEvents(event: KeyboardEvent) {
 }
 
 function dotClicked(index: number) {
-  emblaApi?.scrollTo(index);
+  emblaApi.value?.scrollTo(index);
 }
 
 function toggleDotBtnsActive() {
-  if (!dotNodes || !emblaApi) return;
-  const previous = emblaApi.previousScrollSnap();
-  const selected = emblaApi.selectedScrollSnap();
+  if (!dotNodes.value || !emblaApi.value) return;
+  const previous = emblaApi.value.previousScrollSnap();
+  const selected = emblaApi.value.selectedScrollSnap();
   if (previous == null || selected == null) return;
-  const prevNode = dotNodes[previous] as Element | undefined;
-  const selNode = dotNodes[selected] as Element | undefined;
+  const prevNode = dotNodes.value[previous] as Element | undefined;
+  const selNode = dotNodes.value[selected] as Element | undefined;
   prevNode?.classList.remove('embla__dot--selected');
   selNode?.classList.add('embla__dot--selected');
 }
 
 function onImageLoaded(src: string) {
-  imageLoadingStates[src] = false;
+  imageLoadingStates.value[src] = false;
 }
 
 function onImageClicked(image: string) {
-  selectedImage = image;
+  selectedImage.value = image;
 }
 
 function onViewerClosed() {
-  selectedImage = '';
+  selectedImage.value = '';
 }
 
 onMounted(() => {
   imgs.forEach(i => {
-    imageLoadingStates[i] = true;
+    imageLoadingStates.value[i] = true;
   });
 
   const pageOneImages = imgs.slice(0, INITIAL_PAGE_SIZE);
   const remainingImages = imgs.slice(INITIAL_PAGE_SIZE);
   if (pageOneImages.length) {
-    slides.push({
+    slides.value.push({
         imageUrls: pageOneImages,
         className: `images-${pageOneImages.length} hero`
     });
@@ -189,7 +189,7 @@ onMounted(() => {
   if (remainingImages.length) {
     for (let i = 0; i < remainingImages.length; i += PAGE_SIZE) {
         const chunk = remainingImages.slice(i, i + PAGE_SIZE);
-        slides.push({
+        slides.value.push({
             imageUrls: chunk,
             className: 'images-10'
         });
@@ -197,16 +197,16 @@ onMounted(() => {
   }
 
   nextTick(() => {
-    if (slideRefs && slideRefs[0]) {
-      const first = slideRefs[0] as HTMLElement | undefined;
+    if (slideRefs.value && slideRefs.value[0]) {
+      const first = slideRefs.value[0] as HTMLElement | undefined;
       if (first) DeferHelper.defer(first);
     }
   });
 
   document.addEventListener("keyup", setupKeyEvents);
 
-  if (emblaApi) {
-    emblaApi
+  if (emblaApi.value) {
+    emblaApi.value
       .on('select', updateButtonVisibility)
       .on('init', toggleDotBtnsActive)
       .on('init', updateButtonVisibility)
@@ -217,7 +217,7 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
-    emblaApi?.destroy();
+    emblaApi.value?.destroy();
     document.removeEventListener("keyup", setupKeyEvents);
 });
 </script>

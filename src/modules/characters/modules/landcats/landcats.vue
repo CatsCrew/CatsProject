@@ -71,31 +71,31 @@ const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/e
 const Tooltip = defineAsyncComponent(() => import('@/components/tooltip/tooltip.vue'));
 
 const cats$ = useCatsStore();
-const { landcats, searchTerms, pageRecord } = $(storeToRefs(cats$));
+const { landcats, searchTerms, pageRecord } = storeToRefs(cats$);
 
 const isHandheldDevice = computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
 const PAGE_SIZE = 24;
-const searchTerm = $computed(() => searchTerms[CatType.Landcat]);
+const searchTerm = computed(() => searchTerms.value[CatType.Landcat]);
 
 const tooltipText = 'This character was made under the old registration standards, and may not reflect our current rules.';
 
-const placeholderCat = $computed<Cat>(() => ({
+const placeholderCat = computed<Cat>(() => ({
     model: `Your Landcat here!`,
     thumbnail: LandcatPlaceholder
 }));
 
-const filteredCats = $computed<FilteredCat[]>(() => {
-    if (!searchTerm) {
-        return landcats.map(cat => {
+const filteredCats = computed<FilteredCat[]>(() => {
+    if (!searchTerm.value) {
+        return landcats.value.map(cat => {
             return {
                 cat
             } as FilteredCat;
         });
     }
 
-    const formattedSearchTerm = searchTerm.toLowerCase().trim();
+    const formattedSearchTerm = searchTerm.value.toLowerCase().trim();
 
-    return landcats.map(cat => {
+    return landcats.value.map(cat => {
         let matchType = MatchType.Unknown;
         if (cat?.name?.toLowerCase()?.includes(formattedSearchTerm)) {
             matchType = MatchType.Name;
@@ -114,23 +114,23 @@ const filteredCats = $computed<FilteredCat[]>(() => {
     }).filter(filtered => filtered.matchType !== MatchType.Unknown);
 });
 
-const pagedCats = computed(() => filteredCats.slice(0, pageRecord[CatType.Landcat] * PAGE_SIZE));
-const searchResultsEmpty = computed(() => filteredCats.length === 0 && searchTerm?.length > 0);
+const pagedCats = computed(() => filteredCats.value.slice(0, pageRecord.value[CatType.Landcat] * PAGE_SIZE));
+const searchResultsEmpty = computed(() => filteredCats.value.length === 0 && searchTerm.value?.length > 0);
 
 function onScroll() {
   const scrollHeight = document.documentElement.scrollHeight;
   const scrollTop = document.documentElement.scrollTop;
   const clientHeight = document.documentElement.clientHeight;
-  const maxPage = Math.max(1, Math.ceil(filteredCats.length / PAGE_SIZE));
+  const maxPage = Math.max(1, Math.ceil(filteredCats.value.length / PAGE_SIZE));
 
     // Check if the user has scrolled near the bottom (e.g., within 200px)
-    if (scrollTop + clientHeight >= scrollHeight - 200 && pageRecord[CatType.Landcat] < maxPage) {
-        pageRecord[CatType.Landcat]++;
+    if (scrollTop + clientHeight >= scrollHeight - 200 && pageRecord.value[CatType.Landcat] < maxPage) {
+        pageRecord.value[CatType.Landcat]++;
     }
 }
 
-watch(() => searchTerm, () => {
-    pageRecord[CatType.Landcat] = 1;
+watch(searchTerm, () => {
+    pageRecord.value[CatType.Landcat] = 1;
 });
 
 onMounted(() => {

@@ -27,7 +27,7 @@
         </div>
         <div class="species-sheet-content-container">
             <div class="embla">
-                <div class="embla__viewport" ref="emblaRef">
+                <div class="embla__viewport" :ref="(el) => emblaRef = el as HTMLElement">
                     <div class="embla__container">
                         <div
                             v-for="image in images"
@@ -86,7 +86,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted, useTemplateRef, defineAsyncComponent } from 'vue';
+import { computed, onMounted, onUnmounted, ref, useTemplateRef, defineAsyncComponent } from 'vue';
 import SelectButton from 'primevue/selectbutton';
 import { Language } from '@models/language.enum';
 import { CatType } from '@/models/cat-type.enum';
@@ -99,37 +99,37 @@ import { useRoute, useRouter } from 'vue-router';
 const ImageViewer = defineAsyncComponent(() => import('@/components/image-viewer/image-viewer.vue'));
 
 const cat$ = useCatsStore();
-const { speciesSheets, speciesSheetByCatAndLanguage } = $(storeToRefs(cat$));
+const { speciesSheets, speciesSheetByCatAndLanguage } = storeToRefs(cat$);
 
 const router$ = useRouter();
 const route$ = useRoute();
 
-const [emblaRef, emblaApi] = $(emblaCarouselVue({}, [ClassNames()]));
-const dotNodes = $(useTemplateRef('dotNodes'));
+const [emblaRef, emblaApi] = emblaCarouselVue({}, [ClassNames()]);
+const dotNodes = useTemplateRef('dotNodes');
 
-let catType = $ref(CatType.Aerocat);
-let language = $ref(Language.English);
-let canScrollPrev = $ref(false);
-let canScrollNext = $ref(false);
-let prevCatType = $ref(CatType.Aerocat);
-let images = $ref([]);
-let selectedImage = $ref('');
+const catType = ref(CatType.Aerocat);
+const language = ref(Language.English);
+const canScrollPrev = ref(false);
+const canScrollNext = ref(false);
+const prevCatType = ref(CatType.Aerocat);
+const images = ref<string[]>([]);
+const selectedImage = ref('');
 
-const catOptions = $ref(Object.values(CatType));
+const catOptions = ref(Object.values(CatType));
 const wipLanguagesPerCatType = {
     [CatType.Aerocat]: [],
     [CatType.Landcat]: [],
     [CatType.Proto]: [],
 };
 
-const languageOptions = $computed(() => { 
+const languageOptions = computed(() => {
     const options = [];
-    const sheetsForType = speciesSheets[catType as CatType] ?? {};
+    const sheetsForType = speciesSheets.value[catType.value as CatType] ?? {};
     Object.keys(sheetsForType).forEach(k => {
         options.push({ name: k, value: k, disabled: false });
     });
 
-    (wipLanguagesPerCatType[catType as CatType] ?? []).forEach(l => {
+    (wipLanguagesPerCatType[catType.value as CatType] ?? []).forEach(l => {
         options.push({ name: l, value: l, disabled: true });
     });
 
@@ -137,22 +137,22 @@ const languageOptions = $computed(() => {
 });
 
 function hasLanguageSupport(catType: CatType) {
-    const sheetsForType = speciesSheets[catType] ?? {};
+    const sheetsForType = speciesSheets.value[catType] ?? {};
     return Object.values(sheetsForType).length > 1;
 }
 
 function scrollNext() {
-  emblaApi?.scrollNext();
+  emblaApi.value?.scrollNext();
 }
 
 function scrollPrev() {
-  emblaApi?.scrollPrev();
+  emblaApi.value?.scrollPrev();
 }
 
 function updateButtonVisibility() {
-  if (emblaApi) {
-    canScrollPrev = emblaApi.canScrollPrev();
-    canScrollNext = emblaApi.canScrollNext();
+  if (emblaApi.value) {
+    canScrollPrev.value = emblaApi.value.canScrollPrev();
+    canScrollNext.value = emblaApi.value.canScrollNext();
   }
 }
 
@@ -161,14 +161,14 @@ function setupKeyEvents(event: KeyboardEvent) {
         return;
     }
 
-    if (selectedImage) {
-        const currentIndex = images.findIndex(i => i === selectedImage);
+    if (selectedImage.value) {
+        const currentIndex = images.value.findIndex(i => i === selectedImage.value);
         const dir = event.code === 'ArrowLeft' ? -1 : 1;
-        const newIndex = ((currentIndex + dir) % images.length + images.length) % images.length;
-        selectedImage = images[newIndex];
-        emblaApi.scrollTo(newIndex);
+        const newIndex = ((currentIndex + dir) % images.value.length + images.value.length) % images.value.length;
+        selectedImage.value = images.value[newIndex];
+        emblaApi.value.scrollTo(newIndex);
     } else {
-        if (!emblaApi) 
+        if (!emblaApi.value)
             return;
 
         switch (event.code) {
@@ -183,46 +183,46 @@ function setupKeyEvents(event: KeyboardEvent) {
 }
 
 function dotClicked(index: number) {
-    emblaApi.scrollTo(index);
+    emblaApi.value.scrollTo(index);
 }
 
 function toggleDotBtnsActive() {
-    if (!dotNodes) {
+    if (!dotNodes.value) {
         return;
     }
 
-    const previous = emblaApi.previousScrollSnap();
-    const selected = emblaApi.selectedScrollSnap();
-    dotNodes[previous].classList?.remove('embla__dot--selected');
-    dotNodes[selected].classList?.add('embla__dot--selected');
+    const previous = emblaApi.value.previousScrollSnap();
+    const selected = emblaApi.value.selectedScrollSnap();
+    dotNodes.value[previous].classList?.remove('embla__dot--selected');
+    dotNodes.value[selected].classList?.add('embla__dot--selected');
 }
 
 function updateRouteQuery() {
     router$.replace({
         query: {
-            c: catType,
-            l: language
+            c: catType.value,
+            l: language.value
         }
     });
 }
 
 function onLanguageSelected(): void {
-    if (catType !== prevCatType) {
-        emblaApi.scrollTo(0);
-        language = Language.English;
+    if (catType.value !== prevCatType.value) {
+        emblaApi.value.scrollTo(0);
+        language.value = Language.English;
     }
-    prevCatType = catType;
-    images = speciesSheetByCatAndLanguage(catType as CatType, language as Language);
+    prevCatType.value = catType.value;
+    images.value = speciesSheetByCatAndLanguage.value(catType.value as CatType, language.value as Language);
 
     updateRouteQuery();
 }
 
 function onImageClicked(image: string) {
-    selectedImage = image;
+    selectedImage.value = image;
 }
 
 function onViewerClosed() {
-    selectedImage = '';
+    selectedImage.value = '';
 }
 
 onMounted(() => {
@@ -236,16 +236,16 @@ onMounted(() => {
     const queryLang = route$.query.l;
 
     if (validCatTypes.includes(queryCat as CatType)) {
-        catType = queryCat as CatType;
-        prevCatType = catType;
+        catType.value = queryCat as CatType;
+        prevCatType.value = catType.value;
     }
     if (validLanguages.includes(queryLang as Language)) {
-        language = queryLang as Language;
+        language.value = queryLang as Language;
     }
 
-    images = speciesSheetByCatAndLanguage(catType as CatType, language as Language);
+    images.value = speciesSheetByCatAndLanguage.value(catType.value as CatType, language.value as Language);
 
-    emblaApi
+    emblaApi.value
         .on('select', updateButtonVisibility)
         .on('init', toggleDotBtnsActive)
         .on('init', updateButtonVisibility)
@@ -255,7 +255,7 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
-    emblaApi.destroy();
+    emblaApi.value.destroy();
     document.removeEventListener("keyup", setupKeyEvents);
 });
 </script>

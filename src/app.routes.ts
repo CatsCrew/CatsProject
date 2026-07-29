@@ -1,6 +1,6 @@
 import { RouteRecordRaw } from "vue-router";
 import { useCatsStore } from '@/store';
-import { NavigationGuardNext, RouteLocationNormalized } from 'vue-router';
+import { RouteLocationNormalized } from 'vue-router';
 
 export enum RouteNames {
     Home = 'home',
@@ -29,15 +29,13 @@ const RoutePathNames = {
     [RouteNames.FAQ]: '/faq'
 }
 
-function onBeforeEnterDetail(to: RouteLocationNormalized, from: RouteLocationNormalized, next: NavigationGuardNext) {
+function onBeforeEnterDetail(to: RouteLocationNormalized, from: RouteLocationNormalized) {
     const catStore = useCatsStore();
     const id = to.params.id as string;
     const cat = catStore.catById(id);
 
     if (!cat) {
-        next({ name: RouteNames.Error });
-    } else {
-        next();
+        return { name: RouteNames.Error };
     }
 }
 

@@ -90,11 +90,12 @@ import Banner from '@/components/banner/banner.vue';
 import { BannerType } from '@/models/banner-type.enum';
 import { storeToRefs } from 'pinia';
 import { useCatsStore } from '@/store';
+import { computed } from 'vue';
 
 const cats$ = useCatsStore();
 
-const { discordUrl, creators } = $(storeToRefs(cats$));
+const { discordUrl, creators } = storeToRefs(cats$);
 
-const prestoImageUrl = $computed(() => creators['Presto']?.profileUrl);
-const karbineImageUrl = $computed(() => creators['Karbine']?.profileUrl);
+const prestoImageUrl = computed(() => creators.value['Presto']?.profileUrl);
+const karbineImageUrl = computed(() => creators.value['Karbine']?.profileUrl);
 </script>

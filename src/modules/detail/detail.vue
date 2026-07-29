@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineAsyncComponent } from "vue";
+import { computed, defineAsyncComponent } from "vue";
 import { useCatsStore } from "@/store";
 import { storeToRefs } from "pinia";
 import { useRouter } from "vue-router";
@@ -55,18 +55,18 @@ const components = {
 };
 
 const cat$ = useCatsStore();
-const { catById, isMobile } = $(storeToRefs(cat$));
+const { catById, isMobile } = storeToRefs(cat$);
 
 const router$ = useRouter();
 
-const cat = $computed(() => id ? catById(id) : undefined);
-const componentToRender = $computed(() => {
-    const c = id ? catById(id) : undefined;
+const cat = computed(() => id ? catById.value(id) : undefined);
+const componentToRender = computed(() => {
+    const c = id ? catById.value(id) : undefined;
     if (!c || c.type == null) return null;
     return components[c.type];
 });
-const images = $computed(() => {
-    const c = id ? catById(id) : undefined;
+const images = computed(() => {
+    const c = id ? catById.value(id) : undefined;
     let allImages: string[] = [];
     const refUrls: string[] = c?.referenceUrls ?? [];
     const galUrls: string[] = c?.galleryUrls ?? [];
@@ -86,7 +86,7 @@ function onBack() {
     if (window.history.length > 1) {
         window.history.back();
     } else {
-        const c = cat;
+        const c = cat.value;
         if (!c) {
             router$.push({ name: RouteNames.Home });
             return;

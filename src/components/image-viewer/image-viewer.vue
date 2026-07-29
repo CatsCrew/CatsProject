@@ -23,7 +23,7 @@ const emit = defineEmits<{
     (e: 'close'): void;
 }>();
 
-const image = $(useTemplateRef('image'));
+const image = useTemplateRef('image');
 let viewerInstance = null;
 
 function cleanupViewer() {
@@ -38,8 +38,8 @@ function initializeViewer(transition: boolean = true) {
 
     const toolBarShow: Viewer.ToolbarOption = { show: true, size: 'large' };
 
-    if (image) {
-        viewerInstance = new Viewer(image, {
+    if (image.value) {
+        viewerInstance = new Viewer(image.value, {
             inline: false,
             transition,
             movable: true,

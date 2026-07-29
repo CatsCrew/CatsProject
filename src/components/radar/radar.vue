@@ -49,13 +49,13 @@ import { storeToRefs } from 'pinia';
 import RadarProto from '@/assets/images/radar-proto.webp';
 
 const cat$ = useCatsStore();
-const { aerocats, landcats, protos } = $(storeToRefs(cat$));
+const { aerocats, landcats, protos } = storeToRefs(cat$);
 
-const aerocatsCount = aerocats.length;
-const landcatsCount = landcats.length;
-const protosCount = protos.length;
+const aerocatsCount = aerocats.value.length;
+const landcatsCount = landcats.value.length;
+const protosCount = protos.value.length;
 
-let sweepAngle = $ref(0); // Current angle of the sweep in degrees
+const sweepAngle = ref(0); // Current angle of the sweep in degrees
 const sweepSpeed = 0.5; // Degrees per frame (adjust for speed)
 const detectionRange = 15; // Degrees: how wide the sweep detection "cone" is
 const lingerDuration = 1000; // Milliseconds: how long blips stay visible after being hit by sweep
@@ -68,8 +68,8 @@ const maxDistanceFromCenter = 45; // Maximum distance from center%
 const blipLifetime = 12000; // How long a blip lives before i take them out
 const fadeOutDuration = 2000; // How long fade-out takes
 
-let animationFrameId = $ref(null);
-let regenerationTimerId = $ref(null);
+const animationFrameId = ref(null);
+const regenerationTimerId = ref(null);
 
 const blips = reactive([]);
 
@@ -162,7 +162,7 @@ const animateRadar = () => {
     const currentTime = performance.now(); // Get current high-resolution time
 
     // Update sweep angle
-    sweepAngle = (sweepAngle + sweepSpeed) % 360;
+    sweepAngle.value = (sweepAngle.value + sweepSpeed) % 360;
 
     // Check for new intersections and update lastDetectedTime
     checkIntersections(currentTime);
@@ -184,14 +184,14 @@ const animateRadar = () => {
         }
     });
 
-    animationFrameId = requestAnimationFrame(animateRadar);
+    animationFrameId.value = requestAnimationFrame(animateRadar);
 };
 
 const checkIntersections = (currentTime) => {
     const radarCenterX = 50; // In percentage
     const radarCenterY = 50; // In percentage
 
-    let normalizedSweepAngle = (sweepAngle % 360 + 360) % 360;
+    let normalizedSweepAngle = (sweepAngle.value % 360 + 360) % 360;
 
     blips.forEach((blip) => {
         const blipRelX = blip.x - radarCenterX;
@@ -229,18 +229,18 @@ const checkIntersections = (currentTime) => {
 
 onMounted(() => {
     generateInitialBlips();
-    animationFrameId = requestAnimationFrame(animateRadar);
-    regenerationTimerId = setInterval(() => {
+    animationFrameId.value = requestAnimationFrame(animateRadar);
+    regenerationTimerId.value = setInterval(() => {
         generateRandomBlips();
     }, regenerationInterval);
 });
 
 onBeforeUnmount(() => {
-    if (animationFrameId) {
-        cancelAnimationFrame(animationFrameId);
+    if (animationFrameId.value) {
+        cancelAnimationFrame(animationFrameId.value);
     }
-    if (regenerationTimerId) {
-        clearInterval(regenerationTimerId);
+    if (regenerationTimerId.value) {
+        clearInterval(regenerationTimerId.value);
     }
 });
 </script>

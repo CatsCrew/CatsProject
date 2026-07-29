@@ -20,13 +20,14 @@
 <script setup lang="ts">
 import { TooltipOptions } from 'primevue/tooltip';
 import Drawer from 'primevue/drawer';
+import { computed, ref } from 'vue';
 
 const { tooltipText } = defineProps<{
     tooltipText?: string;
 }>();
 
-const isHandheldDevice = $computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
-let showTooltipModal = $ref(false);
+const isHandheldDevice = computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
+const showTooltipModal = ref(false);
 
 const tooltipConfig: TooltipOptions = {
     value: tooltipText,
@@ -35,8 +36,8 @@ const tooltipConfig: TooltipOptions = {
 };
 
 function onClick() {
-    if (isHandheldDevice) {
-        showTooltipModal = !showTooltipModal;
+    if (isHandheldDevice.value) {
+        showTooltipModal.value = !showTooltipModal.value;
     }
 }
 </script>

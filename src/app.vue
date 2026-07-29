@@ -61,18 +61,19 @@ import { useStorage } from '@vueuse/core';
 import Dialog from 'primevue/dialog';
 import Checkbox from 'primevue/checkbox';
 import { storeToRefs } from 'pinia';
+import { computed, ref } from 'vue';
 
 const router$ = useRouter();
 
 const cats$ = useCatsStore();
-const { isMobile } = $(storeToRefs(cats$));
+const { isMobile } = storeToRefs(cats$);
 cats$.initialize();
 
-let showNewVersionOverlay = $ref(false);
-let acceptedWarning = $(useStorage('accepted-warning', false));
-let showWarningModal = $ref(!acceptedWarning);
-let consented = $ref(false);
-let position = $computed(() => isMobile ? "bottom": null);
+const showNewVersionOverlay = ref(false);
+const acceptedWarning = useStorage('accepted-warning', false);
+const showWarningModal = ref(!acceptedWarning.value);
+const consented = ref(false);
+const position = computed(() => isMobile.value ? "bottom": undefined);
 
 router$.onError((error) => {
   const isChunkLoadError =
@@ -86,7 +87,7 @@ router$.onError((error) => {
         error.message.includes('Loading chunk failed')));
 
   if (isChunkLoadError) {
-    showNewVersionOverlay = true;
+    showNewVersionOverlay.value = true;
   }
 });
 
@@ -95,8 +96,8 @@ function reloadApp() {
 }
 
 function finishWarning() {
-  acceptedWarning = true;
-  showWarningModal = false;
+  acceptedWarning.value = true;
+  showWarningModal.value = false;
 }
 </script>
 

@@ -149,7 +149,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue';
+import { computed, onMounted } from 'vue';
 import Radar from '@/components/radar/radar.vue';
 import Card from '@/components/card/card.vue';
 import Aerocat from '@assets/images/aerocats_logo.png';
@@ -164,28 +164,28 @@ import MeterGroup, { MeterItem } from 'primevue/metergroup';
 import { gsap } from 'gsap';
 
 const cat$ = useCatsStore();
-const { cats, aerocats, landcats, protos, discordUrl } = $(storeToRefs(cat$));
+const { cats, aerocats, landcats, protos, discordUrl } = storeToRefs(cat$);
 
-const catMetergroupItems = $computed<MeterItem[]>(() => {
+const catMetergroupItems = computed<MeterItem[]>(() => {
     const meterItems: MeterItem[] = [];
 
-    const totalCats = cats?.length ?? 1;
+    const totalCats = cats.value?.length ?? 1;
 
     meterItems.push({
         label: 'Aerocats',
-        value: aerocats?.length / totalCats * 100,
+        value: aerocats.value?.length / totalCats * 100,
         color: '#00aaff'
     });
 
     meterItems.push({
         label: 'Landcats',
-        value: landcats?.length / totalCats * 100,
+        value: landcats.value?.length / totalCats * 100,
         color: '#00ff88'
     });
 
     meterItems.push({
         label: 'Protos',
-        value: protos?.length / totalCats * 100,
+        value: protos.value?.length / totalCats * 100,
         color: '#C0C0C0'
     });
 
@@ -194,7 +194,7 @@ const catMetergroupItems = $computed<MeterItem[]>(() => {
 
 onMounted(() => {
     gsap.to('.active-units', {
-        innerText: cats?.length,
+        innerText: cats.value?.length,
         duration: 2,
         ease: 'power1.out',
         snap: {

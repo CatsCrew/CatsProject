@@ -25,6 +25,7 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue';
 import faqJson from '@assets/faq.json';
 import Accordion from 'primevue/accordion';
 import AccordionPanel from 'primevue/accordionpanel';
@@ -33,5 +34,5 @@ import AccordionContent from 'primevue/accordioncontent';
 
 const faqItems = faqJson.faqs;
 
-const isEmpty = $computed(() => faqItems.length === 0);
+const isEmpty = computed(() => faqItems.length === 0);
 </script>

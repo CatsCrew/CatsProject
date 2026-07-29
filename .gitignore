@@ -1,5 +1,13 @@
 node_modules/
 .node_modules/
+
+# Local env files — hold secrets such as VITE_PRIMEVUE_LICENSE
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
 built/*
 tests/cases/rwc/*
 tests/cases/perf/*

@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, watch } from "vue";
+import { computed, onMounted, ref, watch } from "vue";
 import { Cat } from "@models/cat.model";
 import Dialog from "primevue/dialog";
 import GalleryCarousel from "../../../../components/gallery-carousel/gallery-carousel.vue";
@@ -43,21 +43,21 @@ const { cat } = defineProps<{
 const emit = defineEmits(['close']);
 
 const cats$ = useCatsStore();
-const { isMobile } = $(storeToRefs(cats$));
+const { isMobile } = storeToRefs(cats$);
 
-let visible = $ref(true);
-let images = $ref([]);
-let position = $computed(() => isMobile ? "bottom": null);
+const visible = ref(true);
+const images = ref<string[]>([]);
+const position = computed(() => isMobile.value ? "bottom": undefined);
 
 function toggleBodyLock() {
-  if (visible) {
+  if (visible.value) {
     document.body.classList?.add('modal-open');
   } else {
     document.body.classList?.remove('modal-open');
   }
 }
 
-watch(() => visible, () => {
+watch(visible, () => {
   toggleBodyLock();
   emit('close');
 });
@@ -74,6 +74,6 @@ onMounted(async () => {
     allImages.push(...cat.galleryUrls);
   }
 
-  images = allImages;
+  images.value = allImages;
 });
 </script>

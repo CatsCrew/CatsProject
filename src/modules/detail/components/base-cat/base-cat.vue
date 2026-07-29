@@ -95,9 +95,9 @@
                     </AccordionHeader>
                     <AccordionContent>
                         <div v-if="story.loaded">
-                            <p class="story-content">
-                                {{ story.content || 'No content available.' }}
-                            </p>
+                            <FormattedText
+                                class="story-content"
+                                :content="story.content || 'No content available.'" />
                         </div>
                         <div v-else>
                             <ProgressSpinner style="width: 50px; height: 50px" />
@@ -110,7 +110,7 @@
 </template>
 
 <script setup lang="ts">
-import { useTemplateRef } from 'vue';
+import { ref, useTemplateRef } from 'vue';
 import { Cat } from '@/models/cat.model';
 import Menu from 'primevue/menu';
 import { useToast } from "primevue/usetoast";
@@ -121,6 +121,7 @@ import AccordionPanel from 'primevue/accordionpanel';
 import AccordionHeader from 'primevue/accordionheader';
 import AccordionContent from 'primevue/accordioncontent';
 import ProgressSpinner from 'primevue/progressspinner';
+import FormattedText from '@/components/formatted-text/formatted-text.vue';
 
 const { cat, isMobile } = defineProps<{
     cat: Cat;
@@ -129,8 +130,8 @@ const { cat, isMobile } = defineProps<{
 
 const toast = useToast();
 
-const menu = $(useTemplateRef('menu'));
-const items = $ref([
+const menu = useTemplateRef('menu');
+const items = ref([
     {
         label: 'Options',
         items: [
@@ -151,16 +152,19 @@ const items = $ref([
         ]
     }
 ]);
-const activeValues = $ref([]); // Array because multiple is true
+
+const activeValues = ref<number[]>([]);
 
 const toggle = (event: Event) => {
-    menu.toggle(event);
+    menu.value?.toggle(event);
 };
 
-const onTabChange = async (values: number[]) => {
-    if (!values || !cat.stories) {
+const onTabChange = async (value: string | string[] | number[] | null | undefined) => {
+    if (!value || !cat.stories) {
         return;
     }
+
+    const values = (Array.isArray(value) ? value : [value]).map(Number);
 
     // Loop over every active index in the array
     for (const index of values) {

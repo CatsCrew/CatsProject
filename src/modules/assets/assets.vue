@@ -33,7 +33,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 import { CatType } from '@/models/cat-type.enum';
 import SelectButton from 'primevue/selectbutton';
 import { useCatsStore } from '@/store';
@@ -43,26 +43,26 @@ import Banner from '@/components/banner/banner.vue';
 import { BannerType } from '@/models/banner-type.enum';
 
 const cat$ = useCatsStore();
-const { assets } = $(storeToRefs(cat$));
+const { assets } = storeToRefs(cat$);
 
 const router$ = useRouter();
 const route$ = useRoute();
 
-const catOptions = $ref([CatType.Aerocat, CatType.Landcat, CatType.Proto]);
+const catOptions = ref([CatType.Aerocat, CatType.Landcat, CatType.Proto]);
 
-let catType = $ref(CatType.Aerocat);
-let assetImageUrls = $ref([]);
+const catType = ref(CatType.Aerocat);
+const assetImageUrls = ref<string[]>([]);
 
 function updateRouteQuery() {
     router$.replace({
         query: {
-            c: catType
+            c: catType.value
         }
     });
 }
 
 function onCatTypeSelected() {
-    assetImageUrls = assets[catType];
+    assetImageUrls.value = assets.value[catType.value];
     updateRouteQuery();
 }
 
@@ -71,9 +71,9 @@ onMounted(() => {
 
     const queryCat = route$.query.c;
     if (validCatTypes.includes(queryCat as CatType)) {
-        catType = queryCat as CatType;
+        catType.value = queryCat as CatType;
     }
 
-    assetImageUrls = assets[catType];
+    assetImageUrls.value = assets.value[catType.value];
 });
 </script>

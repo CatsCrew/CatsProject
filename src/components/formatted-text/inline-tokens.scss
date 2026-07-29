@@ -1,0 +1,39 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+// ZTGatha ships a single weight, so the browser has no heavier face to pick and
+// does not synthesise one. The stroke thickens the glyphs instead; drop it if a
+// bold ZTGatha file is ever added.
+.bold {
+  font-weight: 700;
+  -webkit-text-stroke: 0.5px currentColor;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.cat-link {
+  color: $terminal-blue;
+  text-decoration: none;
+  border-bottom: pxToRem(1) solid apply-opacity($terminal-blue, 0.4);
+
+  &:hover,
+  &:focus-visible {
+    color: $terminal-green;
+    border-bottom-color: $terminal-green;
+  }
+}
+
+.code {
+  font-family: $font-mono;
+  font-size: 0.9em;
+  padding: 0 pxToRem(4);
+  border-radius: pxToRem(4);
+  background: $background-accent;
+  color: $terminal-green;
+}

@@ -37,6 +37,7 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue';
 import { Option } from '@/models/option.model';
 import BaseCat from '../base-cat/base-cat.vue';
 import { Landcat } from '@/models/landcat.model';
@@ -48,7 +49,7 @@ const { cat, isMobile } = defineProps<{
     isMobile?: boolean;
 }>();
 
-const kpiItems = $computed(() => {
+const kpiItems = computed(() => {
     const kpis: Option[] = [];
 
     if (cat.crewmate) {

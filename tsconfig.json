@@ -18,12 +18,9 @@
     "verbatimModuleSyntax": false,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "downlevelIteration": true,
     "resolvePackageJsonImports": true,
-    "baseUrl": ".",
     "types": [
       "vue",
-      "@vue-macros/reactivity-transform/macros-global",
       "vite/client",
       "primevue"
     ],

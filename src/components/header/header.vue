@@ -122,7 +122,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 import CatsLogo from '@assets/images/cats_logo.png';
 import { RouteNames } from '../../app.routes';
 import Drawer from 'primevue/drawer';
@@ -135,9 +135,9 @@ import Typewriter from 'typewriter-effect/dist/core';
 import { vOnClickOutside } from '@vueuse/components'
 
 const cat$ = useCatsStore();
-const { isMobile } = $(storeToRefs(cat$));
+const { isMobile } = storeToRefs(cat$);
 
-let openDropdownId = $ref<number | null>(null);
+const openDropdownId = ref<number | null>(null);
 
 const statusMessages = [
   "systems online",
@@ -161,7 +161,7 @@ const characterMenuItems: MenuItem[] = [
   }
 ];
 
-const menuItems = $ref<MenuItem[]>([
+const menuItems = ref<MenuItem[]>([
   {
     id: 1,
     label: 'About',
@@ -189,34 +189,34 @@ const menuItems = $ref<MenuItem[]>([
   }
 ]);
 
-const mobileCharacterMenuItems = $ref<MenuItem[]>(characterMenuItems);
+const mobileCharacterMenuItems = ref<MenuItem[]>(characterMenuItems);
 
-let visible = $ref(false);
-let mobileMenuExpanded = $ref(false);
+const visible = ref(false);
+const mobileMenuExpanded = ref(false);
 
 function onDrawerClick() {
-  visible = true;
+  visible.value = true;
 }
 
 function onDrawerItemClicked() {
-  visible = false;
-  mobileMenuExpanded = false;
+  visible.value = false;
+  mobileMenuExpanded.value = false;
 }
 
 function toggleMobileMenu() {
-  mobileMenuExpanded = !mobileMenuExpanded;
+  mobileMenuExpanded.value = !mobileMenuExpanded.value;
 }
 
 function toggleDropdown(id: number) {
-  openDropdownId = openDropdownId === id ? null : id;
+  openDropdownId.value = openDropdownId.value === id ? null : id;
 }
 
 function closeDropdown(e: Event) {
   const element = e.target as HTMLElement;
-  if (element.dataset.dropdown === openDropdownId?.toString()) {
+  if (element.dataset.dropdown === openDropdownId.value?.toString()) {
     return;
   }
-  openDropdownId = null;
+  openDropdownId.value = null;
 }
 
 onMounted(() => {

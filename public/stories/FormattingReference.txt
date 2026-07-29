@@ -1,0 +1,74 @@
+# MISSION LOG 04 - FORMATTING REFERENCE
+
+## Every marker, in one file
+
+### Level three headings are smaller and greyed
+
+This is a plain paragraph. It renders exactly the way an unformatted .txt file
+always has, including this line break, because single newlines are preserved.
+
+A blank line above starts a new paragraph block.
+
+Inline markers: **bold text**, __also bold__, *italic text*, _also italic_,
+~~struck through~~, and `inline code`.
+
+They nest: **bold with *italic* inside**, and *italic with `code` inside*.
+
+Nothing is parsed inside code, so `**this stays literal**` shows the asterisks.
+
+Cat links: [[Bolt the Raptor]] links by full name, [[Bolt]] works too when the
+short name is unambiguous, and [[CDC the Kobra|that Kobra pilot]] shows your own
+wording instead. A name that matches no cat, like [[Nobody At All]], is left as
+plain text. Links can be formatted: **[[Dmitri the Felon]]**.
+
+When an aerocat and a landcat share a name, put the type in front of it:
+[[aerocat:Bolt]] and [[landcat:Bolt]] point at different cats. The type also
+combines with a label: [[aerocat:Bolt|the one with wings]]. Without a type, a
+name matching more than one cat stays plain text instead of guessing.
+
+When two cats of the same type share a name, no type can tell them apart, so
+link by id - the code at the end of that cat's page URL:
+[[id:CzU80J6Euf]] shows the cat's own name, and [[id:6NG0TtaYYQ|the other one]]
+uses your wording.
+
+> This is a quote block. It uses a different font from body text.
+> Consecutive lines starting with > merge into one quote.
+> Markers still work inside quotes: **bold**, *italic*, ~~struck~~, `code`.
+
+A quote does not have to be multiple lines:
+
+> Single line quote.
+
+---
+
+The line above is a divider. So is this one, written with underscores:
+
+___
+
+Things that deliberately do NOT format:
+
+Maths stays literal: 3 * 4 * 5 = 60, and snake_case_words_like_this are safe,
+because a marker must sit against a non-space character on both sides.
+
+Escapes: \*not italic\*, \*\*not bold\*\*, \`not code\`, \# not a heading.
+Escape every character of a marker - one backslash only escapes one character.
+
+An unclosed **marker stays literal, since there is no closing pair.
+
+# Formatting quick reference
+
+| Write                    | Get              |
+| `**bold**`               | bold             |
+| `*italic*`               | italic           |
+| `~~struck~~`             | strikethrough    |
+| backtick code backtick   | monospace chip   |
+| `[[Cat Name]]`           | link to that cat |
+| `[[Cat Name|label]]`     | link, own wording|
+| `[[aerocat:Name]]`       | link, one species|
+| `[[id:xxxx]]`            | link, exactly one|
+| `> line`                 | quote block      |
+| `#` `##` `###`           | headings         |
+| `---`                    | divider          |
+
+That table is just plain text lines - there is no table support, it is only here
+to show that pipes and other punctuation pass through untouched.

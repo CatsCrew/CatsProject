@@ -53,48 +53,48 @@ import Tag from 'primevue/tag';
 const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/empty-state.vue'));
 
 const cats$ = useCatsStore();
-const { protos, searchTerms, pageRecord } = $(storeToRefs(cats$));
+const { protos, searchTerms, pageRecord } = storeToRefs(cats$);
 
 const isHandheldDevice = computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
 const PAGE_SIZE = 24;
-const searchTerm = $computed(() => searchTerms[CatType.Proto]);
+const searchTerm = computed(() => searchTerms.value[CatType.Proto]);
 
-const placeholderCat = $computed<Cat>(() => ({
+const placeholderCat = computed<Cat>(() => ({
     model: `Your Proto here!`,
     thumbnail: ProtoPlaceholder
 }));
 
-const filteredCats = $computed(() => {
-    if (!searchTerm) {
-        return protos;
+const filteredCats = computed(() => {
+    if (!searchTerm.value) {
+        return protos.value;
     }
 
-    const formattedSearchTerm = searchTerm.toLowerCase().trim();
+    const formattedSearchTerm = searchTerm.value.toLowerCase().trim();
 
-    return protos.filter((cat) => 
+    return protos.value.filter((cat) =>
         cat?.name?.toLowerCase()?.includes(formattedSearchTerm) ||
         cat?.model?.toLowerCase()?.includes(formattedSearchTerm) || 
         cat?.creator?.name?.toLowerCase()?.includes(formattedSearchTerm)
     );
 });
 
-const pagedCats = computed(() => filteredCats.slice(0, pageRecord[CatType.Proto] * PAGE_SIZE));
-const searchResultsEmpty = computed(() => filteredCats.length === 0 && searchTerm?.length > 0);
+const pagedCats = computed(() => filteredCats.value.slice(0, pageRecord.value[CatType.Proto] * PAGE_SIZE));
+const searchResultsEmpty = computed(() => filteredCats.value.length === 0 && searchTerm.value?.length > 0);
 
 function onScroll() {
   const scrollHeight = document.documentElement.scrollHeight;
   const scrollTop = document.documentElement.scrollTop;
   const clientHeight = document.documentElement.clientHeight;
-  const maxPage = Math.max(1, Math.ceil(filteredCats.length / PAGE_SIZE));
+  const maxPage = Math.max(1, Math.ceil(filteredCats.value.length / PAGE_SIZE));
 
     // Check if the user has scrolled near the bottom (e.g., within 200px)
-    if (scrollTop + clientHeight >= scrollHeight - 200 && pageRecord[CatType.Proto] < maxPage) {
-        pageRecord[CatType.Proto]++;
+    if (scrollTop + clientHeight >= scrollHeight - 200 && pageRecord.value[CatType.Proto] < maxPage) {
+        pageRecord.value[CatType.Proto]++;
     }
 }
 
-watch(() => searchTerm, () => {
-    pageRecord[CatType.Proto] = 1;
+watch(searchTerm, () => {
+    pageRecord.value[CatType.Proto] = 1;
 });
 
 onMounted(() => {

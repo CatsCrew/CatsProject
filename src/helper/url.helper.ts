@@ -20,6 +20,12 @@ export class UrlHelper {
     }
 
     static buildStoryPath(type: CatType, fileName: string): string {
+        // A leading slash means the story ships with the site (public/), so it works
+        // without CloudFront. Everything else is a CloudFront character path.
+        if (fileName.startsWith('/')) {
+            return fileName;
+        }
+
         return `${this.buildCharacterPath(type, fileName)}`;
     }
 

@@ -1,0 +1,48 @@
+@use "@assets/mixins.scss" as *;
+@use "@assets/variables.scss" as *;
+
+.formatted-text {
+  display: flex;
+  flex-direction: column;
+  gap: pxToRem(12);
+
+  .paragraph {
+    margin: 0;
+    white-space: pre-line;
+  }
+
+  .quote {
+    margin: 0;
+    padding: pxToRem(8) pxToRem(16);
+    white-space: pre-line;
+    font-family: $font-quote;
+    font-style: italic;
+    color: $text-secondary;
+    border-left: pxToRem(3) solid $terminal-silver;
+    background: apply-opacity($background-accent, 0.4);
+    border-radius: 0 pxToRem(6) pxToRem(6) 0;
+  }
+
+  .block-heading {
+    &.level-1 {
+      font-size: pxToRem(20);
+    }
+
+    &.level-2 {
+      font-size: pxToRem(18);
+    }
+
+    &.level-3 {
+      font-size: pxToRem(16);
+      color: $text-secondary;
+    }
+  }
+
+  .divider {
+    width: 100%;
+    height: pxToRem(1);
+    margin: pxToRem(4) 0;
+    border: none;
+    background: $divider;
+  }
+}

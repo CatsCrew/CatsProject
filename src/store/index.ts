@@ -53,6 +53,24 @@ export const useCatsStore = defineStore('cats', {
     },
     catById(state: CatsState) {
       return (id: string) => state.cats.find(c => c.id === id);
+    },
+    catByName(state: CatsState) {
+      return (name: string, type?: CatType) => {
+        const query = name.trim().toLocaleLowerCase();
+        if (!query) {
+          return undefined;
+        }
+
+        const pool = type ? state.cats.filter(c => c.type === type) : state.cats;
+
+        const exact = pool.filter(c => c.name?.toLocaleLowerCase() === query);
+        if (exact.length) {
+          return exact.length === 1 ? exact[0] : undefined;
+        }
+
+        const prefixed = pool.filter(c => c.name?.toLocaleLowerCase().startsWith(query));
+        return prefixed.length === 1 ? prefixed[0] : undefined;
+      };
     }
   },
   actions: {

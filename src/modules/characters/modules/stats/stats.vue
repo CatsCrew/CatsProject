@@ -131,7 +131,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount, nextTick } from 'vue';
+import { onMounted, onBeforeUnmount, nextTick, ref } from 'vue';
 import type { ChartOptions, TooltipItem } from 'chart.js';
 import type { Aerocat } from '@/models/aerocat.model';
 import type { Landcat } from '@/models/landcat.model';
@@ -148,10 +148,10 @@ import { gsap } from 'gsap';
 import { extractSets } from 'chartjs-chart-venn';
 
 const cats$ = useCatsStore();
-const { cats, aerocats, landcats, protos } = $(storeToRefs(cats$));
+const { cats, aerocats, landcats, protos } = storeToRefs(cats$);
 
-let loggedIn = $ref(false);
-let showStats = $ref(false);
+const loggedIn = ref(false);
+const showStats = ref(false);
 
 function commandHandler(text: string) {
     let response = "";
@@ -162,19 +162,19 @@ function commandHandler(text: string) {
         case 'login':
             if (text.substring(argsIndex + 1).trim().toLowerCase() === 'dr.presto') {
                 response = 'Welcome Dr. Presto...';
-                loggedIn = true;
+                loggedIn.value = true;
             } else {
                 response = 'Login denied...';
             }
-            
+
             break;
         case 'stats':
-            if (!loggedIn) {
+            if (!loggedIn.value) {
                 response = 'You must login to see stats!';
                 break;
             }
             response = 'Showing all data for C.A.T.S...';
-            showStats = true;
+            showStats.value = true;
             nextTick(() => {
                 loadStats();
             }) 
@@ -213,7 +213,7 @@ const events = [
 
 function loadStats() {
     gsap.to('.cats-count', {
-        innerText: cats?.length,
+        innerText: cats.value?.length,
         duration: 2,
         ease: 'power1.out',
         snap: {
@@ -222,7 +222,7 @@ function loadStats() {
     });
 
     gsap.to('.aerocats-count', {
-        innerText: aerocats?.length,
+        innerText: aerocats.value?.length,
         duration: 2,
         ease: 'power1.out',
         snap: {
@@ -231,7 +231,7 @@ function loadStats() {
     });
 
     gsap.to('.landcats-count', {
-        innerText: landcats?.length,
+        innerText: landcats.value?.length,
         duration: 2,
         ease: 'power1.out',
         snap: {
@@ -240,7 +240,7 @@ function loadStats() {
     });
 
     gsap.to('.protos-count', {
-        innerText: protos?.length,
+        innerText: protos.value?.length,
         duration: 2,
         ease: 'power1.out',
         snap: {
@@ -250,9 +250,9 @@ function loadStats() {
 }
 
 function loadCompositionVenndiagramData() {
-    const aerocatCreators = new Set(aerocats.map(a => a.creator?.name ?? 'Unknown'));
-    const landcatCreators = new Set(landcats.map(a => a.creator?.name ?? 'Unknown'));
-    const protosCreators = new Set(protos.map(a => a.creator?.name ?? 'Unknown'));
+    const aerocatCreators = new Set(aerocats.value.map(a => a.creator?.name ?? 'Unknown'));
+    const landcatCreators = new Set(landcats.value.map(a => a.creator?.name ?? 'Unknown'));
+    const protosCreators = new Set(protos.value.map(a => a.creator?.name ?? 'Unknown'));
 
     return extractSets(
         [
@@ -269,7 +269,7 @@ function loadCompositionVenndiagramData() {
 function loadCatsPerPersonData() {
     // Count cats per person
     const ownerCounts: Record<string, number> = {};
-    cats.forEach(cat => {
+    cats.value.forEach(cat => {
         const ownerName = cat.creator?.name ?? 'Unknown';
         ownerCounts[ownerName] = (ownerCounts[ownerName] || 0) + 1;
     });
@@ -307,13 +307,13 @@ function loadAerocatOptionalFieldFillRate() {
     const typedFields = fields as (keyof Aerocat)[];
 
     const fillRates = typedFields.map(field => {
-        if (!aerocats.length) return 0;
-        const filled = aerocats.filter(a => {
+        if (!aerocats.value.length) return 0;
+        const filled = aerocats.value.filter(a => {
             const val = a[field];
             if (Array.isArray(val)) return val.length > 0;
             return val !== undefined && val !== null && val !== '';
         }).length;
-        return (filled / aerocats.length) * 100;
+        return (filled / aerocats.value.length) * 100;
     });
 
     return {
@@ -340,13 +340,13 @@ function loadLandcatOptionalFieldFillRate() {
     const typedFields = fields as (keyof Landcat)[];
 
     const fillRates = typedFields.map(field => {
-        if (!landcats.length) return 0;
-        const filled = landcats.filter(a => {
+        if (!landcats.value.length) return 0;
+        const filled = landcats.value.filter(a => {
             const val = a[field];
             if (Array.isArray(val)) return val.length > 0;
             return val !== undefined && val !== null && val !== '';
         }).length;
-        return (filled / landcats.length) * 100;
+        return (filled / landcats.value.length) * 100;
     });
 
     return {
@@ -372,13 +372,13 @@ function loadProtoOptionalFieldFillRate() {
     const typedFields = fields as (keyof Proto)[];
 
     const fillRates = typedFields.map(field => {
-        if (!protos.length) return 0;
-        const filled = protos.filter(a => {
+        if (!protos.value.length) return 0;
+        const filled = protos.value.filter(a => {
             const val = a[field];
             if (Array.isArray(val)) return val.length > 0;
             return val !== undefined && val !== null && val !== '';
         }).length;
-        return (filled / protos.length) * 100;
+        return (filled / protos.value.length) * 100;
     });
 
     return {
@@ -394,11 +394,11 @@ function loadProtoOptionalFieldFillRate() {
 }
 
 function loadOutdatedPercentageChartData() {
-    const aerocatTotal = aerocats?.length || 0;
-    const landcatTotal = landcats?.length || 0;
+    const aerocatTotal = aerocats.value?.length || 0;
+    const landcatTotal = landcats.value?.length || 0;
 
-    const aerocatOutdated = aerocatTotal > 0 ? (aerocats.filter(a => a.outdated === true).length / aerocatTotal) * 100 : 0;
-    const landcatOutdated = landcatTotal > 0 ? (landcats.filter(a => a.outdated === true).length / landcatTotal) * 100 : 0;
+    const aerocatOutdated = aerocatTotal > 0 ? (aerocats.value.filter(a => a.outdated === true).length / aerocatTotal) * 100 : 0;
+    const landcatOutdated = landcatTotal > 0 ? (landcats.value.filter(a => a.outdated === true).length / landcatTotal) * 100 : 0;
 
     return {
         labels: ['Aerocats', 'Landcats'],

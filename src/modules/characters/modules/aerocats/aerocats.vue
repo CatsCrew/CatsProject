@@ -51,7 +51,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineAsyncComponent, watch, onMounted, onUnmounted } from 'vue';
+import { computed, defineAsyncComponent, watch, onMounted, onUnmounted } from 'vue';
 import IconField from 'primevue/iconfield';
 import InputIcon from 'primevue/inputicon';
 import InputText from 'primevue/inputtext';
@@ -71,31 +71,31 @@ const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/e
 const Tooltip = defineAsyncComponent(() => import('@/components/tooltip/tooltip.vue'));
 
 const cats$ = useCatsStore();
-const { aerocats, searchTerms, pageRecord } = $(storeToRefs(cats$));
+const { aerocats, searchTerms, pageRecord } = storeToRefs(cats$);
 
-const isHandheldDevice = $computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
+const isHandheldDevice = computed(() => "ontouchstart" in window || navigator.maxTouchPoints > 0);
 const PAGE_SIZE = 24;
-const searchTerm = $computed(() => searchTerms[CatType.Aerocat]);
+const searchTerm = computed(() => searchTerms.value[CatType.Aerocat]);
 
 const tooltipText = 'This character was made under the old registration standards, and may not reflect our current rules.';
 
-const placeholderCat = $computed<Cat>(() => ({
+const placeholderCat = computed<Cat>(() => ({
     model: `Your Aerocat here!`,
     thumbnail: AerocatPlaceholder
 }));
 
-const filteredCats = $computed<FilteredCat[]>(() => {
-    if (!searchTerm) {
-        return aerocats.map(cat => {
+const filteredCats = computed<FilteredCat[]>(() => {
+    if (!searchTerm.value) {
+        return aerocats.value.map(cat => {
             return {
                 cat
             } as FilteredCat;
         });
     }
 
-    const formattedSearchTerm = searchTerm.toLowerCase().trim();
+    const formattedSearchTerm = searchTerm.value.toLowerCase().trim();
 
-    return aerocats.map(cat => {
+    return aerocats.value.map(cat => {
         let matchType = MatchType.Unknown;
         if (cat?.name?.toLowerCase()?.includes(formattedSearchTerm)) {
             matchType = MatchType.Name;
@@ -114,23 +114,23 @@ const filteredCats = $computed<FilteredCat[]>(() => {
     }).filter(filtered => filtered.matchType !== MatchType.Unknown);
 });
 
-const pagedCats = $computed(() => filteredCats.slice(0, pageRecord[CatType.Aerocat] * PAGE_SIZE));
-const searchResultsEmpty = $computed(() => filteredCats.length === 0 && searchTerm?.length > 0);
+const pagedCats = computed(() => filteredCats.value.slice(0, pageRecord.value[CatType.Aerocat] * PAGE_SIZE));
+const searchResultsEmpty = computed(() => filteredCats.value.length === 0 && searchTerm.value?.length > 0);
 
 function onScroll() {
   const scrollHeight = document.documentElement.scrollHeight;
   const scrollTop = document.documentElement.scrollTop;
   const clientHeight = document.documentElement.clientHeight;
-  const maxPage = Math.max(1, Math.ceil(filteredCats.length / PAGE_SIZE));
+  const maxPage = Math.max(1, Math.ceil(filteredCats.value.length / PAGE_SIZE));
 
     // Check if the user has scrolled near the bottom (e.g., within 200px)
-    if (scrollTop + clientHeight >= scrollHeight - 200 && pageRecord[CatType.Aerocat] < maxPage) {
-        pageRecord[CatType.Aerocat]++;
+    if (scrollTop + clientHeight >= scrollHeight - 200 && pageRecord.value[CatType.Aerocat] < maxPage) {
+        pageRecord.value[CatType.Aerocat]++;
     }
 }
 
-watch(() => searchTerm, () => {
-    pageRecord[CatType.Aerocat] = 1;
+watch(searchTerm, () => {
+    pageRecord.value[CatType.Aerocat] = 1;
 });
 
 onMounted(() => {

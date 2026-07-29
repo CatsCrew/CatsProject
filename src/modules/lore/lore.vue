@@ -44,5 +44,5 @@ import { storeToRefs } from 'pinia';
 import Card from '@/components/card/card.vue';
 
 const cats$ = useCatsStore();
-const { loreDocuments } = $(storeToRefs(cats$));
+const { loreDocuments } = storeToRefs(cats$);
 </script>

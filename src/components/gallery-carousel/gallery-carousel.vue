@@ -2,7 +2,7 @@
 
 <template>
   <div class="embla">
-    <div class="embla__viewport" ref="emblaRef">
+    <div class="embla__viewport" :ref="(el) => emblaRef = el as HTMLElement">
       <div class="embla__container">
         <div v-for="image, index in images" :key="image" class="embla__slide">
             <Skeleton
@@ -58,7 +58,7 @@
 
 <script setup lang="ts">
 import emblaCarouselVue from "embla-carousel-vue";
-import { onMounted, onUnmounted, useTemplateRef, defineAsyncComponent } from "vue";
+import { onMounted, onUnmounted, ref, useTemplateRef, defineAsyncComponent } from "vue";
 import DeferredContent from 'primevue/deferredcontent';
 import Skeleton from 'primevue/skeleton';
 
@@ -69,91 +69,91 @@ const { images } = defineProps<{
 }>();
 const imgs = images ?? [];
 
-const imageLoadingStates = $ref([]);
+const imageLoadingStates = ref<boolean[]>([]);
 
-const [emblaRef, emblaApi] = $(emblaCarouselVue());
-const dotNodes = $(useTemplateRef('dotNodes'));
+const [emblaRef, emblaApi] = emblaCarouselVue();
+const dotNodes = useTemplateRef('dotNodes');
 
-let canScrollPrev = $ref(false);
-let canScrollNext = $ref(false);
-let selectedImage = $ref('');
+const canScrollPrev = ref(false);
+const canScrollNext = ref(false);
+const selectedImage = ref('');
 
 function scrollNext() {
-  emblaApi?.scrollNext();
+  emblaApi.value?.scrollNext();
 }
 
 function scrollPrev() {
-  emblaApi?.scrollPrev();
+  emblaApi.value?.scrollPrev();
 }
 
 function updateButtonVisibility() {
-  if (emblaApi) {
-    canScrollPrev = emblaApi.canScrollPrev();
-    canScrollNext = emblaApi.canScrollNext();
+  if (emblaApi.value) {
+    canScrollPrev.value = emblaApi.value.canScrollPrev();
+    canScrollNext.value = emblaApi.value.canScrollNext();
   }
 }
 
 function setupKeyEvents(event: KeyboardEvent) {
-    if (!emblaApi) 
+    if (!emblaApi.value)
         return;
     switch (event.code) {
       case "ArrowLeft":
-          emblaApi.scrollPrev();
+          emblaApi.value.scrollPrev();
           break;
       case "ArrowRight":
-          emblaApi.scrollNext();
+          emblaApi.value.scrollNext();
           break;
     }
 }
 
 function dotClicked(index: number) {
-  emblaApi?.scrollTo(index);
+  emblaApi.value?.scrollTo(index);
 }
 
 function toggleDotBtnsActive() {
-  if (!emblaApi || !dotNodes) return;
-  const previous = emblaApi.previousScrollSnap();
-  const selected = emblaApi.selectedScrollSnap();
+  if (!emblaApi.value || !dotNodes.value) return;
+  const previous = emblaApi.value.previousScrollSnap();
+  const selected = emblaApi.value.selectedScrollSnap();
   if (previous == null || selected == null) return;
-  const prevNode = dotNodes[previous] as Element | undefined;
-  const selNode = dotNodes[selected] as Element | undefined;
+  const prevNode = dotNodes.value[previous] as Element | undefined;
+  const selNode = dotNodes.value[selected] as Element | undefined;
   prevNode?.classList.remove('embla__dot--selected');
   selNode?.classList.add('embla__dot--selected');
 }
 
 function onImageLoaded(index: number) {
-  imageLoadingStates[index] = false;
+  imageLoadingStates.value[index] = false;
 }
 
 function onImageClicked(image: string) {
-  selectedImage = image;
+  selectedImage.value = image;
 }
 
 function onViewerClosed() {
-    selectedImage = '';
+    selectedImage.value = '';
 }
 
 onMounted(() => {
   imgs.forEach((_, index) => {
-    imageLoadingStates[index] = true;
+    imageLoadingStates.value[index] = true;
   });
 
   document.addEventListener("keyup", setupKeyEvents);
   updateButtonVisibility();
 
-  if (emblaApi) {
-    emblaApi
+  if (emblaApi.value) {
+    emblaApi.value
       .on('select', updateButtonVisibility)
       .on('init', toggleDotBtnsActive)
       .on('reInit', toggleDotBtnsActive)
       .on('select', toggleDotBtnsActive);
 
-    emblaApi.reInit();
+    emblaApi.value.reInit();
   }
 });
 
 onUnmounted(() => {
-    emblaApi?.destroy();
+    emblaApi.value?.destroy();
     document.removeEventListener("keyup", setupKeyEvents);
 });
 </script>
