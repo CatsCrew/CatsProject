@@ -11,8 +11,6 @@ import './main.scss';
 import 'primeicons/primeicons.css';
 import 'viewerjs/dist/viewer.css';
 import ToastService from 'primevue/toastservice';
-import { Chart as ChartJS } from 'chart.js';
-import { VennDiagramController, ArcSlice } from 'chartjs-chart-venn';
 import Tooltip from 'primevue/tooltip';
 import './extensions';
 
@@ -26,11 +24,6 @@ const router = createRouter({
       return { top: 0, left: 0 };
     }
 });
-
-ChartJS.register(VennDiagramController, ArcSlice);
-ChartJS.defaults.color = "#a0a8b0";
-ChartJS.defaults.borderColor = "rgba(255, 255, 255, 0.08)";
-ChartJS.defaults.font.family = "'SFMono-Regular', Menlo, ui-monospace, monospace";
 
 const pinia = createPinia();
 

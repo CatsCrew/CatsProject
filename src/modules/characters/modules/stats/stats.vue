@@ -75,9 +75,9 @@
                     <div class="cats-ownership-charts"> 
                         <Card>
                             <template #content>
-                                <Chart 
+                                <Chart
                                     type="venn"
-                                    :data="loadCompositionVenndiagramData()">
+                                    :data="compositionVenndiagramData">
                                 </Chart>
                             </template>
                         </Card>
@@ -85,7 +85,7 @@
                             <template #content>
                                 <Chart
                                     type="bar"
-                                    :data="loadCatsPerPersonData()">
+                                    :data="catsPerPersonData">
                                 </Chart>
                             </template>
                         </Card>
@@ -93,7 +93,7 @@
                             <template #content>
                                 <Chart
                                     type="bar"
-                                    :data="loadOutdatedPercentageChartData()"
+                                    :data="outdatedPercentageChartData"
                                     :options="outdatedChartOptions">
                                 </Chart>
                             </template>
@@ -107,19 +107,19 @@
                     <div class="fill-rate-charts-content">
                         <Card>
                             <template #content>
-                                <Chart type="bar" :data="loadAerocatOptionalFieldFillRate()">
+                                <Chart type="bar" :data="aerocatOptionalFieldFillRate">
                                 </Chart>
                             </template>
                         </Card>
                         <Card>
                             <template #content>
-                                <Chart type="bar" :data="loadLandcatOptionalFieldFillRate()">
+                                <Chart type="bar" :data="landcatOptionalFieldFillRate">
                                 </Chart>
                             </template>
                         </Card>
                         <Card>
                             <template #content>
-                                <Chart type="bar" :data="loadProtoOptionalFieldFillRate()">
+                                <Chart type="bar" :data="protoOptionalFieldFillRate">
                                 </Chart>
                             </template>
                         </Card>
@@ -131,12 +131,12 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount, nextTick, ref } from 'vue';
-import type { ChartOptions, TooltipItem } from 'chart.js';
+import { computed, onMounted, onBeforeUnmount, nextTick, ref } from 'vue';
+import { Chart as ChartJS, type ChartOptions, type TooltipItem } from 'chart.js';
+import { VennDiagramController, ArcSlice, extractSets } from 'chartjs-chart-venn';
 import type { Aerocat } from '@/models/aerocat.model';
 import type { Landcat } from '@/models/landcat.model';
 import type { Proto } from '@/models/proto.model';
-import type { Cat } from '@/models/cat.model';
 import Terminal from 'primevue/terminal';
 import TerminalService from 'primevue/terminalservice';
 import Card from '@/components/card/card.vue';
@@ -145,7 +145,11 @@ import Timeline from 'primevue/timeline';
 import { useCatsStore } from '@/store';
 import { storeToRefs } from 'pinia';
 import { gsap } from 'gsap';
-import { extractSets } from 'chartjs-chart-venn';
+
+ChartJS.register(VennDiagramController, ArcSlice);
+ChartJS.defaults.color = "#a0a8b0";
+ChartJS.defaults.borderColor = "rgba(255, 255, 255, 0.08)";
+ChartJS.defaults.font.family = "'SFMono-Regular', Menlo, ui-monospace, monospace";
 
 const cats$ = useCatsStore();
 const { cats, aerocats, landcats, protos } = storeToRefs(cats$);
@@ -249,7 +253,7 @@ function loadStats() {
     });
 }
 
-function loadCompositionVenndiagramData() {
+const compositionVenndiagramData = computed(() => {
     const aerocatCreators = new Set(aerocats.value.map(a => a.creator?.name ?? 'Unknown'));
     const landcatCreators = new Set(landcats.value.map(a => a.creator?.name ?? 'Unknown'));
     const protosCreators = new Set(protos.value.map(a => a.creator?.name ?? 'Unknown'));
@@ -264,9 +268,9 @@ function loadCompositionVenndiagramData() {
             label: 'Ownership Overlap of CAT Types',
         }
     );
-}
+});
 
-function loadCatsPerPersonData() {
+const catsPerPersonData = computed(() => {
     // Count cats per person
     const ownerCounts: Record<string, number> = {};
     cats.value.forEach(cat => {
@@ -293,9 +297,9 @@ function loadCatsPerPersonData() {
             }
         ]
     };
-}
+});
 
-function loadAerocatOptionalFieldFillRate() {
+const aerocatOptionalFieldFillRate = computed(() => {
     const fields = [
         'copilot',
         'faction',
@@ -326,9 +330,9 @@ function loadAerocatOptionalFieldFillRate() {
             }
         ]
     };
-}
+});
 
-function loadLandcatOptionalFieldFillRate() {
+const landcatOptionalFieldFillRate = computed(() => {
     const fields = [
         'crewmate',
         'faction',
@@ -359,9 +363,9 @@ function loadLandcatOptionalFieldFillRate() {
             }
         ]
     };
-}
+});
 
-function loadProtoOptionalFieldFillRate() {
+const protoOptionalFieldFillRate = computed(() => {
     const fields = [
         'faction',
         'description',
@@ -391,9 +395,9 @@ function loadProtoOptionalFieldFillRate() {
             }
         ]
     };
-}
+});
 
-function loadOutdatedPercentageChartData() {
+const outdatedPercentageChartData = computed(() => {
     const aerocatTotal = aerocats.value?.length || 0;
     const landcatTotal = landcats.value?.length || 0;
 
@@ -410,7 +414,7 @@ function loadOutdatedPercentageChartData() {
             }
         ]
     };
-}
+});
 
 const outdatedChartOptions: ChartOptions<'bar'> = {
     scales: {

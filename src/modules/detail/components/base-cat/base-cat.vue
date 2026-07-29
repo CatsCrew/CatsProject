@@ -183,8 +183,6 @@ const onTabChange = async (value: string | string[] | number[] | null | undefine
                 story.loaded = true;
             } catch (error) {
                 story.content = "Error loading story content.";
-            } finally {
-                story.loaded = true;
             }
         }
     }

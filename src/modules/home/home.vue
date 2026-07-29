@@ -38,7 +38,8 @@
                                     <ol class="markers">
                                         <li
                                             class="marker-label"
-                                            v-for="meterItem in value">
+                                            v-for="meterItem in value"
+                                            :key="meterItem.label">
                                             <span class="marker" :style="{ 'background-color': meterItem.color }"></span>
                                             <span>{{ meterItem.label }}</span>
                                         </li>

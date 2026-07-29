@@ -122,7 +122,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
 import CatsLogo from '@assets/images/cats_logo.png';
 import { RouteNames } from '../../app.routes';
 import Drawer from 'primevue/drawer';
@@ -219,12 +219,19 @@ function closeDropdown(e: Event) {
   openDropdownId.value = null;
 }
 
+let typewriter: InstanceType<typeof Typewriter> | null = null;
+
 onMounted(() => {
-  new Typewriter('#typewriter', {
+  typewriter = new Typewriter('#typewriter', {
     strings: statusMessages,
     autoStart: true,
     loop: true,
   });
+});
+
+onUnmounted(() => {
+  typewriter?.stop();
+  typewriter = null;
 });
 </script>
  

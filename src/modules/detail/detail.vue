@@ -61,12 +61,12 @@ const router$ = useRouter();
 
 const cat = computed(() => id ? catById.value(id) : undefined);
 const componentToRender = computed(() => {
-    const c = id ? catById.value(id) : undefined;
+    const c = cat.value;
     if (!c || c.type == null) return null;
     return components[c.type];
 });
 const images = computed(() => {
-    const c = id ? catById.value(id) : undefined;
+    const c = cat.value;
     let allImages: string[] = [];
     const refUrls: string[] = c?.referenceUrls ?? [];
     const galUrls: string[] = c?.galleryUrls ?? [];
