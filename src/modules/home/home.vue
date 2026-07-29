@@ -195,7 +195,8 @@ const catMetergroupItems = computed<MeterItem[]>(() => {
     return meterItems;
 });
 
-onMounted(() => {
+onMounted(async () => {
+    await cat$.initialize();
     gsap.to('.active-units', {
         innerText: cats.value?.length,
         duration: 2,
