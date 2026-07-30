@@ -158,7 +158,7 @@ import Card from '@/components/card/card.vue';
 import Aerocat from '@assets/images/aerocats_logo.avif';
 import Landcat from '@assets/images/landcats_logo.avif';
 import Proto from '@assets/images/proto_logo.avif';
-import { RouteNames } from '@/app.routes';
+import { RouteNames } from '@/route-names';
 import Banner from '@/components/banner/banner.vue';
 import { BannerType } from '@/models/banner-type.enum';
 import { useCatsStore } from '@/store';

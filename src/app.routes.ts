@@ -2,22 +2,9 @@ import { RouteRecordRaw } from "vue-router";
 import { useCatsStore } from '@/store';
 import { RouteLocationNormalized } from 'vue-router';
 import Home from './modules/home/home.vue';
+import { RouteNames } from './route-names';
 
-export enum RouteNames {
-    Home = 'home',
-    About = 'about',
-    SpeciesSheet = 'species-sheet',
-    Assets = 'assets',
-    Characters = 'characters',
-    Character = 'character',
-    Aerocats = 'aerocats',
-    Landcats = 'landcats',
-    Protos = 'protos',
-    Lore = 'lore',
-    FAQ = 'faq',
-    Stats = 'stats',
-    Error = 'error'
-}
+export { RouteNames };
 
 const RoutePathNames = {
     [RouteNames.Home]: '/',
