@@ -5688,6 +5688,29 @@
         "Hawthorn the Harrier/R2.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Nicksnake",
+      "name": "Chase the JSX-2",
+      "model": "SubSonex JSX-2",
+      "description": "Chase has a spunky happy-go-lucky personality, always eager and energetic to take on any task needed related to his job, often naive or wilfully ignorant to the true gravity of what the task may require, as well as not always being conscious of just how small his size is.\n\nOn his spare time he enjoys making aerobatic performances and maneuvers to impress the personnel of his airfield station and anyone else who may be visiting.\n\nBeing stationed in a remote airfield often gets boring with little to do outside of patrols, so he is always happy to meet someone new paying his airfield a visit, equally as exciting for him is to be sent away to help in other distant places if the call is made for backup firewatch elsewhere, exploring and visiting new places is always a surprise he welcomes.",
+      "copilot": "N/A",
+      "faction": "N/A",
+      "weight": 231,
+      "height": 4.8,
+      "galleryImagePaths": [
+        "Chase the JSX-2/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Chase the JSX-2/R1.png"
+      ],
+      "stories": [
+      { 
+        "title": "chases's history",
+        "path": "Chase the JSX-2/stories/Chase's History.txt"
+      }
+      ],
+      "outdated": false
     }
   ]
 }
