@@ -1191,6 +1191,18 @@
         {
             "name": "Shell",
             "profileImage": "Shell.png"
+        },
+        {
+            "name": "Nicksnake",
+            "profileImage": "Nicksnake.png"
+        },
+        {
+            "name": "Pipi",
+            "profileImage": "Pipi.jpg"
+        },
+        {
+            "name": "FurPing",
+            "profileImage": "FurPing.png"
         }
     ]
 }
