@@ -609,7 +609,9 @@
       "weight": 5262,
       "height": 9.83,
       "galleryImagePaths": [
-        "Mustang the Mustang/T.png"
+        "Mustang the Mustang/T.png",
+        "Mustang the Mustang/1.png",
+        "Mustang the Mustang/2.png"
       ],
       "referenceSheetsPath": [
         "Mustang the Mustang/R1.jpg"
@@ -624,7 +626,10 @@
       "weight": 23859,
       "height": 17.47,
       "galleryImagePaths": [
-        "Brigade the Osprey/T.png"
+        "Brigade the Osprey/T.png",
+        "Brigade the Osprey/1.png",
+        "Brigade the Osprey/2.png",
+        "Brigade the Osprey/3.png"
       ],
       "referenceSheetsPath": [
         "Brigade the Osprey/R1.jpg"
