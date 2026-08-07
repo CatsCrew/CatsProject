@@ -578,7 +578,7 @@
             "description": "Wylo was a Proto indie graffiti artist, later hired as a painter for Field Medic, an organization that offers quick on-field services and repairs. Due to a 'personal favoured highly efficient setup' and ultilization of color-mixing based on CMYK theory, small to medium paintjobs are viable, mostly for repainting faction logos or country patches for quick identification.",
             "copilot": "N/A",
             "faction": "Field Medic",
-            "height": 165,
+            "height": 1.65,
             "weight": 75,
             "galleryImagePaths": [
                 "Wylo the Proto 2.0/T.png"
@@ -614,7 +614,7 @@
             "description": "Nite is one amongst 4 other units that has a sole purpose to 'collect and store data' respectively from each of the other 5 of ███████ [ C.A.T. Pending ], and when there is nothing to test about, the Nites would wander around the facility and offer a helping hand corresponding to their Sectors, though they will be redirected to the hangar once they are in need for testing with ███████ to collect their data.",
             "copilot": "N/A",
             "faction": "KRYPTOS",
-            "height": 150,
+            "height": 1.5,
             "weight": 50.5,
             "galleryImagePaths": [
                 "Nite the Proto 2.0/T.png"
@@ -632,7 +632,7 @@
             "description": "Kant is an experimental proto, designed for covert operations. For this purpose, he was given a tail, enabling him to overcome obstacles and silently eliminate opponents. This proto has completed dozens of missions, from information theft to assassination. Among his fellow protos, he is more friendly and willing to interact with PROTOs and CATS. But over the course of his service, he has become more tolerant of violence and cold, revealing his softer side only at base and occasionally bantering with other teammates on missions.",
             "copilot": "N/A",
             "faction": "Wing 38",
-            "height": 160,
+            "height": 1.6,
             "weight": 80,
             "galleryImagePaths": [
                 "Kant the Proto 2.0/T.png"
