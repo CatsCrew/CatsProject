@@ -1203,6 +1203,10 @@
         {
             "name": "FurPing",
             "profileImage": "FurPing.png"
+        },
+        {
+            "name": "waffychan",
+            "profileImage": "waffychan.png"
         }
     ]
 }

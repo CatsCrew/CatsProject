@@ -2498,6 +2498,24 @@
         "Herbie the Beetle/R1.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "imafloppnow",
+      "name": "Reinhard the Super heavy tank",
+      "model": "T-28 Super heavy tank",
+      "description": "Mr Tank It All how they call him, basically the tank of tanks, hes a bit slow and sluggish but his 'tankiness' compensates this flaw. His armor/plating can clip on and off, he usually does it when hes off duty because who would wanna wear such heavy weights all the time, right? Hes timid and silly coded... Though when not seen he is a completely different person on the field. Recorded to singlehandedly killing an entire group of Insurgents with his bare hands. Basically two sided personality, all silly and scaredy cat like and serious and brutal on the field when NOT observed by others.\n\nThat aside is very caring and will ignore commands to rush into fire to rescue a very injured comrade, be it a LANDCAT, AEROCAT, Proto or even organic team members.\nWill stand his ground till the end, even if his plating is destroyed or his shield.\nOh yeah forgot to mention his equipment, an anti-tank plated shield that he carries around to protect others and built in cannon in his right arm, 105mm T5E1 Main Gun, a ball shaped mantlet and a muzzle break. Trust me you do not wanna have that thing up your face whether you are a CAT or an organic. Has a friend/ally of sorts, m142 HIMARS is like his... Pocket Sniper",
+      "crewmate": "Bitzy (B1TZ)",
+      "faction": "N/A",
+      "weight":83461,
+      "height":9.14,
+      "galleryImagePaths": [
+        "Reinhard the Super heavy tank/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Reinhard the Super heavy tank/R1.jpg",
+        "Reinhard the Super heavy tank/R2.jpg"
+      ],
+      "outdated": false
     }
   ]
 }

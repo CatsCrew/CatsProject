@@ -643,6 +643,24 @@
                 "Kant the Proto 2.0/R2.png"
                 
             ]
+        },
+        {
+            "creator": "waffychan",
+            "name": "Rivet the Proto 2.0",
+            "model": "2.0",
+            "description": "• Rivet is a lab assistant for ███████, where he works mostly in the chemicals area working on researching and creating new, old and foreign solids, liquids and anything in between.\n• Rivet is sometimes a rebel, but never anything too rebellious other than put stickers over is body and have a potty mouth. In his private time he like to also dress up when no one is looking.",
+            "copilot": "N/A",
+            "faction": "[REDACTED]",
+            "height": 1.6,
+            "weight": 65,
+            "galleryImagePaths": [
+                "Rivet the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Rivet the Proto 2.0/R1.png"
+                
+            ]
         }
     ]
 }
