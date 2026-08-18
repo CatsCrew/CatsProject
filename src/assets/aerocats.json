@@ -5716,6 +5716,23 @@
       }
       ],
       "outdated": false
+    },
+    {
+      "creator": "Cyanthefox",
+      "name": "Vixen the Stratotanker",
+      "model": "KC-135 Stratotanker",
+      "description": "Serving the USAF since 1963, he was originally delivered as a KC-135A before somewhere between 1980s to early 1990s he was converted to a KC-135R. In 1992, he fortunately survived a mid-air collision with a B-1B Lancer bomber. He managed to land safely along with his co-pilot Kitfox, although he had to undergo extensive structural reconstruction in February 1993 using donor parts from a retired EC-135G before returning service after in that year.\n\nHe has slight traumas from his incidents, but he still continues to move on and continue with his job to refuel fellow aerocats. Quite social too, he loves hanging out while helping others to refuel. He may be an oldie, but he has a very youthful personality.",
+      "copilot": "Kitfox",
+      "faction": "U.S.A.F.E (United States Airforce Europe) Air Mobility Command",
+      "weight": 146300,
+      "height": 41.53,
+      "galleryImagePaths": [
+        "Vixen the Stratotanker/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Vixen the Stratotanker/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
