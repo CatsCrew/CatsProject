@@ -26,7 +26,8 @@
         "patriot_panther/13.png",
         "patriot_panther/14.png",
         "patriot_panther/15.png",
-        "patriot_panther/16.png"
+        "patriot_panther/16.png",
+        "patriot_panther/17.png"
       ],
       "referenceSheetsPath": [
         "patriot_panther/R1.png",
@@ -127,7 +128,8 @@
         "Lancer the Lancer/5.png",
         "Lancer the Lancer/6.png",
         "Lancer the Lancer/7.png",
-        "Lancer the Lancer/8.png"
+        "Lancer the Lancer/8.png",
+        "Lancer the Lancer/9.png"
       ],
       "referenceSheetsPath": [
         "Lancer the Lancer/R1.png",
@@ -149,7 +151,8 @@
         "Hopekins the Nighthawk/1.png",
         "Hopekins the Nighthawk/2.png",
         "Hopekins the Nighthawk/3.png",
-        "Hopekins the Nighthawk/4.png"
+        "Hopekins the Nighthawk/4.png",
+        "Hopekins the Nighthawk/5.png"
       ],
       "outdated": true
     },
@@ -185,7 +188,12 @@
         "Howl the Horten/2.png",
         "Howl the Horten/3.png",
         "Howl the Horten/4.png",
-        "Howl the Horten/5.png"
+        "Howl the Horten/5.jpg",
+        "Howl the Horten/6.jpg"
+      ],
+      "referenceSheetsPath": [
+        "Howl the Horten/R1.png",
+        "Howl the Horten/R2.png"
       ],
       "outdated": false
     },
@@ -5370,6 +5378,29 @@
       ],
       "referenceSheetsPath": [
         "Gryf the Gripen/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Sage",
+      "name": "Valk the Sea Gripen",
+      "model": "JAS-39E Gripen",
+      "description": "Valk can be friendly but more often than not is arrogant and quite rude, seeing himself as superior to just about anyone. The loss of his family put hate in his heart; he would take joy in the suffering of any rebel he can find. Valk, while not damaged, can sometimes be seen limping due to the rushed and less than ideal state during the upload, it rarely has anything to do with actual physical damage. His ego and self image are inflated by his status as royalty if that is not obvious.",
+      "copilot": "N/A",
+      "faction": "Kingdom of Norrland | Royalist Exiles",
+      "weight": 8000,
+      "height": 15.2,
+      "galleryImagePaths": [
+        "Valk the Sea Gripen/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Valk the Sea Gripen/R1.png"
+      ],
+      "stories": [
+      { 
+        "title": "valk's lore",
+        "path": "Valk the Sea Gripen/stories/valk's lore.txt"
+      }
       ],
       "outdated": false
     },
