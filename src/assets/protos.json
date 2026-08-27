@@ -293,7 +293,7 @@
             "name": "Cobalt the Proto 2.0",
             "model": "2.0",
             "description": "Aquatic maintenance and survey prototype for machines or C.A.T.S units. When a pipe bursts, or a C.A.T.S unit makes an emergency aquatic landing, this unit is up to the task of locating and repairing anything out in the depths of the sea. ",
-            "faction": "Unknown",
+            "faction": "D.E.P.T.H.S",
             "equipment": [
                 {
                     "name": "Toolbox",
