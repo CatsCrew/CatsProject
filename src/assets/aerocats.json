@@ -5770,6 +5770,29 @@
         "Vixen the Stratotanker/R1.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Borabacji",
+      "name": "Rayo the Thunder jet",
+      "model": "F-84G Thunder Jet",
+      "description": "Personality\nTrue to their canine nature, they are lovable, extremely friendly and a bit of a goofball. If he have a task to do, he always get the job done cleanly. Even though he is a clumsy one, however, they turn deadly serious when carrying out operations and their core duties.\nInstruction Manual: Do not use the word 'mission' when assigning them regular tasks.\n\nPhysical Specs\nWings: Detachable, non-folding.\nWing Tips: Serve as fuel tanks; fuel feedlines connect automatically upon attachment (or may require manual assistance).\nArmor Plates : Features a dedicated carapace based on the F-84G profile, but made of modern, flexible materials. Deployed strictly during emergencies.\nHands and feet can be swapped out for paw-pad attachments.\nPDG : Heavyweight Type",
+      "copilot": "Bora",
+      "faction": "ROKAF (Republic of Korea Air Force)",
+      "weight": 15000,
+      "height": 3.1,
+      "galleryImagePaths": [
+        "Vixen the Stratotanker/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Vixen the Stratotanker/R1.jpg"
+      ],
+      "stories": [
+      { 
+        "title": "short stories",
+        "path": "Rayo the Thunder jet/stories/story.txt"
+      }
+      ],
+      "outdated": false
     }
   ]
 }

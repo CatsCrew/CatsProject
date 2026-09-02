@@ -661,6 +661,24 @@
                 "Rivet the Proto 2.0/R1.png"
                 
             ]
+        },
+        {
+            "creator": "Vix",
+            "name": "Torus the Proto 2.0",
+            "model": "2.0",
+            "description": "Torus is a ground service PROTO designed to handle a multitude of tasks involving the support of CATS Units on aerodrome grounds. Responsibilities may include but are not limited to marshalling, air traffic control, operations of heavy equipment such as refuelling trucks, munitions loaders and other Ground Support Equipment.\n\nTheir Head Mounted Device houses a camera suite and identification system connected to either its own low power "lop ear" radar for short range identification and communication or an external unit for longer ranges to assist with ground and air coordination. Additional beacon-lights are mounted along with the HMD to alert CATS units to their presence if the reflective bands on their arms and legs are not sufficient.\n\nTorus is only aligned with their manufacturing faction - PARSEC which remains a mysterious, but benign and neutral entity for everyone. As such, they are contracted to various airfields operated by different factions, and you may see multiple of them (plurally referred as Tori) in one aerodrome for more intensive or coordinated tasks as outlined in their contract. PARSEC maintains that the Tori are disconnected from any politics within the aerodrome's operating faction, and will continue to work per instruction as long as the contract provisions is still upheld. Upon termination or expiry of contract they will return to PARSEC for reassignment. If the needs arise, they can act as method to reach out to PARSEC for inquiries, but any further detailed negotiations or resolutions with PARSEC will be handled by a dispatched higher ranking envoy. ",
+            "copilot": "N/A",
+            "faction": "PARSEC",
+            "height": 160,
+            "weight": 65,
+            "galleryImagePaths": [
+                "Torus the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Torus the Proto 2.0/R1.png"
+                
+            ]
         }
     ]
 }
