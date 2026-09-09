@@ -2518,6 +2518,23 @@
         "Reinhard the Super heavy tank/R2.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Cpt.Skyburner",
+      "name": "Signas the Humvee",
+      "model": "M1025A2 HMMWV CV Humvee",
+      "description": " Signas' purpose is simple: communication at all times. Whether it's being attached to an outpost, supporting a squadron, or just supplying internet. The large 'backpack' on his back  - when deployed - rests on his tail and can connect to most standard DRASH tents or stand alone. An external power source such as a generator is then connected to reduce wear on himself. While the CPP is deployed: his main body is to remain seated - often for days or weeks at a time. So to allow him to continue doing his job: the CPP has a spare Proto body he can connect to in the meantime. This is in addition to his Proto companion - who also stays in the CPP.\n\nDue to the semi-autonomous nature of his job: Signas is most busy at the beginning and ending of any given mission or exercise. First in, last out setting up or tearing down network infrastructure, performing tests, etc. But once things are set up: he's often left with a lot of free time outside of briefings or idle cleaning. So it's not uncommon for he and his companion to be goofing off playing video games, watching videos, or lazing about. Sometimes this gets him some ire from more moody soldiers. But as he always says: 'You can talk crap about us, but you can't talk without us.'",
+      "crewmate": "Coax",
+      "faction": "N/A",
+      "weight":2070,
+      "height":4.85,
+      "galleryImagePaths": [
+        "Signas the Humvee/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Signas the Humvee/R1.png"
+      ],
+      "outdated": false
     }
   ]
 }
