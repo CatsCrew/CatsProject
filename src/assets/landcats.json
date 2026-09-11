@@ -1629,10 +1629,11 @@
       "weight":14500,
       "height":7.7,
       "galleryImagePaths": [
-        "Tavor the M-ATV/T.png"
+        "Komarek the 59034/T.png"
       ],
       "referenceSheetsPath": [
-        "Tavor the M-ATV/R1.png"
+        "Komarek the 59034/R1.png",
+        "Komarek the 59034/R2.png"
       ],
       "outdated": true
     },
