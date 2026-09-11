@@ -10,7 +10,7 @@
       "weight": 1640,
       "height": 2.8,
       "galleryImagePaths": [
-        "patriot_panther/T.png",
+        "patriot_panther/T.jpg",
         "patriot_panther/1.png",
         "patriot_panther/2.png",
         "patriot_panther/3.png",
@@ -5791,6 +5791,27 @@
         "title": "short stories",
         "path": "Rayo the Thunder jet/stories/story.txt"
       }
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Feliciano",
+      "name": "Caproni the Caproni Ca.3",
+      "model": "Caproni Ca.3 trimotor bomber",
+      "description": "Following his deployment in mid 1915, Caproni was a bomber that saw combat against Austro-Hungarian forces during the battles of Isonzo, now called the Soča River. Today, he is mostly used for reconnaissance services and doesn’t see a lot of combat following the 21st century, but has a well preserved gun: Feliciano. For context, it is basically one of his most prized possessions. The gun itself is a small handheld variant of the Italian Fiat-Revelli machine gun chambered in 6.5 mm. On the side can be mounted a 100 round belt fed magazine. He is often mistaken for having two engines as the one on his back is often secluded, but in combat, it was switched out for a small turbo jet as an extra boost during takeoff, which to other units and crew looks pretty weird since you have a bomber with two propeller engines and a jet. His visor is inspired of that worn by Italian aviators during the mid and final stages of World War I.",
+      "copilot": "N/A",
+      "faction": "The Italian Corpo Aeronautico Militare",
+      "weight": 2300,
+      "height": 5.6,
+      "galleryImagePaths": [
+        "Caproni the Caproni Ca.3/T.png",
+        "Caproni the Caproni Ca.3/1.jpg"
+      ],
+      "referenceSheetsPath": [
+        "Caproni the Caproni Ca.3/R1.jpg",
+        "Caproni the Caproni Ca.3/R2.jpg",
+        "Caproni the Caproni Ca.3/R3.jpg",
+        "Caproni the Caproni Ca.3/R4.jpg"
       ],
       "outdated": false
     }
