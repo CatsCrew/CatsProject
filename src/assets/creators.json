@@ -1219,6 +1219,10 @@
         {
             "name": "Proton",
             "profileImage": "Proton.png"
+        },
+        {
+            "name": "Feliciano",
+            "profileImage": "Feliciano.png"
         }
     ]
 }

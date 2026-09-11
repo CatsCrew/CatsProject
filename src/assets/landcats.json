@@ -1595,6 +1595,8 @@
       "creator": "Whisk",
       "name": "Natasha the T-90A",
       "model": "T-90A Vladimir",
+      "faction":"N/A",
+      "crewmate":"N/A",
       "galleryImagePaths": [
         "Natasha the T-90A/T.png"
       ],
@@ -1607,6 +1609,25 @@
       "creator": "Whisk",
       "name": "Tavor the M-ATV",
       "model": "MRAP All-Terrain Vehicle",
+      "faction":"N/A",
+      "crewmate":"N/A",
+      "galleryImagePaths": [
+        "Tavor the M-ATV/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Tavor the M-ATV/R1.png"
+      ],
+      "outdated": true
+    },
+    {
+      "creator": "Whisk",
+      "name": "Komarek the 59034",
+      "model": "BTR-80A",
+      "description": "Komareks purpose is to Transport Ground forces safely whilst also providing Covering fire with the Turret that is mounted on the gun. which fires 30MM rounds. She has 2 wheels on each leg that she can deploy if needed to traverse the area faster instead of walking..\n\nKomarek has quite an excited personality to say the least. and she also has quite the ego. often Boasting about herself whenever she can. mainly when shes alone. around others her mood significantly changes to a more friendly one. but also quite firm.\n\nwhen off duty shes often quite lazy. preferring to nap for hours on end.",
+      "faction":"N/A",
+      "crewmate":"N/A",
+      "weight":14500,
+      "height":7.7,
       "galleryImagePaths": [
         "Tavor the M-ATV/T.png"
       ],
@@ -2468,6 +2489,23 @@
       "outdated": false
     },
     {
+      "creator": "Martes",
+      "name": "SVÄNG the Stridsfordon",
+      "model": "CV9040",
+      "description": "Far in the north of Sweden, SVÄNG is stationed at the Norrbotten Regiment, serving as a core asset in arctic combined-arms operations and infantry support. He is armed with his handheld 40mm Bofors L/70 automatic cannon and 7.62mm machine gun installed in his right arm. Built for harsh weather and deep-snow environment, he is suitable for missions across the arctic while coordinating closely with infantry and other CATS.\n\nAs his name suggests, he is a fan of music, especially house and jazz(check out berlioz! - Sväng). He usually loves hiking through the woods and sleeping under the night sky. Despite his heavy weight, he enjoys cross-country skiing when snowfall becomes too deep for normal traverse. He is the few rare svensk who would approach strangers to have some small talk. He frequently visits Norrbotten Wing as well, making friends with AEROCATS he wouldn't usually encounter.\n\nHis CREW-MATE is KOMPIS-19, an AI designed for flexible combat support on operations. It assists all units within the Norrbotten Regiment(I-19), but is mainly focused on CATS as their CREW-MATE. It is a bit relaxed than most of the combat focused AIs, but it helps with the harsh climate and long polar nights.",
+      "crewmate": "KOMPIS-19(Kapabel Operativ Militär Processor för Intelligent Stöd)",
+      "faction": "NORRBOTTENS REGEMENTE",
+      "weight":2200,
+      "height":3.6,
+      "galleryImagePaths": [
+        "SVÄNG the Stridsfordon/T.png"
+      ],
+      "referenceSheetsPath": [
+        "SVÄNG the Stridsfordon/R1.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "paidy",
       "name": "Cobra the CV90120",
       "model": "CV90120",
@@ -2533,6 +2571,23 @@
       ],
       "referenceSheetsPath": [
         "Signas the Humvee/R1.png"
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Socks",
+      "name": "Clairvoyance the Zippos",
+      "model": "M67 flamethrower tank",
+      "description": "Designed for infantry engagements, Clairvoyance specializes in cover removal by use of her flamethrower. Flamethrower is made particularly distinguishable by a distinct stovetop clicking noise on ignition.\n\nClairvoyance is commonly referred to as 'Clair' by maintenance personnel, and is reasonably responsive to idle conversation.",
+      "crewmate": "N/A",
+      "faction": "N/A",
+      "weight":48000,
+      "height":7,
+      "galleryImagePaths": [
+        "Clairvoyance the Zippos/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Clairvoyance the Zippos/R1.png"
       ],
       "outdated": false
     }
