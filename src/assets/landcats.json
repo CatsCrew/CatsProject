@@ -2294,6 +2294,29 @@
       "outdated": false
     },
     {
+      "creator": "Nirune",
+      "name": "Wilson the Carry",
+      "model": "Suzuki Carry 1994",
+      "description":"",
+      "crewmate": "Jack (human, he helps him to design his tail, and some modifications in his body).",
+      "faction": "Unknown",
+      "weight": 600,
+      "height": 2,
+      "galleryImagePaths": [
+        "Wilson the Carry/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Wilson the Carry/R1.png"
+      ],
+      "stories": [
+      { 
+        "title": "willson's story",
+        "path": "Wilson the Carry/stories/WILLSON_MEDIC_LANDCAT_Suzuki_Carry_EN.txt"
+      }
+      ],
+      "outdated": false
+    },
+    {
       "creator": "BlueBear",
       "name": "Leer the Boxer",
       "model": "Boxer CRV",

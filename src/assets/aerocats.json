@@ -5814,6 +5814,30 @@
         "Caproni the Caproni Ca.3/R4.jpg"
       ],
       "outdated": false
+    },
+    {
+      "creator": "Lucaflowe",
+      "name": "Elli the Eagle II",
+      "model": "F-15 EX Eagle II",
+      "description": "",
+      "copilot": "N/A",
+      "faction": "CESD (CATS Employment and Sanctuary Division) Canada Branch (deployed via accepted and approved contracts)",
+      "weight": 14103,
+      "height": 8.5,
+      "galleryImagePaths": [
+        "Elli the Eagle II/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Elli the Eagle II/R1.png",
+        "Elli the Eagle II/R2.png"
+      ],
+      "stories": [
+      { 
+        "title": "Elli's info",
+        "path": "Elli the Eagle II/stories/Elli's info.txt"
+      }
+      ],
+      "outdated": false
     }
   ]
 }
