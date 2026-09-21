@@ -5838,6 +5838,24 @@
       }
       ],
       "outdated": false
+    },
+    {
+      "creator": "Vexy_Does_Art",
+      "name": "Skye the Skywarrior",
+      "model": "Douglas A-3 Skywarrior",
+      "description": "A early revolutionary idea that was in progress during ISEA's collapse, finished by the USNRL (United States Naval Research Laboratory) post collapse after the CIA forwarded recovered documents for the plan from the scramble for ISEA's WILDCATS documentation from hundreds of militaries, the plan was to have a multirole carrier based strategic aerial CATS, with the intention of possible downsizing of the WILDCATS in naval carrier service, due to the inherent logistical problems with the overseas maintenance of such units.\n\nThe project chose the revolutionary A-3 SKYWARRIOR for this position due to its role as a multirole carrier based aircraft serving in electronic warfare, strategic aerial nuclear deterance, and as a fleet tanker for long range missions. ISEA's problem that was delaying the design was the absence of a proper solution to make the whole equipment suite modular, detachable, and quick changeable.\n\nthe USNRL fixed this problem with the development of the very unique Q.S.E.C. Equipment Suite or AN/CSQ-(1)A 'SEC NULL/CARGO' AN/CSQ-(1)B 'SEC BOMBER' AN/CSQ-(1)C 'SEC CAMERA' and AN/CSQ-(1)D 'SEC FUELTANK' (parenthesis on the 1 removed in finished version, Q.S.E.C. stands for Quickswap Special Equipment Capsule), which fixed the problem ISEA had, it is removable, replacable, and reliable, being loaded while the unit is laying down and the clamps are open, via a crane, or other lifting device.\n\nThe addition of the Q.S.E.C. adds the ability for SKYE units to relatively quickly swap between equipment suites depending on missions, and as a result leads to a high level of versatility. ",
+      "copilot": "VIX",
+      "faction": "US NAVY",
+      "weight": 18000,
+      "height": 18.30,
+      "galleryImagePaths": [
+        "Skye the Skywarrior/T.png"
+      ],
+      "referenceSheetsPath": [
+        "Skye the Skywarrior/R1.png",
+        "Skye the Skywarrior/R2.png"
+      ],
+      "outdated": false
     }
   ]
 }
