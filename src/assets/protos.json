@@ -679,6 +679,24 @@
                 "Torus the Proto 2.0/R1.png"
                 
             ]
+        },
+        {
+            "creator": "Crimefeline",
+            "name": "Eryn the Proto 2.0",
+            "model": "2.0",
+            "description": "A rather busy unit who spends most of her day running around picking up tasks whenever they may be. Officially assigned to Cooper, she'll quite often be found elsewhere while he's out in the sky.\n\nShe also seems to have a lot of control over a certain JETO-sponsored Unit...",
+            "copilot": "N/A",
+            "faction": "Unknown",
+            "height": 160,
+            "weight": 64,
+            "galleryImagePaths": [
+                "Eryn the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Eryn the Proto 2.0/R1.png"
+                
+            ]
         }
     ]
 }
