@@ -4324,17 +4324,24 @@
       "creator": "bezitank",
       "name": "Kuba the Fulcrum",
       "model": "MIG-29 Fulcrum",
+      "description": "Kuba is a shy, jovial, brave and unskilled cat. Built for combat and very agile fighter. He works for the military. As a multirole machine, he can run all kinds of missions having wide range of arsenal and equipment that hes compatible with.\n\nAs intimidating and a threatening may be to his opponents, his positive friendly energy vibes deteriorates his combat ability not performing as good in combat. He misses a lot with his autocannon, his precision with bombing, rocketing is sometimes inaccurate. Despite all of the flaws, he still succeeds in most of the missions just not as efficient as other aerocats. The only reason he hasn't been replaced from his job is his high survivability rate. His ability to out maneuver opponents, dodge missiles, always comes back to the base camp unharmed and untouched after a successful mission has proven his worthy. The only downside is the excessive amount of resources he uses like the autocannon ammo or how the jeto thirsty his engines are.\n\nIn his history of flying, he has been defeated once from unauthorized crossing border into enemy territory by accident and got shot down from an anti-aircraft-gun cat. He survived the crash landing and got rescued. His body just needed some repairing and he was good to go.",
+      "copilot": "N/A",
+      "faction": "Poland",
+      "weight": 2200,
+      "height": 3.5,
       "galleryImagePaths": [
-        "Kuba the Fulcrum/0.png",
+        "Kuba the Fulcrum/T.png",
         "Kuba the Fulcrum/1.png",
         "Kuba the Fulcrum/2.png",
         "Kuba the Fulcrum/3.png",
-        "Kuba the Fulcrum/4.png"
+        "Kuba the Fulcrum/4.png",
+        "Kuba the Fulcrum/5.png",
+        "Kuba the Fulcrum/6.png",
+        "Kuba the Fulcrum/7.png",
+        "Kuba the Fulcrum/8.png"
       ],
       "referenceSheetsPath": [
-        "Kuba the Fulcrum/R1.png",
-        "Kuba the Fulcrum/R2.png",
-        "Kuba the Fulcrum/R3.png"
+        "Kuba the Fulcrum/R1.png"
       ],
       "outdated": true
     },
