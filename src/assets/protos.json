@@ -697,6 +697,60 @@
                 "Eryn the Proto 2.0/R1.png"
                 
             ]
+        },
+        {
+            "creator": "Jupiter",
+            "name": "Vex the Proto P",
+            "model": "1.0 Type P",
+            "description": " Vex has been around for a long time and has quite the personality, he doesn't care for friendship or anything else and mainly focuses on paperwork and doing maintenance on his assigned CATS Navi, this comes from his past in the earlier days of his lifetime, being thrown into a war with a barebones training on maintenance he would watch his friends and assigned CATS die over and over in the brutal war, once it was finally over he stopped caring about making friends or putting emotions towards things he deems unworthy which is about everything. After seeking out and going through training for a long time he'd be ready to find a job, eventually landing in with Wing 38 and being modifed to further enchance his maintenance skills and work on their CATS\n\nTools and gadgets: A ballistic visor rated in 9mm which helps him preform maintenance while offering small amounts of protection. His ears have a laser pointer and flashlight attached to them to help see in low light areas along with point things out. A modified Defibrillator has been put inside his arms to help bring CATS units back to life his body has been modified to hold more battery's so he doesn't use up his main power. Backpack with hardpoints to connect to his back, it has multiple slots and hot swapping capabilities to allow quick and easy utility changing ranging from more batteries to welding tools and weapons.",
+            "copilot": "N/A",
+            "faction": "Wing 38",
+            "height": 152.4,
+            "weight": 68,
+            "galleryImagePaths": [
+                "Vex the Proto P/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Vex the Proto P/R1.png"
+                
+            ]
+        },
+        {
+            "creator": "Herbie",
+            "name": "Star the Proto 2.0",
+            "model": "2.0",
+            "description": "STAR was created as a maintenance proto. He was supposed to work night shifts at airbases, servicing aircraft. In reality, the rare night sorties at the bases he visited made him feel like he wasn't cut out for it. Because he wasn't needed at night, he developed a hobby: stargazing and drawing. Although he was a poor drawer because his claws were sharp and his paws weren't designed for drawing. He was often distracted by other night workers. His visor was constantly on, displaying a muted night sky. The stars on his visor slowly blinked in three different colors and moved across the free portion of the visor. Unlike the stars on his ears, they didn't even glow, just painted on. He also tried to find other hobbies, constantly shifting from topic to topic.",
+            "copilot": "N/A",
+            "faction": "Unknown",
+            "height": 160,
+            "weight": 70,
+            "galleryImagePaths": [
+                "Star the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Star the Proto 2.0/R1.jpg"
+                
+            ]
+        },
+        {
+            "creator": "Jagdtiger844",
+            "name": "Frank the Proto P",
+            "model": "1.0 Type P",
+            "description": "A near stock model Proto, his only distinguishing features are attachment points on his ears, and his sharp, snark tone. Having a history in less than ideal circumstances, Frank developed into a savant in working with scrap and obsolete tech, often making it compete with Flagship Offerings from the best companies out there. Headhunted by Phoenix Labs cause of his reputation, he leads all C.A.T.S production/repair solo, only allowing himself to operate within his Operating Theatre and rarely interacting with his co-workers. Respecting only the Founder of the company, his efficacy in material and cost efficient engineering spearheaded Phoenix Lab's reputation as a Cheap Custom C.A.T.S supplier, as well as lengthening its order queue length, both in customers and wait times.",
+            "copilot": "N/A",
+            "faction": "Phoenix Labs",
+            "height": 150,
+            "weight": 50,
+            "galleryImagePaths": [
+                "Frank the Proto P/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Frank the Proto P/R1.png"
+                
+            ]
         }
     ]
 }
