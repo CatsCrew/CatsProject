@@ -5673,9 +5673,9 @@
       "creator": "mleczarz",
       "name": "Izybor the Iryda",
       "model": "PZL I-22 Iryda",
-      "description": "History:\nLittle is known about the initial purpose of this unit aside from the fact that it trained other CATS for various combat scenarios. In **, the unit was declared MIA. After several years, it reappeared as an independent aircraft with a completely new personality and extensively upgraded design. Izybor has numerous connections across airports worldwide, allowing him to obtain repairs and places to rest. While most mercenaries operate for benefit or a cause, he prefers to trust his instincts and find enjoyment in all his work, regardless of its nature... Although he relishes aerial battles the most, treating them almost like a sport.\n\nTechnical:\nIt remains unclear who altered Izybor and what specific technology was employed. The main modifications from the original model include reduced weight, rapid adaptation of its AI core to the surrounding environment, AESA radar, RAM coating, and enhanced weapon accuracy and power. The unit refuses to undergo inspections by anyone in that field, despite many technicians attempting to do so.\n\nPersonality:\nAside from the complete secrecy surrounding his origins, which he keeps to himself, Izybor embodies a multitude of vices and a general disregard for both opponents and allies. Even with his inflated ego and an almost concerning passion for combat, he is still capable of empathy and genuine care for others. He declines contracts that would harm innocents or cause actual chaos in the world. Outside of missions, he is bratty and lazy, a CAT supposedly 'without a care in the world,' often spending his time flirting with other units and repairing his nearly always damaged hull.",
+      "description": "Technical Specifications Upgraded with high-thrust FADEC turbofans and a Fly-By-Wire neural network, Izybor seamlessly simulates 5th-gen combat jet performance, handling, and maneuverability.\n\nPersonality Despite his reputation as the harshest instructor in existence, Izybor isn't purely ruthless—he genuinely wants trainees to succeed. Still, his regimen is brutal: punishing drills, zero tolerance for whining, and a razor-sharp tongue backed by a massive ego and immense charisma. Off-duty, his hard edge softens into an optimistic unit who hangs out with trainees like buddies. Driven by a constant need for growth, he spends free time socializing, meditating, or focusing on self-improvement. Inactivity is his enemy—he simply cannot sit still, except during his secretive 1-on-1 training sessions, where he finally seems fully relaxed~",
       "copilot": "VELES",
-      "faction": "Ex-Polish Airforce now Independent/Mercenary ",
+      "faction": "Polish Air and Air Defense Forces",
       "weight": 1500,
       "height": 13,
       "galleryImagePaths": [
@@ -5683,6 +5683,12 @@
       ],
       "referenceSheetsPath": [
         "Izybor the Iryda/R1.png"
+      ],
+      "stories": [
+      { 
+        "title": "lore",
+        "path": "Izybor the Iryda/stories/lore.txt"
+      }
       ],
       "outdated": false
     },
