@@ -432,6 +432,11 @@
       "creator": "Merlin",
       "name": "Gokart the Locust",
       "model": "M22 Locust",
+      "description": "Gokart is based on the m22 locust, making him light and fast. He was built with the hopeful optimism that in the modern era an air dropped tank could be more viable than it had been in WWII. The high hopes his creators had had for him had met a less flattering reality. Gokart was effective, and during his testing deployments he made great work. But not as great as the people in charge wanted. \n\nWith the ever changing world of military requirements, cost analysis, and effective weapons, Gokart was written off as a useful experiment but not something to invest in, and he was set up to be mothballed.\n\nSo he quit. Rather, he refused to let anyone tell him he couldn't keep fighting. Taking his gun, copies of his project data, and leaving behind his id, he fled. On the run, he joined up with a series of mercenary groups, changing crews one after the other until he settled in with his current home, the mercenary group Ringworm. Now he operates as a grey-registered field operative, tentatively 'legal', but practically an unregistered unit, doing work for the mysterious clients of the Ringworm organization.",
+      "crewmate": "none",
+      "faction": "Ringworm",
+      "height": 2.6,
+      "weight": 450,
       "galleryImagePaths": [
         "Gokart the Locust/T.png"
       ],
@@ -439,7 +444,7 @@
         "Gokart the Locust/R1.png",
         "Gokart the Locust/R2.png"
       ],
-      "outdated": true
+      "outdated": false
     },
     {
       "creator": "Green PC",
