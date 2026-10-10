@@ -4042,6 +4042,26 @@
       "outdated": false
     },
     {
+      "creator": "Kazimierz",
+      "name": "Fittrov the Fitter-K",
+      "model": "SU-22M4 Fitter-k",
+      "description": "Alignment: under contract to cooperate with the Asacaiian Forces\n\nThough his airframe is seen as out of date, Fittrov is not a direct fighter. Using his EW pods he can project a much larger presence on radar to deter would be bad actors, along with aiding him in putting his payload where it needs to go with more modern missiles chasing him down. Fittrovs appearance also portrays his purpose as his tiger livery covers his canine fox chassis to confuse and intimidate. ",
+      "copilot" : "Unknown",
+      "faction" : "Poland",
+      "height": 19,
+      "galleryImagePaths": [
+        "Fittrov the Fitter-K/T.png",
+        "Fittrov the Fitter-K/1.png",
+        "Fittrov the Fitter-K/2.png",
+        "Fittrov the Fitter-K/3.png"
+      ],
+      "referenceSheetsPath": [
+        "Fittrov the Fitter-K/R1.png",
+        "Fittrov the Fitter-K/R2.png"
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Galina",
       "name": "Galina the Hind",
       "model": "MI-24P Hind",
