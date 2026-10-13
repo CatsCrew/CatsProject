@@ -751,6 +751,24 @@
                 "Frank the Proto P/R1.png"
                 
             ]
+        },
+        {
+            "creator": "bezitank",
+            "name": "Jan the Proto 2.0",
+            "model": "1.0 Type P",
+            "description": "Jan is a mechanic whoes its purpose is to repair and maintain air based cats. He has been assigned to be a mechanic for the military, maintaining the aerocats that are stationed in the facility as the place he works in lacks such profession.\n\nJan has a partner of his own. Hes been assigned to an aerocat called Kuba Mig-29. Jan supplies and refuels kuba whenever he goes out on a mission so not only does he maintain other cats but also serves his partner with almost everything kuba needs.",
+            "copilot": "N/A",
+            "faction": "Poland",
+            "height": 160,
+            "weight": 54,
+            "galleryImagePaths": [
+                "Jan the Proto 2.0/T.png"
+
+            ],
+             "referenceSheetsPath": [
+                "Jan the Proto 2.0/R1.png"
+                
+            ]
         }
     ]
 }
