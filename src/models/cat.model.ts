@@ -1,3 +1,4 @@
+import { CatImage } from "./cat-image.model";
 import { CatType } from "./cat-type.enum";
 import { Creator } from "./creator.model";
 import { Equipment } from "./equipment.model";
@@ -15,8 +16,8 @@ export interface Cat {
     height?: string;
     equipment?: Equipment[];
     thumbnail?: string;
-    referenceUrls?: string[];
-    galleryUrls?: string[];
+    referenceUrls?: CatImage[];
+    galleryUrls?: CatImage[];
     linkedCats?: Cat[];
     outdated?: boolean;
     stories?: Story[];

@@ -4,20 +4,20 @@
   <div class="embla">
     <div class="embla__viewport" :ref="(el) => emblaRef = el as HTMLElement">
       <div class="embla__container">
-        <div v-for="image, index in images" :key="image" class="embla__slide">
+        <div v-for="image, index in images" :key="image.path" class="embla__slide">
             <Skeleton
               v-if="imageLoadingStates[index]"
               width="100%"
               height="343px">
             </Skeleton>
             <DeferredContent>
-              <img 
-                :src="image" 
-                alt="cat image" 
-                class="cat-ref-img"
-                :data-loading="imageLoadingStates[index]"
-                @load="onImageLoaded(index)"
-                @click="onImageClicked(image)"/>
+                <img 
+                  :src="image.path" 
+                  alt="cat image" 
+                  class="cat-ref-img"
+                  :data-loading="imageLoadingStates[index]"
+                  @load="onImageLoaded(index)"
+                  @click="onImageClicked(image)"/>
             </DeferredContent>
         </div>
       </div>
@@ -38,9 +38,9 @@
         </button>
       </div>
 
-      <div class="embla__dots" v-if="images?.length > 1">
+      <div class="embla__dots" v-if="(images?.length ?? 0) > 1">
         <button
-            v-for="(image, index) in images"
+            v-for="(_, index) in images"
             :key="index"
             ref="dotNodes"
             class="embla__dot"
@@ -50,8 +50,9 @@
     </div>
     <ImageViewer
       v-if="selectedImage"
-      :src="selectedImage" 
+      :src="selectedImage.path" 
       alt="cat image"
+      :caption="selectedImage.caption"
       @close="onViewerClosed" />
   </div>
 </template>
@@ -61,11 +62,12 @@ import emblaCarouselVue from "embla-carousel-vue";
 import { onMounted, onUnmounted, ref, useTemplateRef, defineAsyncComponent } from "vue";
 import DeferredContent from 'primevue/deferredcontent';
 import Skeleton from 'primevue/skeleton';
+import { CatImage } from "@/models/cat-image.model";
 
 const ImageViewer = defineAsyncComponent(() => import('@/components/image-viewer/image-viewer.vue'));
 
 const { images } = defineProps<{
-  images?: string[];
+  images?: CatImage[];
 }>();
 const imgs = images ?? [];
 
@@ -76,7 +78,7 @@ const dotNodes = useTemplateRef('dotNodes');
 
 const canScrollPrev = ref(false);
 const canScrollNext = ref(false);
-const selectedImage = ref('');
+const selectedImage = ref<CatImage | null>(null);
 
 function scrollNext() {
   emblaApi.value?.scrollNext();
@@ -125,12 +127,12 @@ function onImageLoaded(index: number) {
   imageLoadingStates.value[index] = false;
 }
 
-function onImageClicked(image: string) {
+function onImageClicked(image: CatImage) {
   selectedImage.value = image;
 }
 
 function onViewerClosed() {
-    selectedImage.value = '';
+    selectedImage.value = null;
 }
 
 onMounted(() => {

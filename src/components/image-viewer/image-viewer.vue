@@ -14,9 +14,10 @@
 import { onMounted, onUnmounted, useTemplateRef, watch, nextTick } from 'vue';
 import Viewer from 'viewerjs';
 
-const { src, alt } = defineProps<{
+const { src, alt, caption } = defineProps<{
     src: string;
     alt: string;
+    caption?: string;
 }>();
 
 const emit = defineEmits<{
@@ -24,7 +25,7 @@ const emit = defineEmits<{
 }>();
 
 const image = useTemplateRef('image');
-let viewerInstance = null;
+let viewerInstance: Viewer | null = null;
 
 function cleanupViewer() {
     if (viewerInstance) {
@@ -41,10 +42,11 @@ function initializeViewer(transition: boolean = true) {
     if (image.value) {
         viewerInstance = new Viewer(image.value, {
             inline: false,
+            className: 'cat-image-viewer',
             transition,
             movable: true,
             zoomable: true,
-            title: false,
+            title: caption ? () => caption : false,
             toolbar: {
                 zoomIn: toolBarShow,
                 zoomOut: toolBarShow,
@@ -53,7 +55,7 @@ function initializeViewer(transition: boolean = true) {
             },
             hidden: function() {
                 emit('close');
-            }
+            },
         });
 
         viewerInstance.show();

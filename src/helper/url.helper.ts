@@ -1,10 +1,19 @@
+import { CatImage } from "@/models/cat-image.model";
 import { CatType } from "@/models/cat-type.enum";
+import { CatImage as FileCatImage } from "@/models/formats/cat-image.model";
 
 export class UrlHelper {
     static CLOUDFRONT_URL = 'https://d3f1w0zhip1fpv.cloudfront.net';
 
     static buildCharacterPath(type: CatType, name: string): string {
         return `${this.CLOUDFRONT_URL}/characters/${this.getCatFolderFromType(type)}/${name}`;
+    }
+
+    static buildCharacterImagesPath(type: CatType, catImage: FileCatImage): CatImage {
+        return {
+            path: `${this.CLOUDFRONT_URL}/characters/${this.getCatFolderFromType(type)}/${catImage.path}`,
+            caption: catImage.caption
+        };
     }
 
     static buildCreatorPath(name: string): string {

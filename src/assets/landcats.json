@@ -24,18 +24,38 @@
         }
       ],
       "galleryImagePaths": [
-        "shell_the_sheridan/T.png",
-        "shell_the_sheridan/1.png",
-        "shell_the_sheridan/2.png",
-        "shell_the_sheridan/3.png",
-        "shell_the_sheridan/4.png",
-        "shell_the_sheridan/5.png",
-        "shell_the_sheridan/6.png"
+        {
+          "path": "shell_the_sheridan/T.png"
+        },
+        {
+          "path": "shell_the_sheridan/1.png"
+        },
+        {
+          "path": "shell_the_sheridan/2.png"
+        },
+        {
+          "path": "shell_the_sheridan/3.png"
+        },
+        {
+          "path": "shell_the_sheridan/4.png"
+        },
+        {
+          "path": "shell_the_sheridan/5.png"
+        },
+        {
+          "path": "shell_the_sheridan/6.png"
+        }
       ],
       "referenceSheetsPath": [
-        "shell_the_sheridan/R1.png",
-        "shell_the_sheridan/R2.png",
-        "shell_the_sheridan/R3.png"
+        {
+          "path": "shell_the_sheridan/R1.png"
+        },
+        {
+          "path": "shell_the_sheridan/R2.png"
+        },
+        {
+          "path": "shell_the_sheridan/R3.png"
+        }
       ],
       "outdated": false
     },
@@ -59,19 +79,41 @@
         }
       ],
       "galleryImagePaths": [
-        "Hemet/1.png",
-        "Hemet/2.png",
-        "Hemet/3.png",
-        "Hemet/4.png",
-        "Hemet/5.png",
-        "Hemet/6.png",
-        "Hemet/7.png",
-        "Hemet/8.png",
-        "Hemet/9.jpg"
+        {
+          "path": "Hemet/1.png"
+        },
+        {
+          "path": "Hemet/2.png"
+        },
+        {
+          "path": "Hemet/3.png"
+        },
+        {
+          "path": "Hemet/4.png"
+        },
+        {
+          "path": "Hemet/5.png"
+        },
+        {
+          "path": "Hemet/6.png"
+        },
+        {
+          "path": "Hemet/7.png"
+        },
+        {
+          "path": "Hemet/8.png"
+        },
+        {
+          "path": "Hemet/9.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Hemet/Ref.png",
-        "Hemet/Ref2.png"
+        {
+          "path": "Hemet/Ref.png"
+        },
+        {
+          "path": "Hemet/Ref2.png"
+        }
       ],
       "outdated": false
     },
@@ -95,14 +137,26 @@
         }
       ],
       "galleryImagePaths": [
-        "Vee/T.png",
-        "Vee/1.png",
-        "Vee/2.png",
-        "Vee/3.png"
+        {
+          "path": "Vee/T.png"
+        },
+        {
+          "path": "Vee/1.png"
+        },
+        {
+          "path": "Vee/2.png"
+        },
+        {
+          "path": "Vee/3.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Vee/R1.png",
-        "Vee/R2.png"
+        {
+          "path": "Vee/R1.png"
+        },
+        {
+          "path": "Vee/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -122,11 +176,17 @@
         }
       ],
       "galleryImagePaths": [
-        "Bmd/T.png",
-        "Bmd/1.png"
+        {
+          "path": "Bmd/T.png"
+        },
+        {
+          "path": "Bmd/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Bmd/R1.png"
+        {
+          "path": "Bmd/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -135,17 +195,35 @@
       "name": "Evem the Abrams",
       "model": "M1A2 Abrams",
       "galleryImagePaths": [
-        "Evem/T.png",
-        "Evem/1.jpg",
-        "Evem/2.jpg",
-        "Evem/3.jpg",
-        "Evem/4.png",
-        "Evem/5.jpg",
-        "Evem/6.jpg"
+        {
+          "path": "Evem/T.png"
+        },
+        {
+          "path": "Evem/1.jpg"
+        },
+        {
+          "path": "Evem/2.jpg"
+        },
+        {
+          "path": "Evem/3.jpg"
+        },
+        {
+          "path": "Evem/4.png"
+        },
+        {
+          "path": "Evem/5.jpg"
+        },
+        {
+          "path": "Evem/6.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Evem/R1.jpg",
-        "Evem/R2.jpg"
+        {
+          "path": "Evem/R1.jpg"
+        },
+        {
+          "path": "Evem/R2.jpg"
+        }
       ],
       "outdated": false
     },
@@ -154,16 +232,32 @@
       "name": "Bum the BVM",
       "model": "T-80 BVM",
       "galleryImagePaths": [
-        "Bum/T.png",
-        "Bum/1.png",
-        "Bum/2.png",
-        "Bum/3.jpg",
-        "Bum/4.png",
-        "Bum/5.jpg"
+        {
+          "path": "Bum/T.png"
+        },
+        {
+          "path": "Bum/1.png"
+        },
+        {
+          "path": "Bum/2.png"
+        },
+        {
+          "path": "Bum/3.jpg"
+        },
+        {
+          "path": "Bum/4.png"
+        },
+        {
+          "path": "Bum/5.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Bum/R1.jpg",
-        "Bum/R2.png"
+        {
+          "path": "Bum/R1.jpg"
+        },
+        {
+          "path": "Bum/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -173,12 +267,20 @@
       "model": "EOD Vehicle Unit",
       "description": "An EOD unit with encyclopedic knowledge of explosives, has developed a love for them and the risks associated with its task. Despite having availability for long range and precision disposal tools, prefers to disarm explosives hands-on to experience the rush of doing the job themselves... very much to its crewmate's (and face shield) dismay. This method has also helped them study (and later experiment with) the variety of explosives. Any ordinances that he has come into contact with mysteriously disappear.",
       "galleryImagePaths": [
-        "tetril_the_eod_vu/T.png",
-        "tetril_the_eod_vu/tetril.png"
+        {
+          "path": "tetril_the_eod_vu/T.png"
+        },
+        {
+          "path": "tetril_the_eod_vu/tetril.png"
+        }
       ],
       "referenceSheetsPath": [
-        "tetril_the_eod_vu/TETRIL-REFERENCE-1.png",
-        "tetril_the_eod_vu/TETRIL-REFERENCE-2.jpg"
+        {
+          "path": "tetril_the_eod_vu/TETRIL-REFERENCE-1.png"
+        },
+        {
+          "path": "tetril_the_eod_vu/TETRIL-REFERENCE-2.jpg"
+        }
       ],
       "outdated": true
     },
@@ -187,11 +289,17 @@
       "name": "Leo the Leopard",
       "model": "Leopard2A5",
       "galleryImagePaths": [
-        "Leo the Leopard/T.png"
+        {
+          "path": "Leo the Leopard/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Leo the Leopard/R1.png",
-        "Leo the Leopard/R2.png"
+        {
+          "path": "Leo the Leopard/R1.png"
+        },
+        {
+          "path": "Leo the Leopard/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -200,10 +308,14 @@
       "name": "Hummer the Humvee",
       "model": "M1151 HMMWV",
       "galleryImagePaths": [
-        "Hummer the Humvee/T.png"
+        {
+          "path": "Hummer the Humvee/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Hummer the Humvee/R1.png"
+        {
+          "path": "Hummer the Humvee/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -212,11 +324,17 @@
       "name": "Jas the Kronstadt",
       "model": "XMBT-14 (OF)",
       "galleryImagePaths": [
-        "Jas the Kronstadt/T.png"
+        {
+          "path": "Jas the Kronstadt/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Jas the Kronstadt/R1.jpg",
-        "Jas the Kronstadt/R2.png"
+        {
+          "path": "Jas the Kronstadt/R1.jpg"
+        },
+        {
+          "path": "Jas the Kronstadt/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -225,10 +343,14 @@
       "name": "Quickshot the ItPsV",
       "model": "ItPsV Leopard",
       "galleryImagePaths": [
-        "Quickshot the ItPsV/T.png"
+        {
+          "path": "Quickshot the ItPsV/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Quickshot the ItPsV/R1.png"
+        {
+          "path": "Quickshot the ItPsV/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -237,10 +359,14 @@
       "name": "Uro the Centauro",
       "model": "Centauro l 105 R",
       "galleryImagePaths": [
-        "Uro the Centauro/T.png"
+        {
+          "path": "Uro the Centauro/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Uro the Centauro/R1.png"
+        {
+          "path": "Uro the Centauro/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -249,10 +375,14 @@
       "name": "Sani the EFV",
       "model": "Expeditionary Fighting Vehicle",
       "galleryImagePaths": [
-        "Sani the EFV/T.png"
+        {
+          "path": "Sani the EFV/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Sani the EFV/R1.png"
+        {
+          "path": "Sani the EFV/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -261,10 +391,14 @@
       "name": "X the Object 490",
       "model": "Object 490",
       "galleryImagePaths": [
-        "X the Object 490/T.png"
+        {
+          "path": "X the Object 490/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "X the Object 490/R1.png"
+        {
+          "path": "X the Object 490/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -273,10 +407,14 @@
       "name": "Frostbite the Giant Carrier",
       "model": "Maz-7907 Giant Carrier",
       "galleryImagePaths": [
-        "Frostbite the Giant Carrier/T.png"
+        {
+          "path": "Frostbite the Giant Carrier/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Frostbite the Giant Carrier/R1.png"
+        {
+          "path": "Frostbite the Giant Carrier/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -285,10 +423,14 @@
       "name": "Zerstörer the Panther",
       "model": "KF51 Panther",
       "galleryImagePaths": [
-        "Zerstörer the Panther/T.png"
+        {
+          "path": "Zerstörer the Panther/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Zerstörer the Panther/R1.jpg"
+        {
+          "path": "Zerstörer the Panther/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -297,10 +439,14 @@
       "name": "Pat the Patton",
       "model": "M48A3 Patton",
       "galleryImagePaths": [
-        "Pat the Patton/T.png"
+        {
+          "path": "Pat the Patton/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Pat the Patton/R1.png"
+        {
+          "path": "Pat the Patton/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -309,10 +455,14 @@
       "name": "Lion the Lion",
       "model": "M3A4 Lion (OF)",
       "galleryImagePaths": [
-        "Lion the Lion/T.png"
+        {
+          "path": "Lion the Lion/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Lion the Lion/R1.png"
+        {
+          "path": "Lion the Lion/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -321,12 +471,20 @@
       "name": "Verdan the StrykerMEV",
       "model": "M1133 Stryker MEV",
       "galleryImagePaths": [
-        "Verdan the StrykerMEV/T.png",
-        "Verdan the StrykerMEV/1.png"
+        {
+          "path": "Verdan the StrykerMEV/T.png"
+        },
+        {
+          "path": "Verdan the StrykerMEV/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Verdan the StrykerMEV/R1.png",
-        "Verdan the StrykerMEV/R2.png"
+        {
+          "path": "Verdan the StrykerMEV/R1.png"
+        },
+        {
+          "path": "Verdan the StrykerMEV/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -340,13 +498,23 @@
       "weight": 15027,
       "height": 4,
       "galleryImagePaths": [
-        "Zechs the ZLAT/T.png",
-        "Zechs the ZLAT/1.png"
+        {
+          "path": "Zechs the ZLAT/T.png"
+        },
+        {
+          "path": "Zechs the ZLAT/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Zechs the ZLAT/R1.png",
-        "Zechs the ZLAT/R2.png",
-        "Zechs the ZLAT/R3.webp"
+        {
+          "path": "Zechs the ZLAT/R1.png"
+        },
+        {
+          "path": "Zechs the ZLAT/R2.png"
+        },
+        {
+          "path": "Zechs the ZLAT/R3.webp"
+        }
       ],
       "outdated": true
     },
@@ -355,10 +523,14 @@
       "name": "L7nX the Lynx",
       "model": "KF41 Lynx",
       "galleryImagePaths": [
-        "L7nX the Lynx/T.png"
+        {
+          "path": "L7nX the Lynx/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "L7nX the Lynx/R1.png"
+        {
+          "path": "L7nX the Lynx/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -366,17 +538,23 @@
       "creator": "Sandomite",
       "name": "Lance the Paladin",
       "model": "M109A6 Paladin",
-      "description" : "A heavy Landcat who's paintjob changes depending on acting area. Currently desert set with tans and white. Lugs around a bulky backpack that contains all his ammo, fuel, external radio and angle calculator as well as supplies for any squad he may be in at that time. An autoloader refills and deploys mags for his large 155mm Howitzer that he lugs around and (Much to mechanics disappointment) leans against as a rest. Equipped with a 50 caliber machine gun for close encounters, however rare they are.\n\nLance's home company and manufacturer, Might Industries, being ever on the back foot in terms of finances due to disaster and lack of improvement in it's latter years sends it's CATS out as mercenaries to make up it's cost of production. Lance being one such cat who has been across multiple countries and companies before landing a job with Wing 38, with the money being great and access to more specialized munitions, some of which were pulled from Might Industries stockpile and some provided by Wing 38. Seeing as there was a hole in Wing 38's land forces, he figured he will do just fine as while air cleans up the place, holding things require feet on the ground, and Lance's good at keeping those feet away from whatever they clear after the fact",
-      "crewmate" : "Point",
-      "faction" : "Wing 38",
-      "weight" : "36000",
-      "height" : "6.1",
+      "description": "A heavy Landcat who's paintjob changes depending on acting area. Currently desert set with tans and white. Lugs around a bulky backpack that contains all his ammo, fuel, external radio and angle calculator as well as supplies for any squad he may be in at that time. An autoloader refills and deploys mags for his large 155mm Howitzer that he lugs around and (Much to mechanics disappointment) leans against as a rest. Equipped with a 50 caliber machine gun for close encounters, however rare they are.\n\nLance's home company and manufacturer, Might Industries, being ever on the back foot in terms of finances due to disaster and lack of improvement in it's latter years sends it's CATS out as mercenaries to make up it's cost of production. Lance being one such cat who has been across multiple countries and companies before landing a job with Wing 38, with the money being great and access to more specialized munitions, some of which were pulled from Might Industries stockpile and some provided by Wing 38. Seeing as there was a hole in Wing 38's land forces, he figured he will do just fine as while air cleans up the place, holding things require feet on the ground, and Lance's good at keeping those feet away from whatever they clear after the fact",
+      "crewmate": "Point",
+      "faction": "Wing 38",
+      "weight": "36000",
+      "height": "6.1",
       "galleryImagePaths": [
-        "Lance the Paladin/T.png",
-        "Lance the Paladin/1.png"
+        {
+          "path": "Lance the Paladin/T.png"
+        },
+        {
+          "path": "Lance the Paladin/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Lance the Paladin/R1.png"
+        {
+          "path": "Lance the Paladin/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -385,10 +563,14 @@
       "name": "Jag the Jagdpanzer",
       "model": "Jagdpanzer E-100",
       "galleryImagePaths": [
-        "Jag the Jagdpanzer/T.png"
+        {
+          "path": "Jag the Jagdpanzer/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Jag the Jagdpanzer/R1.png"
+        {
+          "path": "Jag the Jagdpanzer/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -397,10 +579,14 @@
       "name": "Boombox the LRAD-CCTV",
       "model": "LRAD-CCTV",
       "galleryImagePaths": [
-        "Boombox the LRAD-CCTV/T.png"
+        {
+          "path": "Boombox the LRAD-CCTV/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Boombox the LRAD-CCTV/R1.png"
+        {
+          "path": "Boombox the LRAD-CCTV/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -409,10 +595,14 @@
       "name": "Erma the Brumbar",
       "model": "Strumpanzer lV Brumbar",
       "galleryImagePaths": [
-        "Erma the Brumbar/T.png"
+        {
+          "path": "Erma the Brumbar/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Erma the Brumbar/R1.png"
+        {
+          "path": "Erma the Brumbar/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -421,10 +611,14 @@
       "name": "Kato the K-3",
       "model": "K-3",
       "galleryImagePaths": [
-        "Kato the K-3/T.png"
+        {
+          "path": "Kato the K-3/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Kato the K-3/R1.png"
+        {
+          "path": "Kato the K-3/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -438,11 +632,17 @@
       "height": 2.6,
       "weight": 450,
       "galleryImagePaths": [
-        "Gokart the Locust/T.png"
+        {
+          "path": "Gokart the Locust/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Gokart the Locust/R1.png",
-        "Gokart the Locust/R2.png"
+        {
+          "path": "Gokart the Locust/R1.png"
+        },
+        {
+          "path": "Gokart the Locust/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -455,18 +655,38 @@
       "faction": "Poland",
       "height": 2.5,
       "galleryImagePaths": [
-        "St. Ogn. Stanisław the Star/T.png",
-        "St. Ogn. Stanisław the Star/1.png",
-        "St. Ogn. Stanisław the Star/2.jpg",
-        "St. Ogn. Stanisław the Star/3.png",
-        "St. Ogn. Stanisław the Star/4.png",
-        "St. Ogn. Stanisław the Star/5.png",
-        "St. Ogn. Stanisław the Star/6.png",
-        "St. Ogn. Stanisław the Star/7.png"
+        {
+          "path": "St. Ogn. Stanisław the Star/T.png"
+        },
+        {
+          "path": "St. Ogn. Stanisław the Star/1.png"
+        },
+        {
+          "path": "St. Ogn. Stanisław the Star/2.jpg"
+        },
+        {
+          "path": "St. Ogn. Stanisław the Star/3.png"
+        },
+        {
+          "path": "St. Ogn. Stanisław the Star/4.png"
+        },
+        {
+          "path": "St. Ogn. Stanisław the Star/5.png"
+        },
+        {
+          "path": "St. Ogn. Stanisław the Star/6.png"
+        },
+        {
+          "path": "St. Ogn. Stanisław the Star/7.png"
+        }
       ],
       "referenceSheetsPath": [
-        "St. Ogn. Stanisław the Star/R1.png",
-        "St. Ogn. Stanisław the Star/R2.png"
+        {
+          "path": "St. Ogn. Stanisław the Star/R1.png"
+        },
+        {
+          "path": "St. Ogn. Stanisław the Star/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -479,14 +699,26 @@
       "faction": "Poland",
       "height": 3.15,
       "galleryImagePaths": [
-        "Chor. Mieczysław the STAR 266/T.png",
-        "Chor. Mieczysław the STAR 266/1.png",
-        "Chor. Mieczysław the STAR 266/2.png"
+        {
+          "path": "Chor. Mieczysław the STAR 266/T.png"
+        },
+        {
+          "path": "Chor. Mieczysław the STAR 266/1.png"
+        },
+        {
+          "path": "Chor. Mieczysław the STAR 266/2.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Chor. Mieczysław the STAR 266/R1.png",
-        "Chor. Mieczysław the STAR 266/R2.png",
-        "Chor. Mieczysław the STAR 266/R3.png"
+        {
+          "path": "Chor. Mieczysław the STAR 266/R1.png"
+        },
+        {
+          "path": "Chor. Mieczysław the STAR 266/R2.png"
+        },
+        {
+          "path": "Chor. Mieczysław the STAR 266/R3.png"
+        }
       ],
       "outdated": false
     },
@@ -495,10 +727,14 @@
       "name": "N1ck the NSX1990",
       "model": "Honda NSX 1990",
       "galleryImagePaths": [
-        "N1ck the NSX1990/T.png"
+        {
+          "path": "N1ck the NSX1990/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "N1ck the NSX1990/R1.jpg"
+        {
+          "path": "N1ck the NSX1990/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -507,10 +743,14 @@
       "name": "Wulfram the Proryv",
       "model": "T-90M Proryv-3",
       "galleryImagePaths": [
-        "Wulfram the Proryv/T.png"
+        {
+          "path": "Wulfram the Proryv/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Wulfram the Proryv/R1.png"
+        {
+          "path": "Wulfram the Proryv/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -519,11 +759,17 @@
       "name": "Vincent the Centauro",
       "model": "B1 Centauro 120",
       "galleryImagePaths": [
-        "Vincent the Centauro/T.png"
+        {
+          "path": "Vincent the Centauro/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Vincent the Centauro/R1.png",
-        "Vincent the Centauro/R2.png"
+        {
+          "path": "Vincent the Centauro/R1.png"
+        },
+        {
+          "path": "Vincent the Centauro/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -532,10 +778,14 @@
       "name": "Rosetta the Battle tank",
       "model": "Battle tank (Game)",
       "galleryImagePaths": [
-        "Rosetta the Battle tank/T.png"
+        {
+          "path": "Rosetta the Battle tank/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Rosetta the Battle tank/R1.jpg"
+        {
+          "path": "Rosetta the Battle tank/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -544,10 +794,14 @@
       "name": "Jägare the Stridsfordon",
       "model": "Stridsfordon 265 Mark lA",
       "galleryImagePaths": [
-        "Jägare the Stridsfordon/T.png"
+        {
+          "path": "Jägare the Stridsfordon/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Jägare the Stridsfordon/R1.png"
+        {
+          "path": "Jägare the Stridsfordon/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -556,11 +810,17 @@
       "name": "SnowDrift the BV 206A",
       "model": "BV 206A",
       "galleryImagePaths": [
-        "SnowDrift the BV 206A/T.png"
+        {
+          "path": "SnowDrift the BV 206A/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "SnowDrift the BV 206A/R1.jpg",
-        "SnowDrift the BV 206A/R2.jpg"
+        {
+          "path": "SnowDrift the BV 206A/R1.jpg"
+        },
+        {
+          "path": "SnowDrift the BV 206A/R2.jpg"
+        }
       ],
       "outdated": true
     },
@@ -570,10 +830,14 @@
       "model": "HEMTT IFPC-HEL",
       "description": "A laser powered bane to all things flying designed by an optical technology weapons manufacturer, ICARUS PROJECT. Working as a mercenary, Helios provides a professional level anti-air defenses to any capable buyers.",
       "galleryImagePaths": [
-        "Helios the HEMTT/T.png"
+        {
+          "path": "Helios the HEMTT/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Helios the HEMTT/R1.png"
+        {
+          "path": "Helios the HEMTT/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -583,7 +847,9 @@
       "model": "FV4005 HGTN-1",
       "description": "A moving bunker mobilized and made practical as CATS. Faust breaks up the battlefield by being an unmovable wall capable of unleashing pain for those who stood in his way. Appears to adopt an exaggerated chivalric persona while in battle.",
       "galleryImagePaths": [
-        "Arbalest the FV4005/T.png"
+        {
+          "path": "Arbalest the FV4005/T.png"
+        }
       ],
       "outdated": true
     },
@@ -593,13 +859,23 @@
       "model": "Panzer VIII Maus",
       "description": "A hot headed demolition expert wielding an oversized muzzle-loader. Arbalest's usual solutions to problem is always pure brute force despite the crudeness, as nothing gets rid of obstacle faster than a well measured explosive.",
       "galleryImagePaths": [
-        "Faust the Maus/T.png",
-        "Faust the Maus/1.jpg"
+        {
+          "path": "Faust the Maus/T.png"
+        },
+        {
+          "path": "Faust the Maus/1.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Faust the Maus/R1.png",
-        "Faust the Maus/R2.png",
-        "Faust the Maus/R3.png"
+        {
+          "path": "Faust the Maus/R1.png"
+        },
+        {
+          "path": "Faust the Maus/R2.png"
+        },
+        {
+          "path": "Faust the Maus/R3.png"
+        }
       ],
       "outdated": true
     },
@@ -609,12 +885,20 @@
       "model": "2K22 Tunguska",
       "description": "An always jolly and trigger happy gunner, stationed at a secret military compound within the snowy landscape of northern Russia. While always joyful, Grad's demeanor changes drastically when spotting a potential spy within vicinity. ",
       "galleryImagePaths": [
-        "Grad the Tunguska/T.png",
-        "Grad the Tunguska/1.png"
+        {
+          "path": "Grad the Tunguska/T.png"
+        },
+        {
+          "path": "Grad the Tunguska/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Grad the Tunguska/R1.png",
-        "Grad the Tunguska/R2.png"
+        {
+          "path": "Grad the Tunguska/R1.png"
+        },
+        {
+          "path": "Grad the Tunguska/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -623,11 +907,17 @@
       "name": "Stratos the S-TANK",
       "model": "Strv 103",
       "galleryImagePaths": [
-        "Stratos the S-TANK/T.png"
+        {
+          "path": "Stratos the S-TANK/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Stratos the S-TANK/R1.png",
-        "Stratos the S-TANK/R2.png"
+        {
+          "path": "Stratos the S-TANK/R1.png"
+        },
+        {
+          "path": "Stratos the S-TANK/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -636,10 +926,14 @@
       "name": "Bagel the wiesel",
       "model": "Wiesel 1A4",
       "galleryImagePaths": [
-        "Bagel the wiesel/T.png"
+        {
+          "path": "Bagel the wiesel/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Bagel the wiesel/R1.png"
+        {
+          "path": "Bagel the wiesel/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -648,10 +942,14 @@
       "name": "Toast the wiesel",
       "model": "Wiesel 1A4",
       "galleryImagePaths": [
-        "Toast the wiesel/T.png"
+        {
+          "path": "Toast the wiesel/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Toast the wiesel/R1.png"
+        {
+          "path": "Toast the wiesel/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -660,10 +958,14 @@
       "name": "Oven the Ozelot",
       "model": "Ozelot",
       "galleryImagePaths": [
-        "Oven the Ozelot/T.png"
+        {
+          "path": "Oven the Ozelot/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Oven the Ozelot/R1.png"
+        {
+          "path": "Oven the Ozelot/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -672,10 +974,14 @@
       "name": "Teredinea the TBM",
       "model": "Tunnel Boring Machine",
       "galleryImagePaths": [
-        "Teredinea the TBM/T.png"
+        {
+          "path": "Teredinea the TBM/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Teredinea the TBM/R1.png"
+        {
+          "path": "Teredinea the TBM/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -684,10 +990,14 @@
       "name": "Sunny the AMB",
       "model": "K312A1 Ambulance",
       "galleryImagePaths": [
-        "Sunny the AMB/T.png"
+        {
+          "path": "Sunny the AMB/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Sunny the AMB/R1.png"
+        {
+          "path": "Sunny the AMB/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -696,10 +1006,14 @@
       "name": "Dallas the Mustang",
       "model": "2020 Ford Mustang (OF)",
       "galleryImagePaths": [
-        "Dallas the Mustang/T.png"
+        {
+          "path": "Dallas the Mustang/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Dallas the Mustang/R1.png"
+        {
+          "path": "Dallas the Mustang/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -708,10 +1022,14 @@
       "name": "Ch0p the Rebel 300",
       "model": "Honda Rebel 300 Police",
       "galleryImagePaths": [
-        "Ch0p the Rebel 300/T.png"
+        {
+          "path": "Ch0p the Rebel 300/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Ch0p the Rebel 300/R1.png"
+        {
+          "path": "Ch0p the Rebel 300/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -720,11 +1038,17 @@
       "name": "Ashwagonda the THOR",
       "model": "T.H.O.R AD System",
       "galleryImagePaths": [
-        "Ashwagonda the THOR/T.png"
+        {
+          "path": "Ashwagonda the THOR/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Ashwagonda the THOR/R1.png",
-        "Ashwagonda the THOR/R2.png"
+        {
+          "path": "Ashwagonda the THOR/R1.png"
+        },
+        {
+          "path": "Ashwagonda the THOR/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -733,10 +1057,14 @@
       "name": "Temp the Ural Ranger",
       "model": "2WD Ural Ranger",
       "galleryImagePaths": [
-        "Temp the Ural Ranger/T.png"
+        {
+          "path": "Temp the Ural Ranger/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Temp the Ural Ranger/R1.png"
+        {
+          "path": "Temp the Ural Ranger/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -745,12 +1073,20 @@
       "name": "Glaggles the Merkava",
       "model": "Merkava IIID Baz",
       "galleryImagePaths": [
-        "Glaggles the Merkava/T.png"
+        {
+          "path": "Glaggles the Merkava/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Glaggles the Merkava/R1.png",
-        "Glaggles the Merkava/R2.png",
-        "Glaggles the Merkava/R3.png"
+        {
+          "path": "Glaggles the Merkava/R1.png"
+        },
+        {
+          "path": "Glaggles the Merkava/R2.png"
+        },
+        {
+          "path": "Glaggles the Merkava/R3.png"
+        }
       ],
       "outdated": true
     },
@@ -759,14 +1095,26 @@
       "name": "Kobalt the Foodtruck",
       "model": "Foodtruck etc.",
       "galleryImagePaths": [
-        "Kobalt the Foodtruck/T.jpg",
-        "Kobalt the Foodtruck/1.jpg",
-        "Kobalt the Foodtruck/2.jpg",
-        "Kobalt the Foodtruck/3.jpg"
+        {
+          "path": "Kobalt the Foodtruck/T.jpg"
+        },
+        {
+          "path": "Kobalt the Foodtruck/1.jpg"
+        },
+        {
+          "path": "Kobalt the Foodtruck/2.jpg"
+        },
+        {
+          "path": "Kobalt the Foodtruck/3.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Kobalt the Foodtruck/R1.png",
-        "Kobalt the Foodtruck/R2.png"
+        {
+          "path": "Kobalt the Foodtruck/R1.png"
+        },
+        {
+          "path": "Kobalt the Foodtruck/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -775,11 +1123,17 @@
       "name": "Litter the Cougar",
       "model": "Cougar MPAPV",
       "galleryImagePaths": [
-        "Litter the Cougar/T.png"
+        {
+          "path": "Litter the Cougar/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Litter the Cougar/R1.png",
-        "Litter the Cougar/R2.png"
+        {
+          "path": "Litter the Cougar/R1.png"
+        },
+        {
+          "path": "Litter the Cougar/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -788,10 +1142,14 @@
       "name": "Sierra the Red Beast",
       "model": "MLC 300 Red Beast",
       "galleryImagePaths": [
-        "Sierra the Red Beast/T.png"
+        {
+          "path": "Sierra the Red Beast/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Sierra the Red Beast/R1.png"
+        {
+          "path": "Sierra the Red Beast/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -800,11 +1158,17 @@
       "name": "The SSC Twins",
       "model": "Thrust SSC",
       "galleryImagePaths": [
-        "The SSC Twins/T.png"
+        {
+          "path": "The SSC Twins/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "The SSC Twins/R1.png",
-        "The SSC Twins/R2.png"
+        {
+          "path": "The SSC Twins/R1.png"
+        },
+        {
+          "path": "The SSC Twins/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -813,10 +1177,14 @@
       "name": "Trafico the Smart Fortwo",
       "model": "Smart Fortwo",
       "galleryImagePaths": [
-        "Trafico the Smart Fortwo/T.png"
+        {
+          "path": "Trafico the Smart Fortwo/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Trafico the Smart Fortwo/R1.png"
+        {
+          "path": "Trafico the Smart Fortwo/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -825,10 +1193,14 @@
       "name": "Oswald the Bearcat",
       "model": "Lenco Bearcat",
       "galleryImagePaths": [
-        "Oswald the Bearcat/T.png"
+        {
+          "path": "Oswald the Bearcat/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Oswald the Bearcat/R1.png"
+        {
+          "path": "Oswald the Bearcat/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -837,10 +1209,14 @@
       "name": "Holler the Stratos rally",
       "model": "Lancia stratos rally car",
       "galleryImagePaths": [
-        "Holler the Stratos rally/T.png"
+        {
+          "path": "Holler the Stratos rally/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Holler the Stratos rally/R1.png"
+        {
+          "path": "Holler the Stratos rally/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -868,10 +1244,14 @@
         }
       ],
       "galleryImagePaths": [
-        "Wraith the Ghost/T.png"
+        {
+          "path": "Wraith the Ghost/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Wraith the Ghost/R1.png"
+        {
+          "path": "Wraith the Ghost/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -884,10 +1264,14 @@
       "faction": "Unknown",
       "height": 5.9,
       "galleryImagePaths": [
-        "Big Wind the Big wind/T.png"
+        {
+          "path": "Big Wind the Big wind/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Big Wind the Big wind/R1.png"
+        {
+          "path": "Big Wind the Big wind/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -896,11 +1280,17 @@
       "name": "L30 the Leopard ll",
       "model": "Leopard2A6",
       "galleryImagePaths": [
-        "L30 the Leopard ll/T.png",
-        "L30 the Leopard ll/1.png"
+        {
+          "path": "L30 the Leopard ll/T.png"
+        },
+        {
+          "path": "L30 the Leopard ll/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "L30 the Leopard ll/R1.jfif"
+        {
+          "path": "L30 the Leopard ll/R1.jfif"
+        }
       ],
       "outdated": true
     },
@@ -909,10 +1299,14 @@
       "name": "Raven the Panzer lV",
       "model": "Panzer lV",
       "galleryImagePaths": [
-        "Raven the Panzer lV/T.png"
+        {
+          "path": "Raven the Panzer lV/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Raven the Panzer lV/R1.jpg"
+        {
+          "path": "Raven the Panzer lV/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -921,10 +1315,14 @@
       "name": "Katya the T-10",
       "model": "IS-8 / T-10",
       "galleryImagePaths": [
-        "Katya the T-10/T.png"
+        {
+          "path": "Katya the T-10/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Katya the T-10/R1.jpg"
+        {
+          "path": "Katya the T-10/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -960,34 +1358,86 @@
         }
       ],
       "galleryImagePaths": [
-        "Mikhail the Merkava/T.png",
-        "Mikhail the Merkava/1.png",
-        "Mikhail the Merkava/2.png",
-        "Mikhail the Merkava/3.png",
-        "Mikhail the Merkava/4.png",
-        "Mikhail the Merkava/5.png",
-        "Mikhail the Merkava/6.png",
-        "Mikhail the Merkava/7.png",
-        "Mikhail the Merkava/8.jpg",
-        "Mikhail the Merkava/9.jpg",
-        "Mikhail the Merkava/11.png",
-        "Mikhail the Merkava/12.jpg",
-        "Mikhail the Merkava/13.jpg",
-        "Mikhail the Merkava/14.png",
-        "Mikhail the Merkava/15.png",
-        "Mikhail the Merkava/16.png",
-        "Mikhail the Merkava/17.png",
-        "Mikhail the Merkava/18.jpg",
-        "Mikhail the Merkava/19.jpg",
-        "Mikhail the Merkava/20.jpg",
-        "Mikhail the Merkava/21.jpg",
-        "Mikhail the Merkava/22.jpg",
-        "Mikhail the Merkava/23.jpg"
+        {
+          "path": "Mikhail the Merkava/T.png"
+        },
+        {
+          "path": "Mikhail the Merkava/1.png"
+        },
+        {
+          "path": "Mikhail the Merkava/2.png"
+        },
+        {
+          "path": "Mikhail the Merkava/3.png"
+        },
+        {
+          "path": "Mikhail the Merkava/4.png"
+        },
+        {
+          "path": "Mikhail the Merkava/5.png"
+        },
+        {
+          "path": "Mikhail the Merkava/6.png"
+        },
+        {
+          "path": "Mikhail the Merkava/7.png"
+        },
+        {
+          "path": "Mikhail the Merkava/8.jpg"
+        },
+        {
+          "path": "Mikhail the Merkava/9.jpg"
+        },
+        {
+          "path": "Mikhail the Merkava/11.png"
+        },
+        {
+          "path": "Mikhail the Merkava/12.jpg"
+        },
+        {
+          "path": "Mikhail the Merkava/13.jpg"
+        },
+        {
+          "path": "Mikhail the Merkava/14.png"
+        },
+        {
+          "path": "Mikhail the Merkava/15.png"
+        },
+        {
+          "path": "Mikhail the Merkava/16.png"
+        },
+        {
+          "path": "Mikhail the Merkava/17.png"
+        },
+        {
+          "path": "Mikhail the Merkava/18.jpg"
+        },
+        {
+          "path": "Mikhail the Merkava/19.jpg"
+        },
+        {
+          "path": "Mikhail the Merkava/20.jpg"
+        },
+        {
+          "path": "Mikhail the Merkava/21.jpg"
+        },
+        {
+          "path": "Mikhail the Merkava/22.jpg"
+        },
+        {
+          "path": "Mikhail the Merkava/23.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Mikhail the Merkava/R1.png",
-        "Mikhail the Merkava/R2.png",
-        "Mikhail the Merkava/R3.png"
+        {
+          "path": "Mikhail the Merkava/R1.png"
+        },
+        {
+          "path": "Mikhail the Merkava/R2.png"
+        },
+        {
+          "path": "Mikhail the Merkava/R3.png"
+        }
       ],
       "outdated": true
     },
@@ -996,10 +1446,14 @@
       "name": "Quarter the Interceptor",
       "model": "2020 Ford Police IU",
       "galleryImagePaths": [
-        "Quarter the Interceptor/T.png"
+        {
+          "path": "Quarter the Interceptor/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Quarter the Interceptor/R1.png"
+        {
+          "path": "Quarter the Interceptor/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1008,13 +1462,23 @@
       "name": "Col. Corando the Corando",
       "model": "Ssangyong Corando",
       "galleryImagePaths": [
-        "Col. Corando the Corando/T.png",
-        "Col. Corando the Corando/1.png",
-        "Col. Corando the Corando/2.png",
-        "Col. Corando the Corando/3.jpg"
+        {
+          "path": "Col. Corando the Corando/T.png"
+        },
+        {
+          "path": "Col. Corando the Corando/1.png"
+        },
+        {
+          "path": "Col. Corando the Corando/2.png"
+        },
+        {
+          "path": "Col. Corando the Corando/3.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Col. Corando the Corando/R1.png"
+        {
+          "path": "Col. Corando the Corando/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1022,19 +1486,26 @@
       "creator": "Félix Auréle",
       "name": "Artyom the Crocodile",
       "model": "Kraz 255 Crocodile",
-      "description":"Heavy truck with an anti-aircraft system installed on it, tasked with protecting the skies above Monolith strongholds and bases Commands the Granite-4 Anti Aircraft squad, and is the love interest of Mikhaik Has two AA guns and a radar backpack with missile launchers",
+      "description": "Heavy truck with an anti-aircraft system installed on it, tasked with protecting the skies above Monolith strongholds and bases Commands the Granite-4 Anti Aircraft squad, and is the love interest of Mikhaik Has two AA guns and a radar backpack with missile launchers",
       "crewmate": "Kalin",
       "faction": "Monolith",
       "weight": 25000,
       "height": 5,
       "galleryImagePaths": [
-        "Artyom the Crocodile/T.png"
+        {
+          "path": "Artyom the Crocodile/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Artyom the Crocodile/R1.jpg",
-        "Artyom the Crocodile/R2.jpg",
-        "Artyom the Crocodile/R3.jpg"
-        
+        {
+          "path": "Artyom the Crocodile/R1.jpg"
+        },
+        {
+          "path": "Artyom the Crocodile/R2.jpg"
+        },
+        {
+          "path": "Artyom the Crocodile/R3.jpg"
+        }
       ],
       "outdated": false
     },
@@ -1043,10 +1514,14 @@
       "name": "Tumi the Stealth Tank",
       "model": "PL-01 Concept",
       "galleryImagePaths": [
-        "Tumi the Stealth Tank/T.png"
+        {
+          "path": "Tumi the Stealth Tank/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Tumi the Stealth Tank/R1.png"
+        {
+          "path": "Tumi the Stealth Tank/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1055,10 +1530,14 @@
       "name": "Dvoika the Derivatsiya",
       "model": "2C38 Derivatsiya-PVO",
       "galleryImagePaths": [
-        "Dvoika the Derivatsiya/T.png"
+        {
+          "path": "Dvoika the Derivatsiya/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Dvoika the Derivatsiya/R1.png"
+        {
+          "path": "Dvoika the Derivatsiya/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1067,10 +1546,14 @@
       "name": "Sheka the Tor",
       "model": "9K330 Tor M-2",
       "galleryImagePaths": [
-        "Sheka the Tor/T.png"
+        {
+          "path": "Sheka the Tor/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Sheka the Tor/R1.png"
+        {
+          "path": "Sheka the Tor/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1089,12 +1572,20 @@
         }
       ],
       "galleryImagePaths": [
-        "Jackie the Humvee/T.png",
-        "Jackie the Humvee/1.jpg",
-        "Jackie the Humvee/2.png"
+        {
+          "path": "Jackie the Humvee/T.png"
+        },
+        {
+          "path": "Jackie the Humvee/1.jpg"
+        },
+        {
+          "path": "Jackie the Humvee/2.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Jackie the Humvee/R1.png"
+        {
+          "path": "Jackie the Humvee/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -1103,10 +1594,14 @@
       "name": "Umbra the SHT",
       "model": "T-28 Super heavy tank",
       "galleryImagePaths": [
-        "Umbra the SHT/T.png"
+        {
+          "path": "Umbra the SHT/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Umbra the SHT/R1.png"
+        {
+          "path": "Umbra the SHT/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1115,10 +1610,14 @@
       "name": "Ceasar the NGA trains",
       "model": "Next Gen Acela Train",
       "galleryImagePaths": [
-        "Ceasar the NGA trains/T.png"
+        {
+          "path": "Ceasar the NGA trains/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Ceasar the NGA trains/R1.png"
+        {
+          "path": "Ceasar the NGA trains/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1127,11 +1626,17 @@
       "name": "Hondo the Bearcat",
       "model": "Lendo Bearcat",
       "galleryImagePaths": [
-        "Hondo the Bearcat/T.png"
+        {
+          "path": "Hondo the Bearcat/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Hondo the Bearcat/R1.png",
-        "Hondo the Bearcat/R2.jpg"
+        {
+          "path": "Hondo the Bearcat/R1.png"
+        },
+        {
+          "path": "Hondo the Bearcat/R2.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1140,10 +1645,14 @@
       "name": "Raiko the Ratte",
       "model": "P-1000 Ratte",
       "galleryImagePaths": [
-        "Raiko the Latte/T.png"
+        {
+          "path": "Raiko the Latte/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Raiko the Latte/R1.png"
+        {
+          "path": "Raiko the Latte/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1152,10 +1661,14 @@
       "name": "Flynn the ADATS",
       "model": "MIM-146 ADATS",
       "galleryImagePaths": [
-        "Flynn the ADATS/T.png"
+        {
+          "path": "Flynn the ADATS/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Flynn the ADATS/R1.png"
+        {
+          "path": "Flynn the ADATS/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1164,10 +1677,14 @@
       "name": "Milo the Spyder",
       "model": "SPYDER AIO",
       "galleryImagePaths": [
-        "Milo the Spyder/T.png"
+        {
+          "path": "Milo the Spyder/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Milo the Spyder/R1.png"
+        {
+          "path": "Milo the Spyder/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1176,11 +1693,17 @@
       "name": "Acting Captain Tai",
       "model": "Honda ST1300PA",
       "galleryImagePaths": [
-        "Acting Captain Tai/T.png",
-        "Acting Captain Tai/1.png"
+        {
+          "path": "Acting Captain Tai/T.png"
+        },
+        {
+          "path": "Acting Captain Tai/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Acting Captain Tai/R1.png"
+        {
+          "path": "Acting Captain Tai/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -1189,10 +1712,14 @@
       "name": "Justice the AbramsX",
       "model": "Abrams X",
       "galleryImagePaths": [
-        "Justice the AbramsX/T.png"
+        {
+          "path": "Justice the AbramsX/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Justice the AbramsX/R1.png"
+        {
+          "path": "Justice the AbramsX/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1201,10 +1728,14 @@
       "name": "Storm the I20 Coupe",
       "model": "Hyundai I20 Coupe",
       "galleryImagePaths": [
-        "Storm the I20 Coupe/T.png"
+        {
+          "path": "Storm the I20 Coupe/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Storm the I20 Coupe/R1.png"
+        {
+          "path": "Storm the I20 Coupe/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -1218,11 +1749,17 @@
       "weight": 124000,
       "height": 11,
       "galleryImagePaths": [
-        "Ghost the Karl-Gerat/T.png",
-        "Ghost the Karl-Gerat/1.png"
+        {
+          "path": "Ghost the Karl-Gerat/T.png"
+        },
+        {
+          "path": "Ghost the Karl-Gerat/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Ghost the Karl-Gerat/R1.png"
+        {
+          "path": "Ghost the Karl-Gerat/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -1231,10 +1768,14 @@
       "name": "Onus the forklift",
       "model": "Military forklift etc.",
       "galleryImagePaths": [
-        "Onus the forklift/T.png"
+        {
+          "path": "Onus the forklift/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Onus the forklift/R1.png"
+        {
+          "path": "Onus the forklift/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1243,10 +1784,14 @@
       "name": "Segurant the Armored Car",
       "model": "Fordson Armored Car",
       "galleryImagePaths": [
-        "Segurant the Armored Car/T.png"
+        {
+          "path": "Segurant the Armored Car/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Segurant the Armored Car/R1.jpg"
+        {
+          "path": "Segurant the Armored Car/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1255,10 +1800,14 @@
       "name": "Tailspin the Kugelpanzer",
       "model": "Kugelpanzer",
       "galleryImagePaths": [
-        "Tailspin the Kugelpanzer/T.png"
+        {
+          "path": "Tailspin the Kugelpanzer/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Tailspin the Kugelpanzer/R1.jpg"
+        {
+          "path": "Tailspin the Kugelpanzer/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1267,10 +1816,14 @@
       "name": "Circe the Clawtruck",
       "model": "Claw Truck etc.",
       "galleryImagePaths": [
-        "Circe the Clawtruck/T.png"
+        {
+          "path": "Circe the Clawtruck/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Circe the Clawtruck/R1.jpg"
+        {
+          "path": "Circe the Clawtruck/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1279,10 +1832,14 @@
       "name": "Snuffy the Tankette",
       "model": "TK-3 Tankette",
       "galleryImagePaths": [
-        "Snuffy the Tankette/T.png"
+        {
+          "path": "Snuffy the Tankette/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Snuffy the Tankette/R1.png"
+        {
+          "path": "Snuffy the Tankette/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1291,10 +1848,14 @@
       "name": "Duke the Comet",
       "model": "A34 Comet l",
       "galleryImagePaths": [
-        "Duke the Comet/T.png"
+        {
+          "path": "Duke the Comet/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Duke the Comet/R1.png"
+        {
+          "path": "Duke the Comet/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1303,10 +1864,14 @@
       "name": "Klime the KV-1",
       "model": "KV-1 (ZIS-5)",
       "galleryImagePaths": [
-        "Klime the KV-1/T.png"
+        {
+          "path": "Klime the KV-1/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Klime the KV-1/R1.png"
+        {
+          "path": "Klime the KV-1/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1315,10 +1880,14 @@
       "name": "Pion the Scorpion",
       "model": "M56 Scorpion SPATG",
       "galleryImagePaths": [
-        "Pion the Scorpion/T.png"
+        {
+          "path": "Pion the Scorpion/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Pion the Scorpion/R1.png"
+        {
+          "path": "Pion the Scorpion/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1327,11 +1896,17 @@
       "name": "Garen the Guarani",
       "model": "VBTP-MR Guarani",
       "galleryImagePaths": [
-        "Garen the Guarani/T.png"
+        {
+          "path": "Garen the Guarani/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Garen the Guarani/R1.png",
-        "Garen the Guarani/R2.png"
+        {
+          "path": "Garen the Guarani/R1.png"
+        },
+        {
+          "path": "Garen the Guarani/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -1340,10 +1915,14 @@
       "name": "Nascimento the Zeus",
       "model": "VBTP-MR Guarani",
       "galleryImagePaths": [
-        "Nascimento the Zeus/T.png"
+        {
+          "path": "Nascimento the Zeus/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Nascimento the Zeus/R1.png"
+        {
+          "path": "Nascimento the Zeus/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1352,10 +1931,14 @@
       "name": "Aurelia the Semovente",
       "model": "Semovente Da 75/18",
       "galleryImagePaths": [
-        "Aurelia the Semovente/T.png"
+        {
+          "path": "Aurelia the Semovente/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Aurelia the Semovente/R1.png"
+        {
+          "path": "Aurelia the Semovente/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1364,10 +1947,14 @@
       "name": "Tavor the Steel Monster",
       "model": "T30 Heavy tank",
       "galleryImagePaths": [
-        "Tavor the Steel Monster/T.png"
+        {
+          "path": "Tavor the Steel Monster/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Tavor the Steel Monster/R1.png"
+        {
+          "path": "Tavor the Steel Monster/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1376,12 +1963,20 @@
       "name": "Reiko the Closed Arrow",
       "model": "Type 93 Closed Arrow",
       "galleryImagePaths": [
-        "Reiko the Closed Arrow/T.png"
+        {
+          "path": "Reiko the Closed Arrow/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Reiko the Closed Arrow/R1.png",
-        "Reiko the Closed Arrow/R2.png",
-        "Reiko the Closed Arrow/R3.png"
+        {
+          "path": "Reiko the Closed Arrow/R1.png"
+        },
+        {
+          "path": "Reiko the Closed Arrow/R2.png"
+        },
+        {
+          "path": "Reiko the Closed Arrow/R3.png"
+        }
       ],
       "outdated": true
     },
@@ -1390,11 +1985,17 @@
       "name": "Valorie the Autoblinda",
       "model": "FIAT AUBL/74 ",
       "galleryImagePaths": [
-        "Valorie the Autoblinda/T.png"
+        {
+          "path": "Valorie the Autoblinda/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Valorie the Autoblinda/R1.png",
-        "Valorie the Autoblinda/R2.png"
+        {
+          "path": "Valorie the Autoblinda/R1.png"
+        },
+        {
+          "path": "Valorie the Autoblinda/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -1406,12 +2007,20 @@
       "crewmate": "Unknown",
       "faction": "Sweden",
       "galleryImagePaths": [
-        "Aura the Mjölner/T.png",
-        "Aura the Mjölner/1.png",
-        "Aura the Mjölner/2.png"
+        {
+          "path": "Aura the Mjölner/T.png"
+        },
+        {
+          "path": "Aura the Mjölner/1.png"
+        },
+        {
+          "path": "Aura the Mjölner/2.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Aura the Mjölner/R1.png"
+        {
+          "path": "Aura the Mjölner/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1420,10 +2029,14 @@
       "name": "Kita the Type 89",
       "model": "Type 89 I - Go",
       "galleryImagePaths": [
-        "Kita the Type 89/T.png"
+        {
+          "path": "Kita the Type 89/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Kita the Type 89/R1.png"
+        {
+          "path": "Kita the Type 89/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1432,10 +2045,14 @@
       "name": "Schmidt the Marder lll",
       "model": "Marder III ausf H",
       "galleryImagePaths": [
-        "Schmidt the Marder lll/T.png"
+        {
+          "path": "Schmidt the Marder lll/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Schmidt the Marder lll/R1.png"
+        {
+          "path": "Schmidt the Marder lll/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1444,10 +2061,14 @@
       "name": "Felo the Blazer",
       "model": "Chevrolet Blazer EV Police Pursuit Vehicle",
       "galleryImagePaths": [
-        "Felo the Blazer/T.png"
+        {
+          "path": "Felo the Blazer/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Felo the Blazer/R1.jpg"
+        {
+          "path": "Felo the Blazer/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1456,10 +2077,14 @@
       "name": "Wilder BV 206",
       "model": "BV 206 (RaBv 2061)",
       "galleryImagePaths": [
-        "Wilder the BV 206/T.png"
+        {
+          "path": "Wilder the BV 206/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Wilder the BV 206/R1.png"
+        {
+          "path": "Wilder the BV 206/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1468,11 +2093,17 @@
       "name": "G.E.N.I the Scissor lift",
       "model": "Diesel Scissor Lift etc.",
       "galleryImagePaths": [
-        "G.E.N.I the Scissor lift/T.png"
+        {
+          "path": "G.E.N.I the Scissor lift/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "G.E.N.I the Scissor lift/R1.png",
-        "G.E.N.I the Scissor lift/R2.png"
+        {
+          "path": "G.E.N.I the Scissor lift/R1.png"
+        },
+        {
+          "path": "G.E.N.I the Scissor lift/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -1481,10 +2112,14 @@
       "name": "Sieghardt the Stug IV",
       "model": "Sturmgeschütz IV",
       "galleryImagePaths": [
-        "Sieghardt the Stug IV/T.png"
+        {
+          "path": "Sieghardt the Stug IV/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Sieghardt the Stug IV/R1.png"
+        {
+          "path": "Sieghardt the Stug IV/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1493,10 +2128,14 @@
       "name": "Yan the Sapozhok",
       "model": "T-26",
       "galleryImagePaths": [
-        "Yan the Sapozhok/T.png"
+        {
+          "path": "Yan the Sapozhok/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Yan the Sapozhok/R1.png"
+        {
+          "path": "Yan the Sapozhok/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1505,10 +2144,14 @@
       "name": "Gab the ST-A3",
       "model": "ST-A3 MBT",
       "galleryImagePaths": [
-        "Gab the ST-A3/T.png"
+        {
+          "path": "Gab the ST-A3/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Gab the ST-A3/R1.jpg"
+        {
+          "path": "Gab the ST-A3/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1517,10 +2160,14 @@
       "name": "D1RTY BOM3 the Leclerc",
       "model": "AMX Leclerc MBT",
       "galleryImagePaths": [
-        "D1RTY BOM3 the Leclerc/T.jpg"
+        {
+          "path": "D1RTY BOM3 the Leclerc/T.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "D1RTY BOM3 the Leclerc/R1.jpg"
+        {
+          "path": "D1RTY BOM3 the Leclerc/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1529,12 +2176,20 @@
       "name": "Brady the Bradley",
       "model": "M3 Bradley CFV",
       "galleryImagePaths": [
-        "Brady the Bradley/T.png"
+        {
+          "path": "Brady the Bradley/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Brady the Bradley/R1.png",
-        "Brady the Bradley/R2.png",
-        "Brady the Bradley/R3.jpg"
+        {
+          "path": "Brady the Bradley/R1.png"
+        },
+        {
+          "path": "Brady the Bradley/R2.png"
+        },
+        {
+          "path": "Brady the Bradley/R3.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1543,10 +2198,14 @@
       "name": "Six-seven the Super Pershing",
       "model": "T26E1-1 Super Pershing",
       "galleryImagePaths": [
-        "Six-seven the Super Pershing/T.png"
+        {
+          "path": "Six-seven the Super Pershing/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Six-seven the Super Pershing/R1.png"
+        {
+          "path": "Six-seven the Super Pershing/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1574,13 +2233,23 @@
         }
       ],
       "galleryImagePaths": [
-        "Leonard the Alpine Hammer/T.png",
-        "Leonard the Alpine Hammer/1.jpg",
-        "Leonard the Alpine Hammer/2.jpg",
-        "Leonard the Alpine Hammer/3.jpg"
+        {
+          "path": "Leonard the Alpine Hammer/T.png"
+        },
+        {
+          "path": "Leonard the Alpine Hammer/1.jpg"
+        },
+        {
+          "path": "Leonard the Alpine Hammer/2.jpg"
+        },
+        {
+          "path": "Leonard the Alpine Hammer/3.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Leonard the Alpine Hammer/R1.png"
+        {
+          "path": "Leonard the Alpine Hammer/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1589,10 +2258,14 @@
       "name": "Town the Commando",
       "model": "V-150 Commando",
       "galleryImagePaths": [
-        "Town the Commando/T.png"
+        {
+          "path": "Town the Commando/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Town the Commando/R1.png"
+        {
+          "path": "Town the Commando/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1600,13 +2273,17 @@
       "creator": "Whisk",
       "name": "Natasha the T-90A",
       "model": "T-90A Vladimir",
-      "faction":"N/A",
-      "crewmate":"N/A",
+      "faction": "N/A",
+      "crewmate": "N/A",
       "galleryImagePaths": [
-        "Natasha the T-90A/T.png"
+        {
+          "path": "Natasha the T-90A/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Natasha the T-90A/R1.png"
+        {
+          "path": "Natasha the T-90A/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1614,13 +2291,17 @@
       "creator": "Whisk",
       "name": "Tavor the M-ATV",
       "model": "MRAP All-Terrain Vehicle",
-      "faction":"N/A",
-      "crewmate":"N/A",
+      "faction": "N/A",
+      "crewmate": "N/A",
       "galleryImagePaths": [
-        "Tavor the M-ATV/T.png"
+        {
+          "path": "Tavor the M-ATV/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Tavor the M-ATV/R1.png"
+        {
+          "path": "Tavor the M-ATV/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1629,16 +2310,22 @@
       "name": "Komarek the 59034",
       "model": "BTR-80A",
       "description": "Komareks purpose is to Transport Ground forces safely whilst also providing Covering fire with the Turret that is mounted on the gun. which fires 30MM rounds. She has 2 wheels on each leg that she can deploy if needed to traverse the area faster instead of walking..\n\nKomarek has quite an excited personality to say the least. and she also has quite the ego. often Boasting about herself whenever she can. mainly when shes alone. around others her mood significantly changes to a more friendly one. but also quite firm.\n\nwhen off duty shes often quite lazy. preferring to nap for hours on end.",
-      "faction":"N/A",
-      "crewmate":"N/A",
-      "weight":14500,
-      "height":7.7,
+      "faction": "N/A",
+      "crewmate": "N/A",
+      "weight": 14500,
+      "height": 7.7,
       "galleryImagePaths": [
-        "Komarek the 59034/T.png"
+        {
+          "path": "Komarek the 59034/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Komarek the 59034/R1.png",
-        "Komarek the 59034/R2.png"
+        {
+          "path": "Komarek the 59034/R1.png"
+        },
+        {
+          "path": "Komarek the 59034/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -1647,10 +2334,14 @@
       "name": "Fel the Ferret",
       "model": "Ferret Armoured Car",
       "galleryImagePaths": [
-        "Fel the Ferret/T.png"
+        {
+          "path": "Fel the Ferret/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Fel the Ferret/R1.jpg"
+        {
+          "path": "Fel the Ferret/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1659,11 +2350,17 @@
       "name": "Maru the Landship",
       "model": "Mark IV Heavy Tank",
       "galleryImagePaths": [
-        "Maru the Landship/T.png"
+        {
+          "path": "Maru the Landship/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Maru the Landship/R1.png",
-        "Maru the Landship/R2.jpg"
+        {
+          "path": "Maru the Landship/R1.png"
+        },
+        {
+          "path": "Maru the Landship/R2.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1672,10 +2369,14 @@
       "name": "Linnaeus the Lago",
       "model": "Stridsvagn m/42 EH Lago",
       "galleryImagePaths": [
-        "Linnaeus the Lago/T.png"
+        {
+          "path": "Linnaeus the Lago/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Linnaeus the Lago/R1.png"
+        {
+          "path": "Linnaeus the Lago/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1698,10 +2399,14 @@
         }
       ],
       "galleryImagePaths": [
-        "Rex the Chase rig/T.png"
+        {
+          "path": "Rex the Chase rig/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Rex the Chase rig/R1.png"
+        {
+          "path": "Rex the Chase rig/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1732,10 +2437,14 @@
         }
       ],
       "galleryImagePaths": [
-        "Avalanche the Explorer/T.png"
+        {
+          "path": "Avalanche the Explorer/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Avalanche the Explorer/R1.png"
+        {
+          "path": "Avalanche the Explorer/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1744,10 +2453,14 @@
       "name": "CV90120-T the CV90120-T",
       "model": "CV90120-T",
       "galleryImagePaths": [
-        "CV90120-T the CV90120-T/T.png"
+        {
+          "path": "CV90120-T the CV90120-T/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "CV90120-T the CV90120-T/R1.png"
+        {
+          "path": "CV90120-T the CV90120-T/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1756,10 +2469,14 @@
       "name": "Nergal",
       "model": "Heavily Modified Vehicle etc.",
       "galleryImagePaths": [
-        "Nergal/T.png"
+        {
+          "path": "Nergal/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Nergal/R1.jpg"
+        {
+          "path": "Nergal/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1768,10 +2485,14 @@
       "name": "Kyda Byte the Krab",
       "model": "AHS Krab",
       "galleryImagePaths": [
-        "Kyda Byte the Krab/T.png"
+        {
+          "path": "Kyda Byte the Krab/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Kyda Byte the Krab/R1.jpg"
+        {
+          "path": "Kyda Byte the Krab/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1780,10 +2501,14 @@
       "name": "Taiyo the Chi-nu",
       "model": "Type 3 Chi-nu",
       "galleryImagePaths": [
-        "Taiyo the Chi-nu/T.png"
+        {
+          "path": "Taiyo the Chi-nu/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Taiyo the Chi-nu/R1.png"
+        {
+          "path": "Taiyo the Chi-nu/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1792,12 +2517,20 @@
       "name": "Vista the Wasp",
       "model": "9k33 OSA-AKM-P1",
       "galleryImagePaths": [
-        "Vista the Wasp/T.png",
-        "Vista the Wasp/1.png"
+        {
+          "path": "Vista the Wasp/T.png"
+        },
+        {
+          "path": "Vista the Wasp/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Vista the Wasp/R1.jpg",
-        "Vista the Wasp/R2.png"
+        {
+          "path": "Vista the Wasp/R1.jpg"
+        },
+        {
+          "path": "Vista the Wasp/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -1806,10 +2539,14 @@
       "name": "Kazimierz the Lynx",
       "model": "KF41 Lynx",
       "galleryImagePaths": [
-        "Kazimierz the Lynx/T.png"
+        {
+          "path": "Kazimierz the Lynx/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Kazimierz the Lynx/R1.png"
+        {
+          "path": "Kazimierz the Lynx/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1823,16 +2560,32 @@
       "weight": 35000,
       "height": 6.8,
       "galleryImagePaths": [
-        "Sniper Fox the Paladin/T.png",
-        "Sniper Fox the Paladin/1.png",
-        "Sniper Fox the Paladin/2.png",
-        "Sniper Fox the Paladin/3.png",
-        "Sniper Fox the Paladin/4.png",
-        "Sniper Fox the Paladin/5.png"
+        {
+          "path": "Sniper Fox the Paladin/T.png"
+        },
+        {
+          "path": "Sniper Fox the Paladin/1.png"
+        },
+        {
+          "path": "Sniper Fox the Paladin/2.png"
+        },
+        {
+          "path": "Sniper Fox the Paladin/3.png"
+        },
+        {
+          "path": "Sniper Fox the Paladin/4.png"
+        },
+        {
+          "path": "Sniper Fox the Paladin/5.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Sniper Fox the Paladin/R1.png",
-        "Sniper Fox the Paladin/R2.png"
+        {
+          "path": "Sniper Fox the Paladin/R1.png"
+        },
+        {
+          "path": "Sniper Fox the Paladin/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -1846,17 +2599,23 @@
       "weight": 214,
       "height": 1.83,
       "galleryImagePaths": [
-        "Scout Wolf the NC750X/T.png",
-        "Scout Wolf the NC750X/1.png"
+        {
+          "path": "Scout Wolf the NC750X/T.png"
+        },
+        {
+          "path": "Scout Wolf the NC750X/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Scout Wolf the NC750X/R1.png"
+        {
+          "path": "Scout Wolf the NC750X/R1.png"
+        }
       ],
       "stories": [
-      { 
-        "title": "REC_LOG_16-INTERNAL SECURITY CHANNEL",
-        "path": "Scout Wolf the NC750X/stories/REC_LOG_16-INTERNAL SECURITY CHANNEL.txt"
-      }
+        {
+          "title": "REC_LOG_16-INTERNAL SECURITY CHANNEL",
+          "path": "Scout Wolf the NC750X/stories/REC_LOG_16-INTERNAL SECURITY CHANNEL.txt"
+        }
       ],
       "outdated": true
     },
@@ -1870,11 +2629,17 @@
       "weight": 13364,
       "height": 15,
       "galleryImagePaths": [
-        "Lynx the Pháo Tự Hành/T.png"
+        {
+          "path": "Lynx the Pháo Tự Hành/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Lynx the Pháo Tự Hành/R1.png",
-        "Lynx the Pháo Tự Hành/R2.png"
+        {
+          "path": "Lynx the Pháo Tự Hành/R1.png"
+        },
+        {
+          "path": "Lynx the Pháo Tự Hành/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -1883,11 +2648,17 @@
       "name": "Bandit the Bushmaster",
       "model": "Bushmaster PMV",
       "galleryImagePaths": [
-        "Bandit the Bushmaster/T.png"
+        {
+          "path": "Bandit the Bushmaster/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Bandit the Bushmaster/R1.png",
-        "Bandit the Bushmaster/R2.png"
+        {
+          "path": "Bandit the Bushmaster/R1.png"
+        },
+        {
+          "path": "Bandit the Bushmaster/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -1896,10 +2667,14 @@
       "name": "Warden the TIV2",
       "model": "Tornade Intercept Vehicle 2",
       "galleryImagePaths": [
-        "Warden the TIV2/T.png"
+        {
+          "path": "Warden the TIV2/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Warden the TIV2/R1.jpg"
+        {
+          "path": "Warden the TIV2/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -1908,10 +2683,14 @@
       "name": "Shineray the Super-Comet",
       "model": "380 Super-Comet (CASE 580SN)",
       "galleryImagePaths": [
-        "Shineray the Super-Comet/T.png"
+        {
+          "path": "Shineray the Super-Comet/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Shineray the Super-Comet/R1.png"
+        {
+          "path": "Shineray the Super-Comet/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1920,11 +2699,17 @@
       "name": "Senior the Tracker",
       "model": "CARCO Tracker Long Range XL",
       "galleryImagePaths": [
-        "Senior the Tracker/T.png"
+        {
+          "path": "Senior the Tracker/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Senior the Tracker/R1.png",
-        "Senior the Tracker/R2.png"
+        {
+          "path": "Senior the Tracker/R1.png"
+        },
+        {
+          "path": "Senior the Tracker/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -1933,10 +2718,14 @@
       "name": "Leo the Lynx",
       "model": "Lynx 120 (KF41)",
       "galleryImagePaths": [
-        "Leo the Lynx/T.png"
+        {
+          "path": "Leo the Lynx/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Leo the Lynx/R1.png"
+        {
+          "path": "Leo the Lynx/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1945,10 +2734,14 @@
       "name": "Catt the CATTB",
       "model": "CATTB",
       "galleryImagePaths": [
-        "Catt the CATTB/T.png"
+        {
+          "path": "Catt the CATTB/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Catt the CATTB/R1.png"
+        {
+          "path": "Catt the CATTB/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1957,10 +2750,14 @@
       "name": "Mastodon the Monster",
       "model": "MAZ-7310 Cargo Monster",
       "galleryImagePaths": [
-        "Mastodon the Monster/T.png"
+        {
+          "path": "Mastodon the Monster/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Mastodon the Monster/R1.png"
+        {
+          "path": "Mastodon the Monster/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1969,10 +2766,14 @@
       "name": "Sen-J the Gavin",
       "model": "M113A1 ZU-23",
       "galleryImagePaths": [
-        "Sen-J the Gavin/T.png"
+        {
+          "path": "Sen-J the Gavin/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Sen-J the Gavin/R1.png"
+        {
+          "path": "Sen-J the Gavin/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1981,10 +2782,14 @@
       "name": "Bx3 the Abrams",
       "model": "M1 Abrams",
       "galleryImagePaths": [
-        "Bx3 the Abrams/T.png"
+        {
+          "path": "Bx3 the Abrams/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Bx3 the Abrams/R1.png"
+        {
+          "path": "Bx3 the Abrams/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -1993,10 +2798,14 @@
       "name": "Mudcat the Lilla Stridsvagn",
       "model": "Ikv 91 Light tank",
       "galleryImagePaths": [
-        "Mudcat the Lilla Stridsvagn/T.png"
+        {
+          "path": "Mudcat the Lilla Stridsvagn/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Mudcat the Lilla Stridsvagn/R1.png"
+        {
+          "path": "Mudcat the Lilla Stridsvagn/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -2005,10 +2814,14 @@
       "name": "Cayden the EMBT",
       "model": "European Main Battle Tank",
       "galleryImagePaths": [
-        "Cayden the EMBT/T.png"
+        {
+          "path": "Cayden the EMBT/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Cayden the EMBT/R1.png"
+        {
+          "path": "Cayden the EMBT/R1.png"
+        }
       ],
       "outdated": true
     },
@@ -2017,10 +2830,14 @@
       "name": "Zeus the Barracuda",
       "model": "TM-170 Barracuda",
       "galleryImagePaths": [
-        "Zeus the Barracuda/T.jpg"
+        {
+          "path": "Zeus the Barracuda/T.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Zeus the Barracuda/R1.jpg"
+        {
+          "path": "Zeus the Barracuda/R1.jpg"
+        }
       ],
       "outdated": true
     },
@@ -2048,10 +2865,14 @@
         }
       ],
       "galleryImagePaths": [
-        "Scar the Abrams X/T.png"
+        {
+          "path": "Scar the Abrams X/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Scar the Abrams X/R1.png"
+        {
+          "path": "Scar the Abrams X/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2060,14 +2881,26 @@
       "name": "Vex the APC",
       "model": "900HP DE APC (OF)",
       "galleryImagePaths": [
-        "Vex the APC/T.png",
-        "Vex the APC/1.png",
-        "Vex the APC/2.jpg"
+        {
+          "path": "Vex the APC/T.png"
+        },
+        {
+          "path": "Vex the APC/1.png"
+        },
+        {
+          "path": "Vex the APC/2.jpg"
+        }
       ],
       "referenceSheetsPath": [
-        "Vex the APC/R1.jpg",
-        "Vex the APC/R2.jpg",
-        "Vex the APC/R3.jpg"
+        {
+          "path": "Vex the APC/R1.jpg"
+        },
+        {
+          "path": "Vex the APC/R2.jpg"
+        },
+        {
+          "path": "Vex the APC/R3.jpg"
+        }
       ],
       "outdated": true
     },
@@ -2075,7 +2908,7 @@
       "creator": "KatarIK",
       "name": "Kiwi the XM800T",
       "model": "XM800T",
-      "description":"",
+      "description": "",
       "crewmate": "Midori",
       "faction": "MST-K",
       "weight": 840,
@@ -2099,11 +2932,17 @@
         }
       ],
       "galleryImagePaths": [
-        "Kiwi the XM800T/T.png"
+        {
+          "path": "Kiwi the XM800T/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Kiwi the XM800T/R1.png",
-        "Kiwi the XM800T/R2.png"
+        {
+          "path": "Kiwi the XM800T/R1.png"
+        },
+        {
+          "path": "Kiwi the XM800T/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -2111,16 +2950,20 @@
       "creator": "Espero",
       "name": "Duban the Yuk-gong",
       "model": "K-511A1 2½-ton truck",
-      "description":"This cat is an unarmed military transport vehicle developed for the Republic of Korea Armed Forces for personnel and material transport. Equipped with a simple powertrain, it can carry a backpack-style cargo bed or tow a carrier-style trailer for transport. It is equipped with basic lighting equipment for use on civilian roads. It can travel at a maximum speed of 86 km/h, can accommodate up to 20 passengers, and can carry up to 4 tons in its cargo hold. Its maximum gradeability is 60 degrees and its range is 530 km. A bonnet is attached to the chest for easy maintenance.",
+      "description": "This cat is an unarmed military transport vehicle developed for the Republic of Korea Armed Forces for personnel and material transport. Equipped with a simple powertrain, it can carry a backpack-style cargo bed or tow a carrier-style trailer for transport. It is equipped with basic lighting equipment for use on civilian roads. It can travel at a maximum speed of 86 km/h, can accommodate up to 20 passengers, and can carry up to 4 tons in its cargo hold. Its maximum gradeability is 60 degrees and its range is 530 km. A bonnet is attached to the chest for easy maintenance.",
       "crewmate": "N/A",
       "faction": "ROK",
       "weight": 5790,
       "height": 6.7,
       "galleryImagePaths": [
-        "Duban the Yuk-gong/T.png"
+        {
+          "path": "Duban the Yuk-gong/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Duban the Yuk-gong/R1.jpg"
+        {
+          "path": "Duban the Yuk-gong/R1.jpg"
+        }
       ],
       "outdated": false
     },
@@ -2128,17 +2971,23 @@
       "creator": "Cernunnos",
       "name": "Cernunnos the PZH 2000",
       "model": "PZH 2000",
-      "description":"A landcat that anyone could trust, just a silly artillery-thing that has a cute smile and is described as 'too kind for his own good'. He absolutely loves protos, choosing to have them assist him instead of a crew-mate. But all of that is outside of combat. He is still a ruthless murderer, the 155mm sniper rifle he uses being a tool of destruction unmatched by any.\n\nno AI, only has protos assisting (backpack MG)",
+      "description": "A landcat that anyone could trust, just a silly artillery-thing that has a cute smile and is described as 'too kind for his own good'. He absolutely loves protos, choosing to have them assist him instead of a crew-mate. But all of that is outside of combat. He is still a ruthless murderer, the 155mm sniper rifle he uses being a tool of destruction unmatched by any.\n\nno AI, only has protos assisting (backpack MG)",
       "crewmate": "N/A",
       "faction": "Unknown",
       "weight": 5700,
       "height": 12,
       "galleryImagePaths": [
-        "Cernunnos the PZH 2000/T.png"
+        {
+          "path": "Cernunnos the PZH 2000/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Cernunnos the PZH 2000/R1.png",
-        "Cernunnos the PZH 2000/R2.png"
+        {
+          "path": "Cernunnos the PZH 2000/R1.png"
+        },
+        {
+          "path": "Cernunnos the PZH 2000/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -2146,15 +2995,21 @@
       "creator": "Fishe",
       "name": "Outrider the Bradley",
       "model": "M3A3 Bradley",
-      "description":"Outrider is a scouting landcat that often finds themselves observing from afar. Very friendly with the protos they're in touch with, they will do their best to pave the safest way available for their team. Outrider won't attempt to engage in a fight alone, but if necessary, they have their 25mm bushmaster and head mounted tows to support the situation",
+      "description": "Outrider is a scouting landcat that often finds themselves observing from afar. Very friendly with the protos they're in touch with, they will do their best to pave the safest way available for their team. Outrider won't attempt to engage in a fight alone, but if necessary, they have their 25mm bushmaster and head mounted tows to support the situation",
       "crewmate": "Vigil",
       "faction": "Unknown",
       "galleryImagePaths": [
-        "Outrider the Bradley/T.png"
+        {
+          "path": "Outrider the Bradley/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Outrider the Bradley/R1.png",
-        "Outrider the Bradley/R2.png"
+        {
+          "path": "Outrider the Bradley/R1.png"
+        },
+        {
+          "path": "Outrider the Bradley/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -2162,17 +3017,23 @@
       "creator": "Redbnr",
       "name": "Soap the Supacat",
       "model": "Supacat 6x6 MUV",
-      "description":"The vehicle is provided for infantry support and supplying. It has backpack-style cargo container supposed to carry light and medium infantry supply as: ammunition for infantry firearm, Light and Heavy machineguns ammo, mortar grenades and separated infantry mortars needed to be installed after. His backpack system has a flat bed behind with belt system to carry extra containers in cost of his mobility.\nHas one searchlight as his headgear and eye-protection visor.\nCan travel at maximum speed of 78 km/h and can carry up to 1,8 tons in its cargo containers (2,2 tons with additional storage). Without refueling his travel range is 960 km\nHas a 12.7mm M2/249 Browning (Fictional) as infantry support weapon. Not able to be main assault unit due to his weak armor and heavy weapon, provides only a support role in combat",
+      "description": "The vehicle is provided for infantry support and supplying. It has backpack-style cargo container supposed to carry light and medium infantry supply as: ammunition for infantry firearm, Light and Heavy machineguns ammo, mortar grenades and separated infantry mortars needed to be installed after. His backpack system has a flat bed behind with belt system to carry extra containers in cost of his mobility.\nHas one searchlight as his headgear and eye-protection visor.\nCan travel at maximum speed of 78 km/h and can carry up to 1,8 tons in its cargo containers (2,2 tons with additional storage). Without refueling his travel range is 960 km\nHas a 12.7mm M2/249 Browning (Fictional) as infantry support weapon. Not able to be main assault unit due to his weak armor and heavy weapon, provides only a support role in combat",
       "crewmate": "N/A",
       "faction": "South-Asian Expeditionary Forces",
       "weight": 2900,
       "height": 3.2,
       "galleryImagePaths": [
-        "Soap the Supacat/T.png",
-        "Soap the Supacat/1.png"
+        {
+          "path": "Soap the Supacat/T.png"
+        },
+        {
+          "path": "Soap the Supacat/1.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Soap the Supacat/R1.png"
+        {
+          "path": "Soap the Supacat/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2180,17 +3041,23 @@
       "creator": "Gale",
       "name": "Sglazka the Monarch",
       "model": "T-90 Monarch(OF)",
-      "description":"Sglazka is an experimental purpose modified CATS, serving as the platform to test various new electronic warfare measures in a combat chassis under the T-90 'Monarch' Project.\n\nSglazka is built almost 30% larger compared to a standard T-90, making for an imposing figure to spearhead assaults and provide support to their surrounding team. However, they make up for this with increased space for electronic countermeasures, weaponry and heavier armour.\n\nMovement is supported through the installation of enhanced actuators and mechanical assists akin to the IS-7. Numerous other non-standard modifications have been made, such as the addition of extra weaponry salvaged from closely related models, and the usage of a gas turbine engine over a diesel engine for superior power to weight and lower noise profile.\n\nSglazka is not a very common sight on the field, either by their own choice or circumstances of their usage. Their affiliation isn't concrete; private paramilitary company association suspected.\n\n\nAdditional Notes: As a project initially created prior to the guidelines update, I intend to register Sglazka under Legacy guidelines.",
+      "description": "Sglazka is an experimental purpose modified CATS, serving as the platform to test various new electronic warfare measures in a combat chassis under the T-90 'Monarch' Project.\n\nSglazka is built almost 30% larger compared to a standard T-90, making for an imposing figure to spearhead assaults and provide support to their surrounding team. However, they make up for this with increased space for electronic countermeasures, weaponry and heavier armour.\n\nMovement is supported through the installation of enhanced actuators and mechanical assists akin to the IS-7. Numerous other non-standard modifications have been made, such as the addition of extra weaponry salvaged from closely related models, and the usage of a gas turbine engine over a diesel engine for superior power to weight and lower noise profile.\n\nSglazka is not a very common sight on the field, either by their own choice or circumstances of their usage. Their affiliation isn't concrete; private paramilitary company association suspected.\n\n\nAdditional Notes: As a project initially created prior to the guidelines update, I intend to register Sglazka under Legacy guidelines.",
       "crewmate": "N/A",
       "faction": "Unknown",
       "weight": 65000,
       "height": 13,
       "galleryImagePaths": [
-        "Sglazka the Monarch/T.png"
+        {
+          "path": "Sglazka the Monarch/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Sglazka the Monarch/R1.png",
-        "Sglazka the Monarch/R2.png"
+        {
+          "path": "Sglazka the Monarch/R1.png"
+        },
+        {
+          "path": "Sglazka the Monarch/R2.png"
+        }
       ],
       "outdated": true
     },
@@ -2198,16 +3065,20 @@
       "creator": "Jagdtiger844",
       "name": "Erna the Jagdtiger",
       "model": "Jagdpanzer VI",
-      "description":"Erna is a Long-Range Anti-Tank Ambush Landcat. Taking hidden positions behind the Frontline, her powerful cannon allows here to eliminate key targets and support infantry. Often calm and collected under fire, she takes things quite slow, sometimes to the detriment to those around her. With an underpowered engine and absurd amount of armor/armament, she gets bogged down by the slightest difficulty in terrain, guzzling Dizero and taking hours to reposition. Once settled however, it takes nothing short of an ambush to take her down, able to break through most if not all armor she comes up against.\n\nDue to her basis, her original creators and occupation aren't known in detail, be it lost to time or simply for privacy. All that is known is that she has seen notable service before being withdrawn and eventually sold to a private company, one who weren't too bothered by her tendency to deplete fuel reserves and keep allies waiting. Now relegated to mercenary work under Delta Industries' C.A.T.S Division, operations are regular and far-reaching, as much as she groans about having to move around so much.\n\nWhen armed, it weighs 40 tons.",
+      "description": "Erna is a Long-Range Anti-Tank Ambush Landcat. Taking hidden positions behind the Frontline, her powerful cannon allows here to eliminate key targets and support infantry. Often calm and collected under fire, she takes things quite slow, sometimes to the detriment to those around her. With an underpowered engine and absurd amount of armor/armament, she gets bogged down by the slightest difficulty in terrain, guzzling Dizero and taking hours to reposition. Once settled however, it takes nothing short of an ambush to take her down, able to break through most if not all armor she comes up against.\n\nDue to her basis, her original creators and occupation aren't known in detail, be it lost to time or simply for privacy. All that is known is that she has seen notable service before being withdrawn and eventually sold to a private company, one who weren't too bothered by her tendency to deplete fuel reserves and keep allies waiting. Now relegated to mercenary work under Delta Industries' C.A.T.S Division, operations are regular and far-reaching, as much as she groans about having to move around so much.\n\nWhen armed, it weighs 40 tons.",
       "crewmate": "Gustav",
       "faction": "Delta Industries.",
       "weight": 10000,
       "height": 5.3,
       "galleryImagePaths": [
-        "Erna the Jagdtiger/T.png"
+        {
+          "path": "Erna the Jagdtiger/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Erna the Jagdtiger/R1.png"
+        {
+          "path": "Erna the Jagdtiger/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2215,17 +3086,23 @@
       "creator": "Jagdtiger844",
       "name": "Klutz the Scout",
       "model": "International Scout 800A",
-      "description":"Klutz is the clumsy, earnest sort. Being raised as a PROTO Boy Scout that helps around Bluerock National Park, he grew to love the woods. With the tight budgets within the Rangers, only one CAT could be bought, and with Klutz's attitude and exemplary performance, he was an easy pick to be the only LandCAT within Bluerock National Park. His chassis created by Phoenix Lab, and transfer carried out by them as well, a few problems came with the cheap service. Memories of another LandCAT interspersed with his, appearing as Night Terrors and Familiarity with specific places. With a newfound fear of Firearms in particular, his clumsiness got elevated as he got used to his new form.\n\nBeing as large and kitted as he is, he's responsible for helping with any heavy labour/rescue efforts within the park, his winch hooks and natural agility allowing him to get through many parts of the park without much fuss (Except when his clumsiness gets him turtled or stuck in odd ways). With his friendliness and love for idle converse, he's quick to make friends with those he meets, sharing snacks, stories, and even tunes with an Acoustic Guitar he learned to make from one of the Rangers. ",
+      "description": "Klutz is the clumsy, earnest sort. Being raised as a PROTO Boy Scout that helps around Bluerock National Park, he grew to love the woods. With the tight budgets within the Rangers, only one CAT could be bought, and with Klutz's attitude and exemplary performance, he was an easy pick to be the only LandCAT within Bluerock National Park. His chassis created by Phoenix Lab, and transfer carried out by them as well, a few problems came with the cheap service. Memories of another LandCAT interspersed with his, appearing as Night Terrors and Familiarity with specific places. With a newfound fear of Firearms in particular, his clumsiness got elevated as he got used to his new form.\n\nBeing as large and kitted as he is, he's responsible for helping with any heavy labour/rescue efforts within the park, his winch hooks and natural agility allowing him to get through many parts of the park without much fuss (Except when his clumsiness gets him turtled or stuck in odd ways). With his friendliness and love for idle converse, he's quick to make friends with those he meets, sharing snacks, stories, and even tunes with an Acoustic Guitar he learned to make from one of the Rangers. ",
       "crewmate": "Piney",
       "faction": "Bluerock Park Rangers",
       "weight": 1054,
       "height": 2.95,
       "galleryImagePaths": [
-        "Klutz the Scout/T.png"
+        {
+          "path": "Klutz the Scout/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Klutz the Scout/R1.png",
-        "Klutz the Scout/R2.png"
+        {
+          "path": "Klutz the Scout/R1.png"
+        },
+        {
+          "path": "Klutz the Scout/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -2233,17 +3110,23 @@
       "creator": "Jagdtiger844",
       "name": "Cinder the Churchill Crocodile",
       "model": "Churchill Crocodile",
-      "description":"Cinder is a quiet, reserved CAT. Originally commissioned to fulfill an Anti-Infantry role, poor timing and delays in payment lead to her coming about in a time she wasn't needed. Armed with a Flamethrower and Revolver, she was moved between outposts and checkpoints, never seeing any real combat, though with her sensory issues out from the factory, most of her peers considered her ill-suited for battle anyway.\n\nThrough unfortunate circumstances, she eventually sought new work under Wing 38, her marksmanship with her revolver and her penchant for burning things down making her well suited towards any contract that involved complete erasure/destruction of a target. Often found in quieter parts of the base, she tends to keep away from any noise. Music, Flame, or Dead Quiet being her only solace from the world around her.\n\n(20,300 kg w/ Gear.)",
+      "description": "Cinder is a quiet, reserved CAT. Originally commissioned to fulfill an Anti-Infantry role, poor timing and delays in payment lead to her coming about in a time she wasn't needed. Armed with a Flamethrower and Revolver, she was moved between outposts and checkpoints, never seeing any real combat, though with her sensory issues out from the factory, most of her peers considered her ill-suited for battle anyway.\n\nThrough unfortunate circumstances, she eventually sought new work under Wing 38, her marksmanship with her revolver and her penchant for burning things down making her well suited towards any contract that involved complete erasure/destruction of a target. Often found in quieter parts of the base, she tends to keep away from any noise. Music, Flame, or Dead Quiet being her only solace from the world around her.\n\n(20,300 kg w/ Gear.)",
       "crewmate": "N/A",
       "faction": "Wing 38",
       "weight": 6400,
       "height": 4.72,
       "galleryImagePaths": [
-        "Cinder the Churchill Crocodile/T.png"
+        {
+          "path": "Cinder the Churchill Crocodile/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Cinder the Churchill Crocodile/R1.png",
-        "Cinder the Churchill Crocodile/R2.png"
+        {
+          "path": "Cinder the Churchill Crocodile/R1.png"
+        },
+        {
+          "path": "Cinder the Churchill Crocodile/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -2251,16 +3134,20 @@
       "creator": "Jay",
       "name": "Götz the Gepard",
       "model": "Flakpanzer Gepard 1A2",
-      "description":"Specialized in taking down low flying aircraft, Götz (full name Gottfried) takes pride in giving humility to those who claim to own the sky.\n\nAs a mercenary, he is often called upon by those who can afford him to protect strategic assets from air attacks.\n\nThe bulk of his equipment is located in his removable backpack. This modular system houses the ammo drum, two stinger rocket launchers and his search radar as well as other tertiary systems.\n\nAn assisting proto is needed for the backpack's ammo drum to be reloaded quickly but Götz can still accomplish this by himself during an emergency by removing the backpack.\n\nA human pilot was originally intended to be in full control of Götz but over time his personality became dominant enough for him to only allow people he likes inside him. The presence of a pilot increases combat efficiency greatly but this is not commonly done due to his disliking of most people.\n\nEither as a quirk of his programing or as a learnt behavior, Götz takes a sadistic pleasure in destroying his targets.\n\ncrewmate: 2 \none proto ammo loader for backpack\none optional internal human 'pilot'",
+      "description": "Specialized in taking down low flying aircraft, Götz (full name Gottfried) takes pride in giving humility to those who claim to own the sky.\n\nAs a mercenary, he is often called upon by those who can afford him to protect strategic assets from air attacks.\n\nThe bulk of his equipment is located in his removable backpack. This modular system houses the ammo drum, two stinger rocket launchers and his search radar as well as other tertiary systems.\n\nAn assisting proto is needed for the backpack's ammo drum to be reloaded quickly but Götz can still accomplish this by himself during an emergency by removing the backpack.\n\nA human pilot was originally intended to be in full control of Götz but over time his personality became dominant enough for him to only allow people he likes inside him. The presence of a pilot increases combat efficiency greatly but this is not commonly done due to his disliking of most people.\n\nEither as a quirk of his programing or as a learnt behavior, Götz takes a sadistic pleasure in destroying his targets.\n\ncrewmate: 2 \none proto ammo loader for backpack\none optional internal human 'pilot'",
       "crewmate": "Gustav",
       "faction": "Mercenary (no allegiance)",
       "weight": 2000,
       "height": 3.65,
       "galleryImagePaths": [
-        "Götz the Gepard/T.png"
+        {
+          "path": "Götz the Gepard/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Götz the Gepard/R1.png"
+        {
+          "path": "Götz the Gepard/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2268,16 +3155,20 @@
       "creator": "Apex",
       "name": "Otto the HX3 6x6",
       "model": "HX3 6x6",
-      "description":"FK-12 “Frachtkater-12” | CALLSIGN: “Otto” | ID: RM-DEULC-HX3-FK012\n\nHeavy logistics LANDCATS operating under Euro Logistics Corp for transport and resupply. Handles cargo, convoy movement support, towing, and field distribution. Can be optionally outfitted for artillery-support logistics (smoke/illum coordination, base interface support, moving mortar/utility loads, or acting as a comms node for a battery).\nHas a logistics backpack module, that consists of a pallet-lock frame with rail mounts and tie-down points, integrated work-lights, optional small drone bay module and a rear VMS strip for convoy messaging (“CONVOY/SLOW/HAZARD”).\nBuilt with a large variety of utility features such as a tow pintle, air/power ports, small service access hatches and a right-torso micro-crane hatch for light handling tasks. Retractable auxiliary wheels in calf fairings (for long rolls/stability) supported by paw pads for traction and impact damping and utility tip mounts for winch/rigging support. Compact SMG carried as a self-defence tool, not a primary combat role.\nA steady, professional quartermaster type. Polite, dependable, and quietly warm when off-duty. When working, his posture tightens into crisp “convoy discipline.” Uses dry humour and mild sarcasm, but it’s never mean.\n\n“GENERAL” functions as a mission supervisor voice interface, overseeing operations while providing checklist-based intelligence that organizes, tracks, and verifies objectives step by step.",
+      "description": "FK-12 “Frachtkater-12” | CALLSIGN: “Otto” | ID: RM-DEULC-HX3-FK012\n\nHeavy logistics LANDCATS operating under Euro Logistics Corp for transport and resupply. Handles cargo, convoy movement support, towing, and field distribution. Can be optionally outfitted for artillery-support logistics (smoke/illum coordination, base interface support, moving mortar/utility loads, or acting as a comms node for a battery).\nHas a logistics backpack module, that consists of a pallet-lock frame with rail mounts and tie-down points, integrated work-lights, optional small drone bay module and a rear VMS strip for convoy messaging (“CONVOY/SLOW/HAZARD”).\nBuilt with a large variety of utility features such as a tow pintle, air/power ports, small service access hatches and a right-torso micro-crane hatch for light handling tasks. Retractable auxiliary wheels in calf fairings (for long rolls/stability) supported by paw pads for traction and impact damping and utility tip mounts for winch/rigging support. Compact SMG carried as a self-defence tool, not a primary combat role.\nA steady, professional quartermaster type. Polite, dependable, and quietly warm when off-duty. When working, his posture tightens into crisp “convoy discipline.” Uses dry humour and mild sarcasm, but it’s never mean.\n\n“GENERAL” functions as a mission supervisor voice interface, overseeing operations while providing checklist-based intelligence that organizes, tracks, and verifies objectives step by step.",
       "crewmate": "GENERAL",
       "faction": "DEU",
       "weight": 23500,
       "height": 6.1,
       "galleryImagePaths": [
-        "Otto the HX3 6x6/T.png"
+        {
+          "path": "Otto the HX3 6x6/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Otto the HX3 6x6/R1.png"
+        {
+          "path": "Otto the HX3 6x6/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2285,16 +3176,20 @@
       "creator": "Nirune",
       "name": "POL the Charger",
       "model": "Dodge Charger PPV",
-      "description":"General description: Pol is a calm and focused landcat in his work area, but when there is someone to chase, he sees it as a true challenge. Even though his face often looks serious or cold, he is actually very optimistic and motivated. He is a big fan of racing and cars. Whenever he sees a vehicle speeding by, he can’t help but wonder if he could beat it in a race.\n\nRole as a police officer: Pol mainly works in traffic control. He can be stationed on highways or within the city. His primary duty is to ensure that traffic laws are followed, and he is very strict about them. He always stays visible to remind people to drive carefully and to show that he is there to help if needed.\n\nPersonality and relationships: Although Pol is quiet and doesn’t talk much, he is very friendly and always willing to help his coworkers. His support goes beyond the police force: during an incident that caused a fire at the police station, he used his speed, area knowledge, and resources to help firefighters and ambulances reach the scene faster. Because of this, he formed strong friendships with firefighters and hospital staff, who trust him to manage traffic and find faster routes during emergencies.\n\nOn the road: When patrolling highways, Pol is always alert and excited. More than just stopping offenders, he enjoys competing with those who drive over the speed limit.\n\n- If he wins a chase, he considers it a major achievement and writes it down in his small notebook.\n- If he loses, he feels a bit sad but records what happened to improve his technique. This gives him an extra boost of motivation to keep training and increase his speed.\n\n Fun facts: Due to frequent races and high-speed chases, Pol needs more DIZERO. Sometimes he accepts bribes to avoid issuing fines, using that money to buy more DIZERO for his races. Before starting his shift, he always stretches. Skipping this can cause problems during a pursuit.\n\nHe has two ways to start his engine:\n\n- During warm-up, using a pose called Greeting Stretch.\n- In sudden situations, by simply running and activating his engine once he reaches a certain speed.\n\nCurrent situation: There has been a strange increase in people whenever Pol is patrolling or stationed at the police department. His coworker Pim believes there is a group of fans who admire Pol. However, rumors say that one of them may be an obsessive secret admirer or even a stalker. Pol is unaware of this, but Pim always watches his back just in case.(Sorry for the long text, I got a bit carried away haha)",
+      "description": "General description: Pol is a calm and focused landcat in his work area, but when there is someone to chase, he sees it as a true challenge. Even though his face often looks serious or cold, he is actually very optimistic and motivated. He is a big fan of racing and cars. Whenever he sees a vehicle speeding by, he can’t help but wonder if he could beat it in a race.\n\nRole as a police officer: Pol mainly works in traffic control. He can be stationed on highways or within the city. His primary duty is to ensure that traffic laws are followed, and he is very strict about them. He always stays visible to remind people to drive carefully and to show that he is there to help if needed.\n\nPersonality and relationships: Although Pol is quiet and doesn’t talk much, he is very friendly and always willing to help his coworkers. His support goes beyond the police force: during an incident that caused a fire at the police station, he used his speed, area knowledge, and resources to help firefighters and ambulances reach the scene faster. Because of this, he formed strong friendships with firefighters and hospital staff, who trust him to manage traffic and find faster routes during emergencies.\n\nOn the road: When patrolling highways, Pol is always alert and excited. More than just stopping offenders, he enjoys competing with those who drive over the speed limit.\n\n- If he wins a chase, he considers it a major achievement and writes it down in his small notebook.\n- If he loses, he feels a bit sad but records what happened to improve his technique. This gives him an extra boost of motivation to keep training and increase his speed.\n\n Fun facts: Due to frequent races and high-speed chases, Pol needs more DIZERO. Sometimes he accepts bribes to avoid issuing fines, using that money to buy more DIZERO for his races. Before starting his shift, he always stretches. Skipping this can cause problems during a pursuit.\n\nHe has two ways to start his engine:\n\n- During warm-up, using a pose called Greeting Stretch.\n- In sudden situations, by simply running and activating his engine once he reaches a certain speed.\n\nCurrent situation: There has been a strange increase in people whenever Pol is patrolling or stationed at the police department. His coworker Pim believes there is a group of fans who admire Pol. However, rumors say that one of them may be an obsessive secret admirer or even a stalker. Pol is unaware of this, but Pim always watches his back just in case.(Sorry for the long text, I got a bit carried away haha)",
       "crewmate": "PIM",
       "faction": "Unknown",
       "weight": 1795,
       "height": 3.04,
       "galleryImagePaths": [
-        "POL the Charger/T.png"
+        {
+          "path": "POL the Charger/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "POL the Charger/R1.jpg"
+        {
+          "path": "POL the Charger/R1.jpg"
+        }
       ],
       "outdated": false
     },
@@ -2302,22 +3197,26 @@
       "creator": "Nirune",
       "name": "Wilson the Carry",
       "model": "Suzuki Carry 1994",
-      "description":"",
+      "description": "",
       "crewmate": "Jack (human, he helps him to design his tail, and some modifications in his body).",
       "faction": "Unknown",
       "weight": 600,
       "height": 2,
       "galleryImagePaths": [
-        "Wilson the Carry/T.png"
+        {
+          "path": "Wilson the Carry/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Wilson the Carry/R1.png"
+        {
+          "path": "Wilson the Carry/R1.png"
+        }
       ],
       "stories": [
-      { 
-        "title": "willson's story",
-        "path": "Wilson the Carry/stories/WILLSON_MEDIC_LANDCAT_Suzuki_Carry_EN.txt"
-      }
+        {
+          "title": "willson's story",
+          "path": "Wilson the Carry/stories/WILLSON_MEDIC_LANDCAT_Suzuki_Carry_EN.txt"
+        }
       ],
       "outdated": false
     },
@@ -2325,16 +3224,20 @@
       "creator": "BlueBear",
       "name": "Leer the Boxer",
       "model": "Boxer CRV",
-      "description":"he’s an armored wheeled reconnaissance vehicle, featuring a MK 30-2/ABM gun Main gun with a a RMG 7.62 Machine gun mount, it has 8 Wheels and could carry up to 4 realistically but for his sake he Carry’s 1, his main gun can be placed on his backpack to free up his arm, his pack carry’s all his ammo and a mounted right side turret ",
+      "description": "he’s an armored wheeled reconnaissance vehicle, featuring a MK 30-2/ABM gun Main gun with a a RMG 7.62 Machine gun mount, it has 8 Wheels and could carry up to 4 realistically but for his sake he Carry’s 1, his main gun can be placed on his backpack to free up his arm, his pack carry’s all his ammo and a mounted right side turret ",
       "crewmate": "N/A",
       "faction": "Unknown",
       "weight": 38000,
       "height": 5.4,
       "galleryImagePaths": [
-        "Leer the Boxer/T.png"
+        {
+          "path": "Leer the Boxer/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Leer the Boxer/R1.png"
+        {
+          "path": "Leer the Boxer/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2342,16 +3245,20 @@
       "creator": "Freyja Darling",
       "name": "Aki the Jeepney",
       "model": "Jeepney",
-      "description":"Aki is a happy-go-lucky jeepney with a route within the capital region of the Philippines, moving passengers from location to location, on occasion moving goods when privately hired. Her life is as simple as it gets with the usual camaraderie with the other CATS and Non-CATS she meets, though usually in the middle of traffic or at a local sari-sari store.\n\nDue to the nature of jeepneys, her becoming was assisted by Phoenix Labs from what was previously as Willys Jeep LandCAT, now its memories manifesting as nightmares and some reflexes that are beyond her. Despite such, she lives her life as normally as she can, thinking that those are normal for others too and choosing to uplift them to help them get through.\n\nTaur extension: Metal Kalesa. Variation of the Kalesa for specific use for Jeepneys LandCATS. Attachments allowing Jeepney LandCATs to transport more than just their body's carrying capacity. Aki's extension allows her to transport 20 more people.",
+      "description": "Aki is a happy-go-lucky jeepney with a route within the capital region of the Philippines, moving passengers from location to location, on occasion moving goods when privately hired. Her life is as simple as it gets with the usual camaraderie with the other CATS and Non-CATS she meets, though usually in the middle of traffic or at a local sari-sari store.\n\nDue to the nature of jeepneys, her becoming was assisted by Phoenix Labs from what was previously as Willys Jeep LandCAT, now its memories manifesting as nightmares and some reflexes that are beyond her. Despite such, she lives her life as normally as she can, thinking that those are normal for others too and choosing to uplift them to help them get through.\n\nTaur extension: Metal Kalesa. Variation of the Kalesa for specific use for Jeepneys LandCATS. Attachments allowing Jeepney LandCATs to transport more than just their body's carrying capacity. Aki's extension allows her to transport 20 more people.",
       "crewmate": "N/A",
       "faction": "Makina de Sampaguita",
       "weight": 3600,
       "height": 4,
       "galleryImagePaths": [
-        "Aki the Jeepney/T.png"
+        {
+          "path": "Aki the Jeepney/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Aki the Jeepney/R1.png"
+        {
+          "path": "Aki the Jeepney/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2359,16 +3266,20 @@
       "creator": "Realbigstink",
       "name": "Zval the Terminator",
       "model": "BMPT Terminator",
-      "description":"Landcat designed for urban combat with sufficient armor coverage and firepower to boot, Zval utilises two 30mm submachine guns alongside other secondary armaments. Has four manipulators on his back that can mount either 2x5 ERA plates for defense or ATGMs for offense, both of which can be switched out for a secondary 6-round HE grenade launcher.\n\nDespite being designed with urban warfare in mind, he doesnt like being in cramped spaces due to his several 'poor experiences' in the field (or city), subsequently developing some level of claustrophobia and paranoia. Has a quiet personality and enjoys sightseeing or walks in large open fields.",
+      "description": "Landcat designed for urban combat with sufficient armor coverage and firepower to boot, Zval utilises two 30mm submachine guns alongside other secondary armaments. Has four manipulators on his back that can mount either 2x5 ERA plates for defense or ATGMs for offense, both of which can be switched out for a secondary 6-round HE grenade launcher.\n\nDespite being designed with urban warfare in mind, he doesnt like being in cramped spaces due to his several 'poor experiences' in the field (or city), subsequently developing some level of claustrophobia and paranoia. Has a quiet personality and enjoys sightseeing or walks in large open fields.",
       "crewmate": "N/A",
       "faction": "N/A",
       "weight": 37000,
       "height": 6,
       "galleryImagePaths": [
-        "Zval the Terminator/T.png"
+        {
+          "path": "Zval the Terminator/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Zval the Terminator/R1.png"
+        {
+          "path": "Zval the Terminator/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2380,12 +3291,16 @@
       "crewmate": "N/A",
       "faction": "N/A",
       "weight": 5000,
-      "height":2.5,
+      "height": 2.5,
       "galleryImagePaths": [
-        "Wallace the G14/T.png"
+        {
+          "path": "Wallace the G14/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Wallace the G14/R1.png"
+        {
+          "path": "Wallace the G14/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2397,10 +3312,14 @@
       "crewmate": "N/A",
       "faction": "Delta Industries",
       "galleryImagePaths": [
-        "Amix the Roland/T.png"
+        {
+          "path": "Amix the Roland/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Amix the Roland/R1.png"
+        {
+          "path": "Amix the Roland/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2412,7 +3331,7 @@
       "crewmate": "N/A",
       "faction": "N/A",
       "weight": 14000,
-      "height":96,
+      "height": 96,
       "equipment": [
         {
           "name": "Day bell",
@@ -2424,10 +3343,14 @@
         }
       ],
       "galleryImagePaths": [
-        "Graben the Bagger 293/T.png"
+        {
+          "path": "Graben the Bagger 293/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Graben the Bagger 293/R1.png"
+        {
+          "path": "Graben the Bagger 293/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2439,13 +3362,19 @@
       "crewmate": "A.I.S.A(Assistente Intelligente per la Sorveglianza Aerea)",
       "faction": "Italian Republic - 12° Gruppo 'Cerbero'",
       "weight": 420,
-      "height":2.3,
+      "height": 2.3,
       "galleryImagePaths": [
-        "Argo the OTOMATIC/T.png"
+        {
+          "path": "Argo the OTOMATIC/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Argo the OTOMATIC/R1.png",
-        "Argo the OTOMATIC/R2.png"
+        {
+          "path": "Argo the OTOMATIC/R1.png"
+        },
+        {
+          "path": "Argo the OTOMATIC/R2.png"
+        }
       ],
       "outdated": false
     },
@@ -2457,12 +3386,16 @@
       "crewmate": "Saturn",
       "faction": "THAPPS",
       "weight": 55800,
-      "height":12.5,
+      "height": 12.5,
       "galleryImagePaths": [
-        "Aria the PZH 2000/T.png"
+        {
+          "path": "Aria the PZH 2000/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Aria the PZH 2000/R1.png"
+        {
+          "path": "Aria the PZH 2000/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2474,12 +3407,16 @@
       "crewmate": "N/A",
       "faction": "USMC",
       "weight": 8500,
-      "height":3.9,
+      "height": 3.9,
       "galleryImagePaths": [
-        "Koda the HIMARS/T.png"
+        {
+          "path": "Koda the HIMARS/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Koda the HIMARS/R1.png"
+        {
+          "path": "Koda the HIMARS/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2490,13 +3427,17 @@
       "description": "As the core firepower of the ROK Army CATS division's artillery battery, CANINE's job is to locate, fire, relocate and repeat. He uses his backpack module of 155mm cannon and his double-barrel 50.cal machine gun integrated in his right arm. Since the whole CATS division is small in size, they usually work alongside other units, and CANINE enjoys spending time with them. This sometimes seems to hinder his work efficiency during combat but his passion toward unit integrity helps the whole group to work as a team, boosting morale.\n\nAlthough he doesn't have a copilot or a crewmate, he has his superior, Buddy, alongside him most of the time. He doesn't seem to mind him, but he always distances from BUDDY whenever he wants some rest.",
       "crewmate": "N/A",
       "faction": "R.O.K.A CATS DIV",
-      "weight":28000,
-      "height":3.8,
+      "weight": 28000,
+      "height": 3.8,
       "galleryImagePaths": [
-        "Canine the Thunder/T.png"
+        {
+          "path": "Canine the Thunder/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Canine the Thunder/R1.png"
+        {
+          "path": "Canine the Thunder/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2507,13 +3448,17 @@
       "description": "Carrying an ammunition package with a loader on his back, BUDDY is not only the ammo carrier of the artillery battery, ROK Army CATS division, but also the commander of the battery. His backpack holds the fire direction center systems and comms as well as ammunition. While he directs fire he ensures everyone has enough ammo before relocating. He also has a winch on his left leg in case anyone gets stuck during a mission.\n\nBuddy is usually found lingering near CANINE, watching him work or discussing mission specifics. However, some say they definitely saw him flirting with CANINE, only for him to have no success every time. When not with CANINE he jumpscares others with his big grin and surprise inspections.",
       "crewmate": "N/A",
       "faction": "R.O.K.A CATS DIV",
-      "weight":23000,
-      "height":3.8,
+      "weight": 23000,
+      "height": 3.8,
       "galleryImagePaths": [
-        "Buddy the K10/T.png"
+        {
+          "path": "Buddy the K10/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Buddy the K10/R1.png"
+        {
+          "path": "Buddy the K10/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2524,13 +3469,17 @@
       "description": "Far in the north of Sweden, SVÄNG is stationed at the Norrbotten Regiment, serving as a core asset in arctic combined-arms operations and infantry support. He is armed with his handheld 40mm Bofors L/70 automatic cannon and 7.62mm machine gun installed in his right arm. Built for harsh weather and deep-snow environment, he is suitable for missions across the arctic while coordinating closely with infantry and other CATS.\n\nAs his name suggests, he is a fan of music, especially house and jazz(check out berlioz! - Sväng). He usually loves hiking through the woods and sleeping under the night sky. Despite his heavy weight, he enjoys cross-country skiing when snowfall becomes too deep for normal traverse. He is the few rare svensk who would approach strangers to have some small talk. He frequently visits Norrbotten Wing as well, making friends with AEROCATS he wouldn't usually encounter.\n\nHis CREW-MATE is KOMPIS-19, an AI designed for flexible combat support on operations. It assists all units within the Norrbotten Regiment(I-19), but is mainly focused on CATS as their CREW-MATE. It is a bit relaxed than most of the combat focused AIs, but it helps with the harsh climate and long polar nights.",
       "crewmate": "KOMPIS-19(Kapabel Operativ Militär Processor för Intelligent Stöd)",
       "faction": "NORRBOTTENS REGEMENTE",
-      "weight":2200,
-      "height":3.6,
+      "weight": 2200,
+      "height": 3.6,
       "galleryImagePaths": [
-        "SVÄNG the Stridsfordon/T.png"
+        {
+          "path": "SVÄNG the Stridsfordon/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "SVÄNG the Stridsfordon/R1.png"
+        {
+          "path": "SVÄNG the Stridsfordon/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2541,13 +3490,17 @@
       "description": "Cobra was originally human at a certain point recognized under the name of 'jasper', a rambunctious merc with dreams and hopes to make his family proud and have the company chime into a more productive future through contracts, unfortunately however he had experienced a major set-back and has made a few mistakes to land him where he is now, he had taken a recorder with him and planned to use it for the purpose of making memories, however the recorder he was using had volatile elements tied to it such as explosive properties which lead to it being shot while he was on the field under a high paying contract, it detonated luckily leaving him mostly intact, unfortunately though he had to go through a unbearable process which involved his mind/memories to be uploaded into 'Cobra' coming out on the other end as having half his memories scrubbed and gone, and the other half being very hazy and foggy",
       "crewmate": "Cherry",
       "faction": "Red Ace Company",
-      "weight":27500,
-      "height":8.8,
+      "weight": 27500,
+      "height": 8.8,
       "galleryImagePaths": [
-        "Cobra the CV90120/T.png"
+        {
+          "path": "Cobra the CV90120/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Cobra the CV90120/R1.jpg"
+        {
+          "path": "Cobra the CV90120/R1.jpg"
+        }
       ],
       "outdated": false
     },
@@ -2558,13 +3511,17 @@
       "description": "Herbie, cheerful and energetic, is an actor who participated in a movie about races. He is an exhibition CATS, created as an actor",
       "crewmate": "N/A",
       "faction": "N/A",
-      "weight":350,
-      "height":2,
+      "weight": 350,
+      "height": 2,
       "galleryImagePaths": [
-        "Herbie the Beetle/T.png"
+        {
+          "path": "Herbie the Beetle/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Herbie the Beetle/R1.jpg"
+        {
+          "path": "Herbie the Beetle/R1.jpg"
+        }
       ],
       "outdated": false
     },
@@ -2575,14 +3532,20 @@
       "description": "Mr Tank It All how they call him, basically the tank of tanks, hes a bit slow and sluggish but his 'tankiness' compensates this flaw. His armor/plating can clip on and off, he usually does it when hes off duty because who would wanna wear such heavy weights all the time, right? Hes timid and silly coded... Though when not seen he is a completely different person on the field. Recorded to singlehandedly killing an entire group of Insurgents with his bare hands. Basically two sided personality, all silly and scaredy cat like and serious and brutal on the field when NOT observed by others.\n\nThat aside is very caring and will ignore commands to rush into fire to rescue a very injured comrade, be it a LANDCAT, AEROCAT, Proto or even organic team members.\nWill stand his ground till the end, even if his plating is destroyed or his shield.\nOh yeah forgot to mention his equipment, an anti-tank plated shield that he carries around to protect others and built in cannon in his right arm, 105mm T5E1 Main Gun, a ball shaped mantlet and a muzzle break. Trust me you do not wanna have that thing up your face whether you are a CAT or an organic. Has a friend/ally of sorts, m142 HIMARS is like his... Pocket Sniper",
       "crewmate": "Bitzy (B1TZ)",
       "faction": "N/A",
-      "weight":83461,
-      "height":9.14,
+      "weight": 83461,
+      "height": 9.14,
       "galleryImagePaths": [
-        "Reinhard the Super heavy tank/T.png"
+        {
+          "path": "Reinhard the Super heavy tank/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Reinhard the Super heavy tank/R1.jpg",
-        "Reinhard the Super heavy tank/R2.jpg"
+        {
+          "path": "Reinhard the Super heavy tank/R1.jpg"
+        },
+        {
+          "path": "Reinhard the Super heavy tank/R2.jpg"
+        }
       ],
       "outdated": false
     },
@@ -2593,13 +3556,17 @@
       "description": " Signas' purpose is simple: communication at all times. Whether it's being attached to an outpost, supporting a squadron, or just supplying internet. The large 'backpack' on his back  - when deployed - rests on his tail and can connect to most standard DRASH tents or stand alone. An external power source such as a generator is then connected to reduce wear on himself. While the CPP is deployed: his main body is to remain seated - often for days or weeks at a time. So to allow him to continue doing his job: the CPP has a spare Proto body he can connect to in the meantime. This is in addition to his Proto companion - who also stays in the CPP.\n\nDue to the semi-autonomous nature of his job: Signas is most busy at the beginning and ending of any given mission or exercise. First in, last out setting up or tearing down network infrastructure, performing tests, etc. But once things are set up: he's often left with a lot of free time outside of briefings or idle cleaning. So it's not uncommon for he and his companion to be goofing off playing video games, watching videos, or lazing about. Sometimes this gets him some ire from more moody soldiers. But as he always says: 'You can talk crap about us, but you can't talk without us.'",
       "crewmate": "Coax",
       "faction": "N/A",
-      "weight":2070,
-      "height":4.85,
+      "weight": 2070,
+      "height": 4.85,
       "galleryImagePaths": [
-        "Signas the Humvee/T.png"
+        {
+          "path": "Signas the Humvee/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Signas the Humvee/R1.png"
+        {
+          "path": "Signas the Humvee/R1.png"
+        }
       ],
       "outdated": false
     },
@@ -2610,13 +3577,17 @@
       "description": "Designed for infantry engagements, Clairvoyance specializes in cover removal by use of her flamethrower. Flamethrower is made particularly distinguishable by a distinct stovetop clicking noise on ignition.\n\nClairvoyance is commonly referred to as 'Clair' by maintenance personnel, and is reasonably responsive to idle conversation.",
       "crewmate": "N/A",
       "faction": "N/A",
-      "weight":48000,
-      "height":7,
+      "weight": 48000,
+      "height": 7,
       "galleryImagePaths": [
-        "Clairvoyance the Zippos/T.png"
+        {
+          "path": "Clairvoyance the Zippos/T.png"
+        }
       ],
       "referenceSheetsPath": [
-        "Clairvoyance the Zippos/R1.png"
+        {
+          "path": "Clairvoyance the Zippos/R1.png"
+        }
       ],
       "outdated": false
     }

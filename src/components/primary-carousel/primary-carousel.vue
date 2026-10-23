@@ -11,10 +11,10 @@
             ref="emblaSlides">
             <div
                 class="carousel-item"
-                v-for="image in slide.imageUrls"
-                :key="image">
+                v-for="image in slide.images"
+                :key="image.path">
                 <Skeleton
-                    v-if="imageLoadingStates[image]"
+                    v-if="imageLoadingStates[image.path]"
                     width="100%"
                     height="100%">
                 </Skeleton>
@@ -22,9 +22,9 @@
                   <img
                     class="cat-ref-img"
                     alt="aerocat profile image"
-                    :data-src="image"
-                    :data-loading="imageLoadingStates[image]"
-                    @load="onImageLoaded(image)"/>
+                    :data-src="image.path"
+                    :data-loading="imageLoadingStates[image.path]"
+                    @load="onImageLoaded(image.path)"/>
                   <button
                     class="image-overlay"
                     @click="onImageClicked(image)">
@@ -53,7 +53,7 @@
 
       <div class="embla__dots" v-if="slides?.length > 1">
         <button
-            v-for="(slide, index) in slides"
+            v-for="(_, index) in slides"
             :key="index"
             ref="dotNodes"
             class="embla__dot"
@@ -63,8 +63,9 @@
     </div>
     <ImageViewer
       v-if="selectedImage"
-      :src="selectedImage" 
+      :src="selectedImage.path" 
       alt="cat image"
+      :caption="selectedImage.caption"
       @close="onViewerClosed" />
   </div>
 </template>
@@ -75,11 +76,12 @@ import { onMounted, onUnmounted, ref, useTemplateRef, nextTick, defineAsyncCompo
 import Skeleton from 'primevue/skeleton';
 import { CarouselSlide } from "@/models/carousel-slide.model";
 import { DeferHelper } from "@/helper/defer.helper";
+import { CatImage } from "@/models/cat-image.model";
 
 const ImageViewer = defineAsyncComponent(() => import('@/components/image-viewer/image-viewer.vue'));
 
 const { images } = defineProps<{
-  images?: string[];
+  images?: CatImage[];
 }>();
 const imgs = images ?? [];
 
@@ -96,7 +98,7 @@ const slideRefs = useTemplateRef('emblaSlides');
 
 const canScrollPrev = ref(false);
 const canScrollNext = ref(false);
-const selectedImage = ref('');
+const selectedImage = ref<CatImage | null>();
 
 function onPageChanged() {
   const selectedIndex = emblaApi.value?.selectedScrollSnap();
@@ -164,24 +166,24 @@ function onImageLoaded(src: string) {
   imageLoadingStates.value[src] = false;
 }
 
-function onImageClicked(image: string) {
+function onImageClicked(image: CatImage) {
   selectedImage.value = image;
 }
 
 function onViewerClosed() {
-  selectedImage.value = '';
+  selectedImage.value = null;
 }
 
 onMounted(() => {
   imgs.forEach(i => {
-    imageLoadingStates.value[i] = true;
+    imageLoadingStates.value[i.path] = true;
   });
 
   const pageOneImages = imgs.slice(0, INITIAL_PAGE_SIZE);
   const remainingImages = imgs.slice(INITIAL_PAGE_SIZE);
   if (pageOneImages.length) {
     slides.value.push({
-        imageUrls: pageOneImages,
+        images: pageOneImages,
         className: `images-${pageOneImages.length} hero`
     });
   }
@@ -190,7 +192,7 @@ onMounted(() => {
     for (let i = 0; i < remainingImages.length; i += PAGE_SIZE) {
         const chunk = remainingImages.slice(i, i + PAGE_SIZE);
         slides.value.push({
-            imageUrls: chunk,
+            images: chunk,
             className: 'images-10'
         });
     }

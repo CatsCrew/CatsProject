@@ -9,3 +9,26 @@
         cursor: grab;
     }
 }
+// viewerjs mounts its UI on <body>, outside this component's scope.
+:global(.cat-image-viewer .viewer-title) {
+    max-width: min(90%, pxToRem(720));
+    margin: 0 auto pxToRem(12);
+    padding: pxToRem(8) pxToRem(16);
+    color: white;
+    font-family: $font-mono;
+    font-size: pxToRem(16);
+    line-height: 1.4;
+    white-space: normal;
+    opacity: 1;
+    background: rgba($background-primary, 0.85);
+    border: 1px solid rgba($terminal-green, 0.5);
+    border-radius: pxToRem(6);
+    box-shadow: 0 pxToRem(2) pxToRem(12) rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: $breakpoint-xs) {
+    :global(.cat-image-viewer .viewer-title) {
+        font-size: pxToRem(14);
+        padding: pxToRem(6) pxToRem(12);
+    }
+}

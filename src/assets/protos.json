@@ -1,774 +1,921 @@
 {
-    "protos": [
+  "protos": [
+    {
+      "creator": "Presto",
+      "name": "Ero the Proto 2.0",
+      "model": "2.0",
+      "description": "He is a freelance Aerocat design supporter and designer. His main work involves subcontracting for other designers or performing freelance tasks that include identifying structural flaws and redesigning accordingly. He has a fresh and slightly eccentric way of thinking, and it is known that his hobby is drawing peculiar CATS-themed comics or doujinshi.",
+      "faction": "N/A",
+      "weight": 72,
+      "height": 1.6,
+      "equipment": [
         {
-            "creator": "Presto",
-            "name": "Ero the Proto 2.0",
-            "model": "2.0",
-            "description": "He is a freelance Aerocat design supporter and designer. His main work involves subcontracting for other designers or performing freelance tasks that include identifying structural flaws and redesigning accordingly. He has a fresh and slightly eccentric way of thinking, and it is known that his hobby is drawing peculiar CATS-themed comics or doujinshi.",
-            "faction": "N/A",
-            "weight": 72,
-            "height": 1.6,
-            "equipment": [
-                {
-                    "name": "Claw pen 2.0",
-                    "description": "This is a claw-shaped pen compatible with the painting tool Proto Paint Studio 4.0, and while in use its tip flashes in the exact color you’ve selected."
-                }
-            ],
-            "galleryImagePaths": [
-                "Ero the Proto2.0/T.png",
-                "Ero the Proto2.0/1.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Ero the Proto2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Robert",
-            "name": "Buster the Proto P",
-            "model": "1.0 Type P",
-            "description": "Personality: Somewhat Nice but mostly...somewhat loose",
-            "faction": "Unknown",
-            "galleryImagePaths": [
-                "Buster the Proto P/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Buster the Proto P/R1.png"
-            ]
-        },
-        {
-            "creator": "Const",
-            "name": "Const the Proto 2.0",
-            "model": "2.0",
-            "description": "Const is a V2 PROTO originally engineered for the high-performance CATS unit x#7!qL9z@. Following the unit’s decommissioning due to cause string x@3F!92_∆5, Const remained unassigned for an extended period. During this time, he developed traits atypical of standard PROTOs, including an aversion to menial tasks and a preference for research and technical work—behaviors more closely aligned with CATS units.\n\nHe was later reassigned to operate with Radian, the F-22. While they are seldom observed together in operations, they are regarded as maintaining a strong private rapport.",
-            "faction": "Unknown",
-            "weight": 60,
-            "height": 1.6,
-            "galleryImagePaths": [
-                "Const the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Const the Proto 2.0/R1.jpg"
-            ]
-        },
-        {
-            "creator": "Kasichi",
-            "name": "Kasichi the Proto 2.0",
-            "model": "2.0",
-            "description": "KsC, or Kasichi, is the latest PROTO unit, version 2.0. Known for his quiet nature when he focuses intently on his own tasks. Yet when approached in conversation, he is cheerful and friendly. As an independent operating PROTO, KsC works under contract for different factions and facilities to earn money and resources. Still, he makes time to rest, study, and even learn how to express emotions.",
-            "faction": "Wrench Wizard",
-            "weight": 60,
-            "height": 1.6,
-            "galleryImagePaths": [
-                "Kasichi the Proto 2.0/T.png",
-                "Kasichi the Proto 2.0/1.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Kasichi the Proto 2.0/R1.png"
-            ],
-            "stories": [
-            { 
-             "title": "REC_LOG_27-PROTO_MULTI-PLATFORM_MAINTENANCE_STATION",
-             "path": "Kasichi the Proto 2.0/stories/REC_LOG_27-PROTO_MULTI-PLATFORM_MAINTENANCE_STATION.txt"
-            }
-            ]
-        },
-        {
-            "creator": "Merlin",
-            "name": "Itero the Proto P",
-            "model": "1.0 Type P",
-            "description": "Itero is a very old proto in a relatively new body. Publicly the proto researches expanded functionality of padding goo, but they are wanted for questioning related to a number of less than ethically sound research projects and the potential violation of artificial entity rights. Secretly Itero seeks to find a means to personally become, functionally, immortal. One too many near death incidents has left him obsessed with avoiding permanent decommissioning.",
-            "faction": "Unknown",
-            "galleryImagePaths": [
-                "Itero the Proto P/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Itero the Proto P/R1.png"
-            ]
-        },
-        {
-            "creator": "NightRye_",
-            "name": "Pehr the Proto I",
-            "model": "1.0 Type I",
-            "description": "Before Pehr was an Aerocat, he was a conscript for the army, serving as a crew chief/ramp agent for other Aerocats, often helping with rearming and refueling while engaging in a lot of conversations with other Aerocats to try and study about the mechanics of flying. He was selected as a prime candidate for the JAS-39E/F Proto Evolution Program and rebuilt for this reason as his superiors saw his potential as an aviator.",
-            "faction": "Sweden",
-            "galleryImagePaths": [
-                "Pehr the Proto I/T.png",
-                "Pehr the Proto I/1.png"
-            ],
-             "referenceSheetsPath": [
-                "Pehr the Proto I/R1.png",
-                "Pehr the Proto I/R2.png"
-            ]
-        },
-        {
-            "creator": "Kiote",
-            "name": "Shiela the Proto 2.0",
-            "model": "2.0",
-            "description": "she often wonders around the bases hanging out with the train landcats and bigger aerocats while also managing the ground traffic and air traffic",
-            "faction": "Unknown",
-            "galleryImagePaths": [
-                "Shiela the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Shiela the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Lossi",
-            "name": "Eva the Proto 2.0",
-            "model": "2.0",
-            "description": "He is a proto who does painting work.\n\nHe mainly does detailed work and has made a name for himself as a great tattooist for cats.\n\nAlthough he uses old-fashioned methods, he is very skilled and is welcomed in many places. His hobby is graffiti.",
-            "faction": "N/A",
-            "galleryImagePaths": [
-                "Eva the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Eva the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "gearwurk",
-            "name": "Repair the Proto P",
-            "model": "1.0 Type P",
-            "description": "Repair is a repair unit, known to be able to fix and mend any type of CATs unit(s), he is able to tap into memories and data bases of other units to help him know the original blueprints and inside systems work and operate via touch. When there is no work for him, he tends to tinker and build other devices with spare parts he's collected.",
-            "faction": "None",
-            "galleryImagePaths": [
-                "Repair the Proto P/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Repair the Proto P/R1.png"
-            ]
-        },
-        {
-            "creator": "Green PC",
-            "name": "Stanisław the Proto P",
-            "model": "1.0 Type P",
-            "description": "Proto form of St. Ogn. Stanisław. This form is often used during formal events where proper attire is required, which Stanisław is too big for in his regular LANDCAT body. Additionally used for maintenance on his main LANDCAT body and in case of the body's destruction.",
-            "faction": "Poland",
-            "galleryImagePaths": [
-                "Stanisław the Proto P/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Stanisław the Proto P/R1.png"
-            ]
-        },
-        {
-            "creator": "Mr.orlando",
-            "name": "Rookie the Proto P",
-            "model": "1.0 Type P",
-            "description": "This is, yep, Rookie\nHe (when originally nameless) is here for any CATS work, and meanwhile also aspiring for becoming (specifically) an AEROCATS someday… (it’s most unlikely)",
-            "faction": "Unknown",
-            "galleryImagePaths": [
-                "Rookie the Proto P/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Rookie the Proto P/R1.png"
-            ]
-        },
-        {
-            "creator": "Umbra",
-            "name": "Sol the Proto 2.0",
-            "model": "2.0",
-            "description": "He bakes energy bars for CATS, and is the creator of the Spark energy bar brand.",
-            "faction": "Spark energy bar",
-            "galleryImagePaths": [
-                "Sol the Proto 2.0/T1.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Sol the Proto 2.0/R1.jpg"
-            ]
-        },
-        {
-            "creator": "Félix Auréle",
-            "name": "Mikhail the Proto 2.0",
-            "model": "2.0",
-            "description": "Usually in use when Mikhail's body is destroyed, or when he needs special training.\nCarries around an AK with a drum magazine for self protection.\nHe is sometimes used when Mikhail needs maintenance in his more sensitive and important parts",
-            "faction": "Monolith",
-            "galleryImagePaths": [
-                "Mikhail the Proto 2.0/T.png",
-                "Mikhail the Proto 2.0/1.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Mikhail the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Hikori",
-            "name": "Hikori the Proto 2.0",
-            "model": "2.0",
-            "description": "Usually found cleaning around a cargo ship, (actual) ship carrier, or whatever CATS base he's stationed at.\n\nHas dreams of bring promoted into an actual CAT unit instead of just being a proto or backup body\nThe antenna on his head is used for taking in radio and information, including if any CATS data needs to be transferred to him incase an immediate Proto body isn't available. Though he is not exactly meant to be a permant replacement for decommissioned CATS. He also has a CD slot around his neck, being able to be used like a desktop if needed, all of the hardware for the computer part is stored in the, whatever you'd call the thing around his neck\nReally talkative, but also has issues with freezing up or adding unnecessary pauses when talking, and sometimes has longer breaks between words than normal, typically only for one or two words.\nHis face isnt dynamic, having 10 eye images and 10 mouth images, allowing for only 100 facial expressions. He can display any images on his storage, though its hard to change back to his actual face, or change the image shown, taking a second or three to switch between them.",
-            "faction": "Unknown",
-            "galleryImagePaths": [
-                "Hikori the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Hikori the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Zephyr",
-            "name": "Byte the Proto 2.0",
-            "model": "2.0",
-            "description": "Byte is a proto specialized in programming. He knows a lot of programming languages and can learn any new language he needs at a moments notice. As he has been programming throughout the years he has developed different personalities that he likes to portray when he programs in a certain language. You can tell which module he is in based on the screen on his arm and his face. His name tag functions as a normal name tag as well as a projector for a mini debugger he likes to use when he encounters issues and needs to look at stuff closely. His paw pads help function as grip for typing as well as functioning as a 'fingerprint' biometric bypass. He only uses this when he has consent and the approval to do so in order to do what he needs to do.",
-            "faction": "USA",
-            "galleryImagePaths": [
-                "Byte the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Byte the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "ScarTheWerewolf",
-            "name": "Yumi the Proto 2.0",
-            "model": "2.0",
-            "description": "A cheerful and tomboy proto that specialized in programming, payload and engineering. She's enjoying her work until she met Scar when she's wandering alone after her factory where once she work for destroyed into ruins. Ever since that, she always stay with her rescuer and do whatever she takes to ensure his safety.",
-            "faction": "Unknown",
-            "galleryImagePaths": [
-                "Yumi the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Yumi the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Sandomite",
-            "name": "Eddie the Proto P",
-            "model": "1.0 Type P",
-            "description": "Eddie's proto form. Originally a service proto [E-20] on a carrier, he was chosen out of many to be modified with external radar sensors replacing his normal ears to accustomize him to how his aerocat body will be operating with a 24/7 active radar. He was also kept in more personal areas of the carrier and forced to participate in classes and logic puzzles a plenty",
-            "faction": "USA",
-            "galleryImagePaths": [
-                "Eddie the Proto P/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Eddie the Proto P/R1.png"
-            ]
-        },
-        {
-            "creator": "Nicky Ferrius",
-            "name": "NF-05AX the Proto P",
-            "model": "1.0 Type P",
-            "description": "Service prototype for the maintenance of machines and C.A.T.S units, used by the company AXE-CORP.",
-            "faction": "Unknown",
-            "weight": 80,
-            "height": 1.5,
-            "equipment": [
-                {
-                    "name": "Toolbox",
-                    "description": "Can change for specific jobs"
-                },
-                {
-                    "name": "CATS manual",
-                    "description": "easter egg about me during my military service"
-                }
-            ],
-            "galleryImagePaths": [
-                "NF-05AX the Proto P/T.png",
-                "NF-05AX the Proto P/1.png",
-                "NF-05AX the Proto P/2.png"
-
-            ],
-             "referenceSheetsPath": [
-                "NF-05AX the Proto P/R1.png"
-            ]
-        },
-        {
-            "creator": "TibbsThePooltoyOtter",
-            "name": "Cobalt the Proto 2.0",
-            "model": "2.0",
-            "description": "Aquatic maintenance and survey prototype for machines or C.A.T.S units. When a pipe bursts, or a C.A.T.S unit makes an emergency aquatic landing, this unit is up to the task of locating and repairing anything out in the depths of the sea. ",
-            "faction": "D.E.P.T.H.S",
-            "equipment": [
-                {
-                    "name": "Toolbox",
-                    "description": "It’s a toolbox."
-                },
-                {
-                    "name": "Welding mask",
-                    "description": "It’s a welding mask."
-                }
-            ],
-            "galleryImagePaths": [
-                "Cobalt the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Cobalt the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Copycat",
-            "name": "Shnur the Proto 2.0",
-            "model": "2.0",
-            "description": "A spare body with was generally provided for use in times of heavy maintenance of main CATS body or base spare personal requirements.\n\nRecently has been assigned to use his Proto body more by his commanding officer in use for civilian work despite his military origin, his multiple requests to return him back to military purposes was denied.\n\nCurrently has been reported to work as a bartender, a spare base maintenance personal and several other unspecified jobs, possible misinformation from his commanding officer suspected.",
-            "faction": "Unknown",
-            "galleryImagePaths": [
-                "Shnur the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Shnur the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Flare",
-            "name": "MP 4.2 the Proto 2.0",
-            "model": "2.0",
-            "description": "Made to act as the dj on large music stages and able to be used has impromptu sound system for when a mobile sound system is required",
-            "faction": "Unknown",
-            "galleryImagePaths": [
-                "MP 4.2 the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "MP 4.2 the Proto 2.0/R1.png",
-                "MP 4.2 the Proto 2.0/R2.png"
-            ]
-        },
-        {
-            "creator": "Fwop",
-            "name": "Fwop the Proto 2.0",
-            "model": "2.0",
-            "description": "Maintenence and handyman Proto for Shnur the Frogfoot, yells at him all the time to make sure he's okay",
-            "faction": "Unknown",
-            "galleryImagePaths": [
-                "Fwop the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Fwop the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Sanya",
-            "name": "Packet the Proto P",
-            "model": "1.0 Type P",
-            "description": "Packet is a cyber and information warfare support specialist, sometimes even deployed out in the field when the situation calls for it. She's able to provide support as a forward Information/Electronic Warfare sensor and attack platform, network node, data analysis and heuristics engine, and Electronic Countermeasures / CounterCountermeasures suite when deployed alongside infantry or CATS - typically in low-signal/no-signal or interference heavy areas, as well as missions requiring on-site/hands-on information warfare capability. Despite being a quasi-field unit, she's actually terrified of live combat. When not assigned to fieldwork, she can often be found performing her Cyber / Information warfare duties remotely, hooked up to external power and ICT infrastructure physically and 'in' the EM spectrum and various networks mentally\n\nThanks to the HAB-IO port she is able to fully integrate into compatible systems, removing data transmission bottlenecks and allowing for extreme data throughput, albeit at the cost of extreme power drain - necessitating the use of a PROTO External Connector. Increased workloads when using the HAB-IO connector may require the use of a PEC Special High-Power Supply System (PEC-HPS) to prevent supplemental power being drawn from onboard batteries. She is most effective when paired with another CAT or support vehicle that is able to provide power via PEC and passthrough the more powerful CATS grade networking equipment. She also has a General Purpose Input/Output header in her standard chin-mounted IO, allowing her to run adhesive circuit traces across her body and adapt to any required physical datalink on the fly, however this is only capable of a comparatively lower bandwidth typically seen in standards such as USB, HDMI, Firewire, etc.\n\nShe absolutely loves her work - to a degree some may consider unhealthy - often needing to be ordered to stop working past the end of her duty shifts. She can tend to struggle a little when in non-technical conversations, often times unintentionally coming off as cold or disinterested.  Despite outward appearances and conversational difficulties, she has a quite a soft spot for the CATS and PROTOS she works alongside, especially for a particular PW-Mk.1 aerocat. \n\nShe's also very vocal about how she's happy how she is with how things are, and how she REALLY doesn't want to be transferred into a CATS frame (for some reason). There have also been some rumours she used to be a human, though she denies them vehemently \n\n'Get me one good scarp, and I'll get us their nets'",
-            "faction": "Unknown",
-            "weight": 70,
-            "height": 1.6,
-            "galleryImagePaths": [
-                "Packet the Proto P/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Packet the Proto P/R1.png"
-            ]
-        },
-        {
-            "creator": "Bnoy",
-            "name": "Bnoy the Proto 2.0",
-            "model": "2.0",
-            "description": "he is the personal mechanic for the aero cat barrier (MiG 25) he can be bratty and bossy but only while working other than that hes rather kind to everyone",
-            "faction": "Echo fang",
-            "weight": 60,
-            "height": 1.6,
-            "galleryImagePaths": [
-                "Bnoy the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Bnoy the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Porto Morio",
-            "name": "Tenpo the Proto 2.0",
-            "model": "2.0",
-            "description": "Tenpo used to belong to a wealthy writer, but after certain circumstances, he came to belong to a musician. Now he is a bass guitarist. Tenpo has remained kind, affectionate, and peaceful. Although he is shy around the public, with good friends he is open and cheerful. He wears T-shirt of a band where he is participating",
-            "faction": "N/A",
-            "weight": 60,
-            "height": 1.6,
-            "galleryImagePaths": [
-                "Tenpo the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Tenpo the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Seba200725",
-            "name": "Perez the Proto I",
-            "model": "1.0 Type I",
-            "description": "[REDACTED]",
-            "faction": "[The angels of fire] - ERADICATED",
-            "weight": 67,
-            "height": 1.5,
-            "galleryImagePaths": [
-                "Perez the Proto I/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Perez the Proto I/R1.png"
-            ]
-        },
-        {
-            "creator": "VeasleyKess",
-            "name": "Hazel the Proto 2.0",
-            "model": "2.0",
-            "description": "Originally named 'C4rrot V' he was the Lead of the CottonTails Research and Development Division before stepping down and joining the CottonTails Test Team as an assistant for director Kesstrel, He later adopted the name 'Hazel' given to him by the team as way to prevent confusion with the C4rrot co-pilots as well being part of the Test Team's family.\n\nHe gave the C4rrot Co-pilot's their own nicknames, C4rrot I is now Called Calibre, C4rrot II as Woundwort and lastly C4rrot IV as Owsla\n\nHe's also very accident prone, the more notable example was when he almost got his whole head burned due to him ignoring the testing parameters, luckily his internals was fine only his display and ear plugs got heavily damaged which later got replaced by new parts which took the team two weeks to outsource.",
-            "faction": "CottonTails Test Team",
-            "weight": 72,
-            "height": 1.6,
-            "galleryImagePaths": [
-                "Hazel the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Hazel the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "VeasleyKess",
-            "name": "Saturn the Proto 2.0",
-            "model": "2.0",
-            "description": "Saturn works at THAPPS and is a radio communications officer for the service making sure that all orders are sent properly and followed.\n\nShe is the 'Sister' of Hazel, this is because they were very close to each other while working and acting like the sister of Hazel as they were helping each other on their tasks and taking turns on radio duty. This was before leaving CottonTails and persuing a radio communications job at THAPPS.\n\nShe has a short temper often getting angry when orders are not followed immediately. The Ring on her head  has a dual purpose a radio antenna and a guide handle for CATS units with vision impairments.",
-            "faction": "THAPPS",
-            "weight": 80,
-            "height": 1.8,
-            "galleryImagePaths": [
-                "Saturn the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Saturn the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "notwebber",
-            "name": "Dr.Ruby the Proto 2.0",
-            "model": "2.0",
-            "description": "Chemist, assigned to research the properties and origins  of PDG and the effects it has on organisms and CATS.\n\nNotes: Has difficultly interacting with CATS and Protos outside of their small social circle...",
-            "faction": "Unknown",
-            "weight": 65,
-            "height": 1.6,
-            "galleryImagePaths": [
-                "Dr.Ruby the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Dr.Ruby the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "SwetD",
-            "name": "Pinky the Proto 2.0",
-            "model": "2.0",
-            "description": "Actually this proto was designed as a weapon. Pretty appearance should make the victim step closer, before the core explodes. Deals more impact being closer to the target, as it should. While on base or safe object the core stays unarmed.\n\nNotes: Don't poke the belly, it has a small chance to make the core armed.",
-            "faction": "N/A",
-            "height": 1.6,
-            "weight": 85,
-            "galleryImagePaths": [
-                "Pinky the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Pinky the Proto 2.0/R1.png"
-            ]
-        },
-        {
-            "creator": "Mangoshibi",
-            "name": "D04-TY the Proto 2.0",
-            "model": "2.0",
-            "description": "'aka dirty'\n\nGeneral Janitor. Got a hanger that needs a clean up? Co-Pilot that hasn't taken out all the take-out?? She's the girl to call!! ",
-            "faction": "Unknown",
-            "height": 1.6,
-            "weight": 85,
-            "galleryImagePaths": [
-                "D04-TY the Proto 2.0/T.png",
-                "D04-TY the Proto 2.0/1.png"
-
-            ],
-             "referenceSheetsPath": [
-                "D04-TY the Proto 2.0/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Freccia",
-            "name": "HA-08 the Proto P",
-            "model": "1.0 Type P",
-            "description": "Nile is the quintessential worker: Precise, punctual and obsessively organized, yet possessing a surprisingly 'fluid' and warm bedside manner.\n\nHe is inherently supportive, if a coworker is tired, Nile will take the lead on the heavy wading without being asked, viewing it as logical efficiency.\n\nCompany File Note: Unit HA-08 shows an unsual habit of 'greeting' rivers before samping. While not required by LDG protocol, it appears to improve his emotional processing stability.",
-            "faction": "LDG Lemanic Data Group",
-            "height": 1.6,
-            "weight": 75,
-            "galleryImagePaths": [
-                "HA-08 the Proto P/T.png",
-                "HA-08 the Proto P/1.png"
-
-            ],
-             "referenceSheetsPath": [
-                "HA-08 the Proto P/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Freyja Darling",
-            "name": "New haven the Proto 2.0",
-            "model": "2.0",
-            "description": "Captain New Haven, nicknamed Javi, was an experiment for the Navy of having a PROTO in charge of a carrier ship. Having orders and commands pass through them and serving as a black box in case of emergencies, having better memory keeping as well as a more amicable personality than a screen with buttons.\n\nJavi acts friendly and approachable and yet on the field, commands the crew effortlessly, able to maneuver across the ocean and seas in battle or on cruise all the while being able to share a drink with at the end of the day.\n\nNote: Service revolver is confiscated for the time being due to rising tensions and requires permission from a higher ranking, non-CAT officer.",
-            "faction": "Fifth Star",
-            "height": 1.6,
-            "weight": 75,
-            "galleryImagePaths": [
-                "New haven the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "New haven the Proto 2.0/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Whisk",
-            "name": "Hazelnut the Proto I",
-            "model": "1.0 Type I",
-            "description": "Hazelnut is an industrial unit who works for a mining company known as Lotus inc. Lotus Inc specializes in the mining of rare earth minerals and is one of the largest coal importers. Hazelnuts job is to mine rare earth minerals primarily.. mainly gold. to increase company profit.",
-            "faction": "Unknown",
-            "height": 1.6,
-            "weight": 90,
-            "galleryImagePaths": [
-                "Hazelnut the Proto I/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Hazelnut the Proto I/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "BanditboiiZ",
-            "name": "N1-CK the Proto I",
-            "model": "1.0 Type I",
-            "description": "A menace with transparent belly, his purpose..forget about it! He's ready to terrorize other protos in every airbase so be careful. ",
-            "faction": "Unknown",
-            "height": 1.55,
-            "weight": 65,
-            "galleryImagePaths": [
-                "N1-CK the Proto I/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "N1-CK the Proto I/R1.png",
-                "N1-CK the Proto I/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Riley Peyton",
-            "name": "Wylo the Proto 2.0",
-            "model": "2.0",
-            "description": "Wylo was a Proto indie graffiti artist, later hired as a painter for Field Medic, an organization that offers quick on-field services and repairs. Due to a 'personal favoured highly efficient setup' and ultilization of color-mixing based on CMYK theory, small to medium paintjobs are viable, mostly for repainting faction logos or country patches for quick identification.",
-            "copilot": "N/A",
-            "faction": "Field Medic",
-            "height": 1.65,
-            "weight": 75,
-            "galleryImagePaths": [
-                "Wylo the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Wylo the Proto 2.0/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Shell",
-            "name": "SHELL the Proto 2.0",
-            "model": "2.0",
-            "description": "SHELL (The E is tilted like the DELL logo :3c) is a P.R.O.T.O. unit that has been spotted around various Wing 38 facilities, and appears to have what seems to be multiple duties within' the organization. It's unsure if the unit is serving in the maintenance team of any specific C.A.T.S, as an assistant to a human, or is for some reason independent. Sightings of the unit have just started recently. The popular thought is that due to the customization of the chassis and clear intel of a complex personality, the production and memory of the unit must of been done by non-standard and most likely immoral ways.\n\nReports believe SHELL to be a polite P.R.O.T.O. unit based off various gestures and physical traits that have been perceived. Although being spotted in Wing 38 uniforms, it's unknown of what rank or position SHELL holds, or even what gender they consider themselves as, if any.\n\nSHELL has been spotted at least once meowing, as if feline in nature.",
-            "copilot": "N/A",
-            "faction": "Wing 38",
-            "height": 1.62,
-            "weight": 86,
-            "galleryImagePaths": [
-                "SHELL the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "SHELL the Proto 2.0/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Pipi",
-            "name": "Nite the Proto 2.0",
-            "model": "2.0",
-            "description": "Nite is one amongst 4 other units that has a sole purpose to 'collect and store data' respectively from each of the other 5 of ███████ [ C.A.T. Pending ], and when there is nothing to test about, the Nites would wander around the facility and offer a helping hand corresponding to their Sectors, though they will be redirected to the hangar once they are in need for testing with ███████ to collect their data.",
-            "copilot": "N/A",
-            "faction": "KRYPTOS",
-            "height": 1.5,
-            "weight": 50.5,
-            "galleryImagePaths": [
-                "Nite the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Nite the Proto 2.0/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "FurPing",
-            "name": "Kant the Proto 2.0",
-            "model": "2.0",
-            "description": "Kant is an experimental proto, designed for covert operations. For this purpose, he was given a tail, enabling him to overcome obstacles and silently eliminate opponents. This proto has completed dozens of missions, from information theft to assassination. Among his fellow protos, he is more friendly and willing to interact with PROTOs and CATS. But over the course of his service, he has become more tolerant of violence and cold, revealing his softer side only at base and occasionally bantering with other teammates on missions.",
-            "copilot": "N/A",
-            "faction": "Wing 38",
-            "height": 1.6,
-            "weight": 80,
-            "galleryImagePaths": [
-                "Kant the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Kant the Proto 2.0/R1.png",
-                "Kant the Proto 2.0/R2.png"
-                
-            ]
-        },
-        {
-            "creator": "waffychan",
-            "name": "Rivet the Proto 2.0",
-            "model": "2.0",
-            "description": "• Rivet is a lab assistant for ███████, where he works mostly in the chemicals area working on researching and creating new, old and foreign solids, liquids and anything in between.\n• Rivet is sometimes a rebel, but never anything too rebellious other than put stickers over is body and have a potty mouth. In his private time he like to also dress up when no one is looking.",
-            "copilot": "N/A",
-            "faction": "[REDACTED]",
-            "height": 1.6,
-            "weight": 65,
-            "galleryImagePaths": [
-                "Rivet the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Rivet the Proto 2.0/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Vix",
-            "name": "Torus the Proto 2.0",
-            "model": "2.0",
-            "description": "Torus is a ground service PROTO designed to handle a multitude of tasks involving the support of CATS Units on aerodrome grounds. Responsibilities may include but are not limited to marshalling, air traffic control, operations of heavy equipment such as refuelling trucks, munitions loaders and other Ground Support Equipment.\n\nTheir Head Mounted Device houses a camera suite and identification system connected to either its own low power 'lop ear' radar for short range identification and communication or an external unit for longer ranges to assist with ground and air coordination. Additional beacon-lights are mounted along with the HMD to alert CATS units to their presence if the reflective bands on their arms and legs are not sufficient.\n\nTorus is only aligned with their manufacturing faction - PARSEC which remains a mysterious, but benign and neutral entity for everyone. As such, they are contracted to various airfields operated by different factions, and you may see multiple of them (plurally referred as Tori) in one aerodrome for more intensive or coordinated tasks as outlined in their contract. PARSEC maintains that the Tori are disconnected from any politics within the aerodrome's operating faction, and will continue to work per instruction as long as the contract provisions is still upheld. Upon termination or expiry of contract they will return to PARSEC for reassignment. If the needs arise, they can act as method to reach out to PARSEC for inquiries, but any further detailed negotiations or resolutions with PARSEC will be handled by a dispatched higher ranking envoy. ",
-            "copilot": "N/A",
-            "faction": "PARSEC",
-            "height": 160,
-            "weight": 65,
-            "galleryImagePaths": [
-                "Torus the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Torus the Proto 2.0/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Crimefeline",
-            "name": "Eryn the Proto 2.0",
-            "model": "2.0",
-            "description": "A rather busy unit who spends most of her day running around picking up tasks whenever they may be. Officially assigned to Cooper, she'll quite often be found elsewhere while he's out in the sky.\n\nShe also seems to have a lot of control over a certain JETO-sponsored Unit...",
-            "copilot": "N/A",
-            "faction": "Unknown",
-            "height": 160,
-            "weight": 64,
-            "galleryImagePaths": [
-                "Eryn the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Eryn the Proto 2.0/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Jupiter",
-            "name": "Vex the Proto P",
-            "model": "1.0 Type P",
-            "description": " Vex has been around for a long time and has quite the personality, he doesn't care for friendship or anything else and mainly focuses on paperwork and doing maintenance on his assigned CATS Navi, this comes from his past in the earlier days of his lifetime, being thrown into a war with a barebones training on maintenance he would watch his friends and assigned CATS die over and over in the brutal war, once it was finally over he stopped caring about making friends or putting emotions towards things he deems unworthy which is about everything. After seeking out and going through training for a long time he'd be ready to find a job, eventually landing in with Wing 38 and being modifed to further enchance his maintenance skills and work on their CATS\n\nTools and gadgets: A ballistic visor rated in 9mm which helps him preform maintenance while offering small amounts of protection. His ears have a laser pointer and flashlight attached to them to help see in low light areas along with point things out. A modified Defibrillator has been put inside his arms to help bring CATS units back to life his body has been modified to hold more battery's so he doesn't use up his main power. Backpack with hardpoints to connect to his back, it has multiple slots and hot swapping capabilities to allow quick and easy utility changing ranging from more batteries to welding tools and weapons.",
-            "copilot": "N/A",
-            "faction": "Wing 38",
-            "height": 152.4,
-            "weight": 68,
-            "galleryImagePaths": [
-                "Vex the Proto P/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Vex the Proto P/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "Herbie",
-            "name": "Star the Proto 2.0",
-            "model": "2.0",
-            "description": "STAR was created as a maintenance proto. He was supposed to work night shifts at airbases, servicing aircraft. In reality, the rare night sorties at the bases he visited made him feel like he wasn't cut out for it. Because he wasn't needed at night, he developed a hobby: stargazing and drawing. Although he was a poor drawer because his claws were sharp and his paws weren't designed for drawing. He was often distracted by other night workers. His visor was constantly on, displaying a muted night sky. The stars on his visor slowly blinked in three different colors and moved across the free portion of the visor. Unlike the stars on his ears, they didn't even glow, just painted on. He also tried to find other hobbies, constantly shifting from topic to topic.",
-            "copilot": "N/A",
-            "faction": "Unknown",
-            "height": 160,
-            "weight": 70,
-            "galleryImagePaths": [
-                "Star the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Star the Proto 2.0/R1.jpg"
-                
-            ]
-        },
-        {
-            "creator": "Jagdtiger844",
-            "name": "Frank the Proto P",
-            "model": "1.0 Type P",
-            "description": "A near stock model Proto, his only distinguishing features are attachment points on his ears, and his sharp, snark tone. Having a history in less than ideal circumstances, Frank developed into a savant in working with scrap and obsolete tech, often making it compete with Flagship Offerings from the best companies out there. Headhunted by Phoenix Labs cause of his reputation, he leads all C.A.T.S production/repair solo, only allowing himself to operate within his Operating Theatre and rarely interacting with his co-workers. Respecting only the Founder of the company, his efficacy in material and cost efficient engineering spearheaded Phoenix Lab's reputation as a Cheap Custom C.A.T.S supplier, as well as lengthening its order queue length, both in customers and wait times.",
-            "copilot": "N/A",
-            "faction": "Phoenix Labs",
-            "height": 150,
-            "weight": 50,
-            "galleryImagePaths": [
-                "Frank the Proto P/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Frank the Proto P/R1.png"
-                
-            ]
-        },
-        {
-            "creator": "bezitank",
-            "name": "Jan the Proto 2.0",
-            "model": "1.0 Type P",
-            "description": "Jan is a mechanic whoes its purpose is to repair and maintain air based cats. He has been assigned to be a mechanic for the military, maintaining the aerocats that are stationed in the facility as the place he works in lacks such profession.\n\nJan has a partner of his own. Hes been assigned to an aerocat called Kuba Mig-29. Jan supplies and refuels kuba whenever he goes out on a mission so not only does he maintain other cats but also serves his partner with almost everything kuba needs.",
-            "copilot": "N/A",
-            "faction": "Poland",
-            "height": 160,
-            "weight": 54,
-            "galleryImagePaths": [
-                "Jan the Proto 2.0/T.png"
-
-            ],
-             "referenceSheetsPath": [
-                "Jan the Proto 2.0/R1.png"
-                
-            ]
+          "name": "Claw pen 2.0",
+          "description": "This is a claw-shaped pen compatible with the painting tool Proto Paint Studio 4.0, and while in use its tip flashes in the exact color you’ve selected."
         }
-    ]
+      ],
+      "galleryImagePaths": [
+        {
+          "path": "Ero the Proto2.0/T.png"
+        },
+        {
+          "path": "Ero the Proto2.0/1.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Ero the Proto2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Robert",
+      "name": "Buster the Proto P",
+      "model": "1.0 Type P",
+      "description": "Personality: Somewhat Nice but mostly...somewhat loose",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        {
+          "path": "Buster the Proto P/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Buster the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Const",
+      "name": "Const the Proto 2.0",
+      "model": "2.0",
+      "description": "Const is a V2 PROTO originally engineered for the high-performance CATS unit x#7!qL9z@. Following the unit’s decommissioning due to cause string x@3F!92_∆5, Const remained unassigned for an extended period. During this time, he developed traits atypical of standard PROTOs, including an aversion to menial tasks and a preference for research and technical work—behaviors more closely aligned with CATS units.\n\nHe was later reassigned to operate with Radian, the F-22. While they are seldom observed together in operations, they are regarded as maintaining a strong private rapport.",
+      "faction": "Unknown",
+      "weight": 60,
+      "height": 1.6,
+      "galleryImagePaths": [
+        {
+          "path": "Const the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Const the Proto 2.0/R1.jpg"
+        }
+      ]
+    },
+    {
+      "creator": "Kasichi",
+      "name": "Kasichi the Proto 2.0",
+      "model": "2.0",
+      "description": "KsC, or Kasichi, is the latest PROTO unit, version 2.0. Known for his quiet nature when he focuses intently on his own tasks. Yet when approached in conversation, he is cheerful and friendly. As an independent operating PROTO, KsC works under contract for different factions and facilities to earn money and resources. Still, he makes time to rest, study, and even learn how to express emotions.",
+      "faction": "Wrench Wizard",
+      "weight": 60,
+      "height": 1.6,
+      "galleryImagePaths": [
+        {
+          "path": "Kasichi the Proto 2.0/T.png"
+        },
+        {
+          "path": "Kasichi the Proto 2.0/1.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Kasichi the Proto 2.0/R1.png"
+        }
+      ],
+      "stories": [
+        {
+          "title": "REC_LOG_27-PROTO_MULTI-PLATFORM_MAINTENANCE_STATION",
+          "path": "Kasichi the Proto 2.0/stories/REC_LOG_27-PROTO_MULTI-PLATFORM_MAINTENANCE_STATION.txt"
+        }
+      ]
+    },
+    {
+      "creator": "Merlin",
+      "name": "Itero the Proto P",
+      "model": "1.0 Type P",
+      "description": "Itero is a very old proto in a relatively new body. Publicly the proto researches expanded functionality of padding goo, but they are wanted for questioning related to a number of less than ethically sound research projects and the potential violation of artificial entity rights. Secretly Itero seeks to find a means to personally become, functionally, immortal. One too many near death incidents has left him obsessed with avoiding permanent decommissioning.",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        {
+          "path": "Itero the Proto P/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Itero the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "NightRye_",
+      "name": "Pehr the Proto I",
+      "model": "1.0 Type I",
+      "description": "Before Pehr was an Aerocat, he was a conscript for the army, serving as a crew chief/ramp agent for other Aerocats, often helping with rearming and refueling while engaging in a lot of conversations with other Aerocats to try and study about the mechanics of flying. He was selected as a prime candidate for the JAS-39E/F Proto Evolution Program and rebuilt for this reason as his superiors saw his potential as an aviator.",
+      "faction": "Sweden",
+      "galleryImagePaths": [
+        {
+          "path": "Pehr the Proto I/T.png"
+        },
+        {
+          "path": "Pehr the Proto I/1.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Pehr the Proto I/R1.png"
+        },
+        {
+          "path": "Pehr the Proto I/R2.png"
+        }
+      ]
+    },
+    {
+      "creator": "Kiote",
+      "name": "Shiela the Proto 2.0",
+      "model": "2.0",
+      "description": "she often wonders around the bases hanging out with the train landcats and bigger aerocats while also managing the ground traffic and air traffic",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        {
+          "path": "Shiela the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Shiela the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Lossi",
+      "name": "Eva the Proto 2.0",
+      "model": "2.0",
+      "description": "He is a proto who does painting work.\n\nHe mainly does detailed work and has made a name for himself as a great tattooist for cats.\n\nAlthough he uses old-fashioned methods, he is very skilled and is welcomed in many places. His hobby is graffiti.",
+      "faction": "N/A",
+      "galleryImagePaths": [
+        {
+          "path": "Eva the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Eva the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "gearwurk",
+      "name": "Repair the Proto P",
+      "model": "1.0 Type P",
+      "description": "Repair is a repair unit, known to be able to fix and mend any type of CATs unit(s), he is able to tap into memories and data bases of other units to help him know the original blueprints and inside systems work and operate via touch. When there is no work for him, he tends to tinker and build other devices with spare parts he's collected.",
+      "faction": "None",
+      "galleryImagePaths": [
+        {
+          "path": "Repair the Proto P/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Repair the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Green PC",
+      "name": "Stanisław the Proto P",
+      "model": "1.0 Type P",
+      "description": "Proto form of St. Ogn. Stanisław. This form is often used during formal events where proper attire is required, which Stanisław is too big for in his regular LANDCAT body. Additionally used for maintenance on his main LANDCAT body and in case of the body's destruction.",
+      "faction": "Poland",
+      "galleryImagePaths": [
+        {
+          "path": "Stanisław the Proto P/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Stanisław the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Mr.orlando",
+      "name": "Rookie the Proto P",
+      "model": "1.0 Type P",
+      "description": "This is, yep, Rookie\nHe (when originally nameless) is here for any CATS work, and meanwhile also aspiring for becoming (specifically) an AEROCATS someday… (it’s most unlikely)",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        {
+          "path": "Rookie the Proto P/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Rookie the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Umbra",
+      "name": "Sol the Proto 2.0",
+      "model": "2.0",
+      "description": "He bakes energy bars for CATS, and is the creator of the Spark energy bar brand.",
+      "faction": "Spark energy bar",
+      "galleryImagePaths": [
+        {
+          "path": "Sol the Proto 2.0/T1.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Sol the Proto 2.0/R1.jpg"
+        }
+      ]
+    },
+    {
+      "creator": "Félix Auréle",
+      "name": "Mikhail the Proto 2.0",
+      "model": "2.0",
+      "description": "Usually in use when Mikhail's body is destroyed, or when he needs special training.\nCarries around an AK with a drum magazine for self protection.\nHe is sometimes used when Mikhail needs maintenance in his more sensitive and important parts",
+      "faction": "Monolith",
+      "galleryImagePaths": [
+        {
+          "path": "Mikhail the Proto 2.0/T.png"
+        },
+        {
+          "path": "Mikhail the Proto 2.0/1.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Mikhail the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Hikori",
+      "name": "Hikori the Proto 2.0",
+      "model": "2.0",
+      "description": "Usually found cleaning around a cargo ship, (actual) ship carrier, or whatever CATS base he's stationed at.\n\nHas dreams of bring promoted into an actual CAT unit instead of just being a proto or backup body\nThe antenna on his head is used for taking in radio and information, including if any CATS data needs to be transferred to him incase an immediate Proto body isn't available. Though he is not exactly meant to be a permant replacement for decommissioned CATS. He also has a CD slot around his neck, being able to be used like a desktop if needed, all of the hardware for the computer part is stored in the, whatever you'd call the thing around his neck\nReally talkative, but also has issues with freezing up or adding unnecessary pauses when talking, and sometimes has longer breaks between words than normal, typically only for one or two words.\nHis face isnt dynamic, having 10 eye images and 10 mouth images, allowing for only 100 facial expressions. He can display any images on his storage, though its hard to change back to his actual face, or change the image shown, taking a second or three to switch between them.",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        {
+          "path": "Hikori the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Hikori the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Zephyr",
+      "name": "Byte the Proto 2.0",
+      "model": "2.0",
+      "description": "Byte is a proto specialized in programming. He knows a lot of programming languages and can learn any new language he needs at a moments notice. As he has been programming throughout the years he has developed different personalities that he likes to portray when he programs in a certain language. You can tell which module he is in based on the screen on his arm and his face. His name tag functions as a normal name tag as well as a projector for a mini debugger he likes to use when he encounters issues and needs to look at stuff closely. His paw pads help function as grip for typing as well as functioning as a 'fingerprint' biometric bypass. He only uses this when he has consent and the approval to do so in order to do what he needs to do.",
+      "faction": "USA",
+      "galleryImagePaths": [
+        {
+          "path": "Byte the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Byte the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "ScarTheWerewolf",
+      "name": "Yumi the Proto 2.0",
+      "model": "2.0",
+      "description": "A cheerful and tomboy proto that specialized in programming, payload and engineering. She's enjoying her work until she met Scar when she's wandering alone after her factory where once she work for destroyed into ruins. Ever since that, she always stay with her rescuer and do whatever she takes to ensure his safety.",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        {
+          "path": "Yumi the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Yumi the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Sandomite",
+      "name": "Eddie the Proto P",
+      "model": "1.0 Type P",
+      "description": "Eddie's proto form. Originally a service proto [E-20] on a carrier, he was chosen out of many to be modified with external radar sensors replacing his normal ears to accustomize him to how his aerocat body will be operating with a 24/7 active radar. He was also kept in more personal areas of the carrier and forced to participate in classes and logic puzzles a plenty",
+      "faction": "USA",
+      "galleryImagePaths": [
+        {
+          "path": "Eddie the Proto P/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Eddie the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Nicky Ferrius",
+      "name": "NF-05AX the Proto P",
+      "model": "1.0 Type P",
+      "description": "Service prototype for the maintenance of machines and C.A.T.S units, used by the company AXE-CORP.",
+      "faction": "Unknown",
+      "weight": 80,
+      "height": 1.5,
+      "equipment": [
+        {
+          "name": "Toolbox",
+          "description": "Can change for specific jobs"
+        },
+        {
+          "name": "CATS manual",
+          "description": "easter egg about me during my military service"
+        }
+      ],
+      "galleryImagePaths": [
+        {
+          "path": "NF-05AX the Proto P/T.png"
+        },
+        {
+          "path": "NF-05AX the Proto P/1.png"
+        },
+        {
+          "path": "NF-05AX the Proto P/2.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "NF-05AX the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "TibbsThePooltoyOtter",
+      "name": "Cobalt the Proto 2.0",
+      "model": "2.0",
+      "description": "Aquatic maintenance and survey prototype for machines or C.A.T.S units. When a pipe bursts, or a C.A.T.S unit makes an emergency aquatic landing, this unit is up to the task of locating and repairing anything out in the depths of the sea. ",
+      "faction": "D.E.P.T.H.S",
+      "equipment": [
+        {
+          "name": "Toolbox",
+          "description": "It’s a toolbox."
+        },
+        {
+          "name": "Welding mask",
+          "description": "It’s a welding mask."
+        }
+      ],
+      "galleryImagePaths": [
+        {
+          "path": "Cobalt the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Cobalt the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Copycat",
+      "name": "Shnur the Proto 2.0",
+      "model": "2.0",
+      "description": "A spare body with was generally provided for use in times of heavy maintenance of main CATS body or base spare personal requirements.\n\nRecently has been assigned to use his Proto body more by his commanding officer in use for civilian work despite his military origin, his multiple requests to return him back to military purposes was denied.\n\nCurrently has been reported to work as a bartender, a spare base maintenance personal and several other unspecified jobs, possible misinformation from his commanding officer suspected.",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        {
+          "path": "Shnur the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Shnur the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Flare",
+      "name": "MP 4.2 the Proto 2.0",
+      "model": "2.0",
+      "description": "Made to act as the dj on large music stages and able to be used has impromptu sound system for when a mobile sound system is required",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        {
+          "path": "MP 4.2 the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "MP 4.2 the Proto 2.0/R1.png"
+        },
+        {
+          "path": "MP 4.2 the Proto 2.0/R2.png"
+        }
+      ]
+    },
+    {
+      "creator": "Fwop",
+      "name": "Fwop the Proto 2.0",
+      "model": "2.0",
+      "description": "Maintenence and handyman Proto for Shnur the Frogfoot, yells at him all the time to make sure he's okay",
+      "faction": "Unknown",
+      "galleryImagePaths": [
+        {
+          "path": "Fwop the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Fwop the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Sanya",
+      "name": "Packet the Proto P",
+      "model": "1.0 Type P",
+      "description": "Packet is a cyber and information warfare support specialist, sometimes even deployed out in the field when the situation calls for it. She's able to provide support as a forward Information/Electronic Warfare sensor and attack platform, network node, data analysis and heuristics engine, and Electronic Countermeasures / CounterCountermeasures suite when deployed alongside infantry or CATS - typically in low-signal/no-signal or interference heavy areas, as well as missions requiring on-site/hands-on information warfare capability. Despite being a quasi-field unit, she's actually terrified of live combat. When not assigned to fieldwork, she can often be found performing her Cyber / Information warfare duties remotely, hooked up to external power and ICT infrastructure physically and 'in' the EM spectrum and various networks mentally\n\nThanks to the HAB-IO port she is able to fully integrate into compatible systems, removing data transmission bottlenecks and allowing for extreme data throughput, albeit at the cost of extreme power drain - necessitating the use of a PROTO External Connector. Increased workloads when using the HAB-IO connector may require the use of a PEC Special High-Power Supply System (PEC-HPS) to prevent supplemental power being drawn from onboard batteries. She is most effective when paired with another CAT or support vehicle that is able to provide power via PEC and passthrough the more powerful CATS grade networking equipment. She also has a General Purpose Input/Output header in her standard chin-mounted IO, allowing her to run adhesive circuit traces across her body and adapt to any required physical datalink on the fly, however this is only capable of a comparatively lower bandwidth typically seen in standards such as USB, HDMI, Firewire, etc.\n\nShe absolutely loves her work - to a degree some may consider unhealthy - often needing to be ordered to stop working past the end of her duty shifts. She can tend to struggle a little when in non-technical conversations, often times unintentionally coming off as cold or disinterested.  Despite outward appearances and conversational difficulties, she has a quite a soft spot for the CATS and PROTOS she works alongside, especially for a particular PW-Mk.1 aerocat. \n\nShe's also very vocal about how she's happy how she is with how things are, and how she REALLY doesn't want to be transferred into a CATS frame (for some reason). There have also been some rumours she used to be a human, though she denies them vehemently \n\n'Get me one good scarp, and I'll get us their nets'",
+      "faction": "Unknown",
+      "weight": 70,
+      "height": 1.6,
+      "galleryImagePaths": [
+        {
+          "path": "Packet the Proto P/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Packet the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Bnoy",
+      "name": "Bnoy the Proto 2.0",
+      "model": "2.0",
+      "description": "he is the personal mechanic for the aero cat barrier (MiG 25) he can be bratty and bossy but only while working other than that hes rather kind to everyone",
+      "faction": "Echo fang",
+      "weight": 60,
+      "height": 1.6,
+      "galleryImagePaths": [
+        {
+          "path": "Bnoy the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Bnoy the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Porto Morio",
+      "name": "Tenpo the Proto 2.0",
+      "model": "2.0",
+      "description": "Tenpo used to belong to a wealthy writer, but after certain circumstances, he came to belong to a musician. Now he is a bass guitarist. Tenpo has remained kind, affectionate, and peaceful. Although he is shy around the public, with good friends he is open and cheerful. He wears T-shirt of a band where he is participating",
+      "faction": "N/A",
+      "weight": 60,
+      "height": 1.6,
+      "galleryImagePaths": [
+        {
+          "path": "Tenpo the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Tenpo the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Seba200725",
+      "name": "Perez the Proto I",
+      "model": "1.0 Type I",
+      "description": "[REDACTED]",
+      "faction": "[The angels of fire] - ERADICATED",
+      "weight": 67,
+      "height": 1.5,
+      "galleryImagePaths": [
+        {
+          "path": "Perez the Proto I/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Perez the Proto I/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "VeasleyKess",
+      "name": "Hazel the Proto 2.0",
+      "model": "2.0",
+      "description": "Originally named 'C4rrot V' he was the Lead of the CottonTails Research and Development Division before stepping down and joining the CottonTails Test Team as an assistant for director Kesstrel, He later adopted the name 'Hazel' given to him by the team as way to prevent confusion with the C4rrot co-pilots as well being part of the Test Team's family.\n\nHe gave the C4rrot Co-pilot's their own nicknames, C4rrot I is now Called Calibre, C4rrot II as Woundwort and lastly C4rrot IV as Owsla\n\nHe's also very accident prone, the more notable example was when he almost got his whole head burned due to him ignoring the testing parameters, luckily his internals was fine only his display and ear plugs got heavily damaged which later got replaced by new parts which took the team two weeks to outsource.",
+      "faction": "CottonTails Test Team",
+      "weight": 72,
+      "height": 1.6,
+      "galleryImagePaths": [
+        {
+          "path": "Hazel the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Hazel the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "VeasleyKess",
+      "name": "Saturn the Proto 2.0",
+      "model": "2.0",
+      "description": "Saturn works at THAPPS and is a radio communications officer for the service making sure that all orders are sent properly and followed.\n\nShe is the 'Sister' of Hazel, this is because they were very close to each other while working and acting like the sister of Hazel as they were helping each other on their tasks and taking turns on radio duty. This was before leaving CottonTails and persuing a radio communications job at THAPPS.\n\nShe has a short temper often getting angry when orders are not followed immediately. The Ring on her head  has a dual purpose a radio antenna and a guide handle for CATS units with vision impairments.",
+      "faction": "THAPPS",
+      "weight": 80,
+      "height": 1.8,
+      "galleryImagePaths": [
+        {
+          "path": "Saturn the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Saturn the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "notwebber",
+      "name": "Dr.Ruby the Proto 2.0",
+      "model": "2.0",
+      "description": "Chemist, assigned to research the properties and origins  of PDG and the effects it has on organisms and CATS.\n\nNotes: Has difficultly interacting with CATS and Protos outside of their small social circle...",
+      "faction": "Unknown",
+      "weight": 65,
+      "height": 1.6,
+      "galleryImagePaths": [
+        {
+          "path": "Dr.Ruby the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Dr.Ruby the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "SwetD",
+      "name": "Pinky the Proto 2.0",
+      "model": "2.0",
+      "description": "Actually this proto was designed as a weapon. Pretty appearance should make the victim step closer, before the core explodes. Deals more impact being closer to the target, as it should. While on base or safe object the core stays unarmed.\n\nNotes: Don't poke the belly, it has a small chance to make the core armed.",
+      "faction": "N/A",
+      "height": 1.6,
+      "weight": 85,
+      "galleryImagePaths": [
+        {
+          "path": "Pinky the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Pinky the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Mangoshibi",
+      "name": "D04-TY the Proto 2.0",
+      "model": "2.0",
+      "description": "'aka dirty'\n\nGeneral Janitor. Got a hanger that needs a clean up? Co-Pilot that hasn't taken out all the take-out?? She's the girl to call!! ",
+      "faction": "Unknown",
+      "height": 1.6,
+      "weight": 85,
+      "galleryImagePaths": [
+        {
+          "path": "D04-TY the Proto 2.0/T.png"
+        },
+        {
+          "path": "D04-TY the Proto 2.0/1.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "D04-TY the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Freccia",
+      "name": "HA-08 the Proto P",
+      "model": "1.0 Type P",
+      "description": "Nile is the quintessential worker: Precise, punctual and obsessively organized, yet possessing a surprisingly 'fluid' and warm bedside manner.\n\nHe is inherently supportive, if a coworker is tired, Nile will take the lead on the heavy wading without being asked, viewing it as logical efficiency.\n\nCompany File Note: Unit HA-08 shows an unsual habit of 'greeting' rivers before samping. While not required by LDG protocol, it appears to improve his emotional processing stability.",
+      "faction": "LDG Lemanic Data Group",
+      "height": 1.6,
+      "weight": 75,
+      "galleryImagePaths": [
+        {
+          "path": "HA-08 the Proto P/T.png"
+        },
+        {
+          "path": "HA-08 the Proto P/1.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "HA-08 the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Freyja Darling",
+      "name": "New haven the Proto 2.0",
+      "model": "2.0",
+      "description": "Captain New Haven, nicknamed Javi, was an experiment for the Navy of having a PROTO in charge of a carrier ship. Having orders and commands pass through them and serving as a black box in case of emergencies, having better memory keeping as well as a more amicable personality than a screen with buttons.\n\nJavi acts friendly and approachable and yet on the field, commands the crew effortlessly, able to maneuver across the ocean and seas in battle or on cruise all the while being able to share a drink with at the end of the day.\n\nNote: Service revolver is confiscated for the time being due to rising tensions and requires permission from a higher ranking, non-CAT officer.",
+      "faction": "Fifth Star",
+      "height": 1.6,
+      "weight": 75,
+      "galleryImagePaths": [
+        {
+          "path": "New haven the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "New haven the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Whisk",
+      "name": "Hazelnut the Proto I",
+      "model": "1.0 Type I",
+      "description": "Hazelnut is an industrial unit who works for a mining company known as Lotus inc. Lotus Inc specializes in the mining of rare earth minerals and is one of the largest coal importers. Hazelnuts job is to mine rare earth minerals primarily.. mainly gold. to increase company profit.",
+      "faction": "Unknown",
+      "height": 1.6,
+      "weight": 90,
+      "galleryImagePaths": [
+        {
+          "path": "Hazelnut the Proto I/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Hazelnut the Proto I/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "BanditboiiZ",
+      "name": "N1-CK the Proto I",
+      "model": "1.0 Type I",
+      "description": "A menace with transparent belly, his purpose..forget about it! He's ready to terrorize other protos in every airbase so be careful. ",
+      "faction": "Unknown",
+      "height": 1.55,
+      "weight": 65,
+      "galleryImagePaths": [
+        {
+          "path": "N1-CK the Proto I/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "N1-CK the Proto I/R1.png"
+        },
+        {
+          "path": "N1-CK the Proto I/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Riley Peyton",
+      "name": "Wylo the Proto 2.0",
+      "model": "2.0",
+      "description": "Wylo was a Proto indie graffiti artist, later hired as a painter for Field Medic, an organization that offers quick on-field services and repairs. Due to a 'personal favoured highly efficient setup' and ultilization of color-mixing based on CMYK theory, small to medium paintjobs are viable, mostly for repainting faction logos or country patches for quick identification.",
+      "copilot": "N/A",
+      "faction": "Field Medic",
+      "height": 1.65,
+      "weight": 75,
+      "galleryImagePaths": [
+        {
+          "path": "Wylo the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Wylo the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Shell",
+      "name": "SHELL the Proto 2.0",
+      "model": "2.0",
+      "description": "SHELL (The E is tilted like the DELL logo :3c) is a P.R.O.T.O. unit that has been spotted around various Wing 38 facilities, and appears to have what seems to be multiple duties within' the organization. It's unsure if the unit is serving in the maintenance team of any specific C.A.T.S, as an assistant to a human, or is for some reason independent. Sightings of the unit have just started recently. The popular thought is that due to the customization of the chassis and clear intel of a complex personality, the production and memory of the unit must of been done by non-standard and most likely immoral ways.\n\nReports believe SHELL to be a polite P.R.O.T.O. unit based off various gestures and physical traits that have been perceived. Although being spotted in Wing 38 uniforms, it's unknown of what rank or position SHELL holds, or even what gender they consider themselves as, if any.\n\nSHELL has been spotted at least once meowing, as if feline in nature.",
+      "copilot": "N/A",
+      "faction": "Wing 38",
+      "height": 1.62,
+      "weight": 86,
+      "galleryImagePaths": [
+        {
+          "path": "SHELL the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "SHELL the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Pipi",
+      "name": "Nite the Proto 2.0",
+      "model": "2.0",
+      "description": "Nite is one amongst 4 other units that has a sole purpose to 'collect and store data' respectively from each of the other 5 of ███████ [ C.A.T. Pending ], and when there is nothing to test about, the Nites would wander around the facility and offer a helping hand corresponding to their Sectors, though they will be redirected to the hangar once they are in need for testing with ███████ to collect their data.",
+      "copilot": "N/A",
+      "faction": "KRYPTOS",
+      "height": 1.5,
+      "weight": 50.5,
+      "galleryImagePaths": [
+        {
+          "path": "Nite the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Nite the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "FurPing",
+      "name": "Kant the Proto 2.0",
+      "model": "2.0",
+      "description": "Kant is an experimental proto, designed for covert operations. For this purpose, he was given a tail, enabling him to overcome obstacles and silently eliminate opponents. This proto has completed dozens of missions, from information theft to assassination. Among his fellow protos, he is more friendly and willing to interact with PROTOs and CATS. But over the course of his service, he has become more tolerant of violence and cold, revealing his softer side only at base and occasionally bantering with other teammates on missions.",
+      "copilot": "N/A",
+      "faction": "Wing 38",
+      "height": 1.6,
+      "weight": 80,
+      "galleryImagePaths": [
+        {
+          "path": "Kant the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Kant the Proto 2.0/R1.png"
+        },
+        {
+          "path": "Kant the Proto 2.0/R2.png"
+        }
+      ]
+    },
+    {
+      "creator": "waffychan",
+      "name": "Rivet the Proto 2.0",
+      "model": "2.0",
+      "description": "• Rivet is a lab assistant for ███████, where he works mostly in the chemicals area working on researching and creating new, old and foreign solids, liquids and anything in between.\n• Rivet is sometimes a rebel, but never anything too rebellious other than put stickers over is body and have a potty mouth. In his private time he like to also dress up when no one is looking.",
+      "copilot": "N/A",
+      "faction": "[REDACTED]",
+      "height": 1.6,
+      "weight": 65,
+      "galleryImagePaths": [
+        {
+          "path": "Rivet the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Rivet the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Vix",
+      "name": "Torus the Proto 2.0",
+      "model": "2.0",
+      "description": "Torus is a ground service PROTO designed to handle a multitude of tasks involving the support of CATS Units on aerodrome grounds. Responsibilities may include but are not limited to marshalling, air traffic control, operations of heavy equipment such as refuelling trucks, munitions loaders and other Ground Support Equipment.\n\nTheir Head Mounted Device houses a camera suite and identification system connected to either its own low power 'lop ear' radar for short range identification and communication or an external unit for longer ranges to assist with ground and air coordination. Additional beacon-lights are mounted along with the HMD to alert CATS units to their presence if the reflective bands on their arms and legs are not sufficient.\n\nTorus is only aligned with their manufacturing faction - PARSEC which remains a mysterious, but benign and neutral entity for everyone. As such, they are contracted to various airfields operated by different factions, and you may see multiple of them (plurally referred as Tori) in one aerodrome for more intensive or coordinated tasks as outlined in their contract. PARSEC maintains that the Tori are disconnected from any politics within the aerodrome's operating faction, and will continue to work per instruction as long as the contract provisions is still upheld. Upon termination or expiry of contract they will return to PARSEC for reassignment. If the needs arise, they can act as method to reach out to PARSEC for inquiries, but any further detailed negotiations or resolutions with PARSEC will be handled by a dispatched higher ranking envoy. ",
+      "copilot": "N/A",
+      "faction": "PARSEC",
+      "height": 160,
+      "weight": 65,
+      "galleryImagePaths": [
+        {
+          "path": "Torus the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Torus the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Crimefeline",
+      "name": "Eryn the Proto 2.0",
+      "model": "2.0",
+      "description": "A rather busy unit who spends most of her day running around picking up tasks whenever they may be. Officially assigned to Cooper, she'll quite often be found elsewhere while he's out in the sky.\n\nShe also seems to have a lot of control over a certain JETO-sponsored Unit...",
+      "copilot": "N/A",
+      "faction": "Unknown",
+      "height": 160,
+      "weight": 64,
+      "galleryImagePaths": [
+        {
+          "path": "Eryn the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Eryn the Proto 2.0/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Jupiter",
+      "name": "Vex the Proto P",
+      "model": "1.0 Type P",
+      "description": " Vex has been around for a long time and has quite the personality, he doesn't care for friendship or anything else and mainly focuses on paperwork and doing maintenance on his assigned CATS Navi, this comes from his past in the earlier days of his lifetime, being thrown into a war with a barebones training on maintenance he would watch his friends and assigned CATS die over and over in the brutal war, once it was finally over he stopped caring about making friends or putting emotions towards things he deems unworthy which is about everything. After seeking out and going through training for a long time he'd be ready to find a job, eventually landing in with Wing 38 and being modifed to further enchance his maintenance skills and work on their CATS\n\nTools and gadgets: A ballistic visor rated in 9mm which helps him preform maintenance while offering small amounts of protection. His ears have a laser pointer and flashlight attached to them to help see in low light areas along with point things out. A modified Defibrillator has been put inside his arms to help bring CATS units back to life his body has been modified to hold more battery's so he doesn't use up his main power. Backpack with hardpoints to connect to his back, it has multiple slots and hot swapping capabilities to allow quick and easy utility changing ranging from more batteries to welding tools and weapons.",
+      "copilot": "N/A",
+      "faction": "Wing 38",
+      "height": 152.4,
+      "weight": 68,
+      "galleryImagePaths": [
+        {
+          "path": "Vex the Proto P/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Vex the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "Herbie",
+      "name": "Star the Proto 2.0",
+      "model": "2.0",
+      "description": "STAR was created as a maintenance proto. He was supposed to work night shifts at airbases, servicing aircraft. In reality, the rare night sorties at the bases he visited made him feel like he wasn't cut out for it. Because he wasn't needed at night, he developed a hobby: stargazing and drawing. Although he was a poor drawer because his claws were sharp and his paws weren't designed for drawing. He was often distracted by other night workers. His visor was constantly on, displaying a muted night sky. The stars on his visor slowly blinked in three different colors and moved across the free portion of the visor. Unlike the stars on his ears, they didn't even glow, just painted on. He also tried to find other hobbies, constantly shifting from topic to topic.",
+      "copilot": "N/A",
+      "faction": "Unknown",
+      "height": 160,
+      "weight": 70,
+      "galleryImagePaths": [
+        {
+          "path": "Star the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Star the Proto 2.0/R1.jpg"
+        }
+      ]
+    },
+    {
+      "creator": "Jagdtiger844",
+      "name": "Frank the Proto P",
+      "model": "1.0 Type P",
+      "description": "A near stock model Proto, his only distinguishing features are attachment points on his ears, and his sharp, snark tone. Having a history in less than ideal circumstances, Frank developed into a savant in working with scrap and obsolete tech, often making it compete with Flagship Offerings from the best companies out there. Headhunted by Phoenix Labs cause of his reputation, he leads all C.A.T.S production/repair solo, only allowing himself to operate within his Operating Theatre and rarely interacting with his co-workers. Respecting only the Founder of the company, his efficacy in material and cost efficient engineering spearheaded Phoenix Lab's reputation as a Cheap Custom C.A.T.S supplier, as well as lengthening its order queue length, both in customers and wait times.",
+      "copilot": "N/A",
+      "faction": "Phoenix Labs",
+      "height": 150,
+      "weight": 50,
+      "galleryImagePaths": [
+        {
+          "path": "Frank the Proto P/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Frank the Proto P/R1.png"
+        }
+      ]
+    },
+    {
+      "creator": "bezitank",
+      "name": "Jan the Proto 2.0",
+      "model": "1.0 Type P",
+      "description": "Jan is a mechanic whoes its purpose is to repair and maintain air based cats. He has been assigned to be a mechanic for the military, maintaining the aerocats that are stationed in the facility as the place he works in lacks such profession.\n\nJan has a partner of his own. Hes been assigned to an aerocat called Kuba Mig-29. Jan supplies and refuels kuba whenever he goes out on a mission so not only does he maintain other cats but also serves his partner with almost everything kuba needs.",
+      "copilot": "N/A",
+      "faction": "Poland",
+      "height": 160,
+      "weight": 54,
+      "galleryImagePaths": [
+        {
+          "path": "Jan the Proto 2.0/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Jan the Proto 2.0/R1.png"
+        }
+      ]
+    }
+  ]
 }

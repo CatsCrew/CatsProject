@@ -1,4 +1,6 @@
+import { CatImage } from "./cat-image.model";
+
 export interface CarouselSlide {
-    imageUrls?: string[];
+    images?: CatImage[];
     className?: string;
 }

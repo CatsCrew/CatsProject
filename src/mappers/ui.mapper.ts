@@ -51,9 +51,9 @@ export class UiMapper {
             type: CatType.Aerocat,
             ...this.toCat(aerocat, creator),
             copilot: aerocat?.copilot,
-            thumbnail: UrlHelper.buildCharacterPath(CatType.Aerocat, aerocat?.galleryImagePaths[0]),
-            referenceUrls: aerocat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Aerocat, r)),
-            galleryUrls: aerocat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Aerocat, g)),
+            thumbnail: UrlHelper.buildCharacterPath(CatType.Aerocat, aerocat?.galleryImagePaths?.[0]?.path ?? ''),
+            referenceUrls: aerocat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterImagesPath(CatType.Aerocat, r)),
+            galleryUrls: aerocat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterImagesPath(CatType.Aerocat, g)),
             stories: this.toStories(CatType.Aerocat, aerocat.stories)
         };
     }
@@ -64,9 +64,9 @@ export class UiMapper {
             type: CatType.Landcat,
             ...this.toCat(landcat, creator),
             crewmate: landcat?.crewmate,
-            thumbnail: UrlHelper.buildCharacterPath(CatType.Landcat, landcat?.galleryImagePaths[0]),
-            referenceUrls: landcat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Landcat, r)),
-            galleryUrls: landcat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Landcat, g)),
+            thumbnail: UrlHelper.buildCharacterPath(CatType.Landcat, landcat?.galleryImagePaths?.[0]?.path ?? ''),
+            referenceUrls: landcat?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterImagesPath(CatType.Landcat, r)),
+            galleryUrls: landcat?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterImagesPath(CatType.Landcat, g)),
             stories: this.toStories(CatType.Landcat, landcat.stories)
         };
     }
@@ -76,9 +76,9 @@ export class UiMapper {
             id: this.hashCat(proto),
             type: CatType.Proto,
             ...this.toCat(proto, creator),
-            thumbnail: UrlHelper.buildCharacterPath(CatType.Proto, proto?.galleryImagePaths[0]),
-            referenceUrls: proto?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterPath(CatType.Proto, r)),
-            galleryUrls: proto?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterPath(CatType.Proto, g)),
+            thumbnail: UrlHelper.buildCharacterPath(CatType.Proto, proto?.galleryImagePaths?.[0]?.path ?? ''),
+            referenceUrls: proto?.referenceSheetsPath?.map(r => UrlHelper.buildCharacterImagesPath(CatType.Proto, r)),
+            galleryUrls: proto?.galleryImagePaths?.slice(1)?.map(g => UrlHelper.buildCharacterImagesPath(CatType.Proto, g)),
             stories: this.toStories(CatType.Proto, proto.stories)
         };
     }
@@ -103,11 +103,11 @@ export class UiMapper {
     private static toCreator(creator: FileCreator): Creator {
         return {
             name: creator.name,
-            profileUrl: UrlHelper.buildCreatorPath(creator.profileImage)
+            profileUrl: UrlHelper.buildCreatorPath(creator.profileImage ?? '')
         }
     }
 
-    private static toStories(catType: CatType, stories: FileStory[]): Story[] {
+    private static toStories(catType: CatType, stories?: FileStory[]): Story[] {
         return stories?.map(s => this.toStory(catType, s)) ?? [];
     }
 

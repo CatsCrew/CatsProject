@@ -35,6 +35,7 @@ import Dialog from "primevue/dialog";
 import GalleryCarousel from "../../../../components/gallery-carousel/gallery-carousel.vue";
 import { useCatsStore } from "@/store";
 import { storeToRefs } from "pinia";
+import { CatImage } from "@/models/cat-image.model.js";
 
 const { cat } = defineProps<{
   cat?: Cat;
@@ -46,7 +47,7 @@ const cats$ = useCatsStore();
 const { isMobile } = storeToRefs(cats$);
 
 const visible = ref(true);
-const images = ref<string[]>([]);
+const images = ref<CatImage[]>([]);
 const position = computed(() => isMobile.value ? "bottom": undefined);
 
 function toggleBodyLock() {
