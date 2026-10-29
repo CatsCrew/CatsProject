@@ -6780,7 +6780,7 @@
     {
       "creator": "Kasichi",
       "name": "CDC the Kobra",
-      "model": "Su-30MK2 Hổ mang chúa",
+      "model": "Su30-MK2 Cobra - Hổ mang chúa",
       "copilot": "Neko A.I.",
       "faction": "Vietnam People's Air Force",
       "description": "A fighter jet belonging to the Vietnam People's Air Force, CdC is one of the core units defending the nation's skies. Strict, confident, and very professional in his duties, yet in everyday life he is friendly and approachable, earning trust from children, comrades, and those around him.",
@@ -6864,6 +6864,45 @@
       "referenceSheetsPath": [
         {
           "path": "VU-MALE the UAV/R1.png"
+        }
+      ],
+      "outdated": true
+    },
+    {
+      "creator": "Kasichi",
+      "name": "Barracuda the Kobra",
+      "model": "Su30-MK2 Cobra - Hổ mang chúa",
+      "copilot": "Foxxo A.I",
+      "faction": "Vietnam People's Air Force",
+      "description": "Following CdC's shootdown several years ago, Z32 Factory of the Vietnam People's Air Defense - Air Force proposed a series of improvements and began production of the next generation AeroCATS Su-30MK2 Cobra.\n\nThe upgraded model demonstrated significant advancements over its predecessor, most notably a substantial reduction in JET-O consumption. Equipped with an improved artificial intelligence system and incorporating recovered flight data from the downed CdC-SU30 unit, the new unit, designated Barracuda, is capable of making decisions more quickly than the original model. Its personality and communication modules also closely resemble those of its predecessor.\n\nTrue to the nature of its namesake, the barracuda, this unit specializes in ambush tactics, rapidly closing in on enemy positions and striking with overwhelming speed before its targets have time to react.\n\nThe recovered data from the previous unit was restored and processed to create a virtual co-pilot based on CdC. Using a holographic projection modeled after the original CdC-SU30's face, this virtual entity serves as both a flight supervisor and an analytical assistant. It provides Barracuda with accurate flight-path data and situational analysis, working in conjunction with commands issued by the flight commander.\n\nThe concept is believed to have originated with CdC's flight leader, who sought a way for the unit to continue flying alongside its fallen comrade, even in the form of a new companion. Through this system, CdC's legacy lives on, accompanying Barracuda on every flight. ",
+      "weight": 14300,
+      "height": 18,
+      "equipment": [
+        {
+          "name": "Visor with IRS&T",
+          "description": "Visor equipped with IRST for passive infrared target detection and tracking."
+        },
+        {
+          "name": "30mm GHS-30-1",
+          "description": "Standard 30mm autocannon for ground attacks and dogfighting"
+        }
+        {
+          "name": "R73E Air-to-air missle",
+          "description": "Heat-seeking air-to-air missiles"
+        },
+        {
+          "name": "RVV-AE Air-to-air missle (R-77)",
+          "description": "Active radar-guided medium-range air-to-air missile"
+        }
+      ],
+      "galleryImagePaths": [
+        {
+          "path": "Barracuda the Kobra/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Barracuda the Kobra/R1.png"
         }
       ],
       "outdated": true

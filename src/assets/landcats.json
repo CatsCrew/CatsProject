@@ -3590,6 +3590,30 @@
         }
       ],
       "outdated": false
+    },
+    {
+      "creator": "David",
+      "name": "Fencer the JLTV",
+      "model": "Oshkosh JLTV",
+      "description": "General purpose Landcat, due to its focus depending on the contents of his backpack, he can perform combat support (such as suppressing fire), resource or ammo transport and scouting missions for area reconnaissance.",
+      "crewmate": "N/A",
+      "faction": "Unknown",
+      "weight": 7000,
+      "height": 6.2,
+      "galleryImagePaths": [
+        {
+          "path": "Fencer the JLTV/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Fencer the JLTV/R1.png"
+        },
+        {
+          "path": "Fencer the JLTV/R2.png"
+        }
+      ],
+      "outdated": false
     }
   ]
 }
