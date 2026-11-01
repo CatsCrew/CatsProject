@@ -1,3 +1,5 @@
+@use "@assets/mixins.scss" as *;
+
 @font-face {
     font-family: 'Geist Mono';
     src: url('/src/assets/fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
@@ -14,6 +16,7 @@ body {
     max-width: 1920px;
     margin: auto;
     height: 100%;
+    font-size: pxToRem(14);
 
     &.modal-open {
         width: 100%;
