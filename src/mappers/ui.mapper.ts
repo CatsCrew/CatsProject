@@ -17,6 +17,9 @@ import { CatType } from '@/models/cat-type.enum';
 import Sqids from 'sqids';
 import hash from "object-hash";
 import { UnitHelper } from '@/helper/unit.helper';
+import { RedactionField } from '@/models/redaction-field.model';
+import { RedactionStyle } from '@/models/redaction-style.enum';
+import { RedactedConfig } from '@/models/formats/redacted-config.model';
 
 
 const sqids = new Sqids({
@@ -41,7 +44,8 @@ export class UiMapper {
             weight: UnitHelper.formatWeightForLocale(cat.weight, navigator.language),
             height: UnitHelper.formatHeightForLocale(cat.height, navigator.language, false),
             equipment: cat.equipment,
-            outdated: cat.outdated
+            outdated: cat.outdated,
+            redaction: this.toRedactionMap(cat.redacted)
         };
     }
 
@@ -118,5 +122,24 @@ export class UiMapper {
             loaded: false,
             content: ''
         }
+    }
+
+    private static isRedactable(f: string): f is RedactionField {
+        return ['weight', 'height'].includes(f);
+    } 
+
+    private static toRedactionMap(config?: RedactedConfig): Partial<Record<RedactionField, RedactionStyle>> | undefined {
+        if (!config) {
+            return undefined;
+        }
+
+        const redactedMap = {} as Partial<Record<RedactionField, RedactionStyle>>;
+
+        config.fields.forEach(f => {
+            if (this.isRedactable(f))
+                redactedMap[f] = config.style;
+        });
+
+        return redactedMap;
     }
 }

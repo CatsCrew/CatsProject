@@ -8242,7 +8242,11 @@
           "path": "Dmitri the Felon/stories/message.txt"
         }
       ],
-      "outdated": false
+      "outdated": false,
+      "redacted": {
+        "fields": ["weight", "height"],
+        "style": "glyphs"
+      }
     },
     {
       "creator": "fz_b739f",

@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'ZTGatha';
-    src: url('/src/assets/fonts/ZTGatha-SemiBold.ttf') format('truetype');
+    font-family: 'Geist Mono';
+    src: url('/src/assets/fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: 600;
     font-display: optional;
 }
 
@@ -9,7 +10,7 @@ html {
 }
 
 body {
-    font-family: 'ZTGatha';
+    font-family: 'Geist Mono';
     max-width: 1920px;
     margin: auto;
     height: 100%;

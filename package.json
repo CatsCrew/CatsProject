@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@primeuix/themes": "^3.0.0",
+    "@scrambl/vue": "^0.1.1",
     "@types/object-hash": "^3.0.6",
     "@vueuse/components": "^14.4.0",
     "@vueuse/core": "^14.4.0",

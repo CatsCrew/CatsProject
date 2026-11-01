@@ -1,6 +1,7 @@
 import { CatImage } from "../cat-image.model";
 import { Equipment } from "../equipment.model";
 import { Story } from "../story.model";
+import { RedactedConfig } from "./redacted-config.model";
 
 export interface Cat {
     creator?: string;
@@ -15,4 +16,5 @@ export interface Cat {
     galleryImagePaths?: CatImage[];
     outdated?: boolean;
     stories?: Story[];
+    redacted?: RedactedConfig;
 }

@@ -4,4 +4,5 @@ export interface Option {
     label?: string;
     value?: string;
     route?: RouteLocationRaw;
+    redact?: boolean;
 }

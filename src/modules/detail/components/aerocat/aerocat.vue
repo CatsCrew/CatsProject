@@ -21,6 +21,9 @@
                                 class="kpi-value">
                                 {{ item.value }}
                             </RouterLink>
+                            <template v-if="item.redact">
+                                <ScrambleText></ScrambleText>
+                            </template>
                             <span v-else class="kpi-value">{{ item.value }}</span>
                         </div>
                         <div
@@ -43,6 +46,7 @@ import BaseCat from '../base-cat/base-cat.vue';
 import { Aerocat } from '@/models/aerocat.model';
 import { RouteNames } from '@/app.routes';
 import { CatType } from '@/models/cat-type.enum';
+import ScrambleText from '@/components/scramble-text/scramble-text.vue';
 
 const { cat, isMobile } = defineProps<{
     cat: Aerocat;
@@ -59,17 +63,19 @@ const kpiItems = computed(() => {
         });
     }
 
-    if (cat.weight) {
+    if (cat.weight || cat.redaction?.weight) {
         kpis.push({
             label: 'Weight',
-            value: cat.weight
+            value: cat.weight,
+            redact: cat.redaction?.weight !== undefined
         });
     }
 
-    if (cat.height) {
+    if (cat.height || cat.redaction?.height) {
         kpis.push({
             label: 'Height',
-            value: cat.height
+            value: cat.height,
+            redact: cat.redaction?.height !== undefined
         });
     }
 
