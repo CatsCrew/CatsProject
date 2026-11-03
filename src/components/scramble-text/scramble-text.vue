@@ -20,12 +20,28 @@ const {
 
 const cycle = ref(0);
 
-function nextText() {
+const BLOCKED = ['KKK', 'NGR', 'NGG', 'FGT', 'FG', 'CNT', 'FCK', 'SHT', 'SS', 'HH', '88'];
+
+function isClean(text: string): boolean {
+    const squashed = text.replace(/[^A-Z0-9]/g, '');
+    return !BLOCKED.some(bad => squashed.includes(bad));
+}
+
+function generateText(): string {
+    return Array.from({length}, () => randomChar('BCDFGHJKLMNPQRSTVWZ26789#%&?', Math.random)).join('');
+}
+
+function nextText(): string {
     if (style === RedactionStyle.Box) {
         return '█'.repeat(length);
     }
 
-    return Array.from({length}, () => randomChar('ABCDEFGHJKLMNPQRSTUVWXYZ0123456789#%&@$!?', Math.random)).join('');
+    let generated = generateText();
+    for (let i = 0; i < 10 && !isClean(generated); i++) {
+        generated = generateText();
+    }
+
+    return generated;
 }
 
 const { ref: scrambleRef, replay } = useScramble({
