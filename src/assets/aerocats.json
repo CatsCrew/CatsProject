@@ -8588,6 +8588,30 @@
         }
       ],
       "outdated": false
+    },
+    {
+      "creator": "Umbreh",
+      "name": "Crucis the Crusader III",
+      "model": "XF8U-3 Crusader III",
+      "description": "Crucis was designed as a high-altitude, high speed interceptor for a program that required a multirole interceptor. It was based off of an earlier naval AEROCAT airframe, nicknamed  'The last gunfighter' due to it's primary armament being guns.\n\nCrucis was designed with an additional rocket booster for speeds of up to mach 3. However, it was never implemented due to budget cuts and limitations with using the earlier airframe. Unfortunately, due to the many, glaring issues with an overly-speciallized airframe and complications with the development of Crucis, it was eventually not chosen for mass-production.",
+      "copilot": "N/A",
+      "faction": "Wing 38",
+      "weight": 14600,
+      "height": 17.88,
+      "galleryImagePaths": [
+        {
+          "path": "Crucis the Crusader III/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Crucis the Crusader III/R1.png"
+        },
+        {
+          "path": "Crucis the Crusader III/R2.png"
+        }
+      ],
+      "outdated": false
     }
   ]
 }

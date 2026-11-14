@@ -3614,6 +3614,27 @@
         }
       ],
       "outdated": false
+    },
+    {
+      "creator": "bezitank",
+      "name": "Eryk the Agbot",
+      "model": "AgXeed Agbot T2 5 series",
+      "description": "Eryk agbot. A fully autonomous cat built for pulling heavy farm equipment and designed to work on the countryside fields without human involvement. Unlike the autonomous tractors that require a farmer to pilot it to a field, refuel, refill seeds, fertilizer and such. Eryk can do everything on its own making him very reliable.\n\nEryk has been purchased by a farmer who he will not name or show. He has been in service since september 2026 and working out in the fields almost everyday, day and night, contributing with the production of food and feeding our world.",
+      "crewmate": "Unknown",
+      "faction": "Poland",
+      "weight": 8000,
+      "height": 4,
+      "galleryImagePaths": [
+        {
+          "path": "Eryk the Agbot/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Eryk the Agbot/R1.png"
+        }
+      ],
+      "outdated": false
     }
   ]
 }
