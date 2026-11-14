@@ -13,12 +13,17 @@
             class="characters"
             :class="{ 'empty': searchResultsEmpty }">
             <CharacterCard
-                v-for="cat in pagedCats"
-                :key="cat.name"
-                :cat="cat"
+                v-for="filteredCat in pagedCats"
+                :key="filteredCat.cat.name"
+                :cat="filteredCat.cat"
                 :hoverable="!isHandheldDevice">
-                <template #title>
-                    Proto <Tag class="proto-tag" :value="cat.model"/>
+                 <template #title>
+                    Proto <Tag class="proto-tag" :value="filteredCat.cat.model"/>
+                </template>
+                <template 
+                    v-if="filteredCat.matchType"
+                    #pills>
+                    <Badge severity="secondary">{{ filteredCat.matchType.toProperCase() }} match</Badge>
                 </template>
             </CharacterCard>
             <CharacterCard
@@ -48,7 +53,10 @@ import { Cat } from '@/models/cat.model';
 import ProtoPlaceholder from '@assets/images/proto_placeholder.png';
 import ProtoWhat from '@assets/images/proto-what.png';
 import { CatType } from '@/models/cat-type.enum';
+import Badge from 'primevue/badge';
 import Tag from 'primevue/tag';
+import { FilteredCat } from '@/models/filtered-cat.model';
+import { MatchType } from '@/models/match-type.enum';
 
 const EmptyState = defineAsyncComponent(() => import('@/components/empty-state/empty-state.vue'));
 
@@ -64,18 +72,34 @@ const placeholderCat = computed<Cat>(() => ({
     thumbnail: ProtoPlaceholder
 }));
 
-const filteredCats = computed(() => {
+const filteredCats = computed<FilteredCat[]>(() => {
     if (!searchTerm.value) {
-        return protos.value;
+        return protos.value.map(cat => {
+            return {
+                cat
+            } as FilteredCat;
+        });
     }
 
     const formattedSearchTerm = searchTerm.value.toLowerCase().trim();
 
-    return protos.value.filter((cat) =>
-        cat?.name?.toLowerCase()?.includes(formattedSearchTerm) ||
-        cat?.model?.toLowerCase()?.includes(formattedSearchTerm) || 
-        cat?.creator?.name?.toLowerCase()?.includes(formattedSearchTerm)
-    );
+    return protos.value.map(cat => {
+        let matchType = MatchType.Unknown;
+        if (cat?.name?.toLowerCase()?.includes(formattedSearchTerm)) {
+            matchType = MatchType.Name;
+        } else if (cat?.model?.toLowerCase()?.includes(formattedSearchTerm)) {
+            matchType = MatchType.Model;
+        } else if (cat?.creator?.name?.toLowerCase()?.includes(formattedSearchTerm)) {
+            matchType = MatchType.Creator;
+        } else if (cat?.faction?.toLowerCase()?.includes(formattedSearchTerm)) {
+            matchType = MatchType.Faction;
+        }
+
+        return {
+            cat,
+            matchType
+        } as FilteredCat;
+    }).filter(filtered => filtered.matchType !== MatchType.Unknown);
 });
 
 const pagedCats = computed(() => filteredCats.value.slice(0, pageRecord.value[CatType.Proto] * PAGE_SIZE));
