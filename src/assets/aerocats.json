@@ -2056,9 +2056,13 @@
       "creator": "DataMosh",
       "name": "Kio the Kiowa",
       "model": "OH-58 Kiowa",
+      "faction": "Monolith",
       "galleryImagePaths": [
         {
           "path": "Kio the Kiowa/T.png"
+        },
+        {
+          "path": "Kio the Kiowa/1.png"
         }
       ],
       "referenceSheetsPath": [
