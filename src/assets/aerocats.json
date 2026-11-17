@@ -8116,7 +8116,11 @@
           "path": "Areion the Blackbird/R1.png"
         }
       ],
-      "outdated": false
+      "outdated": false,
+      "redacted": {
+        "fields": ["weight", "height"],
+        "style": "glyphs"
+      }
     },
     {
       "creator": "CoffeeMartin",
