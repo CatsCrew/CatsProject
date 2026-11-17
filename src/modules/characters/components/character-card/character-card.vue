@@ -87,7 +87,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, useTemplateRef } from 'vue';
+import { onMounted, ref, useTemplateRef, onUnmounted } from 'vue';
 import Card from '@/components/card/card.vue';
 import Skeleton from 'primevue/skeleton';
 import { Cat } from '@/models/cat.model';
@@ -96,13 +96,14 @@ import { RouteNames } from '@/app.routes';
 import { DeferHelper } from '@/helper/defer.helper';
 
 const { cat, hoverable = true, isPlaceholder = false } = defineProps<{
-    cat?: Cat;
+    cat: Cat;
     hoverable?: boolean;
     isPlaceholder?: boolean;
 }>();
 
 const router$ = useRouter();
 const characterCard = useTemplateRef('characterCard');
+let observer: IntersectionObserver | undefined;
 
 const loading = ref(true);
 
@@ -116,7 +117,11 @@ function onImageLoad() {
 
 onMounted(() => {
     if (characterCard.value) {
-        DeferHelper.defer(characterCard.value.$el);
+        observer = DeferHelper.defer(characterCard.value.$el);
     }
 });
+
+onUnmounted(() => {
+    observer?.disconnect();
+})
 </script>

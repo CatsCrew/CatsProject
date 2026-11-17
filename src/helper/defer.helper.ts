@@ -9,7 +9,7 @@ export class DeferHelper {
         threshold: 0
     };
 
-    public static defer(container: HTMLElement) {
+    public static defer(container: HTMLElement): IntersectionObserver | undefined {
         const images = container.querySelectorAll<HTMLImageElement>('img[data-src]');
 
         if ('IntersectionObserver' in window) {
@@ -31,6 +31,8 @@ export class DeferHelper {
             images.forEach((img) => {
                 observer.observe(img);
             });
+
+            return observer;
         } else {
             // Fallback for browsers that do not support IntersectionObserver
             images.forEach((img) => {
