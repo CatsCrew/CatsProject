@@ -3663,6 +3663,27 @@
         }
       ],
       "outdated": false
+    },
+    {
+      "creator": "Auraisbad",
+      "name": "Liu the PLZ-89",
+      "model": "PLZ-89 Type89",
+      "description": "Liu is proud and standoffish. Headstrong and lawful. He is often tasked on Millitary Missions and Civilian Missions acting as an infomation scout. The large pack on his back is often filled with crucial supplies for the rest of the squadron. He will always be the first to help, last to fall.\n\nDuring off duty sessions he's often seen studying or practicing routes overtime. This can result in him burning out and sleeping for several days without wake. In the small time he is dragged away by his colleagues to 'relax' he will anxiously check his radio incase he needs to spring to action. Although it does seem that he has a interest in plastic model building but chooses to hide it from people to maintain his hardworking reputation.",
+      "crewmate": "N/A",
+      "faction": "People's Republic of China",
+      "weight": 200,
+      "height": 2,
+      "galleryImagePaths": [
+        {
+          "path": "Liu the PLZ-89/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Liu the PLZ-89/R1.png"
+        }
+      ],
+      "outdated": false
     }
   ]
 }

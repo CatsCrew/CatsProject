@@ -6767,6 +6767,24 @@
     },
     {
       "creator": "Beanbag",
+      "name": "Zamzam the Iroquois",
+      "model": "UH-1Y Venom/Iroquois",
+      "height": 4.2,
+      "description": "A sociable and energetic rescue helicopter! Though he deeply appreciates and relishes in his role as a rescue machine his usual carefree and careless attitude can disrupt his ability to fulfill his duties.\n\nAlso Bell's boyfriend (Happy Minty face)",
+      "galleryImagePaths": [
+        {
+          "path": "Zamzam the Iroquois/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Zamzam the Iroquois/R1.png"
+        }
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "Beanbag",
       "name": "Bell the Iroquois",
       "model": "UH-1 Iroquois",
       "galleryImagePaths": [
@@ -8077,6 +8095,30 @@
       "outdated": false
     },
     {
+      "creator": "Vix",
+      "name": "Areion the Blackbird",
+      "model": "YF-12A Blackbird",
+      "description": "Areion -- Callsign: Revenant -- is a highly specialized assassin of Wing 38. Though much of their history is shrouded in mystery and uncertainty, what is certain is that they are not a creation of Wing 38, and any other records regarding their production or origin seems to be lost. They are seldom seen on base even to a point some within Wing 38 itself are unaware of their existence due to their covert nature.\n\nScattered accounts on their personality suggest that they are reclusive, stern and cold in speech and have a strong distaste for organics, however much of these accounts remain weak or easily disputed as not much get the opportunity to see them, or lived to tell their encounter for that matter.\n\nIn their line of work, they perform close to perfection in their role. Their airframe allows them to conduct independent research far above for their mission to form a plan. Adhering to a One Shot, One Kill policy, their loadout of three AIM-47As are more than sufficient for their single target eliminations. It is speculated that much of their time is preparing, researching before the final payoff of executing the plan. However, in the event they fail to succeed, rumours of their persistence thereafter is what earnt their callsign, haunting their target down until eliminated.",
+      "copilot": "??????",
+      "faction": "Wing 38",
+      "weight": 0,
+      "height": 0,
+      "galleryImagePaths": [
+        {
+          "path": "Areion the Blackbird/T.png"
+        },
+        {
+          "path": "Areion the Blackbird/1.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Areion the Blackbird/R1.png"
+        }
+      ],
+      "outdated": false
+    },
+    {
       "creator": "CoffeeMartin",
       "name": "PÁL the Fitter-J",
       "model": "SU-22M3 Fitter-J",
@@ -8507,6 +8549,33 @@
       "outdated": false
     },
     {
+      "creator": "Borabacji",
+      "name": "Khay the Lightning II",
+      "model": "F-35A Lightning II",
+      "description": "Personality\nHe is deeply analytical, cold, and calculative in everything he do, with a subtle edge of rudeness. However, underneath this harsh exterior lies a vulnerable soul that is incredibly fragile and easily hurt. Because he doesn't have close friends among the CATS, occasionally show hints of melancholy. When it comes to his missions, he strives for absolute perfection, though it often borders on sheer obsession.\nInstruction Manual: Don't say he doesn't have any friends\n\nPhysical Specs\nWings: Can be fold around his belly\nMissile: Inside of upper front arm\nHands and feet can be swapped out for paw-pad attachments.\nPDG : Lightweight Type",
+      "copilot": "Unknown",
+      "faction": "ROKAF (Republic of Korea Air Force)",
+      "weight": 1200,
+      "height": 3.6,
+      "galleryImagePaths": [
+        {
+          "path": "Khay the Lightning II/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Khay the Lightning II/R1.png"
+        }
+      ],
+      "stories": [
+        {
+          "title": "khay's story",
+          "path": "Khay the Lightning II/stories/khay's story.txt"
+        }
+      ],
+      "outdated": false
+    },
+    {
       "creator": "Feliciano",
       "name": "Caproni the Caproni Ca.3",
       "model": "Caproni Ca.3 trimotor bomber",
@@ -8613,6 +8682,33 @@
         },
         {
           "path": "Crucis the Crusader III/R2.png"
+        }
+      ],
+      "outdated": false
+    },
+    {
+      "creator": "NovaPolaris",
+      "name": "Nova the Ghostrider",
+      "model": "XF8U-3 Crusader III",
+      "description": "Nova is an optimistic and caring Aerocat, who does her best to do a good job with everything. When she was built, she was designed as one of a company's series of prototypes for new CATS military units, and has a high-spec suite of sensors and communication equipment to help her fulfill her role. However, there were questions around the design decisions of one of the higher ranking staff involved in her construction, which were excused under logic and logistics.\n\nWhile her primary role is aerial combat support via her weapons, she does have capabilities for providing elements of recon, electronic warfare, C2, and transport when needed. This is aided by her use of a modular station system.\n\nHer Co-Pilot, Sirius, is kind and extremely supportive, and helps her with operations, especially when she isn't transporting additional crew, but he can also help oversee operations with crew present. He also possesses a HOLO equipped Proto body for use mainly during off-duty times and maintenance.",
+      "copilot": "Sirius",
+      "faction": "Trident",
+      "weight": 33063,
+      "height": 29.8,
+      "galleryImagePaths": [
+        {
+          "path": "Nova the Ghostrider/T.png"
+        }
+      ],
+      "referenceSheetsPath": [
+        {
+          "path": "Nova the Ghostrider/R1.png"
+        },
+        {
+          "path": "Nova the Ghostrider/R2.png"
+        },
+        {
+          "path": "Nova the Ghostrider/R3.png"
         }
       ],
       "outdated": false

@@ -1243,6 +1243,14 @@
         {
             "name": "Umbreh",
             "profileImage": "Umbreh.png"
+        },
+        {
+            "name": "NovaPolaris",
+            "profileImage": "NovaPolaris.png"
+        },
+        {
+            "name": "Auraisbad",
+            "profileImage": "Auraisbad.png"
         }
     ]
 }
