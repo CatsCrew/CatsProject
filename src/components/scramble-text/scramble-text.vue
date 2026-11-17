@@ -8,7 +8,7 @@
 import { RedactionStyle } from '@/models/redaction-style.enum';
 import { useScramble } from '@scrambl/vue';
 import { randomChar } from '@scrambl/core';
-import { ref, watch } from 'vue';
+import { ref, watch, onUnmounted } from 'vue';
 
 const {
     style = RedactionStyle.Numbers,
@@ -21,6 +21,7 @@ const {
 const cycle = ref(0);
 
 const BLOCKED = ['KKK', 'NGR', 'NGG', 'FGT', 'FG', 'CNT', 'FCK', 'SHT', 'SS', 'HH', '88'];
+let cycleTimeout: ReturnType<typeof setTimeout> | undefined;
 
 function isClean(text: string): boolean {
     const squashed = text.replace(/[^A-Z0-9]/g, '');
@@ -52,7 +53,7 @@ const { ref: scrambleRef, replay } = useScramble({
     override: '',
     playOnMount: false,
     onComplete: () => {
-        setTimeout(() => cycle.value++, 2500);
+        cycleTimeout = setTimeout(() => cycle.value++, 2500);
     }
 });
 
@@ -64,4 +65,8 @@ watch(scrambleRef, (node) => {
     node.textContent = nextText();
     replay();
 }, { immediate: true });
+
+onUnmounted(() => {
+    clearTimeout(cycleTimeout);
+});
 </script>

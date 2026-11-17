@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from "vue";
+import { computed, onMounted, ref, watch, onUnmounted } from "vue";
 import { Cat } from "@models/cat.model";
 import Dialog from "primevue/dialog";
 import GalleryCarousel from "../../../../components/gallery-carousel/gallery-carousel.vue";
@@ -76,5 +76,9 @@ onMounted(async () => {
   }
 
   images.value = allImages;
+});
+
+onUnmounted(() => {
+  document.body.classList?.remove('modal-open');
 });
 </script>

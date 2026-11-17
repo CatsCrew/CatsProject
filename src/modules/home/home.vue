@@ -152,7 +152,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted } from 'vue';
+import { computed, onMounted, onUnmounted } from 'vue';
 import Radar from '@/components/radar/radar.vue';
 import Card from '@/components/card/card.vue';
 import Aerocat from '@assets/images/aerocats_logo.avif';
@@ -168,6 +168,8 @@ import { gsap } from 'gsap';
 
 const cat$ = useCatsStore();
 const { cats, aerocats, landcats, protos, discordUrl } = storeToRefs(cat$);
+
+let ctx: gsap.Context | undefined;
 
 const catMetergroupItems = computed<MeterItem[]>(() => {
     const meterItems: MeterItem[] = [];
@@ -197,13 +199,21 @@ const catMetergroupItems = computed<MeterItem[]>(() => {
 
 onMounted(async () => {
     await cat$.initialize();
-    gsap.to('.active-units', {
-        innerText: cats.value?.length,
-        duration: 2,
-        ease: 'power1.out',
-        snap: {
-            innerText: 1
-        }
+
+    ctx = gsap.context(() => {
+        gsap.to('.active-units', {
+            innerText: cats.value?.length,
+            duration: 2,
+            ease: 'power1.out',
+            snap: {
+                innerText: 1
+            }
+        });
     });
 });
+
+onUnmounted(() => {
+    ctx?.revert();
+});
+
 </script>
